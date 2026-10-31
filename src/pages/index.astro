@@ -1,4 +1,75 @@
 ---
 import { localePath } from "../i18n";
-return Astro.redirect(localePath("en"));
+
+const enHref = localePath("en");
+const viHref = localePath("vi");
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="robots" content="noindex,follow" />
+    <title>Toward Less</title>
+    <link rel="alternate" hreflang="en" href={enHref} />
+    <link rel="alternate" hreflang="vi" href={viHref} />
+    <script is:inline define:vars={{ base }}>
+      (() => {
+        const supported = new Set(["en", "vi"]);
+        let preferred = null;
+
+        try {
+          const saved = localStorage.getItem("toward-less-language");
+          if (saved && supported.has(saved)) preferred = saved;
+        } catch {
+          // Storage may be blocked; browser language detection still works.
+        }
+
+        if (!preferred) {
+          const languages =
+            Array.isArray(navigator.languages) && navigator.languages.length
+              ? navigator.languages
+              : [navigator.language];
+
+          for (const language of languages) {
+            const primary = String(language || "").toLowerCase().split("-")[0];
+            if (supported.has(primary)) {
+              preferred = primary;
+              break;
+            }
+          }
+        }
+
+        window.location.replace(`${base}/${preferred || "en"}/`);
+      })();
+    </script>
+    <style>
+      body {
+        margin: 0;
+        font: 16px/1.6 system-ui, sans-serif;
+        background: #f7f5ef;
+        color: #252a25;
+      }
+      main {
+        max-width: 36rem;
+        margin: 15vh auto;
+        padding: 1.5rem;
+      }
+      a {
+        color: #355e46;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Toward Less</h1>
+      <p>
+        <a href={enHref}>English</a>
+        <span aria-hidden="true"> · </span>
+        <a href={viHref} lang="vi">Tiếng Việt</a>
+      </p>
+    </main>
+  </body>
+</html>
