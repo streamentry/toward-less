@@ -3,6 +3,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from datetime import timezone, timedelta
 from email.utils import parsedate_to_datetime
+from urllib.parse import urlsplit
 import json
 import xml.etree.ElementTree as ET
 
@@ -54,8 +55,9 @@ for slug, date, author, author_type, source in expected:
     assert data["isBasedOn"] == source, slug
     assert source in text, f"Missing source link: {slug}"
     assert not (ROOT / "en/posts" / slug / "index.html").exists(), f"Invented English translation: {slug}"
-    item = next(item for item in feed.findall("./channel/item") if f"/vi/posts/{slug}/" in item.findtext("link", ""))
-    published = parsedate_to_datetime(item.findtext("pubDate")).astimezone(timezone(timedelta(hours=7)))
+    matches = [item for item in feed.findall("./channel/item") if urlsplit(item.findtext("link", "")).path.rstrip("/").endswith(f"/vi/posts/{slug}")]
+    assert len(matches) == 1, f"Expected exactly one RSS item for {slug}, got {len(matches)}"
+    published = parsedate_to_datetime(matches[0].findtext("pubDate")).astimezone(timezone(timedelta(hours=7)))
     assert published.date().isoformat() == date, f"Original date lost: {slug}"
 
 child_post = (ROOT / "vi/posts/thoi-gian-ben-con-truoc-tuoi-12/index.html").read_text(encoding="utf-8")

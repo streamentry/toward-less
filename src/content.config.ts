@@ -10,7 +10,7 @@ const posts = defineCollection({
     description: z.string().min(1),
     author: z.string().min(1).default(AUTHOR),
     authorType: z.enum(["Person", "Organization"]).default("Person"),
-    sourceURL: z.string().url().optional(),
+    sourceURL: z.url().optional(),
     lang: z.enum(["en", "vi"]),
     slug: z
       .string()
