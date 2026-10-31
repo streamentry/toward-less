@@ -5,59 +5,63 @@ export function getStaticPaths() {
   return languages.map((lang) => ({ params: { lang } }));
 }
 const lang = Astro.params.lang as Lang;
+const vi = lang === "vi";
 ---
 
 <Layout lang={lang} title={ui[lang].styleGuide} path="style-guide/" noindex>
   <header class="page-heading">
-    <p class="eyebrow">Toward Less · Design system</p><h1>{ui[lang].styleGuide}</h1><p>
-      {ui[lang].styleDescription}
-    </p>
+    <p class="eyebrow">Toward Less</p>
+    <h1>{ui[lang].styleGuide}</h1>
+    <p>{ui[lang].styleDescription}</p>
   </header>
   <div class="prose">
-    <h2>Quiet, not empty. Readable, not ornamental.</h2>
+    <h2>{vi ? "Kiểu chữ" : "Typography"}</h2>
     <p>
-      This page is a design reference, not a blog post. It is excluded from search indexing and the
-      sitemap.
+      {vi
+        ? "Trang này dùng để kiểm tra giao diện, không phải bài viết. Nội dung không xuất hiện trong kết quả tìm kiếm hay sơ đồ trang."
+        : "This page is for checking the design. It is not a blog post and is excluded from search and the sitemap."}
     </p>
-    <h2 lang="vi">Bớt chấp thủ. Thấy rõ hơn.</h2>
+    <h3 lang="vi">Kiểm tra dấu tiếng Việt</h3>
     <p lang="vi">
-      Trách nhiệm với gia đình, sự tử tế trong công việc và khả năng nhìn rõ thực tại. Chữ tiếng
-      Việt cần đủ khoảng thở: ă â ê ô ơ ư đ — Ắ Ằ Ẳ Ẵ Ặ Ấ Ầ Ẩ Ẫ Ậ Ế Ề Ể Ễ Ệ Ố Ồ Ổ Ỗ Ộ Ớ Ờ Ở Ỡ Ợ Ứ Ừ
-      Ử Ữ Ự.
+      Đọc thử đoạn văn này trên điện thoại và máy tính để kiểm tra cỡ chữ, khoảng cách dòng và
+      dấu tiếng Việt: ă â ê ô ơ ư đ — Ắ Ằ Ẳ Ẵ Ặ Ấ Ầ Ẩ Ẫ Ậ Ế Ề Ể Ễ Ệ Ố Ồ Ổ Ỗ Ộ Ớ Ờ Ở Ỡ Ợ Ứ Ừ Ử Ữ Ự.
     </p>
     <p>
-      <strong>Emphasis</strong>, <em>reflection</em>, <a href="#code-sample">a useful link</a>, and
-      Pāli: sati, paññā, dukkha, anattā.
+      <strong>{vi ? "Chữ đậm" : "Bold text"}</strong>,{" "}
+      <em>{vi ? "chữ nghiêng" : "italic text"}</em>,{" "}
+      <a href="#code-sample">{vi ? "liên kết" : "a link"}</a>,{" "}
+      {vi ? "và chữ Pāli" : "and Pāli text"}: sati, paññā, dukkha, anattā.
     </p>
     <blockquote>
       <p>
-        Less unnecessary complexity, distraction, and clinging. Not less responsibility, care, or
-        useful work.
+        {vi
+          ? "Đây là đoạn mẫu để kiểm tra cách trình bày trích dẫn. Khi trích dẫn trong bài viết, cần ghi rõ nguồn."
+          : "This is sample text for testing blockquote styling. Include the source when quoting someone in an article."}
       </p>
     </blockquote>
+    <h2>{vi ? "Màu sắc" : "Colours"}</h2>
     <div class="swatches">
-      <div class="swatch" style="background:var(--paper)">Paper · --paper</div><div
-        class="swatch"
-        style="background:var(--surface)"
-      >
-        Surface · --surface
-      </div><div class="swatch" style="background:var(--accent);color:var(--paper)">
-        Accent · --accent
-      </div>
+      <div class="swatch" style="background:var(--paper)">Paper · --paper</div>
+      <div class="swatch" style="background:var(--surface)">Surface · --surface</div>
+      <div class="swatch" style="background:var(--accent);color:var(--paper)">Accent · --accent</div>
     </div>
-    <h2 id="code-sample">Technical writing</h2>
-    <p>Inline <code>translationKey</code> and code blocks remain legible.</p>
+    <h2 id="code-sample">{vi ? "Mã nguồn" : "Code"}</h2>
+    <p>
+      {vi ? "Kiểm tra mã trong dòng như" : "Check inline code such as"}{" "}
+      <code>translationKey</code>{vi ? " và khối mã bên dưới." : " and the block below."}
+    </p>
     <pre
       tabindex="0"
-      aria-label="Code example"><code>{'const direction = "toward less";\nconst practice = () => observeReality();\n// A long line should scroll inside the code block, never make the entire page overflow. '.repeat(2)}</code></pre>
+      aria-label={vi ? "Mã minh họa" : "Code example"}
+    ><code>{'const languages = ["en", "vi"];\nconst defaultLanguage = languages[0];\n// This intentionally long sample line tests horizontal scrolling inside a code block without widening the page. '.repeat(2)}</code></pre>
+    <h2>{vi ? "Bảng" : "Tables"}</h2>
     <table>
-      <thead><tr><th>Element</th><th>Decision</th></tr></thead><tbody
-        ><tr><td>Body</td><td>Noto Serif, generous line height</td></tr><tr
-          ><td>Interface</td><td>Be Vietnam Pro, sentence case</td></tr
-        ><tr><td>Motion</td><td>None required; reduced motion respected</td></tr></tbody>
+      <thead><tr><th>{vi ? "Thành phần" : "Element"}</th><th>{vi ? "Thiết lập" : "Setting"}</th></tr></thead>
+      <tbody>
+        <tr><td>{vi ? "Nội dung" : "Body"}</td><td>Noto Serif</td></tr>
+        <tr><td>{vi ? "Giao diện" : "Interface"}</td><td>Be Vietnam Pro</td></tr>
+        <tr><td>{vi ? "Bố cục" : "Layout"}</td><td>{vi ? "Một cột" : "Single column"}</td></tr>
+      </tbody>
     </table>
-    <h3>A smaller heading</h3><p>
-      One reading column. No autoplay, popups, tracking, or social counters.
-    </p>
   </div>
 </Layout>
