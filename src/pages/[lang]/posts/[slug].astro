@@ -3,6 +3,7 @@ import { render } from "astro:content";
 import Layout from "../../../layouts/Layout.astro";
 import { getPosts, postPath, dateLabel, readingMinutes, type Post } from "../../../lib/posts";
 import { ui, localePath, otherLanguage, tagLabel } from "../../../i18n";
+import { AUTHOR } from "../../../site";
 export async function getStaticPaths() {
   const posts = await getPosts();
   return posts.map((post) => ({
@@ -30,10 +31,14 @@ const structuredData = {
   datePublished: post.data.pubDatetime.toISOString(),
   dateModified: (post.data.modDatetime ?? post.data.pubDatetime).toISOString(),
   author: {
-    "@type": "Person",
-    name: "Chánh Niệm",
-    url: new URL(localePath(lang, "about/"), Astro.site).href,
+    "@type": post.data.authorType,
+    name: post.data.author,
+    ...(post.data.author === AUTHOR
+      ? { url: new URL(localePath(lang, "about/"), Astro.site).href }
+      : {}),
   },
+  publisher: { "@type": "Person", name: AUTHOR },
+  ...(post.data.sourceURL ? { isBasedOn: post.data.sourceURL } : {}),
   mainEntityOfPage: canonical,
 };
 ---
@@ -42,6 +47,7 @@ const structuredData = {
   lang={lang}
   title={post.data.title}
   description={post.data.description}
+  author={post.data.author}
   section="posts"
   alternates={alternates}
   alternateHref={translated ? postPath(translated) : localePath(otherLanguage(lang))}
@@ -68,7 +74,7 @@ const structuredData = {
       <h1 data-pagefind-meta="title">{post.data.title}</h1>
       <p class="article-deck" data-pagefind-meta="description">{post.data.description}</p>
       <div class="post-meta" data-pagefind-ignore>
-        <span>Chánh Niệm</span><span aria-hidden="true">·</span><time
+        <span>{post.data.author}</span><span aria-hidden="true">·</span><time
           datetime={post.data.pubDatetime.toISOString()}
           >{dateLabel(post.data.pubDatetime, lang)}</time
         ><span aria-hidden="true">·</span><span>{readingMinutes(post)} {t.minute}</span>

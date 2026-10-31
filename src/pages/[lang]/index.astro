@@ -3,6 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import PostCard from "../../components/PostCard.astro";
 import { getPosts } from "../../lib/posts";
 import { languages, ui, localePath, type Lang } from "../../i18n";
+import { AUTHOR } from "../../site";
 export function getStaticPaths() {
   return languages.map((lang) => ({ params: { lang } }));
 }
@@ -16,7 +17,7 @@ const posts = await getPosts(lang);
     <p class="eyebrow">{t.notebook}</p>
     <h1><span>{t.lineOne}</span><span>{t.lineTwo}</span></h1>
     <p class="intro">{t.intro}</p>
-    <p class="byline">{t.by} <a href={localePath(lang, "about/")}>Chánh Niệm</a></p>
+    <p class="byline">{t.by} <a href={localePath(lang, "about/")}>{AUTHOR}</a></p>
     <div class="subject-line">{Object.values(t.topics).map((topic) => <span>{topic}</span>)}</div>
   </header>
   <section aria-labelledby="recent-heading">

@@ -7,7 +7,9 @@ A personal notebook with the clarity of an engineering document and the calm of 
 **Name:** Toward Less  
 **English:** Less clinging. Clearer seeing.  
 **Tiếng Việt:** Bớt chấp thủ. Thấy rõ hơn.  
-**Author:** Chánh Niệm
+**Author:** C.S Chánh Niệm
+
+The public author name is defined in `src/site.ts`. Original posts use that default; translations and archived excerpts retain their source authors.
 
 ## Principles
 

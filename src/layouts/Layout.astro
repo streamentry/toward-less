@@ -3,6 +3,7 @@ import { Font } from "astro:assets";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { ui, languages, localePath, withBase, otherLanguage, type Lang } from "../i18n";
+import { AUTHOR } from "../site";
 import "../styles/global.css";
 interface Alternate {
   lang: Lang;
@@ -12,6 +13,7 @@ interface Props {
   lang: Lang;
   title?: string;
   description?: string;
+  author?: string;
   path?: string;
   section?: string;
   alternates?: Alternate[];
@@ -23,12 +25,13 @@ const {
   lang,
   title,
   description = ui[Astro.props.lang].intro,
+  author = AUTHOR,
   path = "",
   section,
   noindex = false,
   article = false,
 } = Astro.props;
-const pageTitle = title ? `${title} — Toward Less` : "Toward Less — Chánh Niệm";
+const pageTitle = title ? `${title} — Toward Less` : `Toward Less — ${AUTHOR}`;
 // Astro emits the special error page as 404.html even with trailingSlash: always.
 const canonicalPath = Astro.url.pathname.endsWith("/404/")
   ? withBase("404.html")
@@ -53,7 +56,7 @@ const ogImage = absolute(withBase("og.png"));
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
-    <meta name="author" content="Chánh Niệm" />
+    <meta name="author" content={author} />
     {noindex && <meta name="robots" content="noindex,follow" />}
     <link rel="canonical" href={canonical} />
     {
