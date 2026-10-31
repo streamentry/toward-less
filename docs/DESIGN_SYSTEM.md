@@ -50,7 +50,7 @@ A restrained masthead; single-column hero; recent-writing list; article pages wi
 
 ## Language behaviour
 
-English lives under `/en/`, Vietnamese under `/vi/`, after the configured base path. The root redirects to English. No geolocation, browser-language guessing, flags, or automatic machine translation.
+English lives under `/en/`, Vietnamese under `/vi/`, after the configured base path. At the root only, an explicitly saved language choice wins; otherwise the site selects the first supported language in the browser’s preference order and falls back to English. Direct `/en/…` and `/vi/…` URLs are never auto-redirected. No IP geolocation, flags, or automatic machine translation.
 
 Article translations share `translationKey`. Each language can have a natural, stable ASCII slug. The header switches to the exact translated article when one is published; otherwise it links to the other language's home page. A missing translation is never silently represented as translated content. Hreflang links only describe pages that exist. Search indexes and RSS feeds stay separate by language. Use `Intl.DateTimeFormat` with Asia/Ho_Chi_Minh for visible dates.
 

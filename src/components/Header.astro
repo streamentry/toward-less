@@ -54,3 +54,19 @@ const t = ui[lang];
     </div>
   </div>
 </header>
+
+
+<script is:inline>
+  for (const link of document.querySelectorAll("[data-language-switch]")) {
+    link.addEventListener("click", () => {
+      const language = link.getAttribute("hreflang");
+      if (language !== "en" && language !== "vi") return;
+
+      try {
+        localStorage.setItem("toward-less-language", language);
+      } catch {
+        // Language switching must still work when storage is unavailable.
+      }
+    });
+  }
+</script>
