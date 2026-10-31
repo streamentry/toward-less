@@ -8,7 +8,9 @@ const posts = defineCollection({
     title: z.string().min(1),
     description: z.string().min(1),
     lang: z.enum(["en", "vi"]),
-    slug: z.string().regex(/^[a-z][a-z0-9-]*$/, "Use a lowercase ASCII slug starting with a letter"),
+    slug: z
+      .string()
+      .regex(/^[a-z][a-z0-9-]*$/, "Use a lowercase ASCII slug starting with a letter"),
     translationKey: z.string().min(1),
     pubDatetime: z.coerce.date(),
     modDatetime: z.coerce.date().optional(),

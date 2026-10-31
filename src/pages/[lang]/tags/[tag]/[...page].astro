@@ -6,9 +6,14 @@ import { getPosts, type Post } from "../../../../lib/posts";
 import { languages, ui, localePath, otherLanguage, tagLabel, type Lang } from "../../../../i18n";
 export const getStaticPaths = (async ({ paginate }) => {
   const posts = await getPosts();
-  return languages.flatMap(lang => {
-    const localPosts = posts.filter(post => post.data.lang === lang);
-    return [...new Set(localPosts.flatMap(post => post.data.tags))].flatMap(tag => paginate(localPosts.filter(post => post.data.tags.includes(tag)), { params: { lang, tag }, pageSize: 8 }));
+  return languages.flatMap((lang) => {
+    const localPosts = posts.filter((post) => post.data.lang === lang);
+    return [...new Set(localPosts.flatMap((post) => post.data.tags))].flatMap((tag) =>
+      paginate(
+        localPosts.filter((post) => post.data.tags.includes(tag)),
+        { params: { lang, tag }, pageSize: 8 },
+      ),
+    );
   });
 }) satisfies GetStaticPaths;
 const lang = Astro.params.lang as Lang;
@@ -17,12 +22,47 @@ const { page } = Astro.props as { page: Page<Post> };
 const t = ui[lang];
 const path = `tags/${tag}/${page.currentPage === 1 ? "" : `${page.currentPage}/`}`;
 const other = otherLanguage(lang);
-const otherCount = (await getPosts(other)).filter(post => post.data.tags.includes(tag)).length;
+const otherCount = (await getPosts(other)).filter((post) => post.data.tags.includes(tag)).length;
 const alternates = [{ lang, href: localePath(lang, path) }];
-if (otherCount > (page.currentPage - 1) * 8) alternates.push({ lang: other, href: localePath(other, path) });
+if (otherCount > (page.currentPage - 1) * 8)
+  alternates.push({ lang: other, href: localePath(other, path) });
 ---
-<Layout lang={lang} title={`${tagLabel(tag, lang)}${page.currentPage > 1 ? ` · ${page.currentPage}` : ""}`} path={path} section="posts" alternates={alternates} alternateHref={alternates.find(item => item.lang === other)?.href ?? localePath(other, "tags/")}>
-  <header class="page-heading"><p class="eyebrow"><a href={localePath(lang, "tags/")}>{t.topicsTitle}</a></p><h1>{tagLabel(tag, lang)}</h1></header>
-  <ul class="post-list">{page.data.map(post => <PostCard post={post} />)}</ul>
-  {page.lastPage > 1 && <nav class="pagination" aria-label={lang === "vi" ? "Phân trang" : "Pagination"}>{page.url.prev ? <a rel="prev" href={page.url.prev}>← {t.previous}</a> : <span />}<span class="page-count">{page.currentPage} / {page.lastPage}</span>{page.url.next ? <a rel="next" href={page.url.next}>{t.next} →</a> : <span />}</nav>}
+
+<Layout
+  lang={lang}
+  title={`${tagLabel(tag, lang)}${page.currentPage > 1 ? ` · ${page.currentPage}` : ""}`}
+  path={path}
+  section="posts"
+  alternates={alternates}
+  alternateHref={alternates.find((item) => item.lang === other)?.href ?? localePath(other, "tags/")}
+>
+  <header class="page-heading">
+    <p class="eyebrow"><a href={localePath(lang, "tags/")}>{t.topicsTitle}</a></p><h1>
+      {tagLabel(tag, lang)}
+    </h1>
+  </header>
+  <ul class="post-list">{page.data.map((post) => <PostCard post={post} />)}</ul>
+  {
+    page.lastPage > 1 && (
+      <nav class="pagination" aria-label={lang === "vi" ? "Phân trang" : "Pagination"}>
+        {page.url.prev ? (
+          <a rel="prev" href={page.url.prev}>
+            ← {t.previous}
+          </a>
+        ) : (
+          <span />
+        )}
+        <span class="page-count">
+          {page.currentPage} / {page.lastPage}
+        </span>
+        {page.url.next ? (
+          <a rel="next" href={page.url.next}>
+            {t.next} →
+          </a>
+        ) : (
+          <span />
+        )}
+      </nav>
+    )
+  }
 </Layout>

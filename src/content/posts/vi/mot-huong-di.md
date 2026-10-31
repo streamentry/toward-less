@@ -9,6 +9,7 @@ featured: true
 draft: false
 tags: [life, practice]
 ---
+
 Toward Less là nơi ghi lại những suy nghĩ về công nghệ, gia đình và thực hành Phật pháp.
 
 Tên gọi này chỉ một hướng đi, không phải lời khẳng định đã đến nơi.

@@ -19,14 +19,18 @@ if (toggle) {
   toggle.hidden = false;
   toggle.addEventListener("click", () => {
     preference = preference === "auto" ? "light" : preference === "light" ? "dark" : "auto";
-    try { localStorage.setItem("toward-less-theme", preference); } catch {}
+    try {
+      localStorage.setItem("toward-less-theme", preference);
+    } catch {}
     apply();
   });
 }
 media.addEventListener("change", apply);
-window.addEventListener("storage", event => {
+window.addEventListener("storage", (event) => {
   if (event.key !== "toward-less-theme") return;
-  preference = ["light", "dark"].includes(event.newValue ?? "") ? event.newValue as Preference : "auto";
+  preference = ["light", "dark"].includes(event.newValue ?? "")
+    ? (event.newValue as Preference)
+    : "auto";
   apply();
 });
 apply();

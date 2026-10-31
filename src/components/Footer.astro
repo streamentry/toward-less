@@ -3,7 +3,16 @@ import { ui, localePath, type Lang } from "../i18n";
 const { lang } = Astro.props as { lang: Lang };
 const t = ui[lang];
 ---
+
 <footer class="site-footer shell" data-pagefind-ignore>
   <p>{t.footer}</p>
-  <div class="footer-bottom"><span>© {new Date().getFullYear()} Chánh Niệm</span><nav aria-label={lang === "vi" ? "Liên kết cuối trang" : "Footer links"}><a href={localePath(lang, "rss.xml")}>{t.rss}</a><a href="https://github.com/streamentry/toward-less">{t.source}</a><a href="https://github.com/satnaing/astro-paper">AstroPaper</a></nav></div>
+  <div class="footer-bottom">
+    <span>© {new Date().getFullYear()} Chánh Niệm</span><nav
+      aria-label={lang === "vi" ? "Liên kết cuối trang" : "Footer links"}
+    >
+      <a href={localePath(lang, "rss.xml")}>{t.rss}</a><a
+        href="https://github.com/streamentry/toward-less">{t.source}</a
+      ><a href="https://github.com/satnaing/astro-paper">AstroPaper</a>
+    </nav>
+  </div>
 </footer>

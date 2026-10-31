@@ -1,22 +1,54 @@
 ---
 import Mark from "./Mark.astro";
 import { ui, localePath, otherLanguage, type Lang } from "../i18n";
-interface Props { lang: Lang; section?: string; alternateHref?: string; }
+interface Props {
+  lang: Lang;
+  section?: string;
+  alternateHref?: string;
+}
 const { lang, section = "", alternateHref = localePath(otherLanguage(lang)) } = Astro.props;
 const t = ui[lang];
 ---
+
 <header class="masthead" data-pagefind-ignore>
   <div class="masthead-inner">
-    <a class="brand" href={localePath(lang)} aria-label={`Toward Less · ${t.home}`}><Mark /><span>Toward Less</span></a>
+    <a class="brand" href={localePath(lang)} aria-label={`Toward Less · ${t.home}`}
+      ><Mark /><span>Toward Less</span></a
+    >
     <nav class="main-nav" aria-label={t.nav}>
-      <a href={localePath(lang, "posts/")} aria-current={section === "posts" ? "page" : undefined}>{t.articles}</a>
-      <a href={localePath(lang, "about/")} aria-current={section === "about" ? "page" : undefined}>{t.about}</a>
-      <a href={localePath(lang, "search/")} aria-current={section === "search" ? "page" : undefined}>{t.search}</a>
+      <a href={localePath(lang, "posts/")} aria-current={section === "posts" ? "page" : undefined}
+        >{t.articles}</a
+      >
+      <a href={localePath(lang, "about/")} aria-current={section === "about" ? "page" : undefined}
+        >{t.about}</a
+      >
+      <a href={localePath(lang, "search/")} aria-current={section === "search" ? "page" : undefined}
+        >{t.search}</a
+      >
     </nav>
     <div class="header-tools">
-      <a class="language-switch" data-language-switch href={alternateHref} lang={otherLanguage(lang)} hreflang={otherLanguage(lang)}>{t.other}</a>
-      <button id="theme-toggle" class="theme-toggle" type="button" hidden aria-label={t.theme} data-label={t.theme} data-auto={t.themeAuto} data-light={t.themeLight} data-dark={t.themeDark}>
-        <svg width="17" height="17" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 3a7 7 0 0 1 0 14Z" fill="currentColor"/></svg>
+      <a
+        class="language-switch"
+        data-language-switch
+        href={alternateHref}
+        lang={otherLanguage(lang)}
+        hreflang={otherLanguage(lang)}>{t.other}</a
+      >
+      <button
+        id="theme-toggle"
+        class="theme-toggle"
+        type="button"
+        hidden
+        aria-label={t.theme}
+        data-label={t.theme}
+        data-auto={t.themeAuto}
+        data-light={t.themeLight}
+        data-dark={t.themeDark}
+      >
+        <svg width="17" height="17" viewBox="0 0 20 20" aria-hidden="true"
+          ><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="1.5"
+          ></circle><path d="M10 3a7 7 0 0 1 0 14Z" fill="currentColor"></path></svg
+        >
         <span id="theme-label" class="sr-only">{t.themeAuto}</span>
       </button>
     </div>

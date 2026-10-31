@@ -9,6 +9,7 @@ featured: true
 draft: false
 tags: [life, practice]
 ---
+
 Toward Less is a place for notes on technology, family, and Buddhist practice.
 
 The name is a direction, not a claim to have arrived.

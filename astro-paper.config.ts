@@ -3,7 +3,8 @@ export default {
   site: {
     url: process.env.SITE_URL ?? "https://streamentry.github.io",
     title: "Toward Less",
-    description: "Less clinging. Clearer seeing. Notes on technology, family, and Buddhist practice.",
+    description:
+      "Less clinging. Clearer seeing. Notes on technology, family, and Buddhist practice.",
     author: "Chánh Niệm",
     timezone: "Asia/Ho_Chi_Minh",
   },

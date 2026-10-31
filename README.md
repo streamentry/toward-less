@@ -51,15 +51,15 @@ See [the writing guide](docs/WRITING.md) and [design system](docs/DESIGN_SYSTEM.
 
 ## Important files
 
-| File | Purpose |
-| --- | --- |
-| `astro-paper.config.ts` | Site identity, domain and GitHub Pages base path |
-| `src/i18n.ts` | All interface labels, translated topic names and URL helpers |
-| `src/styles/global.css` | Design tokens, typography, responsive layout and theme |
-| `src/content.config.ts` | Article schema |
-| `src/lib/posts.ts` | Publication rules, translation/slug validation and sorting |
-| `src/pages/[lang]/` | English and Vietnamese routes |
-| `.github/workflows/pages.yml` | Build, checks and GitHub Pages deployment |
+| File                          | Purpose                                                      |
+| ----------------------------- | ------------------------------------------------------------ |
+| `astro-paper.config.ts`       | Site identity, domain and GitHub Pages base path             |
+| `src/i18n.ts`                 | All interface labels, translated topic names and URL helpers |
+| `src/styles/global.css`       | Design tokens, typography, responsive layout and theme       |
+| `src/content.config.ts`       | Article schema                                               |
+| `src/lib/posts.ts`            | Publication rules, translation/slug validation and sorting   |
+| `src/pages/[lang]/`           | English and Vietnamese routes                                |
+| `.github/workflows/pages.yml` | Build, checks and GitHub Pages deployment                    |
 
 For a custom domain, set `site.url` to that domain and `base` to `/` in `astro-paper.config.ts`, configure DNS and GitHub Pages, then rebuild. Do not remove `/toward-less` while hosting at the repository URL.
 

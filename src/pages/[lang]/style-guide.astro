@@ -1,23 +1,63 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import { languages, ui, type Lang } from "../../i18n";
-export function getStaticPaths() { return languages.map(lang => ({ params: { lang } })); }
+export function getStaticPaths() {
+  return languages.map((lang) => ({ params: { lang } }));
+}
 const lang = Astro.params.lang as Lang;
 ---
+
 <Layout lang={lang} title={ui[lang].styleGuide} path="style-guide/" noindex>
-  <header class="page-heading"><p class="eyebrow">Toward Less · Design system</p><h1>{ui[lang].styleGuide}</h1><p>{ui[lang].styleDescription}</p></header>
+  <header class="page-heading">
+    <p class="eyebrow">Toward Less · Design system</p><h1>{ui[lang].styleGuide}</h1><p>
+      {ui[lang].styleDescription}
+    </p>
+  </header>
   <div class="prose">
     <h2>Quiet, not empty. Readable, not ornamental.</h2>
-    <p>This page is a design reference, not a blog post. It is excluded from search indexing and the sitemap.</p>
+    <p>
+      This page is a design reference, not a blog post. It is excluded from search indexing and the
+      sitemap.
+    </p>
     <h2 lang="vi">Bớt chấp thủ. Thấy rõ hơn.</h2>
-    <p lang="vi">Trách nhiệm với gia đình, sự tử tế trong công việc và khả năng nhìn rõ thực tại. Chữ tiếng Việt cần đủ khoảng thở: ă â ê ô ơ ư đ — Ắ Ằ Ẳ Ẵ Ặ Ấ Ầ Ẩ Ẫ Ậ Ế Ề Ể Ễ Ệ Ố Ồ Ổ Ỗ Ộ Ớ Ờ Ở Ỡ Ợ Ứ Ừ Ử Ữ Ự.</p>
-    <p><strong>Emphasis</strong>, <em>reflection</em>, <a href="#code-sample">a useful link</a>, and Pāli: sati, paññā, dukkha, anattā.</p>
-    <blockquote><p>Less unnecessary complexity, distraction, and clinging. Not less responsibility, care, or useful work.</p></blockquote>
-    <div class="swatches"><div class="swatch" style="background:var(--paper)">Paper · --paper</div><div class="swatch" style="background:var(--surface)">Surface · --surface</div><div class="swatch" style="background:var(--accent);color:var(--paper)">Accent · --accent</div></div>
+    <p lang="vi">
+      Trách nhiệm với gia đình, sự tử tế trong công việc và khả năng nhìn rõ thực tại. Chữ tiếng
+      Việt cần đủ khoảng thở: ă â ê ô ơ ư đ — Ắ Ằ Ẳ Ẵ Ặ Ấ Ầ Ẩ Ẫ Ậ Ế Ề Ể Ễ Ệ Ố Ồ Ổ Ỗ Ộ Ớ Ờ Ở Ỡ Ợ Ứ Ừ
+      Ử Ữ Ự.
+    </p>
+    <p>
+      <strong>Emphasis</strong>, <em>reflection</em>, <a href="#code-sample">a useful link</a>, and
+      Pāli: sati, paññā, dukkha, anattā.
+    </p>
+    <blockquote>
+      <p>
+        Less unnecessary complexity, distraction, and clinging. Not less responsibility, care, or
+        useful work.
+      </p>
+    </blockquote>
+    <div class="swatches">
+      <div class="swatch" style="background:var(--paper)">Paper · --paper</div><div
+        class="swatch"
+        style="background:var(--surface)"
+      >
+        Surface · --surface
+      </div><div class="swatch" style="background:var(--accent);color:var(--paper)">
+        Accent · --accent
+      </div>
+    </div>
     <h2 id="code-sample">Technical writing</h2>
     <p>Inline <code>translationKey</code> and code blocks remain legible.</p>
-    <pre tabindex="0" aria-label="Code example"><code>{'const direction = "toward less";\nconst practice = () => observeReality();\n// A long line should scroll inside the code block, never make the entire page overflow. '.repeat(2)}</code></pre>
-    <table><thead><tr><th>Element</th><th>Decision</th></tr></thead><tbody><tr><td>Body</td><td>Noto Serif, generous line height</td></tr><tr><td>Interface</td><td>Be Vietnam Pro, sentence case</td></tr><tr><td>Motion</td><td>None required; reduced motion respected</td></tr></tbody></table>
-    <h3>A smaller heading</h3><p>One reading column. No autoplay, popups, tracking, or social counters.</p>
+    <pre
+      tabindex="0"
+      aria-label="Code example"><code>{'const direction = "toward less";\nconst practice = () => observeReality();\n// A long line should scroll inside the code block, never make the entire page overflow. '.repeat(2)}</code></pre>
+    <table>
+      <thead><tr><th>Element</th><th>Decision</th></tr></thead><tbody
+        ><tr><td>Body</td><td>Noto Serif, generous line height</td></tr><tr
+          ><td>Interface</td><td>Be Vietnam Pro, sentence case</td></tr
+        ><tr><td>Motion</td><td>None required; reduced motion respected</td></tr></tbody>
+    </table>
+    <h3>A smaller heading</h3><p>
+      One reading column. No autoplay, popups, tracking, or social counters.
+    </p>
   </div>
 </Layout>

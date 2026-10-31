@@ -2,8 +2,17 @@
 import Layout from "../layouts/Layout.astro";
 import { localePath } from "../i18n";
 ---
+
 <Layout lang="en" title="Page not found" noindex>
-  <header class="page-heading"><p class="eyebrow">404</p><h1>This page is not here.</h1><p>The address may have changed. Return to the notebook and start again.</p></header>
+  <header class="page-heading">
+    <p class="eyebrow">404</p><h1>This page is not here.</h1><p>
+      The address may have changed. Return to the notebook and start again.
+    </p>
+  </header>
   <p><a href={localePath("en")}>Return home</a></p>
-  <section lang="vi"><h2>Không tìm thấy trang này.</h2><p>Địa chỉ có thể đã thay đổi. <a href={localePath("vi")}>Trở về trang chủ tiếng Việt.</a></p></section>
+  <section lang="vi">
+    <h2>Không tìm thấy trang này.</h2><p>
+      Địa chỉ có thể đã thay đổi. <a href={localePath("vi")}>Trở về trang chủ tiếng Việt.</a>
+    </p>
+  </section>
 </Layout>
