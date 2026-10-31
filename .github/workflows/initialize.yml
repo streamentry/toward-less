@@ -1,0 +1,32 @@
+name: Initialize AstroPaper
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/initialize.yml
+
+permissions:
+  contents: write
+
+jobs:
+  initialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Import the pinned upstream source once
+        shell: bash
+        run: |
+          set -euo pipefail
+          if test -f package.json; then
+            echo "Already initialized; refusing to overwrite the site."
+            exit 0
+          fi
+          git clone https://github.com/satnaing/astro-paper.git "$RUNNER_TEMP/astro-paper"
+          git -C "$RUNNER_TEMP/astro-paper" checkout 1497f407928a06f1f276252a5e6e3e8afe2c1efd
+          rsync -a --exclude='.git' --exclude='.github' --exclude='.vscode' --exclude='README.md' "$RUNNER_TEMP/astro-paper/" ./
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m "chore: import AstroPaper at 1497f40 (MIT)"
+          git push origin HEAD:main
