@@ -18,19 +18,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
+      - uses: pnpm/action-setup@v6
         with:
           version: 10.11.0
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 24
           cache: pnpm
       - name: Install the locked dependencies
         run: pnpm install --frozen-lockfile
+      - name: Verify MDX rendering in isolated output
+        run: node scripts/check-mdx.mjs
       - name: Build and type-check
         run: pnpm build
       - name: Verify static routes, metadata and feeds
-        run: python3 scripts/verify_site.py
+        run: |
+          python3 scripts/verify_site.py
+          python3 scripts/verify_archive.py
+          test ! -e dist/en/posts/qa-mdx-smoke/index.html
       - name: Install isolated browser-test dependencies
         run: |
           npm install --prefix "$RUNNER_TEMP/site-qa" --ignore-scripts --no-audit --no-fund playwright@1.56.1 @axe-core/playwright@4.10.2
@@ -42,6 +47,7 @@ jobs:
           python3 -m http.server 4321 --directory "$RUNNER_TEMP/preview" > "$RUNNER_TEMP/preview.log" 2>&1 &
           for i in $(seq 1 20); do curl --fail --silent http://127.0.0.1:4321/toward-less/en/ > /dev/null && break || sleep 1; done
           QA_MODULES="$RUNNER_TEMP/site-qa/node_modules" node scripts/browser-check.cjs
+          QA_MODULES="$RUNNER_TEMP/site-qa/node_modules" node scripts/archive-browser-check.cjs
       - name: Save browser screenshots and report
         if: always()
         uses: actions/upload-artifact@v7
@@ -50,9 +56,11 @@ jobs:
           path: test-results/
           if-no-files-found: ignore
       - name: Upload the site
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: dist
+          # dist contains only generated public assets, including .nojekyll.
+          include-hidden-files: true
 
   deploy:
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
@@ -71,4 +79,4 @@ jobs:
           enablement: true
       - name: Publish
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

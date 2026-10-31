@@ -3,39 +3,127 @@ import { render } from "astro:content";
 import Layout from "../../../layouts/Layout.astro";
 import { getPosts, postPath, dateLabel, readingMinutes, type Post } from "../../../lib/posts";
 import { ui, localePath, otherLanguage, tagLabel } from "../../../i18n";
+import { AUTHOR } from "../../../site";
 export async function getStaticPaths() {
   const posts = await getPosts();
-  return posts.map(post => ({ params: { lang: post.data.lang, slug: post.data.slug }, props: { post, translations: posts.filter(item => item.data.translationKey === post.data.translationKey) } }));
+  return posts.map((post) => ({
+    params: { lang: post.data.lang, slug: post.data.slug },
+    props: {
+      post,
+      translations: posts.filter((item) => item.data.translationKey === post.data.translationKey),
+    },
+  }));
 }
 const { post, translations } = Astro.props as { post: Post; translations: Post[] };
 const { lang } = post.data;
 const t = ui[lang];
 const { Content, headings } = await render(post);
-const toc = headings.filter(heading => heading.depth === 2 || heading.depth === 3);
-const translated = translations.find(item => item.data.lang !== lang);
-const alternates = translations.map(item => ({ lang: item.data.lang, href: postPath(item) }));
+const toc = headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
+const translated = translations.find((item) => item.data.lang !== lang);
+const alternates = translations.map((item) => ({ lang: item.data.lang, href: postPath(item) }));
 const canonical = new URL(postPath(post), Astro.site).href;
 const structuredData = {
-  "@context": "https://schema.org", "@type": "BlogPosting", headline: post.data.title,
-  description: post.data.description, inLanguage: lang, datePublished: post.data.pubDatetime.toISOString(),
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: post.data.title,
+  description: post.data.description,
+  inLanguage: lang,
+  datePublished: post.data.pubDatetime.toISOString(),
   dateModified: (post.data.modDatetime ?? post.data.pubDatetime).toISOString(),
-  author: { "@type": "Person", name: "Chánh Niệm", url: new URL(localePath(lang, "about/"), Astro.site).href },
+  author: {
+    "@type": post.data.authorType,
+    name: post.data.author,
+    ...(post.data.author === AUTHOR
+      ? { url: new URL(localePath(lang, "about/"), Astro.site).href }
+      : {}),
+  },
+  publisher: { "@type": "Person", name: AUTHOR },
+  ...(post.data.sourceURL ? { isBasedOn: post.data.sourceURL } : {}),
   mainEntityOfPage: canonical,
 };
 ---
-<Layout lang={lang} title={post.data.title} description={post.data.description} section="posts" alternates={alternates} alternateHref={translated ? postPath(translated) : localePath(otherLanguage(lang))} article>
-  <Fragment slot="head"><meta property="article:published_time" content={post.data.pubDatetime.toISOString()} /><meta property="article:modified_time" content={(post.data.modDatetime ?? post.data.pubDatetime).toISOString()} /><script type="application/ld+json" set:html={JSON.stringify(structuredData).replace(/</g, "\\u003c")} /></Fragment>
+
+<Layout
+  lang={lang}
+  title={post.data.title}
+  description={post.data.description}
+  author={post.data.author}
+  section="posts"
+  alternates={alternates}
+  alternateHref={translated ? postPath(translated) : localePath(otherLanguage(lang))}
+  article
+>
+  <Fragment slot="head"
+    ><meta property="article:published_time" content={post.data.pubDatetime.toISOString()} /><meta
+      property="article:modified_time"
+      content={(post.data.modDatetime ?? post.data.pubDatetime).toISOString()}
+    /><script
+      type="application/ld+json"
+      set:html={JSON.stringify(structuredData).replace(/</g, "\\u003c")}
+    /></Fragment
+  >
   <article data-pagefind-body>
     <header class="article-header">
-      <div class="tags" data-pagefind-ignore>{post.data.tags.map(tag => <a href={localePath(lang, `tags/${tag}/`)}>{tagLabel(tag, lang)}</a>)}</div>
+      <div class="tags" data-pagefind-ignore>
+        {
+          post.data.tags.map((tag) => (
+            <a href={localePath(lang, `tags/${tag}/`)}>{tagLabel(tag, lang)}</a>
+          ))
+        }
+      </div>
       <h1 data-pagefind-meta="title">{post.data.title}</h1>
       <p class="article-deck" data-pagefind-meta="description">{post.data.description}</p>
-      <div class="post-meta" data-pagefind-ignore><span>Chánh Niệm</span><span aria-hidden="true">·</span><time datetime={post.data.pubDatetime.toISOString()}>{dateLabel(post.data.pubDatetime, lang)}</time><span aria-hidden="true">·</span><span>{readingMinutes(post)} {t.minute}</span></div>
-      {post.data.modDatetime && <p class="post-meta" data-pagefind-ignore>{t.updated}: <time datetime={post.data.modDatetime.toISOString()}>{dateLabel(post.data.modDatetime, lang)}</time></p>}
-      {translated && <p class="translation-note" data-pagefind-ignore>{t.translated}: <a href={postPath(translated)} lang={translated.data.lang} hreflang={translated.data.lang}>{ui[translated.data.lang].language}</a></p>}
+      <div class="post-meta" data-pagefind-ignore>
+        <span>{post.data.author}</span><span aria-hidden="true">·</span><time
+          datetime={post.data.pubDatetime.toISOString()}
+          >{dateLabel(post.data.pubDatetime, lang)}</time
+        ><span aria-hidden="true">·</span><span>{readingMinutes(post)} {t.minute}</span>
+      </div>
+      {
+        post.data.modDatetime && (
+          <p class="post-meta" data-pagefind-ignore>
+            {t.updated}:{" "}
+            <time datetime={post.data.modDatetime.toISOString()}>
+              {dateLabel(post.data.modDatetime, lang)}
+            </time>
+          </p>
+        )
+      }
+      {
+        translated && (
+          <p class="translation-note" data-pagefind-ignore>
+            {t.translated}:{" "}
+            <a
+              href={postPath(translated)}
+              lang={translated.data.lang}
+              hreflang={translated.data.lang}
+            >
+              {ui[translated.data.lang].language}
+            </a>
+          </p>
+        )
+      }
     </header>
-    {toc.length > 1 && <details class="toc" data-pagefind-ignore><summary>{t.toc}</summary><ol>{toc.map(heading => <li data-depth={heading.depth}><a href={`#${heading.slug}`}>{heading.text}</a></li>)}</ol></details>}
+    {
+      toc.length > 1 && (
+        <details class="toc" data-pagefind-ignore>
+          <>
+            <summary>{t.toc}</summary>
+            <ol>
+              {toc.map((heading) => (
+                <li data-depth={heading.depth}>
+                  <a href={`#${heading.slug}`}>{heading.text}</a>
+                </li>
+              ))}
+            </ol>
+          </>
+        </details>
+      )
+    }
     <div class="prose"><Content /></div>
   </article>
-  <nav class="article-end" aria-label={lang === "vi" ? "Sau bài viết" : "After the article"}><a href={localePath(lang, "posts/")}>← {t.back}</a><a href={localePath(lang, "rss.xml")}>{t.rss}</a></nav>
+  <nav class="article-end" aria-label={lang === "vi" ? "Sau bài viết" : "After the article"}>
+    <a href={localePath(lang, "posts/")}>← {t.back}</a><a href={localePath(lang, "rss.xml")}
+      >{t.rss}</a>
+  </nav>
 </Layout>

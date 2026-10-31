@@ -5,7 +5,10 @@ export type Post = CollectionEntry<"posts">;
 /** Only published, due content may reach HTML, RSS, search or translation links. */
 export async function getPosts(lang?: Lang): Promise<Post[]> {
   const now = Date.now();
-  const posts = await getCollection("posts", ({ data }) => !data.draft && data.pubDatetime.getTime() <= now);
+  const posts = await getCollection(
+    "posts",
+    ({ data }) => !data.draft && data.pubDatetime.getTime() <= now,
+  );
   const slugs = new Set<string>();
   const translations = new Set<string>();
   for (const post of posts) {
@@ -17,12 +20,23 @@ export async function getPosts(lang?: Lang): Promise<Post[]> {
     translations.add(key);
   }
   return posts
-    .filter(post => !lang || post.data.lang === lang)
-    .sort((a, b) => b.data.pubDatetime.getTime() - a.data.pubDatetime.getTime() || a.id.localeCompare(b.id));
+    .filter((post) => !lang || post.data.lang === lang)
+    .sort(
+      (a, b) =>
+        b.data.pubDatetime.getTime() - a.data.pubDatetime.getTime() || a.id.localeCompare(b.id),
+    );
 }
 
 export const postPath = (post: Post) => localePath(post.data.lang, `posts/${post.data.slug}/`);
-export const dateLabel = (date: Date, lang: Lang) => new Intl.DateTimeFormat(lang === "vi" ? "vi-VN" : "en-GB", {
-  day: "numeric", month: "short", year: "numeric", timeZone: "Asia/Ho_Chi_Minh",
-}).format(date);
-export const readingMinutes = (post: Post) => Math.max(1, Math.ceil((post.body ?? "").trim().split(/\s+/).length / (post.data.lang === "vi" ? 320 : 220)));
+export const dateLabel = (date: Date, lang: Lang) =>
+  new Intl.DateTimeFormat(lang === "vi" ? "vi-VN" : "en-GB", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+    timeZone: "Asia/Ho_Chi_Minh",
+  }).format(date);
+export const readingMinutes = (post: Post) =>
+  Math.max(
+    1,
+    Math.ceil((post.body ?? "").trim().split(/\s+/).length / (post.data.lang === "vi" ? 320 : 220)),
+  );

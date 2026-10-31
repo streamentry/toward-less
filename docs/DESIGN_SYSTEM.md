@@ -7,7 +7,9 @@ A personal notebook with the clarity of an engineering document and the calm of 
 **Name:** Toward Less  
 **English:** Less clinging. Clearer seeing.  
 **Tiếng Việt:** Bớt chấp thủ. Thấy rõ hơn.  
-**Author:** Chánh Niệm
+**Author:** C.S Chánh Niệm
+
+The public author name is defined in `src/site.ts`. Original posts use that default; translations and archived excerpts retain their source authors.
 
 ## Principles
 
@@ -15,14 +17,14 @@ Readability before decoration. One quiet accent, not a rainbow. Space is allowed
 
 ## Tokens
 
-| Token | Light | Dark | Role |
-| --- | --- | --- | --- |
-| `--paper` | `#f7f5ef` | `#171c19` | Page background |
+| Token       | Light     | Dark      | Role                        |
+| ----------- | --------- | --------- | --------------------------- |
+| `--paper`   | `#f7f5ef` | `#171c19` | Page background             |
 | `--surface` | `#eeeee6` | `#222a24` | Code and secondary surfaces |
-| `--ink` | `#252a25` | `#e8ebe5` | Primary text |
-| `--muted` | `#62695f` | `#b0baaf` | Dates and secondary text |
-| `--accent` | `#355e46` | `#adcfb1` | Links, focus and brand mark |
-| `--line` | `#d8ddd3` | `#3a473d` | Non-semantic separators |
+| `--ink`     | `#252a25` | `#e8ebe5` | Primary text                |
+| `--muted`   | `#62695f` | `#b0baaf` | Dates and secondary text    |
+| `--accent`  | `#355e46` | `#adcfb1` | Links, focus and brand mark |
+| `--line`    | `#d8ddd3` | `#3a473d` | Non-semantic separators     |
 
 The CSS variables in `src/styles/global.css` are the implementation source of truth. Do not use the subtle separator token for text, focus indicators, or meaningful control boundaries.
 

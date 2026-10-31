@@ -3,6 +3,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlsplit, unquote
 import os
+import re
 import xml.etree.ElementTree as ET
 
 ROOT = Path("dist")
@@ -35,7 +36,7 @@ assert ROOT.is_dir(), "Run pnpm build first"
 documents = {}
 for file in ROOT.rglob("*.html"):
     doc = Document()
-    doc.feed(file.read_text())
+    doc.feed(file.read_text(encoding="utf-8"))
     documents[file] = doc
 
 for file, doc in documents.items():
@@ -75,11 +76,34 @@ for lang in ("en", "vi"):
 for asset in ("favicon.svg", "og.png", "pagefind/pagefind.js", "pagefind/pagefind-ui.js", "pagefind/pagefind-ui.css", "sitemap-index.xml", "robots.txt"):
     if not (ROOT / asset).is_file(): errors.append(f"Missing asset: {asset}")
 for sitemap in ROOT.glob("sitemap*.xml"):
-    text = sitemap.read_text()
+    text = sitemap.read_text(encoding="utf-8")
     if "/search/" in text or "/style-guide/" in text: errors.append(f"Non-public reference page in {sitemap.name}")
 for html in ROOT.rglob("*.html"):
-    if "NEVER_PUBLISH_THIS" in html.read_text(): errors.append(f"Draft/future fixture leaked: {html}")
+    if "NEVER_PUBLISH_THIS" in html.read_text(encoding="utf-8"): errors.append(f"Draft/future fixture leaked: {html}")
+
+# Check the current drafts, rather than depending on a permanently published sample.
+# These fields use the single-line front matter format documented in WRITING.md.
+draft_paths = []
+for source in Path("src/content/posts").rglob("*"):
+    if source.suffix not in (".md", ".mdx"): continue
+    front = re.match(r"\A---\s*\n(.*?)\n---(?:\n|$)", source.read_text(encoding="utf-8"), re.S)
+    if not front or not re.search(r"^draft:\s*true\s*(?:#.*)?$", front[1], re.M): continue
+    lang = re.search(r"^lang:\s*['\"]?(en|vi)['\"]?\s*$", front[1], re.M)
+    slug = re.search(r"^slug:\s*['\"]?([a-z][a-z0-9-]*)['\"]?\s*$", front[1], re.M)
+    if not lang or not slug:
+        errors.append(f"Draft metadata could not be checked: {source}")
+        continue
+    route = f"/{lang[1]}/posts/{slug[1]}/"
+    draft_paths.append(route)
+    if (ROOT / route.lstrip("/") / "index.html").exists():
+        errors.append(f"Draft has a public page: {source}")
+
+for output in ROOT.rglob("*"):
+    if output.suffix not in (".html", ".xml"): continue
+    text = output.read_text(encoding="utf-8")
+    for route in draft_paths:
+        if route in text: errors.append(f"Draft URL leaked into {output}: {route}")
 
 if errors:
     raise SystemExit("Site validation failed:\n" + "\n".join(errors))
-print(f"PASS: {len(documents)} HTML documents; local links, base paths, canonical/hreflang, feeds, assets and noindex verified.")
+print(f"PASS: {len(documents)} HTML documents; local links, base paths, canonical/hreflang, feeds, assets and noindex verified. {len(draft_paths)} draft URLs excluded from pages, links, feeds and sitemaps.")

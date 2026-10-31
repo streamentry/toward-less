@@ -3,17 +3,51 @@ import { Font } from "astro:assets";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { ui, languages, localePath, withBase, otherLanguage, type Lang } from "../i18n";
+import { AUTHOR } from "../site";
 import "../styles/global.css";
-interface Alternate { lang: Lang; href: string; }
-interface Props { lang: Lang; title?: string; description?: string; path?: string; section?: string; alternates?: Alternate[]; alternateHref?: string; noindex?: boolean; article?: boolean; }
-const { lang, title, description = ui[Astro.props.lang].intro, path = "", section, noindex = false, article = false } = Astro.props;
-const pageTitle = title ? `${title} — Toward Less` : "Toward Less — Chánh Niệm";
-const canonical = new URL(Astro.url.pathname, Astro.site).href;
-const alternates = Astro.props.alternates ?? languages.map(language => ({ lang: language, href: localePath(language, path) }));
-const alternateHref = Astro.props.alternateHref ?? alternates.find(item => item.lang !== lang)?.href ?? localePath(otherLanguage(lang));
+interface Alternate {
+  lang: Lang;
+  href: string;
+}
+interface Props {
+  lang: Lang;
+  title?: string;
+  description?: string;
+  author?: string;
+  path?: string;
+  section?: string;
+  alternates?: Alternate[];
+  alternateHref?: string;
+  noindex?: boolean;
+  article?: boolean;
+}
+const {
+  lang,
+  title,
+  description = ui[Astro.props.lang].intro,
+  author = AUTHOR,
+  path = "",
+  section,
+  noindex = false,
+  article = false,
+} = Astro.props;
+const pageTitle = title ? `${title} — Toward Less` : `Toward Less — ${AUTHOR}`;
+// Astro emits the special error page as 404.html even with trailingSlash: always.
+const canonicalPath = Astro.url.pathname.endsWith("/404/")
+  ? withBase("404.html")
+  : Astro.url.pathname;
+const canonical = new URL(canonicalPath, Astro.site).href;
+const alternates =
+  Astro.props.alternates ??
+  languages.map((language) => ({ lang: language, href: localePath(language, path) }));
+const alternateHref =
+  Astro.props.alternateHref ??
+  alternates.find((item) => item.lang !== lang)?.href ??
+  localePath(otherLanguage(lang));
 const absolute = (value: string) => new URL(value, Astro.site).href;
 const ogImage = absolute(withBase("og.png"));
 ---
+
 <!doctype html>
 <html lang={lang} dir="ltr">
   <head>
@@ -22,14 +56,32 @@ const ogImage = absolute(withBase("og.png"));
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
-    <meta name="author" content="Chánh Niệm" />
+    <meta name="author" content={author} />
     {noindex && <meta name="robots" content="noindex,follow" />}
     <link rel="canonical" href={canonical} />
-    {!noindex && alternates.map(item => <link rel="alternate" hreflang={item.lang} href={absolute(item.href)} />)}
-    {!noindex && <link rel="alternate" hreflang="x-default" href={absolute(alternates.find(item => item.lang === "en")?.href ?? Astro.url.pathname)} />}
+    {
+      !noindex &&
+        alternates.map((item) => (
+          <link rel="alternate" hreflang={item.lang} href={absolute(item.href)} />
+        ))
+    }
+    {
+      !noindex && (
+        <link
+          rel="alternate"
+          hreflang="x-default"
+          href={absolute(alternates.find((item) => item.lang === "en")?.href ?? Astro.url.pathname)}
+        />
+      )
+    }
     <link rel="icon" type="image/svg+xml" href={withBase("favicon.svg")} />
     <link rel="sitemap" href={withBase("sitemap-index.xml")} />
-    <link rel="alternate" type="application/rss+xml" title={`Toward Less · ${ui[lang].language}`} href={localePath(lang, "rss.xml")} />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title={`Toward Less · ${ui[lang].language}`}
+      href={localePath(lang, "rss.xml")}
+    />
     <meta property="og:type" content={article ? "article" : "website"} />
     <meta property="og:site_name" content="Toward Less" />
     <meta property="og:title" content={pageTitle} />
@@ -48,9 +100,13 @@ const ogImage = absolute(withBase("og.png"));
     <script is:inline>
       (() => {
         let preference = "auto";
-        try { preference = localStorage.getItem("toward-less-theme") || "auto"; } catch {}
+        try {
+          preference = localStorage.getItem("toward-less-theme") || "auto";
+        } catch {}
         if (!["light", "dark", "auto"].includes(preference)) preference = "auto";
-        const dark = preference === "dark" || (preference === "auto" && matchMedia("(prefers-color-scheme: dark)").matches);
+        const dark =
+          preference === "dark" ||
+          (preference === "auto" && matchMedia("(prefers-color-scheme: dark)").matches);
         document.documentElement.dataset.theme = dark ? "dark" : "light";
         document.documentElement.dataset.preference = preference;
       })();

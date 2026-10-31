@@ -3,7 +3,7 @@
 **Less clinging. Clearer seeing.**  
 **Bớt chấp thủ. Thấy rõ hơn.**
 
-A bilingual personal notebook by **Chánh Niệm**, built from [AstroPaper](https://github.com/satnaing/astro-paper), with an English/Vietnamese editorial design system.
+A bilingual personal blog by **C.S Chánh Niệm**, built from [AstroPaper](https://github.com/satnaing/astro-paper), with an English/Vietnamese editorial design system.
 
 - English: https://streamentry.github.io/toward-less/en/
 - Tiếng Việt: https://streamentry.github.io/toward-less/vi/
@@ -41,7 +41,7 @@ Search is generated during `pnpm build`; use `pnpm preview` to test it. There is
 2. Push to `main`, or run **Build and publish → Run workflow**.
 3. The workflow checks types, builds, validates routes/metadata/feeds, runs browser and accessibility checks, and deploys the static artifact.
 
-The initial repository import is pinned to AstroPaper commit `1497f407928a06f1f276252a5e6e3e8afe2c1efd`. This is a customized derivative: the theme's toolchain, Markdown features, static publishing model, and MIT attribution are retained; the presentation and routing are rewritten for this bilingual notebook. It is not an unmodified upstream installation.
+The initial repository import is pinned to AstroPaper commit `1497f407928a06f1f276252a5e6e3e8afe2c1efd`. This is a customized derivative: the theme's toolchain, Markdown features, static publishing model, and MIT attribution are retained; the presentation and routing are rewritten for this bilingual blog. It is not an unmodified upstream installation.
 
 ## Write
 
@@ -53,10 +53,11 @@ See [the writing guide](docs/WRITING.md) and [design system](docs/DESIGN_SYSTEM.
 
 | File | Purpose |
 | --- | --- |
+| `src/site.ts` | Shared public author name |
 | `astro-paper.config.ts` | Site identity, domain and GitHub Pages base path |
-| `src/i18n.ts` | All interface labels, translated topic names and URL helpers |
+| `src/i18n.ts` | Interface labels, translated topic names and URL helpers |
 | `src/styles/global.css` | Design tokens, typography, responsive layout and theme |
-| `src/content.config.ts` | Article schema |
+| `src/content.config.ts` | Article schema, author defaults and source attribution |
 | `src/lib/posts.ts` | Publication rules, translation/slug validation and sorting |
 | `src/pages/[lang]/` | English and Vietnamese routes |
 | `.github/workflows/pages.yml` | Build, checks and GitHub Pages deployment |
@@ -65,6 +66,8 @@ For a custom domain, set `site.url` to that domain and `base` to `/` in `astro-p
 
 ## Content and privacy
 
-The About page and paired introductory article are editable starter copy based on the agreed blog identity. No private family details, employer details, old posts, or personal account data were imported. The old `less-is-better` site is unchanged.
+The two 2022 Vietnamese posts supplied by the owner have been migrated from the old blog, with their original publication dates and source attribution. They are translations/excerpts, not original first-person accounts by this site's owner. The time-with-children post includes a visible qualification of the source's unsupported 75% claim. The old `less-is-better` site is unchanged.
 
-The only browser preference stored by the site is the selected colour theme (`toward-less-theme`). Language selection is explicit in the URL. The upstream MIT license is retained for code; this setup does not grant an additional license to original prose.
+The paired introductory articles remain drafts. No private family details, employer details or personal account data were imported. Drafts in this public repository are not private.
+
+The only browser preference stored by the site is the selected colour theme (`toward-less-theme`). Language selection is explicit in the URL. The upstream MIT license is retained for code; it does not grant rights to third-party articles or translations.
