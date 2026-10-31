@@ -30,7 +30,9 @@ jobs:
       - name: Build and type-check
         run: pnpm build
       - name: Verify static routes, metadata and feeds
-        run: python3 scripts/verify_site.py
+        run: |
+          python3 scripts/verify_site.py
+          python3 scripts/verify_archive.py
       - name: Install isolated browser-test dependencies
         run: |
           npm install --prefix "$RUNNER_TEMP/site-qa" --ignore-scripts --no-audit --no-fund playwright@1.56.1 @axe-core/playwright@4.10.2
@@ -42,6 +44,7 @@ jobs:
           python3 -m http.server 4321 --directory "$RUNNER_TEMP/preview" > "$RUNNER_TEMP/preview.log" 2>&1 &
           for i in $(seq 1 20); do curl --fail --silent http://127.0.0.1:4321/toward-less/en/ > /dev/null && break || sleep 1; done
           QA_MODULES="$RUNNER_TEMP/site-qa/node_modules" node scripts/browser-check.cjs
+          QA_MODULES="$RUNNER_TEMP/site-qa/node_modules" node scripts/archive-browser-check.cjs
       - name: Save browser screenshots and report
         if: always()
         uses: actions/upload-artifact@v4

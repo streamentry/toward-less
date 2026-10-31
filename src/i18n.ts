@@ -1,3 +1,5 @@
+import { AUTHOR } from "./site";
+
 export const languages = ["en", "vi"] as const;
 export type Lang = (typeof languages)[number];
 export const otherLanguage = (lang: Lang): Lang => (lang === "en" ? "vi" : "en");
@@ -46,7 +48,7 @@ export const ui = {
     searchUnavailable: "Search is currently unavailable.",
     noScript: "Search needs JavaScript. You can still browse the articles.",
     aboutTitle: "About this blog",
-    aboutDescription: "About Chánh Niệm and Toward Less.",
+    aboutDescription: `About ${AUTHOR} and Toward Less.`,
     notFound: "Page not found.",
     notFoundText: "The page may have moved or the address may be incorrect.",
     styleGuide: "Design reference",
@@ -93,7 +95,7 @@ export const ui = {
     searchUnavailable: "Hiện chưa tìm kiếm được.",
     noScript: "Tìm kiếm cần JavaScript. Bạn vẫn có thể xem danh sách bài viết.",
     aboutTitle: "Về trang này",
-    aboutDescription: "Về Chánh Niệm và Toward Less.",
+    aboutDescription: `Về ${AUTHOR} và Toward Less.`,
     notFound: "Không tìm thấy trang này.",
     notFoundText: "Trang có thể đã chuyển sang địa chỉ khác hoặc đường dẫn không đúng.",
     styleGuide: "Hệ thống thiết kế",

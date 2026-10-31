@@ -1,12 +1,16 @@
 import { defineCollection } from "astro:content";
 import { z } from "astro/zod";
 import { glob } from "astro/loaders";
+import { AUTHOR } from "./site";
 
 const posts = defineCollection({
   loader: glob({ pattern: "**/[^_]*.{md,mdx}", base: "./src/content/posts" }),
   schema: z.object({
     title: z.string().min(1),
     description: z.string().min(1),
+    author: z.string().min(1).default(AUTHOR),
+    authorType: z.enum(["Person", "Organization"]).default("Person"),
+    sourceURL: z.string().url().optional(),
     lang: z.enum(["en", "vi"]),
     slug: z
       .string()

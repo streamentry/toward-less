@@ -1,12 +1,13 @@
 ---
 import { ui, localePath, type Lang } from "../i18n";
+import { AUTHOR } from "../site";
 const { lang } = Astro.props as { lang: Lang };
 const t = ui[lang];
 ---
 
 <footer class="site-footer shell" data-pagefind-ignore>
   <div class="footer-bottom">
-    <span>© {new Date().getFullYear()} Chánh Niệm</span><nav
+    <span>© {new Date().getFullYear()} {AUTHOR}</span><nav
       aria-label={lang === "vi" ? "Liên kết cuối trang" : "Footer links"}
     >
       <a href={localePath(lang, "rss.xml")}>{t.rss}</a><a
