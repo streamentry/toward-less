@@ -1,14 +1,16 @@
 {
-  "name": "astro-paper-v6",
+  "name": "toward-less",
   "type": "module",
-  "version": "7.0.0",
-  "engines": {
-    "node": ">=22.23.4"
-  },
+  "version": "1.0.0",
+  "private": true,
+  "engines": { "node": ">=22.23.4" },
+  "packageManager": "pnpm@10.11.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro check && astro build && pagefind --site dist && cp -r dist/pagefind public/",
+    "build": "astro check && astro build && pagefind --site dist --root-selector '[data-pagefind-body]'",
     "preview": "astro preview",
+    "check": "astro check",
+    "verify": "python3 scripts/verify_site.py",
     "sync": "astro sync",
     "astro": "astro",
     "format:check": "prettier --check .",
