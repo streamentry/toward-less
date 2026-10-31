@@ -7,7 +7,9 @@ const slugs = ["chu-nghia-toi-gian", "thoi-gian-ben-con-truoc-tuoi-12"];
 (async () => {
   const browser = await chromium.launch();
   try {
-    const page = await browser.newPage({ colorScheme: "light", reducedMotion: "reduce" });
+    const context = await browser.newContext({ colorScheme: "light", reducedMotion: "reduce" });
+    const page = await context.newPage();
+    fs.mkdirSync("test-results", { recursive: true });
     for (const width of [320, 390, 1440]) {
       await page.setViewportSize({ width, height: 900 });
       for (const slug of slugs) {
