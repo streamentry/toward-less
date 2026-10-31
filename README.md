@@ -7,6 +7,7 @@ A bilingual personal blog by **C.S Chánh Niệm**, built from [AstroPaper](http
 
 - English: https://streamentry.github.io/toward-less/en/
 - Tiếng Việt: https://streamentry.github.io/toward-less/vi/
+- The root URL uses the reader’s explicit saved choice when available; otherwise it follows the browser’s first supported language and falls back to English.
 - GitHub Pages must be enabled before these addresses are public.
 
 ## Design
@@ -70,4 +71,4 @@ The two 2022 Vietnamese posts supplied by the owner have been migrated from the 
 
 The paired introductory articles remain drafts. No private family details, employer details or personal account data were imported. Drafts in this public repository are not private.
 
-The only browser preference stored by the site is the selected colour theme (`toward-less-theme`). Language selection is explicit in the URL. The upstream MIT license is retained for code; it does not grant rights to third-party articles or translations.
+The site stores the selected colour theme (`toward-less-theme`) and, only after an explicit language switch, the preferred language (`toward-less-language`). Language remains explicit in every content URL; browser-language detection happens only at the root. The upstream MIT license is retained for code; it does not grant rights to third-party articles or translations.
