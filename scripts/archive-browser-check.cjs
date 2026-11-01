@@ -1,3 +1,4 @@
+/* eslint-disable no-console -- QA runner reports its result and failures to the invoking process. */
 const { chromium } = require(process.env.QA_MODULES + "/playwright");
 const AxeBuilder = require(process.env.QA_MODULES + "/@axe-core/playwright").default;
 const assert = require("node:assert/strict");

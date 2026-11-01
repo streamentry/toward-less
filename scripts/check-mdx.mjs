@@ -1,4 +1,5 @@
 // Render a temporary MDX article into isolated output, never the deployable dist.
+/* eslint-disable no-console -- smoke test reports its result to the invoking process. */
 import { existsSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";

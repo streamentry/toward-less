@@ -61,6 +61,7 @@ const t = ui[lang];
         });
       } catch (error) {
         document.getElementById("search-error").hidden = false;
+        // eslint-disable-next-line no-console -- retain the Pagefind failure for browser debugging.
         console.error(error);
       }
     };

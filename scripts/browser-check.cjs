@@ -1,4 +1,5 @@
 /* CI-only checks. Dependencies live in RUNNER_TEMP, not the site's bundle. */
+/* eslint-disable no-console -- QA runner reports its result and failures to the invoking process. */
 const { chromium } = require(process.env.QA_MODULES + "/playwright");
 const AxeBuilder = require(process.env.QA_MODULES + "/@axe-core/playwright").default;
 const fs = require("node:fs");
