@@ -73,11 +73,23 @@ for lang in ("en", "vi"):
     for route in ("search/index.html", "style-guide/index.html"):
         if not documents[ROOT / lang / route].noindex: errors.append(f"Missing noindex: {lang}/{route}")
 
-for asset in ("favicon.svg", "og.png", "pagefind/pagefind.js", "pagefind/pagefind-ui.js", "pagefind/pagefind-ui.css", "sitemap-index.xml", "robots.txt"):
+for asset in ("favicon.svg", "og.png", "pagefind/pagefind.js", "pagefind/pagefind-ui.js", "pagefind/pagefind-ui.css", "sitemap.xml", "sitemap-index.xml", "robots.txt"):
     if not (ROOT / asset).is_file(): errors.append(f"Missing asset: {asset}")
 for sitemap in ROOT.glob("sitemap*.xml"):
     text = sitemap.read_text(encoding="utf-8")
     if "/search/" in text or "/style-guide/" in text: errors.append(f"Non-public reference page in {sitemap.name}")
+sitemap_root = ET.parse(ROOT / "sitemap.xml").getroot()
+sitemap_ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9", "xhtml": "http://www.w3.org/1999/xhtml"}
+sitemap_urls = sitemap_root.findall("sm:url", sitemap_ns)
+sitemap_locations = [url.findtext("sm:loc", namespaces=sitemap_ns) or "" for url in sitemap_urls]
+for lang in ("en", "vi"):
+    if not any(f"{BASE}/{lang}/posts/" in location for location in sitemap_locations):
+        errors.append(f"Sitemap has no {lang} article URLs")
+for url in sitemap_urls:
+    alternates = url.findall("xhtml:link", sitemap_ns)
+    for alternate in alternates:
+        if alternate.get("hreflang") not in ("en", "vi"):
+            errors.append(f"Invalid sitemap language alternate: {alternate.get('hreflang')}")
 for html in ROOT.rglob("*.html"):
     if "NEVER_PUBLISH_THIS" in html.read_text(encoding="utf-8"): errors.append(f"Draft/future fixture leaked: {html}")
 
