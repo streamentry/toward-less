@@ -1,6 +1,6 @@
 ---
-title: "Nasihat berguna tanpa menjadi satu lagi senarai tugasan"
-description: "HowToLiveBetter menyusun cadangan harian mengikut kos, manfaat yang mungkin, bukti dan sumber."
+title: "Nasihat praktikal tanpa menjadi satu lagi senarai tugasan"
+description: "HowToLiveBetter menyusun 650 cadangan harian mengikut kos, manfaat yang mungkin, bukti dan sumber."
 lang: ms
 slug: how-to-live-better-ms
 translationKey: how-to-live-better-2026
@@ -10,12 +10,12 @@ featured: false
 tags: [life, technology]
 ---
 
-Nasihat boleh bertukar menjadi satu lagi senarai perkara yang kononnya mesti kita buat. [HowToLiveBetter](https://github.com/streamentry/HowToLiveBetter) memilih bentuk lain: menu 650 cadangan, bukannya senarai semak. README menyarankan supaya pilih satu atau dua sahaja; penulis mengakui belum melaksanakan kebanyakannya.
+Nasihat tentang cara hidup lebih baik boleh bertukar menjadi satu lagi senarai perkara yang kononnya mesti kita buat. [HowToLiveBetter](https://github.com/streamentry/HowToLiveBetter) memilih bentuk lain: menu 650 cadangan, bukannya senarai semak. README menyarankan supaya pilih satu atau dua sahaja; penulis mengakui belum melaksanakan kebanyakannya.
 
-Setiap entri menyatakan kos wang, masa, tenaga atau usaha, manfaat yang mungkin diperoleh, kekuatan bukti dan sumbernya. Laman ini membolehkan carian dan tapisan mengikut topik, tahap bukti dan kos.
+Setiap entri menyatakan kos wang, masa, tenaga atau usaha, manfaat yang mungkin diperoleh, kekuatan bukti dan sumbernya. Topiknya merangkumi kesihatan dan wang hingga undang-undang, kerja, keluarga, perjalanan dan kemahiran. Laman ini membolehkan carian dan tapisan mengikut topik, tahap bukti serta kos.
 
-Maksud tahap bukti perlu difahami dengan cermat. Tahap A bermaksud ada hasil khusus yang boleh disemak, daripada sumber seperti meta-analisis, kohort besar atau percubaan. Ia tidak secara automatik membuktikan sebab-akibat. Panduan undang-undang, insurans dan bantuan awam mengikut peraturan tanah besar China, jadi mungkin tidak terpakai di tempat lain. Teks Cina ialah sumber asal; terjemahan Inggeris dan Vietnam mungkin ketinggalan.
+Tahap bukti perlu difahami dengan cermat. Tahap A bermaksud ada hasil khusus yang boleh disemak daripada sumber seperti meta-analisis, kohort besar atau percubaan. Ia tidak membuktikan sebab-akibat secara automatik. Panduan undang-undang, insurans dan bantuan awam mengikut peraturan tanah besar China, jadi mungkin tidak terpakai di tempat lain. Teks Cina ialah sumber asal; terjemahan Inggeris dan Vietnam mungkin ketinggalan.
 
-Kod dan alat menggunakan lesen MIT. Kandungan buku kekal dilindungi hak cipta; akses bacaan percuma bukan kebenaran untuk menerbitkan semula atau mengolahnya.
+Kod dan alat menggunakan lesen MIT. Kandungan buku kekal dilindungi hak cipta; bacaan percuma adalah untuk kegunaan peribadi, bukan kebenaran untuk menerbitkan semula atau mengolahnya.
 
 [Buka carian dalam talian](https://streamentry.github.io/HowToLiveBetter/) · [Lihat repositori](https://github.com/streamentry/HowToLiveBetter).
