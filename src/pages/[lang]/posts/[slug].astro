@@ -23,9 +23,6 @@ const toc = headings.filter((heading) => heading.depth === 2 || heading.depth ==
 const alternates: Alternate[] = (await getPosts())
   .filter((item) => item.data.translationKey === post.data.translationKey)
   .map((item) => ({ lang: item.data.lang, href: postPath(item) }));
-if (post.data.translationKey === "pali-translation-sources-2026")
-  // eslint-disable-next-line no-console -- temporary publication diagnostic in CI logs.
-  console.info(`pali-translation-sources ${lang}: ${alternates.map((item) => item.lang).join(",")}`);
 const translated = alternates.find((item) => item.lang !== lang);
 const canonical = new URL(postPath(post), Astro.site).href;
 const structuredData = {

@@ -2,7 +2,7 @@
 title: "Перевод с пали, где видны источники"
 description: "Kinh Tạng Pāli Việt помещает новый перевод на вьетнамский рядом с палийским текстом и справочными слоями."
 lang: ru
-slug: pali-translation-sources
+slug: perevod-pali-s-istochnikami
 translationKey: pali-translation-sources-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false

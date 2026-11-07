@@ -2,7 +2,7 @@
 title: "Terjemahan Pali dengan sumber yang terlihat"
 description: "Kinh Tạng Pāli Việt menempatkan terjemahan Vietnam baru di samping teks Pali dan lapisan rujukannya."
 lang: id
-slug: pali-translation-sources
+slug: terjemahan-pali-dan-sumber
 translationKey: pali-translation-sources-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false

@@ -2,7 +2,7 @@
 title: "出典を見ながら読めるパーリ語訳"
 description: "Kinh Tạng Pāli Việtは、新しいベトナム語訳をパーリ語の原文や参考訳と並べて示します。"
 lang: ja
-slug: pali-translation-sources
+slug: pali-yaku-to-shiryo
 translationKey: pali-translation-sources-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false

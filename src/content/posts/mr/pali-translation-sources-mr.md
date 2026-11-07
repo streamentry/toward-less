@@ -2,7 +2,7 @@
 title: "स्रोतांसह पाहता येणारा पाली अनुवाद"
 description: "Kinh Tạng Pāli Việt नवीन व्हिएतनामी अनुवाद पाली मूळ मजकूर आणि संदर्भांसोबत ठेवते."
 lang: mr
-slug: pali-translation-sources
+slug: pali-bhashantar-aani-srot
 translationKey: pali-translation-sources-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false

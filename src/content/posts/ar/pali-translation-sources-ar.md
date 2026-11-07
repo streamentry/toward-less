@@ -2,7 +2,7 @@
 title: "ترجمة بالية تُبقي مصادرها ظاهرة"
 description: "يضع مشروع Kinh Tạng Pāli Việt ترجمته الفيتنامية الجديدة إلى جانب النص البالي وطبقاته المرجعية."
 lang: ar
-slug: pali-translation-sources
+slug: tarjamat-bali-wamasadir
 translationKey: pali-translation-sources-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false

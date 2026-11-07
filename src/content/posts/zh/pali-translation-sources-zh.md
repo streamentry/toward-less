@@ -2,7 +2,7 @@
 title: "一份把巴利语原文放在眼前的译本"
 description: "Kinh Tạng Pāli Việt 将新的越南语译文与巴利语原文及参考译本并列呈现。"
 lang: zh
-slug: pali-translation-sources
+slug: pali-source-visible-zh
 translationKey: pali-translation-sources-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false

@@ -2,7 +2,7 @@
 title: "출처를 함께 볼 수 있는 팔리어 번역"
 description: "Kinh Tạng Pāli Việt는 새 베트남어 번역을 팔리어 원문 및 참고 번역과 나란히 둡니다."
 lang: ko
-slug: pali-translation-sources
+slug: pali-beonyeok-gwa-chulcheo
 translationKey: pali-translation-sources-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false

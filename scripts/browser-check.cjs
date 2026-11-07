@@ -30,10 +30,26 @@ const published = Object.fromEntries(languages.map((lang) => {
   return [lang, routes];
 }));
 const sampleArticles = languages.flatMap((lang) => published[lang].slice(0, 1));
-const paliSlugs = Object.fromEntries(languages.map((lang) => [
-  lang,
-  lang === "vi" ? "ban-dich-pali-va-nguon-doi-chieu" : "pali-translation-sources",
-]));
+const paliSlugs = {
+  en: "pali-translation-sources",
+  vi: "ban-dich-pali-va-nguon-doi-chieu",
+  zh: "pali-source-visible-zh",
+  hi: "pali-anuvad-ke-srot",
+  es: "traduccion-pali-con-fuentes",
+  ar: "tarjamat-bali-wamasadir",
+  fr: "traduction-pali-avec-sources",
+  bn: "pali-onubad-o-utso",
+  pt: "traducao-pali-com-fontes",
+  id: "terjemahan-pali-dan-sumber",
+  ur: "pali-tarjuma-maakhiz",
+  ja: "pali-yaku-to-shiryo",
+  ko: "pali-beonyeok-gwa-chulcheo",
+  th: "khamplaee-pali-lae-laeng-aang-ing",
+  ms: "terjemahan-pali-dengan-sumber",
+  ru: "perevod-pali-s-istochnikami",
+  mr: "pali-bhashantar-aani-srot",
+  fa: "tarjome-pali-va-manabe",
+};
 const paliRoutes = languages.flatMap((lang) =>
   published[lang].filter((route) => route === `/${lang}/posts/${paliSlugs[lang]}/`),
 );

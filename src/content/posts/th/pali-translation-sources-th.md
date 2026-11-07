@@ -2,7 +2,7 @@
 title: "คำแปลภาษาบาลีที่เปิดให้ดูแหล่งที่มา"
 description: "Kinh Tạng Pāli Việt วางคำแปลภาษาเวียดนามฉบับใหม่ไว้ข้างต้นฉบับบาลีและชั้นข้อมูลอ้างอิง"
 lang: th
-slug: pali-translation-sources
+slug: khamplaee-pali-lae-laeng-aang-ing
 translationKey: pali-translation-sources-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false

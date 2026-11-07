@@ -2,7 +2,7 @@
 title: "Una traducción pali con sus fuentes a la vista"
 description: "Kinh Tạng Pāli Việt coloca la nueva traducción vietnamita junto al texto pali y sus referencias."
 lang: es
-slug: pali-translation-sources
+slug: traduccion-pali-con-fuentes
 translationKey: pali-translation-sources-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false

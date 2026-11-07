@@ -41,7 +41,7 @@ tags: [technology]
 ---
 ```
 
-Keep **the same translationKey** in all 18 editions, but translate the title, description, and body, and give each edition a natural ASCII slug. Publication dates may differ. The site does not automatically translate content.
+Keep **the same translationKey** in all 18 editions, but translate the title, description, and body, and give each edition a natural ASCII slug that is unique across the entire collection. Astro requires collection slugs to be globally unique even though public URLs include the language code. Add a short language suffix when two natural slugs would otherwise collide. Publication dates may differ. The site does not automatically translate content.
 
 ## Voice and editing
 

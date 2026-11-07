@@ -2,7 +2,7 @@
 title: "ماخذ کے ساتھ دیکھی جا سکنے والی پالی ترجمانی"
 description: "Kinh Tạng Pāli Việt نئی ویتنامی ترجمانی کو پالی متن اور حوالہ جاتی پرتوں کے ساتھ رکھتا ہے۔"
 lang: ur
-slug: pali-translation-sources
+slug: pali-tarjuma-maakhiz
 translationKey: pali-translation-sources-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false

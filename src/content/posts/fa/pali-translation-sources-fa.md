@@ -2,7 +2,7 @@
 title: "ترجمهٔ پالی با منابعی که دیده می‌شوند"
 description: "Kinh Tạng Pāli Việt ترجمهٔ تازهٔ ویتنامی را کنار متن پالی و لایه‌های مرجع قرار می‌دهد."
 lang: fa
-slug: pali-translation-sources
+slug: tarjome-pali-va-manabe
 translationKey: pali-translation-sources-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false

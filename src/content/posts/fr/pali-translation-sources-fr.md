@@ -2,7 +2,7 @@
 title: "Une traduction pālie avec ses sources sous les yeux"
 description: "Kinh Tạng Pāli Việt place sa nouvelle traduction vietnamienne à côté du texte pāli et de ses références."
 lang: fr
-slug: pali-translation-sources
+slug: traduction-pali-avec-sources
 translationKey: pali-translation-sources-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false

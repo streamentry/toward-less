@@ -2,7 +2,7 @@
 title: "स्रोतों के साथ पढ़ा जा सकने वाला पाली अनुवाद"
 description: "Kinh Tạng Pāli Việt नया वियतनामी अनुवाद उसके पाली स्रोत और संदर्भ-पाठों के साथ रखता है।"
 lang: hi
-slug: pali-translation-sources
+slug: pali-anuvad-ke-srot
 translationKey: pali-translation-sources-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
