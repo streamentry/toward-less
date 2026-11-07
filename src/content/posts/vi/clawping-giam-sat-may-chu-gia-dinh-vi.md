@@ -5,7 +5,7 @@ lang: vi
 slug: clawping-giam-sat-may-chu-gia-dinh-vi
 translationKey: clawping-home-server-monitor-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
-draft: true
+draft: false
 featured: false
 tags: [technology]
 ---

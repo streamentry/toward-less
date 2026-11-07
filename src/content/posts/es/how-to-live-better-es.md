@@ -5,7 +5,7 @@ lang: es
 slug: how-to-live-better-es
 translationKey: how-to-live-better-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
-draft: true
+draft: false
 featured: false
 tags: [life, technology]
 ---
@@ -16,6 +16,6 @@ Cada entrada indica el coste en dinero, tiempo, energía o esfuerzo; el posible 
 
 Conviene interpretar los niveles con cuidado. El nivel A indica un resultado concreto y rastreable de fuentes como metaanálisis, cohortes grandes o ensayos. No demuestra causalidad automáticamente. La información legal, de seguros y de ayudas públicas sigue las normas de China continental y puede no aplicarse en otros lugares. El texto chino es la fuente; las traducciones al inglés y al vietnamita pueden retrasarse.
 
-El código y las herramientas usan la licencia MIT. El contenido del libro sigue protegido por derechos de autor; la lectura gratuita es para uso personal, no autoriza a republicar ni adaptar.
+El texto del libro se publica con la licencia CC BY 4.0, que permite reutilizarlo y adaptarlo con atribución. El código y las herramientas usan MIT; los materiales de terceros pueden tener condiciones distintas.
 
 [Abrir la búsqueda en línea](https://streamentry.github.io/HowToLiveBetter/) · [Ver el repositorio](https://github.com/streamentry/HowToLiveBetter).

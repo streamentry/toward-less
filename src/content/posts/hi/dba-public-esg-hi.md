@@ -5,7 +5,7 @@ lang: hi
 slug: dba-public-esg-hi
 translationKey: dba-public-esg-thesis-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
-draft: true
+draft: false
 featured: false
 tags: [technology]
 ---

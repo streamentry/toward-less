@@ -5,7 +5,7 @@ lang: ms
 slug: how-to-live-better-ms
 translationKey: how-to-live-better-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
-draft: true
+draft: false
 featured: false
 tags: [life, technology]
 ---
@@ -16,6 +16,6 @@ Setiap entri menyatakan kos wang, masa, tenaga atau usaha, manfaat yang mungkin 
 
 Tahap bukti perlu difahami dengan cermat. Tahap A bermaksud ada hasil khusus yang boleh disemak daripada sumber seperti meta-analisis, kohort besar atau percubaan. Ia tidak membuktikan sebab-akibat secara automatik. Panduan undang-undang, insurans dan bantuan awam mengikut peraturan tanah besar China, jadi mungkin tidak terpakai di tempat lain. Teks Cina ialah sumber asal; terjemahan Inggeris dan Vietnam mungkin ketinggalan.
 
-Kod dan alat menggunakan lesen MIT. Kandungan buku kekal dilindungi hak cipta; bacaan percuma adalah untuk kegunaan peribadi, bukan kebenaran untuk menerbitkan semula atau mengolahnya.
+Teks buku diterbitkan di bawah lesen CC BY 4.0, yang membenarkan penggunaan semula dan pengubahan dengan atribusi. Kod dan alat menggunakan MIT; bahan pihak ketiga mungkin tertakluk pada syarat berasingan.
 
 [Buka carian dalam talian](https://streamentry.github.io/HowToLiveBetter/) · [Lihat repositori](https://github.com/streamentry/HowToLiveBetter).

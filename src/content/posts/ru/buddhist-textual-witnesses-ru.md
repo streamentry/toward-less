@@ -5,7 +5,7 @@ lang: ru
 slug: buddhist-textual-witnesses-ru
 translationKey: buddhist-textual-witnesses-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
-draft: true
+draft: false
 featured: false
 tags: [technology]
 ---

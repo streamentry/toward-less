@@ -5,7 +5,7 @@ lang: en
 slug: how-to-live-better-en
 translationKey: how-to-live-better-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
-draft: true
+draft: false
 featured: false
 tags: [life, technology]
 ---
@@ -16,6 +16,6 @@ Each entry lists its cost in money, time, energy, or effort, what it may return,
 
 The grades need context. An A means a specific, traceable result from sources such as a meta-analysis, a large cohort, or a trial. It does not automatically establish causation. Legal, insurance, and public-benefit guidance follows mainland China’s rules. The Chinese edition is the source; English and Vietnamese translations may lag.
 
-The code and tools use MIT. The book itself remains copyrighted; free reading is for personal use, not permission to republish or adapt it.
+The book text is published under CC BY 4.0, which permits reuse and adaptation with attribution. The code and tools use MIT; third-party materials may have separate terms.
 
 [Browse the guide](https://streamentry.github.io/HowToLiveBetter/) · [Read the repository notes](https://github.com/streamentry/HowToLiveBetter).

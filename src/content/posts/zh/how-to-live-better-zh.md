@@ -5,7 +5,7 @@ lang: zh
 slug: how-to-live-better-zh
 translationKey: how-to-live-better-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
-draft: true
+draft: false
 featured: false
 tags: [life, technology]
 ---
@@ -16,6 +16,6 @@ tags: [life, technology]
 
 证据等级需要谨慎理解。A级代表有可追溯的具体结果，来源可能是荟萃分析、大型队列研究或随机试验；这并不自动证明因果。法律、医保、社保和公共福利内容依据中国大陆规定。中文是原文，英译和越南语译文可能落后。
 
-代码和工具采用MIT许可证。书籍内容仍受版权保护；免费阅读仅供个人使用，并不授权转载或改编。
+书籍正文采用 CC BY 4.0 许可，注明出处即可转载和改编。代码与工具采用 MIT 许可；第三方材料可能适用各自的许可条款。
 
 [打开在线检索](https://streamentry.github.io/HowToLiveBetter/) · [查看GitHub仓库说明](https://github.com/streamentry/HowToLiveBetter)。

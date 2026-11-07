@@ -5,7 +5,7 @@ lang: fr
 slug: thread-seers-project-fr
 translationKey: the-thread-seers-project-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
-draft: true
+draft: false
 featured: false
 tags: [life, technology]
 ---

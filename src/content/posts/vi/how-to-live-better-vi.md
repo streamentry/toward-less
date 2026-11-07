@@ -5,7 +5,7 @@ lang: vi
 slug: how-to-live-better-vi
 translationKey: how-to-live-better-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
-draft: true
+draft: false
 featured: false
 tags: [life, technology]
 ---
@@ -16,6 +16,6 @@ Mỗi mục nêu chi phí bằng tiền, thời gian, sức lực hoặc sự ki
 
 Cần hiểu đúng các mức bằng chứng. Mức A có nghĩa là có kết quả cụ thể, truy được nguồn như phân tích gộp, nghiên cứu đoàn hệ lớn hoặc thử nghiệm. Nó không tự động chứng minh quan hệ nhân quả. Nội dung về luật, bảo hiểm và trợ cấp dựa trên quy định Trung Quốc đại lục. Bản tiếng Trung là nguồn gốc; bản Anh và Việt có thể chậm cập nhật.
 
-Mã nguồn và công cụ theo giấy phép MIT. Nội dung sách vẫn có bản quyền; đọc miễn phí chỉ dành cho mục đích cá nhân, không cho phép đăng lại hay phái sinh.
+Phần nội dung sách phát hành theo CC BY 4.0, cho phép sử dụng lại và phái sinh khi ghi công. Mã nguồn và công cụ theo MIT; tài liệu bên thứ ba có thể có điều khoản riêng.
 
 [Mở trang tra cứu](https://streamentry.github.io/HowToLiveBetter/) · [Xem kho mã nguồn](https://github.com/streamentry/HowToLiveBetter).

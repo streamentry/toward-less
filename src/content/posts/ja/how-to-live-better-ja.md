@@ -5,7 +5,7 @@ lang: ja
 slug: how-to-live-better-ja
 translationKey: how-to-live-better-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
-draft: true
+draft: false
 featured: false
 tags: [life, technology]
 ---
@@ -16,6 +16,6 @@ tags: [life, technology]
 
 根拠の段階には注意が必要です。Aはメタ分析、大規模コホート研究、試験などに基づく具体的で確認可能な結果を示しますが、それだけで因果関係が証明されるわけではありません。法律、保険、公的給付の情報は中国本土の制度に基づくため、他地域では当てはまらない場合があります。中国語が原文で、英語版とベトナム語版は遅れることがあります。
 
-コードとツールはMITライセンスです。本の内容は著作権で保護されており、無料で読めても再掲載や翻案の許可にはなりません。
+書籍本文はCC BY 4.0で公開されており、出典を示せば再利用や改変ができます。コードとツールはMITライセンスです。第三者の資料には別の条件が適用される場合があります。
 
 [オンライン検索](https://streamentry.github.io/HowToLiveBetter/) · [GitHubリポジトリ](https://github.com/streamentry/HowToLiveBetter)。

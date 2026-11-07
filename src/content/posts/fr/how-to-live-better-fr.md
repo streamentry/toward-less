@@ -5,7 +5,7 @@ lang: fr
 slug: how-to-live-better-fr
 translationKey: how-to-live-better-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
-draft: true
+draft: false
 featured: false
 tags: [life, technology]
 ---
@@ -16,6 +16,6 @@ Chaque entrée indique le coût en argent, en temps, en énergie ou en effort, l
 
 Les niveaux de preuve demandent de la prudence. Le niveau A signale un résultat précis et vérifiable issu, par exemple, d’une méta-analyse, d’une grande cohorte ou d’un essai. Il ne prouve pas automatiquement un lien de causalité. Les informations juridiques, d’assurance et d’aides publiques suivent les règles de Chine continentale et peuvent ne pas s’appliquer ailleurs. Le chinois fait foi ; les traductions anglaise et vietnamienne peuvent être en retard.
 
-Le code et les outils sont sous licence MIT. Le contenu du livre reste protégé par le droit d’auteur ; la lecture gratuite est réservée à un usage personnel, sans autorisation de republication ou d’adaptation.
+Le texte du livre est publié sous licence CC BY 4.0, qui autorise sa réutilisation et son adaptation avec attribution. Le code et les outils sont sous MIT ; les contenus tiers peuvent relever d’autres conditions.
 
 [Ouvrir la recherche en ligne](https://streamentry.github.io/HowToLiveBetter/) · [Voir le dépôt](https://github.com/streamentry/HowToLiveBetter).

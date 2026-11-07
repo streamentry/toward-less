@@ -5,7 +5,7 @@ lang: th
 slug: clawping-home-server-monitor-th
 translationKey: clawping-home-server-monitor-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
-draft: true
+draft: false
 featured: false
 tags: [technology]
 ---
