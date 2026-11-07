@@ -14,7 +14,7 @@ Conselhos podem virar mais uma lista de coisas que deveríamos fazer. O [HowToLi
 
 Cada item apresenta o custo em dinheiro, tempo, energia ou esforço, o possível benefício, a força da evidência e sua fonte. Os temas vão de saúde e dinheiro a leis, trabalho, família, viagens e habilidades. O site permite pesquisar e filtrar por tema, nível de evidência e custo.
 
-É preciso interpretar os níveis de evidência com cuidado. O nível A indica um resultado específico e verificável vindo, por exemplo, de metanálise, grande coorte ou ensaio. Isso não prova causalidade automaticamente. As orientações jurídicas, de seguros e de benefícios públicos seguem as regras da China continental e podem não valer em outros lugares. O texto chinês é a fonte; as traduções para inglês e vietnamita podem estar atrasadas.
+É preciso interpretar os níveis de evidência com cuidado. O nível A indica um resultado específico e verificável vindo de fontes como metanálise, grande coorte ou ensaio. Isso não prova causalidade automaticamente. As orientações jurídicas, de seguros e de benefícios públicos seguem as regras da China continental e podem não valer em outros lugares. O texto chinês é a fonte; as traduções para inglês e vietnamita podem estar atrasadas.
 
 O código e as ferramentas usam a licença MIT. O conteúdo do livro continua protegido por direitos autorais; a leitura gratuita é para uso pessoal, não autoriza republicação ou adaptação.
 

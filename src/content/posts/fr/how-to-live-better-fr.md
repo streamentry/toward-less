@@ -1,6 +1,6 @@
 ---
 title: "Des conseils pratiques sans en faire une nouvelle liste de tâches"
-description: "HowToLiveBetter classe 650 recommandations du quotidien selon leur coût, leur bénéfice possible, leurs preuves et leurs sources."
+description: "HowToLiveBetter classe 650 recommandations quotidiennes selon leur coût, leur bénéfice possible, leurs preuves et leurs sources."
 lang: fr
 slug: how-to-live-better-fr
 translationKey: how-to-live-better-2026

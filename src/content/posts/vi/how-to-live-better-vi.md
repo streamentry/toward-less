@@ -10,7 +10,7 @@ featured: false
 tags: [life, technology]
 ---
 
-Lời khuyên đôi khi lại thành một danh sách việc khác mà ta nghĩ mình phải hoàn thành. [HowToLiveBetter](https://github.com/streamentry/HowToLiveBetter) chọn hình thức khác: 650 gợi ý để tham khảo, không phải checklist. README khuyên chỉ chọn một, hai điều; tác giả cũng nói mình chưa làm được phần lớn trong số đó.
+Lời khuyên đôi khi lại thành một danh sách việc khác mà ta nghĩ mình phải hoàn thành. [HowToLiveBetter](https://github.com/streamentry/HowToLiveBetter) chọn hình thức khác: 650 gợi ý để tham khảo, không phải checklist. README khuyên chỉ chọn một, hai điều; tác giả cũng nói mình chưa làm theo phần lớn các gợi ý.
 
 Mỗi mục nêu chi phí bằng tiền, thời gian, sức lực hoặc sự kiên trì; lợi ích có thể nhận lại; độ mạnh của bằng chứng; và nguồn. Chủ đề trải từ sức khỏe, tiền bạc đến luật, công việc, gia đình, du lịch và kỹ năng. Trang web cho phép tìm và lọc theo chủ đề, mức bằng chứng và chi phí.
 
