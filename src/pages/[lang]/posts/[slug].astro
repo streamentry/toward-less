@@ -2,25 +2,30 @@
 import { render } from "astro:content";
 import Layout from "../../../layouts/Layout.astro";
 import { getPosts, postPath, dateLabel, readingMinutes, type Post } from "../../../lib/posts";
-import { ui, languageTags, localePath, tagLabel } from "../../../i18n";
+import { ui, languageTags, localePath, tagLabel, type Lang } from "../../../i18n";
 import { AUTHOR } from "../../../site";
+interface Alternate {
+  lang: Lang;
+  href: string;
+}
 export async function getStaticPaths() {
   const posts = await getPosts();
   return posts.map((post) => ({
     params: { lang: post.data.lang, slug: post.data.slug },
     props: {
       post,
-      translations: posts.filter((item) => item.data.translationKey === post.data.translationKey),
+      alternates: posts
+        .filter((item) => item.data.translationKey === post.data.translationKey)
+        .map((item) => ({ lang: item.data.lang, href: postPath(item) })),
     },
   }));
 }
-const { post, translations } = Astro.props as { post: Post; translations: Post[] };
+const { post, alternates } = Astro.props as { post: Post; alternates: Alternate[] };
 const { lang } = post.data;
 const t = ui[lang];
 const { Content, headings } = await render(post);
 const toc = headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
-const translated = translations.find((item) => item.data.lang !== lang);
-const alternates = translations.map((item) => ({ lang: item.data.lang, href: postPath(item) }));
+const translated = alternates.find((item) => item.lang !== lang);
 const canonical = new URL(postPath(post), Astro.site).href;
 const structuredData = {
   "@context": "https://schema.org",
@@ -93,11 +98,11 @@ const structuredData = {
           <p class="translation-note" data-pagefind-ignore>
             {t.translated}:{" "}
             <a
-              href={postPath(translated)}
-              lang={languageTags[translated.data.lang]}
-              hreflang={languageTags[translated.data.lang]}
+              href={translated.href}
+              lang={languageTags[translated.lang]}
+              hreflang={languageTags[translated.lang]}
             >
-              {ui[translated.data.lang].language}
+              {ui[translated.lang].language}
             </a>
           </p>
         )
