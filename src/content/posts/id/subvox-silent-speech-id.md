@@ -1,6 +1,6 @@
 ---
 title: "Eksperimen kecil tentang ujaran tanpa suara"
-description: "Subvox menguji apakah gerakan kepala dari AirPods Pro dapat membedakan beberapa kata yang diucapkan tanpa suara."
+description: "Subvox menguji apakah gerakan kepala dari AirPods Pro dapat membedakan beberapa kata yang dibentuk tanpa suara."
 lang: id
 slug: subvox-silent-speech-id
 translationKey: subvox-silent-speech-2026
