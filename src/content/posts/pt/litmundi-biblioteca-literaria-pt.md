@@ -2,7 +2,7 @@
 title: "LitMundi: uma biblioteca literária entre idiomas"
 description: "Criei a LitMundi para aproximar a literatura de várias línguas de mais leitores e deixar visíveis as fontes e o processo de tradução."
 lang: pt
-slug: litmundi-biblioteca-literaria
+slug: litmundi-biblioteca-portuguesa
 translationKey: litmundi-open-literary-library-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: true
