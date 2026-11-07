@@ -46,7 +46,7 @@ for file in ROOT.rglob("*.html"):
 for file, doc in documents.items():
     relative = file.relative_to(ROOT).as_posix()
     if relative == "index.html": continue  # Static redirect.
-    if doc.lang not in TAG_TO_LANG.values(): errors.append(f"{relative}: missing/invalid html lang")
+    if doc.lang not in LANG_TAGS.values(): errors.append(f"{relative}: missing/invalid html lang")
     if doc.h1s != 1: errors.append(f"{relative}: expected one h1, got {doc.h1s}")
     if not doc.canonical or not doc.canonical.startswith(f"https://{HOST}{BASE}/"):
         errors.append(f"{relative}: incorrect canonical {doc.canonical}")
