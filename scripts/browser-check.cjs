@@ -30,9 +30,17 @@ const published = Object.fromEntries(languages.map((lang) => {
   return [lang, routes];
 }));
 const sampleArticles = languages.flatMap((lang) => published[lang].slice(0, 1));
+const paliSlugs = Object.fromEntries(languages.map((lang) => [
+  lang,
+  lang === "vi" ? "ban-dich-pali-va-nguon-doi-chieu" : "pali-translation-sources",
+]));
+const paliRoutes = languages.flatMap((lang) =>
+  published[lang].filter((route) => route === `/${lang}/posts/${paliSlugs[lang]}/`),
+);
+const articleRoutes = [...new Set([...sampleArticles, ...paliRoutes])];
 const routes = languages.flatMap((lang) => [
   `/${lang}/`, `/${lang}/about/`, `/${lang}/posts/`, `/${lang}/search/`, `/${lang}/style-guide/`,
-]).concat(sampleArticles);
+]).concat(articleRoutes);
 
 (async () => {
   const browser = await chromium.launch();
@@ -135,13 +143,21 @@ const routes = languages.flatMap((lang) => [
 
     // Exercise article language links when articles exist, without hard-coded titles or slugs.
     const articleChecks = [];
-    for (const route of sampleArticles) {
+    for (const route of articleRoutes) {
       await page.goto(origin + base + route);
       const lang = route.split("/")[1];
       const other = lang === "en" ? "vi" : "en";
       await page.locator(".language-menu summary").click();
       const href = await page.locator(`[data-language="${other}"]`).getAttribute("href");
-      assert(href.startsWith(`${base}/${other}/posts/`), `Incorrect language link on ${route}`);
+      const alternate = await page.locator(`link[rel="alternate"][hreflang="${other}"]`).getAttribute("href");
+      const isPaliEdition = Object.hasOwn(paliSlugs, lang) && route.endsWith(`/posts/${paliSlugs[lang]}/`);
+      if (isPaliEdition) assert(alternate, `Missing published ${other} edition for ${route}`);
+      const expectedPath = alternate ? new URL(alternate, origin).pathname : `${base}/${other}/`;
+      assert.equal(
+        new URL(href, origin).pathname,
+        expectedPath,
+        `Incorrect language link on ${route}: got ${href}, expected ${expectedPath}`,
+      );
       const response = await page.goto(new URL(href, origin).href);
       assert.equal(response.status(), 200, `Broken translation link on ${route}`);
       assert.equal(await page.locator("html").getAttribute("lang"), htmlLanguages[other] || other);
@@ -170,7 +186,7 @@ const routes = languages.flatMap((lang) => [
     assert.equal(rootResponse.status(), 200);
     assert.equal(await simple.locator('a[href="' + base + '/en/"]').count(), 1);
     assert.equal(await simple.locator('a[href="' + base + '/vi/"]').count(), 1);
-    for (const route of ["/vi/about/", ...sampleArticles]) {
+    for (const route of ["/vi/about/", ...articleRoutes]) {
       const response = await simple.goto(origin + base + route);
       assert.equal(response.status(), 200, route);
       assert(await simple.locator("h1").isVisible(), `${route} must work without JavaScript`);
