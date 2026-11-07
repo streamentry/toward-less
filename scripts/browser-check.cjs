@@ -149,7 +149,8 @@ const routes = languages.flatMap((lang) => [
       const other = lang === "en" ? "vi" : "en";
       await page.locator(".language-menu summary").click();
       const href = await page.locator(`[data-language="${other}"]`).getAttribute("href");
-      const alternate = await page.locator(`link[rel="alternate"][hreflang="${other}"]`).getAttribute("href");
+      const alternateLink = page.locator(`link[rel="alternate"][hreflang="${other}"]`);
+      const alternate = (await alternateLink.count()) ? await alternateLink.getAttribute("href") : null;
       const isPaliEdition = Object.hasOwn(paliSlugs, lang) && route.endsWith(`/posts/${paliSlugs[lang]}/`);
       if (isPaliEdition) assert(alternate, `Missing published ${other} edition for ${route}`);
       const expectedPath = alternate ? new URL(alternate, origin).pathname : `${base}/${other}/`;
