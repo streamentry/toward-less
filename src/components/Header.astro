@@ -29,7 +29,9 @@ const alternateMap = new Map(alternates.map((alternate) => [alternate.lang, alte
     </nav>
     <div class="header-tools">
       <details class="language-menu">
-        <summary aria-label={t.languageMenu}>{languageNames[lang]}</summary>
+        <summary aria-label={`${t.languageMenu}: ${languageNames[lang]}`} title={languageNames[lang]}>
+          {lang.toUpperCase()}
+        </summary>
         <nav aria-label={t.languageMenu}>
           {languages.map((language) => (
             <a

@@ -211,6 +211,8 @@ p {
   cursor: pointer;
   list-style: none;
   white-space: nowrap;
+  min-width: 2.8rem;
+  text-align: center;
 }
 .language-menu summary::-webkit-details-marker { display: none; }
 .language-menu summary::after { content: "⌄"; margin-inline-start: 0.35rem; }
