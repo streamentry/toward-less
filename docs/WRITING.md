@@ -2,7 +2,7 @@
 
 Supported languages and content directory codes: English `en`, Vietnamese `vi`, Mandarin Chinese in Simplified script `zh`, Hindi `hi`, Spanish `es`, Modern Standard Arabic `ar`, French `fr`, Bengali `bn`, Portuguese `pt`, Indonesian `id`, Urdu `ur`, Japanese `ja`, Korean `ko`, Thai `th`, Malay `ms`, Russian `ru`, Marathi `mr`, and Persian `fa`. “Iranian” is treated as Persian; “Malaysian” is treated as Malay.
 
-Unless the user narrows the request, create each new authored post in all 18 languages. Give every edition natural, idiomatic prose; translate meaning rather than sentence structure. Keep the same `translationKey` across editions, while titles, descriptions, slugs, and publication dates may differ. Start editions as drafts until they have been reviewed for meaning, names, facts, script rendering, and direction. A translation may remain a draft while an existing edition stays published; the site never auto-translates or auto-publishes.
+Create each new authored post in all 18 languages by default. Regardless of the initial draft scope, do not publish a new post until all 18 editions exist and have been reviewed for meaning, names, facts, script rendering, and direction. Give every edition natural, idiomatic prose; translate meaning rather than sentence structure. Keep the same `translationKey` across editions, while titles, descriptions, slugs, and publication dates may differ. Start editions as drafts. A translation of an already-published post may remain a draft; the site never auto-translates or auto-publishes.
 
 ## Create an article
 
