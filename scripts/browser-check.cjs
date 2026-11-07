@@ -6,7 +6,15 @@ const fs = require("node:fs");
 const assert = require("node:assert/strict");
 const origin = "http://127.0.0.1:4321";
 const base = (process.env.BASE_PATH || "/toward-less").replace(/\/$/, "");
-const languages = ["en", "vi"];
+const languages = ["en", "vi", "zh", "hi", "es", "ar", "fr", "bn", "pt", "id", "ur", "ja", "ko", "th", "ms", "ru", "mr", "fa"];
+const htmlLanguages = { zh: "zh-Hans" };
+const emptyMessages = {
+  en: "No articles yet.", vi: "Chưa có bài viết.", zh: "还没有文章。", hi: "अभी कोई लेख नहीं।",
+  es: "Todavía no hay artículos.", ar: "لا توجد مقالات بعد.", fr: "Aucun article pour le moment.",
+  bn: "এখনও কোনো লেখা নেই।", pt: "Ainda não há artigos.", id: "Belum ada artikel.",
+  ur: "ابھی کوئی مضمون نہیں۔", ja: "記事はまだありません。", ko: "아직 글이 없습니다.",
+  th: "ยังไม่มีบทความ", ms: "Belum ada rencana.", ru: "Статей пока нет.", mr: "अजून लेख नाहीत.", fa: "هنوز نوشته‌ای نیست.",
+};
 fs.mkdirSync("test-results", { recursive: true });
 
 // Discover real published posts; tests must not require publishing starter copy.
@@ -17,24 +25,20 @@ const published = Object.fromEntries(languages.map((lang) => {
         .filter((entry) => entry.isDirectory() && /^[a-z]/.test(entry.name))
         .filter((entry) => fs.existsSync(`${directory}/${entry.name}/index.html`))
         .map((entry) => `/${lang}/posts/${entry.name}/`)
+        .sort()
     : [];
   return [lang, routes];
 }));
 const sampleArticles = languages.flatMap((lang) => published[lang].slice(0, 1));
-const routes = [
-  "/en/", "/vi/",
-  "/en/about/", "/vi/about/",
-  "/en/posts/", "/vi/posts/",
-  "/en/search/", "/vi/search/",
-  "/vi/style-guide/",
-  ...sampleArticles,
-];
+const routes = languages.flatMap((lang) => [
+  `/${lang}/`, `/${lang}/about/`, `/${lang}/posts/`, `/${lang}/search/`, `/${lang}/style-guide/`,
+]).concat(sampleArticles);
 
 (async () => {
   const browser = await chromium.launch();
   try {
     // Root chooses the first supported browser language, unless the reader explicitly chose one before.
-    for (const [locale, expected] of [["vi-VN", "vi"], ["en-US", "en"]]) {
+    for (const [locale, expected] of [["vi-VN", "vi"], ["es-ES", "es"], ["zh-CN", "zh"], ["fa-IR", "fa"], ["ru-RU", "ru"], ["en-US", "en"]]) {
       const rootContext = await browser.newContext({ locale });
       const rootPage = await rootContext.newPage();
       await rootPage.goto(origin + base + "/");
@@ -99,7 +103,7 @@ const routes = [
         await page.goto(origin + base + `/${lang}/${suffix}`);
         assert.equal(
           (await page.locator(".empty").innerText()).trim(),
-          lang === "vi" ? "Chưa có bài viết." : "No articles yet.",
+          emptyMessages[lang],
         );
         assert.equal(await page.locator(".post-list").count(), 0);
       }
@@ -107,11 +111,9 @@ const routes = [
 
     // About is always published; verify language switching even with no articles.
     await page.goto(origin + base + "/en/about/");
-    assert.equal(
-      await page.locator("[data-language-switch]").getAttribute("href"),
-      base + "/vi/about/",
-    );
-    await page.locator("[data-language-switch]").click();
+    assert.equal(await page.locator('[data-language="vi"]').getAttribute("href"), base + "/vi/about/");
+    await page.locator(".language-menu summary").click();
+    await page.locator('[data-language="vi"]').click();
     assert.equal(await page.locator("html").getAttribute("lang"), "vi");
     assert.equal(
       await page.evaluate(() => localStorage.getItem("toward-less-language")),
@@ -137,11 +139,12 @@ const routes = [
       await page.goto(origin + base + route);
       const lang = route.split("/")[1];
       const other = lang === "en" ? "vi" : "en";
-      const href = await page.locator("[data-language-switch]").getAttribute("href");
-      assert(href.startsWith(`${base}/${other}/`), `Incorrect language link on ${route}`);
+      await page.locator(".language-menu summary").click();
+      const href = await page.locator(`[data-language="${other}"]`).getAttribute("href");
+      assert(href.startsWith(`${base}/${other}/posts/`), `Incorrect language link on ${route}`);
       const response = await page.goto(new URL(href, origin).href);
       assert.equal(response.status(), 200, `Broken translation link on ${route}`);
-      assert.equal(await page.locator("html").getAttribute("lang"), other);
+      assert.equal(await page.locator("html").getAttribute("lang"), htmlLanguages[other] || other);
       articleChecks.push({ route, alternate: href });
     }
 
@@ -181,7 +184,7 @@ const routes = [
       emptyLanguages,
       articleChecks,
       checks: ["overflow", "axe WCAG A/AA", "root language detection", "empty archives", "language switching",
-        "theme persistence", "bilingual search", "no-JavaScript reading"],
+        "theme persistence", "language-filtered search", "no-JavaScript reading"],
       failures,
     }, null, 2));
     if (failures.length) throw new Error(failures.join("\n"));

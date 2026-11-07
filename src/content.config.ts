@@ -2,6 +2,7 @@ import { defineCollection } from "astro:content";
 import { z } from "astro/zod";
 import { glob } from "astro/loaders";
 import { AUTHOR } from "./site";
+import { languages } from "./i18n";
 
 const posts = defineCollection({
   loader: glob({ pattern: "**/[^_]*.{md,mdx}", base: "./src/content/posts" }),
@@ -11,7 +12,7 @@ const posts = defineCollection({
     author: z.string().min(1).default(AUTHOR),
     authorType: z.enum(["Person", "Organization"]).default("Person"),
     sourceURL: z.url().optional(),
-    lang: z.enum(["en", "vi"]),
+    lang: z.enum(languages),
     slug: z
       .string()
       .regex(/^[a-z][a-z0-9-]*$/, "Use a lowercase ASCII slug starting with a letter"),

@@ -26,6 +26,18 @@ const vi = lang === "vi";
       Đọc thử đoạn văn này trên điện thoại và máy tính để kiểm tra cỡ chữ, khoảng cách dòng và
       dấu tiếng Việt: ă â ê ô ơ ư đ — Ắ Ằ Ẳ Ẵ Ặ Ấ Ầ Ẩ Ẫ Ậ Ế Ề Ể Ễ Ệ Ố Ồ Ổ Ỗ Ộ Ớ Ờ Ở Ỡ Ợ Ứ Ừ Ử Ữ Ự.
     </p>
+    <h2>Script samples</h2>
+    <p lang="zh-Hans">中文：文学、技术与日常生活。</p>
+    <p lang="hi">हिन्दी: साहित्य, तकनीक और रोज़मर्रा का जीवन।</p>
+    <p lang="mr">मराठी: साहित्य, तंत्रज्ञान आणि दैनंदिन जीवन.</p>
+    <p lang="bn">বাংলা: সাহিত্য, প্রযুক্তি ও দৈনন্দিন জীবন।</p>
+    <p lang="ar" dir="rtl">العربية: الأدب والتقنية والحياة اليومية.</p>
+    <p lang="fa" dir="rtl">فارسی: ادبیات، فناوری و زندگی روزمره.</p>
+    <p lang="ur" dir="rtl">اردو: ادب، ٹیکنالوجی اور روزمرہ زندگی۔</p>
+    <p lang="ja">日本語：文学、技術、日々の暮らし。</p>
+    <p lang="ko">한국어: 문학, 기술, 일상생활.</p>
+    <p lang="th">ไทย: วรรณกรรม เทคโนโลยี และชีวิตประจำวัน</p>
+    <p lang="ru">Русский: литература, технологии и повседневная жизнь.</p>
     <p>
       <strong>{vi ? "Chữ đậm" : "Bold text"}</strong>,{" "}
       <em>{vi ? "chữ nghiêng" : "italic text"}</em>,{" "}
@@ -53,7 +65,7 @@ const vi = lang === "vi";
     <pre
       tabindex="0"
       aria-label={vi ? "Mã minh họa" : "Code example"}
-    ><code>{'const languages = ["en", "vi"];\nconst defaultLanguage = languages[0];\n// This intentionally long sample line tests horizontal scrolling inside a code block without widening the page. '.repeat(2)}</code></pre>
+    ><code>{`const languages = [${languages.map((language) => `"${language}"`).join(", ")}];\nconst defaultLanguage = languages[0];\n// This intentionally long sample line tests horizontal scrolling inside a code block without widening the page. `.repeat(2)}</code></pre>
     <h2>{vi ? "Bảng" : "Tables"}</h2>
     <table>
       <thead><tr><th>{vi ? "Thành phần" : "Element"}</th><th>{vi ? "Thiết lập" : "Setting"}</th></tr></thead>

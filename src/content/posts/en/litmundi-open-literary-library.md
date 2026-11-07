@@ -4,7 +4,7 @@ description: "I started LitMundi to make literature from many languages easier t
 lang: en
 slug: litmundi-open-literary-library
 translationKey: litmundi-open-literary-library-2026
-pubDatetime: 2026-11-07T12:00:00+07:00
+pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [technology]

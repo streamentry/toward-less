@@ -3,7 +3,7 @@ import type { GetStaticPaths, Page } from "astro";
 import Layout from "../../../layouts/Layout.astro";
 import PostCard from "../../../components/PostCard.astro";
 import { getPosts, type Post } from "../../../lib/posts";
-import { languages, ui, localePath, otherLanguage, type Lang } from "../../../i18n";
+import { languages, ui, localePath, type Lang } from "../../../i18n";
 export const getStaticPaths = (async ({ paginate }) => {
   const posts = await getPosts();
   return languages.flatMap((lang) =>
@@ -17,11 +17,13 @@ const lang = Astro.params.lang as Lang;
 const { page } = Astro.props as { page: Page<Post> };
 const t = ui[lang];
 const path = `posts/${page.currentPage === 1 ? "" : `${page.currentPage}/`}`;
-const other = otherLanguage(lang);
-const otherCount = (await getPosts(other)).length;
-const alternates = [{ lang, href: localePath(lang, path) }];
-if (page.currentPage === 1 || otherCount > (page.currentPage - 1) * 8)
-  alternates.push({ lang: other, href: localePath(other, path) });
+const alternates = (await Promise.all(languages.map(async (language) => ({
+  lang: language,
+  href: localePath(language, path),
+  count: (await getPosts(language)).length,
+}))))
+  .filter(({ count }) => page.currentPage === 1 || count > (page.currentPage - 1) * 8)
+  .map(({ lang: language, href }) => ({ lang: language, href }));
 ---
 
 <Layout
@@ -31,7 +33,6 @@ if (page.currentPage === 1 || otherCount > (page.currentPage - 1) * 8)
   path={path}
   section="posts"
   alternates={alternates}
-  alternateHref={localePath(other, "posts/")}
 >
   <header class="page-heading">
     <p class="eyebrow">Toward Less</p><h1>{t.articles}</h1><p>{t.archiveDescription}</p><a
@@ -50,7 +51,7 @@ if (page.currentPage === 1 || otherCount > (page.currentPage - 1) * 8)
   }
   {
     page.lastPage > 1 && (
-      <nav class="pagination" aria-label={lang === "vi" ? "Phân trang" : "Pagination"}>
+      <nav class="pagination" aria-label={t.pagination}>
         {page.url.prev ? (
           <a rel="prev" href={page.url.prev}>
             ← {t.previous}

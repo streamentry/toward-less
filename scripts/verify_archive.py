@@ -20,7 +20,7 @@ class Page(HTMLParser):
         self.h1s = 0
         self.json_ld = []
         self.alternates = {}
-        self.language_switch = None
+        self.language_links = {}
         self.lang = None
         self.capture = False
         self.buffer = []
@@ -34,8 +34,8 @@ class Page(HTMLParser):
             self.author = attrs.get("content")
         if tag == "link" and attrs.get("hreflang"):
             self.alternates[attrs["hreflang"]] = attrs.get("href", "")
-        if tag == "a" and "data-language-switch" in attrs:
-            self.language_switch = attrs.get("href", "")
+        if tag == "a" and "data-language-choice" in attrs:
+            self.language_links[attrs.get("data-language", "")] = attrs.get("href", "")
         if tag == "script" and attrs.get("type") == "application/ld+json":
             self.capture = True
             self.buffer = []
@@ -78,7 +78,7 @@ for slugs, date, author, author_type, source in expected:
         published_metadata = datetime.fromisoformat(data["datePublished"].replace("Z", "+00:00"))
         assert published_metadata.astimezone(LOCAL_TIME).date().isoformat() == date, route
         assert source in text, f"Missing source link: {route}"
-        assert page.language_switch == other_route, f"Language switch must open the counterpart: {route}"
+        assert page.language_links.get(other) == other_route, f"Language menu must open the counterpart: {route}"
         for alternate_lang, alternate_slug in slugs.items():
             target = f"{BASE}/{alternate_lang}/posts/{alternate_slug}/"
             assert urlsplit(page.alternates.get(alternate_lang, "")).path == target, f"Wrong hreflang for {route}: {alternate_lang}"

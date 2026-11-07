@@ -1,8 +1,12 @@
-# Writing in English and Vietnamese
+# Writing in 18 languages
+
+Supported languages and content directory codes: English `en`, Vietnamese `vi`, Mandarin Chinese in Simplified script `zh`, Hindi `hi`, Spanish `es`, Modern Standard Arabic `ar`, French `fr`, Bengali `bn`, Portuguese `pt`, Indonesian `id`, Urdu `ur`, Japanese `ja`, Korean `ko`, Thai `th`, Malay `ms`, Russian `ru`, Marathi `mr`, and Persian `fa`. “Iranian” is treated as Persian; “Malaysian” is treated as Malay.
+
+Unless the user narrows the request, create each new authored post in all 18 languages. Give every edition natural, idiomatic prose; translate meaning rather than sentence structure. Keep the same `translationKey` across editions, while titles, descriptions, slugs, and publication dates may differ. Start editions as drafts until they have been reviewed for meaning, names, facts, script rendering, and direction. A translation may remain a draft while an existing edition stays published; the site never auto-translates or auto-publishes.
 
 ## Create an article
 
-Create `src/content/posts/en/my-article.md`:
+Create one file per language, for example `src/content/posts/en/my-article.md`:
 
 ```yaml
 ---
@@ -20,7 +24,7 @@ tags: [technology]
 
 Write ordinary Markdown below the front matter. MDX is available when an interactive explanation needs it. Do not use MDX merely for styling prose.
 
-## Add a translation
+## Translation frontmatter
 
 Create `src/content/posts/vi/mot-quan-sat.md`:
 
@@ -37,14 +41,14 @@ tags: [technology]
 ---
 ```
 
-Keep **the same translationKey**, but translate the title, description, body and optionally the slug. Publication dates may differ. One published version does not force the other to publish. The site does not automatically translate content.
+Keep **the same translationKey** in all 18 editions, but translate the title, description, and body, and give each edition a natural ASCII slug. Publication dates may differ. The site does not automatically translate content.
 
 ## Voice and editing
 
 Write from a specific question, observation, example or argument. A short post is fine; it does not need a statement of philosophy at the beginning or a life lesson at the end.
 
 - Keep first-person statements grounded in what the author has actually said or experienced. Never invent anecdotes, family details, quotations, spiritual experiences or claims of attainment to make a draft sound personal. Do not publish private conversation details without permission.
-- In Vietnamese, translate the meaning rather than the English sentence structure. Use familiar wording and read the result aloud. Keep technical or Buddhist terms where they add precision; explain them when the reader needs it.
+- Translate the meaning rather than the English sentence structure. Use familiar wording in each language and have a fluent reader review sensitive or literary prose. Keep technical or Buddhist terms where they add precision; explain them when readers need it.
 - Cut repeated statements about being thoughtful, humble, useful or clear. Retain specific uncertainty, evidence and corrections. Do not add a slogan, rhetorical contrast or metaphor to every section.
 - Interface text should explain the state or action: "Chưa có bài viết." is enough. Error messages and footers do not need life advice.
 
@@ -60,11 +64,11 @@ The filename is organizational; `slug` determines the public URL. Slugs and tag 
 
 ## Topics
 
-Built-in topic identifiers: `technology`, `life`, `practice`. Their English/Vietnamese labels live in `src/i18n.ts`. Additional tag IDs work automatically; add translated labels there to avoid exposing raw identifiers.
+Built-in topic identifiers: `technology`, `life`, `practice`. Their localized labels live in `src/i18n.ts`. Additional tag IDs work automatically; add translated labels there to avoid exposing raw identifiers.
 
 ## Check before publishing
 
-Run `pnpm build && pnpm verify`, then `pnpm preview`. Check the article in both themes and at mobile width. Test the translation link, code blocks, diacritics, and external sources. Search needs the production build and includes published articles and the About page. Reading-time labels are approximate.
+Run `pnpm build && pnpm verify`, then `pnpm preview`. Check all 18 language routes, both themes, mobile width, and RTL behavior for Arabic, Urdu, and Persian. Test translation links, code blocks, diacritics, and external sources. Search needs the production build and includes published articles and the About page. Reading-time labels are approximate.
 
 The two introductory articles are unpublished starter drafts, not imported historical writing. They duplicate the About page and do not need to be published. An empty article list is supported; do not publish placeholders just to satisfy a test or fill the homepage.
 

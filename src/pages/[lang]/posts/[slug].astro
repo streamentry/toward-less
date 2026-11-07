@@ -2,7 +2,7 @@
 import { render } from "astro:content";
 import Layout from "../../../layouts/Layout.astro";
 import { getPosts, postPath, dateLabel, readingMinutes, type Post } from "../../../lib/posts";
-import { ui, localePath, otherLanguage, tagLabel } from "../../../i18n";
+import { ui, languageTags, localePath, tagLabel } from "../../../i18n";
 import { AUTHOR } from "../../../site";
 export async function getStaticPaths() {
   const posts = await getPosts();
@@ -19,7 +19,6 @@ const { lang } = post.data;
 const t = ui[lang];
 const { Content, headings } = await render(post);
 const toc = headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
-const translated = translations.find((item) => item.data.lang !== lang);
 const alternates = translations.map((item) => ({ lang: item.data.lang, href: postPath(item) }));
 const canonical = new URL(postPath(post), Astro.site).href;
 const structuredData = {
@@ -27,7 +26,7 @@ const structuredData = {
   "@type": "BlogPosting",
   headline: post.data.title,
   description: post.data.description,
-  inLanguage: lang,
+  inLanguage: languageTags[lang],
   datePublished: post.data.pubDatetime.toISOString(),
   dateModified: (post.data.modDatetime ?? post.data.pubDatetime).toISOString(),
   author: {
@@ -50,7 +49,6 @@ const structuredData = {
   author={post.data.author}
   section="posts"
   alternates={alternates}
-  alternateHref={translated ? postPath(translated) : localePath(otherLanguage(lang))}
   article
 >
   <Fragment slot="head"
@@ -95,8 +93,8 @@ const structuredData = {
             {t.translated}:{" "}
             <a
               href={postPath(translated)}
-              lang={translated.data.lang}
-              hreflang={translated.data.lang}
+              lang={languageTags[translated.data.lang]}
+              hreflang={languageTags[translated.data.lang]}
             >
               {ui[translated.data.lang].language}
             </a>
@@ -122,7 +120,7 @@ const structuredData = {
     }
     <div class="prose"><Content /></div>
   </article>
-  <nav class="article-end" aria-label={lang === "vi" ? "Sau bài viết" : "After the article"}>
+  <nav class="article-end" aria-label={t.afterArticle}>
     <a href={localePath(lang, "posts/")}>← {t.back}</a><a href={localePath(lang, "rss.xml")}
       >{t.rss}</a>
   </nav>

@@ -14,6 +14,18 @@
   --ui: var(--font-interface, system-ui), sans-serif;
   --reading: var(--font-reading, Georgia), serif;
 }
+
+/* Use native script fonts where the site's Latin/Vietnamese web fonts have no glyphs. */
+html[lang="zh-Hans"] { --font-reading: "Noto Serif SC", "Songti SC", serif; --font-interface: "Noto Sans SC", "PingFang SC", sans-serif; }
+html[lang="ja"] { --font-reading: "Noto Serif JP", "Yu Mincho", serif; --font-interface: "Noto Sans JP", "Yu Gothic", sans-serif; }
+html[lang="ko"] { --font-reading: "Noto Serif KR", "Batang", serif; --font-interface: "Noto Sans KR", "Malgun Gothic", sans-serif; }
+html[lang="hi"], html[lang="mr"] { --font-reading: "Noto Serif Devanagari", "Nirmala UI", serif; --font-interface: "Noto Sans Devanagari", "Nirmala UI", sans-serif; }
+html[lang="bn"] { --font-reading: "Noto Serif Bengali", "Nirmala UI", serif; --font-interface: "Noto Sans Bengali", "Nirmala UI", sans-serif; }
+html[lang="th"] { --font-reading: "Noto Serif Thai", serif; --font-interface: "Noto Sans Thai", sans-serif; }
+html[lang="ar"] { --font-reading: "Noto Naskh Arabic", "Amiri", serif; --font-interface: "Noto Sans Arabic", sans-serif; }
+html[lang="ur"] { --font-reading: "Noto Nastaliq Urdu", "Noto Naskh Arabic", serif; --font-interface: "Noto Naskh Arabic", sans-serif; }
+html[lang="fa"] { --font-reading: "Noto Naskh Arabic", "Vazirmatn", serif; --font-interface: "Noto Sans Arabic", sans-serif; }
+html[lang="ru"] { --font-reading: "Noto Serif", "Georgia", serif; --font-interface: "Be Vietnam Pro", "Arial", sans-serif; }
 :root[data-theme="dark"] {
   color-scheme: dark;
   --paper: #171c19;
@@ -127,7 +139,7 @@ p {
   position: fixed;
   z-index: 100;
   top: 1rem;
-  left: 1rem;
+  inset-inline-start: 1rem;
   transform: translateY(-200%);
   background: var(--paper);
   padding: 0.75rem 1rem;
@@ -158,7 +170,7 @@ p {
   white-space: nowrap;
   color: var(--ink);
   text-decoration: none;
-  margin-right: auto;
+  margin-inline-end: auto;
 }
 .brand-mark {
   flex: none;
@@ -188,13 +200,55 @@ p {
   align-items: center;
   gap: 0.65rem;
 }
-.language-switch {
+.language-menu {
+  position: relative;
   display: flex;
   align-items: center;
   min-height: 44px;
-  white-space: nowrap;
   font-size: 0.8rem;
+}
+.language-menu summary {
+  cursor: pointer;
+  list-style: none;
+  white-space: nowrap;
+}
+.language-menu summary::-webkit-details-marker { display: none; }
+.language-menu summary::after { content: "⌄"; margin-inline-start: 0.35rem; }
+.language-menu nav {
+  position: absolute;
+  z-index: 20;
+  inset-block-start: calc(100% + 0.35rem);
+  inset-inline-end: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(8rem, 1fr));
+  gap: 0.1rem;
+  width: min(22rem, calc(100vw - 2rem));
+  max-height: min(70vh, 32rem);
+  overflow-y: auto;
+  padding: 0.5rem;
+  border: 1px solid var(--line);
+  border-radius: 0.65rem;
+  background: var(--paper);
+  box-shadow: 0 0.8rem 2.5rem rgb(0 0 0 / 14%);
+}
+.language-menu nav a {
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  padding-inline: 0.65rem;
+  border-radius: 0.35rem;
   text-decoration: none;
+}
+.language-menu nav a:hover,
+.language-menu nav a[aria-current="page"] { background: var(--surface); }
+.language-menu:not([open]) nav { display: none; }
+.language-menu[open] nav { display: grid; }
+.language-menu summary:focus-visible,
+.language-menu nav a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+/* Keep the dropdown inside narrow screens and leave document direction to the locale. */
+html[dir="rtl"] .language-menu nav { inset-inline-end: 0; }
+@media (max-width: 38rem) {
+  .language-menu nav { grid-template-columns: 1fr; width: min(15rem, calc(100vw - 2rem)); }
 }
 .theme-toggle {
   border: 0;
@@ -253,7 +307,7 @@ p {
 }
 .subject-line span + span::before {
   content: "/";
-  margin-right: 0.8rem;
+  margin-inline-end: 0.8rem;
   color: var(--line);
 }
 .section-heading {
@@ -405,14 +459,14 @@ p {
   color: var(--muted);
 }
 .toc ol {
-  padding-left: 1.3rem;
+  padding-inline-start: 1.3rem;
   margin-bottom: 0.25rem;
 }
 .toc li {
   padding-block: 0.15rem;
 }
 .toc li[data-depth="3"] {
-  margin-left: 1rem;
+  margin-inline-start: 1rem;
 }
 .prose {
   font-family: var(--reading);
@@ -434,11 +488,11 @@ p {
 }
 .prose ul,
 .prose ol {
-  padding-left: 1.5rem;
+  padding-inline-start: 1.5rem;
   margin: 1.2rem 0 1.7rem;
 }
 .prose li {
-  padding-left: 0.2rem;
+  padding-inline-start: 0.2rem;
   margin-block: 0.5rem;
 }
 .prose li::marker {
@@ -448,7 +502,7 @@ p {
   font-weight: 650;
 }
 .prose blockquote {
-  border-left: 2px solid var(--accent);
+  border-inline-start: 2px solid var(--accent);
   margin: 2rem 0;
   padding: 0.25rem 0 0.25rem 1.5rem;
   color: var(--muted);
@@ -508,7 +562,7 @@ p {
 }
 .prose th,
 .prose td {
-  text-align: left;
+  text-align: start;
   padding: 0.7rem 1rem;
   border-bottom: 1px solid var(--line);
   vertical-align: top;
@@ -556,7 +610,7 @@ p {
 .note {
   padding: 1rem 1.2rem;
   background: var(--surface);
-  border-left: 2px solid var(--accent);
+  border-inline-start: 2px solid var(--accent);
   font-size: 0.85rem;
 }
 .site-footer {

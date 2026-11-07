@@ -10,6 +10,10 @@ ROOT = Path("dist")
 BASE = os.environ.get("BASE_PATH", "/toward-less").rstrip("/")
 HOST = urlsplit(os.environ.get("SITE_URL", "https://streamentry.github.io")).netloc
 errors = []
+LANGS = ("en", "vi", "zh", "hi", "es", "ar", "fr", "bn", "pt", "id", "ur", "ja", "ko", "th", "ms", "ru", "mr", "fa")
+HTML_LANG = {"zh": "zh-Hans"}
+LANG_TAGS = {lang: HTML_LANG.get(lang, lang) for lang in LANGS}
+TAG_TO_LANG = {tag: lang for lang, tag in LANG_TAGS.items()}
 
 class Document(HTMLParser):
     def __init__(self):
@@ -42,7 +46,7 @@ for file in ROOT.rglob("*.html"):
 for file, doc in documents.items():
     relative = file.relative_to(ROOT).as_posix()
     if relative == "index.html": continue  # Static redirect.
-    if doc.lang not in ("en", "vi"): errors.append(f"{relative}: missing/invalid html lang")
+    if doc.lang not in TAG_TO_LANG.values(): errors.append(f"{relative}: missing/invalid html lang")
     if doc.h1s != 1: errors.append(f"{relative}: expected one h1, got {doc.h1s}")
     if not doc.canonical or not doc.canonical.startswith(f"https://{HOST}{BASE}/"):
         errors.append(f"{relative}: incorrect canonical {doc.canonical}")
@@ -61,13 +65,14 @@ for file, doc in documents.items():
         if not target.exists(): errors.append(f"{relative}: broken local URL: {url}")
     for lang, url in doc.alternates:
         path = urlsplit(url).path
-        if lang in ("en", "vi") and f"{BASE}/{lang}/" not in path: errors.append(f"{relative}: incorrect hreflang {lang}: {url}")
+        route_lang = TAG_TO_LANG.get(lang)
+        if route_lang and f"{BASE}/{route_lang}/" not in path: errors.append(f"{relative}: incorrect hreflang {lang}: {url}")
 
-for lang in ("en", "vi"):
+for lang in LANGS:
     for route in ("index.html", "about/index.html", "posts/index.html", "search/index.html", "tags/index.html", "rss.xml"):
         if not (ROOT / lang / route).is_file(): errors.append(f"Missing {lang}/{route}")
     feed = ET.parse(ROOT / lang / "rss.xml").getroot()
-    if feed.findtext("./channel/language") != lang: errors.append(f"Wrong RSS language: {lang}")
+    if feed.findtext("./channel/language") != LANG_TAGS[lang]: errors.append(f"Wrong RSS language: {lang}")
     for item in feed.findall("./channel/item"):
         if f"{BASE}/{lang}/posts/" not in item.findtext("link", ""): errors.append(f"Wrong RSS item language/base: {lang}")
     for route in ("search/index.html", "style-guide/index.html"):
@@ -82,13 +87,18 @@ sitemap_root = ET.parse(ROOT / "sitemap.xml").getroot()
 sitemap_ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9", "xhtml": "http://www.w3.org/1999/xhtml"}
 sitemap_urls = sitemap_root.findall("sm:url", sitemap_ns)
 sitemap_locations = [url.findtext("sm:loc", namespaces=sitemap_ns) or "" for url in sitemap_urls]
-for lang in ("en", "vi"):
-    if not any(f"{BASE}/{lang}/posts/" in location for location in sitemap_locations):
-        errors.append(f"Sitemap has no {lang} article URLs")
+for lang in LANGS:
+    article_dir = ROOT / lang / "posts"
+    has_published_article = article_dir.is_dir() and any(
+        route.is_dir() and (route / "index.html").is_file() for route in article_dir.iterdir()
+    )
+    has_sitemap_article = any(f"{BASE}/{lang}/posts/" in location for location in sitemap_locations)
+    if has_published_article != has_sitemap_article:
+        errors.append(f"Sitemap publication mismatch for {lang}")
 for url in sitemap_urls:
     alternates = url.findall("xhtml:link", sitemap_ns)
     for alternate in alternates:
-        if alternate.get("hreflang") not in ("en", "vi"):
+        if alternate.get("hreflang") not in TAG_TO_LANG:
             errors.append(f"Invalid sitemap language alternate: {alternate.get('hreflang')}")
 for html in ROOT.rglob("*.html"):
     if "NEVER_PUBLISH_THIS" in html.read_text(encoding="utf-8"): errors.append(f"Draft/future fixture leaked: {html}")
@@ -100,7 +110,7 @@ for source in Path("src/content/posts").rglob("*"):
     if source.suffix not in (".md", ".mdx"): continue
     front = re.match(r"\A---\s*\n(.*?)\n---(?:\n|$)", source.read_text(encoding="utf-8"), re.S)
     if not front or not re.search(r"^draft:\s*true\s*(?:#.*)?$", front[1], re.M): continue
-    lang = re.search(r"^lang:\s*['\"]?(en|vi)['\"]?\s*$", front[1], re.M)
+    lang = re.search(r"^lang:\s*['\"]?(" + "|".join(LANGS) + r")['\"]?\s*$", front[1], re.M)
     slug = re.search(r"^slug:\s*['\"]?([a-z][a-z0-9-]*)['\"]?\s*$", front[1], re.M)
     if not lang or not slug:
         errors.append(f"Draft metadata could not be checked: {source}")

@@ -1,8 +1,7 @@
 ---
-import { localePath } from "../i18n";
-
-const enHref = localePath("en");
-const viHref = localePath("vi");
+import { languages, languageNames, languageTags, localePath } from "../i18n";
+const languageCodes = languages;
+const links = languages.map((lang) => ({ name: languageNames[lang], lang, tag: languageTags[lang], href: localePath(lang) }));
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 
@@ -14,11 +13,10 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
     <meta name="viewport" content="width=device-width" />
     <meta name="robots" content="noindex,follow" />
     <title>Toward Less</title>
-    <link rel="alternate" hreflang="en" href={enHref} />
-    <link rel="alternate" hreflang="vi" href={viHref} />
-    <script is:inline define:vars={{ base }}>
+    {links.map((link) => <link rel="alternate" hreflang={link.tag} href={link.href} />)}
+    <script is:inline define:vars={{ base, languageCodes }}>
       (() => {
-        const supported = new Set(["en", "vi"]);
+        const supported = new Set(languageCodes);
         let preferred = null;
 
         try {
@@ -66,11 +64,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
   <body>
     <main>
       <h1>Toward Less</h1>
-      <p>
-        <a href={enHref}>English</a>
-        <span aria-hidden="true"> · </span>
-        <a href={viHref} lang="vi">Tiếng Việt</a>
-      </p>
+      <nav aria-label="Choose language">
+        <ul>{links.map((link) => <li><a href={link.href} lang={link.tag} hreflang={link.tag}>{link.name}</a></li>)}</ul>
+      </nav>
     </main>
   </body>
 </html>

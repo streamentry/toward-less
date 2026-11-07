@@ -43,19 +43,19 @@ A restrained masthead; single-column hero; recent-writing list; article pages wi
 
 ## Components
 
-`Header.astro`: brand, three navigation links, language switch, theme preference.  
+`Header.astro`: brand, three navigation links, a language menu, theme preference.
 `PostCard.astro`: date, title, short description and linked topics.  
 `Layout.astro`: metadata, canonical and hreflang, font assets, document language, skip link and landmarks.  
 `Footer.astro`: author, RSS, source and upstream credit.
 
 ## Language behaviour
 
-English lives under `/en/`, Vietnamese under `/vi/`, after the configured base path. At the root only, an explicitly saved language choice wins; otherwise the site selects the first supported language in the browser’s preference order and falls back to English. Direct `/en/…` and `/vi/…` URLs are never auto-redirected. No IP geolocation, flags, or automatic machine translation.
+All 18 interface locales live under their language-code routes after the configured base path. At the root only, an explicitly saved language choice wins; otherwise the site selects the first supported language in the browser’s preference order and falls back to English. Direct locale URLs are never auto-redirected. Arabic, Urdu, and Persian use right-to-left document direction. No IP geolocation, flags, or automatic machine translation.
 
-Article translations share `translationKey`. Each language can have a natural, stable ASCII slug. The header switches to the exact translated article when one is published; otherwise it links to the other language's home page. A missing translation is never silently represented as translated content. Hreflang links only describe pages that exist. Search indexes and RSS feeds stay separate by language. Use `Intl.DateTimeFormat` with Asia/Ho_Chi_Minh for visible dates.
+Article translations share `translationKey`. Each language can have a natural, stable ASCII slug. The language menu switches to an exact published translation when available; otherwise it links to that language’s home page. A missing translation is never represented as translated content. Hreflang links only describe pages that exist. Search indexes and RSS feeds stay separate by language. Use `Intl.DateTimeFormat` with Asia/Ho_Chi_Minh for visible dates.
 
 ## Interaction and accessibility
 
 Theme preference cycles System → Light → Dark → System and survives a reload. Blocked localStorage must not break reading. Respect reduced motion. Preserve a visible keyboard focus indicator. The article remains usable without JavaScript. Search provides a browse-articles fallback.
 
-Verify desktop and 320/390px layouts in both languages, light and dark, and a long Vietnamese heading. Use the non-indexed `/en/style-guide/` and `/vi/style-guide/` pages to inspect diacritics, Pāli, code, tables and links. Browser checks and axe run in CI; they supplement, not replace, human accessibility review.
+Verify desktop and 320/390px layouts across the 18 locales, light and dark, and representative long headings. Check CJK, Indic, Thai, Cyrillic, Arabic and Latin glyph fallback, plus right-to-left layouts. Use the non-indexed style-guide routes to inspect diacritics, Pāli, code, tables and links. Browser checks and axe run in CI; they supplement, not replace, human accessibility review.

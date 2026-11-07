@@ -1,6 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { localePath } from "../i18n";
+import { languages, languageNames, languageTags, localePath } from "../i18n";
 ---
 
 <Layout lang="en" title="Page not found" noindex>
@@ -10,9 +10,7 @@ import { localePath } from "../i18n";
     </p>
   </header>
   <p><a href={localePath("en")}>Return home</a></p>
-  <section lang="vi">
-    <h2>Không tìm thấy trang này.</h2><p>
-      Địa chỉ có thể đã thay đổi. <a href={localePath("vi")}>Trở về trang chủ tiếng Việt.</a>
-    </p>
-  </section>
+  <nav aria-label="Choose language">
+    <ul>{languages.map((language) => <li><a href={localePath(language)} lang={languageTags[language]}>{languageNames[language]}</a></li>)}</ul>
+  </nav>
 </Layout>

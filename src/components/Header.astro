@@ -1,13 +1,14 @@
 ---
 import Mark from "./Mark.astro";
-import { ui, localePath, otherLanguage, type Lang } from "../i18n";
+import { ui, languages, languageNames, languageTags, localePath, type Lang } from "../i18n";
 interface Props {
   lang: Lang;
   section?: string;
-  alternateHref?: string;
+  alternates?: { lang: Lang; href: string }[];
 }
-const { lang, section = "", alternateHref = localePath(otherLanguage(lang)) } = Astro.props;
+const { lang, section = "", alternates = [] } = Astro.props;
 const t = ui[lang];
+const alternateMap = new Map(alternates.map((alternate) => [alternate.lang, alternate.href]));
 ---
 
 <header class="masthead" data-pagefind-ignore>
@@ -27,13 +28,23 @@ const t = ui[lang];
       >
     </nav>
     <div class="header-tools">
-      <a
-        class="language-switch"
-        data-language-switch
-        href={alternateHref}
-        lang={otherLanguage(lang)}
-        hreflang={otherLanguage(lang)}>{t.other}</a
-      >
+      <details class="language-menu">
+        <summary aria-label={t.languageMenu}>{languageNames[lang]}</summary>
+        <nav aria-label={t.languageMenu}>
+          {languages.map((language) => (
+            <a
+              href={alternateMap.get(language) ?? localePath(language)}
+              lang={languageTags[language]}
+              hreflang={languageTags[language]}
+              aria-current={language === lang ? "page" : undefined}
+              data-language-choice
+              data-language={language}
+            >
+              {languageNames[language]}
+            </a>
+          ))}
+        </nav>
+      </details>
       <button
         id="theme-toggle"
         class="theme-toggle"
@@ -57,10 +68,10 @@ const t = ui[lang];
 
 
 <script is:inline>
-  for (const link of document.querySelectorAll("[data-language-switch]")) {
+  for (const link of document.querySelectorAll("[data-language-choice]")) {
     link.addEventListener("click", () => {
-      const language = link.getAttribute("hreflang");
-      if (language !== "en" && language !== "vi") return;
+      const language = link.getAttribute("data-language");
+      if (!language) return;
 
       try {
         localStorage.setItem("toward-less-language", language);
