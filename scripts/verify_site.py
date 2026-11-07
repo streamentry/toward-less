@@ -54,6 +54,9 @@ for file, doc in documents.items():
         parsed = urlsplit(url)
         if parsed.scheme in ("mailto", "tel", "data", "javascript"): continue
         if parsed.netloc and parsed.netloc != HOST: continue
+        # The host serves multiple GitHub Pages projects; an absolute same-host
+        # URL outside this site's base path points to a sibling project.
+        if parsed.netloc == HOST and parsed.path and not parsed.path.startswith(BASE + "/"): continue
         if not parsed.path:
             if parsed.fragment and unquote(parsed.fragment) not in doc.ids: errors.append(f"{relative}: missing anchor {url}")
             continue
