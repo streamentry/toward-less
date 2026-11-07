@@ -19,6 +19,7 @@ const { lang } = post.data;
 const t = ui[lang];
 const { Content, headings } = await render(post);
 const toc = headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
+const translated = translations.find((item) => item.data.lang !== lang);
 const alternates = translations.map((item) => ({ lang: item.data.lang, href: postPath(item) }));
 const canonical = new URL(postPath(post), Astro.site).href;
 const structuredData = {
