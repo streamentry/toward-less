@@ -67,4 +67,4 @@ Parfois, la réponse n'est pas de forcer davantage de la même manière.
 
 C'est de trouver une meilleure manière.
 
-*Note : témoignage personnel, non conseil médical. Sources : [OMS — Recommandations pour l'arrêt du tabac (2024)](https://www.who.int/news/item/02-07-2024-who-releases-first-ever-clinical-treatment-guideline-for-tobacco-cessation-in-adults), [Cochrane — Données sur la cytisine](https://www.cochrane.org/evidence/CD006103_can-medications-varenicline-and-cytisine-nicotine-receptor-partial-agonists-help-people-stop-smoking), [information et mises en garde sur la cytisine](https://ndi.fda.moph.go.th/uploads/drug_detail_corporation/doc/word/1163/bc25678669167a107cc6793faa1fbc17-a1.pdf).*
+*Note : témoignage personnel, non conseil médical. Sources : [OMS — Recommandations pour l'arrêt du tabac (2024)](https://www.who.int/news/item/02-07-2024-who-releases-first-ever-clinical-treatment-guideline-for-tobacco-cessation-in-adults), [Cochrane — Données sur la cytisine](https://www.cochrane.org/evidence/CD006103_can-medications-varenicline-and-cytisine-nicotine-receptor-partial-agonists-help-people-stop-smoking).*

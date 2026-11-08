@@ -67,6 +67,15 @@ for path in sorted(ROOT.rglob("*")):
             "nationaltrust.org.uk/", "britishmuseum.org/", "filmsandfestivals.britishcouncil.org/"
         )):
             errors.append(f"{path}: The Dig must retain its three historical and film sources")
+    if published and key == "chatgpt-tabex-90-days-2026":
+        if len(re.findall(r"(?m)^##\s+", body)) != 4:
+            errors.append(f"{path}: Smoking-cessation account must have four sections")
+        if any(source not in body for source in (
+            "who.int/news/item/", "cochrane.org/evidence/"
+        )):
+            errors.append(f"{path}: Missing WHO or Cochrane evidence sources")
+        if "Tabex" not in body or "cytisine" not in body.lower():
+            errors.append(f"{path}: Missing Tabex/cytisine treatment context")
     if published and key == "wanting-to-read-proust-2026":
         if len(re.split(r"\n\s*\n", body.strip())) < 10:
             errors.append(f"{path}: Proust must retain the full essay, not a short summary")

@@ -67,4 +67,4 @@ Cytisine có tác dụng phụ, chống chỉ định và những giới hạn v
 
 Đôi khi ta cần tìm một cách tốt hơn.
 
-*Ghi chú: Đây là trải nghiệm cá nhân, không phải tư vấn y khoa. Tài liệu kiểm chứng: [WHO — Hướng dẫn điều trị cai thuốc lá (2024)](https://www.who.int/news/item/02-07-2024-who-releases-first-ever-clinical-treatment-guideline-for-tobacco-cessation-in-adults); [Cochrane — bằng chứng về cytisine](https://www.cochrane.org/evidence/CD006103_can-medications-varenicline-and-cytisine-nicotine-receptor-partial-agonists-help-people-stop-smoking); [thông tin thuốc và cảnh báo về cytisine](https://ndi.fda.moph.go.th/uploads/drug_detail_corporation/doc/word/1163/bc25678669167a107cc6793faa1fbc17-a1.pdf).*
+*Ghi chú: Đây là trải nghiệm cá nhân, không phải tư vấn y khoa. Tài liệu kiểm chứng: [WHO — Hướng dẫn điều trị cai thuốc lá (2024)](https://www.who.int/news/item/02-07-2024-who-releases-first-ever-clinical-treatment-guideline-for-tobacco-cessation-in-adults); [Cochrane — bằng chứng về cytisine](https://www.cochrane.org/evidence/CD006103_can-medications-varenicline-and-cytisine-nicotine-receptor-partial-agonists-help-people-stop-smoking).*

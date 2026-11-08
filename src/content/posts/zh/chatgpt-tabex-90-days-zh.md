@@ -67,4 +67,4 @@ Cytisine 有副作用和禁忌证，不同国家对它的审批也不同。AI �
 
 而是找到一条更好的路。
 
-*说明：本文是个人经历，不构成医疗建议。资料：[WHO — 2024年戒烟治疗指南](https://www.who.int/news/item/02-07-2024-who-releases-first-ever-clinical-treatment-guideline-for-tobacco-cessation-in-adults)、[Cochrane — cytisine 的证据](https://www.cochrane.org/evidence/CD006103_can-medications-varenicline-and-cytisine-nicotine-receptor-partial-agonists-help-people-stop-smoking)、[cytisine 药品信息与警示](https://ndi.fda.moph.go.th/uploads/drug_detail_corporation/doc/word/1163/bc25678669167a107cc6793faa1fbc17-a1.pdf)。*
+*说明：本文是个人经历，不构成医疗建议。资料：[WHO — 2024年戒烟治疗指南](https://www.who.int/news/item/02-07-2024-who-releases-first-ever-clinical-treatment-guideline-for-tobacco-cessation-in-adults)、[Cochrane — cytisine 的证据](https://www.cochrane.org/evidence/CD006103_can-medications-varenicline-and-cytisine-nicotine-receptor-partial-agonists-help-people-stop-smoking)。*

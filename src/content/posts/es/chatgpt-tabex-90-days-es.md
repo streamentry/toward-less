@@ -67,4 +67,4 @@ A veces no necesitamos esforzarnos más siguiendo exactamente el mismo camino.
 
 A veces necesitamos encontrar uno mejor.
 
-*Nota: Es una experiencia personal, no un consejo médico. Fuentes: [OMS — Guía para dejar el tabaco (2024)](https://www.who.int/news/item/02-07-2024-who-releases-first-ever-clinical-treatment-guideline-for-tobacco-cessation-in-adults); [Cochrane — Pruebas sobre citisina](https://www.cochrane.org/evidence/CD006103_can-medications-varenicline-and-cytisine-nicotine-receptor-partial-agonists-help-people-stop-smoking); [información y advertencias del medicamento](https://ndi.fda.moph.go.th/uploads/drug_detail_corporation/doc/word/1163/bc25678669167a107cc6793faa1fbc17-a1.pdf).*
+*Nota: Es una experiencia personal, no un consejo médico. Fuentes: [OMS — Guía para dejar el tabaco (2024)](https://www.who.int/news/item/02-07-2024-who-releases-first-ever-clinical-treatment-guideline-for-tobacco-cessation-in-adults); [Cochrane — Pruebas sobre citisina](https://www.cochrane.org/evidence/CD006103_can-medications-varenicline-and-cytisine-nicotine-receptor-partial-agonists-help-people-stop-smoking).*

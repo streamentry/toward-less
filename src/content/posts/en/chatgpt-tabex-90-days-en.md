@@ -67,4 +67,4 @@ Sometimes the answer is not to try harder in exactly the same way.
 
 Sometimes it is to find a better way.
 
-*Note: This is a personal account, not medical advice. Sources: [WHO — Tobacco cessation treatment guideline (2024)](https://www.who.int/news/item/02-07-2024-who-releases-first-ever-clinical-treatment-guideline-for-tobacco-cessation-in-adults); [Cochrane — Evidence on cytisine](https://www.cochrane.org/evidence/CD006103_can-medications-varenicline-and-cytisine-nicotine-receptor-partial-agonists-help-people-stop-smoking); [cytisine product information and warnings](https://ndi.fda.moph.go.th/uploads/drug_detail_corporation/doc/word/1163/bc25678669167a107cc6793faa1fbc17-a1.pdf).*
+*Note: This is a personal account, not medical advice. Sources: [WHO — Tobacco cessation treatment guideline (2024)](https://www.who.int/news/item/02-07-2024-who-releases-first-ever-clinical-treatment-guideline-for-tobacco-cessation-in-adults); [Cochrane — Evidence on cytisine](https://www.cochrane.org/evidence/CD006103_can-medications-varenicline-and-cytisine-nicotine-receptor-partial-agonists-help-people-stop-smoking).*
