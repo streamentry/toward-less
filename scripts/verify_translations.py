@@ -60,6 +60,13 @@ for path in sorted(ROOT.rglob("*")):
     if published and key == "perfect-days-simple-life-2026":
         if len(re.findall(r"(?m)^##\s+", body)) < 4:
             errors.append(f"{path}: Perfect Days must have all four sections")
+    if published and key == "the-dig-what-remains-2026":
+        if len(re.findall(r"(?m)^##\\s+", body)) != 4:
+            errors.append(f"{path}: The Dig must preserve all four sections")
+        if any(source not in body for source in (
+            "nationaltrust.org.uk/", "britishmuseum.org/", "filmsandfestivals.britishcouncil.org/"
+        )):
+            errors.append(f"{path}: The Dig must retain its three historical and film sources")
     if published and key == "wanting-to-read-proust-2026":
         if len(re.split(r"\n\s*\n", body.strip())) < 10:
             errors.append(f"{path}: Proust must retain the full essay, not a short summary")

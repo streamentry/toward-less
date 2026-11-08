@@ -6,7 +6,7 @@ lang: en
 slug: the-dig-what-remains-en
 translationKey: the-dig-what-remains-2026
 pubDatetime: 2026-11-08T14:40:00+07:00
-draft: true
+draft: false
 featured: false
 tags: [life]
 ---

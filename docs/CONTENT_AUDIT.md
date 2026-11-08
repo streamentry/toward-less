@@ -5,16 +5,16 @@ Updated 8 November 2026. This record is about **coverage and verifiable structur
 ## Coverage
 
 - **18 supported languages:** en, vi, zh, hi, es, ar, fr, bn, pt, id, ur, ja, ko, th, ms, ru, mr, fa.
-- **17 published article families × 18 languages = 306 published editions.**
+- **18 published article families × 18 languages = 324 published editions.**
 - **2 extra unpublished introductory drafts** (en and vi), intentionally excluded because they duplicate the About page.
-- **308 Markdown files** in `src/content/posts/` at the time of this audit.
+- **326 Markdown files** in `src/content/posts/` at the time of this audit.
 - Each group shares a `translationKey`; every edition has its own globally unique slug.
 
 Published families:
 
 | Theme | Article families |
 | --- | --- |
-| Life and practice | Perfect Days; I want to read Proust; What is minimalism? (2022 archive); Time with children (2022 archive); HowToLiveBetter |
+| Life and practice | Perfect Days; The Dig; I want to read Proust; What is minimalism? (2022 archive); Time with children (2022 archive); HowToLiveBetter |
 | Buddhist scholarship and practice | Hướng Đến Nhập Lưu; Pāli translation sources; Buddhist Textual Witnesses |
 | Literature, memory, and culture | LitMundi; The Thread Seers; Saigon2Hanoi |
 | Technology and research | AGENTOWNERS; ClawPing; DBA ESG thesis; Open Problem Lab; OpenAMP Foundry; Subvox |

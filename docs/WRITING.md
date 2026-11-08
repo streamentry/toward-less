@@ -2,7 +2,7 @@
 
 Supported languages and content directory codes: English `en`, Vietnamese `vi`, Mandarin Chinese in Simplified script `zh`, Hindi `hi`, Spanish `es`, Modern Standard Arabic `ar`, French `fr`, Bengali `bn`, Portuguese `pt`, Indonesian `id`, Urdu `ur`, Japanese `ja`, Korean `ko`, Thai `th`, Malay `ms`, Russian `ru`, Marathi `mr`, and Persian `fa`. “Iranian” is treated as Persian; “Malaysian” is treated as Malay.
 
-Create substantive editions in all 18 languages for each new published article. The build requires full published coverage across all 18 languages. Give every edition natural, idiomatic prose; translate meaning rather than sentence structure and retain source claims, nuance, and references. Keep the same `translationKey` across editions, while titles, descriptions, slugs, and publication dates may differ. Publish user-authorized completed content with `draft: false`; use `draft: false` only when the user requests a draft or content is not ready. The site never auto-translates or auto-publishes.
+Create substantive editions in all 18 languages for each new published article. The build requires full published coverage across all 18 languages. Give every edition natural, idiomatic prose; translate meaning rather than sentence structure and retain source claims, nuance, and references. Keep the same `translationKey` across editions, while titles, descriptions, slugs, and publication dates may differ. Publish user-authorized completed content with `draft: false`; use `draft: true` only when the user requests a draft or content is not ready. The site never auto-translates or auto-publishes.
 
 ## Create an article
 
