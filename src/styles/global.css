@@ -640,8 +640,14 @@ html[dir="rtl"] .reading-progress {
 @supports (animation-timeline: view()) {
   .reading-progress {
     animation: reading-progress linear both;
-    animation-timeline: --article;
   }
+}
+/* NOTE: animation-timeline MUST stay a separate longhand in its own rule.
+   Lightning CSS merges animation-* longhands into the animation shorthand,
+   and a dashed-ident there is parsed as the animation NAME, not the
+   timeline — the bar silently never moved (found live 2026-11-09). */
+.reading-progress {
+  animation-timeline: --article;
 }
 @keyframes reading-progress {
   to {
