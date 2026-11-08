@@ -5,7 +5,7 @@ lang: vi
 slug: ca-phe-loang-v60-ldl-gan-nhiem-mo
 translationKey: filtered-coffee-and-health-2026
 pubDatetime: 2026-11-08T20:00:00+07:00
-draft: true
+draft: false
 featured: false
 tags: [life]
 ---
