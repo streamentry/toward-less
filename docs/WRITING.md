@@ -2,7 +2,7 @@
 
 Supported languages and content directory codes: English `en`, Vietnamese `vi`, Mandarin Chinese in Simplified script `zh`, Hindi `hi`, Spanish `es`, Modern Standard Arabic `ar`, French `fr`, Bengali `bn`, Portuguese `pt`, Indonesian `id`, Urdu `ur`, Japanese `ja`, Korean `ko`, Thai `th`, Malay `ms`, Russian `ru`, Marathi `mr`, and Persian `fa`. “Iranian” is treated as Persian; “Malaysian” is treated as Malay.
 
-Create each new authored post in all 18 languages by default. Publish user-authorized, complete editions without waiting for all 18 translations; track missing editions honestly. Give every edition natural, idiomatic prose; translate meaning rather than sentence structure. Keep the same `translationKey` across editions, while titles, descriptions, slugs, and publication dates may differ. Use draft status based on actual readiness and the user's instructions. A translation of an already-published post may remain a draft; the site never auto-translates or auto-publishes.
+Create substantive editions in all 18 languages for each new published article. The build requires full published coverage across all 18 languages. Give every edition natural, idiomatic prose; translate meaning rather than sentence structure and retain source claims, nuance, and references. Keep the same `translationKey` across editions, while titles, descriptions, slugs, and publication dates may differ. Publish user-authorized completed content with `draft: false`; use `draft: false` only when the user requests a draft or content is not ready. The site never auto-translates or auto-publishes.
 
 ## Create an article
 
@@ -16,7 +16,7 @@ lang: en
 slug: a-useful-observation
 translationKey: useful-observation-2026
 pubDatetime: 2026-10-31T09:00:00+07:00
-draft: true
+draft: false
 featured: false
 tags: [technology]
 ---
@@ -36,7 +36,7 @@ lang: vi
 slug: mot-quan-sat-huu-ich
 translationKey: useful-observation-2026
 pubDatetime: 2026-10-31T09:00:00+07:00
-draft: true
+draft: false
 tags: [technology]
 ---
 ```
@@ -84,4 +84,4 @@ Never invent first-person memories, personal experiences, family details, spirit
 
 **Full translations mean full translations.** Preserve each article's substantive claims, examples, uncertainty, sources, and conclusion in all requested languages. An abridged adaptation must be labeled as such. Keep the same translationKey and globally unique slugs. AI translation is not native-speaker review; do not claim otherwise. Missing languages are tracked honestly rather than replaced with thin summaries.
 
-When the user explicitly requests publication, publish completed and checked editions without waiting for all 18 languages; create the remaining full translations when requested. Do not default every new post to draft mode.
+When the user explicitly requests publication, create and check all 18 full-language editions before committing them as published. Do not default new posts to draft mode. If any edition is incomplete or unsafe to publish, report the blocker rather than representing an abbreviated text as a full translation.
