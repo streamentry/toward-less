@@ -147,7 +147,8 @@ const routes = languages.flatMap((lang) => [
     await page.goto(origin + base + "/");
     await page.waitForURL(origin + base + "/vi/");
     await page.locator("#theme-toggle").click(); // System -> Light.
-    await page.locator("#theme-toggle").click(); // Light -> Dark.
+    await page.locator("#theme-toggle").click(); // Light -> Sepia.
+    await page.locator("#theme-toggle").click(); // Sepia -> Dark.
     assert.equal(await page.locator("html").getAttribute("data-theme"), "dark");
     await page.reload();
     assert.equal(await page.locator("html").getAttribute("data-theme"), "dark");
