@@ -2,32 +2,40 @@
 import { render } from "astro:content";
 import Layout from "../../../layouts/Layout.astro";
 import { getPosts, postPath, dateLabel, readingMinutes, type Post } from "../../../lib/posts";
-import { ui, localePath, otherLanguage, tagLabel } from "../../../i18n";
+import { ui, languageTags, localePath, tagLabel, type Lang } from "../../../i18n";
 import { AUTHOR } from "../../../site";
+interface Alternate {
+  lang: Lang;
+  href: string;
+}
 export async function getStaticPaths() {
   const posts = await getPosts();
   return posts.map((post) => ({
     params: { lang: post.data.lang, slug: post.data.slug },
-    props: {
-      post,
-      translations: posts.filter((item) => item.data.translationKey === post.data.translationKey),
-    },
+    props: { post },
   }));
 }
-const { post, translations } = Astro.props as { post: Post; translations: Post[] };
+const { post } = Astro.props as { post: Post };
 const { lang } = post.data;
 const t = ui[lang];
 const { Content, headings } = await render(post);
-const toc = headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
-const translated = translations.find((item) => item.data.lang !== lang);
-const alternates = translations.map((item) => ({ lang: item.data.lang, href: postPath(item) }));
+const toc = headings.filter((heading) => heading.depth === 2).slice(0, 12);
+const alternates: Alternate[] = (await getPosts())
+  .filter((item) => item.data.translationKey === post.data.translationKey)
+  .map((item) => ({ lang: item.data.lang, href: postPath(item) }));
+// Keep the inline translation hint useful and quiet; the language menu offers all 18.
+// Prefer Vietnamese from English articles, and English from every other locale.
+const preferredTranslation = lang === "en" ? "vi" : "en";
+const translated =
+  alternates.find((item) => item.lang === preferredTranslation) ??
+  alternates.find((item) => item.lang !== lang);
 const canonical = new URL(postPath(post), Astro.site).href;
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   headline: post.data.title,
   description: post.data.description,
-  inLanguage: lang,
+  inLanguage: languageTags[lang],
   datePublished: post.data.pubDatetime.toISOString(),
   dateModified: (post.data.modDatetime ?? post.data.pubDatetime).toISOString(),
   author: {
@@ -50,7 +58,6 @@ const structuredData = {
   author={post.data.author}
   section="posts"
   alternates={alternates}
-  alternateHref={translated ? postPath(translated) : localePath(otherLanguage(lang))}
   article
 >
   <Fragment slot="head"
@@ -62,7 +69,8 @@ const structuredData = {
       set:html={JSON.stringify(structuredData).replace(/</g, "\\u003c")}
     /></Fragment
   >
-  <article data-pagefind-body>
+  <article class="article" data-pagefind-body>
+    <div class="reading-progress" aria-hidden="true" data-pagefind-ignore></div>
     <header class="article-header">
       <div class="tags" data-pagefind-ignore>
         {
@@ -94,11 +102,11 @@ const structuredData = {
           <p class="translation-note" data-pagefind-ignore>
             {t.translated}:{" "}
             <a
-              href={postPath(translated)}
-              lang={translated.data.lang}
-              hreflang={translated.data.lang}
+              href={translated.href}
+              lang={languageTags[translated.lang]}
+              hreflang={languageTags[translated.lang]}
             >
-              {ui[translated.data.lang].language}
+              {ui[translated.lang].language}
             </a>
           </p>
         )
@@ -122,8 +130,44 @@ const structuredData = {
     }
     <div class="prose"><Content /></div>
   </article>
-  <nav class="article-end" aria-label={lang === "vi" ? "Sau bài viết" : "After the article"}>
+  <nav class="article-end" aria-label={t.afterArticle}>
     <a href={localePath(lang, "posts/")}>← {t.back}</a><a href={localePath(lang, "rss.xml")}
       >{t.rss}</a>
   </nav>
+  <script is:inline>
+    (() => {
+      const toc = document.querySelector("details.toc");
+      if (!toc) return;
+      const wide = window.matchMedia("(min-width: 75rem)");
+      // On wide screens the table of contents is a rail in the margin:
+      // open it there, close it again when the viewport narrows.
+      const syncOpen = () => {
+        toc.open = wide.matches;
+      };
+      syncOpen();
+      wide.addEventListener("change", syncOpen);
+      // Scroll-spy: mark the section link for the heading nearest the top.
+      const links = new Map(
+        [...toc.querySelectorAll("a")].map((a) => [a.getAttribute("href")?.slice(1), a]),
+      );
+      const headings = [...document.querySelectorAll(".prose h2[id]")].filter((h) =>
+        links.has(h.id),
+      );
+      if (!headings.length || !("IntersectionObserver" in window)) return;
+      let current = null;
+      const observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting) current = entry.target.id;
+          }
+          for (const [id, link] of links) {
+            if (id === current) link.setAttribute("aria-current", "true");
+            else link.removeAttribute("aria-current");
+          }
+        },
+        { rootMargin: "-15% 0px -75% 0px" },
+      );
+      for (const heading of headings) observer.observe(heading);
+    })();
+  </script>
 </Layout>

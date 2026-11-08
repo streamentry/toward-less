@@ -1,14 +1,33 @@
 ---
-import { ui, localePath, type Lang } from "../i18n";
+import { ui, languages, languageNames, languageTags, localePath, type Lang } from "../i18n";
 import { AUTHOR } from "../site";
-const { lang } = Astro.props as { lang: Lang };
+interface Alternate {
+  lang: Lang;
+  href: string;
+}
+const { lang, alternates = [] } = Astro.props as { lang: Lang; alternates?: Alternate[] };
 const t = ui[lang];
+const alternateMap = new Map(alternates.map((alternate) => [alternate.lang, alternate.href]));
 ---
 
 <footer class="site-footer shell" data-pagefind-ignore>
+  <nav class="footer-languages" aria-label={t.languageMenu}>
+    {
+      languages.map((language) => (
+        <a
+          href={alternateMap.get(language) ?? localePath(language)}
+          lang={languageTags[language]}
+          hreflang={languageTags[language]}
+          aria-current={language === lang ? "page" : undefined}
+        >
+          {languageNames[language]}
+        </a>
+      ))
+    }
+  </nav>
   <div class="footer-bottom">
     <span>© {new Date().getFullYear()} {AUTHOR}</span><nav
-      aria-label={lang === "vi" ? "Liên kết cuối trang" : "Footer links"}
+      aria-label={t.footerLinks}
     >
       <a href={localePath(lang, "rss.xml")}>{t.rss}</a><a
         href="https://github.com/streamentry/toward-less">{t.source}</a

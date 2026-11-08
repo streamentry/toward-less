@@ -1,5 +1,6 @@
 import type { APIRoute } from "astro";
 import { getPosts, postPath } from "../lib/posts";
+import { languageTags } from "../i18n";
 
 const xmlEscape = (value: string) =>
   value.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll('"', "&quot;");
@@ -19,7 +20,7 @@ export const GET: APIRoute = async ({ site }) => {
     const alternates = (translations.get(post.data.translationKey) ?? [])
       .map(
         (translation) =>
-          `    <xhtml:link rel="alternate" hreflang="${translation.data.lang}" href="${xmlEscape(new URL(postPath(translation), site!).href)}" />`,
+          `    <xhtml:link rel="alternate" hreflang="${languageTags[translation.data.lang]}" href="${xmlEscape(new URL(postPath(translation), site!).href)}" />`,
       )
       .join("\n");
 

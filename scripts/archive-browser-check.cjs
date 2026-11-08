@@ -39,9 +39,10 @@ const routes = pairs.flatMap(pair => languages.map(lang => `/${lang}/posts/${pai
         const current = `/${lang}/posts/${pair[lang]}/`;
         const expected = `${prefix}/${other}/posts/${pair[other]}/`;
         await page.goto(base + current);
-        assert.equal(await page.locator("[data-language-switch]").getAttribute("href"), expected, current);
-        assert.equal(await page.locator(".translation-note a").getAttribute("href"), expected, current);
-        await page.locator("[data-language-switch]").click();
+        await page.locator(".language-menu summary").click();
+        assert.equal(await page.locator(`[data-language="${other}"]`).getAttribute("href"), expected, current);
+        assert.equal(await page.locator(`.translation-note a[href="${expected}"]`).count(), 1, `Missing article-level counterpart: ${current} -> ${other}`);
+        await page.locator(`[data-language="${other}"]`).click();
         assert.equal(new URL(page.url()).pathname, expected, current);
         assert.equal(await page.locator("html").getAttribute("lang"), other, current);
       }

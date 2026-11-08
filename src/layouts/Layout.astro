@@ -2,7 +2,7 @@
 import { Font } from "astro:assets";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import { ui, languages, localePath, withBase, otherLanguage, type Lang } from "../i18n";
+import { ui, languages, languageTags, isRtl, localePath, withBase, type Lang } from "../i18n";
 import { AUTHOR } from "../site";
 import "../styles/global.css";
 interface Alternate {
@@ -17,7 +17,6 @@ interface Props {
   path?: string;
   section?: string;
   alternates?: Alternate[];
-  alternateHref?: string;
   noindex?: boolean;
   article?: boolean;
 }
@@ -40,16 +39,12 @@ const canonical = new URL(canonicalPath, Astro.site).href;
 const alternates =
   Astro.props.alternates ??
   languages.map((language) => ({ lang: language, href: localePath(language, path) }));
-const alternateHref =
-  Astro.props.alternateHref ??
-  alternates.find((item) => item.lang !== lang)?.href ??
-  localePath(otherLanguage(lang));
 const absolute = (value: string) => new URL(value, Astro.site).href;
 const ogImage = absolute(withBase("og.png"));
 ---
 
 <!doctype html>
-<html lang={lang} dir="ltr">
+<html lang={languageTags[lang]} dir={isRtl(lang) ? "rtl" : "ltr"}>
   <head>
     <!-- Google tag (gtag.js) -->
     <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-XRS285VL7X"></script>
@@ -72,7 +67,7 @@ const ogImage = absolute(withBase("og.png"));
     {
       !noindex &&
         alternates.map((item) => (
-          <link rel="alternate" hreflang={item.lang} href={absolute(item.href)} />
+          <link rel="alternate" hreflang={languageTags[item.lang]} href={absolute(item.href)} />
         ))
     }
     {
@@ -97,7 +92,7 @@ const ogImage = absolute(withBase("og.png"));
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
-    <meta property="og:locale" content={lang === "vi" ? "vi_VN" : "en_US"} />
+    <meta property="og:locale" content={languageTags[lang].replace("-", "_")} />
     <meta property="og:image" content={ogImage} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -113,11 +108,14 @@ const ogImage = absolute(withBase("og.png"));
         try {
           preference = localStorage.getItem("toward-less-theme") || "auto";
         } catch {}
-        if (!["light", "dark", "auto"].includes(preference)) preference = "auto";
-        const dark =
-          preference === "dark" ||
-          (preference === "auto" && matchMedia("(prefers-color-scheme: dark)").matches);
-        document.documentElement.dataset.theme = dark ? "dark" : "light";
+        if (!["light", "sepia", "dark", "auto"].includes(preference)) preference = "auto";
+        const theme =
+          preference === "auto"
+            ? matchMedia("(prefers-color-scheme: dark)").matches
+              ? "dark"
+              : "light"
+            : preference;
+        document.documentElement.dataset.theme = theme;
         document.documentElement.dataset.preference = preference;
       })();
     </script>
@@ -125,9 +123,9 @@ const ogImage = absolute(withBase("og.png"));
   </head>
   <body>
     <a class="skip-link" href="#main">{ui[lang].skip}</a>
-    <Header lang={lang} section={section} alternateHref={alternateHref} />
+    <Header lang={lang} section={section} alternates={alternates} />
     <main id="main" class="shell" tabindex="-1"><slot /></main>
-    <Footer lang={lang} />
+    <Footer lang={lang} alternates={alternates} />
     <script src="../scripts/theme.ts"></script>
   </body>
 </html>

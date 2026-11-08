@@ -1,7 +1,7 @@
 import rss from "@astrojs/rss";
 import type { APIContext } from "astro";
 import { getPosts, postPath } from "../../lib/posts";
-import { languages, ui, type Lang } from "../../i18n";
+import { languages, languageTags, ui, type Lang } from "../../i18n";
 export function getStaticPaths() {
   return languages.map((lang) => ({ params: { lang } }));
 }
@@ -18,7 +18,7 @@ export async function GET(context: APIContext) {
       description: post.data.description,
       link: postPath(post),
     })),
-    customData: `<language>${lang}</language>`,
+    customData: `<language>${languageTags[lang]}</language>`,
     trailingSlash: false,
   });
 }

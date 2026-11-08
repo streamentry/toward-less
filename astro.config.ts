@@ -25,7 +25,11 @@ export default defineConfig({
       filter: (page) => !/(?:search|style-guide|404)(?:\/|\.html)?$/.test(new URL(page).pathname),
     }),
   ],
-  i18n: { locales: ["en", "vi"], defaultLocale: "en", routing: "manual" },
+  i18n: {
+    locales: ["en", "vi", "zh", "hi", "es", "ar", "fr", "bn", "pt", "id", "ur", "ja", "ko", "th", "ms", "ru", "mr", "fa"],
+    defaultLocale: "en",
+    routing: "manual",
+  },
   markdown: {
     processor: unified({
       remarkPlugins: [remarkToc, [remarkCollapse, { test: "Table of contents" }]],
@@ -52,7 +56,7 @@ export default defineConfig({
       fallbacks: ["Georgia", "serif"],
       weights: [400, 500, 600, 700],
       styles: ["normal", "italic"],
-      subsets: ["latin", "latin-ext", "vietnamese"],
+      subsets: ["latin", "latin-ext", "vietnamese", "cyrillic", "cyrillic-ext"],
       formats: ["woff2"],
     },
     {

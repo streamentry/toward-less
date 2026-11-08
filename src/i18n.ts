@@ -1,108 +1,140 @@
 import { AUTHOR } from "./site";
 
-export const languages = ["en", "vi"] as const;
+export const languages = [
+  "en", "vi", "zh", "hi", "es", "ar", "fr", "bn", "pt", "id", "ur", "ja", "ko", "th", "ms", "ru", "mr", "fa",
+] as const;
 export type Lang = (typeof languages)[number];
-export const otherLanguage = (lang: Lang): Lang => (lang === "en" ? "vi" : "en");
+export const languageNames: Record<Lang, string> = {
+  en: "English", vi: "Tiếng Việt", zh: "普通话（简体中文）", hi: "हिन्दी", es: "Español", ar: "العربية",
+  fr: "Français", bn: "বাংলা", pt: "Português", id: "Bahasa Indonesia", ur: "اردو", ja: "日本語",
+  ko: "한국어", th: "ไทย", ms: "Bahasa Melayu", ru: "Русский", mr: "मराठी", fa: "فارسی",
+};
+export const languageTags: Record<Lang, string> = {
+  en: "en", vi: "vi", zh: "zh-Hans", hi: "hi", es: "es", ar: "ar", fr: "fr", bn: "bn", pt: "pt",
+  id: "id", ur: "ur", ja: "ja", ko: "ko", th: "th", ms: "ms", ru: "ru", mr: "mr", fa: "fa",
+};
+export const isRtl = (lang: Lang) => lang === "ar" || lang === "ur" || lang === "fa";
+export const browserLanguage = (value: string) => {
+  const code = value.toLowerCase().split("-")[0];
+  return code === "zh" ? "zh" : languages.find((lang) => lang === code);
+};
 export const withBase = (path = "") =>
   `${import.meta.env.BASE_URL.replace(/\/$/, "")}/${path.replace(/^\/+/, "")}`;
 export const localePath = (lang: Lang, path = "") => withBase(`${lang}/${path}`);
 
-export const ui = {
-  en: {
-    language: "English",
-    other: "Tiếng Việt",
-    skip: "Skip to content",
-    nav: "Main navigation",
-    articles: "Articles",
-    about: "About",
-    search: "Search",
-    topicsTitle: "Topics",
-    notebook: "A personal blog",
-    lineOne: "Less clinging.",
-    lineTwo: "Clearer seeing.",
-    intro: "Notes on technology, family, and Buddhist practice.",
-    by: "By",
-    latest: "Recent writing",
-    allArticles: "All articles",
-    read: "Read article",
-    minute: "min read",
-    updated: "Updated",
-    archiveDescription: "All published articles.",
-    empty: "No articles yet.",
-    previous: "Previous",
-    next: "Next",
-    page: "Page",
-    of: "of",
-    toc: "On this page",
-    translated: "Also available in",
-    back: "Back to articles",
-    rss: "RSS feed",
-    source: "Source",
-    theme: "Colour theme",
-    themeAuto: "System",
-    themeLight: "Light",
-    themeDark: "Dark",
-    home: "Home",
-    searchDescription: "Search the English content on this site.",
-    searchPlaceholder: "Search this site…",
-    searchUnavailable: "Search is currently unavailable.",
-    noScript: "Search needs JavaScript. You can still browse the articles.",
-    aboutTitle: "About this blog",
-    aboutDescription: `About ${AUTHOR} and Toward Less.`,
-    notFound: "Page not found.",
-    notFoundText: "The page may have moved or the address may be incorrect.",
-    styleGuide: "Design reference",
-    styleDescription: "Fonts, colours, and components.",
-    topics: { technology: "Technology", life: "Life", practice: "Practice" },
-  },
-  vi: {
-    language: "Tiếng Việt",
-    other: "English",
-    skip: "Đến nội dung chính",
-    nav: "Điều hướng chính",
-    articles: "Bài viết",
-    about: "Giới thiệu",
-    search: "Tìm kiếm",
-    topicsTitle: "Chủ đề",
-    notebook: "Ghi chép cá nhân",
-    lineOne: "Bớt chấp thủ.",
-    lineTwo: "Thấy rõ hơn.",
-    intro: "Ghi chép về công nghệ, gia đình và thực hành Phật pháp.",
-    by: "Tác giả",
-    latest: "Bài viết gần đây",
-    allArticles: "Tất cả bài viết",
-    read: "Đọc bài viết",
-    minute: "phút đọc",
-    updated: "Cập nhật",
-    archiveDescription: "Các bài viết đã đăng.",
-    empty: "Chưa có bài viết.",
-    previous: "Trước",
-    next: "Tiếp",
-    page: "Trang",
-    of: "trên",
-    toc: "Mục lục",
-    translated: "Bản dịch",
-    back: "Về danh sách bài viết",
-    rss: "Nguồn RSS",
-    source: "Mã nguồn",
-    theme: "Chế độ hiển thị",
-    themeAuto: "Theo hệ thống",
-    themeLight: "Sáng",
-    themeDark: "Tối",
-    home: "Trang chủ",
-    searchDescription: "Tìm trong nội dung tiếng Việt trên trang.",
-    searchPlaceholder: "Tìm trên trang…",
-    searchUnavailable: "Hiện chưa tìm kiếm được.",
-    noScript: "Tìm kiếm cần JavaScript. Bạn vẫn có thể xem danh sách bài viết.",
-    aboutTitle: "Về trang này",
-    aboutDescription: `Về ${AUTHOR} và Toward Less.`,
-    notFound: "Không tìm thấy trang này.",
-    notFoundText: "Trang có thể đã chuyển sang địa chỉ khác hoặc đường dẫn không đúng.",
-    styleGuide: "Hệ thống thiết kế",
-    styleDescription: "Kiểu chữ, màu sắc và các thành phần giao diện.",
-    topics: { technology: "Công nghệ", life: "Đời sống", practice: "Tu tập" },
-  },
-} as const;
+const en = {
+  language: "Language", skip: "Skip to content", nav: "Main navigation", articles: "Articles", about: "About",
+  search: "Search", topicsTitle: "Topics", notebook: "A personal blog", lineOne: "Less clinging.",
+  lineTwo: "Clearer seeing.", intro: "Notes on technology, family, and Buddhist practice.", by: "By",
+  latest: "Recent writing", allArticles: "All articles", read: "Read article", minute: "min read", updated: "Updated",
+  archiveDescription: "All published articles.", empty: "No articles yet.", previous: "Previous", next: "Next",
+  page: "Page", of: "of", toc: "On this page", translated: "Also available in", back: "Back to articles",
+  rss: "RSS feed", source: "Source", theme: "Colour theme", themeAuto: "System", themeLight: "Light",
+  themeDark: "Dark", themeSepia: "Sepia", home: "Home", searchDescription: "Search the site.", searchPlaceholder: "Search this site…",
+  searchUnavailable: "Search is currently unavailable.", noScript: "Search needs JavaScript. You can still browse the articles.",
+  aboutTitle: "About this blog", aboutDescription: `About ${AUTHOR} and Toward Less.`, notFound: "Page not found.",
+  notFoundText: "The page may have moved or the address may be incorrect.", styleGuide: "Design reference",
+  styleDescription: "Fonts, colours, and components.", pagination: "Pagination", afterArticle: "After the article",
+  languageMenu: "Choose language", footerLinks: "Footer links", topics: { technology: "Technology", life: "Life", practice: "Practice" },
+};
+type Ui = { [K in keyof typeof en]: K extends "topics" ? Record<string, string> : string };
+const copy: Partial<Record<Lang, Partial<Ui>>> = {
+  vi: { skip: "Đến nội dung chính", nav: "Điều hướng chính", articles: "Bài viết", about: "Giới thiệu", search: "Tìm kiếm", topicsTitle: "Chủ đề", notebook: "Ghi chép cá nhân", lineOne: "Bớt chấp thủ.", lineTwo: "Thấy rõ hơn.", intro: "Ghi chép về công nghệ, gia đình và thực hành Phật pháp.", by: "Tác giả", latest: "Bài viết gần đây", allArticles: "Tất cả bài viết", read: "Đọc bài viết", minute: "phút đọc", updated: "Cập nhật", archiveDescription: "Các bài viết đã đăng.", empty: "Chưa có bài viết.", previous: "Trước", next: "Tiếp", page: "Trang", of: "trên", toc: "Mục lục", translated: "Bản dịch", back: "Về danh sách bài viết", rss: "Nguồn RSS", source: "Mã nguồn", theme: "Chế độ hiển thị", themeAuto: "Theo hệ thống", themeLight: "Sáng", themeDark: "Tối", themeSepia: "Sepia", home: "Trang chủ", searchDescription: "Tìm trong nội dung trên trang.", searchPlaceholder: "Tìm trên trang…", searchUnavailable: "Hiện chưa tìm kiếm được.", noScript: "Tìm kiếm cần JavaScript. Bạn vẫn có thể xem danh sách bài viết.", aboutTitle: "Về trang này", aboutDescription: `Về ${AUTHOR} và Toward Less.`, notFound: "Không tìm thấy trang này.", notFoundText: "Trang có thể đã chuyển sang địa chỉ khác hoặc đường dẫn không đúng.", styleGuide: "Hệ thống thiết kế", styleDescription: "Kiểu chữ, màu sắc và các thành phần giao diện.", pagination: "Phân trang", afterArticle: "Sau bài viết", languageMenu: "Chọn ngôn ngữ", footerLinks: "Liên kết cuối trang", topics: { technology: "Công nghệ", life: "Đời sống", practice: "Tu tập" } },
+  zh: { skip: "跳到正文", nav: "主导航", articles: "文章", about: "关于", search: "搜索", topicsTitle: "主题", notebook: "个人博客", lineOne: "少些执着。", lineTwo: "看得更清楚。", intro: "关于科技、家庭与佛法修习的记录。", by: "作者", latest: "最新文章", allArticles: "所有文章", read: "阅读文章", minute: "分钟阅读", updated: "更新于", archiveDescription: "所有已发布的文章。", empty: "还没有文章。", previous: "上一页", next: "下一页", page: "第", of: "页，共", toc: "本页目录", translated: "另有译本", back: "返回文章列表", rss: "RSS 订阅", source: "源码", theme: "主题", themeAuto: "跟随系统", themeLight: "浅色", themeDark: "深色", themeSepia: "棕褐", home: "首页", searchDescription: "搜索本站内容。", searchPlaceholder: "搜索本站…", searchUnavailable: "暂时无法搜索。", noScript: "搜索需要 JavaScript。你仍可浏览文章。", aboutTitle: "关于这个博客", notFound: "找不到页面。", notFoundText: "页面可能已移动，或地址有误。", styleGuide: "设计参考", styleDescription: "字体、颜色与组件。", pagination: "分页", afterArticle: "文章之后", languageMenu: "选择语言", topics: { technology: "科技", life: "生活", practice: "修习" } },
+  hi: { skip: "मुख्य सामग्री पर जाएँ", nav: "मुख्य नेविगेशन", articles: "लेख", about: "परिचय", search: "खोजें", topicsTitle: "विषय", notebook: "व्यक्तिगत ब्लॉग", lineOne: "कम आसक्ति।", lineTwo: "अधिक स्पष्टता।", intro: "तकनीक, परिवार और बौद्ध अभ्यास पर नोट्स।", by: "लेखक", latest: "हाल के लेख", allArticles: "सभी लेख", read: "लेख पढ़ें", minute: "मिनट का पठन", updated: "अपडेट किया", archiveDescription: "सभी प्रकाशित लेख।", empty: "अभी कोई लेख नहीं।", previous: "पिछला", next: "अगला", page: "पृष्ठ", of: "में से", toc: "इस पृष्ठ पर", translated: "अन्य भाषा में भी", back: "लेखों पर लौटें", rss: "RSS फ़ीड", source: "स्रोत", theme: "रंग रूप", themeAuto: "सिस्टम", themeLight: "हल्का", themeDark: "गहरा", themeSepia: "सेपिया", home: "मुखपृष्ठ", searchDescription: "इस साइट पर खोजें।", searchPlaceholder: "इस साइट पर खोजें…", searchUnavailable: "खोज अभी उपलब्ध नहीं है।", noScript: "खोज के लिए JavaScript चाहिए। आप लेख फिर भी पढ़ सकते हैं।", aboutTitle: "इस ब्लॉग के बारे में", notFound: "पृष्ठ नहीं मिला।", notFoundText: "पृष्ठ बदल गया हो सकता है या पता गलत हो सकता है।", styleGuide: "डिज़ाइन संदर्भ", styleDescription: "फ़ॉन्ट, रंग और घटक।", pagination: "पृष्ठ नेविगेशन", afterArticle: "लेख के बाद", languageMenu: "भाषा चुनें" },
+  es: { skip: "Saltar al contenido", nav: "Navegación principal", articles: "Artículos", about: "Acerca de", search: "Buscar", topicsTitle: "Temas", notebook: "Blog personal", lineOne: "Menos apego.", lineTwo: "Ver con más claridad.", intro: "Notas sobre tecnología, familia y práctica budista.", by: "Por", latest: "Escritos recientes", allArticles: "Todos los artículos", read: "Leer artículo", minute: "min de lectura", updated: "Actualizado", archiveDescription: "Todos los artículos publicados.", empty: "Todavía no hay artículos.", previous: "Anterior", next: "Siguiente", page: "Página", of: "de", toc: "En esta página", translated: "También disponible en", back: "Volver a los artículos", rss: "Canal RSS", source: "Código fuente", theme: "Tema de color", themeAuto: "Sistema", themeLight: "Claro", themeDark: "Oscuro", themeSepia: "Sepia", home: "Inicio", searchDescription: "Busca en este sitio.", searchPlaceholder: "Buscar en este sitio…", searchUnavailable: "La búsqueda no está disponible ahora.", noScript: "La búsqueda necesita JavaScript. Aún puedes explorar los artículos.", aboutTitle: "Acerca de este blog", notFound: "Página no encontrada.", notFoundText: "Puede que la página se haya movido o que la dirección sea incorrecta.", styleGuide: "Guía de diseño", styleDescription: "Tipografías, colores y componentes.", pagination: "Paginación", afterArticle: "Después del artículo", languageMenu: "Elegir idioma" },
+  ar: { skip: "انتقل إلى المحتوى", nav: "التنقل الرئيسي", articles: "المقالات", about: "عن الموقع", search: "بحث", topicsTitle: "المواضيع", notebook: "مدونة شخصية", lineOne: "تعلّق أقل.", lineTwo: "رؤية أوضح.", intro: "ملاحظات عن التقنية والأسرة والممارسة البوذية.", by: "بقلم", latest: "أحدث الكتابات", allArticles: "كل المقالات", read: "اقرأ المقال", minute: "دقيقة قراءة", updated: "تم التحديث", archiveDescription: "كل المقالات المنشورة.", empty: "لا توجد مقالات بعد.", previous: "السابق", next: "التالي", page: "صفحة", of: "من", toc: "في هذه الصفحة", translated: "متاح أيضاً بلغات", back: "العودة إلى المقالات", rss: "خلاصة RSS", source: "المصدر", theme: "السمة اللونية", themeAuto: "النظام", themeLight: "فاتح", themeDark: "داكن", themeSepia: "سيبيا", home: "الرئيسية", searchDescription: "ابحث في هذا الموقع.", searchPlaceholder: "ابحث في الموقع…", searchUnavailable: "البحث غير متاح حالياً.", noScript: "يتطلب البحث JavaScript. يمكنك تصفح المقالات بدونه.", aboutTitle: "عن هذه المدونة", notFound: "الصفحة غير موجودة.", notFoundText: "ربما نُقلت الصفحة أو أن العنوان غير صحيح.", styleGuide: "مرجع التصميم", styleDescription: "الخطوط والألوان والمكونات.", pagination: "التنقل بين الصفحات", afterArticle: "بعد المقال", languageMenu: "اختر اللغة" },
+  fr: { skip: "Aller au contenu", nav: "Navigation principale", articles: "Articles", about: "À propos", search: "Rechercher", topicsTitle: "Thèmes", notebook: "Blog personnel", lineOne: "Moins d’attachement.", lineTwo: "Voir plus clairement.", intro: "Notes sur la technologie, la famille et la pratique bouddhiste.", by: "Par", latest: "Écrits récents", allArticles: "Tous les articles", read: "Lire l’article", minute: "min de lecture", updated: "Mis à jour", archiveDescription: "Tous les articles publiés.", empty: "Aucun article pour le moment.", previous: "Précédent", next: "Suivant", page: "Page", of: "sur", toc: "Sur cette page", translated: "Également disponible en", back: "Retour aux articles", rss: "Flux RSS", source: "Code source", theme: "Thème de couleur", themeAuto: "Système", themeLight: "Clair", themeDark: "Sombre", themeSepia: "Sépia", home: "Accueil", searchDescription: "Rechercher sur ce site.", searchPlaceholder: "Rechercher sur ce site…", searchUnavailable: "La recherche est indisponible pour le moment.", noScript: "La recherche nécessite JavaScript. Vous pouvez toujours parcourir les articles.", aboutTitle: "À propos de ce blog", notFound: "Page introuvable.", notFoundText: "La page a peut-être été déplacée ou l’adresse est incorrecte.", styleGuide: "Référence de design", styleDescription: "Polices, couleurs et composants.", pagination: "Pagination", afterArticle: "Après l’article", languageMenu: "Choisir la langue" },
+  bn: { skip: "মূল বিষয়বস্তুতে যান", nav: "প্রধান নেভিগেশন", articles: "লেখা", about: "পরিচিতি", search: "খুঁজুন", topicsTitle: "বিষয়", notebook: "ব্যক্তিগত ব্লগ", lineOne: "আসক্তি কম।", lineTwo: "দৃষ্টি আরও স্পষ্ট।", intro: "প্রযুক্তি, পরিবার ও বৌদ্ধ অনুশীলন নিয়ে নোট।", by: "লেখক", latest: "সাম্প্রতিক লেখা", allArticles: "সব লেখা", read: "লেখাটি পড়ুন", minute: "মিনিট পড়া", updated: "হালনাগাদ", archiveDescription: "প্রকাশিত সব লেখা।", empty: "এখনও কোনো লেখা নেই।", previous: "আগের", next: "পরের", page: "পৃষ্ঠা", of: "এর মধ্যে", toc: "এই পাতায়", translated: "অন্য ভাষাতেও আছে", back: "লেখার তালিকায় ফিরুন", rss: "RSS ফিড", source: "সোর্স কোড", theme: "রঙের ধরন", themeAuto: "সিস্টেম", themeLight: "হালকা", themeDark: "গাঢ়", themeSepia: "সেপিয়া", home: "হোম", searchDescription: "এই সাইটে খুঁজুন।", searchPlaceholder: "এই সাইটে খুঁজুন…", searchUnavailable: "এখন অনুসন্ধান করা যাচ্ছে না।", noScript: "অনুসন্ধানে JavaScript লাগে। তবু লেখাগুলো পড়তে পারবেন।", aboutTitle: "এই ব্লগ সম্পর্কে", notFound: "পাতাটি পাওয়া যায়নি।", notFoundText: "পাতাটি সরানো হয়েছে বা ঠিকানা ভুল হতে পারে।", styleGuide: "ডিজাইন নির্দেশিকা", styleDescription: "ফন্ট, রং ও উপাদান।", pagination: "পৃষ্ঠা নেভিগেশন", afterArticle: "লেখার পরে", languageMenu: "ভাষা বেছে নিন" },
+  pt: { skip: "Ir para o conteúdo", nav: "Navegação principal", articles: "Artigos", about: "Sobre", search: "Pesquisar", topicsTitle: "Temas", notebook: "Blog pessoal", lineOne: "Menos apego.", lineTwo: "Ver com mais clareza.", intro: "Notas sobre tecnologia, família e prática budista.", by: "Por", latest: "Textos recentes", allArticles: "Todos os artigos", read: "Ler artigo", minute: "min de leitura", updated: "Atualizado", archiveDescription: "Todos os artigos publicados.", empty: "Ainda não há artigos.", previous: "Anterior", next: "Próximo", page: "Página", of: "de", toc: "Nesta página", translated: "Também disponível em", back: "Voltar aos artigos", rss: "Feed RSS", source: "Código-fonte", theme: "Tema de cor", themeAuto: "Sistema", themeLight: "Claro", themeDark: "Escuro", themeSepia: "Sépia", home: "Início", searchDescription: "Pesquise neste site.", searchPlaceholder: "Pesquisar neste site…", searchUnavailable: "A pesquisa está indisponível no momento.", noScript: "A pesquisa precisa de JavaScript. Ainda pode navegar pelos artigos.", aboutTitle: "Sobre este blog", notFound: "Página não encontrada.", notFoundText: "A página pode ter sido movida ou o endereço está incorreto.", styleGuide: "Referência de design", styleDescription: "Fontes, cores e componentes.", pagination: "Paginação", afterArticle: "Depois do artigo", languageMenu: "Escolher idioma" },
+  id: { skip: "Lewati ke konten", nav: "Navigasi utama", articles: "Artikel", about: "Tentang", search: "Cari", topicsTitle: "Topik", notebook: "Blog pribadi", lineOne: "Kurangi kemelekatan.", lineTwo: "Lihat lebih jernih.", intro: "Catatan tentang teknologi, keluarga, dan praktik Buddhis.", by: "Oleh", latest: "Tulisan terbaru", allArticles: "Semua artikel", read: "Baca artikel", minute: "menit baca", updated: "Diperbarui", archiveDescription: "Semua artikel yang diterbitkan.", empty: "Belum ada artikel.", previous: "Sebelumnya", next: "Berikutnya", page: "Halaman", of: "dari", toc: "Di halaman ini", translated: "Tersedia juga dalam", back: "Kembali ke artikel", rss: "Umpan RSS", source: "Kode sumber", theme: "Tema warna", themeAuto: "Sistem", themeLight: "Terang", themeDark: "Gelap", themeSepia: "Sepia", home: "Beranda", searchDescription: "Cari di situs ini.", searchPlaceholder: "Cari di situs ini…", searchUnavailable: "Pencarian sedang tidak tersedia.", noScript: "Pencarian memerlukan JavaScript. Anda tetap dapat membaca artikel.", aboutTitle: "Tentang blog ini", notFound: "Halaman tidak ditemukan.", notFoundText: "Halaman mungkin telah dipindahkan atau alamatnya salah.", styleGuide: "Panduan desain", styleDescription: "Fon, warna, dan komponen.", pagination: "Navigasi halaman", afterArticle: "Setelah artikel", languageMenu: "Pilih bahasa" },
+  ur: { skip: "اصل مواد پر جائیں", nav: "مرکزی رہنمائی", articles: "مضامین", about: "تعارف", search: "تلاش", topicsTitle: "موضوعات", notebook: "ذاتی بلاگ", lineOne: "کم وابستگی۔", lineTwo: "زیادہ واضح نظر۔", intro: "ٹیکنالوجی، خاندان اور بدھ مت کی مشق کے بارے میں نوٹس۔", by: "تحریر", latest: "حالیہ تحریریں", allArticles: "تمام مضامین", read: "مضمون پڑھیں", minute: "منٹ مطالعہ", updated: "تازہ کاری", archiveDescription: "تمام شائع شدہ مضامین۔", empty: "ابھی کوئی مضمون نہیں۔", previous: "پچھلا", next: "اگلا", page: "صفحہ", of: "میں سے", toc: "اس صفحے پر", translated: "دیگر زبانوں میں بھی", back: "مضامین پر واپس جائیں", rss: "RSS فیڈ", source: "ماخذ", theme: "رنگ کا انداز", themeAuto: "سسٹم", themeLight: "روشن", themeDark: "گہرا", themeSepia: "سیپیا", home: "صفحۂ اول", searchDescription: "اس سائٹ میں تلاش کریں۔", searchPlaceholder: "اس سائٹ میں تلاش…", searchUnavailable: "تلاش فی الحال دستیاب نہیں۔", noScript: "تلاش کے لیے JavaScript درکار ہے۔ آپ مضامین پھر بھی دیکھ سکتے ہیں۔", aboutTitle: "اس بلاگ کے بارے میں", notFound: "صفحہ نہیں ملا۔", notFoundText: "صفحہ منتقل ہو سکتا ہے یا پتہ غلط ہے۔", styleGuide: "ڈیزائن رہنما", styleDescription: "فونٹ، رنگ اور اجزا۔", pagination: "صفحہ بندی", afterArticle: "مضمون کے بعد", languageMenu: "زبان منتخب کریں" },
+  ja: { skip: "本文へ移動", nav: "メインナビゲーション", articles: "記事", about: "このサイトについて", search: "検索", topicsTitle: "トピック", notebook: "個人ブログ", lineOne: "執着を減らす。", lineTwo: "より明晰に見る。", intro: "テクノロジー、家族、仏教の実践についての記録。", by: "著者", latest: "最近の記事", allArticles: "すべての記事", read: "記事を読む", minute: "分で読めます", updated: "更新", archiveDescription: "公開済みの記事一覧。", empty: "記事はまだありません。", previous: "前へ", next: "次へ", page: "ページ", of: "/", toc: "この記事の内容", translated: "他の言語でも読めます", back: "記事一覧に戻る", rss: "RSS フィード", source: "ソースコード", theme: "配色", themeAuto: "システム", themeLight: "ライト", themeDark: "ダーク", themeSepia: "セピア", home: "ホーム", searchDescription: "サイト内を検索します。", searchPlaceholder: "サイト内を検索…", searchUnavailable: "現在検索を利用できません。", noScript: "検索には JavaScript が必要です。記事一覧は閲覧できます。", aboutTitle: "このブログについて", notFound: "ページが見つかりません。", notFoundText: "ページが移動したか、URLが正しくない可能性があります。", styleGuide: "デザインガイド", styleDescription: "フォント、色、コンポーネント。", pagination: "ページ移動", afterArticle: "記事の後", languageMenu: "言語を選ぶ" },
+  ko: { skip: "본문으로 건너뛰기", nav: "주요 탐색", articles: "글", about: "소개", search: "검색", topicsTitle: "주제", notebook: "개인 블로그", lineOne: "집착은 덜고.", lineTwo: "더 분명하게 보기.", intro: "기술, 가족, 불교 수행에 관한 기록.", by: "작성자", latest: "최근 글", allArticles: "모든 글", read: "글 읽기", minute: "분 읽기", updated: "수정됨", archiveDescription: "게시된 모든 글.", empty: "아직 글이 없습니다.", previous: "이전", next: "다음", page: "페이지", of: "/", toc: "이 페이지의 내용", translated: "다른 언어로도 제공", back: "글 목록으로 돌아가기", rss: "RSS 피드", source: "소스 코드", theme: "색상 테마", themeAuto: "시스템", themeLight: "라이트", themeDark: "다크", themeSepia: "세피아", home: "홈", searchDescription: "사이트에서 검색합니다.", searchPlaceholder: "사이트 검색…", searchUnavailable: "현재 검색을 사용할 수 없습니다.", noScript: "검색에는 JavaScript가 필요합니다. 글 목록은 계속 볼 수 있습니다.", aboutTitle: "이 블로그 소개", notFound: "페이지를 찾을 수 없습니다.", notFoundText: "페이지가 이동했거나 주소가 잘못되었을 수 있습니다.", styleGuide: "디자인 가이드", styleDescription: "글꼴, 색상, 구성 요소.", pagination: "페이지 탐색", afterArticle: "글 다음", languageMenu: "언어 선택" },
+  th: { skip: "ข้ามไปยังเนื้อหา", nav: "เมนูหลัก", articles: "บทความ", about: "เกี่ยวกับ", search: "ค้นหา", topicsTitle: "หัวข้อ", notebook: "บล็อกส่วนตัว", lineOne: "ยึดติดให้น้อยลง", lineTwo: "มองเห็นชัดขึ้น", intro: "บันทึกเรื่องเทคโนโลยี ครอบครัว และการปฏิบัติทางพุทธศาสนา", by: "โดย", latest: "บทความล่าสุด", allArticles: "บทความทั้งหมด", read: "อ่านบทความ", minute: "นาทีในการอ่าน", updated: "อัปเดต", archiveDescription: "บทความที่เผยแพร่ทั้งหมด", empty: "ยังไม่มีบทความ", previous: "ก่อนหน้า", next: "ถัดไป", page: "หน้า", of: "จาก", toc: "ในหน้านี้", translated: "มีในภาษาอื่นด้วย", back: "กลับไปยังบทความ", rss: "ฟีด RSS", source: "ซอร์สโค้ด", theme: "ธีมสี", themeAuto: "ตามระบบ", themeLight: "สว่าง", themeDark: "มืด", themeSepia: "ซีเปีย", home: "หน้าแรก", searchDescription: "ค้นหาในเว็บไซต์นี้", searchPlaceholder: "ค้นหาในเว็บไซต์…", searchUnavailable: "ขณะนี้ยังค้นหาไม่ได้", noScript: "การค้นหาต้องใช้ JavaScript คุณยังเปิดอ่านบทความได้", aboutTitle: "เกี่ยวกับบล็อกนี้", notFound: "ไม่พบหน้า", notFoundText: "หน้าอาจถูกย้ายหรือที่อยู่อาจไม่ถูกต้อง", styleGuide: "คู่มือการออกแบบ", styleDescription: "แบบอักษร สี และส่วนประกอบ", pagination: "การแบ่งหน้า", afterArticle: "หลังบทความ", languageMenu: "เลือกภาษา" },
+  ms: { skip: "Langkau ke kandungan", nav: "Navigasi utama", articles: "Rencana", about: "Tentang", search: "Cari", topicsTitle: "Topik", notebook: "Blog peribadi", lineOne: "Kurang keterikatan.", lineTwo: "Melihat dengan lebih jelas.", intro: "Catatan tentang teknologi, keluarga dan amalan Buddha.", by: "Oleh", latest: "Tulisan terkini", allArticles: "Semua rencana", read: "Baca rencana", minute: "minit bacaan", updated: "Dikemas kini", archiveDescription: "Semua rencana yang diterbitkan.", empty: "Belum ada rencana.", previous: "Sebelumnya", next: "Seterusnya", page: "Halaman", of: "daripada", toc: "Dalam halaman ini", translated: "Juga tersedia dalam", back: "Kembali ke rencana", rss: "Suapan RSS", source: "Kod sumber", theme: "Tema warna", themeAuto: "Sistem", themeLight: "Cerah", themeDark: "Gelap", themeSepia: "Sepia", home: "Laman utama", searchDescription: "Cari di laman ini.", searchPlaceholder: "Cari di laman ini…", searchUnavailable: "Carian tidak tersedia buat masa ini.", noScript: "Carian memerlukan JavaScript. Anda masih boleh membaca rencana.", aboutTitle: "Tentang blog ini", notFound: "Halaman tidak ditemui.", notFoundText: "Halaman mungkin telah dipindahkan atau alamatnya salah.", styleGuide: "Panduan reka bentuk", styleDescription: "Fon, warna dan komponen.", pagination: "Navigasi halaman", afterArticle: "Selepas rencana", languageMenu: "Pilih bahasa" },
+  ru: { skip: "Перейти к содержимому", nav: "Главная навигация", articles: "Статьи", about: "О блоге", search: "Поиск", topicsTitle: "Темы", notebook: "Личный блог", lineOne: "Меньше привязанности.", lineTwo: "Яснее видеть.", intro: "Заметки о технологиях, семье и буддийской практике.", by: "Автор", latest: "Новые записи", allArticles: "Все статьи", read: "Читать статью", minute: "мин. чтения", updated: "Обновлено", archiveDescription: "Все опубликованные статьи.", empty: "Статей пока нет.", previous: "Назад", next: "Далее", page: "Страница", of: "из", toc: "На этой странице", translated: "Также доступно на", back: "К списку статей", rss: "RSS-лента", source: "Исходный код", theme: "Цветовая тема", themeAuto: "Системная", themeLight: "Светлая", themeDark: "Тёмная", themeSepia: "Сепия", home: "Главная", searchDescription: "Поиск по сайту.", searchPlaceholder: "Поиск по сайту…", searchUnavailable: "Поиск сейчас недоступен.", noScript: "Для поиска нужен JavaScript. Статьи можно читать и без него.", aboutTitle: "Об этом блоге", notFound: "Страница не найдена.", notFoundText: "Страница могла быть перемещена или адрес указан неверно.", styleGuide: "Руководство по дизайну", styleDescription: "Шрифты, цвета и компоненты.", pagination: "Навигация по страницам", afterArticle: "После статьи", languageMenu: "Выбрать язык" },
+  mr: { skip: "मुख्य मजकुराकडे जा", nav: "मुख्य नेव्हिगेशन", articles: "लेख", about: "माहिती", search: "शोधा", topicsTitle: "विषय", notebook: "वैयक्तिक ब्लॉग", lineOne: "आसक्ती कमी.", lineTwo: "अधिक स्पष्ट दृष्टी.", intro: "तंत्रज्ञान, कुटुंब आणि बौद्ध साधनेविषयी नोंदी.", by: "लेखक", latest: "अलीकडील लेखन", allArticles: "सर्व लेख", read: "लेख वाचा", minute: "मिनिटांचे वाचन", updated: "अद्ययावत", archiveDescription: "प्रकाशित झालेले सर्व लेख.", empty: "अजून लेख नाहीत.", previous: "मागील", next: "पुढील", page: "पृष्ठ", of: "पैकी", toc: "या पृष्ठावर", translated: "इतर भाषांतही उपलब्ध", back: "लेखांकडे परत जा", rss: "RSS फीड", source: "स्रोत कोड", theme: "रंगसंगती", themeAuto: "सिस्टम", themeLight: "हलकं", themeDark: "गडद", themeSepia: "सेपिया", home: "मुखपृष्ठ", searchDescription: "या साइटवर शोधा.", searchPlaceholder: "या साइटवर शोधा…", searchUnavailable: "शोध सध्या उपलब्ध नाही.", noScript: "शोधासाठी JavaScript आवश्यक आहे. लेख तरीही वाचता येतील.", aboutTitle: "या ब्लॉगबद्दल", notFound: "पृष्ठ सापडले नाही.", notFoundText: "पृष्ठ हलवले गेले असेल किंवा पत्ता चुकीचा असेल.", styleGuide: "डिझाइन मार्गदर्शक", styleDescription: "फॉन्ट, रंग आणि घटक.", pagination: "पृष्ठ नेव्हिगेशन", afterArticle: "लेखानंतर", languageMenu: "भाषा निवडा" },
+  fa: { skip: "رفتن به محتوای اصلی", nav: "ناوبری اصلی", articles: "نوشته‌ها", about: "درباره", search: "جست‌وجو", topicsTitle: "موضوع‌ها", notebook: "وبلاگ شخصی", lineOne: "دلبستگی کمتر.", lineTwo: "دید روشن‌تر.", intro: "یادداشت‌هایی دربارهٔ فناوری، خانواده و تمرین بودایی.", by: "نویسنده", latest: "نوشته‌های تازه", allArticles: "همهٔ نوشته‌ها", read: "خواندن نوشته", minute: "دقیقه مطالعه", updated: "به‌روزرسانی", archiveDescription: "همهٔ نوشته‌های منتشرشده.", empty: "هنوز نوشته‌ای نیست.", previous: "قبلی", next: "بعدی", page: "صفحه", of: "از", toc: "در این صفحه", translated: "به زبان‌های دیگر نیز موجود است", back: "بازگشت به نوشته‌ها", rss: "خوراک RSS", source: "کد منبع", theme: "رنگ‌بندی", themeAuto: "سیستم", themeLight: "روشن", themeDark: "تیره", themeSepia: "سپیا", home: "خانه", searchDescription: "در این سایت جست‌وجو کنید.", searchPlaceholder: "جست‌وجو در سایت…", searchUnavailable: "جست‌وجو فعلاً در دسترس نیست.", noScript: "جست‌وجو به JavaScript نیاز دارد. همچنان می‌توانید نوشته‌ها را ببینید.", aboutTitle: "دربارهٔ این وبلاگ", notFound: "صفحه پیدا نشد.", notFoundText: "ممکن است صفحه جابه‌جا شده باشد یا نشانی نادرست باشد.", styleGuide: "راهنمای طراحی", styleDescription: "قلم‌ها، رنگ‌ها و اجزا.", pagination: "پیمایش صفحه‌ها", afterArticle: "پس از نوشته", languageMenu: "انتخاب زبان" },
+};
+const languageMenuNames: Record<Lang, string> = {
+  en: "Choose language", vi: "Chọn ngôn ngữ", zh: "选择语言", hi: "भाषा चुनें", es: "Elegir idioma", ar: "اختر اللغة",
+  fr: "Choisir la langue", bn: "ভাষা বেছে নিন", pt: "Escolher idioma", id: "Pilih bahasa", ur: "زبان منتخب کریں",
+  ja: "言語を選ぶ", ko: "언어 선택", th: "เลือกภาษา", ms: "Pilih bahasa", ru: "Выбрать язык", mr: "भाषा निवडा", fa: "انتخاب زبان",
+};
+const footerLinkLabels: Record<Lang, string> = {
+  en: "Footer links", vi: "Liên kết cuối trang", zh: "页脚链接", hi: "पादलेख लिंक", es: "Enlaces del pie de página",
+  ar: "روابط التذييل", fr: "Liens de pied de page", bn: "ফুটারের লিংক", pt: "Links do rodapé", id: "Tautan footer",
+  ur: "فُٹر کے روابط", ja: "フッターリンク", ko: "바닥글 링크", th: "ลิงก์ส่วนท้าย", ms: "Pautan pengaki",
+  ru: "Ссылки внизу страницы", mr: "तळटीप दुवे", fa: "پیوندهای پابرگ",
+};
+const topicNames: Record<Lang, Record<string, string>> = {
+  en: { technology: "Technology", life: "Life", practice: "Practice" },
+  vi: { technology: "Công nghệ", life: "Đời sống", practice: "Tu tập" },
+  zh: { technology: "科技", life: "生活", practice: "修习" }, hi: { technology: "तकनीक", life: "जीवन", practice: "अभ्यास" },
+  es: { technology: "Tecnología", life: "Vida", practice: "Práctica" }, ar: { technology: "التقنية", life: "الحياة", practice: "الممارسة" },
+  fr: { technology: "Technologie", life: "Vie", practice: "Pratique" }, bn: { technology: "প্রযুক্তি", life: "জীবন", practice: "অনুশীলন" },
+  pt: { technology: "Tecnologia", life: "Vida", practice: "Prática" }, id: { technology: "Teknologi", life: "Kehidupan", practice: "Praktik" },
+  ur: { technology: "ٹیکنالوجی", life: "زندگی", practice: "مشق" }, ja: { technology: "テクノロジー", life: "暮らし", practice: "実践" },
+  ko: { technology: "기술", life: "삶", practice: "수행" }, th: { technology: "เทคโนโลยี", life: "ชีวิต", practice: "การปฏิบัติ" },
+  ms: { technology: "Teknologi", life: "Kehidupan", practice: "Amalan" }, ru: { technology: "Технологии", life: "Жизнь", practice: "Практика" },
+  mr: { technology: "तंत्रज्ञान", life: "जीवन", practice: "साधना" }, fa: { technology: "فناوری", life: "زندگی", practice: "تمرین" },
+};
+const aboutDescriptions: Record<Lang, string> = {
+  en: `About ${AUTHOR} and Toward Less.`, vi: `Về ${AUTHOR} và Toward Less.`, zh: `关于 ${AUTHOR} 与 Toward Less。`,
+  hi: `${AUTHOR} और Toward Less के बारे में।`, es: `Acerca de ${AUTHOR} y Toward Less.`, ar: `عن ${AUTHOR} ومدونة Toward Less.`,
+  fr: `À propos de ${AUTHOR} et de Toward Less.`, bn: `${AUTHOR} ও Toward Less সম্পর্কে।`, pt: `Sobre ${AUTHOR} e Toward Less.`,
+  id: `Tentang ${AUTHOR} dan Toward Less.`, ur: `${AUTHOR} اور Toward Less کے بارے میں۔`, ja: `${AUTHOR}とToward Lessについて。`,
+  ko: `${AUTHOR}와 Toward Less 소개.`, th: `เกี่ยวกับ ${AUTHOR} และ Toward Less`, ms: `Tentang ${AUTHOR} dan Toward Less.`,
+  ru: `О ${AUTHOR} и блоге Toward Less.`, mr: `${AUTHOR} आणि Toward Less विषयी.`, fa: `دربارهٔ ${AUTHOR} و Toward Less.`,
+};
+export const ui = Object.fromEntries(
+  languages.map((lang) => [lang, { ...en, ...copy[lang], language: languageNames[lang], languageMenu: languageMenuNames[lang], footerLinks: footerLinkLabels[lang], aboutDescription: aboutDescriptions[lang], topics: topicNames[lang] }]),
+) as Record<Lang, Ui>;
+
+export const aboutCopy: Record<Lang, { lead: string; purpose: string; translationNote: string; browse: string; follow: string }> = {
+  en: { lead: `I’m ${AUTHOR}. I build software. I use this blog to write about technology, family life, and what I’m learning from Buddhist practice.`, purpose: "I chose Toward Less as a reminder not to take on too much or hold on to an opinion just because it’s mine.", translationNote: "I write in English and Vietnamese. Some posts have a translation; others don’t.", browse: "Browse the articles", follow: "or follow via" },
+  vi: { lead: `Tôi là ${AUTHOR}. Tôi làm phần mềm. Trang này là nơi tôi ghi lại những điều đang tìm hiểu về công nghệ, đời sống gia đình và Phật pháp.`, purpose: "Tôi chọn tên Toward Less để nhắc mình bớt ôm đồm và bớt cố giữ một ý kiến chỉ vì đó là ý kiến của mình.", translationNote: "Tôi viết bằng tiếng Việt và tiếng Anh. Không phải bài nào cũng có bản dịch.", browse: "Xem các bài viết", follow: "hoặc theo dõi qua" },
+  zh: { lead: `我是 ${AUTHOR}，从事软件开发。我在这里记录关于技术、家庭生活以及自己正在学习的佛法实践。`, purpose: "我选择 Toward Less 这个名字，提醒自己少承担一些，也不要只因为某个观点属于自己就紧抓不放。", translationNote: "我用英语和越南语写作。有些文章有译本，有些没有。", browse: "浏览文章", follow: "或通过以下方式订阅" },
+  hi: { lead: `${AUTHOR} सॉफ़्टवेयर बनाते हैं। इस ब्लॉग में वे तकनीक, पारिवारिक जीवन और बौद्ध अभ्यास से अपनी सीख लिखते हैं।`, purpose: "Toward Less नाम मुझे कम काम लेने और केवल अपना होने के कारण किसी राय से न चिपके रहने की याद दिलाता है।", translationNote: "मैं अंग्रेज़ी और वियतनामी में लिखता हूँ। कुछ लेखों के अनुवाद हैं, कुछ के नहीं।", browse: "लेख देखें", follow: "या यहाँ से पढ़ते रहें" },
+  es: { lead: `Soy ${AUTHOR} y desarrollo software. En este blog escribo sobre tecnología, vida familiar y lo que voy aprendiendo de la práctica budista.`, purpose: "Elegí el nombre Toward Less para recordarme que no debo abarcar demasiado ni aferrarme a una opinión solo porque es mía.", translationNote: "Escribo en inglés y vietnamita. Algunos textos tienen traducción y otros no.", browse: "Ver los artículos", follow: "o seguir el blog por" },
+  ar: { lead: `أنا ${AUTHOR}، أعمل في تطوير البرمجيات. أكتب هنا عن التقنية والحياة الأسرية وما أتعلمه من الممارسة البوذية.`, purpose: "اخترت اسم Toward Less ليذكّرني بألا أحمل نفسي فوق طاقتها، وألا أتمسك برأي لمجرد أنه رأيي.", translationNote: "أكتب بالإنجليزية والفيتنامية. تُرجمت بعض المقالات، ولم تُترجم أخرى.", browse: "تصفّح المقالات", follow: "أو تابع عبر" },
+  fr: { lead: `Je suis ${AUTHOR} et je développe des logiciels. J’écris ici sur la technologie, la vie de famille et ce que j’apprends de la pratique bouddhiste.`, purpose: "J’ai choisi le nom Toward Less pour me rappeler de ne pas trop m’éparpiller ni de défendre une opinion simplement parce qu’elle est la mienne.", translationNote: "J’écris en anglais et en vietnamien. Certains articles sont traduits, d’autres non.", browse: "Parcourir les articles", follow: "ou suivre via" },
+  bn: { lead: `আমি ${AUTHOR}। সফটওয়্যার তৈরি করি। প্রযুক্তি, পারিবারিক জীবন এবং বৌদ্ধ অনুশীলন থেকে যা শিখছি, এই ব্লগে তা লিখি।`, purpose: "Toward Less নামটি আমাকে কম কাজ নিতে এবং শুধু নিজের মত বলে কোনো মত আঁকড়ে না ধরতে মনে করিয়ে দেয়।", translationNote: "আমি ইংরেজি ও ভিয়েতনামি ভাষায় লিখি। কিছু লেখার অনুবাদ আছে, কিছু লেখার নেই।", browse: "লেখাগুলো দেখুন", follow: "অথবা অনুসরণ করুন" },
+  pt: { lead: `Sou ${AUTHOR} e desenvolvo software. Escrevo aqui sobre tecnologia, vida em família e o que venho aprendendo com a prática budista.`, purpose: "Escolhi o nome Toward Less para me lembrar de não assumir coisas demais nem me apegar a uma opinião só por ser minha.", translationNote: "Escrevo em inglês e vietnamita. Alguns textos têm tradução; outros não.", browse: "Ver os artigos", follow: "ou acompanhar pelo" },
+  id: { lead: `Saya ${AUTHOR}, pengembang perangkat lunak. Di blog ini saya menulis tentang teknologi, kehidupan keluarga, dan hal yang saya pelajari dari praktik Buddhis.`, purpose: "Saya memilih nama Toward Less sebagai pengingat agar tidak mengambil terlalu banyak hal dan tidak mempertahankan pendapat hanya karena itu milik saya.", translationNote: "Saya menulis dalam bahasa Inggris dan Vietnam. Sebagian tulisan diterjemahkan, sebagian tidak.", browse: "Jelajahi artikel", follow: "atau ikuti melalui" },
+  ur: { lead: `میں ${AUTHOR} ہوں اور سافٹ ویئر بناتا ہوں۔ اس بلاگ میں ٹیکنالوجی، خاندانی زندگی اور بدھ مت کی مشق سے اپنی سیکھ کے بارے میں لکھتا ہوں۔`, purpose: "میں نے Toward Less نام اس لیے چنا کہ یہ مجھے کم ذمہ داریاں لینے اور صرف اپنی رائے ہونے کی وجہ سے اس سے نہ چمٹے رہنے کی یاد دلاتا ہے۔", translationNote: "میں انگریزی اور ویتنامی میں لکھتا ہوں۔ کچھ مضامین کے ترجمے ہیں اور کچھ کے نہیں۔", browse: "مضامین دیکھیں", follow: "یا یہاں سے پڑھتے رہیں" },
+  ja: { lead: `${AUTHOR}です。ソフトウェアを作っています。このブログでは、テクノロジー、家族との暮らし、仏教の実践から学んでいることを書きます。`, purpose: "Toward Less という名前には、抱え込みすぎず、自分の意見だからという理由だけで固執しないように、という思いを込めました。", translationNote: "英語とベトナム語で書いています。翻訳がある記事と、ない記事があります。", browse: "記事を読む", follow: "または以下から購読" },
+  ko: { lead: `${AUTHOR}입니다. 소프트웨어를 만듭니다. 이 블로그에는 기술, 가족 생활, 불교 수행을 통해 배우는 것을 씁니다.`, purpose: "Toward Less라는 이름은 일을 너무 많이 떠맡지 않고, 내 의견이라는 이유만으로 고집하지 말자는 다짐입니다.", translationNote: "영어와 베트남어로 씁니다. 번역이 있는 글도 있고 없는 글도 있습니다.", browse: "글 둘러보기", follow: "또는 다음으로 구독" },
+  th: { lead: `ฉันคือ ${AUTHOR} ทำงานพัฒนาซอฟต์แวร์ บล็อกนี้บันทึกเรื่องเทคโนโลยี ชีวิตครอบครัว และสิ่งที่เรียนรู้จากการปฏิบัติทางพุทธศาสนา`, purpose: "ฉันเลือกชื่อ Toward Less เพื่อเตือนใจไม่รับภาระมากเกินไป และไม่ยึดติดกับความเห็นเพียงเพราะเป็นความเห็นของตนเอง", translationNote: "ฉันเขียนเป็นภาษาอังกฤษและเวียดนาม บางบทความมีคำแปลและบางบทความไม่มี", browse: "ดูบทความ", follow: "หรือติดตามผ่าน" },
+  ms: { lead: `Saya ${AUTHOR}, pembangun perisian. Di blog ini saya menulis tentang teknologi, kehidupan keluarga dan perkara yang saya pelajari daripada amalan Buddha.`, purpose: "Saya memilih nama Toward Less sebagai peringatan supaya tidak memikul terlalu banyak dan tidak berpegang pada pendapat hanya kerana pendapat itu milik saya.", translationNote: "Saya menulis dalam bahasa Inggeris dan Vietnam. Sesetengah tulisan diterjemahkan, yang lain tidak.", browse: "Lihat rencana", follow: "atau ikuti melalui" },
+  ru: { lead: `Я ${AUTHOR}, разработчик программного обеспечения. Здесь я пишу о технологиях, семейной жизни и о том, чему учусь в буддийской практике.`, purpose: "Название Toward Less напоминает мне не брать на себя слишком много и не держаться за мнение только потому, что оно моё.", translationNote: "Я пишу на английском и вьетнамском. Некоторые статьи переведены, другие — нет.", browse: "Все статьи", follow: "или подписаться через" },
+  mr: { lead: `मी ${AUTHOR}. सॉफ्टवेअर तयार करतो. तंत्रज्ञान, कौटुंबिक जीवन आणि बौद्ध साधनेतून जे शिकतो ते या ब्लॉगमध्ये लिहितो.`, purpose: "Toward Less हे नाव मला खूप गोष्टी अंगावर न घेण्याची आणि केवळ आपले मत आहे म्हणून त्याला चिकटून न राहण्याची आठवण करून देते.", translationNote: "मी इंग्रजी आणि व्हिएतनामी भाषांत लिहितो. काही लेखांचे भाषांतर आहे; काहींचे नाही.", browse: "लेख पाहा", follow: "किंवा येथे अनुसरण करा" },
+  fa: { lead: `من ${AUTHOR} هستم و نرم‌افزار می‌سازم. اینجا دربارهٔ فناوری، زندگی خانوادگی و آموخته‌هایم از تمرین بودایی می‌نویسم.`, purpose: "نام Toward Less را انتخاب کردم تا به خودم یادآوری کنم بیش از اندازه مسئولیت نگیرم و فقط به این دلیل که نظری از آنِ من است، به آن نچسبم.", translationNote: "به انگلیسی و ویتنامی می‌نویسم. بعضی نوشته‌ها ترجمه دارند و بعضی ندارند.", browse: "دیدن نوشته‌ها", follow: "یا از طریق این خوراک دنبال کنید" },
+};
+
+const searchEn = { placeholder: "Search this site…", clear_search: "Clear", load_more: "Load more", search_label: "Search", filters_label: "Filters", zero_results: "No results for [SEARCH_TERM]", many_results: "[COUNT] results for [SEARCH_TERM]", one_result: "One result for [SEARCH_TERM]", searching: "Searching…" };
+type PagefindMessages = { [K in keyof typeof searchEn]: string };
+export const pagefindMessages: Record<Lang, PagefindMessages> = {
+  en: searchEn,
+  vi: { placeholder: "Tìm trên trang…", clear_search: "Xóa", load_more: "Xem thêm", search_label: "Tìm kiếm", filters_label: "Bộ lọc", zero_results: "Không tìm thấy kết quả cho [SEARCH_TERM]", many_results: "[COUNT] kết quả cho [SEARCH_TERM]", one_result: "Một kết quả cho [SEARCH_TERM]", searching: "Đang tìm…" },
+  zh: { placeholder: "搜索本站…", clear_search: "清除", load_more: "加载更多", search_label: "搜索", filters_label: "筛选", zero_results: "没有找到与 [SEARCH_TERM] 相关的结果", many_results: "找到 [COUNT] 个与 [SEARCH_TERM] 相关的结果", one_result: "找到一个与 [SEARCH_TERM] 相关的结果", searching: "正在搜索…" },
+  hi: { placeholder: "इस साइट पर खोजें…", clear_search: "मिटाएँ", load_more: "और दिखाएँ", search_label: "खोजें", filters_label: "फ़िल्टर", zero_results: "[SEARCH_TERM] के लिए कोई परिणाम नहीं", many_results: "[SEARCH_TERM] के लिए [COUNT] परिणाम", one_result: "[SEARCH_TERM] के लिए एक परिणाम", searching: "खोज जारी है…" },
+  es: { placeholder: "Buscar en este sitio…", clear_search: "Borrar", load_more: "Cargar más", search_label: "Buscar", filters_label: "Filtros", zero_results: "No hay resultados para [SEARCH_TERM]", many_results: "[COUNT] resultados para [SEARCH_TERM]", one_result: "Un resultado para [SEARCH_TERM]", searching: "Buscando…" },
+  ar: { placeholder: "ابحث في الموقع…", clear_search: "مسح", load_more: "تحميل المزيد", search_label: "بحث", filters_label: "عوامل التصفية", zero_results: "لا نتائج لـ [SEARCH_TERM]", many_results: "[COUNT] نتيجة لـ [SEARCH_TERM]", one_result: "نتيجة واحدة لـ [SEARCH_TERM]", searching: "جارٍ البحث…" },
+  fr: { placeholder: "Rechercher sur ce site…", clear_search: "Effacer", load_more: "Charger plus", search_label: "Rechercher", filters_label: "Filtres", zero_results: "Aucun résultat pour [SEARCH_TERM]", many_results: "[COUNT] résultats pour [SEARCH_TERM]", one_result: "Un résultat pour [SEARCH_TERM]", searching: "Recherche en cours…" },
+  bn: { placeholder: "এই সাইটে খুঁজুন…", clear_search: "মুছুন", load_more: "আরও দেখুন", search_label: "খুঁজুন", filters_label: "ফিল্টার", zero_results: "[SEARCH_TERM]-এর কোনো ফল নেই", many_results: "[SEARCH_TERM]-এর [COUNT]টি ফল", one_result: "[SEARCH_TERM]-এর একটি ফল", searching: "খোঁজা হচ্ছে…" },
+  pt: { placeholder: "Pesquisar neste site…", clear_search: "Limpar", load_more: "Carregar mais", search_label: "Pesquisar", filters_label: "Filtros", zero_results: "Nenhum resultado para [SEARCH_TERM]", many_results: "[COUNT] resultados para [SEARCH_TERM]", one_result: "Um resultado para [SEARCH_TERM]", searching: "Pesquisando…" },
+  id: { placeholder: "Cari di situs ini…", clear_search: "Hapus", load_more: "Muat lagi", search_label: "Cari", filters_label: "Filter", zero_results: "Tidak ada hasil untuk [SEARCH_TERM]", many_results: "[COUNT] hasil untuk [SEARCH_TERM]", one_result: "Satu hasil untuk [SEARCH_TERM]", searching: "Sedang mencari…" },
+  ur: { placeholder: "اس سائٹ میں تلاش…", clear_search: "صاف کریں", load_more: "مزید دیکھیں", search_label: "تلاش", filters_label: "فلٹر", zero_results: "[SEARCH_TERM] کے لیے کوئی نتیجہ نہیں", many_results: "[SEARCH_TERM] کے لیے [COUNT] نتائج", one_result: "[SEARCH_TERM] کے لیے ایک نتیجہ", searching: "تلاش جاری ہے…" },
+  ja: { placeholder: "サイト内を検索…", clear_search: "クリア", load_more: "さらに表示", search_label: "検索", filters_label: "絞り込み", zero_results: "[SEARCH_TERM] の結果はありません", many_results: "[SEARCH_TERM] の検索結果：[COUNT]件", one_result: "[SEARCH_TERM] の検索結果：1件", searching: "検索中…" },
+  ko: { placeholder: "사이트 검색…", clear_search: "지우기", load_more: "더 보기", search_label: "검색", filters_label: "필터", zero_results: "[SEARCH_TERM] 검색 결과가 없습니다", many_results: "[SEARCH_TERM] 검색 결과 [COUNT]개", one_result: "[SEARCH_TERM] 검색 결과 1개", searching: "검색 중…" },
+  th: { placeholder: "ค้นหาในเว็บไซต์…", clear_search: "ล้าง", load_more: "โหลดเพิ่ม", search_label: "ค้นหา", filters_label: "ตัวกรอง", zero_results: "ไม่พบผลลัพธ์สำหรับ [SEARCH_TERM]", many_results: "พบ [COUNT] รายการสำหรับ [SEARCH_TERM]", one_result: "พบหนึ่งรายการสำหรับ [SEARCH_TERM]", searching: "กำลังค้นหา…" },
+  ms: { placeholder: "Cari di laman ini…", clear_search: "Kosongkan", load_more: "Muatkan lagi", search_label: "Cari", filters_label: "Penapis", zero_results: "Tiada hasil untuk [SEARCH_TERM]", many_results: "[COUNT] hasil untuk [SEARCH_TERM]", one_result: "Satu hasil untuk [SEARCH_TERM]", searching: "Sedang mencari…" },
+  ru: { placeholder: "Поиск по сайту…", clear_search: "Очистить", load_more: "Загрузить ещё", search_label: "Поиск", filters_label: "Фильтры", zero_results: "По запросу [SEARCH_TERM] ничего не найдено", many_results: "Результатов по запросу [SEARCH_TERM]: [COUNT]", one_result: "Один результат по запросу [SEARCH_TERM]", searching: "Идёт поиск…" },
+  mr: { placeholder: "या साइटवर शोधा…", clear_search: "पुसून टाका", load_more: "आणखी दाखवा", search_label: "शोधा", filters_label: "फिल्टर", zero_results: "[SEARCH_TERM] साठी निकाल नाहीत", many_results: "[SEARCH_TERM] साठी [COUNT] निकाल", one_result: "[SEARCH_TERM] साठी एक निकाल", searching: "शोध सुरू आहे…" },
+  fa: { placeholder: "جست‌وجو در سایت…", clear_search: "پاک کردن", load_more: "نمایش بیشتر", search_label: "جست‌وجو", filters_label: "فیلترها", zero_results: "نتیجه‌ای برای [SEARCH_TERM] پیدا نشد", many_results: "[COUNT] نتیجه برای [SEARCH_TERM]", one_result: "یک نتیجه برای [SEARCH_TERM]", searching: "در حال جست‌وجو…" },
+};
 
 export function tagLabel(tag: string, lang: Lang): string {
   const labels: Record<string, string> = ui[lang].topics;
