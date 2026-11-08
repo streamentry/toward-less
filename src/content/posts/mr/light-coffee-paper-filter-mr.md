@@ -5,7 +5,7 @@ lang: mr
 slug: light-coffee-paper-filter-mr
 translationKey: filtered-coffee-and-health-2026
 pubDatetime: 2026-11-08T20:00:00+07:00
-draft: true
+draft: false
 featured: false
 tags: [life]
 ---
