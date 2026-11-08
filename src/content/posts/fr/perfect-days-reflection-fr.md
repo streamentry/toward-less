@@ -10,24 +10,52 @@ featured: false
 tags: [life, practice]
 ---
 
-*Reflections on [Perfect Days](https://en.wikipedia.org/wiki/Perfect_Days_(2023_film)) (2023), directed by Wim Wenders. Contains mild spoilers.*
+*Réflexions sur [Perfect Days](https://en.wikipedia.org/wiki/Perfect_Days_(2023_film)) (2023), de Wim Wenders. Quelques éléments de l'intrigue sont évoqués.*
 
-Hirayama nettoie des toilettes publiques à Tokyo. Il se lève tôt, soigne ses plantes, travaille, photographie les arbres et lit le soir. Le lendemain, tout recommence. Sa vie paraît étroite dans un résumé ; à l'écran, elle est étonnamment vaste.
+Hirayama nettoie des toilettes publiques à Tokyo. Il se lève tôt, replie sa literie, soigne ses plantes, achète une boisson au distributeur et prend sa voiture pour aller travailler. À midi, il photographie les arbres. Le soir, il lit. Le lendemain, une grande partie de sa journée se répète.
 
-## L'attention change la journée
+Sur le papier, son existence semble petite. À l'écran, elle paraît étonnamment vaste.
 
-Les toilettes se salissent encore et son collègue n'est pas toujours fiable. Hirayama nettoie pourtant chaque recoin avec soin. Il remarque la lumière entre les feuilles et les petits gestes humains. Le film ne demande pas d'aimer le travail répétitif ; il rappelle que nous gardons une certaine liberté dans notre façon de répondre aux circonstances.
+C'est ce contraste qui rend *Perfect Days* si intéressant.
 
-## Le contentement libère-t-il toujours ?
+## L'attention change la journée, pas le métier
 
-Ses rencontres familiales évoquent un passé inconnu. Sa routine peut lui apporter la paix ou le protéger de la douleur. La simplicité peut être un choix lucide ou une fuite des responsabilités. La vraie question n'est pas **Avec combien de choses puis-je vivre ?**, mais **Qu'est-ce que je refuse d'affronter ?**
+Hirayama ne rend pas le nettoyage prestigieux. Les toilettes restent à nettoyer. Son collègue n'est pas fiable. Des inconnus peuvent être négligents. Pourtant, il s'applique, même dans les recoins que d'autres oublieraient.
 
-## Moins ne signifie pas renoncer à l'ambition
+Le film ne prétend pas que chacun devrait aimer les tâches répétitives. Il montre quelque chose de plus limité et de plus utile : même si nous ne choisissons pas toutes les conditions d'une journée, nous conservons une part de liberté dans notre manière d'y répondre.
 
-Une matinée calme n'empêche pas de construire quelque chose d'utile. Travailler, prendre soin des siens et assumer ses responsabilités sont aussi des formes d'amour. Le piège consiste à faire de la prochaine réussite une condition pour vivre aujourd'hui. La pratique bouddhiste distingue intention et attachement : agir pleinement ne suppose pas de contrôler le résultat.
+Hirayama remarque les rayons de soleil qui traversent les feuilles, le déplacement des ombres, un petit geste d'un inconnu. Aucun de ces instants n'a besoin de devenir un accomplissement.
+
+Savoir voir ce qui est déjà là constitue une forme de richesse.
+
+## Mais le contentement est-il toujours une liberté ?
+
+Il serait tentant de faire d'Hirayama un saint du minimalisme : posséder moins, désirer moins, devenir heureux.
+
+Le film résiste à cette lecture. Ses rencontres avec sa famille suggèrent un passé que nous ne connaissons pas entièrement. Ses habitudes peuvent entretenir la paix, mais aussi le protéger d'une souffrance. Les deux interprétations restent possibles.
+
+C'est important. Une vie simple peut naître d'un choix lucide. Elle peut aussi être un refuge contre les conversations difficiles, les responsabilités ou le changement. Le nombre d'objets que possède quelqu'un ne permet pas de faire la différence.
+
+La vraie question n'est pas **Avec combien de choses puis-je vivre ?**, mais **Qu'est-ce que je refuse d'affronter ?**
+
+## Moins n'est pas le contraire de l'ambition
+
+Il n'est pas nécessaire de choisir entre les matins paisibles d'Hirayama et la construction de quelque chose d'utile. Travailler peut exprimer la sollicitude. Subvenir aux besoins de sa famille, créer des outils ou assumer ses responsabilités envers les autres aussi.
+
+Le problème commence quand la prochaine étape devient une condition pour s'autoriser à vivre aujourd'hui.
+
+On peut posséder très peu et rester consumé par le désir. On peut aussi créer une entreprise sans faire de sa réussite la mesure de sa propre valeur. La forme extérieure d'une vie nous apprend moins que nous ne l'imaginons.
+
+La pratique bouddhiste propose une distinction proche : l'intention et l'attachement ne sont pas la même chose. On peut agir de tout son cœur sans exiger que la réalité nous obéisse.
 
 ## Le dernier plan
 
-Sur le visage d'Hirayama au volant, joie et tristesse coexistent. Une bonne vie n'est pas sans peine, et tous ses jours ne sont pas parfaits. Peut-être qu'un jour parfait est simplement un jour que nous n'avons pas entièrement manqué.
+Vers la fin, la caméra demeure sur le visage d'Hirayama tandis qu'il conduit. On y devine de la joie, du chagrin, de la tendresse, de la fatigue. Le film refuse de réduire ces émotions à un seul message.
 
-**Quel moment ordinaire de demain mérite toute mon attention ?**
+C'est peut-être son moment le plus honnête. Une bonne vie n'est pas une vie dont la tristesse a disparu. Ce n'est pas non plus une vie où chaque journée est parfaite.
+
+Peut-être qu'un *jour parfait* est simplement un jour que nous n'avons pas entièrement laissé passer.
+
+Après ce film, plutôt que d'élaborer un nouveau plan pour changer ma vie, je préfère me poser une question concrète :
+
+**Quel instant ordinaire de demain mérite toute mon attention ?**
