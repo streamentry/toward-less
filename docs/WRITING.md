@@ -2,7 +2,7 @@
 
 Supported languages and content directory codes: English `en`, Vietnamese `vi`, Mandarin Chinese in Simplified script `zh`, Hindi `hi`, Spanish `es`, Modern Standard Arabic `ar`, French `fr`, Bengali `bn`, Portuguese `pt`, Indonesian `id`, Urdu `ur`, Japanese `ja`, Korean `ko`, Thai `th`, Malay `ms`, Russian `ru`, Marathi `mr`, and Persian `fa`. “Iranian” is treated as Persian; “Malaysian” is treated as Malay.
 
-Create each new authored post in all 18 languages by default. Regardless of the initial draft scope, do not publish a new post until all 18 editions exist and have been reviewed for meaning, names, facts, script rendering, and direction. Give every edition natural, idiomatic prose; translate meaning rather than sentence structure. Keep the same `translationKey` across editions, while titles, descriptions, slugs, and publication dates may differ. Start editions as drafts. A translation of an already-published post may remain a draft; the site never auto-translates or auto-publishes.
+Create each new authored post in all 18 languages by default. Publish user-authorized, complete editions without waiting for all 18 translations; track missing editions honestly. Give every edition natural, idiomatic prose; translate meaning rather than sentence structure. Keep the same `translationKey` across editions, while titles, descriptions, slugs, and publication dates may differ. Use draft status based on actual readiness and the user's instructions. A translation of an already-published post may remain a draft; the site never auto-translates or auto-publishes.
 
 ## Create an article
 
@@ -73,3 +73,15 @@ Run `pnpm build && pnpm verify`, then `pnpm preview`. Check all 18 language rout
 The two introductory articles are unpublished starter drafts, not imported historical writing. They duplicate the About page and do not need to be published. An empty article list is supported; do not publish placeholders just to satisfy a test or fill the homepage.
 
 Keep private information out of the public repository, including drafts: **draft means unpublished on the website, not secret on GitHub**.
+
+## Toward Less editorial identity — lush and lean
+
+Lush in observation, lean in language. Keep concrete scenes, human complexity, careful distinctions, and a real counterargument. Remove filler, launch hype, repeated claims, decorative metaphors, and forced life lessons. A short, precise essay beats a long generic one.
+
+The recurring question is how to work, build, care for family, read, and practice with less craving and attachment. This is not anti-ambition, anti-technology, or a mandate to make every article a Buddhist sermon. Distinguish contentment from avoidance, intention from attachment, evidence from speculation, and a project vision from what actually exists.
+
+Never invent first-person memories, personal experiences, family details, spiritual attainments, or endorsements. Preserve the original authorship and text of attributed 2022 archival translations; write a separate editorial reflection instead of silently rewriting another author's words.
+
+**Full translations mean full translations.** Preserve each article's substantive claims, examples, uncertainty, sources, and conclusion in all requested languages. An abridged adaptation must be labeled as such. Keep the same translationKey and globally unique slugs. AI translation is not native-speaker review; do not claim otherwise. Missing languages are tracked honestly rather than replaced with thin summaries.
+
+When the user explicitly requests publication, publish completed and checked editions without waiting for all 18 languages; create the remaining full translations when requested. Do not default every new post to draft mode.
