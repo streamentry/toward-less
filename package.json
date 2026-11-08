@@ -12,7 +12,7 @@
     "build": "astro check && astro build && pagefind --site dist --root-selector '[data-pagefind-body]'",
     "preview": "astro preview",
     "check": "astro check",
-    "verify": "python3 scripts/verify_site.py",
+    "verify": "python3 scripts/verify_site.py && python3 scripts/verify_archive.py && python3 scripts/verify_translations.py",
     "sync": "astro sync",
     "astro": "astro",
     "format:check": "prettier --check .",

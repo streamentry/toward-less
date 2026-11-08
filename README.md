@@ -49,7 +49,7 @@ The initial repository import is pinned to AstroPaper commit `1497f407928a06f1f2
 
 Articles live in `src/content/posts/<language-code>/`. New authored posts should include English, Vietnamese, Simplified Chinese, Hindi, Spanish, Modern Standard Arabic, French, Bengali, Portuguese, Indonesian, Urdu, Japanese, Korean, Thai, Malay, Russian, Marathi and Persian editions unless the user narrows the request. Matching translations share `translationKey`, not necessarily the same slug. Drafts and future-dated articles are excluded from pages, feeds, search, and translation links. A future-dated article becomes visible on the **next build after its publication time**; no scheduled background build is configured.
 
-See [the writing guide](docs/WRITING.md) and [design system](docs/DESIGN_SYSTEM.md).
+See [the writing guide](docs/WRITING.md), [design system](docs/DESIGN_SYSTEM.md), and [content and translation audit](docs/CONTENT_AUDIT.md).
 
 ## Important files
 
@@ -68,7 +68,7 @@ For a custom domain, set `site.url` to that domain and `base` to `/` in `astro-p
 
 ## Content and privacy
 
-The two 2022 Vietnamese posts supplied by the owner have been migrated from the old blog, with their original publication dates and source attribution. They are translations/excerpts, not original first-person accounts by this site's owner. The time-with-children post includes a visible qualification of the source's unsupported 75% claim. The old `less-is-better` site is unchanged.
+The two 2022 Vietnamese posts supplied by the owner have been migrated from the old blog, retaining their original Vietnamese and English archive dates and source attribution. Subsequent translations were published in 2026. All 17 published article families now have editions in 18 languages; the automated completeness check does not certify translation quality. They are translations/excerpts, not original first-person accounts by this site's owner. The time-with-children post includes a visible qualification of the source's unsupported 75% claim. The old `less-is-better` site is unchanged.
 
 The paired introductory articles remain drafts. No private family details, employer details or personal account data were imported. Drafts in this public repository are not private.
 
