@@ -5,21 +5,23 @@ Updated 8 November 2026. This record is about **coverage and verifiable structur
 ## Coverage
 
 - **18 supported languages:** en, vi, zh, hi, es, ar, fr, bn, pt, id, ur, ja, ko, th, ms, ru, mr, fa.
-- **19 published article families × 18 languages = 342 published editions.**
+- **20 published article families × 18 languages = 360 published editions.**
 - **2 extra unpublished introductory drafts** (en and vi), intentionally excluded because they duplicate the About page.
-- **344 Markdown files** in `src/content/posts/` at the time of this audit.
+- **362 Markdown files** in `src/content/posts/` at the time of this audit.
 - Each group shares a `translationKey`; every edition has its own globally unique slug.
 
 Published families:
 
 | Theme | Article families |
 | --- | --- |
-| Life and practice | Perfect Days; The Dig; ChatGPT and 90 days smoke-free; I want to read Proust; What is minimalism? (2022 archive); Time with children (2022 archive); HowToLiveBetter |
+| Life and practice | Seven games for child-led play (Dutch-inspired); Perfect Days; The Dig; ChatGPT and 90 days smoke-free; I want to read Proust; What is minimalism? (2022 archive); Time with children (2022 archive); HowToLiveBetter |
 | Buddhist scholarship and practice | Hướng Đến Nhập Lưu; Pāli translation sources; Buddhist Textual Witnesses |
 | Literature, memory, and culture | LitMundi; The Thread Seers; Saigon2Hanoi |
 | Technology and research | AGENTOWNERS; ClawPing; DBA ESG thesis; Open Problem Lab; OpenAMP Foundry; Subvox |
 
 The smoking-cessation account reflects its author's stated experience: smoking for more than ten years, repeated unsuccessful attempts, ChatGPT's introduction of Tabex/cytisine, and more than 90 smoke-free days as of 8 November 2026. It does not supply a dosing regimen, imply that AI is a clinician, or claim a single anecdote proves efficacy. Medical claims are cited to WHO and Cochrane.
+
+The Dutch-inspired play essay offers seven suggested activities for roughly ages 4–10, including a finite digital game. Its exercises are not presented as validated interventions. The UNICEF 2026 ranking is descriptive rather than proof that Dutch parenting causes child well-being. The AAP and WHO sources support broad play, sleep, activity, and digital design guardrails, not the effectiveness of this exact seven-game selection.
 
 ## Editorial standard
 

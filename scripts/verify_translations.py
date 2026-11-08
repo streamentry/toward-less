@@ -60,6 +60,16 @@ for path in sorted(ROOT.rglob("*")):
     if published and key == "perfect-days-simple-life-2026":
         if len(re.findall(r"(?m)^##\s+", body)) < 4:
             errors.append(f"{path}: Perfect Days must have all four sections")
+    if published and key == "dutch-play-seven-games-2026":
+        if len(re.findall(r"(?m)^##\s+", body)) != 8:
+            errors.append(f"{path}: seven play activities and the closing argument must all be present")
+        if any(link not in body for link in (
+            "unicef.org/innocenti/reports/report-card-20",
+            "doi.org/10.1542/peds.2018-2058",
+            "publications.aap.org/pediatrics",
+            "who.int/publications/"
+        )):
+            errors.append(f"{path}: missing research links for the Dutch-inspired play essay")
     if published and key == "the-dig-what-remains-2026":
         if len(re.findall(r"(?m)^##\s+", body)) != 4:
             errors.append(f"{path}: The Dig must preserve all four sections")
