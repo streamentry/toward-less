@@ -5,16 +5,16 @@ Updated 8 November 2026. This record is about **coverage and verifiable structur
 ## Coverage
 
 - **18 supported languages:** en, vi, zh, hi, es, ar, fr, bn, pt, id, ur, ja, ko, th, ms, ru, mr, fa.
-- **22 published article families × 18 languages = 396 published editions.**
+- **23 published article families × 18 languages = 414 published editions.**
 - **2 extra unpublished introductory drafts** (en and vi), intentionally excluded because they duplicate the About page.
-- **398 Markdown files** in `src/content/posts/` at the time of this audit.
+- **416 Markdown files** in `src/content/posts/` at the time of this audit.
 - Each group shares a `translationKey`; every edition has its own globally unique slug.
 
 Published families:
 
 | Theme | Article families |
 | --- | --- |
-| Life and practice | Five minutes of optimism; Seven games for child-led play (Dutch-inspired); Perfect Days; The Dig; ChatGPT and 90 days smoke-free; I want to read Proust; What is minimalism? (2022 archive); Time with children (2022 archive); HowToLiveBetter |
+| Life and practice | Fasting and arterial plaque (preclinical evidence); Five minutes of optimism; Seven games for child-led play (Dutch-inspired); Perfect Days; The Dig; ChatGPT and 90 days smoke-free; I want to read Proust; What is minimalism? (2022 archive); Time with children (2022 archive); HowToLiveBetter |
 | Buddhist scholarship and practice | Hướng Đến Nhập Lưu; Pāli translation sources; Buddhist Textual Witnesses |
 | Literature, memory, and culture | LitMundi; The Thread Seers; Saigon2Hanoi |
 | Technology and research | Ask AI before automating; AGENTOWNERS; ClawPing; DBA ESG thesis; Open Problem Lab; OpenAMP Foundry; Subvox |
@@ -24,6 +24,8 @@ The smoking-cessation account reflects its author's stated experience: smoking f
 The Dutch-inspired play essay offers seven suggested activities for roughly ages 4–10, including a finite digital game. Its exercises are not presented as validated interventions. The UNICEF 2026 ranking is descriptive rather than proof that Dutch parenting causes child well-being. The AAP and WHO sources support broad play, sleep, activity, and digital design guardrails, not the effectiveness of this exact seven-game selection.
 
 The 2026 essay `Ask AI before automating` is an original editorial response inspired by a screenshot attributed to Prompter (@PromptLLM) on X. The account's X profile is linked; the specific original post URL has not been verified. This short article argues for questioning unnecessary work before automating it and explicitly notes that AI proposals require real-world validation.
+
+The 2026 fasting/arterial-plaque article draws on Feng et al. (2026), a genetically susceptible mouse model with supporting cell experiments and human-genetics analyses. The article distinguishes the reported mouse plaque regression from unproven human plaque regression; similar endpoint lipids do not establish full lipid independence; human clinical outcomes and established LDL-lowering care are not displaced. It cites the 2026 ACC/AHA dyslipidemia guidance, ACC nutrition statement, and Cochrane review. No fasting prescription is provided.
 
 ## Editorial standard
 

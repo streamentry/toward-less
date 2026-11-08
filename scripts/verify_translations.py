@@ -57,6 +57,16 @@ for path in sorted(ROOT.rglob("*")):
             errors.append(f"{path}: archive authorship lost")
         if fields.get("sourceURL") != url or url not in body:
             errors.append(f"{path}: missing archive provenance")
+    if published and key == "intermittent-fasting-plaque-mice-2026":
+        if len(re.findall(r"(?m)^##\s+", body)) != 4:
+            errors.append(f"{path}: fasting evidence essay needs four substantive sections")
+        if any(link not in body for link in (
+            "10.1186/s12964-026-03140-3",
+            "2026-guideline-on-the-management-of-dyslipidemia",
+            "10.1016/j.jacc.2026.08.025",
+            "CD013496"
+        )):
+            errors.append(f"{path}: fasting evidence essay missing a primary/guideline/review reference")
     if published and key == "perfect-days-simple-life-2026":
         if len(re.findall(r"(?m)^##\s+", body)) < 4:
             errors.append(f"{path}: Perfect Days must have all four sections")
