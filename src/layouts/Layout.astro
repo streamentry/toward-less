@@ -122,7 +122,7 @@ const ogImage = absolute(withBase("og.png"));
     <a class="skip-link" href="#main">{ui[lang].skip}</a>
     <Header lang={lang} section={section} alternates={alternates} />
     <main id="main" class="shell" tabindex="-1"><slot /></main>
-    <Footer lang={lang} />
+    <Footer lang={lang} alternates={alternates} />
     <script src="../scripts/theme.ts"></script>
   </body>
 </html>
