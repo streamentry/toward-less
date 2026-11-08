@@ -23,7 +23,12 @@ const toc = headings.filter((heading) => heading.depth === 2 || heading.depth ==
 const alternates: Alternate[] = (await getPosts())
   .filter((item) => item.data.translationKey === post.data.translationKey)
   .map((item) => ({ lang: item.data.lang, href: postPath(item) }));
-const translated = alternates.find((item) => item.lang !== lang);
+// Keep the inline translation hint useful and quiet; the language menu offers all 18.
+// Prefer Vietnamese from English articles, and English from every other locale.
+const preferredTranslation = lang === "en" ? "vi" : "en";
+const translated =
+  alternates.find((item) => item.lang === preferredTranslation) ??
+  alternates.find((item) => item.lang !== lang);
 const canonical = new URL(postPath(post), Astro.site).href;
 const structuredData = {
   "@context": "https://schema.org",
