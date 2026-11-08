@@ -108,11 +108,14 @@ const ogImage = absolute(withBase("og.png"));
         try {
           preference = localStorage.getItem("toward-less-theme") || "auto";
         } catch {}
-        if (!["light", "dark", "auto"].includes(preference)) preference = "auto";
-        const dark =
-          preference === "dark" ||
-          (preference === "auto" && matchMedia("(prefers-color-scheme: dark)").matches);
-        document.documentElement.dataset.theme = dark ? "dark" : "light";
+        if (!["light", "sepia", "dark", "auto"].includes(preference)) preference = "auto";
+        const theme =
+          preference === "auto"
+            ? matchMedia("(prefers-color-scheme: dark)").matches
+              ? "dark"
+              : "light"
+            : preference;
+        document.documentElement.dataset.theme = theme;
         document.documentElement.dataset.preference = preference;
       })();
     </script>
