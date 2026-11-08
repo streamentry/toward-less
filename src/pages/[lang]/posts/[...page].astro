@@ -17,11 +17,15 @@ const lang = Astro.params.lang as Lang;
 const { page } = Astro.props as { page: Page<Post> };
 const t = ui[lang];
 const path = `posts/${page.currentPage === 1 ? "" : `${page.currentPage}/`}`;
-const alternates = (await Promise.all(languages.map(async (language) => ({
-  lang: language,
-  href: localePath(language, path),
-  count: (await getPosts(language)).length,
-}))))
+const alternates = (
+  await Promise.all(
+    languages.map(async (language) => ({
+      lang: language,
+      href: localePath(language, path),
+      count: (await getPosts(language)).length,
+    })),
+  )
+)
   .filter(({ count }) => page.currentPage === 1 || count > (page.currentPage - 1) * 8)
   .map(({ lang: language, href }) => ({ lang: language, href }));
 ---
@@ -36,7 +40,8 @@ const alternates = (await Promise.all(languages.map(async (language) => ({
 >
   <header class="page-heading">
     <p class="eyebrow">Toward Less</p><h1>{t.articles}</h1><p>{t.archiveDescription}</p><a
-      href={localePath(lang, "tags/")}>{t.topicsTitle}</a>
+      href={localePath(lang, "tags/")}>{t.topicsTitle}</a
+    >
   </header>
   {
     page.data.length ? (
@@ -53,7 +58,7 @@ const alternates = (await Promise.all(languages.map(async (language) => ({
     page.lastPage > 1 && (
       <nav class="pagination" aria-label={t.pagination}>
         {page.url.prev ? (
-          <a rel="prev" href={page.url.prev}>
+          <a class="button" rel="prev" href={page.url.prev}>
             ← {t.previous}
           </a>
         ) : (
@@ -63,7 +68,7 @@ const alternates = (await Promise.all(languages.map(async (language) => ({
           {t.page} {page.currentPage} {t.of} {page.lastPage}
         </span>
         {page.url.next ? (
-          <a rel="next" href={page.url.next}>
+          <a class="button" rel="next" href={page.url.next}>
             {t.next} →
           </a>
         ) : (

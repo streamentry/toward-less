@@ -1,16 +1,25 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { languages, languageNames, languageTags, localePath } from "../i18n";
+import { languages, languageNames, languageTags, localePath, ui } from "../i18n";
+const t = ui.en;
 ---
 
-<Layout lang="en" title="Page not found" noindex>
+<Layout lang="en" title={t.notFound} noindex>
   <header class="page-heading">
-    <p class="eyebrow">404</p><h1>This page is not here.</h1><p>
-      The address may have changed. Return to the notebook and start again.
-    </p>
+    <p class="eyebrow">404</p><h1>{t.notFound}</h1><p>{t.notFoundText}</p>
   </header>
-  <p><a href={localePath("en")}>Return home</a></p>
-  <nav aria-label="Choose language">
-    <ul>{languages.map((language) => <li><a href={localePath(language)} lang={languageTags[language]}>{languageNames[language]}</a></li>)}</ul>
+  <p><a href={localePath("en")}>{t.home}</a></p>
+  <nav aria-label={t.languageMenu}>
+    <ul class="topic-list">
+      {
+        languages.map((language) => (
+          <li>
+            <a href={localePath(language)} lang={languageTags[language]}>
+              {languageNames[language]}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
   </nav>
 </Layout>

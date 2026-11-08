@@ -1,6 +1,7 @@
 ---
 import { render } from "astro:content";
 import Layout from "../../../layouts/Layout.astro";
+import Mark from "../../../components/Mark.astro";
 import { getPosts, postPath, dateLabel, readingMinutes, type Post } from "../../../lib/posts";
 import { ui, languageTags, localePath, tagLabel, type Lang } from "../../../i18n";
 import { AUTHOR } from "../../../site";
@@ -130,9 +131,19 @@ const structuredData = {
     }
     <div class="prose"><Content /></div>
   </article>
+  <div class="article-mark" aria-hidden="true"><Mark /></div>
+  <div class="reader-controls" data-pagefind-ignore>
+    <span class="reader-label">{t.textSize}</span>
+    <button type="button" data-reading="text-minus" aria-label={t.textSmaller}>A−</button>
+    <button type="button" data-reading="text-plus" aria-label={t.textLarger}>A+</button>
+    <span class="reader-label">{t.measure}</span>
+    <button type="button" data-reading="measure-minus" aria-label={t.measureNarrow}>−</button>
+    <button type="button" data-reading="measure-plus" aria-label={t.measureWide}>+</button>
+  </div>
   <nav class="article-end" aria-label={t.afterArticle}>
     <a href={localePath(lang, "posts/")}>← {t.back}</a><a href={localePath(lang, "rss.xml")}
-      >{t.rss}</a>
+      >{t.rss}</a
+    >
   </nav>
   <script is:inline>
     (() => {
@@ -170,4 +181,5 @@ const structuredData = {
       for (const heading of headings) observer.observe(heading);
     })();
   </script>
+  <script src="../../../scripts/reading.ts"></script>
 </Layout>

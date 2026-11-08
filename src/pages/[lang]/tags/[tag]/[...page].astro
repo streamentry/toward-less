@@ -21,11 +21,15 @@ const tag = Astro.params.tag as string;
 const { page } = Astro.props as { page: Page<Post> };
 const t = ui[lang];
 const path = `tags/${tag}/${page.currentPage === 1 ? "" : `${page.currentPage}/`}`;
-const alternates = (await Promise.all(languages.map(async (language) => ({
-  lang: language,
-  href: localePath(language, path),
-  count: (await getPosts(language)).filter((post) => post.data.tags.includes(tag)).length,
-}))))
+const alternates = (
+  await Promise.all(
+    languages.map(async (language) => ({
+      lang: language,
+      href: localePath(language, path),
+      count: (await getPosts(language)).filter((post) => post.data.tags.includes(tag)).length,
+    })),
+  )
+)
   .filter(({ count }) => count > (page.currentPage - 1) * 8)
   .map(({ lang: language, href }) => ({ lang: language, href }));
 ---
@@ -47,7 +51,7 @@ const alternates = (await Promise.all(languages.map(async (language) => ({
     page.lastPage > 1 && (
       <nav class="pagination" aria-label={t.pagination}>
         {page.url.prev ? (
-          <a rel="prev" href={page.url.prev}>
+          <a class="button" rel="prev" href={page.url.prev}>
             ← {t.previous}
           </a>
         ) : (
@@ -57,7 +61,7 @@ const alternates = (await Promise.all(languages.map(async (language) => ({
           {page.currentPage} / {page.lastPage}
         </span>
         {page.url.next ? (
-          <a rel="next" href={page.url.next}>
+          <a class="button" rel="next" href={page.url.next}>
             {t.next} →
           </a>
         ) : (

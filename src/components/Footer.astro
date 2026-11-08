@@ -26,12 +26,12 @@ const alternateMap = new Map(alternates.map((alternate) => [alternate.lang, alte
     }
   </nav>
   <div class="footer-bottom">
-    <span>© {new Date().getFullYear()} {AUTHOR}</span><nav
-      aria-label={t.footerLinks}
-    >
-      <a href={localePath(lang, "rss.xml")}>{t.rss}</a><a
-        href="https://github.com/streamentry/toward-less">{t.source}</a
-      ><a href="https://github.com/satnaing/astro-paper">AstroPaper</a>
+    <span>© {new Date().getFullYear()} {AUTHOR}</span><nav aria-label={t.footerLinks}>
+      <a href={localePath(lang, "colophon/")}>{t.colophon}</a><a href={localePath(lang, "rss.xml")}
+        >{t.rss}</a
+      ><a href="https://github.com/streamentry/toward-less">{t.source}</a><a
+        href="https://github.com/satnaing/astro-paper">AstroPaper</a
+      >
     </nav>
   </div>
 </footer>

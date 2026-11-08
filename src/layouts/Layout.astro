@@ -44,7 +44,12 @@ const ogImage = absolute(withBase("og.png"));
 ---
 
 <!doctype html>
-<html lang={languageTags[lang]} dir={isRtl(lang) ? "rtl" : "ltr"}>
+<html
+  lang={languageTags[lang]}
+  dir={isRtl(lang) ? "rtl" : "ltr"}
+  data-copy={ui[lang].copyCode}
+  data-copied={ui[lang].copiedCode}
+>
   <head>
     <!-- Google tag (gtag.js) -->
     <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-XRS285VL7X"></script>
@@ -119,6 +124,26 @@ const ogImage = absolute(withBase("og.png"));
         document.documentElement.dataset.preference = preference;
       })();
     </script>
+    <script is:inline>
+      // Apply saved reading preferences (text size, line length) before paint.
+      (() => {
+        try {
+          const saved = JSON.parse(localStorage.getItem("toward-less-reading") || "{}");
+          const textSteps = [0.94, 1, 1.08, 1.16];
+          const measureSteps = [0.9, 1, 1.1];
+          if (typeof saved.t === "number" && textSteps[saved.t] !== undefined)
+            document.documentElement.style.setProperty(
+              "--reader-scale",
+              String(textSteps[saved.t]),
+            );
+          if (typeof saved.m === "number" && measureSteps[saved.m] !== undefined)
+            document.documentElement.style.setProperty(
+              "--measure-scale",
+              String(measureSteps[saved.m]),
+            );
+        } catch {}
+      })();
+    </script>
     <slot name="head" />
   </head>
   <body>
@@ -127,5 +152,37 @@ const ogImage = absolute(withBase("og.png"));
     <main id="main" class="shell" tabindex="-1"><slot /></main>
     <Footer lang={lang} alternates={alternates} />
     <script src="../scripts/theme.ts"></script>
+    <script is:inline>
+      // Code blocks: add a language label and a copy button to each one.
+      (() => {
+        const copyLabel = document.documentElement.dataset.copy || "Copy";
+        const copiedLabel = document.documentElement.dataset.copied || "Copied";
+        for (const pre of document.querySelectorAll(".prose pre")) {
+          const code = pre.querySelector("code");
+          const lang =
+            pre.getAttribute("data-language") || (code?.className.match(/language-(\S+)/) || [])[1];
+          if (lang) {
+            const label = document.createElement("span");
+            label.className = "code-label";
+            label.textContent = lang;
+            pre.prepend(label);
+          }
+          const button = document.createElement("button");
+          button.type = "button";
+          button.className = "code-copy";
+          button.textContent = copyLabel;
+          button.addEventListener("click", async () => {
+            try {
+              await navigator.clipboard.writeText(code?.textContent ?? pre.textContent ?? "");
+              button.textContent = copiedLabel;
+              setTimeout(() => {
+                button.textContent = copyLabel;
+              }, 1500);
+            } catch {}
+          });
+          pre.append(button);
+        }
+      })();
+    </script>
   </body>
 </html>

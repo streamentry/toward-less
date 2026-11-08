@@ -38,6 +38,9 @@
   --rule: color-mix(in oklch, var(--ink) 26%, transparent);
   --focus: #355e46;
   --selection: color-mix(in srgb, var(--accent) 25%, transparent);
+  /* Code blocks stay dark in every theme (established convention). */
+  --code-bg: #1f271f;
+  --code-ink: #dfe8dd;
   /* Type, measure, spacing, radius, motion. */
   --measure: 65ch;
   --page-max: 1200px;
@@ -61,38 +64,78 @@
 }
 
 /* Use native script fonts where the site's Latin/Vietnamese web fonts have no glyphs. */
-html[lang="zh-Hans"] { --font-reading: "Noto Serif SC", "Songti SC", serif; --font-interface: "Noto Sans SC", "PingFang SC", sans-serif; }
-html[lang="ja"] { --font-reading: "Noto Serif JP", "Yu Mincho", serif; --font-interface: "Noto Sans JP", "Yu Gothic", sans-serif; }
-html[lang="ko"] { --font-reading: "Noto Serif KR", "Batang", serif; --font-interface: "Noto Sans KR", "Malgun Gothic", sans-serif; }
-html[lang="hi"], html[lang="mr"] { --font-reading: "Noto Serif Devanagari", "Nirmala UI", serif; --font-interface: "Noto Sans Devanagari", "Nirmala UI", sans-serif; }
-html[lang="bn"] { --font-reading: "Noto Serif Bengali", "Nirmala UI", serif; --font-interface: "Noto Sans Bengali", "Nirmala UI", sans-serif; }
-html[lang="th"] { --font-reading: "Noto Serif Thai", serif; --font-interface: "Noto Sans Thai", sans-serif; }
-html[lang="ar"] { --font-reading: "Noto Naskh Arabic", "Amiri", serif; --font-interface: "Noto Sans Arabic", sans-serif; }
-html[lang="ur"] { --font-reading: "Noto Nastaliq Urdu", "Noto Naskh Arabic", serif; --font-interface: "Noto Naskh Arabic", sans-serif; }
-html[lang="fa"] { --font-reading: "Noto Naskh Arabic", "Vazirmatn", serif; --font-interface: "Noto Sans Arabic", sans-serif; }
-html[lang="ru"] { --font-reading: "Noto Serif", "Georgia", serif; --font-interface: "Be Vietnam Pro", "Arial", sans-serif; }
+html[lang="zh-Hans"] {
+  --font-reading: "Noto Serif SC", "Songti SC", serif;
+  --font-interface: "Noto Sans SC", "PingFang SC", sans-serif;
+}
+html[lang="ja"] {
+  --font-reading: "Noto Serif JP", "Yu Mincho", serif;
+  --font-interface: "Noto Sans JP", "Yu Gothic", sans-serif;
+}
+html[lang="ko"] {
+  --font-reading: "Noto Serif KR", "Batang", serif;
+  --font-interface: "Noto Sans KR", "Malgun Gothic", sans-serif;
+}
+html[lang="hi"],
+html[lang="mr"] {
+  --font-reading: "Noto Serif Devanagari", "Nirmala UI", serif;
+  --font-interface: "Noto Sans Devanagari", "Nirmala UI", sans-serif;
+}
+html[lang="bn"] {
+  --font-reading: "Noto Serif Bengali", "Nirmala UI", serif;
+  --font-interface: "Noto Sans Bengali", "Nirmala UI", sans-serif;
+}
+html[lang="th"] {
+  --font-reading: "Noto Serif Thai", serif;
+  --font-interface: "Noto Sans Thai", sans-serif;
+}
+html[lang="ar"] {
+  --font-reading: "Noto Naskh Arabic", "Amiri", serif;
+  --font-interface: "Noto Sans Arabic", sans-serif;
+}
+html[lang="ur"] {
+  --font-reading: "Noto Nastaliq Urdu", "Noto Naskh Arabic", serif;
+  --font-interface: "Noto Naskh Arabic", sans-serif;
+}
+html[lang="fa"] {
+  --font-reading: "Noto Naskh Arabic", "Vazirmatn", serif;
+  --font-interface: "Noto Sans Arabic", sans-serif;
+}
+html[lang="ru"] {
+  --font-reading: "Noto Serif", "Georgia", serif;
+  --font-interface: "Be Vietnam Pro", "Arial", sans-serif;
+}
 
 /* Per-script reading metrics (see docs/DESIGN_SYSTEM.md). CJK measures in
    characters: 42ch keeps lines near the 40-character readability cap. */
-html[lang="zh-Hans"], html[lang="ja"], html[lang="ko"] { --measure: 42ch; }
-html[lang="zh-Hans"] .prose, html[lang="ja"] .prose, html[lang="ko"] .prose {
-  font-size: 1.125rem;
+html[lang="zh-Hans"],
+html[lang="ja"],
+html[lang="ko"] {
+  --measure: 42ch;
+}
+html[lang="zh-Hans"] .prose,
+html[lang="ja"] .prose,
+html[lang="ko"] .prose {
+  --prose-size: 1.125rem;
   line-height: 1.8;
 }
-html[lang="ar"] .prose, html[lang="ur"] .prose, html[lang="fa"] .prose {
-  font-size: 1.125rem;
+html[lang="ar"] .prose,
+html[lang="ur"] .prose,
+html[lang="fa"] .prose {
+  --prose-size: 1.125rem;
   line-height: 1.85;
 }
-html[lang="hi"] .prose, html[lang="mr"] .prose {
-  font-size: 1.25rem;
+html[lang="hi"] .prose,
+html[lang="mr"] .prose {
+  --prose-size: 1.25rem;
   line-height: 1.6;
 }
 html[lang="th"] .prose {
-  font-size: 1.125rem;
+  --prose-size: 1.125rem;
   line-height: 1.85;
 }
 html[lang="bn"] .prose {
-  font-size: 1.125rem;
+  --prose-size: 1.125rem;
   line-height: 1.75;
 }
 
@@ -109,6 +152,8 @@ html[lang="bn"] .prose {
   --rule: color-mix(in oklch, var(--ink) 26%, transparent);
   --focus: #adcfb1;
   --selection: color-mix(in srgb, var(--accent) 25%, transparent);
+  --code-bg: #11160f;
+  --code-ink: #dfe8dd;
 }
 /* Sepia theme — a third reading mode, explicit choice only (never the
    automatic system theme). Contrast measured 2026-11-08: accent 6.51:1,
@@ -124,6 +169,8 @@ html[lang="bn"] .prose {
   --rule: color-mix(in oklch, var(--ink) 26%, transparent);
   --focus: #3d5c46;
   --selection: color-mix(in srgb, var(--accent) 25%, transparent);
+  --code-bg: #26221a;
+  --code-ink: #e6dfcb;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme]) {
@@ -137,6 +184,8 @@ html[lang="bn"] .prose {
     --rule: color-mix(in oklch, var(--ink) 26%, transparent);
     --focus: #adcfb1;
     --selection: color-mix(in srgb, var(--accent) 25%, transparent);
+    --code-bg: #11160f;
+    --code-ink: #dfe8dd;
   }
 }
 * {
@@ -204,7 +253,7 @@ h2,
 h3,
 h4 {
   font-family: var(--reading);
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.4;
   text-wrap: balance;
   overflow-wrap: break-word;
@@ -216,7 +265,7 @@ p {
   margin-top: 0;
 }
 .shell {
-  width: min(calc(100% - 2.5rem), var(--measure));
+  width: min(calc(100% - 2.5rem), calc(var(--measure) * var(--measure-scale, 1)));
   margin-inline: auto;
 }
 #main {
@@ -314,8 +363,13 @@ p {
   min-width: 2.8rem;
   text-align: center;
 }
-.language-menu summary::-webkit-details-marker { display: none; }
-.language-menu summary::after { content: "⌄"; margin-inline-start: 0.35rem; }
+.language-menu summary::-webkit-details-marker {
+  display: none;
+}
+.language-menu summary::after {
+  content: "⌄";
+  margin-inline-start: 0.35rem;
+}
 .language-menu nav {
   position: absolute;
   z-index: 20;
@@ -341,15 +395,44 @@ p {
   text-decoration: none;
 }
 .language-menu nav a:hover,
-.language-menu nav a[aria-current="page"] { background: var(--surface); }
-.language-menu:not([open]) nav { display: none; }
-.language-menu[open] nav { display: grid; }
+.language-menu nav a[aria-current="page"] {
+  background: var(--surface);
+}
+/* Script groups are separated by a hairline, no labels — the names are
+   already in their own scripts. */
+.language-group-separator {
+  grid-column: 1 / -1;
+  border-top: 1px solid var(--line);
+  margin: 0.3rem 0;
+}
+.language-group-label {
+  grid-column: 1 / -1;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding: 0.45rem 0.65rem 0.15rem;
+}
+.language-menu:not([open]) nav {
+  display: none;
+}
+.language-menu[open] nav {
+  display: grid;
+}
 .language-menu summary:focus-visible,
-.language-menu nav a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.language-menu nav a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
 /* Keep the dropdown inside narrow screens and leave document direction to the locale. */
-html[dir="rtl"] .language-menu nav { inset-inline-end: 0; }
+html[dir="rtl"] .language-menu nav {
+  inset-inline-end: 0;
+}
 @media (max-width: 38rem) {
-  .language-menu nav { grid-template-columns: 1fr; width: min(15rem, calc(100vw - 2rem)); }
+  .language-menu nav {
+    grid-template-columns: 1fr;
+    width: min(15rem, calc(100vw - 2rem));
+  }
 }
 .theme-toggle {
   border: 0;
@@ -433,10 +516,26 @@ html[dir="rtl"] .language-menu nav { inset-inline-end: 0; }
   list-style: none;
   margin: 0;
   padding: 0;
+  display: grid;
+  gap: 1rem;
 }
+/* Article cards: border-based, 2px radius, 24–32px padding. Hover is a
+   background tint shift + border intensify + title colour shift — no
+   shadow, no lift. */
 .post-card {
-  padding: 2.1rem 0;
-  border-bottom: 1px solid var(--line);
+  padding: 1.5rem 1.75rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  content-visibility: auto;
+  contain-intrinsic-size: auto 12rem;
+  transition:
+    background-color var(--duration-fast) var(--ease),
+    border-color var(--duration-fast) var(--ease);
+}
+.post-card:hover {
+  border-color: var(--accent);
+  background: color-mix(in oklch, var(--accent) 4%, var(--surface));
 }
 .post-card h2 {
   font-size: clamp(1.4rem, 3vw, 1.8rem);
@@ -467,15 +566,23 @@ html[dir="rtl"] .language-menu nav { inset-inline-end: 0; }
 }
 .tags {
   display: flex;
-  gap: 0.8rem;
+  gap: 0.5rem;
   flex-wrap: wrap;
-  font-size: 0.72rem;
+  font-size: 0.75rem;
 }
+/* Tags are pills: pill radius, 2px 8px padding, 0.75rem. */
 .tags a {
+  display: inline-block;
+  padding: 2px 8px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
   text-decoration: none;
+  color: var(--muted);
 }
 .tags a:hover {
-  text-decoration: underline;
+  border-color: var(--accent);
+  color: var(--accent);
+  text-decoration: none;
 }
 .page-heading {
   padding-block: 3.8rem 1.5rem;
@@ -502,9 +609,25 @@ html[dir="rtl"] .language-menu nav { inset-inline-end: 0; }
   padding-top: 2rem;
   font-size: 0.85rem;
 }
-.pagination a,
-.pagination span {
-  padding: 0.5rem 0;
+/* Buttons: sharp (0–2px), 2:1 horizontal:vertical padding, weight 600.
+   Hover is a colour shift only. */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid var(--ink);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--ink);
+  font-weight: 600;
+  font-size: 0.85rem;
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button:hover {
+  background: var(--ink);
+  color: var(--paper);
+  text-decoration: none;
 }
 .pagination .page-count {
   color: var(--muted);
@@ -522,7 +645,7 @@ html[dir="rtl"] .language-menu nav { inset-inline-end: 0; }
   display: inline-block;
   padding: 0.45rem 0.8rem;
   border: 1px solid var(--line);
-  border-radius: var(--radius);
+  border-radius: var(--radius-pill);
   font-size: 0.85rem;
   text-decoration: none;
 }
@@ -656,9 +779,11 @@ html[dir="rtl"] .reading-progress {
 }
 .prose {
   font-family: var(--reading);
-  font-size: 1.125rem;
+  font-size: calc(var(--prose-size, 1.125rem) * var(--reader-scale, 1));
   line-height: 1.65;
   overflow-wrap: anywhere;
+  font-optical-sizing: auto;
+  font-feature-settings: "onum";
 }
 .prose p {
   margin-bottom: 1.5rem;
@@ -686,7 +811,7 @@ html[dir="rtl"] .reading-progress {
   }
 }
 .prose h2 {
-  font-size: 1.8rem;
+  font-size: 1.75rem;
   margin: 2.5rem 0 1rem;
   line-height: 1.5;
 }
@@ -789,7 +914,11 @@ html[dir="rtl"] .reading-progress {
   padding: 0.15em 0.3em;
   border-radius: var(--radius);
 }
+/* Code blocks: dark in every theme, with a copy button and language label
+   added by the small script in Layout.astro. Token colours always use the
+   dark Shiki theme, which is designed for a dark background. */
 .prose pre {
+  position: relative;
   font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
   max-width: 100%;
   overflow-x: auto;
@@ -798,11 +927,40 @@ html[dir="rtl"] .reading-progress {
   border-radius: var(--radius);
   font-size: 0.85rem;
   line-height: 1.8;
-  background: var(--surface) !important;
+  background: var(--code-bg);
+  color: var(--code-ink);
 }
 .prose pre code {
   padding: 0;
   background: transparent;
+  color: inherit;
+}
+.code-label {
+  display: block;
+  font-family: var(--ui);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--code-ink);
+  opacity: 0.65;
+  margin-bottom: 0.75rem;
+}
+.code-copy {
+  position: absolute;
+  inset-block-start: 0.6rem;
+  inset-inline-end: 0.6rem;
+  padding: 0.3rem 0.6rem;
+  border: 1px solid color-mix(in srgb, var(--code-ink) 35%, transparent);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--code-ink);
+  font-size: 0.72rem;
+  cursor: pointer;
+  opacity: 0.75;
+}
+.code-copy:hover {
+  opacity: 1;
+  border-color: var(--code-ink);
 }
 .prose table {
   display: block;
@@ -840,10 +998,6 @@ html[dir="rtl"] .reading-progress {
 }
 .astro-code,
 .astro-code span {
-  color: var(--shiki-light) !important;
-}
-:root[data-theme="dark"] .astro-code,
-:root[data-theme="dark"] .astro-code span {
   color: var(--shiki-dark) !important;
 }
 .article-end {
@@ -855,6 +1009,50 @@ html[dir="rtl"] .reading-progress {
   gap: 1rem;
   flex-wrap: wrap;
   font-size: 0.8rem;
+}
+/* One hand-made mark per essay: the botanical line motif, as a quiet
+   divider at the end of each article. */
+.article-mark {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0 0;
+  color: var(--accent);
+  opacity: 0.8;
+}
+/* Reader controls: text size and line length, kept on the article page
+   only. Preferences persist in localStorage; see src/scripts/reading.ts. */
+.reader-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+.reader-controls .reader-label {
+  margin-inline-end: 0.25rem;
+}
+.reader-controls button {
+  min-width: 40px;
+  min-height: 40px;
+  padding: 0.3rem 0.6rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--ink);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.reader-controls button:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.reader-controls button:disabled {
+  opacity: 0.35;
+  cursor: default;
 }
 .about-lead {
   font-family: var(--reading);
@@ -938,7 +1136,7 @@ html[dir="rtl"] .reading-progress {
   --pagefind-ui-border: var(--line);
   --pagefind-ui-tag: var(--surface);
   --pagefind-ui-border-width: 1px;
-  --pagefind-ui-border-radius: 4px;
+  --pagefind-ui-border-radius: 2px;
   --pagefind-ui-font: var(--ui);
   padding-bottom: 2rem;
 }
@@ -988,7 +1186,7 @@ html[dir="rtl"] .reading-progress {
     letter-spacing: -0.02em;
   }
   .prose {
-    font-size: 1.0625rem;
+    --prose-size: 1.0625rem;
     line-height: 1.65;
   }
   .page-heading {

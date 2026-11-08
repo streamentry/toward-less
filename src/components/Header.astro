@@ -1,6 +1,6 @@
 ---
 import Mark from "./Mark.astro";
-import { ui, languages, languageNames, languageTags, localePath, type Lang } from "../i18n";
+import { ui, languageGroups, languageNames, languageTags, localePath, type Lang } from "../i18n";
 interface Props {
   lang: Lang;
   section?: string;
@@ -29,22 +29,35 @@ const alternateMap = new Map(alternates.map((alternate) => [alternate.lang, alte
     </nav>
     <div class="header-tools">
       <details class="language-menu">
-        <summary aria-label={`${t.languageMenu}: ${languageNames[lang]}`} title={languageNames[lang]}>
+        <summary
+          aria-label={`${t.languageMenu}: ${languageNames[lang]}`}
+          title={languageNames[lang]}
+        >
           {lang.toUpperCase()}
         </summary>
         <nav aria-label={t.languageMenu}>
-          {languages.map((language) => (
-            <a
-              href={alternateMap.get(language) ?? localePath(language)}
-              lang={languageTags[language]}
-              hreflang={languageTags[language]}
-              aria-current={language === lang ? "page" : undefined}
-              data-language-choice
-              data-language={language}
-            >
-              {languageNames[language]}
-            </a>
-          ))}
+          {
+            languageGroups.map((group, index) => (
+              <>
+                {index > 0 && <span class="language-group-separator" aria-hidden="true" />}
+                <span class="language-group-label" aria-hidden="true">
+                  {group.script}
+                </span>
+                {group.langs.map((language) => (
+                  <a
+                    href={alternateMap.get(language) ?? localePath(language)}
+                    lang={languageTags[language]}
+                    hreflang={languageTags[language]}
+                    aria-current={language === lang ? "page" : undefined}
+                    data-language-choice
+                    data-language={language}
+                  >
+                    {languageNames[language]}
+                  </a>
+                ))}
+              </>
+            ))
+          }
         </nav>
       </details>
       <button
@@ -68,7 +81,6 @@ const alternateMap = new Map(alternates.map((alternate) => [alternate.lang, alte
     </div>
   </div>
 </header>
-
 
 <script is:inline>
   for (const link of document.querySelectorAll("[data-language-choice]")) {

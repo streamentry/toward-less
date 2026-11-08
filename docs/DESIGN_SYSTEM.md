@@ -33,16 +33,16 @@ Three tiers. Primitives are raw values, hidden from direct use. Semantic tokens 
 
 ### Semantic colour tokens
 
-| Token | Light | Dark | Role |
-| ----- | ----- | ---- | ---- |
-| `--color-bg` / `--paper` | `#f7f5ef` | `#171c19` | Page background |
-| `--color-surface` | `#fffdf8` | `#222a24` | Cards and secondary surfaces |
-| `--color-text` / `--ink` | `#252a25` | `#e8ebe5` | Primary text |
-| `--color-text-muted` / `--muted` | `#62695f` | `#b0baaf` | Dates and secondary text |
-| `--color-accent` | `#355e46` | `#adcfb1` | Links, focus and brand mark |
-| `--color-border` | `color-mix(in oklch, var(--color-text) 8%, transparent)` | same formula | Non-semantic separators |
-| `--color-rule` | `color-mix(in oklch, var(--color-text) 14%, transparent)` | same formula | Stronger hairlines (masthead, article header) |
-| `--color-selection` | `color-mix(in srgb, var(--color-accent) 25%, transparent)` | same formula | Text selection tint |
+| Token                            | Light                                                      | Dark         | Role                                          |
+| -------------------------------- | ---------------------------------------------------------- | ------------ | --------------------------------------------- |
+| `--color-bg` / `--paper`         | `#f7f5ef`                                                  | `#171c19`    | Page background                               |
+| `--color-surface`                | `#fffdf8`                                                  | `#222a24`    | Cards and secondary surfaces                  |
+| `--color-text` / `--ink`         | `#252a25`                                                  | `#e8ebe5`    | Primary text                                  |
+| `--color-text-muted` / `--muted` | `#62695f`                                                  | `#b0baaf`    | Dates and secondary text                      |
+| `--color-accent`                 | `#355e46`                                                  | `#adcfb1`    | Links, focus and brand mark                   |
+| `--color-border`                 | `color-mix(in oklch, var(--color-text) 8%, transparent)`   | same formula | Non-semantic separators                       |
+| `--color-rule`                   | `color-mix(in oklch, var(--color-text) 14%, transparent)`  | same formula | Stronger hairlines (masthead, article header) |
+| `--color-selection`              | `color-mix(in srgb, var(--color-accent) 25%, transparent)` | same formula | Text selection tint                           |
 
 The hues are kept deliberately: the 2026 colour consensus is warm neutrals plus complex botanical greens (Behr "Hidden Gem" jade, Valspar "Warm Eucalyptus", Dulux "Pine Forest"), and `#355e46` sits inside that family. Do not replace the green; deepen it into an **OKLCH ramp** (11 steps, 50–950) generated from the current value, then contrast-check every step before use. Opacity-based borders via `color-mix()` adapt automatically to light/dark and to coloured surfaces.
 
@@ -50,14 +50,14 @@ Do not use the separator token for text, focus indicators, or meaningful control
 
 **Contrast — measured 2026-11-08 (WCAG 2.2 AA needs 4.5:1 for body text):**
 
-| Pair | Ratio | Verdict |
-| ---- | ----- | ------- |
-| Accent `#355e46` on paper `#f7f5ef` | 6.78:1 | Pass |
-| Muted `#62695f` on paper `#f7f5ef` | 5.20:1 | Pass |
-| Ink `#252a25` on paper `#f7f5ef` | 13.41:1 | Pass |
-| Accent `#adcfb1` on paper `#171c19` | 10.14:1 | Pass |
-| Muted `#b0baaf` on paper `#171c19` | 8.62:1 | Pass |
-| Ink `#e8ebe5` on paper `#171c19` | 14.34:1 | Pass |
+| Pair                                | Ratio   | Verdict |
+| ----------------------------------- | ------- | ------- |
+| Accent `#355e46` on paper `#f7f5ef` | 6.78:1  | Pass    |
+| Muted `#62695f` on paper `#f7f5ef`  | 5.20:1  | Pass    |
+| Ink `#252a25` on paper `#f7f5ef`    | 13.41:1 | Pass    |
+| Accent `#adcfb1` on paper `#171c19` | 10.14:1 | Pass    |
+| Muted `#b0baaf` on paper `#171c19`  | 8.62:1  | Pass    |
+| Ink `#e8ebe5` on paper `#171c19`    | 14.34:1 | Pass    |
 
 Re-measure every pair in both themes whenever a token changes. Low contrast is the single most common accessibility failure on the web; never eyeball it.
 
@@ -65,18 +65,29 @@ Re-measure every pair in both themes whenever a token changes. Low contrast is t
 
 ```css
 /* Spacing — 4px base; generous between sections, dense within */
---space-1: 0.25rem; --space-2: 0.5rem; --space-3: 0.75rem; --space-4: 1rem;
---space-6: 1.5rem; --space-8: 2rem; --space-12: 3rem; --space-16: 4rem;
---space-section: 4rem;          /* 64px between sections */
---page-max: 1200px; --content-max: 65ch;
+--space-1: 0.25rem;
+--space-2: 0.5rem;
+--space-3: 0.75rem;
+--space-4: 1rem;
+--space-6: 1.5rem;
+--space-8: 2rem;
+--space-12: 3rem;
+--space-16: 4rem;
+--space-section: 4rem; /* 64px between sections */
+--page-max: 1200px;
+--content-max: 65ch;
 /* Radius — editorial sharpness */
---radius: 2px; --radius-card: 2px; --radius-pill: 9999px; /* pills: tags only */
+--radius: 2px;
+--radius-card: 2px;
+--radius-pill: 9999px; /* pills: tags only */
 /* Shadows — floating UI only, never static cards */
 --shadow-sm: 0 1px 0 rgb(0 0 0 / 0.06);
 --shadow: 0 2px 8px rgb(0 0 0 / 0.08);
 --shadow-lg: 0 4px 16px rgb(0 0 0 / 0.12);
 /* Motion */
---duration-fast: 150ms; --duration: 200ms; --ease: ease-out;
+--duration-fast: 150ms;
+--duration: 200ms;
+--ease: ease-out;
 ```
 
 ## Typography
@@ -88,13 +99,13 @@ Re-measure every pair in both themes whenever a token changes. Low contrast is t
 
 ### Type scale (ratio 1.25, Major Third; fluid with `clamp()`)
 
-| Element | Size | Weight | Line-height |
-| ------- | ---- | ------ | ----------- |
-| Display / H1 | `clamp(1.75rem, 1.5rem + 1.25vw, 2.5rem)` | 600 (serif) | 1.1–1.3 |
-| H2 | 1.5–1.75rem | 600 | 1.1–1.3 |
-| H3 | 1.25rem | 600 | 1.1–1.3 |
-| Body | 18px desktop, 17px mobile | 400 | 1.65 |
-| Caption / meta / nav | 0.875rem | 400–500 | 1.4 |
+| Element              | Size                                      | Weight      | Line-height |
+| -------------------- | ----------------------------------------- | ----------- | ----------- |
+| Display / H1         | `clamp(1.75rem, 1.5rem + 1.25vw, 2.5rem)` | 600 (serif) | 1.1–1.3     |
+| H2                   | 1.5–1.75rem                               | 600         | 1.1–1.3     |
+| H3                   | 1.25rem                                   | 600         | 1.1–1.3     |
+| Body                 | 18px desktop, 17px mobile                 | 400         | 1.65        |
+| Caption / meta / nav | 0.875rem                                  | 400–500     | 1.4         |
 
 **Bold is 600, not 700** — heavy enough to stand out without jarring contrast. Headlines use `text-wrap: balance`; body uses `text-wrap: pretty`. No fixed-height text containers. No uppercase transformation for Vietnamese labels. Headings must accommodate stacked diacritics without clipping.
 
@@ -106,14 +117,14 @@ Re-measure every pair in both themes whenever a token changes. Low contrast is t
 
 Use `:lang()` overrides, not one global value. Pair typefaces by optical x-height, not nominal size; `font-size-adjust` can normalise x-height across fallback fonts.
 
-| Script | Size (base 16px Latin) | Line-height | Notes |
-| ------ | ---------------------- | ----------- | ----- |
-| Latin | 1rem | 1.5 | Baseline |
-| CJK (Chinese) | 1.125rem (18px) | 1.7–2.0 | No word spaces; uniform square grid; measure ≤40 chars/line |
-| Arabic / Urdu / Persian | 1.125rem | 1.7–1.9 | Room for diacritics and tall ascenders; never tight tracking — it crushes ligatures |
-| Devanagari (Hindi, Marathi) | 1.25rem (20px) | 1.6 | Shirorekha and conjuncts need vertical room |
-| Thai | ~1.125rem | 1.8–1.9 | Stacked diacritics up to 3× Latin height; spaces mark phrases, not words |
-| Cyrillic (Russian) | 1rem | 1.5 | Check л/п and similar-letter distinction at small sizes |
+| Script                      | Size (base 16px Latin) | Line-height | Notes                                                                               |
+| --------------------------- | ---------------------- | ----------- | ----------------------------------------------------------------------------------- |
+| Latin                       | 1rem                   | 1.5         | Baseline                                                                            |
+| CJK (Chinese)               | 1.125rem (18px)        | 1.7–2.0     | No word spaces; uniform square grid; measure ≤40 chars/line                         |
+| Arabic / Urdu / Persian     | 1.125rem               | 1.7–1.9     | Room for diacritics and tall ascenders; never tight tracking — it crushes ligatures |
+| Devanagari (Hindi, Marathi) | 1.25rem (20px)         | 1.6         | Shirorekha and conjuncts need vertical room                                         |
+| Thai                        | ~1.125rem              | 1.8–1.9     | Stacked diacritics up to 3× Latin height; spaces mark phrases, not words            |
+| Cyrillic (Russian)          | 1rem                   | 1.5         | Check л/п and similar-letter distinction at small sizes                             |
 
 There is no single font that covers everything well. Noto is the closest: separate families per script, designed for visual harmony across scripts. Keep Noto Serif as the spine; pair per script (Noto Serif/Sans CJK, Noto Sans/Serif Devanagari, Noto Naskh/Noto Sans Arabic, Noto Sans/Serif Thai). Consider Cairo or IBM Plex Arabic as the Arabic display alternative, and IBM Plex Sans Thai for Thai UI. Load CJK only where needed via `unicode-range` subsetting so a Vietnamese reader never downloads Chinese glyphs.
 
@@ -130,7 +141,7 @@ These are the devices that make long-form feel like a magazine rather than a CMS
 - **Pull quotes:** 1.5–2× body size, display serif (often italic), at a column break; quote real text, never invent teaser copy; at most 1 per 800–1000 words; hanging punctuation; attribution in small caps on the same line.
 - **Sidenotes:** margin notes on wide viewports (≥1100px), collapsing to bottom footnotes on mobile. Footnotes: bottom list is best for accessibility; superscripts at 0.75em, raised, must not disrupt line rhythm.
 - **Table of contents:** sticky right-rail TOC for articles over ~1,500 words — one of the cheapest upgrades to ship. H2 only by default, cap at 10–12 items, skip for short articles or fewer than 4 H2s. Collapsible inline block plus compact sticky bar on mobile. Scroll-spy highlighting. Do not stack a sticky header, a CTA, and a cookie bar.
-- **Reading progress:** a thin (2–4px) bar in the accent colour tracking the **article**, not the whole page — footer and related posts must not inflate the denominator. Build with CSS `animation-timeline: view()` and an IntersectionObserver fallback; decorative, `aria-hidden="true"`. Implementation gotcha (found live 2026-11-09): the named timeline `animation-timeline: --article` must stay a separate longhand in its own rule — the CSS minifier merges `animation-*` longhands into the `animation` shorthand, where a dashed-ident is parsed as the animation *name*, not the timeline, so the bar silently never moves.
+- **Reading progress:** a thin (2–4px) bar in the accent colour tracking the **article**, not the whole page — footer and related posts must not inflate the denominator. Build with CSS `animation-timeline: view()` and an IntersectionObserver fallback; decorative, `aria-hidden="true"`. Implementation gotcha (found live 2026-11-09): the named timeline `animation-timeline: --article` must stay a separate longhand in its own rule — the CSS minifier merges `animation-*` longhands into the `animation` shorthand, where a dashed-ident is parsed as the animation _name_, not the timeline, so the bar silently never moves.
 - **Captions:** below the figure in `<figure>/<figcaption>`, 8–16 words, each a statement that survives alone; smaller sans (≥13px, prefer 14px) even when body is serif.
 - **Related posts:** avoid the generic 3-card grid with stock thumbnails. Prefer "Continue the thread" (one next essay in the same series or theme, with a one-line reason), numbered series/issue navigation, or a ruled text-only list (title + date + one-line dek).
 
@@ -211,6 +222,8 @@ The 2026–2030 direction is on-site AI answers and adaptive formats — adapted
 
 ## Implementation roadmap
 
+Status 2026-11-09: phases 1–5 are implemented (tokens, type, article apparatus, motion, Sepia, colophon, print). Phase 6 is partial: theme picker, text-size and line-length controls, and Pagefind search exist; resume-where-you-left-off and per-article AI summaries are not built. The exact OKLCH ramp steps and Sepia values are generated in `src/styles/global.css` and contrast-checked there.
+
 1. **Tokens first:** three-tier tokens, OKLCH ramps, `color-mix()` borders, 2px radii, 4px spacing scale. Re-measure contrast in both themes.
 2. **Type:** 65ch measure, 18px/1.65 body, fluid `clamp()` display type, `balance`/`pretty` wraps, bold 600, per-script `:lang()` metrics.
 3. **Article apparatus:** drop cap, pull quotes, sidenotes, sticky TOC, article-scoped reading progress.
@@ -225,4 +238,4 @@ The 2026–2030 direction is on-site AI answers and adaptive formats — adapted
 - The Margin design system — https://the-margin.work.withdarsh.com/design-system
 - Society for News Design, SND47 World's Best-Designed (2026) — https://snd.org/snd-2026-worlds-best-designed/
 - WebAIM Million (2026) — low contrast as the most common accessibility failure.
-- Contrast ratios in the Tokens section were measured locally on 2026-11-08 with the WCAG relative-luminance formula. Trend claims and third-party figures are sourced from the references above; spot-check a figure on its live page before quoting it elsewhere. The exact OKLCH ramp steps and the Sepia theme values still need to be generated and contrast-checked; no source prescribes them.
+- Contrast ratios in the Tokens section were measured locally on 2026-11-08 with the WCAG relative-luminance formula. Trend claims and third-party figures are sourced from the references above; spot-check a figure on its live page before quoting it elsewhere. The OKLCH ramp steps and Sepia theme values are generated in `src/styles/global.css` and contrast-checked in comments there.

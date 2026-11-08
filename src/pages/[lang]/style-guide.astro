@@ -17,14 +17,16 @@ const vi = lang === "vi";
   <div class="prose">
     <h2>{vi ? "Kiểu chữ" : "Typography"}</h2>
     <p>
-      {vi
-        ? "Trang này dùng để kiểm tra giao diện, không phải bài viết. Nội dung không xuất hiện trong kết quả tìm kiếm hay sơ đồ trang."
-        : "This page is for checking the design. It is not a blog post and is excluded from search and the sitemap."}
+      {
+        vi
+          ? "Trang này dùng để kiểm tra giao diện, không phải bài viết. Nội dung không xuất hiện trong kết quả tìm kiếm hay sơ đồ trang."
+          : "This page is for checking the design. It is not a blog post and is excluded from search and the sitemap."
+      }
     </p>
     <h3 lang="vi">Kiểm tra dấu tiếng Việt</h3>
     <p lang="vi">
-      Đọc thử đoạn văn này trên điện thoại và máy tính để kiểm tra cỡ chữ, khoảng cách dòng và
-      dấu tiếng Việt: ă â ê ô ơ ư đ — Ắ Ằ Ẳ Ẵ Ặ Ấ Ầ Ẩ Ẫ Ậ Ế Ề Ể Ễ Ệ Ố Ồ Ổ Ỗ Ộ Ớ Ờ Ở Ỡ Ợ Ứ Ừ Ử Ữ Ự.
+      Đọc thử đoạn văn này trên điện thoại và máy tính để kiểm tra cỡ chữ, khoảng cách dòng và dấu
+      tiếng Việt: ă â ê ô ơ ư đ — Ắ Ằ Ẳ Ẵ Ặ Ấ Ầ Ẩ Ẫ Ậ Ế Ề Ể Ễ Ệ Ố Ồ Ổ Ỗ Ộ Ớ Ờ Ở Ỡ Ợ Ứ Ừ Ử Ữ Ự.
     </p>
     <h2>Script samples</h2>
     <p lang="zh-Hans">中文：文学、技术与日常生活。</p>
@@ -46,17 +48,37 @@ const vi = lang === "vi";
     </p>
     <blockquote>
       <p>
-        {vi
-          ? "Đây là đoạn mẫu để kiểm tra cách trình bày trích dẫn. Khi trích dẫn trong bài viết, cần ghi rõ nguồn."
-          : "This is sample text for testing blockquote styling. Include the source when quoting someone in an article."}
+        {
+          vi
+            ? "Đây là đoạn mẫu để kiểm tra cách trình bày trích dẫn. Khi trích dẫn trong bài viết, cần ghi rõ nguồn."
+            : "This is sample text for testing blockquote styling. Include the source when quoting someone in an article."
+        }
       </p>
     </blockquote>
     <h2>{vi ? "Màu sắc" : "Colours"}</h2>
     <div class="swatches">
       <div class="swatch" style="background:var(--paper)">Paper · --paper</div>
       <div class="swatch" style="background:var(--surface)">Surface · --surface</div>
-      <div class="swatch" style="background:var(--accent);color:var(--paper)">Accent · --accent</div>
+      <div class="swatch" style="background:var(--accent);color:var(--paper)">
+        Accent · --accent
+      </div>
     </div>
+    <h2 id="components">{vi ? "Thành phần" : "Components"}</h2>
+    <p>
+      {
+        vi
+          ? "Thẻ chủ đề dạng viên thuốc, nút bấm sắc cạnh, và dấu hoa văn tay ở cuối bài viết."
+          : "Pill tags, sharp buttons, and the hand-made mark that closes an article."
+      }
+    </p>
+    <div class="tags" style="margin-bottom: 1.5rem;">
+      <a href="#components">Technology</a><a href="#components">Life</a><a href="#components"
+        >Practice</a
+      >
+    </div>
+    <p>
+      <a class="button" href="#components">{vi ? "Nút mẫu" : "Sample button"}</a>
+    </p>
     <h2 id="code-sample">{vi ? "Mã nguồn" : "Code"}</h2>
     <p>
       {vi ? "Kiểm tra mã trong dòng như" : "Check inline code such as"}{" "}
@@ -64,11 +86,16 @@ const vi = lang === "vi";
     </p>
     <pre
       tabindex="0"
-      aria-label={vi ? "Mã minh họa" : "Code example"}
-    ><code>{`const languages = [${languages.map((language) => `"${language}"`).join(", ")}];\nconst defaultLanguage = languages[0];\n// This intentionally long sample line tests horizontal scrolling inside a code block without widening the page. `.repeat(2)}</code></pre>
+      data-language="js"
+      aria-label={vi
+        ? "Mã minh họa"
+        : "Code example"}><code>{`const languages = [${languages.map((language) => `"${language}"`).join(", ")}];\nconst defaultLanguage = languages[0];\n// This intentionally long sample line tests horizontal scrolling inside a code block without widening the page. `.repeat(2)}</code></pre>
     <h2>{vi ? "Bảng" : "Tables"}</h2>
     <table>
-      <thead><tr><th>{vi ? "Thành phần" : "Element"}</th><th>{vi ? "Thiết lập" : "Setting"}</th></tr></thead>
+      <thead
+        ><tr><th>{vi ? "Thành phần" : "Element"}</th><th>{vi ? "Thiết lập" : "Setting"}</th></tr
+        ></thead
+      >
       <tbody>
         <tr><td>{vi ? "Nội dung" : "Body"}</td><td>Noto Serif</td></tr>
         <tr><td>{vi ? "Giao diện" : "Interface"}</td><td>Be Vietnam Pro</td></tr>

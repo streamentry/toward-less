@@ -1,0 +1,80 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { languages, ui, colophonCopy, languageNames, localePath, type Lang } from "../../i18n";
+export function getStaticPaths() {
+  return languages.map((lang) => ({ params: { lang } }));
+}
+const lang = Astro.params.lang as Lang;
+const t = ui[lang];
+const copy = colophonCopy[lang];
+const typefaces = [
+  { name: "Noto Serif", role: "reading", detail: "400–700 · variable" },
+  { name: "Be Vietnam Pro", role: "interface", detail: "400–600" },
+  { name: "System monospace", role: "code", detail: "ui-monospace stack" },
+];
+const colours = [
+  { token: "--paper", value: "#f7f5ef", note: "Paper" },
+  { token: "--surface", value: "#fffdf8", note: "Surface" },
+  { token: "--ink", value: "#252a25", note: "Ink" },
+  { token: "--muted", value: "#62695f", note: "Muted" },
+  { token: "--accent", value: "#355e46", note: "Accent" },
+];
+const tools = ["Astro 7", "Pagefind", "GitHub Pages", "Google Fonts (self-hosted at build)"];
+---
+
+<Layout lang={lang} title={t.colophon} description={t.colophonDescription} path="colophon/">
+  <article data-pagefind-body>
+    <header class="page-heading">
+      <p class="eyebrow">Toward Less</p>
+      <h1 data-pagefind-meta="title">{t.colophon}</h1>
+      <p>{t.colophonDescription}</p>
+    </header>
+    <div class="prose">
+      <p class="about-lead">{copy.lead}</p>
+      <p>
+        <a href={localePath(lang, "style-guide/")}>{t.styleGuide}</a>
+      </p>
+      <h2>{t.typefaces}</h2>
+      <p>{copy.typefacesText}</p>
+      <table>
+        <thead><tr><th>Typeface</th><th>Role</th><th>Weights</th></tr></thead>
+        <tbody>
+          {
+            typefaces.map((face) => (
+              <tr>
+                <>
+                  <td>{face.name}</td>
+                  <td>{face.role}</td>
+                  <td>{face.detail}</td>
+                </>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+      <h2>{t.colours}</h2>
+      <div class="swatches">
+        {
+          colours.map((colour) => (
+            <div
+              class="swatch"
+              style={`background:${colour.value}; color:${colour.token === "--accent" ? "#f7f5ef" : "#252a25"}`}
+            >
+              {colour.note} · {colour.token}
+              <br />
+              {colour.value}
+            </div>
+          ))
+        }
+      </div>
+      <h2>{t.tools}</h2>
+      <p>{copy.toolsText}</p>
+      <ul>
+        {tools.map((tool) => <li>{tool}</li>)}
+      </ul>
+      <h2>{t.languages}</h2>
+      <p>{copy.languagesText}</p>
+      <p>{languages.map((language) => languageNames[language]).join(" · ")}</p>
+    </div>
+  </article>
+</Layout>
