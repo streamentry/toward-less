@@ -1,0 +1,38 @@
+---
+title: "Ubah Orangnya, Bukan Rancangannya"
+description: "Protokol satu hari Dan Koe untuk hidup baharu bermula dengan identiti, bukan tindakan — dan pandangan jujur terhadap hidup yang anda tidak mahu. Apa yang betul, dan di mana keinginan itu sendiri perlu diawasi."
+author: "C.S Chánh Niệm"
+lang: ms
+slug: ubah-orangnya-bukan-rancangannya-ms
+translationKey: change-the-person-not-the-plan-2026
+pubDatetime: 2026-11-09T00:20:00+07:00
+draft: false
+featured: false
+tags: [life]
+---
+
+Setiap Januari gim penuh sesak, dan menjelang Februari ia kosong semula. Dan Koe membuka artikelnya "How to fix your entire life in 1 day" dengan pemerhatian yang sama: Azam Tahun Baharu itu bodoh — bukan kerana perubahan mustahil, tetapi kerana orang melakukannya secara terbalik. Mereka menukar tindakan mereka dan mengekalkan orang yang membina hidup lama itu.
+
+Perbezaannya ialah keseluruhan eseinya. Terdapat dua syarat untuk berjaya, tulisnya: menukar tindakan anda untuk mara ke arah matlamat, yang merupakan tertib kedua, dan menukar siapa diri anda supaya tingkah laku anda mengikut secara semula jadi, yang merupakan tertib pertama. Ahli bina badan tidak perlu bersusah payah untuk makan dengan baik. Dia perlu bersusah payah untuk makan dengan buruk. Seorang CEO tidak perlu mendisiplinkan dirinya untuk bangun dan memimpin; dia perlu memaksa dirinya berbaring di katil melepasi bunyi penggera, dan dia akan membenci setiap saatnya. "Jika anda mahukan hasil tertentu dalam hidup, anda mesti mempunyai gaya hidup yang menghasilkan hasil itu lama sebelum anda mencapainya."
+
+Sebabnya lebih dalam daripada kekuatan kehendak. Semua tingkah laku berorientasikan matlamat, hujah Koe, mengikut Alfred Adler — teleologi. Kebanyakan matlamat itu tidak sedar. Anda duduk di sofa pada tengah hari kerana anda cuba menghabiskan masa sebelum tanggungjawab seterusnya. Anda tidak dapat berhenti menangguhkan kerja anda, dan anda menyebutnya kekurangan disiplin, sedangkan sebenarnya anda mengejar matlamat tersembunyi: perlindungan daripada penghakiman yang datang apabila anda menyiapkan dan berkongsi hasil kerja. Anda tidak akan berhenti kerja buntu itu kerana anda mengejar keselamatan, kebolehramalan, dan alasan untuk tidak kelihatan seperti orang gagal kepada semua yang melihat pekerjaan itu sebagai kejayaan.
+
+Matlamat, dalam penceritaan ini, bukan sasaran. Ia adalah unjuran ke masa hadapan yang bertindak sebagai lensa persepsi: anda hanya menyedari maklumat, idea, dan sumber yang melayaninya. Tukar matlamat dan anda tukar apa yang anda boleh lihat. Itulah sebabnya menetapkan matlamat di permukaan sering melayani matlamat tidak sedar yang sedang memudaratkan anda.
+
+Identiti ialah gelung yang menguncinya. Koe membentangkan anatominya, mengikut Maxwell Maltz: matlamat membentuk persepsi, persepsi menapis apa yang anda pelajari, pembelajaran membimbing tindakan, tindakan membawa maklum balas, pengulangan menjadikan tingkah laku sebagai pengkondisian, pengkondisian menjadi "Saya jenis orang yang…" — dan kemudian anda mempertahankan identiti itu untuk kekal konsisten, dan identiti membentuk matlamat anda yang seterusnya. Perpecahan mesti berlaku antara dua langkah terakhir, sebelum pembelaan bermula. Ia sukar kerana gelung bermula sejak kanak-kanak: anda perlu menyesuaikan diri untuk terus hidup, dan kepercayaan dipasang melalui ganjaran dan hukuman, kemudian diwariskan melalui generasi yang tidak pernah memecahkan corak itu sendiri.
+
+Maka artikel itu menawarkan protokol, satu hari penuh. Pagi: penggalian. Namakan kebosanan tawar yang anda telah belajar bertolak ansur, aduan yang anda ulang tetapi tidak pernah ubah, dan kemudian anti-visi — hari Selasa biasa lima tahun dari sekarang jika tiada yang berubah, kemudian sepuluh tahun, kemudian akhir hayat yang selamat, apa yang ia telah korbankan. Hanya kemudian visi minimum yang berdaya maju: hidup yang anda benar-benar mahukan, dengan tahap perincian yang sama. Siang: gangguan. Peringatan di telefon anda yang bertanya apa yang anda elakkan, sama ada anda bergerak ke arah hidup yang anda benci atau hidup yang anda mahukan, bila anda berasa paling hidup hari ini dan bila anda berasa paling mati. Petang: sintesis. Namakan musuh — bukan keadaan, bukan orang lain, corak dalaman yang mengendalikan segalanya. Mampatkan anti-visi dan visi menjadi satu ayat setiap satu. Kemudian matlamat sebagai lensa: satu tahun, satu bulan, esok.
+
+Akhirnya, permainan. Visi ialah cara anda menang, anti-visi ialah apa yang dipertaruhkan, matlamat satu tahun ialah misi, projek satu bulan ialah pertarungan bos, tuas harian ialah pencarian (quest), kekangan ialah peraturan. Dengan susunan begini, hidup menjadi permainan yang berbaloi dimainkan — dan permainan, kata Koe bersama Mihaly Csikszentmihalyi, adalah contoh utama fokus, keseronokan, dan aliran (flow).
+
+Ia protokol yang kuat. Ia juga wajar dibaca perlahan-lahan, kerana tiga langkahnya wajar dilihat kali kedua.
+
+Pertama, bahan api. Anti-visi berjalan dengan ketakutan dan rasa jijik. Koe jujur tentang hal ini: tempoh terbaiknya datang selepas dia benar-benar muak dengan kekurangan kemajuannya. Ketakutan ialah bahan api yang nyata. Tetapi ia bahan api yang panas. Hidup yang dibina untuk melarikan diri daripada mimpi ngeri boleh menjadi satu lagi bentuk pelarian — dari hari Selasa yang anda benci menuju hari Selasa yang anda bayangkan, tanpa pernah bertanya sama ada pelarian itu sendiri adalah masalahnya. Rasa jijik menggerakkan anda. Ia tidak memberitahu anda di mana harus berhenti.
+
+Kedua, keinginan. Enjin artikel ini ialah definisi kecerdasan Naval Ravikant: mendapatkan apa yang anda mahu daripada hidup. Koe betul bahawa matlamat yang diberikan — sekolah, pekerjaan, persaraan pada usia 65 — ialah jalan yang diketahui tidak berkesan. Dia lebih senyap tentang hakikat bahawa matlamat yang anda pilih sendiri boleh menjadi sangkar yang sama, digilap oleh hakikat anda memilihnya sendiri. Bingkai permainan menjadikan ini lebih tajam: permainan mempunyai keadaan menang. Hidup tidak. Misi dan pertarungan bos hebat untuk fokus, dan secara senyap ia mengajar anda bahawa rehat, hari Selasa yang biasa, perbualan tanpa tujuan, adalah pencarian sampingan.
+
+Ketiga, janji. Sebarang matlamat, dalam skala masa yang cukup besar — itulah dakwaan Koe. Versi yang jujur lebih sempit: tubuh, wang, nasib, dan orang lain menetapkan had yang nyata, dan cetakan halus artikel itu sendiri mengakuinya. Hari soalan itu masih berbaloi dilakukan. Bukan kerana ia melancarkan anda ke dalam hidup baharu, tetapi kerana ia menunjukkan anda hidup yang sudah anda miliki.
+
+Itulah kegunaan protokol yang lebih senyap. Duduk bersama soalan-soalan itu. Perhatikan matlamat mana milik anda dan mana yang diberikan kepada anda. Perhatikan hari Selasa yang sedang anda jalani. Orang yang akan menjalani hidup yang anda mahukan bukan orang asing yang anda menjadi dalam sehari. Dialah orang yang berhenti berunding dengan hidup yang dia miliki — dan, jika hidup itu benar-benar salah, berhenti mempertahankan identiti yang mengekalkan dia di dalamnya.
+
+*Diilhamkan oleh Artikel X ["How to fix your entire life in 1 day"](https://x.com/thedankoe/status/2010751592346030461) oleh [Dan Koe (@thedankoe)](https://x.com/thedankoe/status/2010751592346030461). Artikel itu disahkan pada 9 November 2026: 11:31 malam, 12 Januari 2026, 258 juta tontonan. "Trust only movement" adalah kata-kata Alfred Adler; petikan tentang idea yang diterima adalah kata-kata Maxwell Maltz; definisi kecerdasan sebagai mendapatkan apa yang anda mahu daripada hidup adalah kata-kata Naval Ravikant; petikan tentang susunan dalam kesedaran adalah kata-kata Mihaly Csikszentmihalyi.*
