@@ -61,7 +61,7 @@ for path in sorted(ROOT.rglob("*")):
         if len(re.findall(r"(?m)^##\s+", body)) < 4:
             errors.append(f"{path}: Perfect Days must have all four sections")
     if published and key == "the-dig-what-remains-2026":
-        if len(re.findall(r"(?m)^##\\s+", body)) != 4:
+        if len(re.findall(r"(?m)^##\s+", body)) != 4:
             errors.append(f"{path}: The Dig must preserve all four sections")
         if any(source not in body for source in (
             "nationaltrust.org.uk/", "britishmuseum.org/", "filmsandfestivals.britishcouncil.org/"
