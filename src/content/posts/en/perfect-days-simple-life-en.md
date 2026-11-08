@@ -5,7 +5,7 @@ lang: en
 slug: perfect-days-simple-life-en
 translationKey: perfect-days-simple-life-2026
 pubDatetime: 2026-11-08T13:00:00+07:00
-draft: true
+draft: false
 featured: false
 tags: [life, practice]
 ---
