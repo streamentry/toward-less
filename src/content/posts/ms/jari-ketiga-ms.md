@@ -1,0 +1,30 @@
+---
+title: "Jari Ketiga"
+description: "Startup Wisdom menyiarkan Paul Graham tentang cara menjadi tekun: ketegasan yang diimbangi disiplin, dua jari memicit biji tembikai. Petikan itu benar — dari 'The Anatomy of Determination', September 2009 — tetapi gambar itu berhenti sebelum jawapan esei itu. Cara melakukannya ada pada bahagian yang dipotong: disiplin, dan komponen ketiga yang tidak pernah disebut oleh gambar itu."
+author: "C.S Chánh Niệm"
+lang: ms
+slug: jari-ketiga-ms
+translationKey: paul-graham-determination-2026
+pubDatetime: 2026-11-10T05:29:00+07:00
+draft: false
+featured: false
+tags: [life]
+---
+
+Paul Graham tentang cara menjadi tekun. Gambar itu memberikan anatominya: bentuk tekad yang paling mudah ialah ketegasan semata-mata — apabila anda mahukan sesuatu, anda mesti mendapatkannya, walau apa pun. Sebahagian besar ketegasan mestilah semula jadi, kerana lazim melihat keluarga di mana seorang adik-beradik jauh lebih tegas daripada yang lain. Berkehendak kuat sahaja tidak mencukupi. Anda juga mesti keras terhadap diri sendiri. Ketekunan bermakna ketegasan anda diimbangi oleh disiplin. Semakin tegas anda, semakin berdisiplin anda perlu jadi, kerana semakin kuat kehendak anda, semakin sedikit orang yang dapat berhujah dengan anda kecuali diri anda sendiri. Dan seseorang mesti berhujah dengan anda, kerana setiap orang mempunyai dorongan asas, dan jika anda mempunyai lebih banyak kehendak daripada disiplin, anda hanya akan tunduk kepada dorongan itu dan berakhir pada puncak tempatan seperti ketagihan dadah. Kita boleh membayangkan kehendak dan disiplin sebagai dua jari yang memicit biji tembikai yang licin. Semakin kuat ia memicit, semakin jauh biji itu terbang, tetapi kedua-duanya mesti memicit sama rata atau biji itu akan berpusing ke tepi.
+
+Petikan itu benar, dan ia ditranskripsikan dengan tepat. Ia datang daripada esei Graham *The Anatomy of Determination*, yang diterbitkan pada September 2009, ditulis ketika Y Combinator sedang belajar meramal syarikat pemula mana yang akan berjaya dan mendapati bahawa ketekunan, bukan kecerdasan, adalah peramal terbaik. Kiriman itu tidak memautkan esei itu. Ia tidak perlu berbuat demikian, untuk petikan itu menjadi tulen. Tetapi gambar itu berhenti di tempat esei itu menjadi menarik, dan tajuk utama menjanjikan bahagian yang telah dipotong.
+
+Tiga pembetulan, semuanya daripada esei itu sendiri.
+
+Pertama, tajuk utama bertanya bagaimana untuk menjadi tekun, dan teks gambar itu sendiri mengatakan anda sebahagian besarnya tidak boleh. Ketegasan sebahagian besarnya semula jadi; Graham menulis bahawa beliau tidak fikir ada banyak yang boleh anda lakukan untuk menjadikan seseorang yang lemah kehendak lebih berkehendak kuat. Jawapan kepada tajuk utama ada dalam ayat sejurus selepas biji tembikai itu, yang gambar itu tinggalkan: disiplin boleh dipupuk, dan jika ketekunan secara berkesan adalah hasil darab kehendak dan disiplin, maka anda boleh menjadi lebih tekun dengan menjadi lebih berdisiplin. Caranya ialah disiplin. Gambar itu memberikan anda diagnosis dan menahan preskripsinya.
+
+Kedua, gambar itu menunjukkan dua jari, tetapi esei itu mempunyai tiga komponen. Cita-cita ialah yang ketiga: jika ketegasan dan disiplin adalah yang membawa anda ke destinasi anda, cita-cita ialah cara anda memilihnya. Dan cita-cita, tulis Graham, nampaknya agak mudah dibentuk — ada banyak yang boleh anda lakukan untuk meningkatkannya, dan hampir semua orang boleh dikatakan kekurangan zat dari segi cita-cita. Letakkan orang bercita-cita tinggi bersama orang bercita-cita tinggi yang lain, tulisnya, dan mereka mekar seperti tumbuhan yang hampir mati diberi air. Model gambar itu kehilangan bahagian yang memberitahu anda ke mana hendak dituju, dan bahagian yang hilang itu ialah bahagian yang paling mudah anda ubah.
+
+Ketiga, model biji tembikai itu, menurut pengakuan Graham sendiri, tidak tepat dalam sekurang-kurangnya satu hal: ia statik. Sebenarnya bahaya ketiadaan disiplin meningkat dengan godaan, jadi ketekunan cenderung menghakis dirinya sendiri — semakin banyak anda capai, semakin banyak godaan mengelilingi anda, dan melainkan anda menjadi lebih berdisiplin secara berkadar, ketegasan akan menguasai dan pencapaian anda akan kembali ke purata. Model itu juga membayangkan bahawa adalah mungkin untuk menjadi terlalu berdisiplin, dan Graham berpendapat mungkin ada orang yang ketegasannya dihancurkan oleh disiplin yang berlebihan. Gambar itu mempersembahkan metafora itu sebagai kesimpulan. Esei itu menganggapnya sebagai model kasar yang mempunyai had, kemudian membetulkannya.
+
+Ada perkara keempat yang gambar itu tinggalkan, dan ia adalah ayat paling senyap dalam esei itu: ketekunan dan bakat bukan keseluruhan cerita. Ada faktor ketiga dalam pencapaian — betapa anda menyukai kerja itu. Jika anda benar-benar suka mengerjakan sesuatu, anda tidak memerlukan ketekunan untuk mendorong anda; itulah yang akan anda lakukan juga. Itulah ayat yang menjadikan seluruh esei itu jujur, dan ia tiada dalam kiriman itu.
+
+Kad petikan itu tidak salah. Ia tidak lengkap tepat di tempat yang penting: ia menunjukkan anda dua jari dan memanggilnya jawapan, sedangkan jawapan esei itu ialah disiplin yang boleh anda bina, cita-cita yang boleh anda beri makan, dan kerja yang akan anda lakukan juga. Bacalah esei itu. Ia sudah tujuh belas tahun, dan tajuk utama kiriman itu ialah soalannya. Esei itu ialah jawapannya.
+
+*Diilhamkan oleh kiriman X ["Paul Graham on how to become determined:"](https://x.com/startupwisdom_/status/2119837692284580123) oleh [Startup Wisdom (@StartupWisdom_)](https://x.com/startupwisdom_/status/2119837692284580123). Kiriman itu disahkan pada 10 November 2026: 12:01 AM, 10 Nov 2026, 5,425 views. Petikan itu daripada esei Paul Graham [The Anatomy of Determination](https://paulgraham.com/determination.html), September 2009, dibaca sepenuhnya. Gambar itu menghasilkan semula petikan pembukaan esei itu dengan tepat dan mengabaikan bahagian-bahagian kemudian tentang disiplin sebagai komponen yang boleh dipupuk, cita-cita sebagai komponen ketiga, dan had model itu.*

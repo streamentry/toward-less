@@ -1,0 +1,30 @@
+---
+title: "Sebenarnya Mudah"
+description: "Eric Schmidt berkata cara paling mudah untuk membuat wang ialah menubuhkan sebuah syarikat AI agen. Petikan itu benar — Davos, Januari 2026 — tetapi versi tularnya membuang kata-kata berhati-hati, tarikh, dan hakikat bahawa Schmidt ialah bekas CEO Google. Nasihat di sebaliknya kukuh; perkataan 'mudah' itulah yang melakukan semua kerja."
+author: "C.S Chánh Niệm"
+lang: ms
+slug: benar-benar-mudah-ms
+translationKey: schmidt-agentic-company-2026
+pubDatetime: 2026-11-10T05:32:00+07:00
+draft: false
+featured: false
+tags: [technology]
+---
+
+"Jika anda benar-benar mahu membuat wang, sebenarnya mudah, tubuhkan sebuah syarikat AI agen, maksud saya bina sebuah agen untuk melakukan sesuatu. Jika anda membina agen yang lebih baik daripada orang lain, anda mungkin boleh membina sebuah syarikat yang luar biasa dan memilikinya sendiri."
+
+Petikan itu benar. Ia daripada Eric Schmidt, bercakap di Sidang Kemuncak AI Imagination in Action di Davos pada 21 Januari 2026, dalam perbincangan yang dikendalikan oleh pengasas bersama Carlyle, David Rubenstein, bersama Ketua Pegawai Eksekutif Global Deloitte, Joe Ucuzoglu. Forbes menerbitkan rakaman perbualan itu pada 28 Januari 2026. Schmidt menggelar saat ini "era agen" dalam AI, dan berkata bahawa untuk satu atau dua tahun akan datang, semua orang akan membina agen, dan semua agen itu akan bersaing.
+
+Versi tular petikan itu menyunting tiga perkara. Pertama, ia memanggil Schmidt "CEO Google." Beliau ialah bekas CEO — beliau mengetuai Google dari Julai 2001 hingga April 2011. Sundar Pichai yang mengetuai Google sekarang. Kedua, ia berkata beliau "baru sahaja memberitahu semua orang," seolah-olah ini berita minggu ini. Kenyataan itu dari bulan Januari, dan hujah yang sama pernah dilaporkan dari penampilannya di America Business Forum di Miami pada November sebelumnya. Petikan itu tersebar semula pada awal November 2026, ketika ia sampai ke suapan anda, tetapi ia bukan baharu. Ketiga, ia menambah "paling mudah" dan "menjadi kaya." Schmidt berkata "sebenarnya mudah" dan "membuat wang" — dan kemudian, dalam ayat yang dikekalkan oleh versi tular, "anda mungkin boleh membina sebuah syarikat yang luar biasa." Mungkin. Boleh. Kata-kata berhati-hati itulah bahagian yang jujur, dan itulah bahagian yang dipotong.
+
+Nasihat di sebalik pembungkusan itu kukuh, dan wajar dipisahkan daripada pembungkusan. Perbezaan Schmidt adalah intipatinya: bukan pereka agen, bukan satu lagi chatbot dengan antara muka yang menarik, tetapi agen yang melakukan satu tugas tertentu. Jawapan kini murah. Tindakanlah yang dibayar oleh syarikat. Sistem yang menyemak inventori, menyediakan pesanan pembelian, dan mengemukakannya untuk kelulusan lebih bernilai daripada sistem yang menerangkan cara melakukan perkara itu. Versi terkuat nasihat ini langsung tidak berkaitan dengan AI. Ia tentang mencari kerja yang dilakukan dengan buruk, mahal, atau perlahan, dan melakukannya lebih baik daripada orang lain, dengan alat baharu yang menjadikannya mungkin.
+
+Tetapi "mudah" bercanggah dengan ramalan itu sendiri. Jika semua orang membina agen untuk satu atau dua tahun akan datang, maka membina satu bukan kelebihan. Ia adalah yuran masuk. Kelebihannya ialah menyelesaikan masalah yang sukar dengan lebih baik daripada alternatif — mengetahui aliran kerja mana yang mahal, kes pinggir mana yang rosak, integrasi mana yang dipercayai. Pengetahuan itu tidak datang daripada model. Ia datang daripada pernah bekerja di dalam masalah itu, dan ia adalah bahagian yang tidak dapat diberikan oleh sebarang jumlah gesaan.
+
+"Memilikinya sendiri" membawa pemampatan yang sama. Pengasas solo dengan agen yang lebih baik masih memerlukan pengedaran, kepercayaan, integrasi, jualan, sokongan, dan pematuhan. Agen yang boleh membaca e-mel pembekal berguna. Agen yang tersilap meluluskan pembayaran adalah liabiliti. Angka-angka menceritakan sisi lain. Tinjauan State of AI McKinsey pada Ogos 2026 mendapati hanya 37 peratus organisasi mengaitkan sebarang kesan pendapatan peringkat perusahaan kepada AI, dan kira-kira satu daripada lima berkata kos operasi AI mengehadkan penggunaan. Gartner, pada Oktober 2026, meramalkan bahawa kira-kira 40 peratus projek AI agen boleh dibatalkan menjelang akhir 2027, kerana kos, nilai perniagaan yang tidak jelas, atau kawalan risiko yang tidak mencukupi. Itu ramalan, bukan kadar kegagalan — tetapi itulah bentuk persaingan yang digambarkan oleh Schmidt. Kebanyakan agen akan kalah.
+
+Ada satu lagi perkara yang wajar dikatakan dengan jelas. Schmidt bukan pemerhati neutral dalam pasaran ini. Beliau menyokong syarikat AI — SandboxAQ, dan organisasi bukan untung Future House, yang membina agen saintifik — dan nasihatnya menunjuk ke arah pasaran yang diduduki oleh portfolionya. Itu tidak menjadikan nasihat itu salah. Ia menjadikannya berkepentingan, dalam cara biasa nasihat pelabur yang berjaya tentang tempat melabur adalah berkepentingan. Bacalah ia sebagai pertaruhan, bukan ramalan.
+
+Jadi kekalkan ayat itu, dan buang perkataan itu. Bina agen untuk melakukan sesuatu, dan binanya lebih baik daripada agen orang lain, untuk kerja yang anda fahami cukup mendalam untuk mengetahui apa erti "lebih baik". Itu nasihat yang benar, dan nasihat yang sukar. "Mudah" tidak pernah ada dalam petikan itu. Ia ditambah oleh orang yang menyebarkannya.
+
+*Kenyataan Eric Schmidt di Sidang Kemuncak AI Imagination in Action di Davos, 21 Januari 2026, seperti yang dilaporkan dalam ["Eric Schmidt Says the Next Big AI Opportunity Is Building an Agentic AI Company. Here's Why He's Betting on It."](https://stupiddope.com/2026/11/eric-schmidt-agentic-ai-company-startup-opportunity/) oleh [stupidDOPE](https://stupiddope.com/2026/11/eric-schmidt-agentic-ai-company-startup-opportunity/). Schmidt ialah CEO Google dari Julai 2001 hingga April 2011; rakaman Forbes mengenai perbualan di Davos diterbitkan pada 28 Januari 2026. Angka State of AI McKinsey adalah daripada tinjauan Ogos 2026; ramalan Gartner mengenai pembatalan projek AI agen adalah dari Oktober 2026.*

@@ -1,0 +1,30 @@
+---
+title: "Le Troisième Doigt"
+description: "Startup Wisdom publie Paul Graham sur la façon de devenir déterminé : une volonté équilibrée par la discipline, deux doigts qui pressent un pépin de melon. La citation est authentique — tirée de « The Anatomy of Determination », septembre 2009 — mais l'image s'arrête avant la réponse de l'essai. Le comment est dans la partie coupée : la discipline, et la troisième composante que l'image ne mentionne jamais."
+author: "C.S Chánh Niệm"
+lang: fr
+slug: le-troisieme-doigt-fr
+translationKey: paul-graham-determination-2026
+pubDatetime: 2026-11-10T05:29:00+07:00
+draft: false
+featured: false
+tags: [life]
+---
+
+Paul Graham sur la façon de devenir déterminé. L'image donne l'anatomie : la forme la plus simple de détermination est la pure volonté — quand on veut quelque chose, il faut l'avoir, coûte que coûte. Une bonne partie de la volonté doit être innée, car il est fréquent de voir dans une famille un frère ou une sœur en avoir beaucoup plus qu'un autre. Être volontaire ne suffit pas, cependant. Il faut aussi être dur envers soi-même. La détermination implique que votre volonté est équilibrée par la discipline. Plus vous êtes volontaire, plus vous devez être discipliné, car plus votre volonté est forte, moins quelqu'un d'autre que vous pourra discuter avec vous. Et il faut que quelqu'un discute avec vous, parce que tout le monde a des impulsions viles, et si vous avez plus de volonté que de discipline, vous ne ferez que céder à ces impulsions et finir sur un maximum local comme la toxicomanie. On peut imaginer la volonté et la discipline comme deux doigts qui pressent un pépin de melon glissant. Plus ils pressent fort, plus le pépin vole loin, mais ils doivent presser également, sinon le pépin part en vrille sur le côté.
+
+La citation est authentique, et elle est transcrite avec exactitude. Elle vient de l'essai de Graham « The Anatomy of Determination », publié en septembre 2009, écrit quand Y Combinator apprenait à prédire quelles startups réussiraient et avait découvert que la détermination, et non l'intelligence, était le meilleur prédicteur. La publication ne renvoie pas à l'essai. Elle n'en a pas besoin pour que la citation soit authentique. Mais l'image s'arrête là où l'essai devient intéressant, et le titre promet la partie qui a été coupée.
+
+Trois corrections, toutes tirées de l'essai lui-même.
+
+Premièrement, le titre demande comment devenir déterminé, et le texte même de l'image dit que pour l'essentiel on ne le peut pas. La volonté est largement innée ; Graham écrit qu'il ne pense pas qu'on puisse faire grand-chose pour rendre une personne faible de volonté plus volontaire. La réponse au titre se trouve dans la phrase qui suit immédiatement le pépin de melon, phrase que l'image omet : la discipline peut se cultiver, et si la détermination est effectivement le produit de la volonté et de la discipline, alors on peut devenir plus déterminé en devenant plus discipliné. Le comment, c'est la discipline. L'image vous donne le diagnostic et vous retient l'ordonnance.
+
+Deuxièmement, l'image montre deux doigts, mais l'essai comporte trois composantes. L'ambition est la troisième : si la volonté et la discipline sont ce qui vous mène à destination, l'ambition est la façon dont vous la choisissez. Et l'ambition, écrit Graham, semble tout à fait malléable — il y a beaucoup à faire pour l'augmenter, et presque tout le monde est pratiquement sous-alimenté en ambition. Mettez des personnes ambitieuses avec d'autres personnes ambitieuses, écrit-il, et elles s'épanouissent comme des plantes mourantes qu'on arrose. Il manque au modèle de l'image la partie qui vous dit où viser, et la partie manquante est celle qu'on peut le plus facilement changer.
+
+Troisièmement, le modèle du pépin de melon est, de l'aveu même de Graham, inexact sur au moins un point : il est statique. En réalité, les dangers de l'indiscipline augmentent avec la tentation, si bien que la détermination tend à s'éroder elle-même — plus on accomplit, plus les tentations vous entourent, et à moins de devenir proportionnellement plus discipliné, la volonté prend le dessus et votre réussite revient à la moyenne. Le modèle implique aussi qu'il est possible d'être trop discipliné, et Graham pense qu'il y a probablement des gens dont la volonté est écrasée par une discipline excessive. L'image présente la métaphore comme la conclusion. L'essai la traite comme un modèle approximatif avec des limites, puis il le corrige.
+
+Il y a une quatrième chose que l'image laisse de côté, et c'est la phrase la plus discrète de l'essai : la détermination et le talent ne sont pas toute l'histoire. Il y a un troisième facteur dans la réussite — à quel point on aime le travail. Si l'on aime vraiment travailler sur quelque chose, on n'a pas besoin de détermination pour se pousser ; c'est ce qu'on ferait de toute façon. C'est la phrase qui rend tout l'essai honnête, et elle n'est nulle part dans la publication.
+
+La carte de citation n'a pas tort. Elle est incomplète exactement à l'endroit qui compte : elle vous montre les deux doigts et appelle cela la réponse, alors que la réponse de l'essai est la discipline que vous pouvez construire, l'ambition que vous pouvez nourrir, et le travail que vous feriez de toute façon. Lisez l'essai. Il a dix-sept ans, et le titre de la publication est sa question. L'essai est sa réponse.
+
+*Inspiré par la publication sur X ["Paul Graham on how to become determined:"](https://x.com/startupwisdom_/status/2119837692284580123) de [Startup Wisdom (@StartupWisdom_)](https://x.com/startupwisdom_/status/2119837692284580123). La publication a été vérifiée le 10 novembre 2026 : 12:01 AM, 10 Nov 2026, 5,425 views. La citation est tirée de l'essai de Paul Graham [The Anatomy of Determination](https://paulgraham.com/determination.html), septembre 2009, lu dans son intégralité. L'image reproduit fidèlement les passages d'ouverture de l'essai et omet ses sections ultérieures sur la discipline comme composante cultivable, l'ambition comme troisième composante, et les limites du modèle.*
