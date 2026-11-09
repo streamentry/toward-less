@@ -57,6 +57,11 @@ for path in sorted(ROOT.rglob("*")):
             errors.append(f"{path}: archive authorship lost")
         if fields.get("sourceURL") != url or url not in body:
             errors.append(f"{path}: missing archive provenance")
+    if published and key == "build-what-people-use-2026":
+        if len(re.findall(r"(?m)^##\s+", body)) != 3:
+            errors.append(f"{path}: product demand essay must preserve its three arguments")
+        if "2119539599311782088" not in body:
+            errors.append(f"{path}: missing exact original Max Torchbearer source")
     if published and key == "intermittent-fasting-plaque-mice-2026":
         if len(re.findall(r"(?m)^##\s+", body)) != 4:
             errors.append(f"{path}: fasting evidence essay needs four substantive sections")

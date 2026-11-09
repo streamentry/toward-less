@@ -1,23 +1,23 @@
 # Toward Less — content and translation audit
 
-Updated 8 November 2026. This record is about **coverage and verifiable structure**, not a claim of native-speaker certification.
+Updated 9 November 2026. This record is about **coverage and verifiable structure**, not a claim of native-speaker certification.
 
 ## Coverage
 
 - **18 supported languages:** en, vi, zh, hi, es, ar, fr, bn, pt, id, ur, ja, ko, th, ms, ru, mr, fa.
-- **23 published article families × 18 languages = 414 published editions.**
+- **40 complete 18-language article families = 720 editions** in the current content tree (publication flags validated by CI).
 - **2 extra unpublished introductory drafts** (en and vi), intentionally excluded because they duplicate the About page.
-- **416 Markdown files** in `src/content/posts/` at the time of this audit.
+- **722 Markdown files** in `src/content/posts/` at the time of this audit.
 - Each group shares a `translationKey`; every edition has its own globally unique slug.
 
-Published families:
+Selected published families (not an exhaustive index):
 
 | Theme | Article families |
 | --- | --- |
 | Life and practice | Fasting and arterial plaque (preclinical evidence); Five minutes of optimism; Seven games for child-led play (Dutch-inspired); Perfect Days; The Dig; ChatGPT and 90 days smoke-free; I want to read Proust; What is minimalism? (2022 archive); Time with children (2022 archive); HowToLiveBetter |
 | Buddhist scholarship and practice | Hướng Đến Nhập Lưu; Pāli translation sources; Buddhist Textual Witnesses |
 | Literature, memory, and culture | LitMundi; The Thread Seers; Saigon2Hanoi |
-| Technology and research | Ask AI before automating; AGENTOWNERS; ClawPing; DBA ESG thesis; Open Problem Lab; OpenAMP Foundry; Subvox |
+| Technology and research | Build what people actually use (Max Torchbearer); Ask AI before automating; AGENTOWNERS; ClawPing; DBA ESG thesis; Open Problem Lab; OpenAMP Foundry; Subvox |
 
 The smoking-cessation account reflects its author's stated experience: smoking for more than ten years, repeated unsuccessful attempts, ChatGPT's introduction of Tabex/cytisine, and more than 90 smoke-free days as of 8 November 2026. It does not supply a dosing regimen, imply that AI is a clinician, or claim a single anecdote proves efficacy. Medical claims are cited to WHO and Cochrane.
 
@@ -26,6 +26,8 @@ The Dutch-inspired play essay offers seven suggested activities for roughly ages
 The 2026 essay `Ask AI before automating` is an original editorial response inspired by a screenshot attributed to Prompter (@PromptLLM) on X. The account's X profile is linked; the specific original post URL has not been verified. This short article argues for questioning unnecessary work before automating it and explicitly notes that AI proposals require real-world validation.
 
 The 2026 fasting/arterial-plaque article draws on Feng et al. (2026), a genetically susceptible mouse model with supporting cell experiments and human-genetics analyses. The article distinguishes the reported mouse plaque regression from unproven human plaque regression; similar endpoint lipids do not establish full lipid independence; human clinical outcomes and established LDL-lowering care are not displaced. It cites the 2026 ACC/AHA dyslipidemia guidance, ACC nutrition statement, and Cochrane review. No fasting prescription is provided.
+
+The 2026 article `Build what people actually use` credits and links Max Torchbearer's original X article (status `2119539599311782088`) in all 18 versions. Its three sections distinguish willingness to trade time from praise, the need to reduce first-use barriers, and the difference between automation for task completion versus automation that undermines skill learning. The author's original text was supplied by the user; X could not be fetched independently at publication time.
 
 ## Editorial standard
 
