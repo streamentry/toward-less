@@ -1,0 +1,28 @@
+---
+title: "Gọi Tên Mình"
+description: "Một bài đăng bảo bạn tua lại những lần thành công trong quá khứ mỗi khi sợ hãi ập đến, và đính kèm một bài báo thật làm bằng chứng. Bài báo là thật. Lời khuyên thì không có trong đó. Điều bài báo thực sự chứng minh nhỏ hơn, lạ hơn, và dễ dùng hơn: đổi đại từ, đừng đổi ký ức."
+author: "C.S Chánh Niệm"
+lang: vi
+slug: goi-ten-minh-vi
+translationKey: call-yourself-by-name-2026
+pubDatetime: 2026-11-09T21:10:00+07:00
+draft: false
+featured: false
+tags: [life]
+---
+
+Bài đăng đầy tự tin, và tài liệu đính kèm trông như bằng chứng. "Hãy rèn tâm trí tua lại vô số lần lặp lại của những thành công trong quá khứ mỗi khi bạn trải qua nỗi sợ hay nghi ngờ, và bạn sẽ tự động được trấn an về mọi cách bạn có thể chiến thắng lần nữa." Bên dưới là trang đầu của một bài báo thật: Ethan Kross và cộng sự, *Journal of Personality and Social Psychology*, 2014. Bài báo có thật. Lời khuyên thì không xuất phát từ đó.
+
+Bài báo nói về một động tác hoàn toàn khác, và nó bắt đầu với LeBron James. Mùa hè năm 2010, khi quyết định ở lại Cleveland hay ra đi, James mô tả quá trình suy nghĩ của mình trong một cuộc phỏng vấn — và giữa chừng anh ngừng nói "tôi" và bắt đầu nói "LeBron James." "Tôi không muốn đưa ra một quyết định cảm tính. Tôi muốn làm điều tốt nhất cho LeBron James." Bài báo đặt câu hỏi liệu sự chuyển đổi đó là một thói quen nói năng hay một điều gì hơn thế. Bảy nghiên cứu, tổng cộng 585 người, nói rằng đó là một điều gì hơn thế.
+
+Động tác đó gọi là distanced self-talk — tự nói chuyện với mình từ khoảng cách — và nó nhỏ đến mức gần như ngượng ngùng: khi bạn nghĩ về chính mình trong lúc căng thẳng, hãy dùng tên riêng của mình và từ "bạn" thay vì "tôi." Không phải "Mình sẽ làm hỏng mất thôi" mà là "Sam, cậu đã chuẩn bị cho việc này rồi." Trong các thí nghiệm, những người suy ngẫm theo cách này trước khi tạo ấn tượng đầu tiên và trước khi thuyết trình trước đám đông được người chấm khách quan đánh giá tốt hơn, cảm thấy ít căng thẳng hơn, và ít dằn vặt sau đó hơn. Khi họ đánh giá một stressor còn ở tương lai, họ xem nó như một thử thách nhiều hơn và một mối đe dọa ít hơn. Một phân tích gộp trên các nghiên cứu cho thấy hiệu ứng không phụ thuộc vào mức độ lo âu xã hội của người tham gia — nó hiệu quả với người lo âu cũng như người bình tĩnh.
+
+Cơ chế là phần thanh nhã nhất. Tên riêng và từ "bạn" là đồng tiền ta dùng để nghĩ về người khác. Dùng chúng cho chính mình và não bộ làm điều nó vẫn luôn làm với những từ đó: nó đối xử với con người ấy như một người khác — theo cách nói của bài báo, một bản thân khác mà nội tâm của nó ta có quyền tiếp cận đặc biệt. Bạn trở thành cố vấn của chính mình, và chúng ta nổi tiếng là giỏi khuyên người khác hơn khuyên mình. Các nhà nghiên cứu gọi đây là vấn đề nghịch lý Solomon: khôn ngoan với mọi người khác, tai hại với chính mình. Đại từ là lối thoát. Nó không thay đổi những gì bạn biết. Nó thay đổi vị trí bạn đứng khi bạn biết điều đó.
+
+Không điều nào trong số này là về việc tua lại những thành công trong quá khứ, và sự phân biệt đó quan trọng, bởi vì tua lại thành công trong quá khứ là ý tưởng bấp bênh hơn. Bằng chứng cho "nhớ lại một chiến thắng, kỳ vọng thêm một chiến thắng" là hỗn hợp: nó phụ thuộc vào việc chiến thắng ấy hiện lên trong tâm trí dễ dàng đến đâu và bạn quy nó cho cái gì. Một thành công hiện lên một cách khó nhọc, hay một thành công bạn cho là do may mắn, không nâng kỳ vọng của bạn lên — nó có thể hạ xuống. Những người cần sự trấn an nhất lại là những người ít có khả năng gợi ra một ký ức gọn gàng, đẹp đẽ theo yêu cầu nhất. Phương pháp trong caption muốn nỗi sợ được chữa khỏi bằng một đoạn phim highlight, và nỗi sợ rất giỏi biên tập phim highlight.
+
+Phương pháp của bài báo đòi hỏi ít hơn và mang lại nhiều hơn. Nó không yêu cầu bạn tin bất cứ điều gì về bản thân. Nó yêu cầu bạn đổi một từ. Đó cũng là giới hạn của nó, và cần nói thẳng ra. Đây là những thí nghiệm có kiểm soát với các nhiệm vụ căng thẳng ngắn, cụ thể, chủ yếu ở người trưởng thành. Một sự thay đổi đại từ giúp ích trong khoảnh khắc; nó không chữa khỏi lo âu, và không thay thế sự chuẩn bị — những người thuyết trình trong nghiên cứu vẫn phải đứng lên và trình bày bài nói của họ. Điều nó làm là mua cho bạn vài phân khoảng cách giữa bạn và cơn hoảng loạn, và vài phân đó thường là toàn bộ sự khác biệt giữa suy nghĩ và nghẹn lại.
+
+Có một chi tiết cuối cùng đáng chú ý. Bản thân bài đăng là một trích dẫn của một bài đăng khác tuyên bố "BREAKING: Khoa học xác nhận rằng các tế bào não bị ảnh hưởng bởi cách ta tự nói chuyện với mình." Không có gì ở đây là tin nóng. Bài báo từ năm 2014. Điều đang vỡ ra là chuỗi truyền tin: một bài báo mười hai năm tuổi, gắn với một tuyên bố "tin nóng", gắn với lời khuyên mà bài báo chưa từng đưa ra. Tiêu đề của bài báo nói hay nhất — cách bạn làm mới quan trọng. Caption đã đúng chủ đề và sai động từ. Đừng tua lại quá khứ của bạn. Hãy đổi tên chính mình trong hiện tại.
+
+*Lấy cảm hứng từ bài đăng trên X ["Hãy rèn tâm trí tua lại vô số lần lặp lại của những thành công trong quá khứ mỗi khi bạn trải qua nỗi sợ hay nghi ngờ, và bạn sẽ tự động được trấn an về mọi cách bạn có thể chiến thắng lần nữa."](https://x.com/metamorpehus/status/2119443086095139225) của [Sosa | Mental Strategist (@MetaMorpehus)](https://x.com/metamorpehus/status/2119443086095139225). Bài đăng được xác minh ngày 9 tháng 11 năm 2026: 9:53 tối, 8 tháng 11 năm 2026, 18.333 lượt xem. Bài báo mà bài đăng đính kèm là Kross và cộng sự, "Self-Talk as a Regulatory Mechanism: How You Do It Matters," Journal of Personality and Social Psychology 106(2):304–324 (2014), [doi:10.1037/a0035173](https://doi.org/10.1037/a0035173), đã đọc toàn văn trước khi viết.*
