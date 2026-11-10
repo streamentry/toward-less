@@ -1,30 +1,35 @@
 ---
 title: "本当に簡単"
-description: "エリック・シュミットは、お金を稼ぐ最も簡単な方法はエージェント型AI企業を創業することだと言う。引用は本物だ——ダボス、2026年1月——しかしバイラル版は、控えめな言い回しも、日付も、シュミットが元Google CEOであるという事実も削っている。その裏にある助言は筋が通っている。'簡単'という言葉がすべての仕事をしている。"
+description: "Eric Schmidtは、AIエージェント企業の起業を「本当に簡単」と語りました。調査と予測は、発言が省いたコストや不確実性を示しています。"
 author: "C.S Chánh Niệm"
 lang: ja
 slug: honto-ni-kantan-ja
 translationKey: schmidt-agentic-company-2026
 pubDatetime: 2026-11-10T05:32:00+07:00
+modDatetime: 2026-11-11T02:43:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-"If you really want to make money, it's actually easy, found an agentic AI company, I mean build an agent to do something. If you build a better agent than anyone else, you can probably build one incredible company and own it yourself."
+2026年1月21日のImagination in Actionダボス・サミットで、Eric SchmidtはAIエージェント企業を作って稼ぐのは「本当に簡単」だと述べました。また、「おそらく素晴らしい会社を作り、自分で所有できる」とも語りました。これは起業への励ましであり、仕事や市場が簡単だという証拠ではありません。[Forbesのパネル報道](https://www.forbes.com/sites/johnwerner/2026/01/29/ai-changes-global-landscape-rubenstein-hosts-schmidt-and-ucuzoglu/)には全体の文脈があります。
 
-この引用は本物だ。エリック・シュミットが2026年1月21日、ダボスで開かれたイマジネーション・イン・アクションAIサミットで、カーライル・グループ共同創業者のデビッド・ルーベンスタインの司会による討論で、デロイト・グローバルCEOのジョー・ウクズオグルとともに語ったものだ。フォーブスは2026年1月28日にこの対談の録画を公開した。シュミットはこの瞬間をAIにおける「エージェントの時代」と呼び、今後1、2年のあいだに誰もがエージェントを作り、エージェント同士が競い合うようになると言った。
+助言は具体的でした。エージェントを作るための道具ではなく、仕事をこなすエージェントを作ること。今後1、2年は誰もがエージェントを作るだろう、とも予測しました。これは競争の予測であり、需要の保証ではありません。
 
-バイラル版の引用は3つのことを編集している。第一に、シュミットを「Google CEO」と呼んでいる。彼は元CEOだ——2001年7月から2011年4月までGoogleを率いた。今Googleを率いているのはサンダー・ピチャイだ。第二に、「つい先日みんなに語った」と言い、まるで今週のニュースであるかのようにしている。発言は1月のもので、同じ主張は前年11月にマイアミで開かれたアメリカ・ビジネス・フォーラムでの登壇からも報じられていた。この引用は2026年11月初めに再び広まり、そのときにあなたのフィードに届いたが、新しいものではない。第三に、「最も簡単」や「金持ちになる」を付け加えている。シュミットが言ったのは「actually easy」と「make money」——そしてバイラル版が残した文では、「you could probably build one incredible company」。Probably. Could. 控えめな言い回しこそ正直な部分であり、それが削られた部分だ。
+## 数字が示すこと
 
-包装の下にある助言は筋が通っており、包装から切り離して見る価値がある。シュミットの区別こそが要点だ。エージェントの設計者でもなく、洗練されたインターフェースを持つもう一つのチャットボットでもなく、特定の仕事をこなすエージェントだ。答えは今では安い。行動こそ企業が金を払うものだ。在庫を確認し、発注書を作成し、承認のために回すシステムは、そうした作業のやり方を説明するシステムより価値がある。この助言の最も強い形は、AIとはまったく関係がない。下手に、高く、あるいは遅く行われている仕事を見つけ、新しい道具を使って誰よりも上手にこなすことだ。
+- McKinseyが2026年8月に1,719人を対象に行った調査では、回答者の37%がAIは自社のEBITに貢献したと答え、20%が運用コストによってAI利用が制約されたと答えました。広範なAI利用の調査であり、エージェント企業の成否を測ったものではありません。[調査](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai)
+- Gartnerは2025年6月、コスト、事業価値の不明確さ、リスク管理の不足を理由に、2027年末までにエージェント型AIプロジェクトの40%超が中止される可能性があると予測しました。これはプロジェクトの予測で、スタートアップの実測失敗率ではありません。[予測](https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027)
 
-しかし「簡単」は、その予測そのものと矛盾する。今後1、2年のあいだに誰もがエージェントを作るなら、エージェントを作ることは優位性ではない。参加費だ。優位性とは、代替案より難しい問題を上手に解くこと——どのワークフローが高くつくか、どのエッジケースが壊れるか、どの連携が信頼できるかを知ることだ。その知識はモデルからは得られない。問題の内側で働くことから得られるもので、どれだけプロンプトを重ねても得られない部分だ。
+## 「簡単」が省くもの
 
-「自分で所有する」にも同じ圧縮がある。より優れたエージェントを持つソロ創業者にも、流通、信頼、連携、営業、サポート、コンプライアンスが依然として必要だ。仕入先のメールを読めるエージェントは役に立つ。誤って支払いを承認するエージェントは負債だ。数字が物語のもう一方を語っている。マッキンゼーの2026年8月の「State of AI」調査では、企業レベルの収益へのAIの影響を認めた組織はわずか37パーセントで、およそ5社に1社がAIの運用コストが導入を制約していると答えた。ガートナーは2026年10月、コスト、事業価値の不明確さ、あるいは不十分なリスク管理のため、2027年末までにエージェント型AIプロジェクトのおよそ40パーセントが中止される可能性があると予測した。これは予測であって失敗率ではない——しかし、それこそシュミットが描いている競争の姿だ。ほとんどのエージェントが負ける。
+会社には、動くエージェント以上のものが必要です。役立つ仕事を安定して終え、買い手の業務に合い、対価を払う価値を生まなければなりません。創業者には販売経路、連携、信頼、サポート、リスク管理も必要です。
 
-もう一つ、はっきり言っておく価値があることがある。シュミットはこの市場の公平な観察者ではない。彼はAI企業を支援している——SandboxAQや、科学エージェントを構築する非営利団体Future House——そして彼の助言は、彼のポートフォリオが占める市場へと向いている。それが助言を誤りにするわけではない。成功した投資家がどこに投資すべきかについての助言が利害を伴うのと同じ、ごく普通の意味で、利害を伴うものになる。予言ではなく、賭けとして読むべきだ。
+これらの数字は、新しいエージェント企業が失敗すると証明するものではありません。ただ、「簡単に稼げる」という読み方には無理があります。
 
-だから、文は残して、言葉は捨てよう。何かをするエージェントを作り、誰のものよりも優れたものを作ること。「優れた」とは何かを分かるほど深く理解している仕事のために。それが本物の助言であり、難しい助言だ。「簡単」は引用の中には決してなかった。回し広めた人々が付け加えたのだ。
+テストは明確です。コストの高い仕事を一つ選び、エージェントが安定して完了できると示し、小規模な試験導入にお金を払う買い手を探します。
 
-*エリック・シュミットの発言、ダボスでのイマジネーション・イン・アクションAIサミット、2026年1月21日、["Eric Schmidt Says the Next Big AI Opportunity Is Building an Agentic AI Company. Here's Why He's Betting on It."](https://stupiddope.com/2026/11/eric-schmidt-agentic-ai-company-startup-opportunity/)（[stupidDOPE](https://stupiddope.com/2026/11/eric-schmidt-agentic-ai-company-startup-opportunity/)）の報道による。シュミットは2001年7月から2011年4月までGoogleのCEOだった。ダボス討論のフォーブス録画は2026年1月28日に公開された。マッキンゼー「State of AI」の数字は2026年8月の調査によるもの。エージェント型AIプロジェクトの中止に関するガートナーの予測は2026年10月のもの。*
+## 出典
+
+- John Werner, “AI Changes Global Landscape, Rubenstein Hosts Schmidt and Ucuzoglu,” *Forbes*, 2026年1月29日。[記事](https://www.forbes.com/sites/johnwerner/2026/01/29/ai-changes-global-landscape-rubenstein-hosts-schmidt-and-ucuzoglu/)；Imagination in Action, “Davos ’26: The Inflection of Intelligence: Our World Reimagined,” 2026年1月21日。[サミット日程](https://imaginationinaction.co/summits)。
+- Dan Tinkoff et al., “The State of AI in 2026: On the Road to ROI,” *McKinsey*, 2026年8月25日。[調査](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai)；Gartner, “Gartner Predicts Over 40% of Agentic AI Projects Will Be Canceled by End of 2027,” 2025年6月25日。[発表](https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027)。

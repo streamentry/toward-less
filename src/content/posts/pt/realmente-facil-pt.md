@@ -1,30 +1,35 @@
 ---
 title: "Realmente Fácil"
-description: "Eric Schmidt diz que a maneira mais fácil de ganhar dinheiro é fundar uma empresa de IA agêntica. A citação é real — Davos, janeiro de 2026 — mas a versão viral corta as ressalvas, a data e o fato de que Schmidt é o ex-CEO do Google. O conselho por trás é sólido; a palavra 'fácil' é que está fazendo todo o trabalho."
+description: "Eric Schmidt chamou de “realmente fácil” criar uma empresa de IA com agentes. Pesquisa e previsão mostram custos, incerteza e trabalho omitidos."
 author: "C.S Chánh Niệm"
 lang: pt
 slug: realmente-facil-pt
 translationKey: schmidt-agentic-company-2026
 pubDatetime: 2026-11-10T05:32:00+07:00
+modDatetime: 2026-11-11T02:43:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-"If you really want to make money, it's actually easy, found an agentic AI company, I mean build an agent to do something. If you build a better agent than anyone else, you can probably build one incredible company and own it yourself."
+Na cúpula da Imagination in Action em Davos, em 21 de janeiro de 2026, Eric Schmidt disse que ganhar dinheiro criando uma empresa de IA com agentes era “realmente fácil”. Acrescentou que “você provavelmente pode criar uma empresa extraordinária e ser dono dela”. É um incentivo, não uma prova de que o trabalho ou o mercado sejam fáceis. [O relato da Forbes sobre o painel](https://www.forbes.com/sites/johnwerner/2026/01/29/ai-changes-global-landscape-rubenstein-hosts-schmidt-and-ucuzoglu/) traz o contexto.
 
-A citação é real. É Eric Schmidt, falando na Imagination in Action AI Summit em Davos em 21 de janeiro de 2026, numa discussão mediada por David Rubenstein, cofundador do Carlyle Group, ao lado de Joe Ucuzoglu, CEO global da Deloitte. A Forbes publicou uma gravação da conversa em 28 de janeiro de 2026. Schmidt chamou o momento de "o período agêntico" da IA, e disse que, no próximo ano ou dois, todo mundo vai construir agentes, e os agentes vão todos competir entre si.
+O conselho era específico: criar um agente para executar uma tarefa, não apenas ferramentas para criar agentes. Ele previu que todos construiriam agentes nos próximos um ou dois anos. Isso indica concorrência, não demanda garantida.
 
-A versão viral da citação edita três coisas. Primeiro, chama Schmidt de "CEO do Google". Ele é o ex-CEO — dirigiu o Google de julho de 2001 a abril de 2011. Sundar Pichai comanda o Google agora. Segundo, diz que ele "acabou de dizer a todos", como se fosse notícia desta semana. As declarações são de janeiro, e o mesmo argumento já havia sido relatado de sua aparição no America Business Forum em Miami, em novembro anterior. A citação voltou a circular no início de novembro de 2026, que foi quando chegou ao seu feed, mas não é nova. Terceiro, acrescenta "mais fácil" e "ficar rico". Schmidt disse "actually easy" e "make money" — e depois, na frase que a versão viral mantém, "you could probably build one incredible company". Probably. Could. As ressalvas são a parte honesta, e são a parte que foi cortada.
+## O que os dados mostram
 
-O conselho por trás da embalagem é sólido, e vale a pena separá-lo da embalagem. A distinção de Schmidt é o ponto central: não um designer de agentes, não mais um chatbot com uma interface elegante, mas um agente que executa um trabalho específico. Respostas são baratas agora. Ações são o que as empresas pagam. Um sistema que revisa o estoque, elabora o pedido de compra e o encaminha para aprovação vale mais do que um sistema que explica como fazer essas coisas. A versão mais forte desse conselho nem se trata de IA. Trata-se de encontrar um trabalho feito de forma ruim, cara ou lenta, e fazê-lo melhor do que qualquer outra pessoa, com a nova ferramenta que torna isso possível.
+- Na pesquisa da McKinsey de agosto de 2026, com 1.719 participantes, 37% disseram que a IA contribuiu para o EBIT da organização; 20% disseram que custos operacionais limitaram o uso. A pesquisa trata de IA em geral, não do sucesso de startups de agentes. [Pesquisa](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai)
+- Em junho de 2025, a Gartner previu que mais de 40% dos projetos de IA com agentes poderiam ser cancelados até o fim de 2027 por custos, valor comercial pouco claro ou controles de risco inadequados. É uma previsão, não uma taxa observada de fracasso de startups. [Previsão](https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027)
 
-Mas "fácil" contradiz a própria previsão. Se todo mundo construir agentes no próximo ano ou dois, então construir um não é uma vantagem. É o preço de entrada. A vantagem é resolver um problema difícil melhor do que as alternativas — saber qual fluxo de trabalho é caro, quais casos extremos quebram, quais integrações são confiáveis. Esse conhecimento não vem do modelo. Vem de ter trabalhado dentro do problema, e é a parte que nenhuma quantidade de prompts fornece.
+## O que “fácil” deixa de fora
 
-"Ser dono você mesmo" carrega a mesma compressão. Um fundador solo com um agente melhor ainda precisa de distribuição, confiança, integrações, vendas, suporte e conformidade. Um agente que consegue ler o e-mail de um fornecedor é útil. Um agente que autoriza incorretamente um pagamento é um passivo. Os números contam o outro lado da história. A pesquisa State of AI de agosto de 2026 da McKinsey constatou que apenas 37 por cento das organizações atribuíram qualquer impacto de IA nos lucros em nível empresarial, e cerca de uma em cada cinco disse que os custos operacionais de IA limitaram a adoção. A Gartner, em outubro de 2026, previu que cerca de 40 por cento dos projetos de IA agêntica poderiam ser cancelados até o final de 2027, por causa de custos, valor comercial incerto ou controles de risco inadequados. Isso é uma previsão, não uma taxa de fracasso — mas é a forma da competição que Schmidt está descrevendo. A maioria dos agentes vai perdê-la.
+Uma empresa precisa de mais que um agente funcional. Ele deve executar uma tarefa útil com confiabilidade, encaixar-se no fluxo de trabalho do comprador e criar valor pelo qual alguém pague. Também são necessários distribuição, integrações, confiança, suporte e controles de risco.
 
-Há mais uma coisa que vale a pena dizer claramente. Schmidt não é um observador neutro desse mercado. Ele apoia empresas de IA — a SandboxAQ e a organização sem fins lucrativos Future House, que constrói agentes científicos — e seu conselho aponta para o mercado que seu portfólio ocupa. Isso não torna o conselho errado. Torna-o interessado, no sentido comum em que o conselho de um investidor bem-sucedido sobre onde investir é interessado. Leia-o como uma aposta, não como uma profecia.
+Esses dados não provam que uma nova empresa vai fracassar. Mas tornam “dinheiro fácil” uma leitura fraca da frase.
 
-Então guarde a frase e descarte a palavra. Construa um agente para fazer alguma coisa, e construa-o melhor do que o de qualquer outra pessoa, para um trabalho que você entende profundamente o bastante para saber o que "melhor" significa. Isso é um conselho real, e é um conselho difícil. O "fácil" nunca esteve na citação. Foi acrescentado por quem a repassou.
+O teste é concreto: escolher uma tarefa cara, mostrar que um agente a executa com confiabilidade e pedir a um comprador que pague por um piloto pequeno.
 
-*Declarações de Eric Schmidt na Imagination in Action AI Summit em Davos, 21 de janeiro de 2026, conforme relatado em ["Eric Schmidt Says the Next Big AI Opportunity Is Building an Agentic AI Company. Here's Why He's Betting on It."](https://stupiddope.com/2026/11/eric-schmidt-agentic-ai-company-startup-opportunity/) por [stupidDOPE](https://stupiddope.com/2026/11/eric-schmidt-agentic-ai-company-startup-opportunity/). Schmidt foi CEO do Google de julho de 2001 a abril de 2011; a gravação da Forbes da discussão de Davos foi publicada em 28 de janeiro de 2026. Os números da McKinsey State of AI são da pesquisa de agosto de 2026; a previsão da Gartner sobre cancelamentos de projetos de IA agêntica é de outubro de 2026.*
+## Fontes
+
+- John Werner, “AI Changes Global Landscape, Rubenstein Hosts Schmidt and Ucuzoglu”, *Forbes*, 29 de janeiro de 2026. [Artigo](https://www.forbes.com/sites/johnwerner/2026/01/29/ai-changes-global-landscape-rubenstein-hosts-schmidt-and-ucuzoglu/); Imagination in Action, “Davos ’26: The Inflection of Intelligence: Our World Reimagined”, 21 de janeiro de 2026. [Programação](https://imaginationinaction.co/summits).
+- Dan Tinkoff et al., “The State of AI in 2026: On the Road to ROI”, *McKinsey*, 25 de agosto de 2026. [Pesquisa](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai); Gartner, “Gartner Predicts Over 40% of Agentic AI Projects Will Be Canceled by End of 2027”, 25 de junho de 2025. [Previsão](https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027).
