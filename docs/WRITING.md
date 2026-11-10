@@ -45,7 +45,16 @@ Keep **the same translationKey** in all 18 editions, but translate the title, de
 
 ## Voice and editing
 
-Write from a specific question, observation, example or argument. A short post is fine; it does not need a statement of philosophy at the beginning or a life lesson at the end.
+### Purpose and shape
+
+- Before drafting, write one sentence stating the post's objective: what should a reader understand, decide, or be able to do?
+- State the central question or claim near the beginning. Use headings that tell readers what each section covers.
+- Keep the post as short as the subject allows. Use plain words, short sentences, and short paragraphs. Explain specialized terms when needed.
+- Use a scannable structure: brief opening, descriptive headings, and bullet points for grouped claims, evidence, examples, steps, comparisons, options, and takeaways. Keep prose for context or reasoning that needs continuity; avoid long blocks and lists that obscure the point.
+- Put evidence close to the claim it supports. Link to the exact source, say what it establishes, and name important limits or uncertainty. Mark interpretation as interpretation.
+- Keep only material that serves the objective. End with the conclusion or practical next step the evidence supports; skip a forced lesson or call to action.
+
+Write from a specific question, observation, example, or argument. A short post is fine; it does not need a statement of philosophy at the beginning or a life lesson at the end.
 
 - Keep first-person statements grounded in what the author has actually said or experienced. Never invent anecdotes, family details, quotations, spiritual experiences or claims of attainment to make a draft sound personal. Do not publish private conversation details without permission.
 - Translate the meaning rather than the English sentence structure. Use familiar wording in each language and have a fluent reader review sensitive or literary prose. Keep technical or Buddhist terms where they add precision; explain them when readers need it.

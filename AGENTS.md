@@ -15,6 +15,15 @@ If local checks cannot run because the installed Node version is too old, do not
 
 ## Toward Less editorial identity — lush and lean
 
+Write for clarity and a clear purpose:
+
+- Before drafting, state the post's objective in one sentence: what should a reader understand, decide, or be able to do?
+- Put the central question or claim near the start. Keep each section tied to the objective; remove anything that does not help the reader.
+- Use plain words, short sentences, short paragraphs, and descriptive headings. Explain specialized terms when readers need them.
+- Use a scannable structure: brief opening, descriptive headings, and bullet points for grouped claims, evidence, examples, steps, comparisons, options, and takeaways. Keep prose for context or reasoning that needs continuity; avoid long blocks and lists that obscure the point.
+- Make factual claims traceable to evidence. Link sources beside the claims they support, distinguish evidence from interpretation, and state material uncertainty or limits.
+- Keep a real counterargument when it affects the conclusion. End with the conclusion or next action the evidence supports; do not add a forced lesson or call to action.
+
 Lush in observation, lean in language. Keep concrete scenes, human complexity, careful distinctions, and a real counterargument. Remove filler, launch hype, repeated claims, decorative metaphors, and forced life lessons. A short, precise essay beats a long generic one.
 
 The recurring question is how to work, build, care for family, read, and practice with less craving and attachment. This is not anti-ambition, anti-technology, or a mandate to make every article a Buddhist sermon. Distinguish contentment from avoidance, intention from attachment, evidence from speculation, and a project vision from what actually exists.
