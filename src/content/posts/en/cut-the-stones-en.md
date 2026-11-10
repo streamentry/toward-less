@@ -1,26 +1,30 @@
 ---
 title: "Cut the Stones"
-description: "Hux posts a Chinese rendering of John McAfee on the secret of success: you are a balloon tied to the seafloor, weighed down by stones you tied on yourself — regret, resentment, fear — and the only work is to cut them, one at a time. The metaphor is strong. The attribution is unverified, and not every stone was tied by your own hands."
+description: "A post attributes a weight-and-release metaphor to John McAfee, but its wording and source video are unverified. The image has value; its claims need limits."
 author: "C.S Chánh Niệm"
 lang: en
 slug: cut-the-stones-en
 translationKey: mcafee-balloon-stones-2026
 pubDatetime: 2026-11-10T05:24:00+07:00
+modDatetime: 2026-11-11T03:37:00+07:00
 draft: false
 featured: false
 tags: [life]
 ---
 
-John McAfee was asked countless times for the secret of success, the post says, until he stopped pretending. You won't like this answer, he said. Many people spend their whole lives striving, failing, competing furiously — the Chinese word is 内卷, involution — and still go nowhere. Not for lack of ability, and not for lack of luck. Because you are, at bottom, a balloon tied to the seafloor. A balloon is born to rise. But you are weighed down by stones you tied on yourself: regret for mistakes, attachment to the past, resentment toward others, fear of the future, failures you cannot let go. Each stone looks reasonable. Each has its excuse, even its victim's legitimacy. But no matter how hard you swim, it is futile. The only thing to do is start cutting the ropes. Cut one stone, then another. With each stone cut, you rise — uncontrollably, by a large margin. Then shock, then ecstasy, then unstoppable. Your nature is the upward buoyancy. Death is not the end; death is only verification. It checks one thing: at the moment you die, are you free, or were you tied up your whole life? Ten seconds ago is the past, ten hours ago is the past, ten years ago is the past. In this physical world, the past does not exist at all. Every extra second of anger is paying rent with your present life to dead ghosts.
+A post by Hux (@huxlab) shares a 2:19 video of John McAfee with Chinese text that portrays regret, resentment, fear, and past failures as weights holding a balloon down. The page could not be reloaded in this revision, and the video was not transcribed. The wording is not a verified McAfee quotation; read it as the poster’s rendering.
 
-That is Hux's post, in Chinese, over a two-minute video of McAfee speaking. It is a beautiful piece of writing, and it fits this blog's oldest question — how to live with less craving and attachment — more directly than anything else in this batch. It also needs three corrections, and the first is about whose words these are.
+## What the image gets right
 
-The post attributes the text to McAfee, but the video was not transcribed here, and the polished Chinese text reads as Hux's rendering of what McAfee said — or of what McAfee stands for — rather than a verified transcript. McAfee was famous for eccentric pronouncements, and the themes are his: freedom, distrust of control, contempt for the past. But the exact words, and the line about death as verification, cannot be confirmed from the post alone. This essay quotes them as Hux presents them, not as McAfee's verified words. That distinction matters, because the line about death lands differently when you remember how he died: John McAfee died in June 2021 in a Barcelona prison cell while awaiting extradition to the United States. The official cause was suicide, and his family has disputed it ever since. "Death is only verification" is a striking sentence from a man whose own death was never cleanly verified.
+It invites a useful question: what can you release? Regret and resentment can become habits, but not every burden is self-made.
 
-The second correction is about the stones. The post says they are voluntarily tied on — 自愿背上, stones you chose to carry. For regret, resentment, and rumination, that is fair, and it is the whole point: the weights that hold you down are often the ones you refuse to drop. But not every stone was tied by your own hands. Trauma, poverty, illness, and the structures you were born into are weights too, and telling someone they tied those on themselves is not liberation. It is blame. The metaphor works for the stones you carry by habit. It fails for the stones that were loaded onto you.
+- Trauma, illness, poverty, and other people’s actions can weigh on someone. Calling all burdens self-tied risks turning advice into blame.
+- The past is over, but its consequences can remain in health, relationships, money, and responsibilities. Saying the past “does not exist” is a philosophical claim, not a practical fact.
 
-The third correction is about the past. "Ten seconds ago is the past, ten hours ago is the past, ten years ago is the past. In this physical world, the past does not exist at all." As physics, that is a defensible view — presentism, the idea that only the present is real. As advice, it is a category error. The past does not exist as a physical object, but its effects do: debts, injuries, relationships, habits, the body you woke up in. The past is gone; its consequences are not. "Every extra second of anger is paying rent with your present life to dead ghosts" is vivid and largely true — rumination is one of the best-studied drivers of depression and anxiety, and it does spend the present on the dead. But you cannot stop paying the rent by declaring the house does not exist. You stop by cutting the rope, one stone at a time, which is the post's own advice, and the part of it that survives the corrections.
+## A grounded reading
 
-So keep the balloon. A balloon is born to rise, and the stones of regret and resentment are real, and cutting them is the work. Just remember two things the post does not say: some stones were not yours to tie, and the man who said death is only verification died in a cell, waiting to be extradited, with his own death still disputed. The metaphor is strong. The man was complicated. The work — cut one stone, then another — is yours either way.
+Keep the call to release what is yours to change. For what is not, identify the repair or support needed. The post offers a metaphor; it does not show that letting go removes fear or fixes every constraint.
 
-*Inspired by the X post by [Hux (@huxlab)](https://x.com/huxlab/status/2119043938225189102), 7:26 PM, 7 Nov 2026, 663.3K views, presenting a Chinese rendering of John McAfee on the secret of success, over a 2:19 video of McAfee speaking: ["约翰·麦卡菲被问了无数次'成功的秘诀'，终于懒得再装了。"](https://x.com/huxlab/status/2119043938225189102). The post was verified on 10 November 2026. The Chinese text is quoted here only in brief translated lines; whether it is McAfee's exact wording could not be verified from the post, and the video was not transcribed. McAfee died in June 2021 in a Barcelona prison while awaiting extradition; the official cause was suicide, disputed by his family.*
+## Source
+
+- Hux (@huxlab), X post with Chinese text and a 2:19 video attributed to McAfee, posted 7 November 2026, [status 2119043938225189102](https://x.com/huxlab/status/2119043938225189102). The page was checked on 10 November but could not be reloaded in this revision; the video was not transcribed, so the attribution remains unverified. No direct quotation is used.
