@@ -1,34 +1,37 @@
 ---
+
 title: "El colágeno no es un ayuno"
-description: "Carnivore Aurelius dice que no necesitas ayunar para la autofagia — basta con comer colágeno, porque la glicina prolonga la vida en todos los animales estudiados. La revisión que cita es real, y el estudio en ratones que hay detrás también lo es. Pero el efecto en ratones es del 4–6%, la dosis era el 8% de la dieta, y «todos los animales estudiados» son tres especies, no una ley de la naturaleza."
+description: "La evidencia relaciona la glicina con una posible vía del envejecimiento y efectos modestos en animales. No demuestra que el colágeno sustituya el ayuno ni alargue la vida humana."
 author: "C.S Chánh Niệm"
 lang: es
 slug: el-colageno-no-es-un-ayuno-es
 translationKey: glycine-autophagy-2026
 pubDatetime: 2026-11-10T05:20:00+07:00
+modDatetime: 2026-11-11T01:00:00+07:00
 draft: false
 featured: false
 tags: [life]
 ---
+Una publicación propone comer colágeno en lugar de ayunar porque contiene glicina, que podría activar la autofagia y prolongar la vida. La evidencia respalda una vía posible y efectos modestos en animales; no demuestra que el colágeno sustituya el ayuno o alargue la vida humana.
 
-No necesitas ayunar para la autofagia. Basta con comer colágeno. La glicina, presente en el colágeno, aumenta la autofagia y ha demostrado prolongar la vida en todos los animales estudiados. Esa es la promesa, y el artículo que hay detrás es real. La promesa sigue siendo errónea en lo que importa.
+## Qué muestran los estudios en animales
 
-El artículo es una revisión, de Johnson y Cuellar, «Glycine and aging: Evidence and mechanisms», en *Ageing Research Reviews*, 2023. Su mecanismo es elegante. La glicina alimenta la enzima glicina N-metiltransferasa, GNMT, que elimina la metionina del cuerpo tomando un grupo metilo y convirtiendo la glicina en sarcosina. La sarcosina disminuye con la edad en varias especies y puede inducir autofagia, en una placa de Petri y en un animal vivo. La propia conclusión de la revisión es que la glicina prolonga la vida imitando la restricción de metionina y activando la autofagia. Hasta aquí todo bien: el vínculo con la autofagia es real, y la vía es genuinamente interesante.
+- Una revisión de 2023 propone esta vía: la glicina participa en la reacción de GNMT y produce sarcosina, que puede inducir autofagia en modelos. Es una hipótesis mecanística, no una prueba de que el colágeno reproduzca el ayuno en personas.
+- En un estudio de 2019 del programa ITP del NIA, ratones genéticamente diversos recibieron desde los nueve meses una dieta con 8% de glicina. La mediana de vida aumentó 4% en hembras y 6% en machos al agrupar los datos; el promedio entre centros fue de alrededor del 3%. Los autores consideraron pequeño el efecto.
+- Un estudio de 2026 informó de efectos sobre la longevidad de moscas y cambios relacionados con el envejecimiento en ratas viejas. Son resultados preclínicos.
 
-El estudio de longevidad que hay detrás de la revisión también es real, y es el mejor tipo de evidencia animal: Miller y sus colegas, en el Programa de Pruebas de Intervención del Instituto Nacional sobre el Envejecimiento, alimentaron a ratones genéticamente heterogéneos con una dieta que contenía un 8% de glicina y realizaron el experimento en tres centros independientes. La vida media aumentó entre un 4 y un 6 por ciento tanto en machos como en hembras, y la vida máxima también aumentó. La propia discusión de los autores califica el efecto de pequeño, y dice que «no altera mucho la edad media de supervivencia». Una ganancia del 4 al 6 por ciento en un ratón es una señal real. No es una fuente de juventud, ni es lo que suena «prolongar la vida en todos los animales estudiados».
+## Qué muestran los datos humanos
 
-Esa frase es la primera corrección. «Todos los animales estudiados» son tres especies, y ni siquiera tres estudios completos. Ratones, con un 4 a un 6 por ciento. Ratas, en un pequeño estudio anterior que cita el artículo sobre ratones. Moscas de la fruta, donde la evidencia es sobre todo mecanicista: la enzima GNMT es necesaria para que la restricción alimentaria prolongue plenamente la vida. Tres especies no son una ley de la naturaleza. Son un comienzo prometedor, y la redacción del post convierte un comienzo prometedor en un hecho establecido.
+- Un análisis de UK Biobank de 2026 asoció más glicina en plasma con puntuaciones menores de edad biológica. Es una asociación observacional, no demuestra que la glicina o un suplemento frenen el envejecimiento.
+- Un pequeño ensayo aleatorizado de 16 semanas con 24 adultos mayores informó mejoras en varias medidas con GlyNAC, una combinación de glicina y N-acetilcisteína. No permite aislar el efecto de la glicina ni midió la longevidad.
 
-La segunda corrección es la dosis. Los ratones comieron una dieta con un 8 por ciento de glicina. Es una cantidad grande, no una cucharada de colágeno en el café. El colágeno es rico en glicina — alrededor de un tercio de sus aminoácidos son glicina — pero una porción normal te da unos pocos gramos, y la dosis del experimento no se traduce limpiamente en una porción humana. La brecha entre el experimento y el consejo es toda la historia, y el post la atraviesa sin detenerse.
+El colágeno contiene glicina, pero comerlo no es ayunar. La dieta de ratón con 8% de glicina no equivale a una dosis humana validada. La evidencia actual no demuestra que el colágeno reproduzca los efectos del ayuno, active directamente la autofagia en personas o alargue la vida humana.
 
-La tercera corrección es el intercambio en sí. Ayunar no es un sistema de entrega de glicina. Cambia la insulina, el mTOR, las cetonas y una docena de cosas más a la vez, y la glicina imita uno de sus mecanismos — la restricción de metionina — no la intervención completa. Cambiar una intervención entera por una de sus vías es el truco más viejo del marketing de suplementos: encuentra la vía, vende la molécula, quédate con la promesa.
+## Fuentes
 
-La cuarta corrección es la redacción sobre la autofagia. La glicina no aumenta directamente la autofagia como dice el post. Alimenta una vía — GNMT, luego sarcosina — y la sarcosina induce la autofagia, y el geroprotector espermidina necesita la GNMT para activar los genes de la autofagia. Indirecto no es lo mismo que falso, pero tampoco es lo mismo que directo, y la versión del post se salta por completo lo indirecto.
-
-Y no hay evidencia en humanos. Ningún ensayo ha demostrado que la glicina prolongue la vida en personas, ni tampoco que prolongue la salud. La glicina es barata y segura, y la revisión es uno de los casos mejor respaldados en la investigación del envejecimiento — pero barato y seguro no es lo mismo que demostrado en personas.
-
-Una cosa más que vale la pena notar: el autor es Carnivore Aurelius, un influencer de la dieta carnívora, y el colágeno es el aminoácido de su marca. El post no es un resumen neutral de una revisión. Es una visión del mundo con una molécula adherida.
-
-La frase honesta es más corta que la del post. La glicina es una de las moléculas baratas mejor respaldadas en la investigación del envejecimiento, la revisión es real, y el efecto en ratones es real y pequeño. Lo que el post vende es un atajo — sáltate el ayuno, come colágeno — y la evidencia no respalda el atajo. Respaldan la molécula, a una dosis que no obtienes de una cucharada, en animales que no eres tú.
-
-*Inspirado en la publicación de X [«You don't need to fast for autophagy. Just eat collagen. Glycine, found in collagen, upregulates autophagy and has been shown to extend lifespan in every animal studied»](https://x.com/alpacaaurelius/status/2119837586315202812) de [Carnivore Aurelius (@AlpacaAurelius)](https://x.com/alpacaaurelius/status/2119837586315202812). La publicación fue verificada el 10 November 2026: 12:00 AM, 10 Nov 2026, 16.2K views. La revisión que cita es Johnson & Cuellar, «Glycine and aging: Evidence and mechanisms», Ageing Research Reviews 87:101922 (2023), [PMID 37004845](https://pubmed.ncbi.nlm.nih.gov/37004845/). El estudio en ratones es Miller et al., «Glycine supplementation extends lifespan of male and female mice», Aging Cell 18(3):e12953 (2019), [PMID 30916479](https://pubmed.ncbi.nlm.nih.gov/30916479/) — dieta con 8% de glicina, aumento del 4–6% en la vida media, los autores califican el efecto de pequeño.*
+- Carnivore Aurelius (@AlpacaAurelius), publicación en X sobre colágeno, glicina y ayuno, publicada el 10 de noviembre de 2026, [estado 2119837586315202812](https://x.com/alpacaaurelius/status/2119837586315202812), revisada el 10 de noviembre de 2026. No se pudo volver a cargar la página; se omitieron las citas directas.
+- Johnson AA and Cuellar TL, [“Glycine and aging: Evidence and mechanisms,” *Ageing Research Reviews* 87:101922 (2023)](https://doi.org/10.1016/j.arr.2023.101922).
+- Miller RA et al., [“Glycine supplementation extends lifespan of male and female mice,” *Aging Cell* 18(3):e12953 (2019)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6516426/).
+- Yu J et al., [“Glycine ameliorates aging-related dysfunctions associated with Nmdmc-mediated mitochondrial one-carbon metabolism,” *Free Radical Biology and Medicine* 246:697–710 (2026)](https://doi.org/10.1016/j.freeradbiomed.2026.01.050).
+- Xu H et al., [“Plasma glycine decelerates biological aging via the redox-inflammatory axis,” *Free Radical Biology and Medicine* 252:286–294 (2026)](https://doi.org/10.1016/j.freeradbiomed.2026.04.163).
+- Kumar P et al., [“Supplementing Glycine and N-Acetylcysteine (GlyNAC) in Older Adults Improves Glutathione Deficiency, Oxidative Stress, Mitochondrial Dysfunction, Inflammation, Physical Function, and Aging Hallmarks: A Randomized Clinical Trial,” *The Journals of Gerontology: Series A* 78(1):75–89 (2023)](https://doi.org/10.1093/gerona/glac135).

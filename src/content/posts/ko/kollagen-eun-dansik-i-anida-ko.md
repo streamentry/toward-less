@@ -1,34 +1,37 @@
 ---
+
 title: "콜라겐은 단식이 아니다"
-description: "Carnivore Aurelius는 자가포식을 위해 단식할 필요가 없다고 말한다. 콜라겐만 먹으면 된다. 글리신은 연구된 모든 동물에서 수명을 연장했기 때문이다. 그가 인용하는 총설은 진짜이고, 그 뒤의 쥐 연구도 진짜이다. 하지만 쥐에서의 효과는 4~6%, 용량은 식단의 8%였고, '연구된 모든 동물'이란 세 종에 불과하며 자연의 법칙이 아니다."
+description: "글리신은 노화 관련 가능성 있는 경로와 동물의 작은 효과에 연결된다. 콜라겐이 단식의 대체물이거나 사람의 수명을 늘린다는 증거는 없다."
 author: "C.S Chánh Niệm"
 lang: ko
 slug: kollagen-eun-dansik-i-anida-ko
 translationKey: glycine-autophagy-2026
 pubDatetime: 2026-11-10T05:20:00+07:00
+modDatetime: 2026-11-11T01:00:00+07:00
 draft: false
 featured: false
 tags: [life]
 ---
+한 게시물은 글리신이 들어 있는 콜라겐을 먹으면 단식 대신 자가포식을 활성화하고 수명을 늘릴 수 있다고 말한다. 현재 근거는 제안된 경로와 동물의 작은 효과를 뒷받침할 뿐, 콜라겐이 단식을 대체하거나 사람의 수명을 늘린다고 보여주지 않는다.
 
-자가포식을 위해 단식할 필요는 없다. 콜라겐만 먹으면 된다. 콜라겐에 들어 있는 글리신은 자가포식을 높이고, 연구된 모든 동물에서 수명을 연장하는 것으로 나타났다. 이것이 이 게시물의 주장이며, 그 뒤의 논문은 진짜이다. 그럼에도 주장은 중요한 부분에서 틀렸다.
+## 동물 연구 결과
 
-그 논문은 총설이다. Johnson과 Cuellar의 "Glycine and aging: Evidence and mechanisms", *Ageing Research Reviews*, 2023년. 그 기전은 우아하다. 글리신은 글리신 N-메틸트랜스퍼레이스, 즉 GNMT라는 효소에 작용해 메틸기를 빼앗아 글리신을 사르코신으로 바꾸면서 몸에서 메티오닌을 제거한다. 사르코신은 여러 종에서 나이가 들면서 감소하고, 페트리 접시에서도 살아 있는 동물에서도 자가포식을 유도할 수 있다. 총설 자체의 결론은 글리신이 메티오닌 제한을 모방하고 자가포식을 활성화함으로써 수명을 연장한다는 것이다. 여기까지는 좋다. 자가포식과의 연결은 진짜이고, 그 경로는 진정으로 흥미롭다.
+- 2023년 리뷰는 글리신이 GNMT 대사에 쓰여 사르코신을 만들고, 사르코신이 모델에서 자가포식을 유도할 수 있다는 경로를 제안했다. 이는 기전 가설이지 콜라겐이 사람에게서 단식을 재현한다는 증거가 아니다.
+- 2019년 NIA ITP 연구는 유전적 배경이 다양한 쥐에게 9개월령부터 글리신 8% 식단을 줬다. 전체 자료에서 평균 수명 중앙값은 암컷 4%, 수컷 6% 늘었다. 실험기관별 평균 효과는 약 3%였고, 저자들은 작은 효과라고 평가했다.
+- 2026년 연구는 초파리의 수명과 늙은 쥐의 노화 관련 변화에 효과를 보고했다. 여전히 동물 연구다.
 
-총설 뒤의 수명 연구도 진짜이며, 동물 증거로서는 가장 좋은 종류이다. National Institute on Aging의 Interventions Testing Program에서 Miller와 동료들은 유전적으로 이질적인 쥐들에게 8% 글리신을 함유한 먹이를 주고, 실험을 세 곳의 독립적인 시설에서 진행했다. 중위 수명은 수컷과 암컷 모두에서 4~6% 상승했고, 최대 수명도 상승했다. 저자들 자신의 논의는 그 효과를 작다고 부르며, "중위 생존 연령을 크게 바꾸지 않는다"고 말한다. 쥐에서의 4~6% 증가는 진짜 신호이다. 젊음의 샘도 아니고, "연구된 모든 동물에서 수명을 연장했다"는 말이 들리는 것과 같은 것도 아니다.
+## 사람 대상 자료
 
-그 문구가 첫 번째 정정이다. "연구된 모든 동물"이란 세 종에 불과하고, 온전한 연구 세 건도 아니다. 쥐에서 4~6%. 랫드에서, 쥐 논문이 인용하는 소규모 선행 연구 한 건. 파리에서는 증거가 대부분 기전에 관한 것이다. 식이 제한이 수명을 충분히 연장하려면 GNMT 효소가 필요하다는 것. 세 종은 자연의 법칙이 아니다. 유망한 출발점이며, 게시물의 표현은 그 유망한 출발점을 확립된 사실처럼 들리게 한다.
+- 2026년 UK Biobank 분석에서 혈장 글리신이 높을수록 생물학적 나이 점수가 낮은 관련성이 관찰됐다. 관찰 연구라 원인이나 보충제 효과를 입증하지 않는다.
+- 고령자 24명을 대상으로 한 16주 소규모 무작위 시험에서는 글리신과 N-아세틸시스테인 혼합물인 GlyNAC 복용 후 여러 지표가 개선됐다. 글리신 단독 효과를 분리할 수 없고 수명도 측정하지 않았다.
 
-두 번째 정정은 용량이다. 쥐들이 먹은 먹이의 8%는 글리신이었다. 그것은 많은 양이지, 커피에 탄 콜라겐 한 스푼이 아니다. 콜라겐은 글리신이 풍부하다. 아미노산의 약 3분의 1이 글리신이다. 그러나 일반적인 1회분에서는 몇 그램밖에 얻지 못하고, 실험의 용량은 인간의 1회분으로 깔끔하게 환산되지 않는다. 실험과 조언 사이의 간극이 이야기의 전부이며, 게시물은 그 간극을 그대로 지나친다.
+콜라겐에는 글리신이 들어 있지만, 먹는 것은 단식이 아니다. 쥐 식단의 글리신 8%는 사람에게 검증된 섭취량이 아니다. 현재 근거는 콜라겐이 단식 효과를 재현하거나, 사람에게서 직접 자가포식을 활성화하거나, 사람의 수명을 늘린다고 보여주지 않는다.
 
-세 번째 정정은 그 맞바꿈 자체이다. 단식은 글리신 전달 시스템이 아니다. 단식은 인슐린, mTOR, 케톤, 그리고 열댓 가지를 한꺼번에 바꾸고, 글리신은 그 기전 중 하나인 메티오닌 제한을 모방할 뿐, 개입 자체가 아니다. 개입 전체를 그 경로 하나로 바꾸는 것은 보충제 마케팅의 가장 오래된 수법이다. 경로를 찾고, 분자를 팔고, 주장은 그대로 두는 것.
+## 출처
 
-네 번째 정정은 자가포식에 대한 표현이다. 글리신은 게시물이 말하는 것처럼 자가포식을 직접 높이지 않는다. 글리신은 하나의 경로, 즉 GNMT, 그다음 사르코신에 작용하고, 사르코신이 자가포식을 유도하며, 노화억제물질 스페르미딘이 자가포식 유전자를 켜려면 GNMT가 필요하다. 간접적이라는 것은 틀렸다는 것과 같지 않지만, 직접적이라는 것과 같은 것도 아니며, 게시물의 버전은 그 간접성을 통째로 건너뛴다.
-
-그리고 인간에 대한 증거는 없다. 글리신이 인간의 수명을 연장한다는 것을 보여준 시험은 없고, 건강수명을 연장한다는 것을 보여준 시험도 없다. 글리신은 저렴하고 안전하며, 그 총설은 노화 연구에서 가장 잘 뒷받침되는 사례 중 하나이다. 하지만 저렴하고 안전하다는 것은 인간에게 효과가 입증되었다는 것과 같지 않다.
-
-주목할 만한 점이 하나 더 있다. 저자는 Carnivore Aurelius, 육식 다이어트 인플루언서이며, 콜라겐은 그의 브랜드의 아미노산이다. 이 게시물은 총설의 중립적인 요약이 아니다. 분자가 붙은 세계관이다.
-
-정직한 문장은 게시물의 문장보다 짧다. 글리신은 노화 연구에서 가장 잘 뒷받침되는 저렴한 분자 중 하나이며, 총설은 진짜이고, 쥐에서의 효과는 진짜이며 작다. 게시물이 파는 것은 지름길, 즉 단식을 건너뛰고 콜라겐을 먹는 것이며, 증거는 그 지름길을 뒷받침하지 않는다. 증거가 뒷받침하는 것은 분자이며, 한 스푼으로는 얻을 수 없는 용량으로, 당신이 아닌 동물에서이다.
-
-*X 게시물 ["You don't need to fast for autophagy. Just eat collagen. Glycine, found in collagen, upregulates autophagy and has been shown to extend lifespan in every animal studied"](https://x.com/alpacaaurelius/status/2119837586315202812)([Carnivore Aurelius (@AlpacaAurelius)](https://x.com/alpacaaurelius/status/2119837586315202812))에서 영감을 받았다. 게시물은 2026년 11월 10일에 검증되었다: 12:00 AM, 10 Nov 2026, 16.2K views. 인용된 총설은 Johnson & Cuellar, "Glycine and aging: Evidence and mechanisms," Ageing Research Reviews 87:101922 (2023), [PMID 37004845](https://pubmed.ncbi.nlm.nih.gov/37004845/). 쥐 연구는 Miller et al., "Glycine supplementation extends lifespan of male and female mice," Aging Cell 18(3):e12953 (2019), [PMID 30916479](https://pubmed.ncbi.nlm.nih.gov/30916479/) — 8% 글리신 식단, 중위 수명 4~6% 증가, 저자들은 효과를 작다고 말한다.*
+- Carnivore Aurelius(@AlpacaAurelius), 콜라겐·글리신·단식에 관한 X 게시물, 2026년 11월 10일 게시, [상태 2119837586315202812](https://x.com/alpacaaurelius/status/2119837586315202812), 2026년 11월 10일 확인. 이번 수정에서 페이지를 다시 불러오지 못해 직접 인용을 삭제했다.
+- Johnson AA and Cuellar TL, [“Glycine and aging: Evidence and mechanisms,” *Ageing Research Reviews* 87:101922 (2023)](https://doi.org/10.1016/j.arr.2023.101922).
+- Miller RA et al., [“Glycine supplementation extends lifespan of male and female mice,” *Aging Cell* 18(3):e12953 (2019)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6516426/).
+- Yu J et al., [“Glycine ameliorates aging-related dysfunctions associated with Nmdmc-mediated mitochondrial one-carbon metabolism,” *Free Radical Biology and Medicine* 246:697–710 (2026)](https://doi.org/10.1016/j.freeradbiomed.2026.01.050).
+- Xu H et al., [“Plasma glycine decelerates biological aging via the redox-inflammatory axis,” *Free Radical Biology and Medicine* 252:286–294 (2026)](https://doi.org/10.1016/j.freeradbiomed.2026.04.163).
+- Kumar P et al., [“Supplementing Glycine and N-Acetylcysteine (GlyNAC) in Older Adults Improves Glutathione Deficiency, Oxidative Stress, Mitochondrial Dysfunction, Inflammation, Physical Function, and Aging Hallmarks: A Randomized Clinical Trial,” *The Journals of Gerontology: Series A* 78(1):75–89 (2023)](https://doi.org/10.1093/gerona/glac135).

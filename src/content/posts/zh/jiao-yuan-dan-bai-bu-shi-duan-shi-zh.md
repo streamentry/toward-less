@@ -1,34 +1,37 @@
 ---
+
 title: "胶原蛋白不是断食"
-description: "Carnivore Aurelius说，你不需要断食也能激活自噬——只要吃胶原蛋白，因为甘氨酸已在所有被研究的动物中延长寿命。他引用的综述是真实的，其背后的小鼠研究也是真实的。但小鼠身上的效应只有4–6%，剂量是饮食的8%，而“所有被研究的动物”只是三个物种，不是一条自然法则。"
+description: "证据显示，甘氨酸可能涉及某条衰老通路，并在动物中产生有限效果。尚无证据证明胶原蛋白可以替代禁食或延长人的寿命。"
 author: "C.S Chánh Niệm"
 lang: zh
 slug: jiao-yuan-dan-bai-bu-shi-duan-shi-zh
 translationKey: glycine-autophagy-2026
 pubDatetime: 2026-11-10T05:20:00+07:00
+modDatetime: 2026-11-11T01:00:00+07:00
 draft: false
 featured: false
 tags: [life]
 ---
+一则帖子建议吃胶原蛋白来代替禁食，理由是其中的甘氨酸可能激活自噬并延长寿命。现有证据只支持一种待验证的机制和有限的动物效应，不能证明胶原蛋白能替代禁食或延长人的寿命。
 
-你不需要断食也能激活自噬。只要吃胶原蛋白。胶原蛋白中的甘氨酸可以上调自噬，并且已在所有被研究的动物中证明能延长寿命。这就是那句推销词，而它背后的论文是真实的。但这句推销词在关键之处仍然是错的。
+## 动物研究结果
 
-那篇论文是一篇综述，Johnson和Cuellar所著，《甘氨酸与衰老：证据与机制》，刊于2023年《Ageing Research Reviews》。它的机制很优雅。甘氨酸为甘氨酸N-甲基转移酶（GNMT）供能，该酶通过夺取一个甲基、把甘氨酸转化为肌氨酸，来清除体内的蛋氨酸。肌氨酸在多个物种中随年龄下降，并且可以在培养皿中、也可以在活体动物中诱导自噬。综述自己的结论是，甘氨酸通过模拟蛋氨酸限制和激活自噬来延长寿命。到此为止都还不错：自噬的联系是真实的，这条通路也确实有趣。
+- 2023 年的一篇综述提出一种机制：甘氨酸参与 GNMT 反应并生成肌氨酸；肌氨酸可在模型中诱导自噬。这是机制假说，不是胶原蛋白能在人身上复制禁食效果的证据。
+- 2019 年 NIA ITP 研究让遗传背景多样的小鼠从九月龄起食用含 8% 甘氨酸的饮食。合并数据中，雌鼠中位寿命增加 4%，雄鼠增加 6%；各实验点的平均增幅约为 3%。作者称效应较小。
+- 2026 年一项研究报告了甘氨酸对果蝇寿命及老年大鼠衰老相关变化的影响。这些仍是临床前结果。
 
-综述背后的寿命研究也是真实的，而且属于最好的那类动物证据：Miller等人，在美国国家老化研究所的干预测试项目中，给基因异质小鼠喂食含8%甘氨酸的饮食，并在三个独立地点开展实验。雄鼠和雌鼠的中位寿命都提高了4%到6%，最长寿命也有所提高。作者自己的讨论称这一效应很小，并说它“对中位存活年龄的改变不大”。小鼠身上4%到6%的增幅是一个真实的信号。它不是青春之泉，也不是“在所有被研究的动物中延长寿命”这句话听起来的样子。
+## 人体证据
 
-这句话就是第一个需要纠正的地方。“所有被研究的动物”是三个物种，甚至还不是三项完整的研究。小鼠，提高了4%到6%。大鼠，来自小鼠论文引用的一项规模较小的早期研究。果蝇，那里的证据主要是机制性的——GNMT酶是饮食限制充分延长寿命所必需的。三个物种不是一条自然法则。它是一个很有希望的开端，而帖子的措辞把一个很有希望的开端说得像一个既定事实。
+- 2026 年 UK Biobank 分析发现，较高的血浆甘氨酸与较低的生物年龄评分相关。这是观察性关联，不能证明甘氨酸或补充剂导致衰老减慢。
+- 一项为期 16 周、纳入 24 名老年人的小型随机试验发现，GlyNAC（甘氨酸与 N-乙酰半胱氨酸的组合）改善了若干指标。该试验无法区分甘氨酸的单独作用，也没有测量寿命。
 
-第二个需要纠正的地方是剂量。那些小鼠吃的是含8%甘氨酸的饮食。这是一个很大的量，不是在咖啡里加一勺胶原蛋白。胶原蛋白富含甘氨酸——其氨基酸中约三分之一是甘氨酸——但一份普通的分量只给你几克，而且实验的剂量并不能干净利落地换算成一份给人的分量。实验与建议之间的差距就是整个故事，而帖子径直走了过去。
+胶原蛋白含有甘氨酸，但吃胶原蛋白并非禁食。小鼠饮食中 8% 的甘氨酸不是经过验证的人体用量。现有证据没有证明胶原蛋白能复制禁食效应、直接在人身上激活自噬或延长人的寿命。
 
-第三个需要纠正的地方是这种替换本身。断食不是一个输送甘氨酸的系统。它同时改变胰岛素、mTOR、酮体和十几种其他东西，而甘氨酸只是模拟了它的一个机制——蛋氨酸限制——而不是整个干预。用一个干预的其中一条通路来代替整个干预，是保健品营销中最古老的招数：找到通路，卖掉分子，留住承诺。
+## 来源
 
-第四个需要纠正的地方是关于自噬的措辞。甘氨酸并不像帖子所说的那样直接上调自噬。它为一条通路供能——GNMT，然后是肌氨酸——而肌氨酸诱导自噬，抗衰老物质亚精胺也需要GNMT来开启自噬基因。间接不等于虚假，但也不等于直接，而帖子的版本把这种间接性完全跳过了。
-
-而且没有任何人体证据。没有任何试验表明甘氨酸能延长人的寿命，也没有任何试验表明它能延长人的健康寿命。甘氨酸便宜又安全，而这篇综述是衰老研究中证据较好的案例之一——但便宜和安全不等于已证明对人有效。
-
-还有一件事值得注意：作者是Carnivore Aurelius，一位肉食饮食网红，而胶原蛋白正是他品牌中的氨基酸。这篇帖子不是对一篇综述的中立总结。它是一种世界观，外加一个分子。
-
-诚实的那句话比帖子更短。甘氨酸是衰老研究中证据较好的廉价分子之一，综述是真实的，小鼠身上的效应是真实而微小的。帖子卖的是一条捷径——跳过断食，吃胶原蛋白——而证据并不支持这条捷径。它支持的是那个分子，以一种你从一勺里得不到的剂量，在不是你的动物身上。
-
-*灵感来自X帖子[“You don't need to fast for autophagy. Just eat collagen. Glycine, found in collagen, upregulates autophagy and has been shown to extend lifespan in every animal studied”](https://x.com/alpacaaurelius/status/2119837586315202812)，作者为[Carnivore Aurelius (@AlpacaAurelius)](https://x.com/alpacaaurelius/status/2119837586315202812)。该帖子已于2026年11月10日核实：12:00 AM, 10 Nov 2026, 16.2K views。它引用的综述是Johnson & Cuellar，《Glycine and aging: Evidence and mechanisms》，Ageing Research Reviews 87:101922 (2023)，[PMID 37004845](https://pubmed.ncbi.nlm.nih.gov/37004845/)。小鼠研究是Miller等人，《Glycine supplementation extends lifespan of male and female mice》，Aging Cell 18(3):e12953 (2019)，[PMID 30916479](https://pubmed.ncbi.nlm.nih.gov/30916479/)——8%甘氨酸饮食，中位寿命提高4–6%，作者称这一效应很小。*
+- Carnivore Aurelius（@AlpacaAurelius），关于胶原蛋白、甘氨酸和禁食的 X 帖文，发布于 2026 年 11 月 10 日，[状态编号 2119837586315202812](https://x.com/alpacaaurelius/status/2119837586315202812)，2026 年 11 月 10 日核查。本次修订无法重新加载页面，因此删除了直接引语。
+- Johnson AA and Cuellar TL, [“Glycine and aging: Evidence and mechanisms,” *Ageing Research Reviews* 87:101922 (2023)](https://doi.org/10.1016/j.arr.2023.101922).
+- Miller RA et al., [“Glycine supplementation extends lifespan of male and female mice,” *Aging Cell* 18(3):e12953 (2019)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6516426/).
+- Yu J et al., [“Glycine ameliorates aging-related dysfunctions associated with Nmdmc-mediated mitochondrial one-carbon metabolism,” *Free Radical Biology and Medicine* 246:697–710 (2026)](https://doi.org/10.1016/j.freeradbiomed.2026.01.050).
+- Xu H et al., [“Plasma glycine decelerates biological aging via the redox-inflammatory axis,” *Free Radical Biology and Medicine* 252:286–294 (2026)](https://doi.org/10.1016/j.freeradbiomed.2026.04.163).
+- Kumar P et al., [“Supplementing Glycine and N-Acetylcysteine (GlyNAC) in Older Adults Improves Glutathione Deficiency, Oxidative Stress, Mitochondrial Dysfunction, Inflammation, Physical Function, and Aging Hallmarks: A Randomized Clinical Trial,” *The Journals of Gerontology: Series A* 78(1):75–89 (2023)](https://doi.org/10.1093/gerona/glac135).
