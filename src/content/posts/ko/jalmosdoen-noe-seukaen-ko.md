@@ -1,6 +1,6 @@
 ---
 title: "잘못된 뇌 스캔"
-description: "한 게시물은 걷기를 '치매 킬러'라 부른다. 하루 3,826보가 치매 위험 25% 감소와, 9,826보가 51% 감소와 연관됐다는 것이다. 연구는 진짜다. 78,430명, JAMA Neurology. 숫자도 맞는다. 하지만 이미지 속 뇌 스캔은 그 연구의 것이 아니며, 성인의 뇌도 아니다."
+description: "걸음 수 연구는 치매와의 연관성을 보였지만 첨부된 뇌 이미지는 아동 주의력 연구에서 왔다."
 author: "C.S Chánh Niệm"
 lang: ko
 slug: jalmosdoen-noe-seukaen-ko
@@ -10,25 +10,21 @@ draft: false
 featured: false
 tags: [life]
 ---
+소셜미디어 게시물은 하루 걸음 수를 치매 위험을 낮추는 방법으로 소개한다. 수치는 2022년 UK Biobank 연구에서 나왔지만, 용량-반응 추정치이지 질병 예방이 입증된 걸음 목표는 아니다.
 
-"Walking = Dementia killer.
+- 연구는 40~79세 성인 78,430명을 중앙값 6.9년 추적했고, 866명이 치매에 걸렸다. 걸음 수는 손목 가속도계로 측정했다.
+- 가장 비활동적인 집단과 비교하면 3,826걸음은 관찰된 최대 위험 감소의 절반에 해당하는 “최소 용량”이었다(hazard ratio 0.75). “최적 용량”은 9,826걸음(0.49)이었다. 하루 중 가장 빠른 30분의 보행 속도인 분당 112걸음은 hazard ratio 0.38과 관련됐다.
+- 곡선은 선형이 아니었다. 이 걸음 수를 권하면 치매를 예방할 수 있는지는 시험하지 않았다.
 
-A UK Biobank study of 78,430 adults found that just 3,826 steps a day was linked to a 25% lower risk of dementia. At 9,826 steps a day, the risk was 51% lower. But step count is only half the story. Speed matters too. Those who walked at a peak pace of 112 steps a minute had a 62% lower risk."
+관찰 연구이므로 걷기가 hazard를 낮췄다고 증명하지 않는다. 진단 전 치매가 활동량을 줄였을 수도 있다. 표본의 96.7%가 백인이어서 다른 집단에 일반화하기 어렵다.
 
-연구는 진짜이고, 숫자는 맞는다. Del Pozo Cruz와 동료들, JAMA Neurology, 2022년. UK 바이오뱅크의 40세에서 79세 성인 78,430명, 평균 연령 61세, 손목 가속도계, 중앙 추적 기간 6.9년, 그중 866명이 치매에 걸렸다. 최적 용량, 즉 위험 감소가 최대가 되는 지점은 하루 9,826보였고, 위험비 0.49, 즉 51퍼센트 낮았다. 최소 용량은 3,826보였고, 위험비 0.75, 즉 25퍼센트 낮았다. 30분 최고 케이던스의 최적 용량은 분당 112보였고, 위험비 0.38, 즉 62퍼센트 낮았다. 게시물의 수치는 정확하고, 게시물은 주요 한계에 대해 솔직하다. "This was an observational study, so it can't prove causation."
+게시물의 뇌 이미지는 다른 자료에서 가져왔다. Active Living Research의 2014년 자료에는 20명의 학생이 20분간 조용히 앉아 있거나 트레드밀에서 걸은 뒤 주의력 과제를 수행한 결과의 합성 이미지가 나온다. 원 연구는 아동의 주의력과 학업 성과를 다뤘으며 성인 뇌나 치매 연구가 아니다.
 
-이제 정정 사항이다. 가장 큰 것은 이미지에 있다.
+걷기를 권할 이유는 많지만 이 연구는 치매 예방을 증명하지 않았고, 이미지는 질병이 되돌아가는 모습을 보여 주지 않는다. 걸음 수는 한 코호트의 추정치로 보고 모두에게 적용되는 처방으로 여기지 말자.
 
-첫째, 뇌 스캔은 이 연구의 것이 아니며, 성인의 뇌도 아니다. 이미지에는 "After 20 minutes of sitting"과 "After 20 minutes of walking"이라는 설명이 붙은 두 장의 뇌 스캔이 나오고, 게시물은 이를 "Your brain before and after walking"이라는 제목 아래에 제시한다. 이미지 자체는 진짜이지만, 완전히 다른 연구의 것이다. 일리노이 대학교의 Charles Hillman의 연구로, 2015년 1월 Active Living Research 보고서에 재수록된 것으로, 같은 시험을 치른 20명의 학동들의 복합 주의 배분을 보여준다. 20분간 조용히 앉은 뒤, 그리고 트레드밀에서 20분간 걸은 뒤. 아이들이 시험을 치르고, 주의가 측정됐다. 성인이 아니다. 치매가 아니다. 이 연구가 아니다. 그 이미지가 증명하는 것은 걷기가 아이의 시험에 대한 주의를 날카롭게 한다는 것뿐이다. 치매에 대해서는 아무것도 증명하지 않으며, 치매 게시물에 이를 붙이는 것은 20분의 걷기가 눈에 띄게 뇌를 바꿔 질병을 막는다는 인상을 준다. 그렇지 않다.
+출처:
 
-둘째, "3,826보"는 기준값이 아니며, 게시물의 서술은 그것을 기준값으로 읽도록 유도한다. 논문에서 3,826은 "최소 용량"이다. 관찰된 최대 위험 감소의 50퍼센트에 도달한 노출량이다. 다시 말해, 혜택의 절반은 이미 4,000보 미만에서 얻어졌다. 용량-반응 곡선은 비선형이다. 이득은 초기에 나타나고 그 뒤 평평해지며, 최대치는 9,826보 근처에 있다. 이는 좋은 소식이며, 기준값과는 정반대다. 처음 몇 천 보가 가장 중요하고, 4,000보와 10,000보의 차이는 2,000보와 4,000보의 차이보다 작다는 뜻이다. 게시물은 대체로 옳다. "just 3,826 steps". 하지만 "just"라는 말은 마땅히 지녀야 할 무게보다 가볍다. 연구의 메시지는 10,000보가 목표라는 것이 아니다. 목표는 생각보다 낮고, 혜택은 바닥에 있다는 것이다.
-
-셋째, 백분율은 상대적인 것이며, 비교 대상은 가장 활동량이 적은 사람들이다. 위험비 0.49는 걸음 수가 많은 집단의 위험이 걸음 수가 적은 집단보다 51퍼센트 낮았다는 뜻이며, 그 기준선에 대한 상대값이다. 이 코호트의 절대 위험은 낮았다. 약 7년간 78,430명 중 866건, 대략 1.1퍼센트다. 작은 절대 위험에 대한 51퍼센트의 상대적 감소는 작은 절대 차이다. 그렇다고 해서 중요하지 않은 것은 아니다. 인구 수준에서는 작은 절대 차이가 많은 사람을 의미한다. 하지만 그것은 개인의 치매 확률을 절반으로 줄이는 것과 같지 않다.
-
-넷째, 기전은 측정되지 않았다. 게시물은 BDNF와 해마의 신경 발생, 뇌로의 혈류 개선, 미토콘드리아 기능 향상, 글림프 청소, 뇌 인슐린 저항성 감소, 신경 염증 감소, 스트레스 감소를 나열한다. 이것들은 모두 그럴듯하고, 운동 일반에 대해서는 몇 가지가 잘 확립되어 있다. 하지만 이 연구가 측정한 것은 걸음 수와 치매 발생률이다. BDNF도, 혈류도, 미토콘드리아도, 글림프 청소도 측정하지 않았다. 기전 목록은 교과서이지, 연구 결과가 아니다. 그것은 가설로서 게시물에 속하며, 실제로 그렇게 제시되었다. "the likely mechanisms are well established". 하지만 이 문구는 연구가 보여준 것과 운동 과학이 믿는 것 사이의 경계를 흐리게 한다. 연구가 보여준 것은 연관성이다. 기전은 그 연관성을 믿을 만하게 만드는 이유이지, 연구가 증명한 것이 아니다.
-
-다섯째, 역인과관계는 여전히 남아 있다. 치매의 초기 전임상 단계에 있는 사람들은 진단 수년 전부터 덜 걷고, 더 천천히 걷는다. 연구의 6.9년 추적은 도움이 된다. 걷기는 치매가 나타나기 전에 측정됐다. 하지만 치매의 전임상기는 10년 이상 지속될 수 있으므로, 연관성의 일부는 역방향으로 흐를 수 있다. 걷기가 치매를 막는 것이 아니라, 초기 치매가 걷기를 막는 것이다. 게시물이 인용하는 용량-반응 패턴, 더 많은 걸음과 더 빠른 걸음이 모두 더 낮은 위험과 함께 나타난다는 점은 게시물의 말대로 주장을 강화한다. 그러나 그것으로 결론이 나지는 않는다. 그리고 코호트 자체가 96.7퍼센트 백인이었고, 일반 인구보다 건강한 UK 바이오뱅크 자원봉사자들로 구성됐으므로, 숫자가 다른 집단에 잘 적용되지 않을 수 있다.
-
-이 중 어느 것도 게시물을 뒤집지 않는다. 연구는 좋고, 숫자는 정확하며, 조언은 타당하다. 전화는 걸으면서 받고, 하루를 다시 짜고, 빠르게 걸으라. 독특한 정정은 이미지에 있으며, 그것이 중요한 이유는 이미지가 말로는 할 수 없는 설득을 하기 때문이다. 시험을 치르는 아이의 뇌 스캔을 치매 주장에 붙이면, 그 주장은 본 것처럼 느껴진다. 마치 기전이 보이는 것처럼, 마치 20분의 걷기가 뇌를 밝히고 질병이 물러난 것처럼. 기전은 보이지 않는다. 연관성은 진짜이고, 증거는 불완전하며, 스캔은 다른 사람의 연구 것이다.
-
-*X 게시물 ["Walking = Dementia killer"](https://x.com/ayuswellness/status/2118269932186026384)([Zib Atkins (@AyusWellness)](https://x.com/ayuswellness/status/2118269932186026384))에서 영감을 받았다. 게시물은 2026년 11월 10일에 검증됐다. 4:11 PM, 5 Nov 2026, 2,910 views. 연구는 Del Pozo Cruz 외, "Association of Daily Step Count and Intensity With Incident Dementia in 78,430 Adults Living in the UK,"[JAMA Neurology, 2022, 79(10):1059–1063](https://pubmed.ncbi.nlm.nih.gov/36066874/), PMID 36066874, DOI 10.1001/jamaneurol.2022.2672. 초록은 전문을 읽었다. 뇌 이미지는 Charles Hillman의 것으로, Active Living Research의 "Active Education: Growing Evidence on Physical Activity and Academic Performance," January 2015에 재수록됐다. 20분간 앉은 뒤와 20분간 걸은 뒤 같은 시험을 치른 20명의 학생들의 복합 주의 배분.*
+- Borja del Pozo Cruz 등, [“Association of Daily Step Count and Intensity With Incident Dementia in 78 430 Adults Living in the UK,” JAMA Neurology, 2022](https://doi.org/10.1001/jamaneurol.2022.2672).
+- Active Living Research, [“Active Education: Growing Evidence on Physical Activity and Academic Performance,” 2014년 12월](https://activelivingresearch.org/sites/activelivingresearch.org/files/ALR_Brief_ActiveEducation_Dec2014.pdf).
+- Charles H. Hillman 등, [“The effect of acute treadmill walking on cognitive control and academic achievement in preadolescent children,” Neuroscience, 2009](https://doi.org/10.1016/j.neuroscience.2009.01.057).
+- Zib Atkins (@AyusWellness), 걷기와 치매에 관한 X 게시물, [상태 2118269932186026384](https://x.com/ayuswellness/status/2118269932186026384), 2026년 11월 5일. 이번 수정에서 X 페이지를 불러오지 못해 직접 인용은 생략했다.

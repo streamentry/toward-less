@@ -9,17 +9,18 @@ draft: false
 featured: false
 tags: [life, technology]
 ---
+HowToLiveBetter ialah katalog 650 cadangan yang boleh dicari. README menyatakan ia bukan senarai tugasan dan menyarankan pembaca memilih satu atau dua. Penulis mengaku belum mengikuti kebanyakan cadangan.
 
-Nasihat tentang cara hidup lebih baik boleh bertukar menjadi satu lagi senarai perkara yang kononnya mesti kita buat. [HowToLiveBetter](https://github.com/streamentry/HowToLiveBetter) memilih bentuk lain: menu 650 cadangan, bukannya senarai semak. README menyarankan supaya pilih satu atau dua sahaja; penulis mengakui belum melaksanakan kebanyakannya.
+Setiap entri menyatakan:
 
-Membaca satu lagi nasihat biasanya lebih mudah daripada mengubah satu tabiat. Mengumpul cara hidup yang baik kadangkala mengambil masa yang sepatutnya kita gunakan untuk benar-benar hidup.
+- kos dalam wang, masa, tenaga atau usaha;
+- hasil yang mungkin diperoleh;
+- gred bukti dan sumbernya.
 
-Setiap entri menyatakan kos wang, masa, tenaga atau usaha, manfaat yang mungkin diperoleh, kekuatan bukti dan sumbernya. Topiknya merangkumi kesihatan, wang, undang-undang, kerja, keluarga, perjalanan dan kemahiran. Laman ini membolehkan carian dan tapisan mengikut topik, tahap bukti serta kos.
+Topiknya merangkumi kesihatan, kewangan peribadi, undang-undang, kerja, keluarga dan kemahiran. Panduan undang-undang, insurans dan bantuan awam mengikut peraturan tanah besar China. Edisi bahasa Cina ialah sumber utama; versi bahasa Inggeris dan Vietnam mungkin ketinggalan.
 
-Tahap bukti perlu difahami dengan cermat. Tahap A bermaksud ada hasil khusus yang boleh disemak daripada sumber seperti meta-analisis, kohort besar atau percubaan. Ia tidak membuktikan sebab-akibat secara automatik. Panduan undang-undang, insurans dan bantuan awam mengikut peraturan tanah besar China, jadi mungkin tidak terpakai di tempat lain. Teks Cina ialah sumber asal; terjemahan Inggeris dan Vietnam mungkin ketinggalan.
+Gred bukti perlu difahami mengikut konteks. A bermaksud angka boleh dijejaki kepada meta-analisis, kohort besar atau percubaan; ia sendiri tidak membuktikan sebab-akibat. Teks buku menggunakan CC BY 4.0, kod menggunakan MIT dan sesetengah bahan pihak ketiga mempunyai syarat berasingan.
 
-Teks buku diterbitkan di bawah lesen CC BY 4.0, yang membenarkan penggunaan semula dan pengubahan dengan atribusi. Kod dan alat menggunakan MIT; bahan pihak ketiga mungkin tertakluk pada syarat berasingan.
+Perpustakaan nasihat yang besar juga boleh menjadi senarai tuntutan baharu. Pilih satu cadangan yang sesuai dengan keadaan anda, cuba dan lihat apa yang berubah. Gred bukti menerangkan sumber, bukan pembaca.
 
-Senarai 650 cadangan juga boleh menjadi 650 sebab untuk berasa diri tidak cukup baik. Nilainya ialah memilih satu perubahan yang sesuai dengan keadaan lalu melihat apa yang benar-benar berlaku. Nasihat dengan bukti kuat sekalipun mungkin tidak sesuai dengan keluarga, sumber atau keupayaan kita untuk meneruskannya. Gred bukti bukan gred moral.
-
-[Buka carian dalam talian](https://streamentry.github.io/HowToLiveBetter/) · [Lihat repositori](https://github.com/streamentry/HowToLiveBetter).
+Sumber: [README projek streamentry/HowToLiveBetter](https://github.com/streamentry/HowToLiveBetter/blob/main/README.md), disemak pada 10 November 2026. Panduan undang-undang dan bantuan awam mengikut peraturan tanah besar China.

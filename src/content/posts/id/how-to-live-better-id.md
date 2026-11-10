@@ -9,17 +9,18 @@ draft: false
 featured: false
 tags: [life, technology]
 ---
+HowToLiveBetter adalah katalog 650 rekomendasi yang dapat dicari. README menyebutnya bukan daftar tugas dan menyarankan pembaca memilih satu atau dua. Penulis mengaku belum menjalankan sebagian besar rekomendasi.
 
-Saran tentang cara hidup lebih baik bisa berubah menjadi daftar tugas lain yang harus kita selesaikan. [HowToLiveBetter](https://github.com/streamentry/HowToLiveBetter) memilih bentuk berbeda: menu berisi 650 rekomendasi, bukan daftar centang. README menyarankan memilih satu atau dua; penulis mengakui belum menjalankan sebagian besar sarannya.
+Setiap entri memuat:
 
-Membaca satu nasihat lagi sering lebih mudah daripada mengubah satu kebiasaan. Mengumpulkan cara hidup yang baik bisa menghabiskan waktu yang seharusnya kita pakai untuk hidup.
+- biaya dalam uang, waktu, energi, atau upaya;
+- manfaat yang mungkin diperoleh;
+- tingkat bukti dan sumbernya.
 
-Setiap entri menjelaskan biaya berupa uang, waktu, tenaga, atau usaha; manfaat yang mungkin didapat; kekuatan bukti; dan sumbernya. Topiknya mencakup kesehatan, uang, hukum, pekerjaan, keluarga, perjalanan, dan keterampilan. Situsnya memungkinkan pencarian dan penyaringan menurut topik, tingkat bukti, serta biaya.
+Topiknya mencakup kesehatan, keuangan pribadi, hukum, pekerjaan, keluarga, dan keterampilan. Panduan hukum, asuransi, dan bantuan publik mengikuti aturan Tiongkok daratan. Edisi bahasa Mandarin menjadi sumber utama; versi bahasa Inggris dan Vietnam mungkin tertinggal.
 
-Tingkat bukti perlu dipahami dengan cermat. Tingkat A berarti ada hasil spesifik yang dapat ditelusuri dari sumber seperti meta-analisis, kohort besar, atau uji coba. Itu tidak otomatis membuktikan sebab-akibat. Panduan hukum, asuransi, dan bantuan publik mengikuti aturan Tiongkok daratan, sehingga mungkin tidak berlaku di tempat lain. Teks bahasa Mandarin adalah sumber; terjemahan bahasa Inggris dan Vietnam bisa tertinggal.
+Tingkat bukti perlu konteks. Nilai A berarti ada angka yang dapat ditelusuri ke meta-analisis, kohort besar, atau uji coba; nilai itu sendiri tidak membuktikan sebab-akibat. Teks buku berlisensi CC BY 4.0, kode berlisensi MIT, dan sebagian materi pihak ketiga memiliki ketentuan terpisah.
 
-Teks buku diterbitkan dengan lisensi CC BY 4.0, yang mengizinkan penggunaan ulang dan adaptasi dengan atribusi. Kode dan alatnya menggunakan MIT; materi pihak ketiga dapat memiliki ketentuan tersendiri.
+Kumpulan saran yang besar bisa menjadi daftar tuntutan baru. Pilih satu rekomendasi yang cocok dengan keadaan Anda, coba, lalu amati apa yang berubah. Tingkat bukti menilai sumbernya, bukan pembacanya.
 
-Daftar 650 saran juga bisa berubah menjadi 650 alasan untuk merasa belum cukup baik. Nilainya ada pada memilih satu perubahan yang sesuai keadaan lalu mengamati hasil nyata. Bahkan saran dengan bukti kuat belum tentu cocok untuk keluarga, sumber daya, atau kemampuan kita mempertahankannya. Nilai bukti bukan nilai moral.
-
-[Buka pencarian daring](https://streamentry.github.io/HowToLiveBetter/) · [Lihat repositori](https://github.com/streamentry/HowToLiveBetter).
+Sumber: [README proyek streamentry/HowToLiveBetter](https://github.com/streamentry/HowToLiveBetter/blob/main/README.md), diperiksa 10 November 2026. Panduan hukum dan bantuan publik mengikuti aturan Tiongkok daratan.

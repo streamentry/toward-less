@@ -1,13 +1,13 @@
 # Toward Less — content and translation audit
 
-Updated 9 November 2026. This record is about **coverage and verifiable structure**, not a claim of native-speaker certification.
+Updated 10 November 2026. This record is about **coverage and verifiable structure**, not a claim of native-speaker certification.
 
 ## Coverage
 
 - **18 supported languages:** en, vi, zh, hi, es, ar, fr, bn, pt, id, ur, ja, ko, th, ms, ru, mr, fa.
-- **40 complete 18-language article families = 720 editions** in the current content tree (publication flags validated by CI).
+- **71 complete 18-language article families = 1,278 editions** in the current content tree (publication flags validated by CI).
 - **2 extra unpublished introductory drafts** (en and vi), intentionally excluded because they duplicate the About page.
-- **722 Markdown files** in `src/content/posts/` at the time of this audit.
+- **1,280 Markdown files** in `src/content/posts/` at the time of this audit.
 - Each group shares a `translationKey`; every edition has its own globally unique slug.
 
 Selected published families (not an exhaustive index):
@@ -32,6 +32,8 @@ The 2026 article `Build what people actually use` credits and links Max Torchbea
 ## Editorial standard
 
 **Lush in observation, lean in language.** Preserve specificity, nuance, counterarguments, and uncertainty. Cut marketing claims and empty inspiration. A project write-up must separate what exists from what is merely intended.
+
+The writing guide now asks each post to state its objective, lead with its central claim, use plain language and scannable bullets where useful, and place evidence and its limits beside the claims they support. On 10 November, `Agents That Ship Without You`, `The Wrong Version of Yourself`, `The Rope Dancer`, `Knowing More Advice Is Not Living Better`, `What Free Work Buys`, `You Are the Loop`, `The Crow Question`, `When Every Story Ends in a Lecture`, `Twice the Hazard, Half the Story`, `Four to Seven Times a Week`, `The Wrong Brain Scan`, and `Change the Person, Not the Plan` received concise revisions in all 18 editions. These edits are AI-assisted and have not had native-speaker review. The linked X source pages for the source-inspired essays were not retrievable during this pass; their attributions and status IDs remain in the articles, direct quotations were removed where they could not be rechecked, and unverifiable figures are identified as self-reported. The HowToLiveBetter README, VnExpress profile, Nietzsche text, crow behavior, adolescent-development and screen-use claims, statin and sauna studies, walking study, and brain-image source were checked against the primary sources cited in the articles.
 
 A **full translation** preserves substantive arguments, examples, caveats, links, and conclusions rather than summarizing the article. New translations were prepared with AI assistance. **They have not been certified by native-speaking human editors.** Completeness of files is not proof of literary or scholarly accuracy.
 

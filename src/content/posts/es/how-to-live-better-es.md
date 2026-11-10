@@ -9,17 +9,18 @@ draft: false
 featured: false
 tags: [life, technology]
 ---
+HowToLiveBetter es un catálogo consultable de 650 recomendaciones. Su README lo llama “no una lista de tareas” y aconseja elegir una o dos. El autor dice que no ha seguido la mayoría.
 
-Los consejos para vivir mejor pueden convertirse en otra lista de cosas que supuestamente hay que hacer. [HowToLiveBetter](https://github.com/streamentry/HowToLiveBetter) presenta sus 650 recomendaciones como opciones, no obligaciones. El README sugiere elegir una o dos; el autor reconoce que no ha seguido la mayoría.
+Cada entrada indica:
 
-Leer otro consejo suele ser más fácil que cambiar un hábito. A veces coleccionar ideas para vivir bien nos quita tiempo para vivir.
+- el coste en dinero, tiempo, energía o esfuerzo;
+- el posible beneficio;
+- un grado de evidencia y su fuente.
 
-Cada entrada indica el coste en dinero, tiempo, energía o esfuerzo; el posible beneficio; el nivel de evidencia; y la fuente. Los temas abarcan salud, dinero, leyes, trabajo, familia, viajes y habilidades. El sitio permite buscar y filtrar por tema, nivel de evidencia y coste.
+Los temas abarcan salud, finanzas personales, derecho, trabajo, familia y habilidades. La información legal, de seguros y de prestaciones públicas se basa en las normas de China continental. La edición china es la fuente; las versiones en inglés y vietnamita pueden estar atrasadas.
 
-Conviene interpretar los niveles con cuidado. El nivel A indica un resultado concreto y rastreable de fuentes como metaanálisis, cohortes grandes o ensayos. No demuestra causalidad automáticamente. La información legal, de seguros y de ayudas públicas sigue las normas de China continental y puede no aplicarse en otros lugares. El texto chino es la fuente; las traducciones al inglés y al vietnamita pueden retrasarse.
+Los grados requieren contexto. Una A indica una cifra rastreable procedente de un metaanálisis, una cohorte grande o un ensayo; no demuestra causalidad por sí sola. El texto del libro usa CC BY 4.0; el código, MIT; algunos materiales de terceros tienen otros términos.
 
-El texto del libro se publica con la licencia CC BY 4.0, que permite reutilizarlo y adaptarlo con atribución. El código y las herramientas usan MIT; los materiales de terceros pueden tener condiciones distintas.
+Una gran biblioteca de consejos puede convertirse en otra lista de obligaciones. Elige una recomendación adecuada a tus circunstancias, pruébala y observa qué cambia. El grado de evidencia describe la fuente, no al lector.
 
-Una colección de 650 propuestas también puede convertirse en 650 razones para sentirse insuficiente. Su valor está en elegir un cambio adecuado a nuestras circunstancias y observar lo que realmente sucede. Incluso un consejo bien respaldado puede no encajar con la familia, los recursos o la capacidad de sostenerlo. La calidad de la evidencia no es una nota moral.
-
-[Abrir la búsqueda en línea](https://streamentry.github.io/HowToLiveBetter/) · [Ver el repositorio](https://github.com/streamentry/HowToLiveBetter).
+Fuente: [README del proyecto streamentry/HowToLiveBetter](https://github.com/streamentry/HowToLiveBetter/blob/main/README.md), consultado el 10 de noviembre de 2026. La información legal y sobre prestaciones se rige por las normas de China continental.

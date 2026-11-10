@@ -1,6 +1,6 @@
 ---
 title: "You Are the Loop"
-description: "m4lka's 'Harness, Loops, Graphs' is the clearest agent-systems framework going: seven levels from chat to learning, one running example — a login bug, fixed and opened as a PR. The distinctions are sharp and mostly right. The ladder has a scope it does not admit, and its final test is circular."
+description: "Levels 0–7 can help diagnose coding-agent systems, but they are neither a universal model nor a required path to autonomy."
 author: "C.S Chánh Niệm"
 lang: en
 slug: you-are-the-loop-en
@@ -10,21 +10,23 @@ draft: false
 featured: false
 tags: [technology]
 ---
+m4lka’s X Article describes coding-agent systems in levels 0–7: eight stages when counted from zero. The model separates functions that teams often merge:
 
-You are not using your agent. You are its loop. It writes, you read. It says "done", you check. It breaks something, you explain what broke. Then you type again. Almost every "autonomous" setup, the article argues, is a person quietly doing three jobs the system was supposed to do: giving the model a place to work, telling it whether it was right, and deciding what happens next. Those three jobs have names. Harness. Loop. Graph. Most write-ups put them side by side like three tools on a shelf, and that is exactly why they feel confusing. They are not a menu. They are a ladder. Each layer exists because the one below it breaks in a specific, predictable way.
+- 0, chat: a person coordinates every step.
+- 1, harness: the model gets tools and file access.
+- 2, state and permissions: memory persists and boundaries are enforced.
+- 3, check loop: a test can fail; “the model says it is done” is not a check.
+- 4, feedback: retries are bounded and repeated failures escalate.
+- 5, graph: real dependencies are explicit.
+- 6, gates and return paths: keep passed work fixed; rerun only failures.
+- 7, learning: failures create constraints for the layer responsible.
 
-The ladder has seven levels, and one example runs through all of it: a bug report comes in, and an agent has to fix it and open a PR. Level 0 is chat — you are everything, and you are the bottleneck on all three jobs at once. Level 1 gives the agent hands: shell, file access, a test runner, git. The cleanest definition in the article is here: remove the model from your architecture diagram, and everything still on the page is the harness. Level 2 adds memory and walls: state that outlives the context window, and limits that do not depend on the model behaving. "A wall is not an instruction. 'Please do not touch migrations' is a wish. A permission the agent does not have is a wall." Level 3 adds a loop with a check that can fail — and the only part that matters is the check, because without one, "repeat" just means "repeat the mistake." A check is only as strong as the weakest thing it accepts as proof, and if your loop accepts "the model says it's done," your loop is self-report. Level 4 adds feedback that converges: expected versus saw, a fence around the next attempt, dead ends so attempt three cannot quietly become attempt one again, and exits — the same result twice means stop and escalate, because the missing piece is not effort. "A loop can fix the work. A loop cannot fix the question." Level 5 adds the graph: nodes, real dependencies, gates where work leaves a node. Most arrows in a workflow are not dependencies; they are habits. Level 6 adds gates and return paths: freeze what passed, rerun only what failed, and gate on the price of undo, not on confidence. A typo in the docs ships on green; a migration gets a human. Level 7 is learning: every failure belongs to a layer, and a lesson only sticks when it lands on the layer that owns it. A lesson is a constraint, not a transcript.
+This is a design model for software agents, not an empirically validated scale. Tests and builds can be repeatable; writing, design, and negotiation often rely on judgment without a deterministic test.
 
-This is the clearest agent-systems framework I have read, and most of it is right. The distinctions do real work: harness is what the agent can do, loop is what is actually true, graph is what happens next, learn is what never repeats. The evidence ladder — deterministic tests, then observables, then what the model saw, then self-report, which is not a check at all — is the single most useful page in the article. The price-of-undo tiers are the right way to decide where a human belongs: spend your attention only where undo does not exist. And the diagnostic at the end — find your first symptom from the top, that is your next level, not the one after it — is the article's most practical line. It is also, quietly, the same advice as the audit prompt from earlier in this batch: list before you fix, and fix the layer that owns the failure.
+The levels are diagnostic, not mandatory. A low-cost, one-off task may need only chat. Teams can design a useful check before building the full harness. Add layers when the cost of failure justifies the effort. Gating work by the cost of undo is a heuristic, not a law.
 
-Three boundaries, and they matter because the article presents the ladder as a law.
+The final level also has a measurement problem: “the same class of failure” depends on how people group failures after they happen. Define categories in advance and track whether repeated failures cost less over time.
 
-First, scope. Every example in the article is software: a bug, a test suite, a PR, a migration. The evidence ladder assumes a world with compilers and deterministic tests, where "strongest" evidence exists. For work without a compiler — writing, design, strategy, a negotiation — there is no deterministic check to climb to, and the ladder's top rung does not exist. The framework is a framework for code agents. It does not say so, and a reader who applies it to everything will mistake the absence of a test for a failure of rigour, when sometimes it is just a different kind of work.
+The model helps organize coding-agent design. It does not prove that agents can work without supervision or that every task needs every layer.
 
-Second, the ladder's own rules bend. "You cannot skip levels," the article says — and then, two paragraphs later, "you design from the middle," writing the Level 3 check on paper before building anything, and "most tasks are done at Level 4," with no need to reach the top. The ladder is a diagnostic, not a law. Level 0 is fine for a one-off question; the article says so itself. The strictness is rhetorical. The useful rule is the softer one: climb only when the failure at your current level costs more than building the next one.
-
-Third, the final test is circular. Level 7's test is that the same class of failure never costs you twice. But "the same class" is doing all the work. Classes are defined after the fact, by the person who decides whether this bug is the same as last week's. A system can pass the test by drawing its classes narrowly, and fail it by drawing them honestly. The test is an aspiration dressed as a measurement. The honest version is weaker and still worth wanting: the same failure, named the same way, should get cheaper each time it happens.
-
-Two smaller notes. The article mentions a full version as a PDF attached to the post; no PDF was visible on the loaded post, so the full version was not accessible. And it ends with a Telegram channel plug — a funnel, like most of these. Neither changes the argument. The argument is the best of its kind: a harness makes the agent capable, a loop makes it honest, a graph makes it organised, learning makes it better than yesterday. Skip a layer and you become the missing piece. The goal was never an agent that does not need you. It is a system that needs you once, at the right place.
-
-*Inspired by the X Article ["Harness, Loops, Graphs: What Each Layer Fixes and What It Breaks"](https://x.com/m4lkxx/status/2114338456750997922) by [m4lka (@m4lkxx)](https://x.com/m4lkxx/status/2114338456750997922). The article was verified on 10 November 2026: 7:49 PM, 25 Oct 2026, 2.4M views. It was read in full, including its six images and code blocks. The article mentions a PDF of the full version; no PDF was visible on the loaded post. It ends with a link to the author's Telegram channel.*
+Source: m4lka, [“Harness, Loops, Graphs: What Each Layer Fixes and What It Breaks,” X Article, 25 October 2026 (status 2114338456750997922)](https://x.com/m4lkxx/status/2114338456750997922). The X page could not be reloaded for this revision; direct quotations were omitted.

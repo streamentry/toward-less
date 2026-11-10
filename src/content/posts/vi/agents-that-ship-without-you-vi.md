@@ -10,23 +10,18 @@ draft: false
 featured: false
 tags: [technology]
 ---
+Một bài đăng của shikamaru trên X giới thiệu workshop của Addy Osmani về cách xây dựng agent viết mã đáng tin cậy. Ý chính không phải là tìm một prompt hay hơn, mà là tạo một bộ khung kiểm soát agent:
 
-Trong một bài đăng trên X, shikamaru (@shikamarutsai) chia sẻ một buổi workshop dài 41 phút của Addy Osmani, một kỹ sư tại Anthropic, trước đây làm việc ở Google. Câu trích từ Osmani rất thẳng: "Google thuê tôi với mức lương $500K–$1.2M một năm vì tôi biết cách khiến các agent AI viết code không bị hỏng."
+- Làm rõ mục tiêu và tiêu chí thành công.
+- Viết đặc tả, gồm công nghệ sử dụng, tiêu chí nghiệm thu và câu hỏi còn mở.
+- Chia việc thành các phần nhỏ, giới hạn rõ tệp được sửa và điều kiện hoàn thành.
+- Xây dựng từng phần và kiểm thử liên tục.
+- Mở kết quả trong trình duyệt, xem xét bảo mật và kiểm tra các thay đổi.
 
-Câu trả lời của buổi workshop không phải là một prompt tốt hơn. Đó là một bộ khung (harness), gồm năm bước: làm rõ ý tưởng, viết bản đặc tả, lập kế hoạch thành những việc nhỏ, xây dựng theo hướng kiểm thử trước, rồi xác minh và rà soát.
+Cách làm này chuyển công sức sang trước và sau mỗi lần chạy. Agent nhận phần việc có giới hạn; người phụ trách có bằng chứng để xem xét. Ranh giới rõ giúp dễ giám sát hơn, nhưng không tự làm cho agent đáng tin cậy.
 
-Bước một: đưa vào một ý nghĩ mơ hồ, và agent sẽ phỏng vấn bạn, rồi quay lại với ba hướng đi. Bước hai: chốt tiêu chí thành công, công nghệ sử dụng, và những câu hỏi còn mở trước khi viết một dòng code nào. Bước ba: chia công việc thành những việc nhỏ, mỗi việc có tiêu chí nghiệm thu và danh sách các file mà nó được phép chạm vào. Bước bốn: xây dựng theo hướng kiểm thử trước, từ đỏ sang xanh, từng lát một, để không thứ gì đang chạy tốt bị phá vỡ. Bước năm: xác minh và rà soát — agent mở ứng dụng trong trình duyệt, kiểm tra bảo mật, và đơn giản hóa chính code của nó.
+Xây bộ khung cần thời gian và phán đoán. Kiểm thử đạt không chứng minh mã đúng hay an toàn; agent cũng không thể tự đánh giá bảo mật một cách độc lập. Trước khi phát hành, con người vẫn cần xem các thay đổi và bằng chứng.
 
-Bài đăng nói rằng Osmani đã mở mã nguồn toàn bộ 24 skills, và repo đó đã gần 100K stars. Google, theo bài đăng, gọi cách làm này là "agentic engineering". Bài đăng trích một bài viết đi kèm của @beamnxw, "Make Opus 5.5 Finish Long Tasks: A Reusable Harness Engineering Setup" — lưu tiến độ, xác minh kết quả, tái sử dụng quy trình, để một lần chạy dài để lại thứ gì đó bạn có thể mở ra, bằng chứng bạn có thể kiểm tra, và đủ tiến độ đã lưu để tiếp tục vào ngày mai.
+Mục tiêu không phải bỏ giám sát, mà là tạo một lần chạy có thể kiểm tra, tiếp tục hoặc dừng.
 
-Hãy để ý xem công việc đã chuyển đi đâu. Không phải chuyển sang việc ngồi xem agent, mà chuyển sang những gì diễn ra trước khi nó bắt đầu: cuộc phỏng vấn, bản đặc tả, việc nhỏ với ranh giới đã được vạch ra. Một agent chỉ được chạm vào những file đã nêu tên, phải vượt qua kiểm thử trước khi tiếp tục, phải lưu tiến độ của nó — agent đó có thể được để yên một mình. Một agent không có ranh giới thì không.
-
-Đó cũng là bài học như khi gọi tên các cỗ máy trạng thái: sự tự do có hiệu quả là sự tự do có giới hạn. Bộ khung là danh sách những chế độ mà lần chạy được phép ở trong, và bằng chứng mà nó phải đưa ra để chuyển từ chế độ này sang chế độ khác.
-
-Cũng đáng để không thổi phồng nó. "Bạn không phải" tự tay xây dựng thứ này trong nhiều tuần — nhưng bản thân bộ khung đã là nhiều tuần phán đoán, được nén lại thành 24 skills và một danh sách kiểm tra. Một agent tự kiểm tra bảo mật của nó và tự đơn giản hóa code của nó vẫn cần một người đứng ngoài lần chạy để đọc bằng chứng. Tiến độ đã lưu chỉ hữu ích nếu thực sự được kiểm tra, và "xác minh và rà soát" là một bước, không phải một đảm bảo.
-
-Lời hứa hẹp hơn lời quảng cáo, và vì thế mà tốt hơn: ít phải ngồi xem hơn, ít bám víu vào chính lần chạy hơn. Hãy đặt sự cẩn trọng vào phần chuẩn bị — bản đặc tả, việc nhỏ, trạng thái đã lưu — rồi buông tay.
-
-**Agent không phải là hệ thống. Bộ khung mới là hệ thống.**
-
-*Được gợi cảm hứng từ một bài đăng của [shikamaru (@shikamarutsai)](https://x.com/shikamarutsai/status/2119197676415877128) trên X, về buổi workshop của Addy Osmani về agentic engineering, trích bài viết "Make Opus 5.5 Finish Long Tasks: A Reusable Harness Engineering Setup" của @beamnxw. Bài đăng đã được xác minh ngày 8 tháng 11 năm 2026: 5:37 AM, 8 tháng 11 năm 2026.*
+Nguồn: [Bài đăng X của shikamaru (@shikamarutsai), ngày 8 tháng 11 năm 2026 (mã trạng thái 2119197676415877128)](https://x.com/shikamarutsai/status/2119197676415877128), về workshop của Addy Osmani về kỹ thuật phát triển với agent.

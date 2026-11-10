@@ -9,17 +9,18 @@ draft: false
 featured: false
 tags: [life, technology]
 ---
+HowToLiveBetter is a searchable menu of 650 recommendations. Its README calls it “不是任务清单” (“not a task list”) and advises readers to choose one or two. The author says they have not followed most of the recommendations.
 
-Advice can become one more list of things we are supposed to do. [HowToLiveBetter](https://github.com/streamentry/HowToLiveBetter) takes another form: a menu of 650 recommendations, not a checklist. The README says to choose one or two; the author admits not having followed most of them.
+Each entry gives:
 
-Reading another piece of advice is often easier than changing one habit. Collecting ways to live well can quietly consume the time we meant to spend living.
+- its cost in money, time, energy, or effort;
+- its possible return;
+- an evidence grade and its source.
 
-Each entry lists its cost in money, time, energy, or effort, what it may return, how strong the evidence is, and where that evidence comes from. Topics range from health and money to law, work, family, travel, and skills. The site lets readers search and filter the suggestions.
+Topics range from health and personal finance to law, work, family, and skills. Legal, insurance, and public-benefit guidance follows mainland China rules. The Chinese edition is the source; English and Vietnamese versions may lag.
 
-The grades need context. An A means a specific, traceable result from sources such as a meta-analysis, a large cohort, or a trial. It does not automatically establish causation. Legal, insurance, and public-benefit guidance follows mainland China’s rules. The Chinese edition is the source; English and Vietnamese translations may lag.
+The grades need context. An A means a traceable number from a meta-analysis, large cohort, or trial; it does not by itself prove causation. Book text is CC BY 4.0, code is MIT, and some third-party materials have separate terms.
 
-The book text is published under CC BY 4.0, which permits reuse and adaptation with attribution. The code and tools use MIT; third-party materials may have separate terms.
+A large advice library can become another list of demands. Choose one recommendation that fits your circumstances, try it, and see what changes. An evidence grade describes the source, not the reader.
 
-A library of 650 suggestions can also become 650 reasons to feel inadequate. Its value is in choosing one idea suited to your circumstances and watching what actually changes. Even advice backed by strong evidence may not fit your family, resources, or ability to sustain it. An evidence grade is not a moral grade.
-
-[Browse the guide](https://streamentry.github.io/HowToLiveBetter/) · [Read the repository notes](https://github.com/streamentry/HowToLiveBetter).
+Source: [streamentry/HowToLiveBetter, README.md](https://github.com/streamentry/HowToLiveBetter/blob/main/README.md), checked 10 November 2026. The legal and public-benefit material is based on mainland China rules.

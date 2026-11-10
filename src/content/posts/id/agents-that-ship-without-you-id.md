@@ -10,23 +10,18 @@ draft: false
 featured: false
 tags: [technology]
 ---
+Sebuah unggahan shikamaru di X memperkenalkan lokakarya Addy Osmani tentang agen pemrograman yang andal. Intinya bukan mencari prompt yang lebih baik, melainkan membangun kerangka kendali di sekitar agen:
 
-Dalam sebuah unggahan di X, shikamaru (@shikamarutsai) membagikan lokakarya 41 menit oleh Addy Osmani, seorang insinyur Anthropic yang sebelumnya bekerja di Google. Kalimat Osmani yang dikutip sangat lugas: "Google mempekerjakan saya dengan gaji $500K–$1,2 juta setahun karena saya tahu cara membuat agen AI menulis kode yang tidak rusak."
+- Perjelas tujuan dan tentukan ukuran keberhasilan.
+- Tulis spesifikasi yang memuat teknologi, kriteria penerimaan, dan pertanyaan terbuka.
+- Pecah pekerjaan menjadi tugas kecil dengan batas berkas dan syarat selesai yang jelas.
+- Bangun sedikit demi sedikit dan uji selama prosesnya.
+- Buka hasilnya di peramban, tinjau keamanan, dan periksa perubahan.
 
-Jawaban lokakarya itu bukanlah prompt yang lebih baik. Jawabannya adalah sebuah harness, dalam lima langkah: mempertajam gagasan, menulis spesifikasi, merencanakan dalam tugas-tugas kecil, membangun dengan tes terlebih dahulu, lalu memverifikasi dan meninjau.
+Cara ini memindahkan sebagian pekerjaan ke sebelum dan sesudah proses berjalan. Agen mendapat tugas yang terbatas; penanggung jawab mendapat bukti untuk ditinjau. Batas yang jelas memudahkan pengawasan, tetapi tidak otomatis membuat agen andal.
 
-Langkah satu: masukkan gagasan yang masih samar, dan agen akan mewawancarai Anda, lalu kembali dengan tiga arah. Langkah dua: kunci kriteria keberhasilan, tumpukan teknologi, dan pertanyaan-pertanyaan yang masih terbuka sebelum satu baris kode pun ditulis. Langkah tiga: pecah pekerjaan menjadi tugas-tugas kecil, masing-masing dengan kriteria penerimaan dan daftar berkas yang boleh disentuhnya. Langkah empat: bangun dengan tes terlebih dahulu, dari merah ke hijau, potongan demi potongan, supaya tidak ada yang sudah berjalan menjadi rusak. Langkah lima: verifikasi dan tinjau — agen membuka aplikasi di peramban, memeriksa keamanan, dan menyederhanakan kodenya sendiri.
+Kerangka seperti ini memerlukan waktu dan pertimbangan. Tes yang lolos tidak membuktikan kode benar atau aman, dan tinjauan keamanan oleh agen sendiri bukan pemeriksaan independen. Sebelum merilis, seseorang tetap perlu memeriksa perubahan dan buktinya.
 
-Unggahan itu mengatakan Osmani membuka kode sumber untuk ke-24 skill-nya, dan repositorinya mendekati 100 ribu bintang. Google, kata unggahan itu, menyebut ini "agentic engineering". Unggahan itu mengutip tulisan pendamping oleh @beamnxw, "Make Opus 5.5 Finish Long Tasks: A Reusable Harness Engineering Setup" — simpan kemajuan, verifikasi hasil, gunakan kembali alur kerja, sehingga proses yang panjang meninggalkan sesuatu yang bisa dibuka, bukti yang bisa diperiksa, dan cukup kemajuan yang tersimpan untuk dilanjutkan besok.
+Tujuannya bukan menghapus pengawasan, melainkan membuat proses yang bisa diperiksa, dilanjutkan, atau dihentikan.
 
-Perhatikan ke mana pekerjaan itu berpindah. Bukan ke mengawasi agen, melainkan ke apa yang terjadi sebelum agen mulai: wawancara, spesifikasi, tugas kecil dengan batas yang sudah digambar. Agen yang hanya boleh menyentuh berkas-berkas yang disebutkan, yang harus lolos tes sebelum melangkah, yang harus menyimpan kemajuannya — agen itu bisa ditinggal sendiri. Agen tanpa batas tidak bisa.
-
-Itulah pelajaran yang sama seperti menamai state machine: kebebasan yang berhasil adalah kebebasan yang dibatasi. Harness adalah daftar mode yang boleh dimasuki oleh proses itu, dan bukti yang harus dihasilkannya untuk berpindah dari satu mode ke mode lain.
-
-Ada baiknya tidak melebih-lebihkan. "Anda tidak harus" menghabiskan berminggu-minggu membangun ini dengan tangan — tetapi harness itu sendiri adalah penilaian berminggu-minggu yang dipadatkan menjadi 24 skill dan sebuah daftar periksa. Agen yang memeriksa keamanannya sendiri dan menyederhanakan kodenya sendiri tetap membutuhkan seseorang di luar proses itu untuk membaca buktinya. Kemajuan yang tersimpan hanya berguna jika benar-benar diperiksa, dan "verifikasi dan tinjau" adalah sebuah langkah, bukan jaminan.
-
-Janjinya lebih sempit daripada gembar-gembornya, dan justru karena itu lebih baik: lebih sedikit mengawasi, lebih sedikit keterikatan pada proses itu sendiri. Letakkan perhatian pada persiapan — spesifikasi, tugas kecil, keadaan yang tersimpan — lalu lepaskan.
-
-**Agen bukanlah sistemnya. Harness-lah sistemnya.**
-
-*Terinspirasi oleh unggahan dari [shikamaru (@shikamarutsai)](https://x.com/shikamarutsai/status/2119197676415877128) di X, tentang lokakarya Addy Osmani mengenai agentic engineering, yang mengutip "Make Opus 5.5 Finish Long Tasks: A Reusable Harness Engineering Setup" karya @beamnxw. Unggahan itu diverifikasi pada 8 November 2026: 5:37 AM, 8 November 2026.*
+Sumber: [unggahan shikamaru (@shikamarutsai) di X, 8 November 2026 (status 2119197676415877128)](https://x.com/shikamarutsai/status/2119197676415877128), tentang lokakarya Addy Osmani mengenai rekayasa dengan agen.

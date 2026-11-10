@@ -10,23 +10,18 @@ draft: false
 featured: false
 tags: [technology]
 ---
+An X post by shikamaru describes a workshop by Addy Osmani on building coding agents that produce reliable code. The central idea is a harness around the agent:
 
-In a post on X, shikamaru (@shikamarutsai) shares a 41-minute workshop by Addy Osmani, an Anthropic engineer formerly at Google. The line quoted from Osmani is blunt: "Google hired me at $500K–$1.2M a year because I know how to make AI agents write code that doesn't break."
+- Clarify the goal and define what success looks like.
+- Write a spec with the tech stack, acceptance criteria, and open questions.
+- Split the work into small tasks with clear file boundaries and completion checks.
+- Build in small slices, testing as you go.
+- Open the result in a browser, review security, and inspect the changes.
 
-The workshop's answer is not a better prompt. It is a harness, in five steps: refine the idea, write the spec, plan in small tasks, build test-first, then verify and review.
+This moves effort to the start and end of a run. The agent gets bounded work; the person responsible gets evidence to review. Explicit boundaries make the run easier to supervise, but they do not make the agent reliable by themselves.
 
-Step one: drop in a vague thought, and the agent interviews you, coming back with three directions. Step two: lock the success criteria, the stack, and the open questions before a single line of code. Step three: break the work into small tasks, each with acceptance criteria and a list of files it is allowed to touch. Step four: build test-first, red to green, slice by slice, so nothing that already works breaks. Step five: verify and review — the agent opens the app in a browser, checks security, and simplifies its own code.
+A harness takes time and judgment to build. Passing tests do not prove that code is correct or secure, and an agent's own security review is not independent. A person still needs to inspect the changes and evidence before shipping.
 
-The post says Osmani open-sourced all 24 skills, and the repo is close to 100K stars. Google, it says, calls this "agentic engineering." The post quotes a companion piece by @beamnxw, "Make Opus 5.5 Finish Long Tasks: A Reusable Harness Engineering Setup" — save progress, verify results, reuse the workflow, so a long run leaves something you can open, evidence you can inspect, and enough saved progress to continue tomorrow.
+The aim is not zero oversight. It is a run you can inspect, resume, and stop.
 
-Notice where the work moved. Not into watching the agent, but into what happens before it starts: the interview, the spec, the small task with its boundary drawn. An agent that can touch only named files, that must pass a test before moving on, that must save its progress — that agent can be left alone. One with no boundary cannot.
-
-That is the same lesson as naming state machines: the freedom that works is bounded freedom. The harness is the list of modes the run is allowed to be in, and the evidence it must produce to move between them.
-
-It is worth not overselling it. "You don't have to" spend weeks building this by hand — but the harness is itself weeks of judgment, compressed into 24 skills and a checklist. An agent that checks its own security and simplifies its own code still needs someone outside the run to read the evidence. Saved progress is only useful if it is actually inspected, and "verify and review" is a step, not a guarantee.
-
-The promise is narrower than the pitch, and better for it: less watching, less attachment to the run itself. Put the care into the setup — the spec, the small task, the saved state — and then let go.
-
-**The agent is not the system. The harness is.**
-
-*Inspired by a post from [shikamaru (@shikamarutsai)](https://x.com/shikamarutsai/status/2119197676415877128) on X, about Addy Osmani's workshop on agentic engineering, quoting @beamnxw's "Make Opus 5.5 Finish Long Tasks: A Reusable Harness Engineering Setup." The post was verified on 8 November 2026: 5:37 AM, 8 November 2026.*
+Source: [shikamaru (@shikamarutsai), X post, 8 November 2026 (status 2119197676415877128)](https://x.com/shikamarutsai/status/2119197676415877128), about Addy Osmani's workshop on agentic engineering.

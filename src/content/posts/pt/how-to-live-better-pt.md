@@ -9,17 +9,18 @@ draft: false
 featured: false
 tags: [life, technology]
 ---
+HowToLiveBetter é um catálogo pesquisável de 650 recomendações. O README diz que não é uma lista de tarefas e aconselha escolher uma ou duas. O autor afirma que não seguiu a maioria delas.
 
-Conselhos podem virar mais uma lista de coisas que deveríamos fazer. O [HowToLiveBetter](https://github.com/streamentry/HowToLiveBetter) escolhe outro formato: um menu com 650 recomendações, não uma lista de tarefas. O README sugere escolher uma ou duas; o autor admite não ter seguido a maioria.
+Cada item informa:
 
-Ler mais um conselho costuma ser mais fácil do que mudar um hábito. Colecionar maneiras de viver bem pode consumir o tempo que queríamos dedicar à própria vida.
+- o custo em dinheiro, tempo, energia ou esforço;
+- o possível retorno;
+- um grau de evidência e sua fonte.
 
-Cada item apresenta o custo em dinheiro, tempo, energia ou esforço, o possível benefício, a força da evidência e sua fonte. Os temas vão de saúde e dinheiro a leis, trabalho, família, viagens e habilidades. O site permite pesquisar e filtrar por tema, nível de evidência e custo.
+Os temas vão de saúde e finanças pessoais a direito, trabalho, família e habilidades. As informações jurídicas, de seguros e de benefícios públicos seguem as regras da China continental. A edição chinesa é a fonte; as versões em inglês e vietnamita podem estar desatualizadas.
 
-É preciso interpretar os níveis de evidência com cuidado. O nível A indica um resultado específico e verificável vindo de fontes como metanálise, grande coorte ou ensaio. Isso não prova causalidade automaticamente. As orientações jurídicas, de seguros e de benefícios públicos seguem as regras da China continental e podem não valer em outros lugares. O texto chinês é a fonte; as traduções para inglês e vietnamita podem estar atrasadas.
+Os graus precisam de contexto. A significa que há um número rastreável em uma meta-análise, grande coorte ou ensaio; isso não comprova causalidade por si só. O texto do livro usa CC BY 4.0, o código usa MIT e alguns materiais de terceiros têm termos próprios.
 
-O texto do livro é publicado sob a licença CC BY 4.0, que permite reutilização e adaptação com atribuição. O código e as ferramentas usam MIT; materiais de terceiros podem ter condições próprias.
+Uma grande biblioteca de conselhos pode virar outra lista de obrigações. Escolha uma recomendação adequada às suas circunstâncias, experimente e observe o que muda. O grau de evidência descreve a fonte, não o leitor.
 
-Uma lista de 650 sugestões também pode virar 650 motivos para nos sentirmos insuficientes. Seu valor está em escolher uma mudança adequada às circunstâncias e observar o que realmente acontece. Mesmo conselhos com boas evidências podem não servir à família, aos recursos ou à capacidade de mantê-los. Uma nota de evidência não é uma nota moral.
-
-[Abrir a busca on-line](https://streamentry.github.io/HowToLiveBetter/) · [Ver o repositório](https://github.com/streamentry/HowToLiveBetter).
+Fonte: [README do projeto streamentry/HowToLiveBetter](https://github.com/streamentry/HowToLiveBetter/blob/main/README.md), consultado em 10 de novembro de 2026. As informações jurídicas e sobre benefícios públicos seguem as regras da China continental.

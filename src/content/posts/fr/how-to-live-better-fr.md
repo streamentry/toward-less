@@ -9,17 +9,18 @@ draft: false
 featured: false
 tags: [life, technology]
 ---
+HowToLiveBetter est un catalogue consultable de 650 recommandations. Son README précise qu’il ne s’agit pas d’une liste de tâches et conseille d’en choisir une ou deux. L’auteur dit ne pas avoir suivi la plupart d’entre elles.
 
-Les conseils peuvent devenir une liste de tâches supplémentaire. [HowToLiveBetter](https://github.com/streamentry/HowToLiveBetter) adopte une autre forme : un menu de 650 recommandations, pas une liste à cocher. Le README suggère d’en choisir une ou deux ; l’auteur reconnaît ne pas avoir suivi la plupart d’entre elles.
+Chaque entrée indique :
 
-Lire un conseil supplémentaire est souvent plus facile que changer une habitude. Accumuler des façons de mieux vivre peut prendre le temps que nous voulions consacrer à vivre.
+- son coût en argent, en temps, en énergie ou en effort ;
+- son bénéfice possible ;
+- un niveau de preuve et sa source.
 
-Chaque entrée indique le coût en argent, en temps, en énergie ou en effort, le bénéfice possible, la solidité des preuves et leur source. Les thèmes vont de la santé et de l’argent au droit, au travail, à la famille, aux voyages et aux compétences. Le site permet de chercher et filtrer par thème, niveau de preuve et coût.
+Les thèmes vont de la santé et des finances personnelles au droit, au travail, à la famille et aux compétences. Les informations juridiques, d’assurance et d’aide publique suivent les règles de la Chine continentale. L’édition chinoise fait foi ; les versions anglaise et vietnamienne peuvent être en retard.
 
-Les niveaux de preuve demandent de la prudence. Le niveau A signale un résultat précis et vérifiable issu, par exemple, d’une méta-analyse, d’une grande cohorte ou d’un essai. Il ne prouve pas automatiquement un lien de causalité. Les informations juridiques, d’assurance et d’aides publiques suivent les règles de Chine continentale et peuvent ne pas s’appliquer ailleurs. Le chinois fait foi ; les traductions anglaise et vietnamienne peuvent être en retard.
+Les niveaux de preuve demandent du contexte. Un A signifie qu’un chiffre est traçable à une méta-analyse, une grande cohorte ou un essai ; cela ne démontre pas à lui seul un lien causal. Le texte du livre est sous CC BY 4.0, le code sous MIT et certains contenus tiers ont leurs propres conditions.
 
-Le texte du livre est publié sous licence CC BY 4.0, qui autorise sa réutilisation et son adaptation avec attribution. Le code et les outils sont sous MIT ; les contenus tiers peuvent relever d’autres conditions.
+Une grande bibliothèque de conseils peut devenir une nouvelle liste d’obligations. Choisissez une recommandation adaptée à votre situation, essayez-la et observez ce qui change. Le niveau de preuve décrit la source, pas le lecteur.
 
-Une liste de 650 idées peut aussi devenir 650 raisons de se sentir insuffisant. Son intérêt est de choisir un changement adapté à sa situation et d'observer ce qu'il produit vraiment. Même un conseil bien étayé peut ne pas convenir à sa famille, à ses ressources ou à sa capacité de le tenir. La qualité des preuves n'est pas une note morale.
-
-[Ouvrir la recherche en ligne](https://streamentry.github.io/HowToLiveBetter/) · [Voir le dépôt](https://github.com/streamentry/HowToLiveBetter).
+Source : [README du projet streamentry/HowToLiveBetter](https://github.com/streamentry/HowToLiveBetter/blob/main/README.md), consulté le 10 novembre 2026. Les informations juridiques et sur les aides publiques suivent les règles de la Chine continentale.
