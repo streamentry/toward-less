@@ -1,26 +1,37 @@
 ---
+
 title: "Dua Belas Peratus, pada Tikus"
-description: "Satu hantaran mengatakan asid amino memanjangkan jangka hayat sehingga 12% dan melindungi kulit daripada kerosakan UV. Setiap klausa adalah benar — bagi tikus dan cacing. Bahagian manusia dalam cerita ini berubah pada tahun 2025, tetapi hantaran itu tidak."
+description: "Kajian haiwan menemukan kesan pada jangka hayat dan kulit tikus. Kajian manusia belum membuktikan suplemen taurina memperlahankan penuaan."
 author: "C.S Chánh Niệm"
 lang: ms
 slug: dua-belas-peratus-pada-tikus-ms
 translationKey: taurine-aging-2026
 pubDatetime: 2026-11-09T21:30:00+07:00
+modDatetime: 2026-11-11T00:37:00+07:00
 draft: false
 featured: false
 tags: [life]
 ---
+Satu hantaran mendakwa taurina memanjangkan hayat sehingga 12% dan mungkin melindungi kulit daripada UV. Hasil itu datang daripada kajian haiwan. Manfaat antipenuaan pada manusia belum dibuktikan.
 
-"Asid amino ini memanjangkan jangka hayat sehingga 12%, mengurangkan penanda penuaan sel, meningkatkan fungsi mitokondria, dan menunjukkan potensi melindungi kulit daripada kerosakan UV." Setiap klausa adalah benar. Tiada satu pun tentang manusia. Hantaran itu tidak menyebut "pada tikus" di mana-mana, dan peninggalan itu adalah keseluruhan cerita.
+## Dapatan haiwan
 
-Asid amino itu ialah taurina, dan angka 12% datang daripada kertas sebenar dalam Science, Jun 2023, oleh Singh dan rakan-rakan. Taurina ialah salah satu asid amino yang paling banyak dalam badan, dan kertas itu mendapati parasnya menurun dengan usia — pada tikus, daripada 132 kepada 40 nanogram per mililiter darah antara empat minggu dan lima puluh enam minggu; pada monyet, 85% lebih rendah pada usia lima belas tahun berbanding lima tahun; pada manusia, lebih 80% lebih rendah pada warga tua berbanding golongan muda, dalam sampel mereka. Kemudian pembalikan: tikus pertengahan umur yang diberi taurina pada 1,000 miligram per kilogram sehari hidup 10 hingga 12% lebih lama pada median, dan jangka hayat mereka pada 28 bulan meningkat 18 hingga 25%. Cacing hidup 10 hingga 23% lebih lama. Monyet, dalam tempoh kajian, menunjukkan jangka hayat sihat yang lebih baik. Dari segi mekanisme, kertas itu menyentuh hampir setiap ciri penuaan sekaligus: kurang penuaan sel, perlindungan terhadap kekurangan telomerase, kurang disfungsi mitokondria, kurang kerosakan DNA, kurang keradangan penuaan. Ringkasan satu ayatnya adalah terus-terang: "Suplemen taurina memanjangkan jangka hayat yang sihat."
+- Kajian *Science* 2023 memberi tikus pertengahan umur 1,000 mg/kg/hari taurina. Jangka hayat median meningkat 10–12%, manakala jangka hayat anggaran pada usia 28 bulan meningkat 18–25%. Cacing juga hidup lebih lama; beberapa penanda kesihatan monyet bertambah baik. Data manusia dalam kajian itu bersifat pemerhatian, bukan percubaan suplemen.
+- Kajian 2021 memberi air bertaurina kepada tikus tidak berbulu yang terdedah kepada UVB. Kehilangan lembapan dan pembentukan kedutan berkurang. Kajian itu tidak menguji kulit manusia.
 
-Dakwaan tentang kulit datang daripada kertas kedua, Yoshimura dan rakan-rakan, 2021. Tikus tanpa bulu, disinari UVB sehingga berkedut, diberi taurina dalam air minuman mereka — dan kedutan reda, kelembapan kembali, taurina kulit tikus itu sendiri pulih sebahagiannya. Ia kajian tikus yang baik. Ia tetap kajian tikus. "Menunjukkan potensi melindungi kulit daripada kerosakan UV" dalam hantaran itu sedang bekerja secara senyap dengan perkataan "potensi": potensi itu ditunjukkan pada tikus tanpa bulu yang minum air taurina, bukan pada kulit manusia.
+## Bukti manusia
 
-Kemudian tahun 2025 tiba, dan bahagian manusia dalam cerita ini berubah. Pasukan yang diketuai oleh National Institute on Aging, menerbitkan dalam Science pada Jun 2025, mengukur taurina dalam tiga kohort manusia — lebih seribu orang, berusia dua puluh hingga seratus tahun, diikuti dari semasa ke semasa serta dibandingkan merentas usia — dan mendapati ia tidak menurun dengan usia. Ia kekal sama atau meningkat. Kenyataan institut itu sendiri menyimpulkan taurina tidak mungkin menjadi penanda biologi penuaan manusia yang boleh dipercayai. Kajian kedua pada 2025, dalam Aging Cell, mengukur 137 lelaki berusia dua puluh hingga sembilan puluh tiga tahun dan mendapati tiada kaitan antara taurina beredar dengan usia, jisim otot, kekuatan, prestasi fizikal, atau fungsi mitokondria. Para pengkritik mencatat sesuatu yang khusus tentang data manusia 2023: penurunan itu didorong kebanyakannya oleh golongan sangat muda, dan orang melebihi enam puluh lima tahun sebahagian besarnya tiada dalam data itu. Asas dakwaan manusia itu lebih tipis daripada yang disarankan oleh tajuk utama.
+- Kajian *Science* 2025 mendapati paras taurina sering meningkat atau kekal stabil dengan usia dalam data longitudinal dan perbandingan rentas usia. Ini mencabar taurina sebagai penanda penuaan sejagat, tetapi kajian itu tidak menguji suplemen.
+- Analisis 2025 terhadap 137 lelaki berusia 20–93 tahun tidak menemukan kaitan antara taurina darah dengan usia, jisim otot, kekuatan, prestasi fizikal atau fungsi mitokondria. Kajian itu bersifat pemerhatian dan hanya melibatkan lelaki.
+- Percubaan rawak TauAge telah selesai: 91 orang dewasa berusia 55–75 tahun menerima 4 g/hari atau plasebo selama enam bulan. Setakat 11 November 2026, daftar kajian belum memaparkan hasil.
 
-Vijay Yadav, penulis kanan kertas 2023, telah menjawab bahawa data haiwan tetap kukuh dan soalan manusia memerlukan ujian prospektif — yang kini sedang dijalankan oleh pasukannya. Itu jawapan yang adil, dan itu juga intinya. Soalannya terbuka, bukan sudah dijawab. Hantaran itu menyampaikannya seolah-olah sudah dijawab. Tiada ujian manusia yang menunjukkan taurina melambatkan penuaan pada manusia. Angka 12% itu angka tikus, pada dos 1,000 miligram per kilogram sehari — dos yang tiada suplemen manusia yang dapat menyamainya. Kulit itu kulit tikus. Penurunan pada manusia mungkin tidak wujud.
+Kajian ini tidak membuktikan taurina tidak mungkin membantu sesiapa. Ia menunjukkan hasil haiwan belum membuktikan jangka hayat lebih panjang atau perlindungan kulit pada manusia. Dos tikus bukan dos manusia. Penurunan taurina manusia yang dilaporkan pada 2023 tidak konsisten dalam kohort kemudian. Taurina masih persoalan penyelidikan, bukan rawatan antipenuaan yang terbukti.
 
-Inilah bentuk kitaran yang biasa: kertas haiwan yang menarik, ledakan suplemen, pembetulan dua tahun kemudian. Hantaran itu ialah gambar tahun 2023 yang dipersembahkan sebagai fakta tahun 2026. Sains bergerak; kapsyen tidak. Taurina kekal sebagai molekul sebenar dengan data haiwan yang sebenar dan cerita manusia yang belum selesai — wajar diperhatikan, bukan wajar dibeli sebagai keputusan. Ayat yang jujur lebih pendek daripada ayat hantaran itu: pada tikus, taurina memanjangkan hayat sehingga 12%. Pada manusia, kita belum tahu lagi, dan perkara pertama yang kita sangka kita tahu ternyata salah.
+## Sumber
 
-*Diilhamkan oleh hantaran X ["asid amino ini memanjangkan jangka hayat sehingga 12%, mengurangkan penanda penuaan sel, meningkatkan fungsi mitokondria, dan menunjukkan potensi melindungi kulit daripada kerosakan UV."](https://x.com/alexeixbt/status/2119567882824679855) oleh [alexei (@alexeixbt)](https://x.com/alexeixbt/status/2119567882824679855). Hantaran itu disahkan pada 9 November 2026: 6:08 AM, 9 Nov 2026, 3,147 tontonan. Kertas yang ditunjukkannya ialah Singh et al., "Taurine deficiency as a driver of aging," Science, 9 Jun 2023, [PMC10630957](https://pmc.ncbi.nlm.nih.gov/articles/PMC10630957/), dan Yoshimura et al., "Protective effect of taurine on UVB-induced skin aging in hairless mice," Biomedicine & Pharmacotherapy (2021), [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0753332221006806), kedua-duanya dibaca sepenuhnya sebelum menulis. Cabaran 2025 ialah Fernandez et al., Science, 5 Jun 2025 (PMID 40472098), dan Marcangeli et al., Aging Cell 24(10):e70191 (2025), [doi:10.1111/acel.70191](https://doi.org/10.1111/acel.70191).*
+- alexei (@alexeixbt), hantaran X tentang taurina, diterbitkan pada 9 November 2026, [status 2119567882824679855](https://x.com/alexeixbt/status/2119567882824679855), disemak pada 9 November 2026. Halaman tidak dapat dimuat semula dalam semakan ini; petikan langsung digugurkan.
+- Singh P et al., [“Taurine deficiency as a driver of aging,” *Science* 380(6649):eabn9257 (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10630957/).
+- Yoshimura T et al., [“Protective effect of taurine on UVB-induced skin aging in hairless mice,” *Biomedicine & Pharmacotherapy* 141:111898 (2021)](https://doi.org/10.1016/j.biopha.2021.111898).
+- Fernandez ME et al., [“Is taurine an aging biomarker?,” *Science* 388(6751):eadl2116 (2025)](https://doi.org/10.1126/science.adl2116).
+- Marcangeli V et al., [“Experimental Evidence Against Taurine Deficiency as a Driver of Aging in Humans,” *Aging Cell* 24(10):e70191 (2025)](https://doi.org/10.1111/acel.70191).
+- Daftar TauAge menyatakan percubaan rawak telah selesai, tetapi tiada hasil dipaparkan; disemak pada 11 November 2026. [DRKS00035066](https://drks.de/search/en/trial/DRKS00035066).

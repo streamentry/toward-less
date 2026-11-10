@@ -1,26 +1,37 @@
 ---
+
 title: "Doze por cento, em camundongos"
-description: "Uma postagem diz que um aminoácido prolongou a vida em até 12% e protegeu a pele contra danos do UV. Cada frase é verdadeira — em camundongos e vermes. A parte humana da história mudou em 2025, e a postagem não."
+description: "Estudos em animais encontraram efeitos sobre a longevidade e a pele de camundongos. Estudos em pessoas não demonstraram que suplementos de taurina retardem o envelhecimento."
 author: "C.S Chánh Niệm"
 lang: pt
 slug: doze-por-cento-em-camundongos-pt
 translationKey: taurine-aging-2026
 pubDatetime: 2026-11-09T21:30:00+07:00
+modDatetime: 2026-11-11T00:37:00+07:00
 draft: false
 featured: false
 tags: [life]
 ---
+Uma publicação afirma que a taurina prolonga a vida em até 12% e pode proteger a pele dos raios UV. Esses resultados vêm de estudos em animais. Um benefício antienvelhecimento em pessoas não foi comprovado.
 
-"Este aminoácido prolongou a expectativa de vida em até 12%, reduziu marcadores de envelhecimento celular, melhorou a função mitocondrial e mostrou potencial para proteger a pele contra danos causados por UV." Cada frase é verdadeira. Nenhuma delas é sobre pessoas. A postagem não diz "em camundongos" em lugar nenhum, e essa omissão é toda a história.
+## Resultados em animais
 
-O aminoácido é a taurina, e os 12% vêm de um artigo real na *Science*, de junho de 2023, de Singh e colegas. A taurina é um dos aminoácidos mais abundantes do corpo, e o artigo constatou que seus níveis caem com a idade — em camundongos, de 132 para 40 nanogramas por mililitro de sangue entre quatro e cinquenta e seis semanas; em macacos, 85% mais baixos aos quinze anos do que aos cinco; em humanos, mais de 80% mais baixos nos idosos do que nos jovens, em suas amostras. Depois, a reversão: camundongos de meia-idade alimentados com taurina a 1.000 miligramas por quilo por dia viveram de 10 a 12% mais na mediana, e sua expectativa de vida aos 28 meses aumentou de 18 a 25%. Vermes viveram de 10 a 23% mais. Macacos, no período do estudo, mostraram melhor healthspan. Do ponto de vista dos mecanismos, o artigo toca quase todas as marcas do envelhecimento ao mesmo tempo: menos senescência celular, proteção contra a deficiência de telomerase, menos disfunção mitocondrial, menos dano ao DNA, menos inflammaging. Seu resumo em uma frase é direto: "Taurine supplementation extends healthy lifespan."
+- Um estudo de 2023 na *Science* deu 1.000 mg/kg/dia a camundongos de meia-idade. A mediana de vida aumentou 10–12%, e a expectativa de vida aos 28 meses subiu 18–25%. Vermes também viveram mais; alguns indicadores de saúde melhoraram em macacos. Os dados humanos eram observacionais, sem teste de suplementação.
+- Em 2021, camundongos sem pelos expostos a UVB receberam taurina na água. A perda de umidade e a formação de rugas diminuíram. O estudo não avaliou pele humana.
 
-A afirmação sobre a pele vem de um segundo artigo, de Yoshimura e colegas, de 2021. Camundongos sem pelos, irradiados com UVB até enrugarem, receberam taurina na água de beber — e as rugas suavizaram, a umidade voltou, a taurina da própria pele foi parcialmente restaurada. É um bom estudo em camundongos. É um estudo em camundongos. O "mostrou potencial para proteger a pele contra danos causados por UV" da postagem faz um trabalho silencioso com a palavra "potencial": o potencial foi demonstrado em camundongos sem pelos bebendo água com taurina, não em pele humana.
+## Evidência em pessoas
 
-Então chegou 2025, e a parte humana da história mudou. Uma equipe liderada pelo National Institute on Aging, publicando na *Science* em junho de 2025, mediu a taurina em três coortes humanas — mais de mil pessoas, de vinte a cem anos, acompanhadas ao longo do tempo e também comparadas entre idades — e constatou que ela não diminui com a idade. Permaneceu igual ou aumentou. A declaração do próprio instituto concluiu que é improvável que a taurina sirva como um biomarcador confiável do envelhecimento humano. Um segundo estudo de 2025, na *Aging Cell*, mediu 137 homens de vinte a noventa e três anos e não encontrou associação entre a taurina circulante e a idade, a massa muscular, a força, o desempenho físico ou a função mitocondrial. Os críticos notaram algo específico sobre os dados humanos de 2023: a queda era impulsionada sobretudo pelos mais jovens, e as pessoas com mais de sessenta e cinco anos estavam em grande parte ausentes. A base da afirmação humana era mais frágil do que a manchete sugeria.
+- Um estudo de 2025 na *Science* observou que os níveis de taurina muitas vezes aumentavam ou permaneciam estáveis com a idade. Isso questiona a taurina como marcador universal do envelhecimento, mas o estudo não testou suplementos.
+- Uma análise de 2025 com 137 homens de 20–93 anos não encontrou relação entre taurina no sangue e idade, massa muscular, força, desempenho físico ou função mitocondrial. Foi observacional e incluiu apenas homens.
+- O ensaio randomizado TauAge foi concluído: 91 adultos de 55–75 anos receberam 4 g/dia ou placebo por seis meses. Até 11 de novembro de 2026, o registro não mostrava resultados.
 
-O autor sênior do artigo de 2023, Vijay Yadav, respondeu que os dados animais permanecem e que a questão humana precisa de um ensaio prospectivo — que sua equipe já está conduzindo. É uma resposta justa, e também é exatamente o ponto. A questão está aberta, não respondida. A postagem a apresenta como respondida. Nenhum ensaio humano mostrou que a taurina retarda o envelhecimento em pessoas. Os 12% são um número de camundongo, numa dose de 1.000 miligramas por quilo por dia — uma dose que nenhum suplemento humano iguala. A pele é pele de camundongo. O declínio humano pode não existir.
+Esses estudos não provam que a taurina nunca ajude. Mostram que resultados em animais não comprovam maior longevidade ou proteção da pele em pessoas. A dose usada em camundongos não é uma dose humana. A queda de taurina humana relatada em 2023 não foi consistente nas coortes posteriores. A taurina continua sendo uma questão de pesquisa, não um tratamento antienvelhecimento comprovado.
 
-Esta é a forma de um ciclo familiar: um artigo animal impressionante, um boom de suplementos, uma correção dois anos depois. A postagem é um instantâneo de 2023 apresentado como um fato de 2026. A ciência avançou; a legenda, não. A taurina continua sendo uma molécula real, com dados animais reais e uma história humana não resolvida — digna de atenção, não de compra como veredicto. A frase honesta é mais curta do que a da postagem: em camundongos, a taurina prolongou a vida em até 12%. Em pessoas, ainda não sabemos, e a primeira coisa que pensávamos saber acabou sendo errada.
+## Fontes
 
-*Inspirado pela postagem no X ["este aminoácido prolongou a expectativa de vida em até 12%, reduziu marcadores de envelhecimento celular, melhorou a função mitocondrial e mostrou potencial para proteger a pele contra danos causados por UV."](https://x.com/alexeixbt/status/2119567882824679855) de [alexei (@alexeixbt)](https://x.com/alexeixbt/status/2119567882824679855). A postagem foi verificada em 9 de novembro de 2026: 6:08 AM, 9 de novembro de 2026, 3.147 visualizações. Os artigos que ela mostra são Singh et al., "Taurine deficiency as a driver of aging," Science, 9 de junho de 2023, [PMC10630957](https://pmc.ncbi.nlm.nih.gov/articles/PMC10630957/), e Yoshimura et al., "Protective effect of taurine on UVB-induced skin aging in hairless mice," Biomedicine & Pharmacotherapy (2021), [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0753332221006806), ambos lidos na íntegra antes de escrever. A contestação de 2025 é Fernandez et al., Science, 5 de junho de 2025 (PMID 40472098), e Marcangeli et al., Aging Cell 24(10):e70191 (2025), [doi:10.1111/acel.70191](https://doi.org/10.1111/acel.70191).*
+- alexei (@alexeixbt), publicação no X sobre taurina, publicada em 9 de novembro de 2026, [status 2119567882824679855](https://x.com/alexeixbt/status/2119567882824679855), verificada em 9 de novembro de 2026. A página não pôde ser recarregada; citações diretas foram removidas.
+- Singh P et al., [“Taurine deficiency as a driver of aging,” *Science* 380(6649):eabn9257 (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10630957/).
+- Yoshimura T et al., [“Protective effect of taurine on UVB-induced skin aging in hairless mice,” *Biomedicine & Pharmacotherapy* 141:111898 (2021)](https://doi.org/10.1016/j.biopha.2021.111898).
+- Fernandez ME et al., [“Is taurine an aging biomarker?,” *Science* 388(6751):eadl2116 (2025)](https://doi.org/10.1126/science.adl2116).
+- Marcangeli V et al., [“Experimental Evidence Against Taurine Deficiency as a Driver of Aging in Humans,” *Aging Cell* 24(10):e70191 (2025)](https://doi.org/10.1111/acel.70191).
+- O registro TauAge indica que o ensaio terminou, mas não apresenta resultados; consulta em 11 de novembro de 2026. [DRKS00035066](https://drks.de/search/en/trial/DRKS00035066).

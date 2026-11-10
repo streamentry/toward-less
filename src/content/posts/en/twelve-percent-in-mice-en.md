@@ -1,26 +1,37 @@
 ---
+
 title: "Twelve Percent, in Mice"
-description: "A post says an amino acid extended lifespan by up to 12% and protected skin from UV damage. Every clause is true — of mice and worms. The human part of the story changed in 2025, and the post did not."
+description: "Animal studies found lifespan and skin effects in mice. Human studies have not shown that taurine supplements slow aging."
 author: "C.S Chánh Niệm"
 lang: en
 slug: twelve-percent-in-mice-en
 translationKey: taurine-aging-2026
 pubDatetime: 2026-11-09T21:30:00+07:00
+modDatetime: 2026-11-11T00:37:00+07:00
 draft: false
 featured: false
 tags: [life]
 ---
+A post says taurine extended life by up to 12% and may protect skin from UV. Those results come from animals. A human anti-aging benefit has not been established.
 
-"This amino acid extended lifespan by up to 12%, reduced cellular aging markers, improved mitochondrial function, and showed potential to protect skin against UV damage." Every clause is true. None of it is about people. The post does not say "in mice" anywhere, and that omission is the whole story.
+## Animal findings
 
-The amino acid is taurine, and the 12% comes from a real paper in *Science*, June 2023, by Singh and colleagues. Taurine is one of the most abundant amino acids in the body, and the paper found its levels fall with age — in mice, from 132 to 40 nanograms per millilitre of blood between four weeks and fifty-six weeks; in monkeys, 85% lower at fifteen years than at five; in humans, more than 80% lower in the elderly than in the young, in their samples. Then the reversal: middle-aged mice fed taurine at 1,000 milligrams per kilo per day lived 10 to 12% longer at the median, and their life expectancy at 28 months rose 18 to 25%. Worms lived 10 to 23% longer. Monkeys, over the study's window, showed better healthspan. Mechanistically the paper touches nearly every hallmark of aging at once: less cellular senescence, protection against telomerase deficiency, less mitochondrial dysfunction, less DNA damage, less inflammaging. Its one-sentence summary is blunt: "Taurine supplementation extends healthy lifespan."
+- A 2023 *Science* study gave middle-aged mice 1,000 mg/kg/day. Median lifespan increased 10–12%, and estimated life expectancy at 28 months rose 18–25%. Worms lived longer; monkeys showed improved health markers. The human data in the paper were observational, not a taurine trial.
+- A 2021 study gave taurine in drinking water to UVB-exposed hairless mice. It reduced moisture loss and wrinkle formation. The study did not test human skin.
 
-The skin claim comes from a second paper, Yoshimura and colleagues, 2021. Hairless mice, irradiated with UVB until they wrinkled, were given taurine in their drinking water — and the wrinkles eased, the moisture returned, the skin's own taurine partly restored. It is a good mouse study. It is a mouse study. The post's "showed potential to protect skin against UV damage" is doing quiet work with the word "potential": the potential was demonstrated in hairless mice drinking taurine water, not in human skin.
+## Human evidence
 
-Then 2025 happened, and the human part of the story changed. A team led by the National Institute on Aging, publishing in *Science* in June 2025, measured taurine in three human cohorts — more than a thousand people, ages twenty to a hundred, followed over time as well as compared across ages — and found it did not decline with age. It stayed the same or rose. The institute's own statement concluded taurine is unlikely to serve as a reliable biomarker of human aging. A second 2025 study, in *Aging Cell*, measured 137 men aged twenty to ninety-three and found no association between circulating taurine and age, muscle mass, strength, physical performance, or mitochondrial function. The critics noted something specific about the 2023 human data: the decline was driven mostly by the very young, and people over sixty-five were largely missing from it. The foundation of the human claim was thinner than the headline suggested.
+- A 2025 *Science* study found taurine levels often rose or stayed stable with age across longitudinal and cross-sectional cohorts. This challenged taurine as a universal aging marker; it did not test supplementation.
+- A 2025 analysis of 137 men aged 20–93 found no link between blood taurine and age, muscle mass, strength, physical performance, or mitochondrial function. It was observational and included only men.
+- The completed TauAge randomized trial tested 4 g/day against placebo for six months in 91 adults aged 55–75. Its registry lists no results as of 11 November 2026.
 
-The 2023 paper's senior author, Vijay Yadav, has replied that the animal data stand and that the human question needs a prospective trial — which his team is now running. That is a fair reply, and it is also the point. The question is open, not answered. The post presents it as answered. No human trial has shown taurine slows aging in people. The 12% is a mouse number, at a dose of 1,000 milligrams per kilo per day — a dose no human supplement matches. The skin is mouse skin. The human decline may not exist.
+These studies do not show that taurine cannot help anyone. They show that animal results do not establish longer life or skin protection in people. The mouse dose is not a human dose. The human decline reported in 2023 was not consistent across later cohorts. Taurine remains a research question, not a proven anti-aging treatment.
 
-This is the shape of a familiar cycle: a striking animal paper, a supplement boom, a correction two years later. The post is a snapshot of 2023 presented as a fact of 2026. Science moved; the caption did not. Taurine remains a real molecule with real animal data and an unsettled human story — worth watching, not worth buying as a verdict. The honest sentence is shorter than the post's: in mice, taurine extended life by up to 12%. In people, we do not know yet, and the first thing we thought we knew turned out to be wrong.
+## Sources
 
-*Inspired by the X post ["this amino acid extended lifespan by up to 12%, reduced cellular aging markers, improved mitochondrial function, and showed potential to protect skin against UV damage."](https://x.com/alexeixbt/status/2119567882824679855) by [alexei (@alexeixbt)](https://x.com/alexeixbt/status/2119567882824679855). The post was verified on 9 November 2026: 6:08 AM, 9 Nov 2026, 3,147 views. The papers it shows are Singh et al., "Taurine deficiency as a driver of aging," Science, 9 June 2023, [PMC10630957](https://pmc.ncbi.nlm.nih.gov/articles/PMC10630957/), and Yoshimura et al., "Protective effect of taurine on UVB-induced skin aging in hairless mice," Biomedicine & Pharmacotherapy (2021), [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0753332221006806), both read in full before writing. The 2025 challenge is Fernandez et al., Science, 5 June 2025 (PMID 40472098), and Marcangeli et al., Aging Cell 24(10):e70191 (2025), [doi:10.1111/acel.70191](https://doi.org/10.1111/acel.70191).*
+- alexei (@alexeixbt), X post on taurine, posted 9 November 2026, [status 2119567882824679855](https://x.com/alexeixbt/status/2119567882824679855), checked 9 November 2026. The page could not be reloaded in this revision; direct quotations were omitted.
+- Singh P et al., [“Taurine deficiency as a driver of aging,” *Science* 380(6649):eabn9257 (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10630957/).
+- Yoshimura T et al., [“Protective effect of taurine on UVB-induced skin aging in hairless mice,” *Biomedicine & Pharmacotherapy* 141:111898 (2021)](https://doi.org/10.1016/j.biopha.2021.111898).
+- Fernandez ME et al., [“Is taurine an aging biomarker?,” *Science* 388(6751):eadl2116 (2025)](https://doi.org/10.1126/science.adl2116).
+- Marcangeli V et al., [“Experimental Evidence Against Taurine Deficiency as a Driver of Aging in Humans,” *Aging Cell* 24(10):e70191 (2025)](https://doi.org/10.1111/acel.70191).
+- The TauAge registry lists the randomized study as complete but provides no results, checked 11 November 2026. [DRKS00035066](https://drks.de/search/en/trial/DRKS00035066).
