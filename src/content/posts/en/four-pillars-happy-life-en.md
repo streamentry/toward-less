@@ -1,32 +1,37 @@
 ---
 title: "Four Pillars, Counted"
-description: "55% with all four, 8% with none — what the numbers say about a happy life, and what they do not."
+description: "A reanalysis of GSS data links four narrowly defined indicators with self-reported happiness. It does not show that adding a pillar causes happiness."
 author: "C.S Chánh Niệm"
 lang: en
 slug: four-pillars-happy-life-en
 translationKey: four-pillars-happy-life-2026
 pubDatetime: 2026-11-08T22:45:00+07:00
+modDatetime: 2026-11-11T01:37:00+07:00
 draft: false
 featured: false
 tags: [life]
 ---
+A chart shared by Anthony Pompliano links four social indicators to happiness and credits Brad Wilcox and Arthur Brooks. A reanalysis of NORC’s public GSS data makes the definitions and limits clearer.
 
-The chart is simple enough to read at a glance. Among Americans aged 25 to 54, 8% of those with none of the four pillars say they are "very happy." With one pillar, 12%. With two, 22%. With three, 34%. With all four, 55%.
+## How the count was defined
 
-That last step is the one that catches the eye: nearly seven times as likely to be very happy as those with none. Only 6% of adults in the survey have all four. Most have one or two — 29% have one, 34% have two.
+- Faith: attend religious services weekly or more.
+- Family: currently married.
+- Friends: spend an evening with friends several times a year or more.
+- Work: very satisfied with a job, or married and not working.
 
-The four pillars, inspired by Arthur Brooks, are defined narrowly here. Faith means attending religious services every week or more. Family means being married. Friends means spending a social evening with friends at least a few times a year. Work means being very satisfied with a job — or being married and not working.
+Among 3,307 respondents aged 25–54 in the 2021, 2022, and 2024 surveys, the weighted share saying “very happy” rose with the count: 8.7% with none, 11.1% with one, 21.2% with two, 34.0% with three, and 54.7% with all four. About 6.3% had all four. The original X chart’s rounded figures differ slightly; its page could not be reloaded to check the exact coding or weights.
 
-Each pillar on its own is linked to greater happiness, even after accounting for age, sex, race, education, income, and survey year. That is the survey's claim, from the General Social Survey in 2021, 2022, and 2024, with 3,307 adults.
+Estimates use WTSSNRPS, NORC’s post-stratification weight with a nonresponse adjustment. The 2021 GSS shifted to web; 2022 and 2024 used mixed modes.
 
-It is worth saying plainly what the numbers do not show. They do not show that adding a pillar causes happiness. A person who is married, employed, sociable, and observant may differ from others in ways the survey did not measure. And 55% is not everyone: even with all four pillars in place, 45% do not call themselves very happy.
+## What the numbers cannot show
 
-The definitions are also narrower than the words. Faith can be a practice, a philosophy, a sense of something larger than oneself — here it is counted only as weekly attendance. Family is counted only as marriage. Friendship is counted only as an evening out a few times a year. Work is counted only as satisfaction, or its absence by arrangement. A life can be rich in each of these and still score low on this chart, or score high and still feel thin.
+These are cross-sectional, self-reported associations. They do not show that adding a pillar makes someone happier. The definitions are narrow, and the work rule counts marriage again for married people who are not working. Even among those with all four indicators, 45.3% did not answer “very happy.”
 
-That is not a reason to dismiss the chart. It is a reason to read it as a prompt, not a prescription. Four places to invest attention, over time, in small deposits: a practice larger than oneself, a household kept with care, friends seen in person, work that serves someone and earns its keep. None of them can be bought, and none of them arrive all at once.
+Treat the chart as one way to summarize selected survey answers, not a universal checklist for a good life.
 
-The temptation is to turn four pillars into a checklist, and a checklist into another thing to strive for and fall short of. The survey does not ask for that. It asks, quietly, where the weight of a life is resting — and whether it is resting on one leg.
+## Sources
 
-**Four pillars, counted. The rest is how you live with the count.**
-
-*Inspired by a post from [Anthony Pompliano (@APompliano)](https://x.com/APompliano/status/2119429372323021234) on X, crediting Brad Wilcox (@BradWilcoxIFS) and Arthur Brooks (@arthurbrooks). The chart, "The Four Pillars of a Happy Life," is from the General Social Survey, 2021, 2022 and 2024, adults ages 25–54 (N = 3,307), weighted; pillars inspired by Arthur Brooks. The post was verified on 8 November 2026: 8:58 PM, 8 November 2026.*
+- Anthony Pompliano (@APompliano), X post sharing a four-pillars happiness chart and crediting Brad Wilcox and Arthur Brooks, posted 8 November 2026, [status 2119429372323021234](https://x.com/APompliano/status/2119429372323021234), checked 8 November 2026. The page could not be reloaded in this revision; the chart’s exact coding and weights are unverified.
+- NORC, [General Social Survey 1972–2024 cumulative data, Release 3a (July 2026)](https://gss.norc.org/get-the-data/stata.html).
+- NORC, [2024 General Social Survey Cross-section Codebook, Release 3a](https://gss.norc.org/content/dam/gss/get-documentation/pdf/codebook/GSS%202024%20Codebook%20R3a.pdf).

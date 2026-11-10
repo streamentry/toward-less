@@ -1,32 +1,37 @@
 ---
 title: "Empat Pilar, Dihitung"
-description: "55% dengan keempatnya, 8% tanpa satu pun — apa yang dikatakan angka-angka tentang hidup bahagia, dan apa yang tidak."
+description: "Analisis ulang data GSS mengaitkan empat indikator yang didefinisikan secara sempit dengan kebahagiaan yang dilaporkan sendiri. Ini tidak membuktikan bahwa menambah satu indikator menyebabkan kebahagiaan."
 author: "C.S Chánh Niệm"
 lang: id
 slug: empat-pilar-kehidupan-bahagia-id
 translationKey: four-pillars-happy-life-2026
 pubDatetime: 2026-11-08T22:45:00+07:00
+modDatetime: 2026-11-11T01:37:00+07:00
 draft: false
 featured: false
 tags: [life]
 ---
+Sebuah grafik yang dibagikan Anthony Pompliano menghubungkan empat indikator sosial dengan kebahagiaan dan menyebut Brad Wilcox serta Arthur Brooks. Analisis ulang data publik GSS dari NORC memperjelas definisi dan batasnya.
 
-Grafiknya cukup sederhana untuk dibaca sekilas. Di antara orang Amerika berusia 25 hingga 54 tahun, 8% dari mereka yang tidak memiliki satu pun dari empat pilar mengatakan mereka "sangat bahagia". Dengan satu pilar, 12%. Dengan dua, 22%. Dengan tiga, 34%. Dengan keempatnya, 55%.
+## Cara indikator dihitung
 
-Langkah terakhir itulah yang paling menarik perhatian: hampir tujuh kali lebih mungkin merasa sangat bahagia dibandingkan mereka yang tidak memiliki satu pun. Hanya 6% orang dewasa dalam survei yang memiliki keempatnya. Sebagian besar memiliki satu atau dua — 29% memiliki satu, 34% memiliki dua.
+- Iman: menghadiri ibadah keagamaan setiap minggu atau lebih sering.
+- Keluarga: sedang menikah.
+- Teman: menghabiskan malam bersama teman beberapa kali setahun atau lebih.
+- Pekerjaan: sangat puas dengan pekerjaan, atau menikah dan tidak bekerja.
 
-Keempat pilar itu, yang terinspirasi oleh Arthur Brooks, didefinisikan di sini secara sempit. Iman berarti menghadiri kebaktian setiap minggu atau lebih. Keluarga berarti menikah. Teman berarti menghabiskan malam bersama teman setidaknya beberapa kali dalam setahun. Pekerjaan berarti sangat puas dengan pekerjaan — atau menikah dan tidak bekerja.
+Di antara 3.307 responden berusia 25–54 tahun dalam survei 2021, 2022, dan 2024, proporsi berbobot yang menyebut dirinya “sangat bahagia” meningkat seiring jumlah indikator: 8,7% tanpa indikator, 11,1% dengan satu, 21,2% dengan dua, 34,0% dengan tiga, dan 54,7% dengan empat. Sekitar 6,3% memiliki keempatnya. Angka pembulatan pada grafik X sedikit berbeda; halaman tidak dapat dimuat ulang untuk memeriksa pengodean dan bobotnya.
 
-Setiap pilar dengan sendirinya terkait dengan kebahagiaan yang lebih besar, bahkan setelah memperhitungkan usia, jenis kelamin, ras, pendidikan, penghasilan, dan tahun survei. Itulah klaim survei ini, dari General Social Survey pada 2021, 2022, dan 2024, dengan 3,307 orang dewasa.
+Estimasi memakai bobot WTSSNRPS dari NORC, dengan penyesuaian pascastratifikasi dan nonrespons. GSS beralih ke mode web pada 2021; pada 2022 dan 2024 menggunakan mode campuran.
 
-Perlu dikatakan dengan jelas apa yang tidak ditunjukkan oleh angka-angka itu. Angka-angka itu tidak menunjukkan bahwa menambah satu pilar menyebabkan kebahagiaan. Seseorang yang menikah, bekerja, mudah bergaul, dan taat beribadah bisa saja berbeda dari orang lain dalam hal-hal yang tidak diukur oleh survei. Dan 55% bukan berarti semua orang: bahkan dengan keempat pilar yang sudah ada, 45% tidak menyebut diri mereka sangat bahagia.
+## Yang tidak dibuktikan angka ini
 
-Definisi-definisinya juga lebih sempit daripada kata-katanya. Iman bisa berupa suatu praktik, suatu filsafat, suatu rasa akan sesuatu yang lebih besar dari diri sendiri — di sini ia hanya dihitung sebagai kehadiran mingguan. Keluarga hanya dihitung sebagai pernikahan. Persahabatan hanya dihitung sebagai malam keluar beberapa kali dalam setahun. Pekerjaan hanya dihitung sebagai kepuasan, atau ketiadaannya karena suatu pengaturan. Hidup seseorang bisa kaya dalam masing-masing hal itu namun tetap mendapat skor rendah pada grafik ini, atau mendapat skor tinggi namun tetap terasa hampa.
+Ini adalah hubungan lintas waktu berdasarkan jawaban sendiri; bukan bukti bahwa menambah indikator menyebabkan kebahagiaan. Definisinya sempit, dan aturan kerja menghitung status menikah sekali lagi bagi orang menikah yang tidak bekerja. Bahkan di antara yang memiliki empat indikator, 45,3% tidak mengatakan “sangat bahagia”.
 
-Itu bukan alasan untuk mengabaikan grafik ini. Itu alasan untuk membacanya sebagai ajakan, bukan resep. Empat tempat untuk menaruh perhatian, dari waktu ke waktu, dalam setoran-setoran kecil: suatu praktik yang lebih besar dari diri sendiri, rumah tangga yang dirawat dengan penuh perhatian, teman-teman yang ditemui langsung, pekerjaan yang melayani seseorang dan menghidupi dirinya sendiri. Tak satu pun dari semua itu bisa dibeli, dan tak satu pun datang sekaligus.
+Baca grafik ini sebagai ringkasan beberapa jawaban survei, bukan daftar universal untuk hidup baik.
 
-Godaan yang muncul adalah mengubah empat pilar menjadi daftar periksa, dan daftar periksa menjadi hal lain yang harus diperjuangkan lalu gagal dicapai. Survei itu tidak meminta hal itu. Survei itu bertanya, dengan diam-diam, di mana beban hidup bertumpu — dan apakah ia bertumpu pada satu kaki saja.
+## Sumber
 
-**Empat pilar, sudah dihitung. Selebihnya adalah bagaimana Anda hidup dengan hitungan itu.**
-
-*Terinspirasi oleh sebuah unggahan dari [Anthony Pompliano (@APompliano)](https://x.com/APompliano/status/2119429372323021234) di X, dengan kredit kepada Brad Wilcox (@BradWilcoxIFS) dan Arthur Brooks (@arthurbrooks). Grafik, "The Four Pillars of a Happy Life", berasal dari General Social Survey, 2021, 2022 dan 2024, orang dewasa berusia 25–54 tahun (N = 3,307), tertimbang; pilar-pilar terinspirasi oleh Arthur Brooks. Unggahan itu diverifikasi pada 8 November 2026: 8:58 PM, 8 November 2026.*
+- Anthony Pompliano (@APompliano), unggahan X yang membagikan grafik empat pilar kebahagiaan dan memberi kredit kepada Brad Wilcox serta Arthur Brooks, diposting 8 November 2026, [status 2119429372323021234](https://x.com/APompliano/status/2119429372323021234), diperiksa pada hari itu. Halaman tidak dapat dimuat ulang; pengodean dan bobot grafik tidak terverifikasi.
+- NORC, [General Social Survey 1972–2024 cumulative data, Release 3a (July 2026)](https://gss.norc.org/get-the-data/stata.html).
+- NORC, [2024 General Social Survey Cross-section Codebook, Release 3a](https://gss.norc.org/content/dam/gss/get-documentation/pdf/codebook/GSS%202024%20Codebook%20R3a.pdf).
