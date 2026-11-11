@@ -1,30 +1,29 @@
 ---
 title: "遗忘大众的框架"
-description: "Jay Yang 的 PTL 框架——权力、信任、相似——是思考影响力的一个好用方法。但它也是未经引用的西奥迪尼翻版，而它自己的一句话总结点出了一个框架并未涵盖的力量：大众。"
+description: "PTL适合作为个人联络清单，但不是完整的影响力理论。文章中的例子也显示了框架遗漏的因素。"
 author: "C.S Chánh Niệm"
 lang: zh
 slug: wang-ji-le-da-zhong-de-kuang-jia-zh
 translationKey: ptl-framework-2026
 pubDatetime: 2026-11-10T22:41:00+07:00
+modDatetime: 2026-11-11T08:19:00+07:00
 draft: false
 featured: false
 tags: [life]
 ---
 
-「How to Get Rich and Powerful People to Want to Work With You」是 Jay Yang 的一篇 X Article，它的开篇方式正如其框架所言：以权力开场。16 岁时，他给 beehiiv 的 CEO 发了一封冷邮件，附上一份创意清单，由此获得了一份实习。17 岁时，他给 AppSumo 的创始人寄去一份 19 页的分析，指出其社交与邮件营销的缺口，被聘为内容主管。19 岁时，他从大学退学，搬到拉斯维加斯，与 Alex 和 Leila Hormozi 在 Acquisition.com 共事。两本畅销书，其中一本登上亚马逊畅销榜第一。一家公司 Revenue Media Lab，不到两周就达到了七位数的营收速度。然后是框架：PTL——power（权力）、trust（信任）、likeness（相似）。「说白了，我们倾听有权势的人、亲近的人，以及大众。」
+Jay Yang 将 PTL——权力、信任、相似性——作为个人联络清单，而非完整的影响力理论。
 
-这份履历，就其本身而言，大体经得起核查。2025 年的播客访谈印证了其大致轮廓：给 beehiiv CEO Tyler Denk 发冷邮件并附上三点提案，暑期实习期间制作了一门名为 Beehiiv 101 的课程，花了 50 个小时为 Noah Kagan 制作一份 19 页的演示文稿，帮助《Million Dollar Weekend》登上《纽约时报》畅销榜，第一本书《You Can Just Do Things》于 2025 年 4 月自费出版，并被一档播客称为亚马逊畅销书。那些需要第二来源佐证的细节——「亚马逊畅销榜第一」里的「第一」、第二本书、不到两周达到七位数营收速度、19 岁退学——目前仍是他自己的说法，本文将如此对待它们。这里重要的不是每个数字是否精确。重要的是，这篇文章是其自身框架的一次演示，而演示的部分才是诚实的部分。Yang 自己在文章中途就说了：「如果你注意到了，我开篇就告诉你，我与 3 位了不起的人合作过，我经营着一家七位数营收的公司，写过 2 本畅销书。我做了什么？我给自己打了品牌。」他一边展示这个把戏，一边施展这个把戏。这比应有的情形更为罕见，也正是这篇文章即使在出错之处仍值得认真对待的原因。
+- **权力**与 Cialdini 的权威原则相近。
+- **相似性**与好感、共同身份有重叠；Cialdini 将共同身份视为独立因素。
+- **信任**不在 Cialdini 的七项原则之中。Mayer 等人 1995 年的模型把可信度分为能力、善意和正直。Yang 用信念与证据来概括信任，只是一种简写。
 
-这个框架很好。但它并不新，而缺失的引用是第一个需要修正之处。1984 年，Robert Cialdini 出版了《Influence: The Psychology of Persuasion》，基于在说服从业者中进行的三年卧底田野调查，提出了六条原则：互惠（reciprocity）、承诺与一致（commitment and consistency）、社会认同（social proof）、喜好（liking）、权威（authority）和稀缺（scarcity）。第七条，统一（unity），在 2021 年版中加入。把 PTL 对照这份清单，重叠一目了然。Power 就是权威：我们倾听拥有我们想要之物的人，而 Yang 自己的定义——「你影响世界的能力」——就是去掉了头衔的权威。Likeness 是喜好，并入了统一：我们对与我们相似、与我们共享信念与价值观、属于我们群体的人说「是」。Trust 是那个例外——它不在 Cialdini 的六条之中，而这很有意思，因为信任可以说是贯穿六条原则的机制，而不是一个独立的杠杆。Yang 的公式「Trust = belief + evidence」（信任＝信念＋证据）简洁却不完整：信任文献中的经典模型 Mayer、Davis 和 Schoorman（1995）把可信度拆解为能力（ability）、善意（benevolence）与正直（integrity）——你能做什么、你是否怀有善意、你是否言行一致。Yang 的「信念＋证据」只抓住了能力的一半，对善意与正直只字未提，殊为可惜，因为正直是信任中品牌无法长期伪装的部分。
+文章结尾也提到大众的影响。我将其理解为社会认同。文中公开为同行提供帮助、且没有立即提出请求的例子，更像互惠原则，而非相似性。PTL没有为这两者留位置。文章还说注意力很便宜，但它关于分发的论点又假设注意力稀缺。更清楚的说法是：内容生产变容易了，注意力仍有限。
 
-但最尖锐的修正不是 PTL 像 Cialdini。而是 PTL 自己的一句话总结点出了一种框架并不包含的力量。「我们倾听有权势的人、亲近的人，以及大众。」有权势的人是 P。亲近的人是 L。大众是社会认同——Cialdini 的第三条原则，「当不确定时，我们看别人怎么做」——而 PTL 没有为它留一个字母。没有 S。这个承诺解释影响力的框架，漏掉了影响力最有据可查的单一驱动力，而文章接下来在每一页上都在演示这股被遗漏的力量。开篇是借关联产生的社会认同：beehiiv、AppSumo、Hormozi——三个你已经信任的名字，借给一个你还不认识的名字。书的封面上有 Noah Kagan 写的序言。招聘一节承诺，有了品牌，「一流人才会主动来找你」。整篇文章都是大众在起作用。一个遗忘大众的框架，是一个看不见自身引擎的框架，而引擎正在做大部分的工作。
+把 PTL 当作提醒，不要当成完整解释；说明它遗漏了哪些力量。
 
-第二个修正关乎经济学。「资产曾经是注意力。但现在注意力很便宜。真正的资产是信任。」这把论证的方向说反了。如果 AI 能建造任何东西，任何人都能在一分钟内生产一篇 LinkedIn 帖子、一条推文串和一个 YouTube 脚本，那么供给已经爆炸——而当供给爆炸时，稀缺之物变得更有价值，而不是更便宜。注意力现在并不便宜。注意力正是稀缺之物，而这恰恰是 Yang 下一句话正确的原因：「唯一剩下的优势是分发。」分发之所以有价值，是因为注意力稀缺。便宜的是生产。这篇文章把两者混为一谈，而这种混淆很重要，因为它说错了品牌是用来干什么的。品牌不是用信任取代注意力。品牌是一种反复从同一群人那里赢得注意力的方法，好让信任得以积累。没有注意力的信任是个秘密。没有信任的注意力是一阵短暂的爆发。框架两者都需要，而说注意力便宜的那句话，正是文章与自己争论的地方。
+## 来源
 
-第三个修正是拯救这篇文章的修正，那就是信任一节——PTL 中真正属于 Yang 自己的部分，也是全篇最好的部分。信任，他说，是由一个循环建立的：你给某人一个方向，他们照做，得到了积极的结果，于是他们把这份价值与你联系起来。Martha Stewart 几十年来就是这样用食谱做到的：照着食谱做，烤出好东西，得到朋友的称赞，下一次 Martha 让你买她的食谱书时，你就照办。你的父母用蔬菜和牛奶也是这样做的。接着是让文章变得诚实的转折：「你可能注意到了，在每个框架之后，我都会给你一些东西写下来去做。为什么？因为如果你读完这篇文章，执行了策略，品牌大获成功，你将来听我的话的可能性就更高。」这篇文章一边解释循环，一边在你身上运行这个循环。每一节都以练习收尾——你需要哪些联想、你的客户想要什么、你能给出哪些循序渐进的指示、你共享哪些信念——因为练习就是机制。如果你照做并且奏效，你就信任他。如果你照做却没有奏效，你就不信任。信任一节不是关于信任的理论。它是一台拆掉外壳的信任制造机，而 Yang 是故意把外壳拆掉的。这是文章真正的贡献，而它不在首字母缩略词里。
-
-关于框架本身还有最后一件事要说，因为标题在做框架并不承认的工作。「How to Get Rich and Powerful People to Want to Work With You」。按文章后记自己的说法，这篇文章是 Revenue Media Lab（一家代笔全包服务机构）的销售漏斗：「如果你想让我们为你打造品牌，请预约通话。」这没什么错。但这个框架——有钱有势的人，想与你合作——悄悄地把整篇文章的方向定为向上。在这篇文章里，影响力只朝一个方向流动：从无名之辈流向有权势者。相似一节只展示过一次相反的方向，而那是全篇最好的故事：多年前，Yang 写了一篇综合 Shaan Puri 思想的帖子并 @ 了他，两年后，当 Shaan 招人时，他想起了 Yang。这不是一个关于给有权势者留下印象的故事。这是一个关于公开地对一位同辈有用、不附带任何要求——而顺带一提，这是文章中唯一一个与所定义的权力、信任或相似毫无关系的故事。它讲的是慷慨，也就是 Cialdini 的互惠，是 PTL 同样漏掉的原则。框架有三个字母。文章最好的时刻却不断需要第四个和第五个字母。
-
-所以，拿走这个框架，但要连同它缺失的字母一起拿走。Power：展示你拥有他们想要的东西，先说出来，再展示出来。Trust：给出切实有效的指示，让结果自己去说服。Likeness：传递你们共享的东西，内在的比外在的更多。然后加上总结早已承诺而缩略词却遗忘的东西：大众——展示别人已经在倾听，因为当我们不确定时，我们会看别人怎么做。再加上文章中最好的故事真正展示的东西：互惠——先公开地提供帮助，不附带任何要求。修正后的 PTL 是 PTLSR。它在维恩图上不那么整齐。它更贴合世界。
-
-*灵感来自 X Article《[《如何让有钱有势的人想与你合作》](https://x.com/jayyanginspires/status/2120154648975937662)》，作者 [Jay Yang (@Jayyanginspires)](https://x.com/jayyanginspires/status/2120154648975937662)。该文章于 10 November 2026 核实：9:00 PM, 10 Nov 2026, 1,212 views, 20 likes, 2 reposts。该账号已验证。履历已对照 2025 年的播客访谈核查（Writer on the Side，〈How 19-Year-Old Jay Yang Published His First Amazon Bestseller〉，24 September 2025；Beyond the Book，〈How He Launched a NYT Bestseller as a Teenager〉）：给 beehiiv 的冷邮件、AppSumo 演示文稿和第一本书得到印证；「#1 Amazon bestseller」、第二本书、七位数营收速度以及 19 岁退学是作者自己的说法，本文未作独立确认。Cialdini 的六条原则出自 Robert B. Cialdini, Influence: The Psychology of Persuasion (1984)；unity 于 2021 年版加入。所引用的信任模型为 Mayer, Davis, and Schoorman, Academy of Management Review 20(3):709–734 (1995)。*
+- Jay Yang, “How to Get Rich and Powerful People to Want to Work With You,” X Article (10 Nov 2026), [status 2120154648975937662](https://x.com/jayyanginspires/status/2120154648975937662). 本次修订无法重新加载页面；本文转述保存的来源，没有直接引文。
+- Robert B. Cialdini, *Influence: The Psychology of Persuasion* (1984; expanded edition, 2021). [Author’s record](https://cialdini.com/about); [Unity](https://cialdini.com/principles/unity).
+- Roger C. Mayer, James H. Davis, and F. David Schoorman, “An Integrative Model of Organizational Trust,” *Academy of Management Review* 20(3), 709–734 (1995). [DOI](https://doi.org/10.5465/amr.1995.9508080335).

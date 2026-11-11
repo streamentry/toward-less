@@ -1,28 +1,25 @@
 ---
 title: "The Only Person"
-description: "A post with a hundred thousand views says your mother is the only person in the world who loves you unconditionally when you're broke, unemployed, and at your lowest. The advice is good. The word 'only' is doing damage the advice doesn't need."
+description: "The call to care for your mother stands without claiming she is the only person who will love you."
 author: "C.S Chánh Niệm"
 lang: en
 slug: the-only-person-en
 translationKey: take-care-of-your-mother-2026
 pubDatetime: 2026-11-10T22:43:00+07:00
+modDatetime: 2026-11-11T07:59:00+07:00
 draft: false
 featured: false
 tags: [life]
 ---
 
-"Take care of your mother. she's the only person in the world who loves you unconditionally when you're broke, unemployed, and at your lowest."
+An X post urges people to care for their mothers, then says a mother is the only person who will love you unconditionally at your lowest. I paraphrase the saved text; the post could not be reloaded in this revision.
 
-The first sentence is good advice. The second is a claim about the world, and it is false in the way that most sentimental claims are false: it is true for many people, stated as if it were true for everyone, and the people it is not true for are the ones who can least afford to hear it stated that way.
+- **Only** turns advice into a universal claim. People may also be supported by fathers, partners, friends, relatives, or chosen family. Some mothers are absent, harmful, or unsafe.
+- **Unconditionally** compresses complicated relationships. Care can include limits, conflict, and disappointment.
+- **Take care of your mother** is useful advice when the relationship is safe and caring.
 
-Start with the word that does the damage: "only." Your mother is not the only person who can love you unconditionally. Fathers do. Grandparents do. Partners do. Friends do — sometimes the friend who brings food to your door when you have lost your job and stopped answering your phone is loving you with fewer conditions than anyone in your family ever managed. And "unconditionally" is doing damage of its own, because it describes a love that does not exist in the pure form the post imagines. Mothers get tired. Mothers get disappointed. Mothers keep score, sometimes, and withdraw, sometimes, and love you through gritted teeth, sometimes. The love that survives a son at his lowest is not usually love without conditions. It is love that stayed through the conditions — through the unemployment, the silence, the version of you that was hard to be around. That is a stronger thing than unconditional love, and a truer one. Calling it unconditional flatters it and falsifies it at the same time.
+Keep the call to return care; drop the claim that only a mother can give it. If your mother was not the person who showed up for you, direct that care toward someone who did.
 
-Then there is the harder correction, and it has to be said plainly, because the post erases the people it is hardest for. Not every mother loves her child. Some mothers are absent. Some are cruel. Some love conditionally in the most literal sense: as long as you succeed, as long as you obey, as long as you are the child they wanted. Some children grow up, lose everything, and go home to find that the door is closed — or that the door is open but the price of walking through it is to become someone else. For those people, the post does not read as advice. It reads as an accusation: you have no one because you failed to keep the one person who was supposed to love you. The post's audience is people at their lowest — broke, unemployed, at their lowest — and for the subset of them whose mothers did not love them, the sentence "she's the only person" is not comfort. It is a second abandonment, delivered as a platitude.
+## Source
 
-None of this makes the advice wrong. "Take care of your mother" is good advice, and the reason it is good has nothing to do with "only" or "unconditionally." It is good because of what attachment research has shown since John Bowlby's Attachment and Loss in 1969: the primary caregiver is the secure base, the person whose presence makes the world explorable and whose absence makes it frightening, and that role does not end when childhood ends. It is good because, in practice, mothers are often the last safety net — the person who takes the call at 2 a.m., who lets you move back in, who feeds you without a lecture, or with a lecture you can afford to hear because the food is already on the table. When you are broke and unemployed, the people who help you are rarely the people who admired you. They are the people who knew you before there was anything to admire. For many people, that person is their mother. The post is describing something real. It is just describing it with words that claim too much and therefore protect too little.
-
-There is also a quieter truth inside the sentence, and it is the one worth keeping. "Take care of your mother" is addressed to someone who is at their lowest, and the advice points outward. When you are broke and unemployed, your attention collapses inward — your debts, your failures, your fear. The post tells you to look at one other person. Not to fix yourself first. Not to wait until you are worthy of helping someone. To take care of your mother now, from the bottom, with whatever you have. That is the opposite of the usual advice for people at their lowest, which is to focus on yourself until you are strong enough to be generous. The post says: generosity is not something you do after you recover. It is part of how you recover. A phone call costs nothing. A visit costs an afternoon. And the person who receives it is the person who has already spent years on you. That part of the post is not sentimental. It is practical, and it is right.
-
-So keep the advice and drop the superlative. Take care of your mother — not because she is the only person in the world who loves you unconditionally, but because she is, for many of us, the person whose love has already survived the worst version of us, and because love that has survived that deserves to be returned while there is still time. And if your mother is not that person — if she never was, or if she stopped being — then the advice still holds, with the name changed. Take care of the person who was there when there was nothing in it for them. They are rarer than the post admits, and more common than it claims, and they are not always your mother. Find them. Take care of them. The rest of the sentence was never the point.
-
-*Inspired by the X post ["Take care of your mother. she's the only person in the world who loves you unconditionally when you're broke, unemployed, and at your lowest."](https://x.com/buka005/status/2119821303473479914) by [B U K A 💰 (@Buka005)](https://x.com/buka005/status/2119821303473479914). The post was verified on 10 November 2026: 10:55 PM, 9 Nov 2026, 102.7K views, 6.9K likes, 1.2K reposts. The account is verified. The attachment research cited is John Bowlby, Attachment and Loss (1969).*
+- B U K A (@Buka005), X post about caring for one’s mother, posted 9 November 2026, [status 2119821303473479914](https://x.com/buka005/status/2119821303473479914). The page was checked on 10 November but could not be reloaded in this revision; no direct quote is used.

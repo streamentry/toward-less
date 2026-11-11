@@ -1,32 +1,29 @@
 ---
 title: "A Good List With No Dates"
-description: "Claude Fable 5.2 listed the 10 biggest medical breakthroughs of the next 3 years, no explanations. The list is good — nearly every item is real. But the 10 items sit at wildly different stages, and 'no explanations' hides exactly that."
+description: "Three examples span very different stages: an Alzheimer's diagnostic aid already cleared, a Phase 3 melanoma result, and a cholesterol editor in Phase 1."
 author: "C.S Chánh Niệm"
 lang: en
 slug: a-good-list-with-no-dates-en
 translationKey: fable-medical-breakthroughs-2026
 pubDatetime: 2026-11-10T23:48:00+07:00
+modDatetime: 2026-11-11T08:04:00+07:00
 draft: false
 featured: false
 tags: [life]
 ---
 
-Kevin Wimer asked Claude Fable 5.2 a simple question: "What will be the 10 biggest medical breakthroughs in the next 3 years? No explanations." The model listed ten: personalized mRNA cancer vaccines, next-generation obesity drugs, one-time gene editing for cholesterol, custom CRISPR for rare diseases, CAR-T for lupus, blood tests that catch many cancers early, a blood test for Alzheimer's, pig-to-human kidney transplants, stem-cell therapies for diabetes and Parkinson's, and brain-computer interfaces that restore speech and movement.
+An X post asked an AI for ten medical breakthroughs in the next three years. I could not reload the post in this revision, so this paraphrases the saved list. The items sit at different stages. Three examples show why a forecast needs dates and evidence.
 
-The list is good. That is the first thing to say. Nearly every item is real research, not science fiction. The model did not invent a cure for aging or a pill that reverses death. It picked ten programs that exist, with trials running and data published. For a prediction made by a chatbot, that is already better than most human predictions.
+- **Already cleared: an Alzheimer’s blood test.** The FDA cleared Fujirebio’s Lumipulse test in May 2025 to aid diagnosis in symptomatic adults aged 55 and older. It is for specialized care, not screening or stand-alone diagnosis. The clearance does not include a preventive treatment.
+- **Phase 3 result: an individualized mRNA melanoma therapy.** In INTerpath-001, 1,137 patients with resected high-risk melanoma received pembrolizumab plus intismeran or pembrolizumab alone. At 24 months, recurrence-free survival was 82.2% versus 70.0% (HR 0.58). Overall-survival data are not mature, and intismeran remains investigational.
+- **Phase 1: VERVE-102 gene editing for LDL.** In 35 participants, LDL fell by up to 62% at the highest dose. The trial measured safety and cholesterol, not fewer heart attacks or strokes. VERVE-101, a predecessor with a different delivery system, paused enrollment in 2024 after liver-enzyme and platelet abnormalities in one participant.
 
-But the ten items sit at wildly different stages, and "no explanations" hides exactly that. Three examples show the spread.
+These are three different kinds of progress: a cleared diagnostic aid, a positive Phase 3 result for one cancer setting, and an early biomarker result. The list may suggest research areas; it does not yet give a dated forecast of when these interventions will reach patients.
 
-Item 7, the Alzheimer's blood test, has already happened. The FDA cleared the first one — Fujirebio's Lumipulse test — on May 16, 2025. But the fine print matters: it is for adults 55 and older who already have symptoms, in specialized care, and the FDA says it is not a screening test and not a diagnosis on its own. And the list's second half — "and preventive treatment" — is the stretch. There is no preventive Alzheimer's treatment attached to the test. Diagnosis arrived. Prevention did not.
+## Sources
 
-Item 1, the personalized mRNA cancer vaccine, just had its first big win. In October 2026, Moderna and Merck's mRNA-4157 cut the risk of melanoma coming back or killing the patient by 42% in a Phase 3 trial of 1,137 people. That is real, and it is the first Phase 3 success for a vaccine built from a single patient's own tumor. But survival data are not yet mature, and regulatory review could take years. It is a breakthrough on the way, not a breakthrough in the clinic.
-
-Item 3, one-time gene editing to lower cholesterol, is the furthest out. VERVE-102, a base editor that switches off the PCSK9 gene in the liver, cut LDL cholesterol by up to 62% in a Phase 1b trial — of 35 people. The earlier version, VERVE-101, had enrollment halted in 2024 after liver and platelet side effects. Thirty-five people is a signal, not a treatment. What matters — fewer heart attacks and strokes — has not been tested yet.
-
-So the list is three lists in one: things that already arrived, things on the way, and things still in early trials. "The next 3 years" blurs arrival, approval, and availability into one word, and "no explanations" removes the one thing that would let you tell them apart: the stage. A prediction without a stage is a horoscope with better vocabulary — and this is the second time the blog has had to say that about a Fable 5.2 list.
-
-One more detail, visible in the screenshot: before answering, the model wrote "Weighing whether a search would update the forecast." It considered checking. It answered from what it knew instead. For a list about the future of medicine, that is the most honest line in the picture.
-
-Keep the list. Add the dates. The future is not one timeline. It is three, running at different speeds, and the only way to read a prediction is to know which one each item is on.
-
-*Inspired by the X post ["Fable 5.2"](https://x.com/kevinace/status/2119992369865277569/photo/1) by [Kevin Wimer (@kevinace)](https://x.com/kevinace/status/2119992369865277569/photo/1). The post was verified on 10 November 2026: 10:15 AM, 10 Nov 2026, 17.9K views, 121 likes. The post quotes Claude (@claudeai) announcing Claude Fable 5.2 and Claude Mythos 5.2; the screenshot shows Claude's list of 10 medical breakthroughs in reply to "What will be the 10 biggest medical breakthroughs in the next 3 years? No explanations." The Alzheimer's blood test is Fujirebio's Lumipulse G pTau217/β-Amyloid 1-42 Plasma Ratio, cleared by the FDA on 16 May 2025, [details here](https://www.fujirebio.com/en-us/lumipulser-g-ptau-217bamyloid-142-plasma-ratio-test); mRNA-4157 (intismeran autogene), Phase 3 INTerpath-001, 1,137 patients, October 2026; VERVE-102, Phase 1b Heart-2, 35 patients, published in the New England Journal of Medicine in 2026.*
+- Kevin Wimer (@kevinace), “Fable 5.2,” X post, 10 November 2026, [status 2119992369865277569](https://x.com/kevinace/status/2119992369865277569). The page could not be reloaded in this revision; this article paraphrases the saved list and uses no direct quote.
+- U.S. FDA, “FDA Clears First Blood Test Used in Diagnosing Alzheimer’s Disease” (16 May 2025). [Release](https://www.fda.gov/news-events/press-announcements/fda-clears-first-blood-test-used-diagnosing-alzheimers-disease).
+- Merck and Moderna, INTerpath-001 Phase 3 results (22 October 2026). [Release](https://www.merck.com/news/merck-and-moderna-will-present-results-from-landmark-phase-3-interpath-001-trial-for-intismeran-autogene-plus-keytruda-pembrolizumab-at-esmo-2026-presidential-symposium); [trial record NCT05933577](https://clinicaltrials.gov/study/NCT05933577).
+- S. B. Vafai et al., “In Vivo Base Editing of PCSK9 with VERVE-102 for Hypercholesterolemia,” *New England Journal of Medicine* (25 May 2026). [Article](https://www.nejm.org/doi/full/10.1056/NEJMoa2601283).
+- Verve Therapeutics, VERVE-101 Heart-1 enrollment pause (2 April 2024). [Release](https://vervetx.gcs-web.com/news-releases/news-release-details/verve-therapeutics-announces-updates-its-pcsk9-program/).

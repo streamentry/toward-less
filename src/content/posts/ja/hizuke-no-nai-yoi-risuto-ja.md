@@ -1,32 +1,29 @@
 ---
 title: "日付のない良いリスト"
-description: "Claude Fable 5.2は今後3年間の10大医学ブレークスルーを説明なしで挙げた。リストは良い。ほぼすべて本物だ。だが10項目はまったく異なる段階にあり、説明がないことがまさにそれを隠している。"
+description: "3つの例は段階が異なる。FDAが認可した検査、メラノーマの第3相結果、コレステロール遺伝子編集の第1相だ。"
 author: "C.S Chánh Niệm"
 lang: ja
 slug: hizuke-no-nai-yoi-risuto-ja
 translationKey: fable-medical-breakthroughs-2026
 pubDatetime: 2026-11-10T23:48:00+07:00
+modDatetime: 2026-11-11T08:04:00+07:00
 draft: false
 featured: false
 tags: [life]
 ---
 
-Kevin WimerはClaude Fable 5.2にシンプルな質問をした。「What will be the 10 biggest medical breakthroughs in the next 3 years? No explanations.」モデルは10項目を挙げた。個別化mRNAがんワクチン、次世代の肥満治療薬、コレステロールに対する一度きりの遺伝子編集、希少疾患向けカスタムCRISPR、ループスに対するCAR-T、多くのがんを早期に見つける血液検査、アルツハイマー病の血液検査、ブタからヒトへの腎臓移植、糖尿病とパーキンソン病に対する幹細胞治療、そして発話と運動を回復させるブレイン・コンピュータ・インターフェースだ。
+Xの投稿は、AIに今後3年間の医療上のブレークスルーを10個挙げるよう求めた。今回の確認では投稿を再読み込みできず、以下は保存されたリストの要約だ。項目の段階は大きく異なる。3例を見ると、予測に段階と日付が必要な理由がわかる。
 
-リストは良い。それがまず言うべきことだ。ほぼすべての項目が本物の研究であり、SFではない。モデルは老化の治療法や死を逆転させる薬をでっち上げなかった。実在する10のプログラムを選び、試験が進行中でデータも公表されている。チャットボットの予測としては、すでにほとんどの人間の予測より優れている。
+- **すでに認可：アルツハイマー病の血液検査。** FDAは2025年5月、症状のある55歳以上の成人の診断を補助する目的で、FujirebioのLumipulse検査を認可した。専門医療で使うもので、スクリーニングや単独診断には使わない。この認可に予防治療は含まれない。
+- **第3相の結果：個別化mRNAメラノーマ治療。** INTerpath-001は、切除後の高リスク・メラノーマ患者1,137人を対象に、pembrolizumabとintismeranの併用をpembrolizumab単独と比較した。24か月時点の無再発生存率は82.2%対70.0%（HR 0.58）。全生存データはまだ成熟しておらず、intismeranは未承認の研究段階だ。
+- **第1相：LDLを下げるVERVE-102遺伝子編集。** 35人の参加者では、最高用量でLDLが最大62%低下した。試験で測定したのは安全性とコレステロールで、心筋梗塞や脳卒中の減少ではない。異なる送達法を使った前世代のVERVE-101は、2024年に参加者1人の肝酵素と血小板の異常を受けて登録を一時停止した。
 
-だが10項目はまったく異なる段階にあり、「no explanations」はまさにそれを隠している。3つの例がその広がりを示す。
+これは別々の進展だ。認可済みの診断補助、第3相で結果が出た特定のがん治療、そしてバイオマーカーの初期シグナル。リストは研究テーマを示すが、患者に届く時期を予測してはいない。
 
-項目7のアルツハイマー病の血液検査は、すでに実現している。FDAは最初の検査——FujirebioのLumipulse検査——を16 May 2025に承認した。だが細則が重要だ。対象はすでに症状がある55歳以上の成人で、専門医療の場においてであり、FDAはスクリーニング検査でも単独の診断でもないと言っている。そしてリストの後半——「and preventive treatment」——が誇張だ。その検査に結びついたアルツハイマー病の予防治療は存在しない。診断は来た。予防は来ていない。
+## 出典
 
-項目1の個別化mRNAがんワクチンは、ちょうど最初の大きな勝利を得た。October 2026、ModernaとMerckのmRNA-4157は1,137人を対象としたPhase 3試験で、メラノーマの再発または患者の死亡リスクを42%下げた。これは本物であり、単一の患者自身の腫瘍から作られたワクチンとして初のPhase 3成功だ。だが生存データはまだ成熟しておらず、規制当局の審査には何年もかかる可能性がある。臨床のブレークスルーではなく、途上にあるブレークスルーだ。
-
-項目3のコレステロールを下げる一度きりの遺伝子編集は、最も遠い。VERVE-102は、肝臓でPCSK9遺伝子をオフにする塩基編集ツールで、35人を対象としたPhase 1b試験でLDLコレステロールを最大62%下げた。以前のバージョンVERVE-101は、2024年に肝臓と血小板の副作用の後、登録が中止された。35人はシグナルであり、治療ではない。重要なこと——心臓発作と脳卒中の減少——はまだ検証されていない。
-
-つまりこのリストは、1つで3つのリストだ。すでに到着したもの、途上にあるもの、まだ初期試験段階のもの。「The next 3 years」は到着と承認と入手可能性を1つの言葉にぼかし、「no explanations」はそれらを見分けるための唯一のもの——段階——を取り除く。段階のない予測は、語彙の良い占星術だ——そしてFable 5.2のリストについてブログがそう言わなければならないのはこれが2度目だ。
-
-もう1つの細部がスクリーンショットに見える。答える前に、モデルは「Weighing whether a search would update the forecast.」と書いた。確認することを検討した。代わりに自分の知っていることから答えた。医学の未来についてのリストとして、それが画像の中で最も正直な一文だ。
-
-リストは残そう。日付を加えよう。未来は1本のタイムラインではない。3本あり、それぞれ違う速度で進んでいる。予測を読む唯一の方法は、各項目がどの線上にあるかを知ることだ。
-
-*Xの投稿[「Fable 5.2」](https://x.com/kevinace/status/2119992369865277569/photo/1)（[Kevin Wimer（@kevinace）](https://x.com/kevinace/status/2119992369865277569/photo/1)）に着想を得た。投稿は10 November 2026に確認された：10:15 AM, 10 Nov 2026, 17.9K views, 121 likes。投稿はClaude（@claudeai）によるClaude Fable 5.2およびClaude Mythos 5.2の発表を引用している。スクリーンショットには「What will be the 10 biggest medical breakthroughs in the next 3 years? No explanations.」への回答としてClaudeの10の医学ブレークスルーのリストが示されている。アルツハイマー病の血液検査はFujirebioのLumipulse G pTau217/β-Amyloid 1-42 Plasma Ratioで、FDAが16 May 2025に承認した。[詳細はこちら](https://www.fujirebio.com/en-us/lumipulser-g-ptau-217bamyloid-142-plasma-ratio-test)。mRNA-4157（intismeran autogene）、Phase 3 INTerpath-001、1,137 patients、October 2026。VERVE-102、Phase 1b Heart-2、35 patients、published in the New England Journal of Medicine in 2026。*
+- Kevin Wimer (@kevinace), “Fable 5.2,” X post (10 Nov 2026), [status 2119992369865277569](https://x.com/kevinace/status/2119992369865277569)。今回投稿を再読み込みできず、保存されたリストを要約し、直接引用は使っていない。
+- U.S. FDA, “FDA Clears First Blood Test Used in Diagnosing Alzheimer’s Disease” (16 May 2025). [Release](https://www.fda.gov/news-events/press-announcements/fda-clears-first-blood-test-used-diagnosing-alzheimers-disease).
+- Merck and Moderna, INTerpath-001 Phase 3 results (22 Oct 2026). [Release](https://www.merck.com/news/merck-and-moderna-will-present-results-from-landmark-phase-3-interpath-001-trial-for-intismeran-autogene-plus-keytruda-pembrolizumab-at-esmo-2026-presidential-symposium); [trial record NCT05933577](https://clinicaltrials.gov/study/NCT05933577).
+- S. B. Vafai et al., “In Vivo Base Editing of PCSK9 with VERVE-102 for Hypercholesterolemia,” *New England Journal of Medicine* (25 May 2026). [Article](https://www.nejm.org/doi/full/10.1056/NEJMoa2601283).
+- Verve Therapeutics, VERVE-101 Heart-1 enrollment pause (2 Apr 2024). [Release](https://vervetx.gcs-web.com/news-releases/news-release-details/verve-therapeutics-announces-updates-its-pcsk9-program/).
