@@ -6,6 +6,7 @@ lang: zh
 slug: ni-de-zhu-yi-li-zao-yi-bei-guan-li-zh
 translationKey: attention-management-2026
 pubDatetime: 2026-11-10T05:21:00+07:00
+modDatetime: 2026-11-11T14:36:00+07:00
 draft: false
 featured: false
 tags: [life]

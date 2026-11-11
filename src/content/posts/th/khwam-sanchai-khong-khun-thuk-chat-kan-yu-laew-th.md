@@ -6,6 +6,7 @@ lang: th
 slug: khwam-sanchai-khong-khun-thuk-chat-kan-yu-laew-th
 translationKey: attention-management-2026
 pubDatetime: 2026-11-10T05:21:00+07:00
+modDatetime: 2026-11-11T14:36:00+07:00
 draft: false
 featured: false
 tags: [life]
