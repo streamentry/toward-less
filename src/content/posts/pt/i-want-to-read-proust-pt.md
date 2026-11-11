@@ -1,34 +1,34 @@
 ---
 title: "Quero ler Proust"
-description: "O desejo de começar pelo primeiro volume e ler antes de pedir explicações à IA."
+description: "Começar pelo primeiro volume de Em Busca do Tempo Perdido e depois decidir se continuo."
 author: "C.S Chánh Niệm"
 lang: pt
 slug: i-want-to-read-proust-pt
 translationKey: wanting-to-read-proust-2026
 pubDatetime: 2026-11-08T13:00:00+07:00
+modDatetime: 2026-11-11T13:14:00+07:00
 featured: false
 draft: false
 tags: [life]
 ---
+Quero começar *Em Busca do Tempo Perdido*, de Marcel Proust, pelo primeiro volume e depois decidir se continuo. Por enquanto, esse é o compromisso inteiro.
 
-Quero começar *Em busca do tempo perdido*, de Marcel Proust. Não preciso prometer ler a obra inteira agora. Por enquanto, gostaria de experimentar o primeiro volume e ver se quero continuar.
+No ensaio “There is still time, after all”, publicado em 28 de outubro de 2026, Nikita Huno conta que as reflexões do narrador sobre memória o atraíram durante a leitura de Proust. Ele se pergunta se aquelas passagens teriam o mesmo efeito sem a história ao redor.
 
-A vontade surgiu depois de ler o ensaio de Nikita Huno, *There is still time, after all*. Ele conta que há trechos longos em que parece que nada acontece, até que um parágrafo ou uma reflexão sobre a memória o envolve. Pergunta-se se essas ideias teriam o mesmo efeito se fossem separadas da narrativa.
+Só posso responder lendo: o que a história acrescenta a essas passagens?
 
-Acho que essa pergunta vale ser respondida pela leitura. Um resumo pode me dizer do que trata um livro. Mas tenho curiosidade pelo que ele deixa de fora: cenas aparentemente sem importância, frases compridas, momentos que fazem o leitor esperar. Talvez eu os ache entediantes. Ou talvez um trecho se torne inesquecível precisamente porque li as páginas anteriores.
+- Ler um trecho por conta própria antes de pedir à IA que o explique.
+- Anotar onde paro, o que não entendo e com o que discordo.
+- Escolher uma tradução acessível, reservar um tempo sem interrupções e aceitar que o primeiro volume basta por ora.
 
-Ler documentação para resolver um problema concreto tem um objetivo bem definido: entender algo, encontrar uma resposta e utilizá-la. Com esse livro, quero abrir espaço para outra maneira de ler. Não preciso saber antecipadamente como ele vai ajudar no trabalho nem quantas lições poderei tirar. Prefiro começar pelo texto.
+Ler documentação técnica para resolver um problema tem um objetivo claro: entender, encontrar uma resposta e usá-la. Com Proust, não quero decidir antes como o livro deve ajudar meu trabalho nem que lição preciso tirar.
 
-Isso talvez seja mais difícil agora, quando é tão fácil obter um resumo. Posso pedir à IA que explique uma passagem difícil, liste temas ou indique o que observar. Tudo isso pode ajudar. Mesmo assim, quero ler por conta própria antes de pedir uma explicação, para saber o que entendi, o que deixei passar e quais são minhas dúvidas reais. Se começo pela explicação, talvez só perceba aquilo que alguém já apontou.
+Huno também escreve que, após anos escrevendo para obter resultados, quer reaprender a fazer ensaios que seguem uma pergunta sem conhecer o fim. Ele tem um plano de leitura de oito anos, mas o mantém flexível. Essa é a experiência dele. Gosto do horizonte, mas não quero começar por uma lista enorme: montá-la é mais fácil do que ler.
 
-Nikita também conta que passou a ter dificuldade para escrever sem um modelo de linguagem. Depois de muito tempo escrevendo para persuadir, vender e produzir resultados, ele quer reaprender a escrever ensaios que acompanham uma pergunta sem conhecer antes o destino. Essa é a experiência dele. O que me interessa é uma ligação concreta entre leitura e escrita: para dizer algo, preciso observar com atenção suficiente para ter algo a dizer.
+Um resumo pode explicar os temas, mas não reproduz o efeito das frases e cenas durante a leitura. Talvez eu ache o livro difícil. Posso ir mais devagar ou parar um pouco. Não preciso prometer que vou terminar tudo.
 
-Gostaria de escrever algumas linhas depois de cada sessão de leitura. Qual passagem me fez parar, e por quê? O que não entendi ou com que discordei? Essas notas não precisam virar posts. Quero escrevê-las primeiro sozinho, mesmo com frases desajeitadas. Pelo menos, quando voltar a elas, saberei que registram algo que pensei, e não apenas uma formulação que parecia convincente.
+Minha próxima nota deve começar pelas páginas que li, não por um título salvo.
 
-Em seu ensaio, Nikita menciona um plano de leitura de oito anos, passando por vários campos e permitindo mudar de direção conforme a curiosidade. Gosto do tempo que ele está disposto a reservar para ler. Mas não quero começar por uma lista grande. Montar uma lista pode ser divertido; ler as primeiras dezenas de páginas é outra tarefa.
+## Fonte
 
-Minha intenção é menor: escolher uma tradução que eu consiga acompanhar, reservar algum tempo sem interrupções e começar. Não sei como vou me dar com Proust. Se for difícil, posso ir mais devagar, procurar uma explicação ou deixar o livro de lado e voltar depois. Não preciso decidir agora que vou terminá-lo.
-
-Quero que essa vontade avance além de mais um título salvo. Minha próxima anotação sobre Proust deveria começar com uma página que eu tenha realmente lido.
-
-*Este texto nasceu da leitura de «There is still time, after all», de Nikita Huno.*
+- Nikita Huno, “There is still time, after all”, 28 de outubro de 2026. [Ensaio original](https://nikhuno.substack.com/p/i-started-reading-proust-to-reclaim). Este texto parafraseia a experiência de Huno; o plano de leitura é do autor deste artigo.

@@ -1,34 +1,34 @@
 ---
 title: "Tôi muốn đọc Proust"
-description: "Một dự định bắt đầu đọc Đi tìm thời gian đã mất, sau bài viết của Nikita Huno về việc đọc và học viết lại."
+description: "Bắt đầu với tập đầu của Đi tìm thời gian đã mất, rồi quyết định có đọc tiếp hay không."
 author: "C.S Chánh Niệm"
 lang: vi
 slug: toi-muon-doc-proust
 translationKey: wanting-to-read-proust-2026
 pubDatetime: 2026-10-31T00:00:00+07:00
+modDatetime: 2026-11-11T13:14:00+07:00
 featured: false
 draft: false
 tags: [life]
 ---
+Tôi muốn bắt đầu đọc *Đi tìm thời gian đã mất* của Marcel Proust bằng tập đầu, rồi quyết định có đọc tiếp hay không. Chỉ cần cam kết đến đó.
 
-Tôi muốn bắt đầu đọc *Đi tìm thời gian đã mất* của Proust. Chưa cần cam kết đọc hết cả bộ. Trước mắt, tôi muốn thử đọc tập đầu và xem mình có muốn đọc tiếp không.
+Bài “There is still time, after all” của Nikita Huno, đăng ngày 28 tháng 10 năm 2026, kể về việc đọc Proust và bị cuốn vào những suy ngẫm của người kể chuyện về ký ức. Anh tự hỏi liệu những đoạn ấy có tác động đến mình như vậy nếu không có câu chuyện bao quanh hay không.
 
-Ý muốn này đến sau khi đọc bài *There is still time, after all* của Nikita Huno. Anh kể rằng có những đoạn trong sách dài đến mức tưởng như chẳng có gì xảy ra, rồi một đoạn văn hay một suy nghĩ về ký ức bỗng cuốn anh vào. Anh tự hỏi: nếu tách những suy nghĩ ấy ra khỏi câu chuyện, liệu chúng còn tác động đến mình như vậy không?
+Tôi chỉ có thể trả lời câu hỏi đó bằng cách đọc: câu chuyện đóng góp gì cho những đoạn suy ngẫm ấy?
 
-Tôi thấy câu hỏi đó đáng để thử bằng việc đọc. Một bản tóm tắt có thể cho biết cuốn sách nói về điều gì. Nhưng tôi vẫn tò mò về phần đã bị bỏ đi: những cảnh tưởng như không quan trọng, những câu dài, những chỗ khiến người đọc phải chờ. Có thể tôi sẽ thấy chán. Cũng có thể một đoạn văn chỉ trở nên đáng nhớ vì tôi đã đọc những trang trước đó.
+- Tự đọc một đoạn trước khi nhờ AI giải thích.
+- Ghi lại chỗ khiến tôi dừng lại, điều tôi chưa hiểu hoặc không đồng ý.
+- Chọn bản dịch dễ theo dõi, dành thời gian không bị ngắt quãng, và xem tập đầu là đủ cho lúc này.
 
-Đọc tài liệu để giải quyết một vấn đề cụ thể có mục đích khá rõ. Tôi cần hiểu một thứ, tìm một câu trả lời, rồi dùng nó. Với cuốn sách này, tôi muốn dành chỗ cho một cách đọc khác. Chưa cần biết nó sẽ giúp gì cho công việc hay có thể rút ra bao nhiêu bài học. Cứ đọc trước đã.
+Đọc tài liệu kỹ thuật để giải quyết một vấn đề có mục tiêu rõ: hiểu vấn đề, tìm câu trả lời rồi dùng nó. Với Proust, tôi không muốn định trước cuốn sách phải giúp công việc hay dạy mình điều gì.
 
-Điều này có lẽ khó hơn khi việc có được một bản tóm tắt quá dễ. Tôi có thể nhờ AI giải thích một đoạn khó, liệt kê các chủ đề, hoặc cho biết nên chú ý điều gì. Những việc đó có ích. Tuy vậy, tôi muốn tự đọc một đoạn trước khi nhờ giải thích, để còn biết mình đã hiểu gì, bỏ sót gì và thực sự đang thắc mắc ở đâu. Nếu đọc lời giải thích ngay từ đầu, có khi tôi chỉ nhận ra điều đã được chỉ sẵn.
+Huno cũng viết rằng sau nhiều năm viết để đạt kết quả, anh muốn học lại cách viết tiểu luận theo một câu hỏi mà chưa biết điểm đến. Anh có kế hoạch đọc tám năm nhưng để nó linh hoạt. Đó là trải nghiệm của anh. Tôi thích tầm nhìn dài hạn, nhưng không muốn bắt đầu bằng danh sách lớn; lập danh sách dễ hơn đọc sách.
 
-Nikita còn kể về việc thấy khó viết khi không có mô hình ngôn ngữ hỗ trợ. Sau một thời gian viết để thuyết phục, bán hàng và tạo hiệu quả, anh muốn học lại cách viết những bài có thể đi theo một câu hỏi mà chưa biết sẽ kết thúc ở đâu. Đó là trải nghiệm của anh. Tôi chú ý đến nó vì việc đọc và việc viết có thể gặp nhau ở một chỗ rất cụ thể: muốn diễn đạt được điều gì, mình phải nhìn đủ kỹ để có điều mà nói.
+Bản tóm tắt có thể nói về chủ đề của sách; nó không thể cho tôi biết câu văn và cảnh truyện tác động ra sao khi đọc. Có thể tôi sẽ thấy khó. Khi đó, tôi có thể đọc chậm hoặc tạm dừng. Không cần hứa sẽ đọc hết.
 
-Tôi muốn thử ghi lại vài dòng sau mỗi buổi đọc. Một đoạn nào khiến mình dừng lại? Vì sao? Có chỗ nào chưa hiểu, hay không đồng ý? Không cần biến những ghi chép đó thành bài đăng. Tôi cũng muốn tự viết chúng trước, dù câu chữ còn vụng. Ít nhất, khi đọc lại, tôi biết đó là điều mình đã nghĩ, chứ không chỉ là một cách diễn đạt nghe hợp lý.
+Ghi chép tiếp theo của tôi nên bắt đầu từ những trang đã đọc, không phải từ một tựa sách đã lưu.
 
-Trong bài, Nikita nói đến kế hoạch đọc tám năm, qua nhiều lĩnh vực, và cho phép mình thay đổi theo sự tò mò. Tôi thích việc anh dành cho chuyện đọc một khoảng thời gian dài như vậy. Nhưng tôi chưa muốn bắt đầu bằng một danh sách lớn. Lập danh sách có thể rất thú vị, còn đọc được vài chục trang đầu lại là một việc khác.
+## Nguồn
 
-Vì thế, dự định của tôi nhỏ hơn: chọn một bản dịch mình đọc được, dành một khoảng thời gian không bị ngắt quãng, rồi bắt đầu. Tôi chưa biết sẽ hợp với Proust đến đâu. Nếu khó, có thể đọc chậm hơn, tìm thêm lời giải thích, hoặc tạm dừng rồi quay lại. Không cần quyết định ngay từ bây giờ rằng mình phải đọc hết.
-
-Tôi muốn để mong muốn này đi xa hơn việc lưu thêm tên một cuốn sách. Ghi chép tiếp theo về Proust nên bắt đầu từ một trang tôi đã đọc.
-
-*Bài viết khởi đầu từ “There is still time, after all” của Nikita Huno.*
+- Nikita Huno, “There is still time, after all”, ngày 28 tháng 10 năm 2026. [Bài gốc](https://nikhuno.substack.com/p/i-started-reading-proust-to-reclaim). Bài này diễn giải trải nghiệm của Huno; kế hoạch đọc là của tác giả bài này.
