@@ -1,6 +1,6 @@
 ---
-title: "Cuma Tampal URL"
-description: "Shipper memperkenalkan 'Claude for Web to App': tampal URL, Opus 5.5 mengambil alih Mac anda, menukar mana-mana laman web menjadi aplikasi mudah alih natif, dan melancarkannya di kedai aplikasi. Model itu benar — Opus 5.5 dilancarkan pada 22 September — dan aliran kerjanya wujud. Pelancaran ini ialah demo yang menyamar sebagai pengumuman, dan App Store bukan satu butang."
+title: "Tampal URL Tidak Terus Menerbitkan Aplikasi"
+description: "Demo web-ke-aplikasi masih memerlukan keputusan pelaksanaan, akaun pembangun dan semakan gedung."
 author: "C.S Chánh Niệm"
 lang: ms
 slug: cuma-tampal-url-ms
@@ -11,22 +11,20 @@ featured: false
 tags: [technology]
 ---
 
-Memperkenalkan Claude untuk "Web to App". Tukar mana-mana laman web menjadi aplikasi mudah alih natif. Cuma tampal URL. Opus 5.5 akan mengambil alih Mac anda dan menukar laman web asal menjadi aplikasi mudah alih, kemudian melancarkannya di kedai aplikasi apabila sudah bersedia. Si penulis berkata beliau telah menggunakannya secara dalaman dengan banyak untuk aplikasi iOS dan Android. Video itu menunjukkan tetingkap sembang — "Chat it into existence" — dan ejen membina klon X yang digilap, skrin demi skrin, dalam masa 23 saat.
+Ulasan ini menilai sama ada demo daripada URL kepada aplikasi membuktikan bahawa aplikasi natif boleh terus diterbitkan.
 
-Dua bahagian itu benar. Opus 5.5 benar: Anthropic melancarkannya pada 22 September 2026, dan ia model Opus semasa. Dan aliran kerjanya benar: penukar web-ke-aplikasi memang wujud, dan beberapa daripadanya kini menjalankan pelayan MCP, jadi ejen seperti Claude boleh mengendalikannya — mencipta aplikasi daripada URL, menetapkan ikon dan warna, meminta binaan, dan menyerahkan semula pautan muat turun. Tampal URL dan tonton ejen bekerja bukan lagi fantasi. Ia demo yang boleh anda jalankan hari ini.
+Dalam hantaran 9 November, Shipper menulis, “Just paste a URL.” Hantaran itu mendakwa Claude Fable 5.2 boleh mengawal Mac, menukar mana-mana laman web menjadi aplikasi mudah alih natif dan menerbitkannya di gedung aplikasi. Teks yang kini kelihatan pada mirror menyebut Fable 5.2; versi terdahulu artikel ini menyebut Opus 5.5. X memulangkan ralat 403 semasa semakan, jadi tidak dapat dipastikan sama ada hantaran itu disunting atau transkripsi terdahulu tersilap. Anthropic mengesahkan Fable 5.2 dilancarkan pada hari tersebut; aliran web-ke-aplikasi itu ialah demo Shipper, bukan pengumuman produk Anthropic.
 
-Yang tidak benar ialah pembingkaian. "Introducing Claude for Web to App" ditulis seperti pengumuman Anthropic. Ia bukan. Anthropic tidak mengumumkan sebarang ciri sebegitu. Si penulis ialah akaun kecil — 1,666 tontonan, 18 suka — menunjukkan demo, dan kelicinan demo itu melakukan kerja yang tidak dilakukan oleh kata-kata. Bingkai video itu sendiri mendedahkannya: ejen itu tidak menukar x.com menjadi aplikasi. Ia membina klon X yang digilap — binaan semula, dari awal, dalam gaya X. Binaan semula ialah perkara yang sah untuk didemonstrasikan. Ia bukan sama dengan menukar laman web menjadi aplikasi, dan tajuk kiriman itu menyatakan yang kedua sedangkan video menunjukkan yang pertama.
+## Apa yang dibuktikan hantaran itu
 
-Tiga pembetulan, dan semuanya terletak pada kata kerja.
+Hantaran tersebut menerangkan satu aliran kerja. Teksnya tidak menerangkan cara aplikasi itu dibina, dan saya tidak dapat mengesahkan video yang dilampirkan. Maka dakwaan “mana-mana laman web” dan “aplikasi natif” belum disahkan di sini.
 
-Pertama, "menukar mana-mana laman web menjadi aplikasi mudah alih natif". Ada tiga cara untuk melakukannya, dan ketiganya tidak sama. Tambah tapak itu ke skrin utama anda: percuma dan serta-merta, tetapi tidak berada dalam kedai. Balutkannya dalam WebView: pantas, tetapi Apple sering menolak pembalut kosong di bawah peraturan fungsi minimumnya. Bina semula sebagai aplikasi natif sebenar: laluan yang jujur, dan laluan yang sebenarnya ditunjukkan oleh video. "Mana-mana laman web" menyembunyikan pilihan antara ketiganya, dan pilihan itu ialah keseluruhan kerja.
+## Apa yang masih diperlukan untuk diterbitkan
 
-Kedua, "mengambil alih Mac anda". Penggunaan komputer adalah benar, dan Opus boleh mengendalikan mesin. Tetapi "mengambil alih" memampatkan rantaian — bina, bungkus, tandatangan, hantar, semak, terbit — menjadi satu kata kerja, dan rantaian itulah tempat kerja berada. Ejen boleh menulis kod dan meminta binaan. Ia tidak boleh menandatangani aplikasi anda dengan sijil anda, membayar yuran pembangun anda, atau menjawab penyemak Apple.
+- Apple menghendaki aplikasi memberi nilai melebihi pembungkusan semula laman web. Peraturannya untuk perkhidmatan penjanaan aplikasi komersial turut mengehadkan pihak yang boleh menghantar aplikasi siap.
+- Pengedaran memerlukan akaun pembangun: Apple Developer Program berharga AS$99 setahun; Google Play mengenakan yuran pendaftaran sekali sebanyak AS$25.
+- Semakan gedung ialah langkah berasingan. Apple menyasarkan untuk menyemak sekurang-kurangnya separuh penyerahan dalam 24 jam dan 90% dalam 48 jam. Google menyatakan sesetengah akaun mungkin menunggu tujuh hari atau lebih.
 
-Ketiga, "melancarkan di kedai aplikasi apabila sudah bersedia". App Store bukan butang. Anda menghantar dengan akaun Apple Developer anda sendiri — $99 setahun — dan akaun Google Play anda sendiri, dan Apple menyemak penghantaran itu, yang mengambil masa 1–3 hari bekerja untuk penghantaran pertama dan menolak aplikasi yang kelihatan seperti pembalut web yang nipis. Si penulis berkata beliau telah menggunakannya secara dalaman "dengan banyak". "Secara dalaman" sedang melakukan banyak kerja dalam ayat itu: penggunaan dalaman tidak pernah bertemu penyemak.
+Penjana boleh menghasilkan calon aplikasi. Ia tidak menjamin kelulusan atau menjadikan penerbitan proses satu klik.
 
-Semua ini tidak menjadikan demo itu tidak menarik. Ejen yang membina semula laman web anda sebagai aplikasi mudah alih, daripada URL yang ditampal, ialah keupayaan sebenar, dan paip MCP yang membenarkan Claude mengendalikan penukar memang benar-benar baharu. Apa yang dijual oleh kiriman itu ialah batu terakhir — pelancaran — seolah-olah ia sebahagian daripada demo. Ia bukan. Demo berakhir di tempat kedai bermula, dan kedai ialah tempat kerja berada: menandatangani, menghantar, menunggu, dan diberitahu tidak oleh penyemak yang telah melihat seribu pembalut sebelum anda.
-
-Ayat yang jujur lebih pendek daripada kiriman itu. Tampal URL, dan ejen akan membina sesuatu yang berbentuk aplikasi untuk anda dalam beberapa minit. Memasukkannya ke dalam kedai masih kerja anda, akaun anda, semakan anda, dan risiko penolakan anda. URL ialah bahagian yang mudah. Ia sentiasa begitu.
-
-*Diilhamkan oleh kiriman X ["Introducing Claude for 'Web to App.' Turn any website into a native mobile app. Just paste a URL."](https://x.com/shipper_now/status/2119798847295922650) oleh [Shipper (@shipper_now)](https://x.com/shipper_now/status/2119798847295922650). Kiriman itu disahkan pada 10 November 2026: 9:26 PM, 9 Nov 2026, 1,666 views. Claude Opus 5.5 dilancarkan oleh Anthropic pada 22 September 2026. Aliran kerja web-ke-aplikasi melalui MCP didokumenkan oleh penukar pihak ketiga, cth. [dokumen MCP WebToApp](https://www.webtoapp.app/docs/mcp) — yang juga menyatakan bahawa anda masih menghantar ke App Store dan Google Play sendiri. Tiada pengumuman "Web to App" Anthropic wujud.*
+*Sumber disemak pada 11 November 2026: [hantaran X Shipper 2119798847295922650](https://x.com/shipper_now/status/2119798847295922650); X memulangkan ralat 403, jadi teks semasa dibandingkan dengan [mirror Teapawt](https://teapawt.org/shipper_now). Mirror menyebut Fable 5.2; tiada sejarah suntingan untuk menjelaskan sebutan Opus 5.5 dalam versi terdahulu. Sumber rasmi yang disemak: [pengumuman Fable 5.2 oleh Anthropic](https://www.anthropic.com/claude-fable-and-mythos-5-2), [garis panduan App Review Apple](https://developer.apple.com/app-store/review/guidelines/), [yuran Apple Developer Program](https://developer.apple.com/programs/), [sasaran tempoh semakan Apple](https://developer.apple.com/help/app-review/after-submitting-for-review/review-status), dan [panduan penerbitan Google Play](https://support.google.com/googleplay/android-developer/answer/9859751?hl=en-EN). Video lampiran tidak disahkan secara bebas.*

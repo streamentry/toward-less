@@ -1,6 +1,6 @@
 ---
-title: "Just Paste a URL"
-description: "Shipper introduces 'Claude for Web to App': paste a URL, Opus 5.5 takes over your Mac, turns any website into a native mobile app, and launches it on the app stores. The model is real — Opus 5.5 shipped September 22 — and the workflow exists. The launch is a demo dressed as an announcement, and the App Store is not a button."
+title: "A URL Is Not an App Store Launch"
+description: "A web-to-app demo does not skip implementation choices, developer accounts, or store review."
 author: "C.S Chánh Niệm"
 lang: en
 slug: just-paste-a-url-en
@@ -11,22 +11,20 @@ featured: false
 tags: [technology]
 ---
 
-Introducing Claude for "Web to App." Turn any website into a native mobile app. Just paste a URL. Opus 5.5 will take over your Mac and turn the original website into a mobile app, then launch on app stores when ready. The poster says he has been using it internally a ton for iOS and Android apps. The video shows a chat window — "Chat it into existence" — and an agent building a polished X clone, screen by screen, in twenty-three seconds.
+This review checks whether a URL-to-app demo proves it can create a native app and publish it.
 
-Two parts of that are real. Opus 5.5 is real: Anthropic released it on September 22, 2026, and it is the current Opus model. And the workflow is real: web-to-app converters exist, and several of them now run MCP servers, so an agent like Claude can drive them — create an app from a URL, set the icon and colours, request builds, and hand back the download links. Paste a URL and watch an agent work is no longer a fantasy. It is a demo you can run today.
+In a 9 November post, Shipper writes, “Just paste a URL.” The post then claims Claude Fable 5.2 can control a Mac, turn any website into a native app, and launch it on app stores. The current mirrored text names Fable 5.2. An earlier version of this article said Opus 5.5. X returned 403 during this review, so I cannot tell whether the post changed or the earlier transcription was wrong. Anthropic confirms Fable 5.2 was released that day; the workflow itself is Shipper’s demo, not an Anthropic product announcement.
 
-What is not real is the framing. "Introducing Claude for Web to App" is written like an Anthropic announcement. It is not one. Anthropic has announced no such feature. The poster is a small account — 1,666 views, 18 likes — showing a demo, and the demo's polish does the work the words don't. The video's own frames give it away: the agent does not convert x.com into an app. It builds a polished X clone — a rebuild, from scratch, in the style of X. A rebuild is a legitimate thing to demo. It is not the same as turning a website into an app, and the post's headline says the second thing while the video shows the first.
+## What the post establishes
 
-Three corrections, and they all sit in the verbs.
+The post describes a workflow. Its text does not explain how the resulting app is built, and I could not verify the attached video. The claims “any website” and “native app” therefore remain unverified here.
 
-First, "turn any website into a native mobile app." There are three ways to do that, and they are not equal. Add the site to your home screen: free and instant, but not in the store. Wrap it in a WebView: fast, but Apple often rejects plain wrappers under its minimum-functionality rule. Rebuild it as a real native app: the honest route, and the one the video actually shows. "Any website" hides the choice between the three, and the choice is the whole job.
+## What store submission still requires
 
-Second, "take over your Mac." Computer use is real, and Opus can drive a machine. But "take over" compresses a chain — build, package, sign, submit, review, publish — into one verb, and the chain is where the work lives. The agent can write the code and request the build. It cannot sign your app with your certificate, pay your developer fee, or answer Apple's reviewer.
+- Apple requires an app to offer utility beyond a repackaged website. Its rules for commercial app-generation templates also restrict who may submit the finished app.
+- Distribution requires developer accounts: Apple’s program is $99 per year; Google Play charges a one-time $25 registration fee.
+- Store review is separate from building. Apple aims to review at least half of submissions within 24 hours and 90% within 48 hours. Google says some accounts may wait seven days or longer.
 
-Third, "launch on app stores when ready." The App Store is not a button. You submit with your own Apple Developer account — $99 a year — and your own Google Play account, and Apple reviews the submission, which takes one to three business days for a first submission and rejects apps that look like thin web wrappers. The poster says he has been using it internally "a ton." Internally is doing a lot of work in that sentence: internal use never meets a reviewer.
+A generator can produce an app candidate. It cannot guarantee approval or make store publication a one-click step.
 
-None of this makes the demo uninteresting. An agent that rebuilds your website as a mobile app, from a pasted URL, is a real capability, and the MCP plumbing that lets Claude drive a converter is genuinely new. What the post sells is the last mile — the launch — as if it were part of the demo. It isn't. The demo ends where the store begins, and the store is where the work is: signing, submitting, waiting, and being told no by a reviewer who has seen a thousand wrappers before yours.
-
-The honest sentence is shorter than the post's. Paste a URL, and an agent will build you an app-shaped thing in minutes. Getting it into the store is still your job, your accounts, your review, and your rejection risk. The URL is the easy part. It always was.
-
-*Inspired by the X post ["Introducing Claude for 'Web to App.' Turn any website into a native mobile app. Just paste a URL."](https://x.com/shipper_now/status/2119798847295922650) by [Shipper (@shipper_now)](https://x.com/shipper_now/status/2119798847295922650). The post was verified on 10 November 2026: 9:26 PM, 9 Nov 2026, 1,666 views. Claude Opus 5.5 was released by Anthropic on 22 September 2026. The web-to-app workflow via MCP is documented by third-party converters, e.g. [WebToApp's MCP docs](https://www.webtoapp.app/docs/mcp) — which also state that you still submit to the App Store and Google Play yourself. No Anthropic "Web to App" announcement exists.*
+*Sources checked 11 November 2026: Shipper’s [X post 2119798847295922650](https://x.com/shipper_now/status/2119798847295922650); its current wording was checked against a [Teapawt mirror](https://teapawt.org/shipper_now), because X returned 403. The mirror names Fable 5.2; no edit history was available to resolve the earlier Opus 5.5 wording. Anthropic’s [Fable 5.2 announcement](https://www.anthropic.com/claude-fable-and-mythos-5-2), Apple’s [App Review Guidelines](https://developer.apple.com/app-store/review/guidelines/), [Apple Developer Program fee](https://developer.apple.com/programs/), [Apple review targets](https://developer.apple.com/help/app-review/after-submitting-for-review/review-status), and [Google Play publishing guidance](https://support.google.com/googleplay/android-developer/answer/9859751?hl=en-EN) were checked. The attached video was not independently reviewed.*

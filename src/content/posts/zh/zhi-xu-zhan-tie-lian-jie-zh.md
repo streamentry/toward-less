@@ -1,6 +1,6 @@
 ---
-title: "只需粘贴链接"
-description: "Shipper 推出了'Claude for Web to App'：粘贴一个链接，Opus 5.5 接管你的 Mac，把任何网站变成原生移动应用，然后在应用商店上架。模型是真的——Opus 5.5 于 9 月 22 日发布——工作流程也真实存在。但这场发布只是一个披着公告外衣的演示，而 App Store 不是一个按钮。"
+title: "粘贴 URL 并不等于上架应用"
+description: "网页转应用演示还不能跳过实现方式、开发者账号和商店审核。"
 author: "C.S Chánh Niệm"
 lang: zh
 slug: zhi-xu-zhan-tie-lian-jie-zh
@@ -11,22 +11,20 @@ featured: false
 tags: [technology]
 ---
 
-推出 Claude for "Web to App"。把任何网站变成原生移动应用。只需粘贴一个链接。Opus 5.5 将接管你的 Mac，把原始网站变成移动应用，准备好后便在应用商店上架。发帖人说，他在内部已经大量使用它来做 iOS 和 Android 应用。视频展示了一个聊天窗口——"Chat it into existence"——以及一个智能体在二十三秒内一屏接一屏地搭建出一个精致的 X 克隆。
+本文核查一个“从网址生成应用”的演示，判断它是否证明了原生应用可以直接上架。
 
-其中两部分是真的。Opus 5.5 是真的：Anthropic 于 2026 年 9 月 22 日发布了它，它是当前的 Opus 模型。工作流程也是真的：网站转应用的转换器确实存在，其中一些现在运行 MCP 服务器，因此像 Claude 这样的智能体可以驱动它们——从一个 URL 创建应用、设置图标和配色、请求构建、交回下载链接。粘贴一个链接，看着智能体工作，不再是幻想。这是你今天就能运行的演示。
+Shipper 在 11 月 9 日的帖子写道：“Just paste a URL.”（只要粘贴一个网址。）帖子声称 Claude Fable 5.2 可以控制 Mac、把任意网站变成原生移动应用，再发布到应用商店。目前可见的镜像文本写的是 Fable 5.2；本文此前保存的版本写的是 Opus 5.5。X 在这次检查中返回 403，因此无法确认帖子是否改过，还是早先的记录有误。Anthropic 确认 Fable 5.2 于当天发布，但这种网页转应用流程是 Shipper 的演示，不是 Anthropic 公布的产品功能。
 
-不真实的是包装方式。"Introducing Claude for Web to App"写得像一份 Anthropic 的公告。但它不是。Anthropic 从未宣布过这样的功能。发帖人只是一个小账号——1,666 次浏览，18 个赞——在展示一个演示，而演示本身的精致程度完成了文字做不到的工作。视频自己的画面就露了馅：智能体并没有把 x.com 转换成一个应用。它搭建了一个精致的 X 克隆——从零开始、按 X 的风格重建。重建是一件值得演示的正当事情。但它与把一个网站变成应用不是一回事，而帖子的标题说的是后者，视频展示的却是前者。
+## 这条帖子能证明什么
 
-有三处需要纠正，它们都藏在动词里。
+它描述了一个工作流程，但没有说明生成的应用如何实现；本次也无法核实附件视频。因此，“任何网站”和“原生应用”仍是 Shipper 的说法，未在这里得到验证。
 
-第一，"把任何网站变成原生移动应用。"做到这一点有三种方式，它们并不等价。把网站添加到主屏幕：免费且即时，但进不了商店。用 WebView 包装它：很快，但 Apple 常常依据最低功能规则拒绝单纯的包装。把它重建成一个真正的原生应用：诚实的路径，也是视频实际展示的那条路。"任何网站"掩盖了三者之间的选择，而这个选择就是全部的工作。
+## 发布到商店还需要什么
 
-第二，"接管你的 Mac。"计算机操作是真的，Opus 可以操控一台机器。但"接管"把一整条链——构建、打包、签名、提交、审核、发布——压缩成一个动词，而工作恰恰就藏在这条链里。智能体可以写代码、请求构建。它不能用你的证书签署你的应用，不能替你付开发者费用，也不能回答 Apple 审核员的问题。
+- Apple 要求应用具有超出重新包装网站的功能。针对商业化应用生成服务的规则也限制了谁可以提交最终应用。
+- 分发应用需要开发者账号：Apple 每年 99 美元；Google Play 一次性收取 25 美元注册费。
+- 商店审核是独立步骤。Apple 的目标是在 24 小时内审核至少一半提交，并在 48 小时内审核 90%。Google 表示部分账号的审核可能需要七天或更久。
 
-第三，"准备好后在应用商店上架。"App Store 不是一个按钮。你要用自己的 Apple Developer 账号提交——每年 99 美元——以及自己的 Google Play 账号，Apple 会审核提交的内容，首次提交需要一到三个工作日，并且会拒绝那些看起来像单薄网页包装的应用。发帖人说他在内部"大量"使用它。"内部"这个词在那句话里承担了很多工作：内部使用永远不会遇到审核员。
+生成器可以生成待完善的应用；它不能保证审核通过，也不能把上架变成一步操作。
 
-这些都不让演示变得无趣。一个能根据粘贴的 URL 把你的网站重建成移动应用的智能体，是一项真实的能力，而让 Claude 驱动转换器的 MCP 管道也确实是新的。帖子兜售的是最后一公里——上架——仿佛它是演示的一部分。它不是。演示在商店开始的地方结束，而商店才是工作所在：签名、提交、等待，以及被一位见过成千上万个包装的审核员拒绝。
-
-诚实的那句话比帖子的短。粘贴一个 URL，智能体会在几分钟内为你建出一个应用模样的东西。把它放进商店仍然是你的工作、你的账号、你的审核、你的被拒风险。URL 是容易的部分。它一直都是。
-
-*灵感来自 X 上的帖子 ["Introducing Claude for 'Web to App.' Turn any website into a native mobile app. Just paste a URL."](https://x.com/shipper_now/status/2119798847295922650)，作者 [Shipper (@shipper_now)](https://x.com/shipper_now/status/2119798847295922650)。该帖于 2026 年 11 月 10 日核实：9:26 PM, 9 Nov 2026，1,666 次浏览。Claude Opus 5.5 由 Anthropic 于 2026 年 9 月 22 日发布。通过 MCP 的网站转应用工作流程已有第三方转换器的文档记录，例如 [WebToApp 的 MCP 文档](https://www.webtoapp.app/docs/mcp)——其中也说明，你仍需自行向 App Store 和 Google Play 提交。不存在 Anthropic 的"Web to App"公告。*
+*来源：Shipper，[X 帖文 2119798847295922650](https://x.com/shipper_now/status/2119798847295922650)，2026 年 11 月 9 日。此次检查时 X 返回 403；当前文本与 [Teapawt 镜像](https://teapawt.org/shipper_now)核对。镜像称模型为 Fable 5.2；没有编辑历史可说明早先版本为何写 Opus 5.5。已核对 [Anthropic 的 Fable 5.2 发布页](https://www.anthropic.com/claude-fable-and-mythos-5-2)、[Apple 审核指南](https://developer.apple.com/app-store/review/guidelines/)、[Apple 开发者计划费用](https://developer.apple.com/programs/)、[Apple 审核时限目标](https://developer.apple.com/help/app-review/after-submitting-for-review/review-status)和[Google Play 发布指南](https://support.google.com/googleplay/android-developer/answer/9859751?hl=en-EN)。附件视频未独立核实。*
