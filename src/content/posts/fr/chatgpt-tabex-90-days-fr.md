@@ -1,6 +1,6 @@
 ---
-title: "ChatGPT m'a aidé à arrêter de fumer après plus de dix ans"
-description: "Des années d'essais infructueux, une question différente, puis Tabex. Aujourd'hui, plus de 90 jours sans cigarette."
+title: "Comment ChatGPT m’a aidé à trouver une autre option pour arrêter"
+description: "Après plusieurs tentatives infructueuses, ChatGPT m’a orienté vers la cytisine. Ce récit personnel n’est pas un guide de traitement."
 author: "C.S Chánh Niệm"
 lang: fr
 slug: chatgpt-tabex-90-days-fr
@@ -11,60 +11,28 @@ featured: false
 tags: [life]
 ---
 
-J'ai fumé pendant plus de dix ans.
+J’ai fumé pendant plus de dix ans et tenté d’arrêter de plusieurs façons. Aucune ne m’a réussi. Ce texte est un récit personnel, pas un guide de traitement.
 
-J'ai essayé d'arrêter à de nombreuses reprises, de plusieurs façons. Sans succès. Je connaissais les risques du tabac. Les raisons de m'arrêter ne manquaient pas.
+## Une autre question
 
-Savoir ce qu'il faudrait faire ne signifie pas y parvenir.
+J’ai demandé à ChatGPT s’il existait une autre option efficace. Il m’a parlé de Tabex, un médicament contenant de la cytisine, et m’a proposé un programme structuré à envisager. J’ai décidé d’agir.
 
-À un moment, j'ai cessé de me demander quelle dose supplémentaire de volonté il me manquait. Je voulais savoir s'il existait une possibilité qui m'avait échappé.
+## Ce que montrent les données
 
-## Poser une autre question
+La cytisine n’est ni nouvelle ni non étudiée. Le guide de l’OMS de 2024 la recommande parmi les options médicamenteuses pour les adultes qui veulent arrêter le tabac. Une revue Cochrane de 2023 a relevé des preuves de certitude modérée indiquant que davantage de personnes arrêtent avec la cytisine qu’avec un placebo ; la recherche des études s’arrêtait en avril 2022.
 
-J'ai demandé à ChatGPT :
+## Ce qui a changé pour moi
 
-*Existe-t-il une méthode peu conventionnelle, mais réellement efficace, pour arrêter de fumer ?*
+À la publication de ce récit, le 8 novembre 2026, je n’avais pas fumé depuis plus de 90 jours. Je ne peux toujours pas distinguer l’effet du médicament, du programme et du moment où j’étais prêt à changer.
 
-Je ne cherchais ni une astuce curieuse ni une solution miracle. Je cherchais autre chose que les méthodes qui ne m'avaient pas réussi.
+## Ce que ce récit ne prouve pas
 
-ChatGPT m'a présenté **Tabex**, un médicament contenant de la **cytisine**, et m'a proposé un parcours structuré pour commencer.
+- ChatGPT n’est pas un professionnel de santé.
+- Tabex ne convient pas à tout le monde ; sa disponibilité et son autorisation varient selon les pays.
+- Le résultat d’une personne ne prouve pas que le médicament seul en est la cause et ne prédit pas la suite.
 
-Ce qui m'a étonné, c'est que la solution n'avait rien de nouveau ni de mystérieux. La cytisine agit sur les récepteurs nicotiniques du cerveau et peut atténuer les envies de fumer et les symptômes de sevrage. Elle a fait l'objet d'essais cliniques. L'Organisation mondiale de la Santé la recommande parmi les options de traitement du sevrage tabagique.
+La dépendance à la nicotine n’est pas une simple pensée négative que davantage de volonté pourrait effacer. Trouver une option étayée par des preuves m’a aidé à agir sans m’accabler davantage.
 
-Elle n'était *non conventionnelle* que pour moi, parce que je ne la connaissais pas. Une méthode inconnue n'est pas nécessairement une méthode sans preuves.
+Ne copiez pas un schéma médicamenteux généré par IA. Consultez la notice officielle et demandez conseil à un professionnel de santé ou à un pharmacien.
 
-## De l'information à l'action
-
-ChatGPT ne m'a pas simplement donné un nom à rechercher.
-
-Il a contribué à transformer cette option en un plan comportant des étapes concrètes. Après tant d'échecs, cette précision comptait.
-
-Je ne veux pas raconter l'histoire d'un comprimé qui aurait tout réglé. C'est moi qui ai dû arrêter de fumer. Et à partir de mon seul cas, je ne peux pas déterminer les contributions respectives du médicament, du plan ou de ma disponibilité au changement à ce moment-là.
-
-Mais cette fois, j'avais davantage qu'une promesse supplémentaire faite à moi-même. J'avais trouvé une possibilité que j'ignorais et un moyen de commencer.
-
-Peut-être avais-je demandé trop à la volonté seule. La dépendance à la nicotine n'est pas simplement une mauvaise pensée qu'un raisonnement suffirait à corriger. La biologie compte aussi. Le comprendre ne m'a pas ôté ma responsabilité ; cela m'a aidé à distinguer **avoir besoin d'une meilleure méthode** de **devoir me blâmer davantage**.
-
-## Plus de 90 jours
-
-Au moment où j'écris, je n'ai pas fumé depuis **plus de 90 jours**.
-
-Après plus d'une décennie de tabac et plusieurs tentatives ratées, c'est un changement important dans ma vie.
-
-Je ne sais pas si je refumerai un jour. Quatre-vingt-dix jours ne prouvent pas qu'une dépendance ait disparu pour toujours. Mais l'incertitude du lendemain n'annule pas le chemin déjà parcouru.
-
-## Ce que ChatGPT a changé — et ce que cela ne prouve pas
-
-ChatGPT n'a pas arrêté à ma place. Il m'a aidé à découvrir une option étayée par la recherche, puis à transformer une information en action.
-
-Ce témoignage ne démontre ni que ChatGPT soit médecin, ni que Tabex convienne à tous, ni que le médicament explique à lui seul mon résultat.
-
-La cytisine présente des effets indésirables, des contre-indications et des restrictions d'autorisation qui varient selon les pays. Un schéma proposé par une IA ne remplace ni la notice officielle ni l'avis d'un médecin ou d'un pharmacien. **Je ne publie pas mon calendrier personnel de prise comme modèle à reproduire.**
-
-Ce que je garde de cette expérience est plus modeste qu'une grande promesse technologique : après des années d'échecs, j'ai posé une autre question. La réponse a ouvert une autre action. Jusqu'à présent, cette action m'a permis de dépasser 90 jours sans cigarette.
-
-Parfois, la réponse n'est pas de forcer davantage de la même manière.
-
-C'est de trouver une meilleure manière.
-
-*Note : témoignage personnel, non conseil médical. Sources : [OMS — Recommandations pour l'arrêt du tabac (2024)](https://www.who.int/news/item/02-07-2024-who-releases-first-ever-clinical-treatment-guideline-for-tobacco-cessation-in-adults), [Cochrane — Données sur la cytisine](https://www.cochrane.org/evidence/CD006103_can-medications-varenicline-and-cytisine-nicotine-receptor-partial-agonists-help-people-stop-smoking).*
+*Récit personnel, pas un conseil médical. Sources : [guide 2024 de l’OMS sur le sevrage tabagique chez l’adulte](https://www.who.int/publications/i/item/9789240096431) ; [revue Cochrane 2023 sur la cytisine et la varénicline](https://www.cochrane.org/evidence/CD006103_can-medications-varenicline-and-cytisine-nicotine-receptor-partial-agonists-help-people-stop-smoking) (recherche arrêtée au 29 avril 2022) ; [information sur Tabex](https://tabex.bg/), qui identifie la cytisine comme principe actif.*

@@ -1,6 +1,6 @@
 ---
-title: "ChatGPT me ayudó a dejar de fumar después de más de diez años"
-description: "Tras muchos intentos fallidos, una pregunta distinta me llevó a Tabex. Llevo más de 90 días sin fumar."
+title: "Cómo ChatGPT me ayudó a encontrar otra opción para dejar de fumar"
+description: "Tras varios intentos fallidos, ChatGPT me señaló la citisina. Es un relato personal, no una guía de tratamiento."
 author: "C.S Chánh Niệm"
 lang: es
 slug: chatgpt-tabex-90-days-es
@@ -11,60 +11,28 @@ featured: false
 tags: [life]
 ---
 
-Fumé durante más de diez años.
+Fumé durante más de diez años e intenté dejarlo de varias maneras. Ninguna me funcionó. Este es un relato personal, no una guía de tratamiento.
 
-Intenté dejarlo muchas veces y de distintas formas, sin éxito. Conocía los riesgos del tabaco. Razones para abandonarlo me sobraban.
+## Otra pregunta
 
-Saber lo que conviene hacer no significa poder hacerlo.
+Le pregunté a ChatGPT si existía otra opción eficaz. Me habló de Tabex, un medicamento con citisina, y me propuso un plan estructurado que podía considerar. Decidí actuar.
 
-Con el tiempo dejé de preguntarme cuánta fuerza de voluntad me faltaba. Quise saber si existía alguna opción que no había encontrado.
+## Qué dice la evidencia
 
-## Una pregunta diferente
+La citisina no es una idea nueva ni sin estudiar. La guía de la OMS de 2024 la recomienda como una de las opciones farmacológicas para adultos que quieren dejar el tabaco. Una revisión Cochrane de 2023 encontró evidencia de certeza moderada de que más personas dejaron de fumar con citisina que con placebo; la búsqueda de evidencia llegó hasta abril de 2022.
 
-Le pregunté a ChatGPT:
+## Qué cambió para mí
 
-*¿Hay alguna forma poco convencional, pero realmente eficaz, de dejar de fumar?*
+Cuando se publicó este relato, el 8 de noviembre de 2026, llevaba más de 90 días sin fumar. Aun así, no puedo separar el efecto del medicamento, el plan y el momento en que estuve listo para cambiar.
 
-No buscaba una ocurrencia ni un remedio milagroso. Quería una alternativa a los métodos con los que ya había fracasado.
+## Lo que este relato no demuestra
 
-ChatGPT me habló de **Tabex**, un medicamento que contiene **citisina (cytisine)**, y propuso un plan estructurado que pudiera poner en práctica.
+- ChatGPT no es un profesional clínico.
+- Tabex no es adecuado para todo el mundo; su disponibilidad y aprobación varían según el país.
+- El resultado de una persona no demuestra que el medicamento, por sí solo, lo causara ni predice lo que ocurrirá después.
 
-La sorpresa fue que no se trataba de algo nuevo ni misterioso. La citisina actúa sobre receptores de nicotina en el cerebro y puede ayudar a reducir las ganas de fumar y los síntomas de abstinencia. Se ha estudiado en ensayos clínicos. La Organización Mundial de la Salud la recomienda como una de las opciones de tratamiento para dejar el tabaco.
+La dependencia de la nicotina no es simplemente una idea que se pueda borrar con más fuerza de voluntad. Encontrar una opción con respaldo científico me ayudó a actuar sin culparme más.
 
-Era *poco convencional* solo para mí, porque hasta entonces no la conocía. Desconocido no significa carente de pruebas.
+No copies una pauta farmacológica generada por IA. Consulta el prospecto oficial y habla con un profesional sanitario o farmacéutico sobre el tratamiento y su seguridad.
 
-## De una respuesta a una acción
-
-ChatGPT hizo algo más que darme un nombre para buscar.
-
-Convirtió esa posibilidad en un plan con etapas claras. Después de tantos intentos fallidos, disponer de pasos concretos importaba.
-
-No quiero contar esto como si una pastilla lo hubiera resuelto todo. Fui yo quien tuvo que dejar de fumar. Tampoco puedo separar, a partir de una experiencia individual, cuánto contribuyeron el medicamento, el plan y mi disposición a cambiar en ese momento.
-
-Pero esta vez tenía algo más que una nueva promesa. Había descubierto una opción que antes no encontraba y una manera de empezar.
-
-Quizá había cargado demasiado peso sobre la fuerza de voluntad. La dependencia de la nicotina no es simplemente un mal pensamiento que pueda corregirse con argumentos. También interviene la biología. Entenderlo no eliminó mi responsabilidad, pero me ayudó a distinguir entre **necesitar un método mejor** y **culparme más**.
-
-## Más de 90 días
-
-Mientras escribo estas líneas, llevo **más de 90 días sin fumar**.
-
-Después de más de diez años fumando y de múltiples intentos fallidos, es un cambio importante en mi vida.
-
-No sé si volveré a fumar alguna vez. Noventa días no demuestran que una adicción haya desaparecido para siempre. Pero la incertidumbre del mañana tampoco borra lo conseguido hasta hoy.
-
-## Lo que ChatGPT hizo, y lo que esta historia no demuestra
-
-ChatGPT no dejó de fumar por mí. Me ayudó a encontrar una opción respaldada por estudios y a convertir información en algo que podía hacer.
-
-Mi historia no demuestra que ChatGPT sea un médico, que Tabex sirva para todo el mundo ni que el resultado se deba únicamente al medicamento.
-
-La citisina tiene efectos secundarios, contraindicaciones y distintas condiciones de autorización según el país. Un plan generado por IA no sustituye las instrucciones oficiales del medicamento ni la consulta con un profesional sanitario o farmacéutico. **No publico mi pauta personal de dosis para que otros la copien.**
-
-Lo que quiero conservar es una conclusión más pequeña que una promesa tecnológica: tras años de intentarlo, hice una pregunta distinta. Esa respuesta abrió una acción distinta. Hasta hoy, esa acción me ha llevado más allá de los 90 días sin tabaco.
-
-A veces no necesitamos esforzarnos más siguiendo exactamente el mismo camino.
-
-A veces necesitamos encontrar uno mejor.
-
-*Nota: Es una experiencia personal, no un consejo médico. Fuentes: [OMS — Guía para dejar el tabaco (2024)](https://www.who.int/news/item/02-07-2024-who-releases-first-ever-clinical-treatment-guideline-for-tobacco-cessation-in-adults); [Cochrane — Pruebas sobre citisina](https://www.cochrane.org/evidence/CD006103_can-medications-varenicline-and-cytisine-nicotine-receptor-partial-agonists-help-people-stop-smoking).*
+*Relato personal, no consejo médico. Fuentes: [guía de la OMS de 2024 para dejar el tabaco en adultos](https://www.who.int/publications/i/item/9789240096431); [revisión Cochrane de 2023 sobre citisina y vareniclina](https://www.cochrane.org/evidence/CD006103_can-medications-varenicline-and-cytisine-nicotine-receptor-partial-agonists-help-people-stop-smoking) (búsqueda hasta el 29 de abril de 2022); [información del producto Tabex](https://tabex.bg/), que identifica la citisina como principio activo.*

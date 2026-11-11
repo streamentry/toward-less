@@ -95,9 +95,12 @@ for path in sorted(ROOT.rglob("*")):
     if published and key == "chatgpt-tabex-90-days-2026":
         if len(re.findall(r"(?m)^##\s+", body)) != 4:
             errors.append(f"{path}: Smoking-cessation account must have four sections")
-        if any(source not in body for source in (
-            "who.int/news/item/", "cochrane.org/evidence/"
-        )):
+        has_who_guideline = any(source in body for source in (
+            "who.int/news/item/",
+            "who.int/publications/i/item/9789240096431",
+        ))
+        has_cochrane_review = "cochrane.org/evidence/" in body
+        if not has_who_guideline or not has_cochrane_review:
             errors.append(f"{path}: Missing WHO or Cochrane evidence sources")
         if "Tabex" not in body or "cytisine" not in body.lower():
             errors.append(f"{path}: Missing Tabex/cytisine treatment context")
