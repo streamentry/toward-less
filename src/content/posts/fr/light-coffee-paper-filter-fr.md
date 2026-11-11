@@ -1,45 +1,48 @@
 ---
 title: "Café léger, filtre papier et limites d'une bonne habitude"
-description: "Les preuves sur le café V60 filtré, le LDL, la stéatose hépatique, l'appétit, l'attention et le sommeil."
+description: "Ce que le café filtré révèle sur le cholestérol, le foie, l’appétit et le sommeil."
 lang: fr
 slug: light-coffee-paper-filter-fr
 translationKey: filtered-coffee-and-health-2026
 pubDatetime: 2026-11-08T20:00:00+07:00
+modDatetime: 2026-11-12T00:40:43+07:00
 draft: false
 featured: false
 tags: [life]
 ---
 
-Un café noir, léger et sans sucre au travail peut être agréable. Mais améliorer l'attention, réduire la faim, protéger le foie et faire baisser le LDL sont quatre affirmations distinctes. **Les preuves les plus solides concernent la filtration et l'éveil à court terme, pas la perte de graisse.**
+Un café léger et sans sucre peut être une habitude agréable. Mais le filtre, le LDL, la stéatose hépatique, l’appétit et le sommeil relèvent de preuves différentes. Le constat le plus net est que certains échantillons de café filtré contenaient moins de cafestol; les effets sur la santé d’une personne restent moins certains.
 
-## Pourquoi un Hario V60 avec filtre en papier ?
+## Filtres en papier et LDL
 
-Les huiles du café contiennent du *cafestol* et du *kahweol*, susceptibles d'augmenter le cholestérol LDL. Le filtre papier en retient l'essentiel. V60 et Chemex sont simplement deux dispositifs de café filtre manuel : **aucun bénéfice médical propre à la marque V60 n'est démontré**.
+Le café contient du cafestol et du kahweol, des diterpènes qui peuvent augmenter le cholestérol. Une étude chimique suédoise de 2025 a mesuré une concentration médiane de cafestol de 176 mg/L dans des échantillons provenant de 11 machines au travail, contre 12 mg/L dans cinq cafés préparés à la maison avec un filtre en papier. Elle a mesuré des échantillons, pas l’évolution du LDL chez les personnes. [1] Le Hario V60 est une façon d’utiliser un filtre en papier; aucun bénéfice médical particulier de la marque n’est démontré.
 
-En 2025, une étude suédoise a mesuré une concentration médiane de **176 mg/L** de cafestol dans le café de 11 machines de bureau, contre **12 mg/L** dans cinq cafés filtrés sur papier à domicile. Il s'agit d'analyses chimiques sur de petits échantillons, **pas d'un essai clinique mesurant une baisse précise du LDL après passage au V60**. La préparation et les quantités comptent. [1] Le filtre permet surtout d'éviter une exposition pouvant augmenter le LDL ; il ne traite pas une hypercholestérolémie.
+## Stéatose hépatique: association, pas preuve
 
-## Foie gras : association prometteuse, pas traitement
+Les recommandations AASLD de 2023 indiquent que trois tasses ou plus par jour pourraient être recommandées en l’absence de contre-indication, d’après des études observationnelles. Les recommandations EASL–EASD–EASO de 2024 décrivent aussi des associations observationnelles avec de meilleurs résultats hépatiques, plus nettes pour la fibrose que pour la stéatose, mais jugent les essais trop rares et peu concluants pour tirer une conclusion ferme. [2][3] Ces résultats ne démontrent pas que le café traite la MASLD chez une personne.
 
-Les recommandations AASLD 2023 et EASL–EASD–EASO 2024 rapportent une association observationnelle entre consommation de café et moindre fréquence de maladie hépatique avancée. Le signal est plus cohérent pour la **fibrose** que pour une diminution directe de la graisse hépatique. Une association ne prouve pas une causalité et les essais randomisés restent insuffisants. [2][3] Pour la stéatose hépatique d'origine métabolique (MASLD), alimentation, activité physique et contrôle du poids lorsque nécessaire restent essentiels.
+## Appétit et poids
 
-## Faim et masse grasse : preuves contradictoires
+Une revue de 2017 a constaté que boire du café trois à quatre heures et demie avant un repas avait peu d’effet sur la quantité consommée; la caféine prise entre une demi-heure et quatre heures avant le repas pouvait réduire temporairement les apports. Les données sur l’appétit et la consommation totale restaient mitigées. [4]
 
-Une revue de 2017 suggère que la caféine avant un repas **pourrait** réduire brièvement les prises alimentaires ; les effets du café sur la faim et l'apport énergétique total restent variables. [4] Une petite étude de 2024 a même observé un désir accru d'aliments sucrés chez certaines personnes, sans conclusion générale possible. [5] Remplacer une boisson sucrée ou un grignotage automatique par un café noir peut aider par le comportement, sans prouver une « combustion » des graisses. Le café ne doit pas remplacer un repas.
+Un petit essai croisé de 2024 mené auprès de femmes en surpoids ou obèses a comparé de l’eau à un café contenant 6 mg de caféine par kilo de poids corporel. Après le café, les participantes avaient davantage envie de sucré, consommaient ensuite plus de fructose et présentaient des triglycérides plus élevés. [5] Un seul petit essai ne permet pas de prévoir les effets chez tout le monde ni d’affirmer que le café brûle les graisses.
 
-## Se concentrer sans emprunter au sommeil
+## Caféine et sommeil
 
-La caféine augmente temporairement la vigilance. **Diluer le café change son goût, pas la quantité de caféine déjà extraite** ; pour réduire la dose, utiliser moins de mouture ou du décaféiné. La FDA indique **400 mg par jour** comme généralement tolérés chez beaucoup d'adultes en bonne santé, **non comme objectif quotidien**. [6] Une étude a montré que **400 mg six heures avant le coucher** peuvent perturber le sommeil. [7]
+Ajouter de l’eau à un café déjà préparé en atténue le goût, mais ne réduit pas la quantité totale de caféine dans la tasse. Pour en consommer moins, utilisez moins de café moulu ou choisissez du décaféiné. La FDA indique que 400 mg par jour ne sont généralement pas associés à des effets négatifs chez la plupart des adultes; ce n’est pas un objectif, et la sensibilité varie. [6] Un essai contrôlé a observé que 400 mg perturbaient le sommeil même six heures avant le coucher. Cette dose ne définit pas une limite universelle. [7]
 
-Routine raisonnable : le matin, préparer **10–12 g de café avec 250–350 mL d'eau** et un filtre papier, sans sucre ni crème ; éventuellement une petite tasse avant midi ; ensuite, eau ou décaféiné. La teneur réelle en caféine varie selon les grains et la préparation. Après quelques semaines, regarder le sommeil, le grignotage et, si indiqué, les bilans LDL et hépatiques plutôt que la seule impression d'énergie.
+## Ce que les données permettent de dire
 
-**Conclusion :** V60 pour son filtre papier, café léger pour le goût, café tôt pour le sommeil. Une boisson ne remplace pas les soins du métabolisme.
+- Le filtre en papier réduit le cafestol mesuré dans certains échantillons; il n’est pas démontré qu’il réduise le LDL des personnes qui le boivent.
+- Les données sur le foie sont surtout observationnelles. Les résultats sur l’appétit sont mitigés et le café n’est pas une méthode prouvée pour perdre de la graisse.
+- Si la caféine perturbe votre sommeil, buvez-en moins, choisissez du décaféiné ou buvez plus tôt. Ajouter de l’eau ne réduit pas la caféine déjà extraite.
 
 ### Sources
 
-1. Orrje et al. (2025), [workplace coffee diterpenes](https://doi.org/10.1016/j.numecd.2025.103933).
-2. AASLD (2023), [NAFLD practice guidance](https://pmc.ncbi.nlm.nih.gov/articles/PMC10735173/).
-3. EASL–EASD–EASO (2024), [MASLD clinical guidelines](https://pmc.ncbi.nlm.nih.gov/articles/PMC11299976/).
-4. Schubert et al. (2017), [coffee and appetite review](https://pubmed.ncbi.nlm.nih.gov/28446037/).
-5. (2024), [small coffee/appetite trial](https://pubmed.ncbi.nlm.nih.gov/38986627/).
-6. [FDA guidance on caffeine](https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much).
-7. Drake et al. (2013), [caffeine and sleep](https://doi.org/10.5664/jcsm.3170).
+1. Erik Orrje et al. (2025), *Cafestol and kahweol concentrations in workplace machine coffee compared with conventional brewing methods*, [PubMed](https://pubmed.ncbi.nlm.nih.gov/40089392/).
+2. Mary E. Rinella et al. (2023), *AASLD Practice Guidance on the clinical assessment and management of nonalcoholic fatty liver disease*, [PubMed](https://pubmed.ncbi.nlm.nih.gov/36727674/).
+3. EASL–EASD–EASO (2024), *EASL–EASD–EASO Clinical Practice Guidelines on the management of metabolic dysfunction-associated steatotic liver disease (MASLD)*, [texte intégral](https://easlcampus.eu/sites/default/files/2024-06/EASL_CPGs_on_MASLD.pdf).
+4. Matthew M. Schubert et al. (2017), *Caffeine, coffee, and appetite control: a review*, [PubMed](https://pubmed.ncbi.nlm.nih.gov/28446037/).
+5. Lisset Magaña-de la Vega et al. (2024), *Effect of coffee intake on appetite parameters in woman with overweight or obesity: a pilot crossover randomized trial*, [PubMed](https://pubmed.ncbi.nlm.nih.gov/38986627/).
+6. U.S. Food and Drug Administration (consulté le 12 novembre 2026), *Spilling the Beans: How Much Caffeine is Too Much?*, [FDA](https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much).
+7. Christopher Drake et al. (2013), *Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed*, [PubMed](https://pubmed.ncbi.nlm.nih.gov/24235903/).

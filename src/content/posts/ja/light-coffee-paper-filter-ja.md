@@ -1,45 +1,48 @@
 ---
 title: "薄いコーヒーとペーパーフィルター――良い習慣にも限界がある"
-description: "V60で淹れたコーヒーとLDL、脂肪肝、食欲、集中力、睡眠について科学的根拠を整理する。"
+description: "紙フィルターのコーヒー、LDL、肝臓、食欲、睡眠についての証拠。"
 lang: ja
 slug: light-coffee-paper-filter-ja
 translationKey: filtered-coffee-and-health-2026
 pubDatetime: 2026-11-08T20:00:00+07:00
+modDatetime: 2026-11-12T00:40:43+07:00
 draft: false
 featured: false
 tags: [life]
 ---
 
-仕事中に砂糖なしの薄いブラックコーヒーを飲むのは、心地よい習慣かもしれません。ただし「集中できる」「空腹を抑える」「脂肪肝に良い」「LDLを下げる」は別々の主張です。**根拠が比較的明確なのは紙フィルターと短時間の覚醒作用であり、体脂肪が減るという主張ではありません。**
+薄めで砂糖を入れないコーヒーは、心地よい習慣になり得ます。ただし、紙フィルター、LDL、脂肪肝、食欲、睡眠では証拠の強さが異なります。最も明確なのは、紙でろ過した一部のコーヒー試料でカフェストールが少なかったことです。個人の健康への影響ははっきりしていません。
 
-## なぜHario V60と紙フィルターなのか
+## 紙フィルターとLDL
 
-コーヒーの油分には、LDLコレステロールを上昇させ得る *cafestol* と *kahweol* が含まれます。紙フィルターはその大部分を取り除きます。V60とChemexはいずれも紙で濾過する抽出器具で、**V60というブランド自体に特別な医療効果があるわけではありません**。
+コーヒーにはカフェストールとカーウェオールというジテルペンが含まれ、コレステロールを上げることがあります。2025年のスウェーデンの化学分析では、職場の11台のコーヒーマシンから採取した試料のカフェストール中央値は176 mg/L、家庭で紙フィルターを使った5試料では12 mg/Lでした。測定したのはコーヒーの成分で、飲む人のLDLの変化ではありません。[1] Hario V60は紙フィルターを使う方法の一つです。このブランドに特別な医療上の利点があるとは示されていません。
 
-2025年のスウェーデンの研究では、職場の11台のコーヒーマシンから得た試料のcafestol濃度中央値は **176 mg/L**、家庭で紙濾過した5試料では **12 mg/L** でした。これは少数試料の化学分析であり、**V60への切り替えによってLDLが何mg/dL下がるかを測った臨床試験ではありません**。抽出方法や飲む量でも摂取量は変わります。[1] 紙フィルターはLDLを上げる一因を避ける手段であって、高LDLの治療ではありません。
+## 脂肪肝：関連はあるが、証明ではない
 
-## 脂肪肝：関連があっても治療とは言えない
+AASLDの2023年ガイダンスは、禁忌がなければ観察研究を根拠に1日3杯以上を勧めることができるとしています。EASL–EASD–EASOの2024年ガイドラインも、観察研究で肝臓の状態との関連を示しています。関連は脂肪肝そのものより線維化で一貫していますが、試験は少なく、結果も確定的ではありません。[2][3] これらの結果は、コーヒーが個人のMASLDを治療することを証明しません。
 
-AASLDの2023年ガイダンスとEASL–EASD–EASOの2024年ガイドラインでは、コーヒー摂取と進行した肝疾患の少なさとの観察研究上の関連が扱われています。その関連は、肝臓の脂肪量そのものの減少よりも**線維化**において一貫しているようです。観察研究から因果関係は断定できず、ランダム化試験の根拠はまだ限られます。[2][3] MASLDの対策では、食事、運動、必要に応じた体重管理が基本です。
+## 食欲と体重
 
-## 食欲と減量：結果はまちまち
+2017年のレビューでは、食事の3〜4.5時間前に飲むコーヒーは食事量にほとんど影響せず、食事の0.5〜4時間前のカフェインは短期的に摂取量を減らす可能性がありました。食欲や総摂取量に関する証拠は一貫していません。[4]
 
-2017年のレビューでは、食前のカフェインが**一時的に**食事量を減らす可能性を示しましたが、コーヒーと空腹感、総摂取エネルギーの研究結果は一致していません。[4] 2024年の小規模研究では甘いものへの欲求が増えた参加者もいましたが、全員に当てはめることはできません。[5] 砂糖入り飲料や無意識の間食をブラックコーヒーに置き換える効果は、行動の変化によるものであり、「コーヒーが脂肪を燃やす」証拠ではありません。食事の代わりにカフェインを使わないことも大切です。
+2024年の小規模なクロスオーバー試験では、過体重または肥満の女性を対象に、体重1 kgあたり6 mgのカフェインを含むコーヒーと水を比較しました。コーヒーを飲んだ回では、甘いものへの欲求、その後の果糖摂取量、トリグリセリド値が高くなりました。[5] 小規模な一試験では全員への影響は予測できず、コーヒーが脂肪を燃やすとも証明できません。
 
-## 集中と睡眠の両方を守る
+## カフェインと睡眠
 
-カフェインは短時間の覚醒を助けます。ただし**水を加えて味を薄くしても、すでに抽出されたカフェインの総量は減りません**。量を減らすなら粉を減らすかデカフェを選びます。FDAが示す健康な成人の**1日400 mg**は、多くの人で有害作用と結びつかない一般的な目安で、**目標摂取量ではありません**。[6] **就寝6時間前の400 mg**でも睡眠を妨げ得ることが実験で示されています。[7]
+淹れたコーヒーに水を足すと味は薄くなりますが、カップにすでに入っているカフェインの総量は減りません。カフェインを減らすには粉を少なくするか、デカフェを選びます。FDAは、1日400 mgは多くの成人で通常悪影響と関連しない量としていますが、目標ではなく、感受性には個人差があります。[6] 対照試験では、就寝6時間前の400 mgでも睡眠が妨げられました。この量が全員に当てはまる境界ではありません。[7]
 
-実践するなら、朝に**10–12 gの豆と250–350 mLの湯**を紙フィルターで抽出し、砂糖やクリームを入れずに飲む。必要なら正午前に少量を追加し、午後は水やデカフェにする。実際のカフェイン量は豆と抽出によって変わります。数週間後、元気な感覚だけでなく睡眠、間食の回数、必要なLDL・肝臓の検査で振り返ります。
+## 証拠から言えること
 
-**結論：**V60を選ぶのは紙フィルターのため。薄くするのは味のため。早い時間に飲むのは睡眠のため。コーヒー一杯に医療効果を期待しすぎないことです。
+- 紙フィルターは一部の試料で測定されたカフェストールを減らしました。飲む人のLDLを下げるとは示されていません。
+- 肝臓の証拠は主に観察研究です。食欲については結果が混在し、コーヒーは実証済みの減量法ではありません。
+- カフェインが睡眠に影響するなら、量を減らす、デカフェにする、早い時間に飲む方法があります。水を足しても抽出済みのカフェイン総量は減りません。
 
-### Scientific references
+### 参考文献
 
-1. Orrje et al. (2025), [coffee diterpenes in workplace machines](https://doi.org/10.1016/j.numecd.2025.103933).
-2. AASLD (2023), [NAFLD practice guidance](https://pmc.ncbi.nlm.nih.gov/articles/PMC10735173/).
-3. EASL–EASD–EASO (2024), [MASLD clinical guidelines](https://pmc.ncbi.nlm.nih.gov/articles/PMC11299976/).
-4. Schubert et al. (2017), [caffeine, coffee and appetite](https://pubmed.ncbi.nlm.nih.gov/28446037/).
-5. (2024), [small study of coffee and appetite](https://pubmed.ncbi.nlm.nih.gov/38986627/).
-6. [FDA caffeine guidance](https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much).
-7. Drake et al. (2013), [caffeine and sleep](https://doi.org/10.5664/jcsm.3170).
+1. Erik Orrje et al. (2025), *Cafestol and kahweol concentrations in workplace machine coffee compared with conventional brewing methods*, [PubMed](https://pubmed.ncbi.nlm.nih.gov/40089392/).
+2. Mary E. Rinella et al. (2023), *AASLD Practice Guidance on the clinical assessment and management of nonalcoholic fatty liver disease*, [PubMed](https://pubmed.ncbi.nlm.nih.gov/36727674/).
+3. EASL–EASD–EASO (2024), *EASL–EASD–EASO Clinical Practice Guidelines on the management of metabolic dysfunction-associated steatotic liver disease (MASLD)*, [full text](https://easlcampus.eu/sites/default/files/2024-06/EASL_CPGs_on_MASLD.pdf).
+4. Matthew M. Schubert et al. (2017), *Caffeine, coffee, and appetite control: a review*, [PubMed](https://pubmed.ncbi.nlm.nih.gov/28446037/).
+5. Lisset Magaña-de la Vega et al. (2024), *Effect of coffee intake on appetite parameters in woman with overweight or obesity: a pilot crossover randomized trial*, [PubMed](https://pubmed.ncbi.nlm.nih.gov/38986627/).
+6. U.S. Food and Drug Administration (accessed 12 November 2026), *Spilling the Beans: How Much Caffeine is Too Much?*, [FDA](https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much).
+7. Christopher Drake et al. (2013), *Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed*, [PubMed](https://pubmed.ncbi.nlm.nih.gov/24235903/).

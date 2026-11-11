@@ -1,45 +1,48 @@
 ---
 title: "Kopi cair, penapis kertas dan batas tabiat yang baik"
-description: "Bukti saintifik mengenai kopi V60, LDL, hati berlemak, selera makan, fokus dan tidur."
+description: "Bukti tentang kopi bertapis kertas, LDL, hati, selera makan dan tidur."
 lang: ms
 slug: light-coffee-paper-filter-ms
 translationKey: filtered-coffee-and-health-2026
 pubDatetime: 2026-11-08T20:00:00+07:00
+modDatetime: 2026-11-12T00:40:43+07:00
 draft: false
 featured: false
 tags: [life]
 ---
 
-Kopi hitam yang cair tanpa gula ketika bekerja mungkin satu tabiat yang menyenangkan. Namun meningkatkan fokus, menahan lapar, membantu hati berlemak dan menurunkan LDL ialah empat dakwaan yang berbeza. **Bukti paling kukuh melibatkan penapisan kertas dan kewaspadaan sementara, bukan kehilangan lemak badan.**
+Kopi cair tanpa gula boleh menjadi tabiat yang menyenangkan. Namun, penapisan kertas, LDL, hati berlemak, selera makan dan tidur mempunyai bukti yang berbeza. Dapatan paling jelas ialah beberapa sampel kopi bertapis kertas mengandungi cafestol yang lebih rendah; kesannya terhadap kesihatan seseorang masih kurang pasti.
 
-## Mengapa Hario V60 dengan penapis kertas?
+## Penapis kertas dan LDL
 
-Minyak kopi mengandungi *cafestol* dan *kahweol*, dua sebatian yang boleh meningkatkan kolesterol LDL. Penapis kertas menahan sebahagian besar sebatian ini. V60 dan Chemex ialah kaedah bancuhan menggunakan kertas; **tiada manfaat perubatan khas yang terbukti daripada jenama V60 itu sendiri**.
+Kopi mengandungi cafestol dan kahweol, diterpena yang boleh meningkatkan kolesterol. Kajian kimia di Sweden pada 2025 mendapati median cafestol sebanyak 176 mg/L dalam sampel daripada 11 mesin kopi di tempat kerja, berbanding 12 mg/L dalam lima bancuhan kopi di rumah yang ditapis dengan kertas. Kajian itu mengukur sampel kopi, bukan perubahan LDL pada peminumnya. [1] Hario V60 ialah salah satu cara menggunakan penapis kertas; tiada manfaat perubatan khas bagi jenama itu yang terbukti.
 
-Kajian Sweden pada 2025 mendapati median cafestol **176 mg/L** dalam sampel kopi daripada 11 mesin di tempat kerja, berbanding **12 mg/L** dalam lima sampel kopi rumah yang ditapis dengan kertas. Ini ukuran kimia daripada sampel kecil, **bukannya ujian klinikal yang menentukan berapa banyak LDL turun selepas beralih kepada V60**. Cara membancuh dan jumlah minuman turut mempengaruhi pendedahan. [1] Penapis kertas membantu mengelakkan satu sumber peningkatan LDL; ia bukan rawatan untuk kolesterol tinggi.
+## Hati berlemak: kaitan, bukan bukti
 
-## Hati berlemak: kaitan bukan penawar
+Panduan AASLD 2023 menyatakan tiga cawan atau lebih sehari boleh disyorkan jika tiada kontraindikasi, berdasarkan kajian pemerhatian. Garis panduan EASL–EASD–EASO 2024 turut menyebut kaitan pemerhatian dengan hasil hati yang lebih baik, lebih jelas bagi fibrosis berbanding steatosis, tetapi kajian rawak terlalu sedikit dan tidak meyakinkan untuk menyokong kesimpulan kukuh. [2][3] Dapatan ini tidak membuktikan kopi merawat MASLD pada seseorang.
 
-Garis panduan AASLD 2023 dan EASL–EASD–EASO 2024 membincangkan kaitan pemerhatian antara minum kopi dan penyakit hati tahap lanjut yang lebih rendah. Hubungan ini lebih konsisten dengan **fibrosis hati** berbanding pengurangan terus lemak dalam hati. Kajian pemerhatian tidak membuktikan sebab dan akibat; bukti ujian rawak masih terhad. [2][3] Untuk MASLD, pemakanan, aktiviti fizikal dan pengurusan berat badan apabila sesuai kekal sebagai asas.
+## Selera makan dan berat badan
 
-## Selera makan dan lemak: keputusan bercampur
+Ulasan 2017 mendapati kopi yang diminum tiga hingga empat setengah jam sebelum makan hanya sedikit mempengaruhi pengambilan makanan; kafein yang diambil setengah jam hingga empat jam sebelum makan mungkin mengurangkannya buat sementara. Bukti tentang selera makan dan jumlah pengambilan masih bercampur. [4]
 
-Ulasan tahun 2017 mendapati kafein sebelum makan **mungkin** mengurangkan pengambilan makanan buat sementara, tetapi kajian tentang kopi, lapar dan jumlah kalori tidak konsisten. [4] Kajian kecil 2024 mendapati keinginan terhadap makanan manis meningkat bagi sesetengah peserta, tetapi hasilnya tidak boleh digeneralisasi. [5] Menggantikan minuman manis atau snek tanpa sedar dengan kopi hitam boleh membantu sebagai perubahan tabiat, bukannya bukti kopi membakar lemak. Jangan jadikan kafein pengganti hidangan utama.
+Satu kajian silang kecil pada 2024 melibatkan wanita yang berlebihan berat badan atau mengalami obesiti. Kajian itu membandingkan air dengan kopi yang mengandungi 6 mg kafein bagi setiap kg berat badan. Selepas sesi kopi, peserta lebih menginginkan makanan manis, mengambil lebih banyak fruktosa kemudian dan mempunyai trigliserida yang lebih tinggi. [5] Satu kajian kecil tidak dapat meramalkan kesannya kepada semua orang atau membuktikan kopi membakar lemak.
 
-## Fokus tanpa mengorbankan tidur
+## Kafein dan tidur
 
-Kafein boleh meningkatkan kewaspadaan seketika. **Menambah air mencairkan rasa, bukan mengurangkan kafein yang telah diekstrak**; gunakan kurang serbuk kopi atau dekaf untuk dos lebih rendah. FDA menyatakan **400 mg sehari** biasanya tidak dikaitkan dengan kesan buruk bagi kebanyakan orang dewasa sihat, **tetapi bukan sasaran harian**. [6] Kajian menunjukkan **400 mg enam jam sebelum tidur** masih boleh mengganggu tidur. [7]
+Menambah air pada kopi yang sudah dibancuh menjadikan rasanya lebih ringan, tetapi tidak mengurangkan jumlah kafein di dalam cawan. Untuk mengurangkan kafein, gunakan serbuk yang lebih sedikit atau pilih kopi tanpa kafein. FDA menyatakan 400 mg sehari biasanya tidak dikaitkan dengan kesan negatif bagi kebanyakan orang dewasa; angka itu bukan sasaran, dan kepekaan setiap orang berbeza. [6] Satu kajian terkawal mendapati 400 mg masih mengganggu tidur walaupun diminum enam jam sebelum waktu tidur. Dos itu bukan had sejagat. [7]
 
-Amalan mudah: pagi hari bancuh **10–12 g kopi dengan 250–350 mL air** melalui penapis kertas, tanpa gula atau krim; jika perlu tambah cawan kecil sebelum tengah hari; pada petang pilih air atau dekaf. Kandungan kafein sebenar bergantung pada biji dan bancuhan. Selepas beberapa minggu, nilai tidur, kekerapan makan snek serta ujian LDL atau pemeriksaan hati apabila perlu, bukan sekadar rasa bertenaga.
+## Rumusan yang disokong bukti
 
-**Kesimpulan:** Pilih V60 kerana penapis kertas, kopi cair kerana rasa, dan kopi awal kerana tidur. Secawan kopi bukan rawatan kesihatan metabolik.
+- Penapis kertas mengurangkan cafestol yang diukur dalam sesetengah sampel; penurunan LDL pada peminum belum dibuktikan.
+- Bukti tentang hati kebanyakannya daripada kajian pemerhatian. Dapatan tentang selera makan bercampur, dan kopi bukan kaedah menurunkan lemak yang terbukti.
+- Jika kafein mengganggu tidur, kurangkan jumlahnya, pilih kopi tanpa kafein atau minum lebih awal. Menambah air tidak mengurangkan kafein yang sudah dibancuh.
 
-### Scientific references
+### Sumber
 
-1. Orrje et al. (2025), [coffee diterpenes in workplace machines](https://doi.org/10.1016/j.numecd.2025.103933).
-2. AASLD (2023), [NAFLD practice guidance](https://pmc.ncbi.nlm.nih.gov/articles/PMC10735173/).
-3. EASL–EASD–EASO (2024), [MASLD clinical guidelines](https://pmc.ncbi.nlm.nih.gov/articles/PMC11299976/).
-4. Schubert et al. (2017), [caffeine, coffee and appetite](https://pubmed.ncbi.nlm.nih.gov/28446037/).
-5. (2024), [small study of coffee and appetite](https://pubmed.ncbi.nlm.nih.gov/38986627/).
-6. [FDA caffeine guidance](https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much).
-7. Drake et al. (2013), [caffeine and sleep](https://doi.org/10.5664/jcsm.3170).
+1. Erik Orrje et al. (2025), *Cafestol and kahweol concentrations in workplace machine coffee compared with conventional brewing methods*, [PubMed](https://pubmed.ncbi.nlm.nih.gov/40089392/).
+2. Mary E. Rinella et al. (2023), *AASLD Practice Guidance on the clinical assessment and management of nonalcoholic fatty liver disease*, [PubMed](https://pubmed.ncbi.nlm.nih.gov/36727674/).
+3. EASL–EASD–EASO (2024), *EASL–EASD–EASO Clinical Practice Guidelines on the management of metabolic dysfunction-associated steatotic liver disease (MASLD)*, [teks penuh](https://easlcampus.eu/sites/default/files/2024-06/EASL_CPGs_on_MASLD.pdf).
+4. Matthew M. Schubert et al. (2017), *Caffeine, coffee, and appetite control: a review*, [PubMed](https://pubmed.ncbi.nlm.nih.gov/28446037/).
+5. Lisset Magaña-de la Vega et al. (2024), *Effect of coffee intake on appetite parameters in woman with overweight or obesity: a pilot crossover randomized trial*, [PubMed](https://pubmed.ncbi.nlm.nih.gov/38986627/).
+6. U.S. Food and Drug Administration (diakses 12 November 2026), *Spilling the Beans: How Much Caffeine is Too Much?*, [FDA](https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much).
+7. Christopher Drake et al. (2013), *Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed*, [PubMed](https://pubmed.ncbi.nlm.nih.gov/24235903/).
