@@ -1,7 +1,8 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import PostCard from "../../components/PostCard.astro";
-import { getPosts } from "../../lib/posts";
+import Pagination from "../../components/Pagination.astro";
+import { getPosts, PAGE_SIZE } from "../../lib/posts";
 import { languages, ui, localePath, type Lang } from "../../i18n";
 import { AUTHOR } from "../../site";
 export function getStaticPaths() {
@@ -10,6 +11,7 @@ export function getStaticPaths() {
 const lang = Astro.params.lang as Lang;
 const t = ui[lang];
 const posts = await getPosts(lang);
+const lastPage = Math.ceil(posts.length / PAGE_SIZE);
 ---
 
 <Layout lang={lang}>
@@ -29,7 +31,7 @@ const posts = await getPosts(lang);
     {
       posts.length ? (
         <ul class="post-list">
-          {posts.slice(0, 5).map((post) => (
+          {posts.slice(0, PAGE_SIZE).map((post) => (
             <PostCard post={post} />
           ))}
         </ul>
@@ -37,5 +39,11 @@ const posts = await getPosts(lang);
         <p class="empty">{t.empty}</p>
       )
     }
+    <Pagination
+      lang={lang}
+      current={1}
+      last={lastPage}
+      next={lastPage > 1 ? localePath(lang, "posts/2/") : undefined}
+    />
   </section>
 </Layout>

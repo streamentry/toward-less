@@ -2,7 +2,8 @@
 import type { GetStaticPaths, Page } from "astro";
 import Layout from "../../../../layouts/Layout.astro";
 import PostCard from "../../../../components/PostCard.astro";
-import { getPosts, type Post } from "../../../../lib/posts";
+import Pagination from "../../../../components/Pagination.astro";
+import { getPosts, PAGE_SIZE, type Post } from "../../../../lib/posts";
 import { languages, ui, localePath, tagLabel, type Lang } from "../../../../i18n";
 export const getStaticPaths = (async ({ paginate }) => {
   const posts = await getPosts();
@@ -11,7 +12,7 @@ export const getStaticPaths = (async ({ paginate }) => {
     return [...new Set(localPosts.flatMap((post) => post.data.tags))].flatMap((tag) =>
       paginate(
         localPosts.filter((post) => post.data.tags.includes(tag)),
-        { params: { lang, tag }, pageSize: 8 },
+        { params: { lang, tag }, pageSize: PAGE_SIZE },
       ),
     );
   });
@@ -30,7 +31,7 @@ const alternates = (
     })),
   )
 )
-  .filter(({ count }) => count > (page.currentPage - 1) * 8)
+  .filter(({ count }) => count > (page.currentPage - 1) * PAGE_SIZE)
   .map(({ lang: language, href }) => ({ lang: language, href }));
 ---
 
@@ -47,27 +48,11 @@ const alternates = (
     </h1>
   </header>
   <ul class="post-list">{page.data.map((post) => <PostCard post={post} />)}</ul>
-  {
-    page.lastPage > 1 && (
-      <nav class="pagination" aria-label={t.pagination}>
-        {page.url.prev ? (
-          <a class="button" rel="prev" href={page.url.prev}>
-            ← {t.previous}
-          </a>
-        ) : (
-          <span />
-        )}
-        <span class="page-count">
-          {page.currentPage} / {page.lastPage}
-        </span>
-        {page.url.next ? (
-          <a class="button" rel="next" href={page.url.next}>
-            {t.next} →
-          </a>
-        ) : (
-          <span />
-        )}
-      </nav>
-    )
-  }
+  <Pagination
+    lang={lang}
+    current={page.currentPage}
+    last={page.lastPage}
+    prev={page.url.prev}
+    next={page.url.next}
+  />
 </Layout>

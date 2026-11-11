@@ -2,6 +2,9 @@ import { getCollection, type CollectionEntry } from "astro:content";
 import { localePath, languageTags, type Lang } from "../i18n";
 export type Post = CollectionEntry<"posts">;
 
+/** Entries per archive page; the home page shows the first page. */
+export const PAGE_SIZE = 8;
+
 /** Only published, due content may reach HTML, RSS, search or translation links. */
 export async function getPosts(lang?: Lang): Promise<Post[]> {
   const now = Date.now();

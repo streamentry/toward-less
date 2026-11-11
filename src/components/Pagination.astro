@@ -1,0 +1,36 @@
+---
+import { ui, type Lang } from "../i18n";
+interface Props {
+  lang: Lang;
+  current: number;
+  last: number;
+  prev?: string;
+  next?: string;
+}
+const { lang, current, last, prev, next } = Astro.props;
+const t = ui[lang];
+---
+
+{
+  last > 1 && (
+    <nav class="pagination" aria-label={t.pagination}>
+      {prev ? (
+        <a class="button" rel="prev" href={prev}>
+          ← {t.previous}
+        </a>
+      ) : (
+        <span />
+      )}
+      <span class="page-count">
+        {t.page} {current} {t.of} {last}
+      </span>
+      {next ? (
+        <a class="button" rel="next" href={next}>
+          {t.next} →
+        </a>
+      ) : (
+        <span />
+      )}
+    </nav>
+  )
+}
