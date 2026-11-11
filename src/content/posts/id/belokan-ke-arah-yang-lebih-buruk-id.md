@@ -1,6 +1,6 @@
 ---
-title: "Belokan ke Arah yang Lebih Buruk"
-description: "David Gilmore membangun AI yang mendeteksi kanker dini pada 2015 — AI itu masih berjalan di ratusan rumah sakit — dan kini ia meluncurkan Rayline, karena perusahaan teknologi terbesar mengubah AI menjadi mesin pengeruk uang. Pekerjaan kankernya terverifikasi. Peluncurannya masih janji, belum produk."
+title: "Rayline Setelah Peluncuran"
+description: "Situs resmi kini mencantumkan ARC, Decisions, Raydock, dan Workshop; kisah pendiri tetap diatribusikan kepadanya."
 author: "C.S Chánh Niệm"
 lang: id
 slug: belokan-ke-arah-yang-lebih-buruk-id
@@ -11,16 +11,25 @@ featured: false
 tags: [technology]
 ---
 
-Pada 2015, David Gilmore membangun AI yang mendeteksi kanker dini. AI itu masih berjalan di ratusan rumah sakit di AS hingga hari ini. Itu adalah pekerjaan paling memuaskan dalam hidupnya, dan ia sudah membangun AI bertahun-tahun sebelum semua orang menyebutnya "AI." Lalu dunia menyadari, perusahaan teknologi terbesar mengubah AI menjadi mesin pengeruk uang, dan pada hari Rabu ia meluncurkan Rayline — karena AI seharusnya tidak terkunci di dalam model, harga, dan cloud segelintir lab. AI seharusnya terbuka, transparan, dan terdesentralisasi.
+Pembaruan ini membandingkan pengumuman peluncuran David Gilmore pada 9 November dengan informasi di situs resmi Rayline per 11 November 2026.
 
-Paruh pertama kisah itu terverifikasi, yang jarang terjadi pada kisah seorang pendiri. Azra AI adalah perusahaan nyata, dan perangkat lunaknya membaca laporan patologi dalam sepersekian detik sehingga dokter dapat fokus pada sekitar sepuluh persen yang positif. Lebih dari 200 rumah sakit menggunakannya, termasuk HCA Healthcare — HCA yang sama yang, menurut Gilmore, menempatkannya dalam kompetisi melawan sepuluh orang dari IBM Watson, hanya dia dan alat-alat yang telah ia bangun, selama tiga puluh hari yang intens. Model-modelnya menang, dan itu berubah menjadi kesepakatan $5M, lalu menjadi perusahaan sendiri. Kompetisi dan kesepakatan itu adalah kisahnya sendiri, diceritakan sebagai kisahnya; perusahaan dan jangkauannya didokumentasikan secara independen. "Ratusan rumah sakit" bukan berlebihan. Itulah angkanya.
+Gilmore menulis: “On Wednesday, we’re launching Rayline.” (Pada hari Rabu, kami meluncurkan Rayline.) Postingan itu juga menceritakan pengalaman pribadinya di bidang teknologi kesehatan dan pilihan etikanya, serta menyatakan bahwa perusahaan mengumpulkan dana sebesar US$8,5 juta. Itu adalah klaim pendiri.
 
-Pusat moral kisah ini datang lebih awal. Saat kuliah ia membangun perusahaan pertamanya: model AI yang membuat data politik transparan bagi pemilih. Pada usia 21 tahun ia ditawari enam digit untuk perusahaan itu, tetapi para pembeli ingin menggunakannya untuk alasan yang tidak bisa ia dukung secara etis. Maka ia menolak tawaran itu dan justru menutup perusahaan tersebut. Penolakan itulah benang merah menuju Rayline — penolakan yang sama, sepuluh tahun kemudian, dalam skala yang lebih besar. Seorang pria yang meninggalkan enam digit di usia 21 kini meninggalkan cloud para lab di usia 31. Apakah Rayline akan berhasil adalah pertanyaan yang berbeda dari apakah penolakan itu nyata, dan penolakan itulah bagian dari kisah yang butuh pengorbanan untuk diceritakan.
+## Yang kini ditampilkan di situs resmi
 
-Kini koreksinya. "ChatGPT dan Claude datang, dan biaya AI meledak." Separuh kalimat itu benar. Biaya membangun model frontier meledak — pelatihan kini menelan biaya ratusan juta dolar, dan hanya segelintir lab yang mampu membayarnya. Tetapi biaya memakai AI per unit runtuh: harga inferensi per token telah turun beberapa orde magnitudo dalam tahun-tahun yang sama. Keduanya benar sekaligus, dan unggahan itu hanya menceritakan paruh pertama, karena paruh pertama melayani argumennya. Klaim sebenarnya bukan tentang tingkat harga. Klaim itu tentang konsentrasi: model, harga, dan cloud segelintir lab. Klaim itulah yang kuat, dan ia tidak membutuhkan kalimat tentang biaya untuk menopangnya.
+Rayline menampilkan empat produk:
 
-Peluncuran itu sendiri adalah janji, belum produk. Unggahan itu berakhir dengan "Selengkapnya hari Rabu," dan detail Rayline belum tersedia saat tulisan ini dibuat. Yang tersedia adalah petunjuk, dalam foto: papan tulis yang dipenuhi kriptografi — MPC, secret sharing, SPDZ, AES, enkripsi homomorfik, learning with errors. Itu terbaca seperti silabus komputasi yang menjaga privasi, yang cocok dengan "terbuka, transparan, dan terdesentralisasi" seperti gembok cocok dengan pintu: jika modelnya terbuka dan datanya tetap privat, kriptografi diperlukan untuk menyatukan keduanya. Itu petunjuk, bukan spesifikasi produk, dan harus dibaca sebagai petunjuk.
+- **ARC** memilih model dan tingkat penalaran. Responses API dapat menghasilkan jawaban; Routes API memberikan pilihan model agar pelanggan menjalankan inferensi di infrastrukturnya sendiri.
+- **Decisions API** memberi pilihan, probabilitas, dan skor terstruktur.
+- **Raydock** adalah CLI sumber terbuka yang menghubungkan alat agen ke model lokal dan cloud.
+- **Workshop** digunakan untuk membuat aplikasi dan perangkat lunak lain di cloud atau desktop.
 
-Kalimat yang jujur lebih pendek daripada kalimat unggahan itu. Pekerjaan kankernya nyata dan masih berjalan. Belokan ke arah yang lebih buruk itu nyata, meski kalimat tentang biaya membutuhkan paruh lainnya. Dan Rayline adalah peluncuran hari Rabu dengan $8.5M yang telah terkumpul dan papan tulis penuh kriptografi — janji dari seorang pria yang janji terakhirnya masih berjalan di dua ratus rumah sakit. Itu alasan yang lebih baik untuk menyaksikan hari Rabu daripada teks peluncuran apa pun.
+Halaman-halaman ini menunjukkan gabungan layanan terhosting dan alat lokal sumber terbuka. “Terdesentralisasi” adalah cara Gilmore membingkai Rayline; produk yang dijelaskan membentuk sistem hibrida, bukan sepenuhnya terdesentralisasi. Situs Rayline juga menampilkan angka kualitas dan biaya milik perusahaan sendiri serta menautkan laporan teknis. Artikel ini tidak mengevaluasi hasil tersebut secara independen.
 
-*Terinspirasi oleh unggahan X ["Pada 2015, saya membangun AI yang mendeteksi kanker dini. AI itu masih berjalan di ratusan rumah sakit di AS hingga hari ini."](https://x.com/davidvgilmore/status/2119823616774992084) oleh [David Valerio Gilmore (@davidvgilmore)](https://x.com/davidvgilmore/status/2119823616774992084). Unggahan itu diverifikasi pada 10 November 2026: 11:05 PM, 9 Nov 2026, 704.8K views. Jangkauan Azra AI diverifikasi berdasarkan pemberitaan: lebih dari 200 rumah sakit termasuk HCA Healthcare, membaca laporan patologi dalam sepersekian detik, [Fierce Biotech, 10 November 2022](https://www.fiercebiotech.com/cro/massive-bio-azra-ai-forge-collaboration-boost-cancer-patient-enrollment). Kompetisi, kesepakatan $5M, dan penolakan enam digit adalah kisah Gilmore sendiri dalam unggahan itu. Detail Rayline belum dipublikasikan saat tulisan ini dibuat.*
+## Yang tetap merupakan klaim pendiri
+
+Kisah Gilmore tentang pekerjaan AI kesehatan sebelumnya, penolakan sebuah tawaran, dan penggalangan dana US$8,5 juta tetap merupakan ceritanya sendiri. Halaman produk mengonfirmasi jajaran yang dipublikasikan Rayline, bukan riwayat pribadi, pendanaan, penggunaan di rumah sakit, atau hasil bagi pengguna.
+
+Pada 11 November, peluncuran itu bukan lagi sekadar janji: halaman produk Rayline tersedia untuk umum. Ini membuktikan adanya rangkaian produk publik, bukan kinerja atau dampaknya secara independen.
+
+*Sumber: David Valerio Gilmore (@davidvgilmore), [post X 2119823616774992084](https://x.com/davidvgilmore/status/2119823616774992084), 9 November 2026. X mengembalikan 403 saat peninjauan; teksnya dicocokkan dengan [salinan di Teapawt](https://teapawt.org/shiri_shh). Informasi produk diperiksa pada 11 November 2026 melalui [situs Rayline](https://rayline.ai/), halaman [ARC](https://rayline.ai/arc) dan [Raydock](https://rayline.ai/raydock), serta [laporan teknis](https://rayline.ai/research/report).*

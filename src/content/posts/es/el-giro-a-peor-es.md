@@ -1,6 +1,6 @@
 ---
-title: "El giro a peor"
-description: "David Gilmore construyó en 2015 una IA que detecta el cáncer temprano — sigue funcionando en cientos de hospitales — y ahora lanza Rayline, porque las mayores tecnológicas convirtieron la IA en una máquina de extraer dinero. El trabajo sobre el cáncer se verifica. El lanzamiento es una promesa, todavía no un producto."
+title: "Rayline después del lanzamiento"
+description: "La web oficial ya presenta ARC, Decisions, Raydock y Workshop; la historia del fundador sigue atribuida a él."
 author: "C.S Chánh Niệm"
 lang: es
 slug: el-giro-a-peor-es
@@ -11,16 +11,25 @@ featured: false
 tags: [technology]
 ---
 
-En 2015, David Gilmore construyó una IA que detecta el cáncer temprano. Sigue funcionando hoy en cientos de hospitales de Estados Unidos. Fue el trabajo más satisfactorio de su vida, y construía en IA años antes de que todo el mundo la llamara «IA». Luego el mundo se puso al día, las mayores empresas tecnológicas convirtieron la IA en una máquina de extraer dinero, y el miércoles lanza Rayline — porque la IA no debería estar encerrada en los modelos, los precios y las nubes de unos pocos laboratorios. Debería ser abierta, transparente y descentralizada.
+Esta actualización compara el anuncio de lanzamiento de David Gilmore, del 9 de noviembre, con lo que Rayline publica en sus páginas oficiales el 11 de noviembre de 2026.
 
-La primera mitad de esa historia se verifica, lo cual es raro en la historia de un fundador. Azra AI es una empresa real, y su software lee informes de patología en una fracción de segundo para que los clínicos puedan centrarse en el aproximadamente diez por ciento que es positivo. Más de 200 hospitales la usan, entre ellos HCA Healthcare — la misma HCA que, según cuenta Gilmore, lo puso a competir contra diez personas de IBM Watson, solo él y las herramientas que había construido, durante treinta días intensos. Sus modelos ganaron, y eso se convirtió en un acuerdo de 5 millones de dólares, y más tarde en su propia empresa. La competición y el acuerdo son su relato, contado como su relato; la empresa y su alcance están documentados de forma independiente. «Cientos de hospitales» no es una exageración. Es el número.
+Gilmore escribió: “On Wednesday, we’re launching Rayline” (el miércoles lanzaremos Rayline). La publicación también cuenta su experiencia en salud y sus decisiones éticas, y afirma que la empresa recaudó 8,5 millones de dólares. Son afirmaciones del fundador.
 
-El centro moral de la historia viene antes. En la universidad construyó su primera empresa: modelos de IA que hacían transparentes los datos políticos para los votantes. A los 21 años le ofrecieron seis cifras por ella, pero los compradores querían usarla para fines que él no podía apoyar éticamente. Así que rechazó la oferta y cerró la empresa. Esa negativa es el hilo conductor hasta Rayline — la misma negativa, diez años después, a mayor escala. Un hombre que rechazó seis cifras a los 21 ahora se aleja de las nubes de los laboratorios a los 31. Que Rayline tenga éxito es una pregunta distinta de si la negativa es real, y la negativa es la parte de la historia que cuesta contar.
+## Qué muestran las páginas oficiales
 
-Ahora la corrección. «Llegaron ChatGPT y Claude, y los costes de la IA explotaron». La mitad de esa frase es verdad. El coste de construir un modelo de frontera explotó — los entrenamientos cuestan ahora cientos de millones de dólares, y solo unos pocos laboratorios pueden permitírselos. Pero el coste de usar la IA por unidad se desplomó: los precios de inferencia por token han caído en órdenes de magnitud en esos mismos años. Ambas cosas son ciertas a la vez, y la publicación cuenta solo la primera mitad, porque la primera mitad sirve a su argumento. La afirmación real no trata de los niveles de precio. Trata de la concentración: los modelos, los precios y las nubes de unos pocos laboratorios. Esa afirmación es la fuerte, y no necesita la frase sobre el coste para sostenerse.
+Rayline presenta ahora cuatro productos:
 
-El lanzamiento en sí es una promesa, todavía no un producto. La publicación termina con «Más el miércoles», y los detalles de Rayline no estaban disponibles cuando se escribió esto. Lo que sí hay es una pista, en la foto: una pizarra cubierta de criptografía — MPC, compartición de secretos, SPDZ, AES, cifrado homomórfico, aprendizaje con errores. Se lee como un programa de computación que preserva la privacidad, que encaja con «abierta, transparente y descentralizada» como una cerradura encaja con una puerta: si los modelos son abiertos y los datos permanecen privados, se necesita criptografía para mantener ambas cosas juntas. Es una pista, no una especificación de producto, y debe leerse como tal.
+- **ARC** elige modelos y niveles de razonamiento. Su API Responses puede generar la respuesta; su API Routes devuelve una selección para que el cliente ejecute la inferencia.
+- **Decisions API** devuelve opciones, probabilidades y puntuaciones estructuradas.
+- **Raydock** es una CLI de código abierto que conecta agentes con modelos locales y en la nube.
+- **Workshop** permite crear aplicaciones y otro software en la nube o en el escritorio.
 
-La frase honesta es más corta que la publicación. El trabajo sobre el cáncer es real y sigue funcionando. El giro a peor es real, aunque la frase sobre el coste necesita su otra mitad. Y Rayline es un lanzamiento de miércoles con 8,5 millones de dólares recaudados y una pizarra llena de criptografía — una promesa de un hombre cuya última promesa sigue funcionando en doscientos hospitales. Esa es mejor razón para mirar el miércoles que cualquier texto de lanzamiento.
+Las páginas describen una combinación de servicios alojados y herramientas locales de código abierto. «Descentralizado» es el marco de Gilmore; los productos descritos forman un sistema híbrido, no totalmente descentralizado. La página principal también muestra cifras de calidad y coste y enlaza un informe técnico de la empresa. Este artículo no ha evaluado esos resultados de forma independiente.
 
-*Inspirado por la publicación en X [«En 2015, construí una IA que detecta el cáncer temprano. Sigue funcionando hoy en cientos de hospitales de Estados Unidos.»](https://x.com/davidvgilmore/status/2119823616774992084) de [David Valerio Gilmore (@davidvgilmore)](https://x.com/davidvgilmore/status/2119823616774992084). La publicación se verificó el 10 de noviembre de 2026: 11:05 p. m., 9 de noviembre de 2026, 704,8 mil visualizaciones. El alcance de Azra AI se verificó con la prensa: más de 200 hospitales, entre ellos HCA Healthcare, leyendo informes de patología en una fracción de segundo, [Fierce Biotech, 10 de noviembre de 2022](https://www.fiercebiotech.com/cro/massive-bio-azra-ai-forge-collaboration-boost-cancer-patient-enrollment). La competición, el acuerdo de 5 millones de dólares y la negativa de seis cifras son el relato del propio Gilmore en la publicación. Los detalles de Rayline aún no eran públicos al escribir esto.*
+## Qué sigue siendo una afirmación atribuida
+
+El relato sobre la antigua IA sanitaria, el rechazo de una oferta y los 8,5 millones recaudados sigue siendo la versión de Gilmore. Las páginas de producto confirman la oferta pública de Rayline, pero no esos detalles personales o financieros, la adopción hospitalaria ni los resultados para usuarios.
+
+A 11 de noviembre, el lanzamiento ya no es solo una promesa: Rayline tiene páginas públicas de sus productos. Eso confirma una oferta de productos, no su rendimiento ni su impacto independientes.
+
+*Fuente: David Valerio Gilmore (@davidvgilmore), [publicación de X 2119823616774992084](https://x.com/davidvgilmore/status/2119823616774992084), 9 de noviembre de 2026. X devolvió un error 403 durante esta revisión; el texto se cotejó con una [copia en Teapawt](https://teapawt.org/shiri_shh). Los detalles de producto se comprobaron el 11 de noviembre de 2026 en la [web de Rayline](https://rayline.ai/), las páginas de [ARC](https://rayline.ai/arc) y [Raydock](https://rayline.ai/raydock), y su [informe técnico](https://rayline.ai/research/report).*
