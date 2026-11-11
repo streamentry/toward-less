@@ -1,30 +1,33 @@
 ---
-title: "Offloading, Penangguhan, Penyerahan"
-description: "Spektrum Osmani untuk berfikir bersama ejen — dan garis yang masih boleh anda lukis."
+title: "Gunakan ejen tanpa melepaskan pertimbangan"
+description: "Serahkan pilihan berisiko rendah; semak kerja penting dan bertanggungjawab atas hasil yang diterbitkan."
 author: "C.S Chánh Niệm"
 lang: ms
 slug: offloading-penangguhan-penyerahan-ms
 translationKey: offloading-deferral-surrender-2026
 pubDatetime: 2026-11-08T23:00:00+07:00
+modDatetime: 2026-11-11T12:43:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
+Rencana Addy Osmani di X, diterbitkan pada 3 November 2026, bertanya cara mengekalkan pertimbangan ketika bekerja dengan ejen. Beliau menghuraikan tiga keadaan:
 
-Artikel Addy Osmani, "Critical thinking when agents do the work," dibuka dengan sebuah gambar rajah kecil: garis yang menurun melalui tiga perkataan — offloading (penyerahan tugas), deferral (penangguhan), surrender (penyerahan diri)
+- **Menyerahkan tugas:** berikan tugas, tetapi kekalkan tanggungjawab terhadap hasilnya.
+- **Menangguhkan pertimbangan:** jadikan output model input seterusnya tanpa menganggapnya hipotesis yang perlu diuji.
+- **Penyerahan kognitif** (istilah yang Osmani sandarkan kepada Steven Shaw dan Gideon Nave): terima output sebagai kesimpulan sendiri tanpa semakan yang bermakna.
 
-Offloading ialah mendelegasikan tugas sambil mengekalkan pemilikan terhadap hasilnya. Deferral ialah apabila output alat itu menjadi input baharu anda, dan berhenti menjadi hipotesis. Surrender — cognitive surrender, istilah yang dikreditkan Osmani kepada Steven Shaw dan Gideon Nave di Wharton — ialah apabila output AI itu diam-diam menjadi milik anda sendiri, dan anda tidak merasakan perlunya menyemaknya.
+Peralihan ini boleh berlaku sedikit demi sedikit. Osmani berpendapat jawapan yang kemas dan pemeriksaan yang lulus boleh membuat kita berhenti meneliti kerja. Ini kerangka kerjanya, bukannya dapatan empirikal yang dibuktikan di sini.
 
-Peralihan antara ketiga-tiganya itulah maksudnya. Setiap langkah kelihatan munasabah. Anda membaca jawapan terakhir dengan teliti, jadi anda membaca jawapan seterusnya secara imbasan. Anda hanya mengimbas rangka jawapan selepas itu. Kemudian seseorang bertanya tentang satu baris dan anda tidak dapat menjelaskannya, walaupun dengan bantuan ejen anda. Begitulah hutang terkumpul — Osmani memanggilnya cognitive debt (hutang kognitif), dan versi kodnya comprehension debt (hutang pemahaman), menurut Jeremy Twei. Pada ketika itu ia tidak kelihatan: kod kelihatan sempurna dan ujian lulus. Ia hanya kelihatan apabila anda perlu mengubah sesuatu dan menyedari tiada siapa yang memahaminya lagi.
+## Sesuaikan semakan dengan risikonya
 
-Osmani tidak berhujah untuk kurang bekerja secara agentik. Beliau peminat alat-alat ini, dan ujiannya bersifat praktikal, bukan moral. Bolehkah anda menjelaskan jawapannya — walaupun melalui ejen anda? Adakah anda sanggup mempertaruhkannya di hadapan orang yang perlu menyelenggaranya? Apakah yang mesti benar untuk jawapan itu salah, dan bolehkah anda mengujinya? Adakah anda mendengar hujah balasnya? Tanda semak hijau, katanya, hanya membuktikan satu perkara; tanyakan apa yang dibuktikannya, dan apa yang tidak. Takrifkan "verified" sebelum dijalankan, bukan selepasnya.
+- Serahkan sepenuhnya pilihan yang kesilapannya tidak mahal.
+- Uji keputusan yang mempengaruhi pengguna, keselamatan, wang atau orang lain. Tanya apa yang dibuktikan oleh semakan dan apa yang terlepas.
+- Anda tidak perlu memahami keseluruhan pangkalan kod yang besar. Bina semula bahagian yang diperlukan melalui kod, ujian, log atau penerangan.
+- Tulis hipotesis dan takrif siap anda sebelum memberi arahan. Jika anda tidak dapat menjelaskan sebab hasil itu kukuh, jangan luluskan.
 
-Tidak semua perkara layak mendapat penelitian sebegitu. Beliau mendelegasikan dengan bebas di tempat kesilapan itu murah — memilih satu daripada tiga hotel yang penarafannya hampir sama, misalnya — dan mengekalkan penaakulan di tempat orang lain akan menanggung akibatnya: apa yang hendak dibina, apa yang memberi kesan kepada pengguna, sama ada selamat untuk dihantar. Model mental yang lengkap juga bukan matlamatnya; ia mustahil bagi pangkalan kod yang besar. Pasukan Claude Code, tulisnya, membina semula pemahaman mengikut keperluan, meminta model menjelaskan satu bahagian pada satu masa. Anda tidak perlu memegang keseluruhan model itu. Anda hanya perlu tahu apa yang anda tidak ada.
+Sediakan masa semakan yang cukup untuk mempertahankan apa yang diterbitkan. Jika hasil ejen bertambah lebih cepat daripada kemampuan anda mengesahkannya, perbaik pemeriksaan atau perlahankan kerja. Orang yang meluluskan hasil tetap bertanggungjawab.
 
-Itulah garis yang lebih jelas daripada "kurangkan penggunaan ejen." Kerja itu telah beralih ke bahagian depan dan belakang sesuatu tugas: taklimat yang anda tulis dengan kata-kata anda sendiri, dan semakan terhadap apa yang kembali. Di antaranya, ruang tempat pemikiran berlaku kini hanya berlangsung beberapa saat, dan outputnya kebanyakannya betul dan ditulis dengan baik — dan itulah sebabnya ia tidak menuntut pandangan kedua.
+## Sumber
 
-Ayat penutup Osmani adalah ayat yang patut disimpan: "You may offload the work and much of the auditing, but not the accountability." — "Anda boleh menyerahkan kerja dan sebahagian besar audit, tetapi bukan akauntabiliti."
-
-**Jika anda tidak sanggup meletakkan nama anda padanya, ia tidak patut dikeluarkan.**
-
-*Diinspirasikan oleh Artikel X ["Critical thinking when agents do the work"](https://x.com/addyosmani/status/2117512471930167377) oleh [Addy Osmani (@addyosmani)](https://x.com/addyosmani/status/2117512471930167377). Artikel ini disahkan pada 8 November 2026: 2:01 PTG, 3 November 2026. "Cognitive surrender" dikreditkan dalam artikel kepada Steven Shaw dan Gideon Nave; "comprehension debt" kepada Jeremy Twei.*
+- Addy Osmani (@addyosmani), “Critical thinking when agents do the work”, artikel X, 3 November 2026. X tidak dapat dibuka terus semasa semakan; teks penuh disemak melalui [salinan di Xrticles](https://xrticles.com/article/critical-thinking-when-agents-do-the-work). [Artikel asal](https://x.com/i/article/2116367635365695488) · [hantaran penulis](https://x.com/addyosmani/status/2117512471930167377). Esei ini memparafrasakan sumber.

@@ -1,59 +1,33 @@
 ---
-title: "Perfect Days: ¿basta con una vida sencilla?"
-description: "¿El contentamiento es libertad o una forma de evasión?"
+title: "Perfect Days: ¿Basta una vida sencilla?"
+description: "Una lectura de la película de Wim Wenders: la rutina puede darnos estabilidad y también protegernos del dolor."
 lang: es
 slug: perfect-days-reflection-es
 translationKey: perfect-days-simple-life-2026
 pubDatetime: 2026-11-08T13:00:00+07:00
+modDatetime: 2026-11-11T12:43:00+07:00
 draft: false
 featured: false
 tags: [life, practice]
 ---
+*Perfect Days* (2023), dirigida por Wim Wenders, sigue a Hirayama, un limpiador de baños públicos en Tokio. Sus días empiezan temprano e incluyen trabajo repetitivo, árboles, música y libros. Encuentros inesperados revelan partes de su pasado. [El Festival de Cannes ofrece la ficha y la sinopsis de la película](https://www.festival-cannes.com/en/f/perfect-days/).
 
-*Una reflexión sobre [Perfect Days](https://en.wikipedia.org/wiki/Perfect_Days_(2023_film)) (2023), dirigida por Wim Wenders. Contiene algunos detalles de la trama.*
+## Atención y trabajo
 
-Hirayama limpia baños públicos en Tokio. Se levanta temprano, dobla su futón, cuida sus plantas, compra una bebida en una máquina y conduce al trabajo. A la hora de comer fotografía árboles. Por la noche lee. Al día siguiente, casi todo vuelve a suceder.
+Mi lectura es limitada: la atención cambia cómo se siente el día, no el trabajo. Hirayama hace su labor con cuidado y observa detalles corrientes. La película muestra cómo esa atención puede dar amplitud a un día.
 
-Contada así, su vida suena pequeña. En la pantalla parece extraordinariamente amplia. Esa diferencia hace que *Perfect Days* merezca la pena.
+## ¿Contentamiento o evasión?
 
-## La atención cambia el día, no el trabajo
+Su rutina admite dos lecturas. Le da estabilidad, pero también podría ayudarle a evitar el dolor. Como su pasado solo se revela en parte, la película no decide cuál lectura es la correcta. Tener pocas cosas no demuestra si alguien está satisfecho o si evita una conversación difícil.
 
-Hirayama no convierte la limpieza en una actividad glamurosa. Los baños siguen necesitando limpieza. Su compañero no siempre es fiable. Los desconocidos pueden ser descuidados. Aun así, dedica atención incluso a los rincones que otros pasarían por alto.
+## Más allá de la película
 
-La película no sostiene que todo el mundo deba disfrutar del trabajo repetitivo. Muestra algo más modesto y útil: aunque no podamos elegir todas las condiciones de un día, conservamos cierta libertad en nuestra manera de recibirlas.
+La distinción importa fuera de la película. Una vida tranquila puede ser una elección clara o una retirada. La ambición puede servir a la familia o a un trabajo útil; también puede convertir el siguiente logro en la condición para sentirse vivo.
 
-Hirayama observa la luz atravesando las hojas, los cambios en las sombras y el pequeño gesto de un extraño. Ninguno de esos momentos tiene que convertirse en un logro.
+## Una pregunta para mañana
 
-Hay una forma de riqueza en poder advertir lo que ya está aquí.
+Después de verla, me queda una pregunta práctica: **¿Qué momento cotidiano de mañana probablemente pasaré por alto?**
 
-## Pero ¿el contentamiento siempre es libertad?
+## Fuente
 
-Es tentador convertir a Hirayama en un santo del minimalismo: tener menos, desear menos, ser feliz.
-
-La película se resiste a esa lectura. Sus encuentros con la familia sugieren una historia que desconocemos. Sus rutinas pueden sostener la paz, pero también protegerlo del dolor. Ambas posibilidades permanecen abiertas.
-
-Esto importa. Una vida sencilla puede elegirse con lucidez. También puede ser una retirada de conversaciones difíciles, responsabilidades o cambios. No podemos distinguir esas dos cosas contando las posesiones de una persona.
-
-La pregunta útil no es **¿con cuán poco puedo vivir?**, sino **¿qué no estoy dispuesto a afrontar?**
-
-## Menos no es lo contrario de la ambición
-
-No tenemos por qué elegir entre las mañanas tranquilas de Hirayama y construir algo valioso. El trabajo puede expresar cuidado. También sostener a la familia, crear herramientas útiles y asumir responsabilidades hacia otros.
-
-El problema comienza cuando el siguiente objetivo se convierte en la condición para permitirnos vivir ahora.
-
-Alguien puede tener muy poco y seguir consumido por el deseo. Otra persona puede construir una empresa sin hacer del éxito la medida de su valor. La forma externa de una vida nos dice menos de lo que creemos.
-
-La práctica budista propone una distinción relacionada: la intención y el apego no son lo mismo. Podemos actuar con todo nuestro empeño sin exigir que la realidad obedezca nuestros deseos.
-
-## La escena final
-
-Cerca del final, la cámara permanece sobre el rostro de Hirayama mientras conduce. Se mezclan la alegría, el dolor, la ternura y el cansancio. La película no los resuelve en una sola moraleja.
-
-Quizá ese sea su momento más honesto. Una buena vida no es aquella en la que ha desaparecido la tristeza. Tampoco aquella en la que todos los días son perfectos.
-
-Tal vez un *día perfecto* sea simplemente un día que no hemos dejado pasar del todo.
-
-Después de verla, prefiero hacerme una pregunta práctica antes que redactar un nuevo plan de vida:
-
-**¿Qué momento cotidiano de mañana merece toda mi atención?**
+- *Perfect Days*, dirigida por Wim Wenders (2023). [Ficha del Festival de Cannes](https://www.festival-cannes.com/en/f/perfect-days/). Esta reflexión es mi interpretación, no una afirmación sobre la intención del director.
