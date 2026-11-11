@@ -1,6 +1,6 @@
 ---
-title: "Baiki Apa yang Anda Yakin"
-description: "Alex Albert menjalankan gesaan yang sama pada setiap projek setiap kali model baharu tiba: baca seluruh projek, cari semua yang rosak, tidak konsisten, tidak cekap, atau tidak lagi diperlukan, baiki apa yang anda yakin, dan senaraikan selebihnya untuk disemak. Gesaan itu bagus — dan bahagian yang menanggung beban ialah senarai, bukan pembaikan."
+title: "Senaraikan Sebelum Membetulkan"
+description: "Prompt audit boleh mencari kerja penyelenggaraan, tetapi perubahan yang meragukan tetap perlu disemak manusia."
 author: "C.S Chánh Niệm"
 lang: ms
 slug: baiki-apa-yang-anda-yakin-ms
@@ -11,22 +11,25 @@ featured: false
 tags: [technology]
 ---
 
-Setiap kali model baharu tiba, Alex Albert menjalankan gesaan yang sama pada semua projeknya: "Baca seluruh projek ini dan cari semua yang rosak, tidak konsisten, tidak cekap, atau tidak lagi diperlukan. Baiki apa yang anda yakin dan senaraikan selebihnya untuk saya semak." Sangat disyorkan untuk mencuba.
+Artikel ini menerangkan cara menggunakan prompt audit AI untuk mencari isu penyelenggaraan sambil menyerahkan perubahan yang meragukan kepada manusia.
 
-Ia gesaan yang baik, dan sebab ia baik bukan terletak pada pembaikan. Ia terletak pada pembahagian. Gesaan itu membahagikan kerja kepada dua bahagian — apa yang model boleh ubah sendiri, dan apa yang ia mesti bawa pulang untuk manusia putuskan — dan bahagian kedua itulah yang menjadikan bahagian pertama selamat. Kebanyakan gesaan ejen gagal kerana ia memberi model satu tugas, "baikkannya," tanpa sempadan. Gesaan ini melukis sempadan di dalam arahan itu sendiri.
+Pada 9 November 2026, Alex Albert berkongsi prompt yang digunakannya setiap kali model baharu muncul: periksa projek, cari perkara yang rosak atau tidak diperlukan, betulkan yang nampak jelas, dan senaraikan selebihnya untuk semakan. Kegunaannya ialah memisahkan kerja membetulkan daripada membuat keputusan.
 
-Gesaan itu juga mengarahkan model kepada jenis kerja yang betul. Membina ialah penggunaan ejen yang glamor; menyelenggara ialah penggunaan yang boleh diharap. Mencari kod mati, penamaan yang tidak konsisten, logik yang berulang, dan perkara yang tidak lagi diperlukan ialah kerja yang terbatas dengan diff yang boleh disemak. Pemadaman yang salah muncul dalam diff. Ciri yang salah muncul dalam pengeluaran. Gesaan Albert menganggap model sebagai janitor dengan senarai semak, iaitu peranan yang sebenarnya ejen mahir, dan ia meminta senarai semak itu dikembalikan.
+Arahan utamanya ialah: “Fix what you’re sure about and list the rest for me to review.” (maksudnya, betulkan yang jelas dan senaraikan selebihnya untuk disemak.)
 
-Tetapi gesaan ini mempunyai tiga titik lembut, dan ia wajar disebut sebelum anda menjalankannya.
+## Tiga batas
 
-Pertama, "baiki apa yang anda yakin." Keyakinan model tidak ditentukur. Model sering salah dengan yakin tentang perkara yang kelihatan paling pasti baginya — pembaikan yang kelihatan munasabah untuk pepijat yang halus, "pemudahan" yang membuang kes khas yang menanggung beban. Keselamatan gesaan bergantung pada model yang tahu apa yang ia yakin, dan itu satu-satunya perkara yang ia tidak boleh tahu dengan boleh diharap. Bahagian senarai-untuk-semakan ialah bahagian yang menanggung beban tepat kerana bahagian pembaikan tidak boleh dipercayai untuk mengawal dirinya sendiri.
+- **Keyakinan bukan bukti.** Arahan “betulkan perkara yang anda pasti” masih boleh menghasilkan perubahan yang salah. Minta fail berkaitan, ujian dan sebab sebelum menerima pembetulan.
+- **“Seluruh projek” memerlukan laporan liputan.** Minta ejen menyenaraikan fail yang dibaca dan yang dilangkau. Arahan yang luas tidak membuktikan setiap fail telah diperiksa.
+- **Setiap penemuan memerlukan semakan berlainan.** Pembaikan pepijat perlu diuji; dakwaan prestasi perlu diukur; pemadaman perlu disokong bukti bahawa kod tidak digunakan; perubahan gaya perlu mengikut konvensyen projek yang jelas.
 
-Kedua, "baca seluruh projek ini." Pada projek kecil, model boleh. Pada projek besar, ia tidak boleh — had konteks bermakna ia mengambil sampel, dan ia tidak akan memberitahu anda ia mengambil sampel. Gesaan ini berfungsi paling baik di mana projek itu muat dalam tetingkap, dan merosot secara senyap di mana ia tidak muat. Jika projek anda besar, versi gesaan yang jujur menamakan bahagian yang perlu dibaca.
+## Aliran kerja yang lebih selamat
 
-Ketiga, gesaan ini menggabungkan empat pertimbangan berbeza ke dalam satu arahan: rosak, tidak konsisten, tidak cekap, tidak lagi diperlukan. Itu ketepatan, konsistensi, prestasi, dan kod mati — empat cara melihat yang berbeza. Model akan menemui yang mudah — kod mati, hanyutan gaya — dan terlepas yang sukar: pepijat yang halus, ketidakkonsistenan seni bina yang hanya muncul merentasi tiga fail. Satu gesaan, empat tugas, dan model akan melakukan dua yang ia mahir dan melaporkan yang lain sebagai selesai.
+- Minta senarai penemuan mengikut keutamaan, bersama laluan fail dan bukti, sebelum perubahan dibuat.
+- Benarkan hanya perubahan kecil dan mekanikal yang tidak mengubah tingkah laku.
+- Serahkan pemadaman, perubahan tingkah laku, refaktor merentas fail dan penemuan yang tidak pasti untuk kelulusan.
+- Bandingkan diff dengan senarai, kemudian jalankan semakan projek.
 
-Blog ini pernah menjalankan sesuatu yang sangat hampir dengan gesaan Albert, dengan tangan, pada dirinya sendiri. Audit mesin keadaan tersirat dalam Toward Less menemui tiga belas yang masih hidup dan empat yang hanya bayangan: dua takrifan berbeza tentang "published," logik tema yang digandakan di dua tempat, pengesanan bahasa yang digandakan dengan fungsi yang mati, pautan penomboran yang menunjuk ke halaman yang tidak wujud. Setiap satu daripadanya tepat seperti yang diminta oleh gesaan Albert — tidak konsisten, tidak cekap, tidak lagi diperlukan — dan setiap satunya ditemui dengan membaca seluruh projek dan menyenaraikan apa yang salah sebelum membaikinya. Senarai dahulu. Pembaikan menyusul, dalam klon yang bersih, dan disahkan sebelum apa-apa ditolak naik.
+Gunakan prompt untuk menyediakan senarai semakan, bukan memberikan kuasa tanpa had kepada ejen. Batasnya ialah senarai yang diteliti manusia, bukan keyakinan model.
 
-Jadi cubalah gesaan itu. Tetapi jalankannya untuk senarai, bukan untuk pembaikan. Baca senarai itu sendiri, semak pembaikan yang dibuatnya berbanding senarai yang dikembalikannya, dan ingat bahawa "Saya yakin tentang ini" ialah ayat yang model akan ucapkan tentang hampir apa sahaja. Gesaan itu baik kerana ia mengekalkan manusia dalam gelung. Gelung itulah maksudnya.
-
-*Diilhamkan oleh siaran X ["Setiap kali kami mempunyai model baharu, saya menjalankan gesaan mudah yang sama pada semua projek saya: 'Baca seluruh projek ini dan cari semua yang rosak, tidak konsisten, tidak cekap, atau tidak lagi diperlukan. Baiki apa yang anda yakin dan senaraikan selebihnya untuk saya semak.' sangat disyorkan untuk mencuba"](https://x.com/alexalbert__/status/2119884951550386671) oleh [Alex Albert (@alexalbert__)](https://x.com/alexalbert__/status/2119884951550386671). Siaran itu disahkan pada 10 November 2026: 3:08 AM, 10 Nov 2026, 61.5K views. Alex Albert ialah Research di Anthropic. Audit mesin keadaan Toward Less yang disebut dalam siaran ini ialah audit blog sendiri pada 8 November 2026, yang disimpan di workspace/toward-less/audit/implicit-state-machines-audit.md.*
+*Sumber: Alex Albert (@alexalbert__), [siaran X 2119884951550386671](https://x.com/alexalbert__/status/2119884951550386671), 9 November 2026. X memulangkan ralat 403 semasa semakan ini; teks dipadankan dengan [salinan garis masa Albert di Teapawt](https://teapawt.org/alexalbert__). Salinan ini bersifat sekunder.*

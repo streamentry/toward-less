@@ -1,6 +1,6 @@
 ---
-title: "Perbaiki Apa yang Kamu Yakini"
-description: "Alex Albert menjalankan prompt yang sama di setiap proyek setiap kali ada model baru: baca seluruh proyek, temukan semua yang rusak, tidak konsisten, tidak efisien, atau tidak lagi dibutuhkan, perbaiki apa yang kamu yakini, dan daftarkan sisanya untuk ditinjau. Prompt itu bagus — dan bagian yang menahan beban adalah daftarnya, bukan perbaikannya."
+title: "Buat Daftar Sebelum Memperbaiki"
+description: "Prompt audit dapat menemukan pekerjaan pemeliharaan, tetapi perubahan yang belum pasti tetap perlu diperiksa manusia."
 author: "C.S Chánh Niệm"
 lang: id
 slug: perbaiki-apa-yang-kamu-yakini-id
@@ -11,22 +11,25 @@ featured: false
 tags: [technology]
 ---
 
-Setiap kali ada model baru, Alex Albert menjalankan prompt yang sama di semua proyeknya: baca seluruh proyek ini dan temukan semua yang rusak, tidak konsisten, tidak efisien, atau tidak lagi dibutuhkan. Perbaiki apa yang kamu yakini dan daftarkan sisanya untuk saya tinjau. Sangat saya sarankan untuk dicoba.
+Artikel ini menunjukkan cara memakai prompt audit AI untuk menemukan masalah pemeliharaan sambil menyerahkan perubahan yang belum pasti kepada manusia.
 
-Prompt itu bagus, dan alasan ia bagus bukan perbaikannya. Melainkan pembagiannya. Prompt itu membagi pekerjaan menjadi dua bagian — apa yang boleh diubah model sendiri, dan apa yang harus dibawa kembali untuk diputuskan manusia — dan bagian kedua itulah yang membuat bagian pertama aman. Kebanyakan prompt agen gagal karena memberi model satu tugas, "perbaiki," tanpa batas. Prompt ini menggambar batasnya di dalam instruksinya sendiri.
+Pada 9 November 2026, Alex Albert membagikan prompt yang ia gunakan saat model baru hadir: periksa proyek, cari bagian yang rusak atau tidak diperlukan, perbaiki yang tampak jelas, dan daftarkan sisanya untuk ditinjau. Manfaatnya adalah pemisahan antara perubahan dan keputusan.
 
-Prompt itu juga mengarahkan model ke jenis pekerjaan yang tepat. Membangun adalah penggunaan agen yang glamor; merawat adalah penggunaan yang bisa diandalkan. Menemukan kode mati, penamaan yang tidak konsisten, logika yang diduplikasi, dan hal-hal yang tidak lagi dibutuhkan adalah pekerjaan yang terbatas, dengan diff yang bisa ditinjau. Penghapusan yang salah muncul di diff. Fitur yang salah muncul di produksi. Prompt Albert memperlakukan model sebagai petugas kebersihan dengan daftar periksa, peran yang sebenarnya dikuasai agen, dan meminta daftar itu kembali.
+Inti instruksinya: “Fix what you’re sure about and list the rest for me to review.” (artinya: perbaiki yang jelas dan daftarkan sisanya untuk ditinjau.)
 
-Tetapi prompt itu punya tiga titik lemah, dan layak disebut sebelum Anda menjalankannya.
+## Tiga batas
 
-Pertama, "perbaiki apa yang kamu yakini." Keyakinan model tidak terkalibrasi. Model salah dengan penuh percaya diri justru pada hal-hal yang tampak paling pasti baginya — perbaikan yang tampak masuk akal untuk bug yang halus, "penyederhanaan" yang menghapus kasus khusus yang menopang segalanya. Keamanan prompt bergantung pada model yang tahu apa yang ia yakini, dan itulah satu hal yang tidak bisa ia ketahui dengan andal. Bagian daftar-untuk-ditinjau adalah bagian yang menahan beban justru karena bagian perbaikan tidak bisa dipercaya untuk mengawasi dirinya sendiri.
+- **Keyakinan bukan bukti.** “Perbaiki yang kamu yakini” tetap bisa menghasilkan perubahan yang keliru. Minta file terkait, pengujian, dan alasannya sebelum menerima perbaikan.
+- **“Seluruh proyek” perlu laporan cakupan.** Minta agen menyebutkan file yang dibaca dan yang dilewati. Instruksi luas tidak membuktikan semua file telah diperiksa.
+- **Temuan berbeda perlu pemeriksaan berbeda.** Perbaikan bug perlu diuji; klaim kinerja perlu diukur; penghapusan perlu bukti bahwa kode tidak dipakai; perubahan gaya perlu mengikuti aturan proyek yang jelas.
 
-Kedua, "baca seluruh proyek ini." Pada proyek kecil, model bisa. Pada proyek besar, tidak bisa — batas konteks berarti ia mengambil sampel, dan ia tidak akan memberi tahu bahwa ia mengambil sampel. Prompt ini bekerja paling baik di mana proyek muat dalam jendela, dan diam-diam memburuk di mana tidak muat. Jika proyek Anda besar, versi jujur dari prompt menyebutkan bagian-bagian yang harus dibaca.
+## Alur yang lebih aman
 
-Ketiga, prompt ini menggabungkan empat penilaian berbeda ke dalam satu instruksi: rusak, tidak konsisten, tidak efisien, tidak lagi dibutuhkan. Itu adalah kebenaran, konsistensi, kinerja, dan kode mati — empat jenis penglihatan yang berbeda. Model akan menemukan yang mudah — kode mati, penyimpangan gaya — dan melewatkan yang sulit: bug yang halus, ketidakkonsistenan arsitektur yang hanya muncul di tiga berkas. Satu prompt, empat pekerjaan, dan model akan mengerjakan dua yang ia kuasai dan melaporkan yang lain sebagai selesai.
+- Minta daftar temuan berprioritas, jalur file, dan bukti sebelum perubahan dibuat.
+- Izinkan hanya perubahan kecil dan mekanis yang tidak mengubah perilaku.
+- Kembalikan penghapusan, perubahan perilaku, refaktor lintas file, dan temuan yang belum pasti untuk disetujui.
+- Cocokkan diff dengan daftar, lalu jalankan pemeriksaan proyek.
 
-Blog ini menjalankan sesuatu yang sangat mirip dengan prompt Albert, dengan tangan, pada dirinya sendiri. Sebuah audit atas mesin keadaan implisit di Toward Less menemukan tiga belas mesin yang hidup dan empat hantu: dua definisi berbeda tentang "diterbitkan," logika tema yang diduplikasi di dua tempat, deteksi bahasa yang diduplikasi dengan fungsi mati, tautan paginasi yang mengarah ke halaman yang tidak ada. Setiap satu di antaranya persis seperti yang diminta prompt Albert — tidak konsisten, tidak efisien, tidak lagi dibutuhkan — dan setiap satu ditemukan dengan membaca seluruh proyek dan mendaftar apa yang salah sebelum memperbaikinya. Daftar datang lebih dulu. Perbaikan menyusul, dalam klon yang bersih, dan diverifikasi sebelum ada yang di-push.
+Gunakan prompt untuk membuat antrean tinjauan, bukan memberi agen wewenang tanpa batas. Batasnya ada pada daftar yang diperiksa manusia, bukan pada keyakinan model.
 
-Jadi cobalah prompt itu. Tetapi jalankan untuk daftarnya, bukan untuk perbaikannya. Baca daftarnya sendiri, periksa perbaikan yang dibuatnya terhadap daftar yang dikembalikannya, dan ingatlah bahwa "saya yakin tentang ini" adalah kalimat yang akan diucapkan model tentang hampir apa saja. Prompt itu bagus karena menjaga manusia tetap dalam putaran. Putaran itulah intinya.
-
-*Terinspirasi oleh post X ["Every time we have a new model, I run the same simple prompt on all my projects: 'Read this entire project and find everything that's broken, inconsistent, inefficient, or no longer needed. Fix what you're sure about and list the rest for me to review.' highly recommend trying"](https://x.com/alexalbert__/status/2119884951550386671) oleh [Alex Albert (@alexalbert__)](https://x.com/alexalbert__/status/2119884951550386671). Post tersebut diverifikasi pada 10 November 2026: 3:08 AM, 10 Nov 2026, 61.5K views. Alex Albert adalah peneliti di Anthropic. Audit mesin keadaan Toward Less yang disebut dalam post ini adalah audit blog itu sendiri pada 8 November 2026, tersimpan di workspace/toward-less/audit/implicit-state-machines-audit.md.*
+*Sumber: Alex Albert (@alexalbert__), [post X 2119884951550386671](https://x.com/alexalbert__/status/2119884951550386671), 9 November 2026. X mengembalikan 403 saat peninjauan ini; teksnya dicocokkan dengan [salinan linimasa Albert di Teapawt](https://teapawt.org/alexalbert__). Itu salinan sekunder.*
