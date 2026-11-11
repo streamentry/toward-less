@@ -1,6 +1,6 @@
 ---
-title: "Sept jeux pour une enfance sereine, bienveillante et confiante"
-description: "Inspirés de la parentalité néerlandaise : moins de performance, plus de jeu libre et des jeux numériques qui savent s'arrêter."
+title: "Sept idées simples pour un jeu mené par l’enfant"
+description: "Des activités adaptables, des limites de sécurité concrètes et des conclusions proportionnées aux preuves."
 author: "C.S Chánh Niệm"
 lang: fr
 slug: seven-games-calm-kind-confident-fr
@@ -11,90 +11,48 @@ featured: false
 tags: [life]
 ---
 
-Un pont en carton s'effondre. Un enfant regarde les morceaux tombés par terre. L'adulte est sur le point de le reconstruire, puis retient sa main.
+Ces sept activités simples laissent à l’enfant le choix, l’expérimentation, la coopération et le repos.
 
-« Et si on essayait autrement ? »
+Dans son rapport 2026, l’UNICEF place les Pays-Bas, le Danemark et la France en tête de son classement du bien-être des enfants selon trois dimensions. Le tableau porte sur 37 pays pour lesquels des données sont disponibles. Il compare des résultats : il n’étudie pas les styles parentaux et ne montre pas que les pratiques néerlandaises ont causé ce classement. Les revenus, les politiques publiques, les écoles et les quartiers influencent aussi la vie des enfants.
 
-Parfois, un enfant n'a besoin ni d'un nouveau jeu ni de meilleures consignes. Il a simplement besoin de temps pour recommencer.
+Ces propositions s’adressent à des enfants d’environ 4 à 10 ans. Elles ne constituent ni un programme évalué ni une promesse d’enfant plus calme, plus gentil ou plus sûr de lui. Adaptez-les à l’enfant et au contexte.
 
-Les Pays-Bas figurent parmi les pays les mieux classés dans le [rapport de l'UNICEF sur le bien-être des enfants de 2026](https://www.unicef.org/innocenti/reports/report-card-20). Cela **ne prouve pas** qu'une méthode de parentalité néerlandaise ait causé ce résultat. Le revenu, les politiques familiales, l'école et des espaces publics sûrs façonnent aussi la vie des enfants.
 
-Une idée mérite pourtant d'être essayée partout : **offrir un rythme quotidien fiable, puis laisser une véritable liberté à l'intérieur de ce cadre.**
+## 1. Construire une ville sans plan
 
-Voici sept jeux pour des enfants d'environ 4 à 10 ans. Adaptez-les aux capacités, aux intérêts et à la sécurité de chaque enfant. Ils ne constituent ni une thérapie ni une recette pour fabriquer un enfant « parfait ».
+Proposez des cartons, des blocs ou du tissu. L’enfant choisit ce qu’il veut construire. Demandez qui pourrait y habiter ; laissez le toit de travers.
 
-## 1. La ville sans plan
+## 2. Tester un pont
 
-**Matériel :** Boîtes, cubes ou tissus. **Durée suggérée :** 20 minutes.
+Prenez du papier ou du carton, des livres et un petit jouet. Si le pont s’écroule, demandez à l’enfant s’il veut changer une chose et recommencer. Laissez place à la déception ; n’exigez pas qu’il retrouve aussitôt le sourire.
 
-Invitez l'enfant à bâtir une ville. Aucun modèle à reproduire, aucune construction correcte ou incorrecte. L'adulte peut demander : « Qui habite ici ? », puis écouter. Ne redressez pas un toit penché simplement parce qu'il vous paraît raté.
+## 3. Deux amis, un jouet
 
-C'est un jeu mené par l'enfant : il fixe ses objectifs, modifie les règles et décide quand c'est terminé. La confiance grandit grâce aux occasions réelles de choisir, pas seulement grâce aux compliments.
+Prenez des marionnettes ou des figurines. L’enfant parle pour l’une, l’adulte pour l’autre, puis vous inversez les rôles. Essayez d’attendre son tour, de jouer ensemble ou de trouver une autre solution équitable. Être gentil, c’est aussi exprimer un besoin ou dire non.
 
-## 2. Le pont qui tombe
+## 4. Dessiner une carte un jour de pluie
 
-**Matériel :** Papier, carton, quelques livres et un petit jouet. **Durée :** 15 minutes.
+Lors d’une promenade sans danger, cherchez une feuille, trois sons ou une flaque. L’enfant choisit l’itinéraire dans les limites fixées par l’adulte. Évitez les intempéries dangereuses, la circulation et l’eau polluée.
 
-Fabriquez un pont pour faire passer le jouet au-dessus d'un espace. S'il s'écroule, résistez à l'envie d'intervenir aussitôt. Demandez : « Et si on changeait une chose avant de réessayer ? » Vous pouvez modifier les plis, la distance ou les matériaux.
+## 5. Laisser l’enfant guider le trajet
 
-Il n'y a pas de points pour le plus beau pont. Il s'agit de rencontrer un petit échec dans un environnement sans danger. L'enfant a le droit d'être déçu ; l'adulte n'a pas à lui imposer la bonne humeur immédiate.
+Proposez deux itinéraires sûrs vers le même lieu. L’enfant peut choisir, lire les panneaux et s’arrêter aux passages. L’adulte reste responsable de la sécurité routière.
 
-## 3. Deux amis, un seul jouet
+## 6. Choisir un jeu numérique avec une fin
 
-**Matériel :** Deux marionnettes ou personnages. **Durée :** 10 minutes.
+Si votre famille utilise des écrans, choisissez un jeu adapté à l’âge qui invite à créer, explorer ou coopérer. Convenez du moment où vous arrêterez avant de commencer. Si les réglages le permettent, désactivez la lecture automatique et les demandes d’achat. Préservez le sommeil, les repas, l’activité physique et les moments ensemble.
 
-Les deux personnages veulent le même jouet. L'enfant joue l'un et l'adulte l'autre. Après un tour, échangez les rôles.
+## 7. Passer quinze minutes sans faire la leçon
 
-Demandez : « Que veut celui-ci ? Et l'autre ? » Essayez de partager les tours, de jouer ensemble ou de trouver une troisième solution. N'imposez pas des excuses récitées.
+Laissez l’enfant choisir une activité et soyez pleinement présent. S’il n’a pas l’habitude de jouer seul, commencez avec lui, puis prenez du recul. Certains enfants ont besoin de davantage de soutien ; adaptez plutôt que d’imposer l’autonomie.
 
-La gentillesse n'est pas toujours le fait de céder sa place. C'est aussi écouter, exprimer ses besoins et chercher une solution juste.
+## Ce que les données disent — et ne disent pas
 
-## 4. La carte d'un jour de pluie
+Ces sept activités n’ont pas été évaluées comme un programme.
 
-**Matériel :** Papier, crayon et chaussures adaptées. **Durée :** 15 à 30 minutes.
+- Le [rapport de 2018 de l’Académie américaine de pédiatrie sur le jeu](https://doi.org/10.1542/peds.2018-2058) décrit le rôle du jeu dans les relations et le développement socio-émotionnel. Il n’évalue pas cette liste.
+- La [politique 2026 de l’AAP sur les écosystèmes numériques des enfants](https://publications.aap.org/pediatrics/article/157/2/e2025075320/206129/Digital-Ecosystems-Children-and-Adolescents-Policy) examine comment la conception et les intérêts commerciaux peuvent orienter les usages et remplacer des activités bénéfiques. Elle n’évalue aucun jeu cité ici.
+- Les [recommandations de l’OMS sur l’activité, la sédentarité et le sommeil](https://www.who.int/publications/i/item/9789241550536) concernent les enfants de moins de cinq ans ; elles ne constituent pas des conseils adaptés par âge pour les plus grands.
+- Le [rapport 20 de l’UNICEF Innocenti, publié en 2026](https://www.unicef.org/innocenti/reports/report-card-20) classe des résultats nationaux. Il ne dit pas aux parents quelle activité choisir.
 
-Sortez lorsque les conditions sont **sûres**. Dessinez une petite carte : cherchez une feuille étrange, trois sons différents ou une flaque reflétant le ciel. L'enfant choisit l'itinéraire dans les limites fixées par l'adulte.
-
-La pluie n'est pas une épreuve de bravoure. Évitez les orages, les inondations, l'eau polluée et les conditions dangereuses. Ignorer les risques réels ne rend pas plus résistant.
-
-## 5. Aujourd'hui, tu nous guides
-
-**Il faut :** Deux itinéraires piétons sûrs jusqu'à la même destination. **Durée :** 15 à 20 minutes.
-
-Laissez l'enfant choisir la route, lire les panneaux et s'arrêter aux carrefours pour observer. L'adulte marche avec lui et garde la responsabilité de la sécurité routière.
-
-L'autonomie à vélo de certains enfants néerlandais est aussi rendue possible par les infrastructures. L'âge auquel un enfant peut aller seul à l'école à bicyclette aux Pays-Bas ne se transpose pas à une rue saturée de motos. **L'autonomie dépend de conditions de sécurité réelles.**
-
-## 6. Un jeu vidéo avec une fin
-
-**Il faut :** Un jeu numérique adapté à l'âge, si la famille choisit d'utiliser les écrans.
-
-Préférez des jeux de **création, d'exploration ou de coopération** aux récompenses sans fin et aux sollicitations qui incitent à revenir. Avant de commencer, convenez d'un arrêt naturel : terminer un niveau, construire quelque chose ou résoudre une énigme. Puis fermez le jeu et racontez ce qui a été essayé.
-
-Désactivez la lecture automatique, les notifications et les achats intégrés. Évitez les publicités qui entraînent ailleurs. Ne laissez pas le jeu rogner le sommeil, l'activité physique ou les repas. Pour les plus jeunes, consultez les recommandations de l'OMS par âge.
-
-Un bon jeu n'a pas besoin de retenir son joueur le plus longtemps possible. Une conception responsable doit aussi lui permettre de **partir**.
-
-## 7. Quinze minutes sans leçon
-
-**Il faut :** Un moment sans interruption.
-
-L'enfant choisit son activité. L'adulte est là, sans téléphone, mais ne transforme pas tout en exercice éducatif. L'enfant peut dessiner, ranger des objets, inventer des règles ou ne rien faire pendant un moment.
-
-Ce n'est pas un « défi des quinze minutes réussies ». Si le jeu autonome est nouveau, commencez ensemble puis retirez-vous progressivement. Certains enfants ont besoin de davantage de soutien ou de structure ; respectez-le.
-
-## Ne transformons pas l'enfance en une autre compétition
-
-Il serait facile de faire de ces sept jeux une nouvelle liste : assez créatif aujourd'hui ? Assez coopératif ? Plus calme qu'hier ?
-
-Ce serait remplacer une pression par une autre.
-
-Les enfants ont besoin de sommeil, d'amour sans comparaison, d'adultes vraiment présents et d'endroits sûrs pour jouer. Pères et mères doivent pouvoir passer du temps réel avec eux. Aucune application, aucun programme de jeu ne remplace ces conditions.
-
-Un [rapport clinique de l'Académie américaine de pédiatrie sur le jeu](https://doi.org/10.1542/peds.2018-2058) décrit ses bienfaits pour les relations et les compétences socioémotionnelles. Sa [politique de 2026 sur les environnements numériques](https://publications.aap.org/pediatrics/article/157/2/e2025075320/206129/Digital-Ecosystems-Children-and-Adolescents-Policy) avertit que les mécanismes visant à prolonger l'utilisation peuvent prendre la place du sommeil, de l'activité physique et des liens directs. L'[OMS](https://www.who.int/publications/i/item/9789241550536/) fournit des recommandations adaptées à l'âge sur l'activité, le sommeil et les écrans avant cinq ans.
-
-Aucun jeu ne garantit un enfant toujours serein, gentil et sûr de lui.
-
-Mais nous pouvons lui offrir des choses simples : choisir, essayer, échouer, être écouté et se reposer.
-
-**Une bonne enfance n'a pas besoin de classement.**
+Les enfants ont besoin de sommeil, d’adultes attentifs et de lieux sûrs pour jouer. Aucun jeu ne garantit un trait de caractère particulier. Si ces idées deviennent une nouvelle liste de performances, abandonnez le décompte.
