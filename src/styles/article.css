@@ -1,0 +1,271 @@
+/* Article page: header with hanging meta, contents rail, reading progress,
+   reader controls, and the closing mark. */
+.article-header {
+  padding-block: var(--space-16) var(--space-12);
+}
+.article-header h1 {
+  margin: 0 0 var(--space-6);
+  font-size: var(--type-title-1);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-title);
+  letter-spacing: var(--track-title);
+}
+.article-header .tags {
+  margin: 0 0 var(--space-4);
+}
+.article-deck {
+  margin: 0;
+  color: var(--muted);
+  font-family: var(--reading);
+  font-size: var(--type-title-3);
+  font-style: italic;
+  line-height: 1.55;
+}
+/* Italic is a Latin-script device; other scripts keep their upright form. */
+html:not(
+    :is(
+      [lang="en"],
+      [lang="es"],
+      [lang="fr"],
+      [lang="pt"],
+      [lang="id"],
+      [lang="ms"],
+      [lang="ru"],
+      [lang="vi"]
+    )
+  )
+  :is(.article-deck, .hero h1 span + span) {
+  font-style: normal;
+}
+.article-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-3);
+  margin-top: var(--space-8);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: var(--type-footnote);
+}
+.article-meta > * {
+  margin: 0;
+}
+.article-meta .entry-number {
+  color: var(--accent);
+}
+.article-meta a {
+  color: var(--ink);
+}
+@media (min-width: 72rem) {
+  .article-header {
+    display: grid;
+    grid-template-columns: var(--margin-col) minmax(0, 1fr);
+    grid-template-areas:
+      ". kicker"
+      ". title"
+      "meta deck";
+    column-gap: var(--gutter);
+    margin-inline-start: var(--hang);
+  }
+  .article-header .tags {
+    grid-area: kicker;
+  }
+  .article-header h1 {
+    grid-area: title;
+  }
+  .article-deck {
+    grid-area: deck;
+  }
+  .article-meta {
+    grid-area: meta;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0.35rem 0 0;
+    border: 0;
+  }
+  .article-meta .sep {
+    display: none;
+  }
+}
+
+/* ── Contents: a ruled disclosure in the flow; a quiet rail on wide
+   screens, opened by script, opposite the hanging meta. ── */
+.toc {
+  margin: 0 0 var(--space-12);
+  border-block: 1px solid var(--line);
+  font-size: var(--type-subhead);
+}
+.toc summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: var(--target);
+  color: var(--muted);
+  cursor: pointer;
+  list-style: none;
+}
+.toc summary::-webkit-details-marker {
+  display: none;
+}
+.toc summary::after {
+  content: "";
+  width: 0.45rem;
+  height: 0.45rem;
+  margin-inline-end: 0.25rem;
+  border-inline-end: 1.5px solid currentColor;
+  border-block-end: 1.5px solid currentColor;
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform var(--duration) var(--ease);
+}
+.toc[open] summary::after {
+  transform: rotate(225deg) translateY(-2px);
+}
+.toc ol {
+  margin: 0 0 var(--space-4);
+  padding: 0;
+  list-style: none;
+}
+/* No generated numbers: many headings already number themselves. */
+.toc a {
+  display: block;
+  padding-block: var(--space-2);
+  color: var(--ink);
+  text-decoration: none;
+}
+.toc a:hover {
+  color: var(--accent);
+}
+.toc a[aria-current="true"] {
+  color: var(--accent);
+}
+@media (min-width: 72rem) {
+  .toc {
+    position: fixed;
+    inset-block-start: 8rem;
+    inset-inline-start: calc(50% + var(--text-col) / 2 + var(--gutter));
+    width: var(--margin-col);
+    max-height: calc(100vh - 10rem);
+    overflow-y: auto;
+    margin: 0;
+    border: 0;
+    font-size: var(--type-footnote);
+    line-height: 1.4;
+    scrollbar-width: none;
+  }
+  .toc summary {
+    min-height: 2rem;
+    margin-bottom: var(--space-2);
+  }
+  .toc a {
+    padding-block: 0.3rem;
+    padding-inline-start: var(--space-3);
+    border-inline-start: 1.5px solid var(--line);
+    color: var(--muted);
+    transition:
+      color var(--duration-fast) var(--ease),
+      border-color var(--duration-fast) var(--ease);
+  }
+  .toc a:hover,
+  .toc a[aria-current="true"] {
+    color: var(--ink);
+  }
+  .toc a[aria-current="true"] {
+    border-inline-start-color: var(--accent);
+  }
+}
+
+/* Reading progress: a 2px accent line tracking the article only, driven
+   by a native scroll timeline. Unsupported browsers show nothing. */
+.article {
+  view-timeline-name: --article;
+  view-timeline-axis: block;
+}
+.reading-progress {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  width: 100vw;
+  height: 2px;
+  margin-inline-start: calc(50% - 50vw);
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+}
+html[dir="rtl"] .reading-progress {
+  transform-origin: 100% 50%;
+}
+@supports (animation-timeline: view()) {
+  .reading-progress {
+    animation: reading-progress linear both;
+  }
+}
+/* NOTE: animation-timeline MUST stay a separate longhand in its own rule.
+   Lightning CSS merges animation-* longhands into the animation shorthand,
+   and a dashed-ident there is parsed as the animation NAME, not the
+   timeline — the bar silently never moved (found live 2026-11-09). */
+.reading-progress {
+  animation-timeline: --article;
+  /* 0% when the article's top meets the viewport top, 100% when its end
+     meets the viewport bottom — not when it first peeks into view. */
+  animation-range: contain 0% contain 100%;
+}
+@keyframes reading-progress {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+/* ── After the article ── */
+.article-mark {
+  display: flex;
+  justify-content: center;
+  margin: var(--space-16) 0 var(--space-12);
+  color: var(--accent);
+}
+/* Reader controls: two small capsule groups, like a segmented control. */
+.reader-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3) var(--space-6);
+  padding-block: var(--space-4);
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: var(--type-footnote);
+}
+.segmented {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+.segmented span {
+  margin-inline-end: var(--space-1);
+}
+.segmented .control {
+  min-width: 2.5rem;
+}
+.segmented .control:disabled {
+  opacity: 0.35;
+  cursor: default;
+  transform: none;
+}
+.article-end {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--line);
+  font-size: var(--type-subhead);
+}
+.article-end a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target);
+  color: var(--muted);
+  text-decoration: none;
+}
+.article-end a:hover {
+  color: var(--ink);
+}

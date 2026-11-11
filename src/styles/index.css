@@ -1,0 +1,295 @@
+/* Index surfaces: home title, page headings, the numbered entry list,
+   topic index, pagination. Lists are ruled, never boxed. */
+.label {
+  margin: 0 0 var(--space-3);
+  color: var(--muted);
+  font-family: var(--ui);
+  font-size: var(--type-footnote);
+  font-weight: var(--weight-regular);
+  letter-spacing: var(--track-caption);
+}
+.label a {
+  color: inherit;
+  text-decoration: none;
+}
+.label a:hover {
+  color: var(--ink);
+}
+
+/* ── Home: an Apple-style large title, set like a book's half-title. ── */
+.hero {
+  padding-block: var(--space-16) var(--space-section);
+}
+.hero h1 {
+  margin: 0 0 var(--space-8);
+  font-size: var(--type-display);
+  font-weight: var(--weight-medium);
+  line-height: var(--leading-display);
+  letter-spacing: var(--track-display);
+}
+.hero h1 span {
+  display: block;
+}
+.hero h1 span + span {
+  color: var(--muted);
+  font-style: italic;
+  font-weight: var(--weight-regular);
+}
+.hero .intro {
+  max-width: 34rem;
+  margin-bottom: var(--space-4);
+  font-family: var(--reading);
+  font-size: var(--type-title-3);
+  line-height: 1.6;
+}
+.byline {
+  margin: 0;
+  color: var(--muted);
+  font-size: var(--type-subhead);
+}
+.subject-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-3);
+  margin-top: var(--space-8);
+  color: var(--muted);
+  font-size: var(--type-footnote);
+}
+.subject-line span + span::before {
+  content: "·";
+  margin-inline-end: var(--space-3);
+}
+@media (min-width: 72rem) {
+  /* The display title may run into the far margin: one deliberate break
+     from the column, on one page only. */
+  .hero h1 {
+    margin-inline-end: var(--hang);
+  }
+}
+
+.page-heading {
+  padding-block: var(--space-16) var(--space-12);
+}
+.page-heading h1 {
+  margin: 0 0 var(--space-4);
+  font-size: var(--type-title-1);
+  line-height: var(--leading-title);
+  letter-spacing: var(--track-title);
+}
+.page-heading > p:not(.label) {
+  max-width: 34rem;
+  margin-bottom: var(--space-3);
+  color: var(--muted);
+  font-family: var(--reading);
+  font-size: var(--type-headline);
+  line-height: 1.6;
+}
+.page-heading > a {
+  font-size: var(--type-subhead);
+}
+
+/* ── Section heading: label in the margin, link at the column's end. ── */
+.section-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding-block: 0 var(--space-3);
+  border-bottom: 1px solid var(--rule);
+}
+.section-heading h2 {
+  margin: 0;
+  font-family: var(--ui);
+  font-size: var(--type-footnote);
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--track-caption);
+}
+.section-heading a {
+  color: var(--muted);
+  font-size: var(--type-footnote);
+  text-decoration: none;
+}
+.section-heading a:hover {
+  color: var(--ink);
+}
+
+/* ── The entry list: a numbered contents page. ──
+   Narrow: meta sits above the title. Wide: number, date and reading time
+   hang in the margin, the title owns the column. */
+.post-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.entry {
+  display: grid;
+  gap: var(--space-2);
+  padding-block: var(--space-6) var(--space-8);
+  border-bottom: 1px solid var(--line);
+  content-visibility: auto;
+  contain-intrinsic-size: auto 11rem;
+}
+.entry-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--space-3);
+  color: var(--muted);
+  font-size: var(--type-footnote);
+}
+.entry-number {
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+  font-weight: var(--weight-medium);
+  transition: color var(--duration-fast) var(--ease);
+}
+.entry:hover .entry-number,
+.entry:focus-within .entry-number {
+  color: var(--accent);
+}
+.entry-title {
+  margin: 0;
+  font-size: var(--type-title-2);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-title);
+  letter-spacing: var(--track-title);
+}
+.entry-title a {
+  text-decoration-color: transparent;
+  text-decoration-thickness: 1.5px;
+}
+.entry-title a:hover {
+  text-decoration-color: currentColor;
+}
+.entry-dek {
+  max-width: 34rem;
+  margin: var(--space-1) 0 0;
+  color: var(--muted);
+  font-family: var(--reading);
+  font-size: var(--type-headline);
+  line-height: 1.6;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--space-3);
+  margin-top: var(--space-2);
+  font-size: var(--type-footnote);
+}
+.tags a {
+  color: var(--muted);
+  text-decoration: none;
+}
+.tags a:hover {
+  color: var(--ink);
+  text-decoration: underline;
+}
+.tags a + a::before {
+  content: "·";
+  margin-inline-end: var(--space-3);
+  color: var(--muted);
+}
+@media (min-width: 72rem) {
+  .section-heading,
+  .entry {
+    display: grid;
+    grid-template-columns: var(--margin-col) minmax(0, 1fr);
+    column-gap: var(--gutter);
+    margin-inline-start: var(--hang);
+  }
+  .section-heading {
+    align-items: baseline;
+  }
+  .section-heading a {
+    justify-self: end;
+  }
+  .entry-meta {
+    flex-direction: column;
+    gap: var(--space-1);
+    padding-top: 0.45rem;
+  }
+  .entry-number {
+    font-size: var(--type-subhead);
+  }
+  .entry-body {
+    min-width: 0;
+  }
+}
+
+.empty {
+  padding-block: var(--space-8);
+  color: var(--muted);
+  font-family: var(--reading);
+}
+
+/* ── Topic index: a ruled two-column list, name and count. ── */
+.topic-list {
+  margin: 0 0 var(--space-8);
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--rule);
+  columns: 2 14rem;
+  column-gap: var(--gutter);
+}
+.topic-list li {
+  break-inside: avoid;
+  border-bottom: 1px solid var(--line);
+}
+.topic-list a {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-4);
+  min-height: var(--target);
+  padding-block: var(--space-3);
+  font-family: var(--reading);
+  font-size: var(--type-headline);
+  text-decoration: none;
+}
+.topic-list a:hover {
+  color: var(--accent);
+}
+.topic-list a span {
+  color: var(--muted);
+  font-family: var(--ui);
+  font-size: var(--type-footnote);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Buttons: capsules. Used for pagination and the style guide. ── */
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: var(--target);
+  padding: 0 var(--space-6);
+  border: 0;
+  border-radius: var(--radius-capsule);
+  background: var(--fill);
+  color: var(--ink);
+  font-size: var(--type-subhead);
+  font-weight: var(--weight-medium);
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background-color var(--duration-fast) var(--ease),
+    transform var(--duration-instant) var(--ease);
+}
+.button:hover {
+  background: var(--fill-strong);
+}
+.button:active {
+  transform: scale(0.97);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding-top: var(--space-12);
+}
+.pagination .page-count {
+  color: var(--muted);
+  font-size: var(--type-footnote);
+  font-variant-numeric: tabular-nums;
+}

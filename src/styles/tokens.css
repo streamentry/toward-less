@@ -1,0 +1,283 @@
+/* Toward Less — Marginalia design system. Tokens only; see docs/DESIGN_SYSTEM.md.
+   Three tiers: primitives (OKLCH ramps) → semantic roles (named by job,
+   never by hue) → component use in the other stylesheets. */
+:root {
+  color-scheme: light;
+
+  /* ── Primitives: OKLCH ramps, 50 (lightest) to 950 (darkest). ── */
+  --green-50: oklch(0.97 0.0123 157.1);
+  --green-100: oklch(0.93 0.0215 157.1);
+  --green-200: oklch(0.88 0.0306 157.1);
+  --green-300: oklch(0.82 0.0429 157.1);
+  --green-400: oklch(0.75 0.0552 157.1);
+  --green-500: oklch(0.68 0.0613 157.1);
+  --green-600: oklch(0.6 0.0613 157.1);
+  --green-700: oklch(0.52 0.0582 157.1);
+  --green-800: oklch(0.45 0.0552 157.1);
+  --green-900: oklch(0.38 0.049 157.1);
+  --green-950: oklch(0.3 0.0398 157.1);
+  --stone-50: oklch(0.97 0.0091 145.3);
+  --stone-100: oklch(0.93 0.0094 145.3);
+  --stone-200: oklch(0.88 0.0098 145.3);
+  --stone-300: oklch(0.82 0.0103 145.3);
+  --stone-400: oklch(0.75 0.0109 145.3);
+  --stone-500: oklch(0.68 0.0115 145.3);
+  --stone-600: oklch(0.6 0.0108 145.3);
+  --stone-700: oklch(0.52 0.0102 145.3);
+  --stone-800: oklch(0.45 0.0096 145.3);
+  --stone-900: oklch(0.38 0.009 145.3);
+  --stone-950: oklch(0.3 0.0083 145.3);
+
+  /* ── Semantic colour roles — Paper theme (default). ──
+     Mirrors Apple's semantic roles: label → --ink, secondaryLabel → --muted,
+     systemBackground → --paper, secondarySystemBackground → --surface,
+     separator → --line, opaqueSeparator → --rule, tertiarySystemFill → --fill. */
+  --paper: #f7f5ef;
+  --surface: #fffdf8;
+  --ink: #252a25;
+  --muted: #62695f;
+  --accent: #355e46;
+  --focus: var(--accent);
+  /* Non-text roles are mixes of ink, so they adapt to every theme. */
+  --line: color-mix(in oklch, var(--ink) 14%, transparent);
+  --rule: color-mix(in oklch, var(--ink) 28%, transparent);
+  --fill: color-mix(in oklch, var(--ink) 6%, transparent);
+  --fill-strong: color-mix(in oklch, var(--ink) 11%, transparent);
+  --selection: color-mix(in srgb, var(--accent) 22%, transparent);
+  /* Material: the only translucent surface, for floating UI (menus). */
+  --material: color-mix(in oklch, var(--surface) 84%, transparent);
+  --shadow-float:
+    0 0 0 0.5px var(--rule), 0 10px 30px -6px rgb(20 24 20 / 0.18), 0 2px 6px rgb(20 24 20 / 0.06);
+  /* Code blocks stay dark in every theme (established convention). */
+  --code-bg: #1f271f;
+  --code-ink: #dfe8dd;
+
+  /* ── Type ramp — Apple's text-style roles, in rem so browser text size
+     (the web's Dynamic Type) scales everything. Nothing below 0.75rem. ── */
+  --type-display: clamp(2.75rem, 1.85rem + 3.6vw, 4.75rem);
+  --type-title-1: clamp(2.125rem, 1.6rem + 2.1vw, 3.25rem);
+  --type-title-2: clamp(1.5rem, 1.3rem + 0.8vw, 1.875rem);
+  --type-title-3: 1.25rem;
+  --type-headline: 1.0625rem;
+  --type-body: 1.0625rem;
+  --type-reading: 1.125rem;
+  --type-callout: 1rem;
+  --type-subhead: 0.9375rem;
+  --type-footnote: 0.8125rem;
+  --type-caption: 0.75rem;
+  /* Optical tracking: large type tightens, small type opens (as in SF).
+     Zeroed for scripts where tracking breaks shaping — see below. */
+  --track-display: -0.032em;
+  --track-title: -0.022em;
+  --track-heading: -0.012em;
+  --track-caption: 0.01em;
+  --leading-display: 1.06;
+  --leading-title: 1.12;
+  --leading-heading: 1.25;
+  --leading-reading: 1.65;
+  --leading-ui: 1.45;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-bold: 600; /* Bold is 600, never 700. */
+  --ui: var(--font-interface, system-ui), system-ui, sans-serif;
+  --reading: var(--font-reading, Georgia), Georgia, serif;
+  --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* ── Grid: one text column with a hanging margin on each side. ──
+     Metadata hangs in the inline-start margin; the contents rail sits in
+     the inline-end margin. Measure is in rem so it survives font swaps. */
+  --measure: 38rem;
+  --text-col: calc(var(--measure) * var(--measure-scale, 1));
+  --margin-col: 12rem;
+  --gutter: 2.5rem;
+  --frame: calc(var(--text-col) + 2 * (var(--margin-col) + var(--gutter)));
+  --page-gutter: clamp(1.25rem, 0.75rem + 2.5vw, 2.5rem);
+  --hang: calc(-1 * (var(--margin-col) + var(--gutter)));
+
+  /* ── Space — 4px base, 8px rhythm; sections breathe, groups stay tight. ── */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-24: 6rem;
+  --space-section: clamp(4rem, 2.5rem + 5vw, 7rem);
+
+  /* ── Shape: paper is square, controls are round. ── */
+  --radius-paper: 0;
+  --radius-inline: 0.3em; /* inline code tint only */
+  --radius-menu: 14px;
+  --radius-capsule: 999px;
+  --target: 44px;
+
+  /* ── Motion: short, eased, never decorative. ── */
+  --duration-instant: 100ms;
+  --duration-fast: 160ms;
+  --duration: 240ms;
+  --ease: cubic-bezier(0.28, 0.11, 0.32, 1);
+}
+
+/* Night theme. Contrast measured 2026-11-08: accent 10.14:1, muted 8.62:1,
+   ink 14.34:1 on paper; accent 8.66:1, muted 7.36:1 on surface. */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #171c19;
+  --surface: #202722;
+  --ink: #e8ebe5;
+  --muted: #b0baaf;
+  --accent: #adcfb1;
+  --line: color-mix(in oklch, var(--ink) 16%, transparent);
+  --rule: color-mix(in oklch, var(--ink) 30%, transparent);
+  --fill: color-mix(in oklch, var(--ink) 8%, transparent);
+  --fill-strong: color-mix(in oklch, var(--ink) 14%, transparent);
+  --shadow-float: 0 0 0 0.5px var(--rule), 0 12px 32px -6px rgb(0 0 0 / 0.5);
+  --code-bg: #101510;
+  --code-ink: #dfe8dd;
+}
+/* Sepia theme — a third reading mode, explicit choice only. Contrast
+   measured 2026-11-08: accent 6.51:1, muted 5.15:1, ink 12.48:1 on paper. */
+:root[data-theme="sepia"] {
+  color-scheme: light;
+  --paper: #f6efe0;
+  --surface: #fbf6ea;
+  --ink: #2e2a21;
+  --muted: #6e6350;
+  --accent: #3d5c46;
+  --code-bg: #26221a;
+  --code-ink: #e6dfcb;
+}
+/* Without JavaScript the theme script never runs; follow the system. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    color-scheme: dark;
+    --paper: #171c19;
+    --surface: #202722;
+    --ink: #e8ebe5;
+    --muted: #b0baaf;
+    --accent: #adcfb1;
+    --line: color-mix(in oklch, var(--ink) 16%, transparent);
+    --rule: color-mix(in oklch, var(--ink) 30%, transparent);
+    --fill: color-mix(in oklch, var(--ink) 8%, transparent);
+    --fill-strong: color-mix(in oklch, var(--ink) 14%, transparent);
+    --shadow-float: 0 0 0 0.5px var(--rule), 0 12px 32px -6px rgb(0 0 0 / 0.5);
+    --code-bg: #101510;
+  }
+}
+/* Increase Contrast (macOS/iOS accessibility setting, and Windows). */
+@media (prefers-contrast: more) {
+  :root {
+    --muted: color-mix(in oklch, var(--ink) 82%, var(--paper));
+    --line: color-mix(in oklch, var(--ink) 40%, transparent);
+    --rule: color-mix(in oklch, var(--ink) 60%, transparent);
+    --fill: color-mix(in oklch, var(--ink) 12%, transparent);
+  }
+}
+/* Reduce Transparency: materials become solid. */
+@media (prefers-reduced-transparency: reduce) {
+  :root {
+    --material: var(--surface);
+  }
+}
+
+/* Native script fonts where the Latin/Vietnamese web fonts have no glyphs. */
+html[lang="zh-Hans"] {
+  --font-reading: "Noto Serif SC", "Songti SC", serif;
+  --font-interface: "Noto Sans SC", "PingFang SC", sans-serif;
+}
+html[lang="ja"] {
+  --font-reading: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  --font-interface: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif;
+}
+html[lang="ko"] {
+  --font-reading: "Noto Serif KR", "AppleMyungjo", "Batang", serif;
+  --font-interface: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+}
+html[lang="hi"],
+html[lang="mr"] {
+  --font-reading: "Noto Serif Devanagari", "Kohinoor Devanagari", "Nirmala UI", serif;
+  --font-interface: "Noto Sans Devanagari", "Kohinoor Devanagari", "Nirmala UI", sans-serif;
+}
+html[lang="bn"] {
+  --font-reading: "Noto Serif Bengali", "Kohinoor Bangla", "Nirmala UI", serif;
+  --font-interface: "Noto Sans Bengali", "Kohinoor Bangla", "Nirmala UI", sans-serif;
+}
+html[lang="th"] {
+  --font-reading: "Noto Serif Thai", "Thonburi", serif;
+  --font-interface: "Noto Sans Thai", "Thonburi", sans-serif;
+}
+html[lang="ar"] {
+  --font-reading: "Noto Naskh Arabic", "Geeza Pro", "Amiri", serif;
+  --font-interface: "Noto Sans Arabic", "SF Arabic", "Geeza Pro", sans-serif;
+}
+html[lang="ur"] {
+  --font-reading: "Noto Nastaliq Urdu", "Noto Naskh Arabic", serif;
+  --font-interface: "Noto Naskh Arabic", "Geeza Pro", sans-serif;
+}
+html[lang="fa"] {
+  --font-reading: "Noto Naskh Arabic", "Vazirmatn", serif;
+  --font-interface: "Noto Sans Arabic", "Vazirmatn", sans-serif;
+}
+html[lang="ru"] {
+  --font-reading: "Noto Serif", "Georgia", serif;
+  --font-interface: "Be Vietnam Pro", system-ui, sans-serif;
+}
+
+/* Per-script metrics. Negative tracking is a Latin/Cyrillic device; it
+   breaks Arabic joining and crowds Indic, Thai and CJK forms. Scripts with
+   stacked marks get more leading so lines never collide. */
+html:not(
+  :is(
+    [lang="en"],
+    [lang="es"],
+    [lang="fr"],
+    [lang="pt"],
+    [lang="id"],
+    [lang="ms"],
+    [lang="ru"],
+    [lang="vi"]
+  )
+) {
+  --track-display: 0;
+  --track-title: 0;
+  --track-heading: 0;
+  --track-caption: 0;
+}
+html[lang="vi"] {
+  --leading-display: 1.16;
+  --leading-title: 1.22;
+  --leading-heading: 1.35;
+}
+html:is([lang="zh-Hans"], [lang="ja"], [lang="ko"]) {
+  --leading-display: 1.22;
+  --leading-title: 1.3;
+  --leading-heading: 1.4;
+  --leading-reading: 1.85;
+  --type-reading: 1.0625rem;
+}
+html:is([lang="ar"], [lang="ur"], [lang="fa"]) {
+  --leading-display: 1.45;
+  --leading-title: 1.5;
+  --leading-heading: 1.55;
+  --leading-reading: 1.9;
+  --type-reading: 1.1875rem;
+}
+html[lang="ur"] {
+  --leading-reading: 2.2; /* Nastaliq is tall and diagonal. */
+}
+html:is([lang="hi"], [lang="mr"], [lang="bn"]) {
+  --leading-display: 1.35;
+  --leading-title: 1.4;
+  --leading-heading: 1.45;
+  --leading-reading: 1.75;
+  --type-reading: 1.1875rem;
+}
+html[lang="th"] {
+  --leading-display: 1.4;
+  --leading-title: 1.45;
+  --leading-heading: 1.5;
+  --leading-reading: 1.85;
+  --type-reading: 1.1875rem;
+}

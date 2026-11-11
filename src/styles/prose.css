@@ -1,0 +1,311 @@
+/* Long-form reading. Serif, 65-character measure, old-style figures,
+   rules instead of boxes, and the accent kept for link underlines. */
+.prose {
+  font-family: var(--reading);
+  font-size: calc(var(--type-reading) * var(--reader-scale, 1));
+  line-height: var(--leading-reading);
+  overflow-wrap: break-word;
+  font-optical-sizing: auto;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  hanging-punctuation: first allow-end;
+}
+.prose p {
+  margin-bottom: 1.4em;
+  text-wrap: pretty;
+}
+.prose a {
+  text-decoration-color: color-mix(in oklch, var(--accent) 70%, transparent);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 0.2em;
+}
+.prose a:hover {
+  color: var(--accent);
+  text-decoration-color: currentColor;
+}
+/* One drop cap per article, in alphabetic scripts only: ::first-letter
+   would break Arabic joining and Indic/Thai clusters. Ink, not accent. */
+html:is(
+    [lang="en"],
+    [lang="es"],
+    [lang="fr"],
+    [lang="pt"],
+    [lang="id"],
+    [lang="ms"],
+    [lang="ru"],
+    [lang="vi"]
+  )
+  .article
+  .prose
+  > p:first-of-type::first-letter {
+  font-weight: var(--weight-regular);
+  color: var(--ink);
+}
+@supports (initial-letter: 3) {
+  html:is(
+      [lang="en"],
+      [lang="es"],
+      [lang="fr"],
+      [lang="pt"],
+      [lang="id"],
+      [lang="ms"],
+      [lang="ru"],
+      [lang="vi"]
+    )
+    .article
+    .prose
+    > p:first-of-type::first-letter {
+    initial-letter: 3;
+    margin-inline-end: 0.5rem;
+  }
+}
+@supports not (initial-letter: 3) {
+  html:is(
+      [lang="en"],
+      [lang="es"],
+      [lang="fr"],
+      [lang="pt"],
+      [lang="id"],
+      [lang="ms"],
+      [lang="ru"],
+      [lang="vi"]
+    )
+    .article
+    .prose
+    > p:first-of-type::first-letter {
+    float: inline-start;
+    padding-inline-end: 0.4rem;
+    padding-block-start: 0.12em;
+    font-size: 3.6em;
+    line-height: 0.82;
+  }
+}
+.prose h2 {
+  margin: 2.6em 0 0.8em;
+  font-size: var(--type-title-2);
+  line-height: var(--leading-heading);
+  letter-spacing: var(--track-title);
+}
+.prose h3 {
+  margin: 2em 0 0.6em;
+  font-size: var(--type-title-3);
+  letter-spacing: var(--track-heading);
+}
+.prose h4 {
+  margin: 1.6em 0 0.4em;
+  font-family: var(--ui);
+  font-size: var(--type-headline);
+}
+.prose :is(h2, h3, h4) + p {
+  margin-top: 0;
+}
+.prose ul,
+.prose ol {
+  margin: 0 0 1.4em;
+  padding-inline-start: 1.4em;
+}
+.prose li {
+  margin-block: 0.45em;
+  padding-inline-start: 0.2em;
+}
+.prose li::marker {
+  color: var(--muted);
+}
+.prose ol > li::marker {
+  font-variant-numeric: tabular-nums;
+}
+.prose strong {
+  font-weight: var(--weight-bold);
+}
+.prose blockquote {
+  margin: 2em 0;
+  padding-inline-start: 1.25em;
+  border-inline-start: 1px solid var(--ink);
+  color: var(--muted);
+}
+.prose blockquote p:last-child {
+  margin-bottom: 0;
+}
+/* Pull quote — <blockquote class="pull-quote">: real text from the
+   article, at most one per 800–1000 words. Set large, between two rules. */
+.prose blockquote.pull-quote {
+  margin: 2.5em 0;
+  padding: 1em 0;
+  border: 0;
+  border-block: 1px solid var(--rule);
+  color: var(--ink);
+  font-size: 1.45em;
+  font-style: italic;
+  font-weight: var(--weight-regular);
+  line-height: 1.4;
+  letter-spacing: var(--track-heading);
+  text-wrap: balance;
+}
+.prose blockquote.pull-quote p {
+  margin: 0;
+}
+/* Sidenote — <aside class="sidenote">: in the flow on narrow screens,
+   hanging in the inline-start margin on wide ones. */
+.prose aside.sidenote {
+  margin: 1.5em 0;
+  padding-inline-start: var(--space-4);
+  border-inline-start: 1px solid var(--rule);
+  color: var(--muted);
+  font-family: var(--ui);
+  font-size: var(--type-footnote);
+  line-height: 1.55;
+}
+.prose aside.sidenote p {
+  margin-bottom: 0.5em;
+}
+.prose aside.sidenote p:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 72rem) {
+  .prose aside.sidenote {
+    float: inline-start;
+    clear: inline-start;
+    width: var(--margin-col);
+    margin-block: 0.3em 1em;
+    margin-inline-start: var(--hang);
+    padding: 0;
+    border: 0;
+  }
+}
+/* Section break: a short centred rule, not a full-width line. */
+.prose hr {
+  width: 3rem;
+  margin: 3em auto;
+  border: 0;
+  border-top: 1px solid var(--rule);
+}
+.prose img {
+  display: block;
+  margin-block: 2em;
+  border-radius: var(--radius-paper);
+}
+.prose figure {
+  margin: 2em 0;
+}
+.prose figcaption {
+  margin-top: var(--space-3);
+  color: var(--muted);
+  font-family: var(--ui);
+  font-size: var(--type-footnote);
+  line-height: 1.5;
+}
+.prose code {
+  padding: 0.12em 0.32em;
+  border-radius: var(--radius-inline);
+  background: var(--fill);
+  font-family: var(--mono);
+  font-size: 0.84em;
+  font-variant-numeric: normal;
+}
+/* Code blocks: dark in every theme, square like paper. A language label
+   and copy button are added by the script in Layout.astro. */
+.prose pre {
+  position: relative;
+  max-width: 100%;
+  margin: 2em 0;
+  padding: var(--space-6);
+  overflow-x: auto;
+  border-radius: var(--radius-paper);
+  background: var(--code-bg);
+  color: var(--code-ink);
+  font-family: var(--mono);
+  font-size: var(--type-footnote);
+  line-height: 1.75;
+}
+.prose pre code {
+  padding: 0;
+  background: transparent;
+  color: inherit;
+  font-size: inherit;
+}
+.code-label {
+  display: block;
+  margin-bottom: var(--space-3);
+  color: var(--code-ink);
+  font-family: var(--ui);
+  font-size: var(--type-caption);
+  letter-spacing: 0.04em;
+  opacity: 0.7;
+}
+.code-copy {
+  position: absolute;
+  inset-block-start: var(--space-3);
+  inset-inline-end: var(--space-3);
+  height: 1.75rem;
+  padding-inline: var(--space-3);
+  border: 0;
+  border-radius: var(--radius-capsule);
+  background: color-mix(in srgb, var(--code-ink) 14%, transparent);
+  color: var(--code-ink);
+  font-family: var(--ui);
+  font-size: var(--type-caption);
+  cursor: pointer;
+}
+.code-copy:hover {
+  background: color-mix(in srgb, var(--code-ink) 24%, transparent);
+}
+/* Tables: horizontal rules only, no fills, no vertical lines. */
+.prose table {
+  display: block;
+  max-width: 100%;
+  margin: 2em 0;
+  overflow-x: auto;
+  border-collapse: collapse;
+  font-family: var(--ui);
+  font-size: var(--type-subhead);
+  font-variant-numeric: tabular-nums;
+  line-height: 1.5;
+}
+.prose th,
+.prose td {
+  padding: var(--space-3) var(--space-6) var(--space-3) 0;
+  border-bottom: 1px solid var(--line);
+  text-align: start;
+  vertical-align: top;
+}
+.prose th {
+  border-bottom-color: var(--rule);
+  color: var(--muted);
+  font-size: var(--type-footnote);
+  font-weight: var(--weight-bold);
+}
+.prose .highlighted {
+  background: var(--selection);
+}
+.prose .diff.add {
+  background: color-mix(in srgb, var(--accent) 14%, transparent);
+}
+.prose .diff.remove {
+  background: color-mix(in srgb, #b83f3f 14%, transparent);
+}
+.prose .highlighted-word {
+  border-radius: var(--radius-inline);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+.astro-code,
+.astro-code span {
+  color: var(--shiki-dark) !important;
+}
+.about-lead {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+.note {
+  padding: var(--space-4) var(--space-6);
+  border-inline-start: 1px solid var(--ink);
+  background: var(--fill);
+  font-size: var(--type-subhead);
+}
+@media (max-width: 44rem) {
+  .prose {
+    --type-reading: 1.0625rem;
+  }
+  html:is([lang="ar"], [lang="ur"], [lang="fa"], [lang="hi"], [lang="mr"], [lang="bn"], [lang="th"])
+    .prose {
+    --type-reading: 1.125rem;
+  }
+}

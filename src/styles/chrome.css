@@ -1,0 +1,271 @@
+/* Site chrome: masthead, controls, language menu, footer.
+   The masthead and footer sit on the same three-column frame as the page:
+   [margin] [text] [margin]. Brand hangs in the margin; navigation starts
+   exactly where the reading column starts. */
+.masthead-inner,
+.footer-inner {
+  width: min(calc(100% - 2 * var(--page-gutter)), var(--frame));
+  margin-inline: auto;
+}
+.masthead-inner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+  min-height: 5.5rem;
+  border-bottom: 1px solid var(--line);
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-height: var(--target);
+  margin-inline-end: auto;
+  color: var(--ink);
+  font-family: var(--reading);
+  font-size: 1.25rem;
+  font-weight: var(--weight-medium);
+  letter-spacing: var(--track-heading);
+  white-space: nowrap;
+  text-decoration: none;
+}
+.brand-mark {
+  flex: none;
+  color: var(--accent);
+  transition: transform var(--duration) var(--ease);
+}
+.brand:hover .brand-mark {
+  transform: translateX(2px);
+}
+html[dir="rtl"] .brand:hover .brand-mark {
+  transform: translateX(-2px);
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+}
+.main-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target);
+  color: var(--muted);
+  font-size: var(--type-subhead);
+  text-decoration: none;
+}
+.main-nav a:hover {
+  color: var(--ink);
+}
+/* The current section is marked by ink and a short rule under it. */
+.main-nav a[aria-current] {
+  color: var(--ink);
+  box-shadow: inset 0 -1.5px 0 var(--ink);
+}
+.header-tools {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+@media (min-width: 72rem) {
+  .masthead-inner {
+    display: grid;
+    grid-template-columns: var(--margin-col) var(--text-col) var(--margin-col);
+    column-gap: var(--gutter);
+    justify-content: center;
+  }
+  .header-tools {
+    justify-self: end;
+  }
+}
+
+/* ── Controls: round, filled, quiet. Things you touch are round. ── */
+.control {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  min-width: 2.25rem;
+  height: 2.25rem;
+  padding-inline: var(--space-3);
+  border: 0;
+  border-radius: var(--radius-capsule);
+  background: var(--fill);
+  color: var(--ink);
+  font-size: var(--type-footnote);
+  font-weight: var(--weight-medium);
+  line-height: 1;
+  cursor: pointer;
+  user-select: none;
+}
+/* Extend the hit area to 44px without growing the visible capsule. */
+.control::before {
+  content: "";
+  position: absolute;
+  inset: -4px;
+}
+.control:hover {
+  background: var(--fill-strong);
+}
+.control:active {
+  transform: scale(0.96);
+}
+.theme-toggle {
+  padding: 0;
+}
+.theme-toggle[hidden] {
+  display: none;
+}
+.language-menu {
+  position: relative;
+}
+.language-menu summary {
+  list-style: none;
+}
+.language-menu summary::-webkit-details-marker {
+  display: none;
+}
+.language-menu summary svg {
+  transition: transform var(--duration) var(--ease);
+}
+.language-menu[open] summary svg {
+  transform: rotate(180deg);
+}
+/* The only translucent surface on the site: a floating material. */
+.language-menu nav {
+  position: absolute;
+  z-index: 20;
+  inset-block-start: calc(100% + var(--space-2));
+  inset-inline-end: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(8.5rem, 1fr));
+  gap: 1px var(--space-1);
+  width: min(22rem, calc(100vw - 2 * var(--page-gutter)));
+  max-height: min(70vh, 34rem);
+  overflow-y: auto;
+  padding: var(--space-2);
+  border-radius: var(--radius-menu);
+  background: var(--material);
+  -webkit-backdrop-filter: saturate(180%) blur(24px);
+  backdrop-filter: saturate(180%) blur(24px);
+  box-shadow: var(--shadow-float);
+  transform-origin: top right;
+  animation: menu-in var(--duration) var(--ease);
+}
+html[dir="rtl"] .language-menu nav {
+  transform-origin: top left;
+}
+@keyframes menu-in {
+  from {
+    opacity: 0;
+    transform: scale(0.97) translateY(-4px);
+  }
+}
+.language-menu:not([open]) nav {
+  display: none;
+}
+.language-menu nav a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 2.5rem;
+  padding-inline: var(--space-3);
+  border-radius: calc(var(--radius-menu) - var(--space-2));
+  font-size: var(--type-subhead);
+  text-decoration: none;
+}
+.language-menu nav a:hover {
+  background: var(--fill);
+}
+.language-menu nav a[aria-current="page"] {
+  font-weight: var(--weight-bold);
+}
+.language-menu nav a[aria-current="page"]::after {
+  content: "";
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.language-group-separator {
+  grid-column: 1 / -1;
+  height: 1px;
+  margin: var(--space-1) var(--space-3);
+  background: var(--line);
+}
+.language-group-label {
+  grid-column: 1 / -1;
+  padding: var(--space-2) var(--space-3) 0;
+  color: var(--muted);
+  font-size: var(--type-caption);
+  letter-spacing: var(--track-caption);
+}
+@media (max-width: 38rem) {
+  .language-menu nav {
+    grid-template-columns: 1fr;
+    width: min(16rem, calc(100vw - 2 * var(--page-gutter)));
+  }
+}
+
+/* ── Footer: the colophon line, on the same frame. ── */
+.site-footer {
+  padding-block: var(--space-12) var(--space-16);
+}
+.footer-inner {
+  display: grid;
+  gap: var(--space-6);
+  padding-top: var(--space-6);
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: var(--type-footnote);
+}
+.footer-inner a {
+  color: var(--muted);
+  text-decoration: none;
+}
+.footer-inner a:hover {
+  color: var(--ink);
+  text-decoration: underline;
+}
+.footer-languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
+}
+.footer-languages a[aria-current="page"] {
+  color: var(--ink);
+}
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
+}
+@media (min-width: 72rem) {
+  .footer-inner {
+    grid-template-columns: var(--margin-col) var(--text-col) var(--margin-col);
+    column-gap: var(--gutter);
+    justify-content: center;
+    align-items: start;
+  }
+  .footer-links {
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+}
+
+@media (max-width: 44rem) {
+  .masthead-inner {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0 var(--space-3);
+    min-height: 0;
+    padding-block: var(--space-3) var(--space-1);
+  }
+  .brand {
+    font-size: 1.125rem;
+  }
+  .main-nav {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    gap: var(--space-6);
+  }
+}

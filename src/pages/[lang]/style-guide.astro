@@ -10,7 +10,7 @@ const vi = lang === "vi";
 
 <Layout lang={lang} title={ui[lang].styleGuide} path="style-guide/" noindex>
   <header class="page-heading">
-    <p class="eyebrow">Toward Less</p>
+    <p class="label">Toward Less</p>
     <h1>{ui[lang].styleGuide}</h1>
     <p>{ui[lang].styleDescription}</p>
   </header>
@@ -67,11 +67,11 @@ const vi = lang === "vi";
     <p>
       {
         vi
-          ? "Thẻ chủ đề dạng viên thuốc, nút bấm sắc cạnh, và dấu hoa văn tay ở cuối bài viết."
-          : "Pill tags, sharp buttons, and the hand-made mark that closes an article."
+          ? "Chủ đề dạng chữ, nút bấm bo tròn như viên thuốc, và dấu hoa văn tay ở cuối bài viết. Giấy vuông, nút tròn."
+          : "Text tags, capsule buttons, and the hand-made mark that closes an article. Paper is square; controls are round."
       }
     </p>
-    <div class="tags" style="margin-bottom: 1.5rem;">
+    <div class="tags" style="margin-bottom: 1.5rem;" data-sample>
       <a href="#components">Technology</a><a href="#components">Life</a><a href="#components"
         >Practice</a
       >

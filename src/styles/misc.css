@@ -1,0 +1,94 @@
+/* Search, colophon swatches, and print. */
+#search {
+  --pagefind-ui-scale: 1;
+  --pagefind-ui-primary: var(--accent);
+  --pagefind-ui-text: var(--ink);
+  --pagefind-ui-background: var(--paper);
+  --pagefind-ui-border: var(--rule);
+  --pagefind-ui-tag: var(--fill);
+  --pagefind-ui-border-width: 1px;
+  --pagefind-ui-border-radius: 12px;
+  --pagefind-ui-font: var(--ui);
+  padding-bottom: var(--space-8);
+}
+.pagefind-ui__search-input {
+  font-weight: var(--weight-regular) !important;
+}
+.pagefind-ui__result-title {
+  font-family: var(--reading);
+}
+.pagefind-ui__result-excerpt {
+  line-height: 1.7 !important;
+}
+.pagefind-ui__search-clear {
+  min-width: var(--target);
+  min-height: var(--target);
+}
+
+/* Colophon and style-guide swatches: square paper chips with a label. */
+.swatches {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+  gap: var(--space-4);
+  margin-block: 2em;
+}
+.swatch {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 7rem;
+  padding: var(--space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-paper);
+  font-family: var(--ui);
+  font-size: var(--type-caption);
+  line-height: 1.5;
+}
+
+@media print {
+  body {
+    background: #fff;
+    color: #000;
+  }
+  .masthead,
+  .site-footer,
+  .toc,
+  .article-end,
+  .reader-controls,
+  .skip-link,
+  .reading-progress {
+    display: none;
+  }
+  .shell {
+    width: 100%;
+    max-width: 100%;
+  }
+  .article-header,
+  .entry,
+  .section-heading {
+    display: block;
+    margin-inline-start: 0;
+  }
+  .prose {
+    font-size: 11pt;
+  }
+  a {
+    color: inherit;
+  }
+  .prose a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    word-break: break-all;
+  }
+  .article-header {
+    padding-top: 0;
+  }
+  .prose aside.sidenote {
+    float: none;
+    width: auto;
+    margin-inline-start: 0;
+  }
+  pre {
+    white-space: pre-wrap;
+  }
+}

@@ -30,10 +30,20 @@ const alternateMap = new Map(alternates.map((alternate) => [alternate.lang, alte
     <div class="header-tools">
       <details class="language-menu">
         <summary
+          class="control"
           aria-label={`${t.languageMenu}: ${languageNames[lang]}`}
           title={languageNames[lang]}
         >
           {lang.toUpperCase()}
+          <svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"
+            ><path
+              d="M2 3.5 5 6.5 8 3.5"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"></path></svg
+          >
         </summary>
         <nav aria-label={t.languageMenu}>
           {
@@ -62,7 +72,7 @@ const alternateMap = new Map(alternates.map((alternate) => [alternate.lang, alte
       </details>
       <button
         id="theme-toggle"
-        class="theme-toggle"
+        class="control theme-toggle"
         type="button"
         hidden
         aria-label={t.theme}
@@ -72,7 +82,7 @@ const alternateMap = new Map(alternates.map((alternate) => [alternate.lang, alte
         data-sepia={t.themeSepia}
         data-dark={t.themeDark}
       >
-        <svg width="17" height="17" viewBox="0 0 20 20" aria-hidden="true"
+        <svg width="16" height="16" viewBox="0 0 20 20" aria-hidden="true"
           ><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="1.5"
           ></circle><path d="M10 3a7 7 0 0 1 0 14Z" fill="currentColor"></path></svg
         >

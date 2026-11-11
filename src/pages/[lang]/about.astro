@@ -13,7 +13,7 @@ const copy = aboutCopy[lang];
 <Layout lang={lang} title={t.about} description={t.aboutDescription} path="about/" section="about">
   <article data-pagefind-body>
     <header class="page-heading">
-      <p class="eyebrow" data-pagefind-ignore>{t.about} · {AUTHOR}</p>
+      <p class="label" data-pagefind-ignore>{t.about} · {AUTHOR}</p>
       <h1 data-pagefind-meta="title">{t.aboutTitle}</h1>
     </header>
     <div class="prose">
@@ -21,7 +21,8 @@ const copy = aboutCopy[lang];
       <p>{copy.purpose}</p>
       <p>{copy.translationNote}</p>
       <p data-pagefind-ignore>
-        <a href={localePath(lang, "posts/")}>{copy.browse}</a> {copy.follow}{" "}
+        <a href={localePath(lang, "posts/")}>{copy.browse}</a>
+        {copy.follow}{" "}
         <a href={localePath(lang, "rss.xml")}>RSS</a>.
       </p>
     </div>

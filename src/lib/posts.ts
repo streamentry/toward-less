@@ -44,3 +44,17 @@ export const readingMinutes = (post: Post) => {
   }
   return Math.max(1, Math.ceil(body.split(/\s+/).length / (lang === "vi" ? 320 : 220)));
 };
+
+/**
+ * Entry numbers are real: the oldest published post in a language is 1.
+ * Shown as a notebook index ("014"); decorative, so templates hide it from
+ * assistive technology.
+ */
+export async function entryNumbers(lang: Lang): Promise<Map<string, string>> {
+  const posts = await getPosts(lang);
+  const format = new Intl.NumberFormat(languageTags[lang], {
+    minimumIntegerDigits: 3,
+    useGrouping: false,
+  });
+  return new Map(posts.map((post, index) => [post.id, format.format(posts.length - index)]));
+}

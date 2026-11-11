@@ -1,0 +1,171 @@
+/* Base elements, the grid primitives, and accessibility plumbing. */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--space-8);
+  scrollbar-width: thin;
+  scrollbar-color: var(--rule) transparent;
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+/* Cross-document view transitions: a quiet cross-fade between pages,
+   where supported. No script; reduced motion turns it off. */
+@view-transition {
+  navigation: auto;
+}
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: var(--duration);
+  animation-timing-function: var(--ease);
+}
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--ui);
+  font-size: var(--type-callout);
+  line-height: var(--leading-ui);
+  font-synthesis-weight: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+::selection {
+  background: var(--selection);
+  color: var(--ink);
+}
+a {
+  color: inherit;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+  text-decoration-color: var(--rule);
+  transition:
+    color var(--duration-fast) var(--ease),
+    background-color var(--duration-fast) var(--ease),
+    text-decoration-color var(--duration-fast) var(--ease);
+}
+a:hover {
+  text-decoration-color: currentColor;
+}
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+button {
+  transition:
+    color var(--duration-fast) var(--ease),
+    background-color var(--duration-fast) var(--ease),
+    transform var(--duration-instant) var(--ease);
+}
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+/* The focus ring is designed, not default: 2px accent, offset, and
+   following the shape of whatever it surrounds. */
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 3px;
+}
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--reading);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-heading);
+  letter-spacing: var(--track-heading);
+  text-wrap: balance;
+  overflow-wrap: break-word;
+  margin-top: 0;
+}
+p {
+  margin-top: 0;
+}
+time,
+.numeric {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Grid primitives ── */
+.shell {
+  width: min(calc(100% - 2 * var(--page-gutter)), var(--text-col));
+  margin-inline: auto;
+}
+#main {
+  min-height: 55vh;
+  padding-bottom: var(--space-section);
+  outline: none;
+}
+/* Anything marked .hang moves into the inline-start margin on wide
+   screens; below that it stays in the flow as an ordinary line. */
+@media (min-width: 72rem) {
+  .hang {
+    float: inline-start;
+    clear: inline-start;
+    width: var(--margin-col);
+    margin-inline-start: var(--hang);
+  }
+}
+
+/* ── Accessibility plumbing ── */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.skip-link {
+  position: fixed;
+  z-index: 100;
+  top: var(--space-4);
+  inset-inline-start: var(--space-4);
+  transform: translateY(-200%);
+  padding: var(--space-3) var(--space-6);
+  border-radius: var(--radius-capsule);
+  background: var(--ink);
+  color: var(--paper);
+  font-weight: var(--weight-medium);
+  text-decoration: none;
+}
+.skip-link:focus {
+  transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  @view-transition {
+    navigation: none;
+  }
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+@media (forced-colors: active) {
+  .control,
+  .button,
+  .segmented button {
+    border: 1px solid ButtonText;
+  }
+}

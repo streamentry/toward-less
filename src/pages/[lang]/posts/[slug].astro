@@ -2,7 +2,14 @@
 import { render } from "astro:content";
 import Layout from "../../../layouts/Layout.astro";
 import Mark from "../../../components/Mark.astro";
-import { getPosts, postPath, dateLabel, readingMinutes, type Post } from "../../../lib/posts";
+import {
+  getPosts,
+  postPath,
+  dateLabel,
+  readingMinutes,
+  entryNumbers,
+  type Post,
+} from "../../../lib/posts";
 import { ui, languageTags, localePath, tagLabel, type Lang } from "../../../i18n";
 import { AUTHOR } from "../../../site";
 interface Alternate {
@@ -20,6 +27,7 @@ const { post } = Astro.props as { post: Post };
 const { lang } = post.data;
 const t = ui[lang];
 const { Content, headings } = await render(post);
+const number = (await entryNumbers(lang)).get(post.id);
 const toc = headings.filter((heading) => heading.depth === 2).slice(0, 12);
 const alternates: Alternate[] = (await getPosts())
   .filter((item) => item.data.translationKey === post.data.translationKey)
@@ -82,36 +90,44 @@ const structuredData = {
       </div>
       <h1 data-pagefind-meta="title">{post.data.title}</h1>
       <p class="article-deck" data-pagefind-meta="description">{post.data.description}</p>
-      <div class="post-meta" data-pagefind-ignore>
-        <span>{post.data.author}</span><span aria-hidden="true">·</span><time
-          datetime={post.data.pubDatetime.toISOString()}
+      <div class="article-meta" data-pagefind-ignore>
+        {
+          number && (
+            <span class="entry-number" aria-hidden="true">
+              {number}
+            </span>
+          )
+        }
+        <span>{post.data.author}</span>
+        <time datetime={post.data.pubDatetime.toISOString()}
           >{dateLabel(post.data.pubDatetime, lang)}</time
-        ><span aria-hidden="true">·</span><span>{readingMinutes(post)} {t.minute}</span>
+        >
+        <span>{readingMinutes(post)} {t.minute}</span>
+        {
+          post.data.modDatetime && (
+            <p>
+              {t.updated}:{" "}
+              <time datetime={post.data.modDatetime.toISOString()}>
+                {dateLabel(post.data.modDatetime, lang)}
+              </time>
+            </p>
+          )
+        }
+        {
+          translated && (
+            <p>
+              {t.translated}:{" "}
+              <a
+                href={translated.href}
+                lang={languageTags[translated.lang]}
+                hreflang={languageTags[translated.lang]}
+              >
+                {ui[translated.lang].language}
+              </a>
+            </p>
+          )
+        }
       </div>
-      {
-        post.data.modDatetime && (
-          <p class="post-meta" data-pagefind-ignore>
-            {t.updated}:{" "}
-            <time datetime={post.data.modDatetime.toISOString()}>
-              {dateLabel(post.data.modDatetime, lang)}
-            </time>
-          </p>
-        )
-      }
-      {
-        translated && (
-          <p class="translation-note" data-pagefind-ignore>
-            {t.translated}:{" "}
-            <a
-              href={translated.href}
-              lang={languageTags[translated.lang]}
-              hreflang={languageTags[translated.lang]}
-            >
-              {ui[translated.lang].language}
-            </a>
-          </p>
-        )
-      }
     </header>
     {
       toc.length > 1 && (
@@ -133,12 +149,27 @@ const structuredData = {
   </article>
   <div class="article-mark" aria-hidden="true"><Mark /></div>
   <div class="reader-controls" data-pagefind-ignore>
-    <span class="reader-label">{t.textSize}</span>
-    <button type="button" data-reading="text-minus" aria-label={t.textSmaller}>A−</button>
-    <button type="button" data-reading="text-plus" aria-label={t.textLarger}>A+</button>
-    <span class="reader-label">{t.measure}</span>
-    <button type="button" data-reading="measure-minus" aria-label={t.measureNarrow}>−</button>
-    <button type="button" data-reading="measure-plus" aria-label={t.measureWide}>+</button>
+    <div class="segmented" role="group" aria-label={t.textSize}>
+      <span aria-hidden="true">{t.textSize}</span>
+      <button class="control" type="button" data-reading="text-minus" aria-label={t.textSmaller}
+        >A−</button
+      >
+      <button class="control" type="button" data-reading="text-plus" aria-label={t.textLarger}
+        >A+</button
+      >
+    </div>
+    <div class="segmented" role="group" aria-label={t.measure}>
+      <span aria-hidden="true">{t.measure}</span>
+      <button
+        class="control"
+        type="button"
+        data-reading="measure-minus"
+        aria-label={t.measureNarrow}>−</button
+      >
+      <button class="control" type="button" data-reading="measure-plus" aria-label={t.measureWide}
+        >+</button
+      >
+    </div>
   </div>
   <nav class="article-end" aria-label={t.afterArticle}>
     <a href={localePath(lang, "posts/")}>← {t.back}</a><a href={localePath(lang, "rss.xml")}
@@ -149,7 +180,7 @@ const structuredData = {
     (() => {
       const toc = document.querySelector("details.toc");
       if (!toc) return;
-      const wide = window.matchMedia("(min-width: 75rem)");
+      const wide = window.matchMedia("(min-width: 72rem)");
       // On wide screens the table of contents is a rail in the margin:
       // open it there, close it again when the viewport narrows.
       const syncOpen = () => {
