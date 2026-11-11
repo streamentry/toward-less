@@ -1,19 +1,29 @@
 ---
 title: "CGNAT-এর পেছনে থাকা বাড়ির সার্ভার পর্যবেক্ষণ"
-description: "ClawPing ইনবাউন্ড পোর্ট না খুলে বাইরে পাঠানো heartbeat দিয়ে বাড়ির সার্ভার পর্যবেক্ষণ করে।"
+description: "CGNAT-এর পেছনে থাকা ঘরের সার্ভার ClawPing কীভাবে নজরে রাখে, এবং এতে কী নেই।"
 lang: bn
 slug: clawping-home-server-monitor-bn
 translationKey: clawping-home-server-monitor-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
+modDatetime: 2026-11-11T16:10:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
+ClawPing বাইরে পাঠানো HTTPS heartbeat দিয়ে CGNAT-এর পেছনের ঘরের সার্ভার পর্যবেক্ষণ করে। ছোট Go agent Cloudflare control plane-এ পরীক্ষার ফল পাঠায়, তাই সার্ভারে inbound port খুলতে হয় না।
 
-CGNAT-এর পেছনে থাকা বাড়ির সার্ভারে বাইরে থেকে uptime checker পৌঁছাতে পারে না। [ClawPing](https://github.com/cschanhniem/clawping) সংযোগের দিক উল্টে দেয়: বাড়িতে চলা ছোট Go agent HTTPS দিয়ে Cloudflare-এর control plane-এ heartbeat পাঠায়।
+## কী পরীক্ষা করে
 
-Agent ডিস্কের ব্যবহার, HTTP endpoint, Docker container এবং backup কতটা নতুন তা পরীক্ষা করে। কোনো পরীক্ষা ব্যর্থ হলে বা ডিভাইস রিপোর্ট পাঠানো বন্ধ করলে control plane ঘটনা নথিবদ্ধ করে Telegram-এ সতর্কবার্তা পাঠায়। ইনবাউন্ড পোর্ট খুলতে, dynamic DNS বসাতে বা আলাদা monitoring VPS চালাতে হয় না।
+- ডিস্কের ব্যবহার ও HTTP endpoint
+- Docker container-এর অবস্থা
+- ব্যাকআপ কতটা নতুন
 
-এর কাজ সীমিত ও স্পষ্ট: homelab মালিককে জানানো যে কিছু বন্ধ হয়েছে, কিন্তু বাড়ির নেটওয়ার্ককে বাইরে থেকে সংযোগযোগ্য না করা। README-তে এটাও বলা আছে যে এতে SNMP, log aggregation, Grafana-ধরনের metric dashboard বা বড় server fleet monitoring নেই। NAS, mini PC বা বাড়ির সার্ভারের জন্য এটি ছোট একটি সরঞ্জাম, পূর্ণ observability platform নয়।
+কোনো পরীক্ষা ব্যর্থ হলে বা ডিভাইসের রিপোর্ট বন্ধ হলে control plane ঘটনা নথিবদ্ধ করে এবং Telegram alert পাঠায়।
 
-[প্রকল্পের README পড়ুন](https://github.com/cschanhniem/clawping)।
+## পরিসর ও সীমা
+
+README অনুযায়ী এটি NAS, mini PC বা ঘরের সার্ভারের জন্য। ClawPing-এ SNMP, log aggregation, Grafana-ধাঁচের metrics বা বড় server fleet monitoring নেই। এটি সীমিত uptime monitor; পূর্ণ observability platform বা network security boundary নয়।
+
+## সূত্র
+
+[ClawPing README](https://github.com/cschanhniem/clawping#readme), ১১ নভেম্বর ২০২৬-এ যাচাই করা।

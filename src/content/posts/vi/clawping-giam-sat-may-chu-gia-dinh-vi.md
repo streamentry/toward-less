@@ -1,19 +1,29 @@
 ---
 title: "Giám sát máy chủ gia đình sau CGNAT"
-description: "ClawPing dùng heartbeat gửi ra ngoài để giám sát máy chủ gia đình mà không mở cổng kết nối vào."
+description: "ClawPing giám sát máy chủ gia đình sau CGNAT như thế nào và công cụ này không bao gồm những gì."
 lang: vi
 slug: clawping-giam-sat-may-chu-gia-dinh-vi
 translationKey: clawping-home-server-monitor-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
+modDatetime: 2026-11-11T16:10:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
+ClawPing giám sát máy chủ gia đình sau CGNAT bằng heartbeat HTTPS gửi ra ngoài. Một agent Go nhỏ gửi các kết quả kiểm tra đến control plane trên Cloudflare, nên máy chủ gia đình không cần mở cổng vào.
 
-Máy chủ gia đình nằm sau CGNAT thường khó để dịch vụ giám sát bên ngoài kết nối tới. [ClawPing](https://github.com/cschanhniem/clawping) đảo chiều kết nối: một agent Go nhỏ chạy tại nhà gửi heartbeat HTTPS ra ngoài đến control plane trên Cloudflare.
+## Công cụ kiểm tra gì?
 
-Agent kiểm tra dung lượng đĩa, các địa chỉ HTTP, container Docker và độ mới của bản sao lưu. Control plane theo dõi sự cố và gửi cảnh báo qua Telegram khi một kiểm tra thất bại hoặc thiết bị ngừng báo về. Cách này không cần mở cổng vào, dùng dynamic DNS hay duy trì một VPS riêng để giám sát.
+- Mức sử dụng đĩa và endpoint HTTP
+- Tình trạng container Docker
+- Bản sao lưu có còn mới hay không
 
-Điểm đáng chú ý là phạm vi hẹp: báo cho chủ homelab biết khi có thứ hỏng mà không biến mạng gia đình thành nơi người ngoài có thể kết nối. README cũng nói rõ những gì công cụ chưa làm: SNMP, thu thập log, bảng metrics kiểu Grafana hay giám sát đội máy lớn. Đây là công cụ quy mô nhỏ cho NAS, mini PC hoặc máy chủ tại nhà, không phải nền tảng observability đầy đủ.
+Control plane theo dõi sự cố và gửi cảnh báo Telegram khi một phép kiểm tra thất bại hoặc thiết bị ngừng báo về.
 
-[Đọc README của dự án](https://github.com/cschanhniem/clawping).
+## Phạm vi và giới hạn
+
+README hướng đến NAS, mini PC hoặc máy chủ gia đình. ClawPing không có SNMP, tổng hợp log, chỉ số kiểu Grafana hay giám sát đội máy chủ lớn. Đây là công cụ kiểm tra tình trạng hoạt động hẹp, không phải nền tảng observability đầy đủ hay ranh giới bảo mật mạng.
+
+## Nguồn
+
+[README ClawPing](https://github.com/cschanhniem/clawping#readme), kiểm tra ngày 11 tháng 11 năm 2026.

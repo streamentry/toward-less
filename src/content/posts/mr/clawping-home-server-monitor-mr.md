@@ -1,19 +1,29 @@
 ---
 title: "CGNAT मागे असलेल्या घरच्या सर्व्हरवर लक्ष ठेवणे"
-description: "ClawPing इनबाउंड पोर्ट न उघडता बाहेर पाठवलेल्या heartbeat द्वारे घरच्या सर्व्हरचे निरीक्षण करते."
+description: "ClawPing CGNAT मागील घरगुती सर्व्हर कसा तपासतो आणि त्यात काय नाही."
 lang: mr
 slug: clawping-home-server-monitor-mr
 translationKey: clawping-home-server-monitor-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
+modDatetime: 2026-11-11T16:10:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
+ClawPing बाहेर जाणाऱ्या HTTPS heartbeat द्वारे CGNAT मागील घरगुती सर्व्हर तपासतो. एक छोटा Go agent तपासणीचे निकाल Cloudflare control plane ला पाठवतो, त्यामुळे सर्व्हरवर inbound port उघडण्याची गरज नसते.
 
-CGNAT मागे असलेल्या घरच्या सर्व्हरपर्यंत बाहेरील uptime checker ला पोहोचणे कठीण असते. [ClawPing](https://github.com/cschanhniem/clawping) जोडणीची दिशा उलटते: घरात चालणारा छोटा Go agent HTTPS द्वारे Cloudflare वरील control plane कडे heartbeat पाठवतो.
+## ते काय तपासते
 
-Agent डिस्कचा वापर, HTTP endpoints, Docker containers आणि backup किती ताजा आहे हे तपासतो. एखादी तपासणी अयशस्वी झाली किंवा device कडून अहवाल येणे थांबले तर control plane घटना नोंदवून Telegram वर सूचना पाठवतो. इनबाउंड port उघडणे, dynamic DNS लावणे किंवा वेगळा monitoring VPS सांभाळणे गरजेचे नाही.
+- डिस्कचा वापर आणि HTTP endpoints
+- Docker containers ची स्थिती
+- बॅकअप किती नवीन आहे
 
-याचे काम मर्यादित आणि स्पष्ट आहे: घरचे नेटवर्क बाहेरून उघडे न करता homelab मध्ये काही बिघडल्यास मालकाला कळवणे. README मध्ये SNMP, log aggregation, Grafanaसारखे metrics dashboard किंवा मोठ्या server fleet चे monitoring नसल्याचेही स्पष्ट आहे. हे NAS, mini PC किंवा घरच्या server साठीचे साधन आहे; पूर्ण observability platform नाही.
+तपासणी अयशस्वी झाली किंवा उपकरणाकडून अहवाल येणे थांबले तर control plane घटना नोंदवतो आणि Telegram सूचना पाठवतो.
 
-[GitHub वर प्रकल्पाचे README पाहा](https://github.com/cschanhniem/clawping).
+## व्याप्ती आणि मर्यादा
+
+README नुसार हे NAS, mini PC किंवा घरगुती सर्व्हरसाठी आहे. ClawPing मध्ये SNMP, log aggregation, Grafana-शैलीचे metrics किंवा मोठ्या server fleet चे monitoring नाही. हे मर्यादित uptime monitor आहे; पूर्ण observability platform किंवा network security boundary नाही.
+
+## स्रोत
+
+[ClawPing README](https://github.com/cschanhniem/clawping#readme), 11 November 2026 रोजी तपासले.

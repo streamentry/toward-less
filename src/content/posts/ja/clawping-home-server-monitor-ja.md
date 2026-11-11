@@ -1,19 +1,29 @@
 ---
 title: "CGNATの内側にある自宅サーバーを監視する"
-description: "ClawPingは外向きのheartbeatで自宅サーバーを監視し、受信ポートを開けません。"
+description: "ClawPingがCGNATの内側にある家庭用サーバーをどう監視し、何を扱わないか。"
 lang: ja
 slug: clawping-home-server-monitor-ja
 translationKey: clawping-home-server-monitor-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
+modDatetime: 2026-11-11T16:10:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
+ClawPingは外向きのHTTPSハートビートを使い、CGNATの内側にある家庭用サーバーを監視する。小さなGoエージェントがCloudflareのコントロールプレーンへ検査結果を送るため、サーバーで受信用ポートを開く必要はない。
 
-CGNATの内側にある自宅サーバーには、外部の稼働監視サービスから接続しにくいものです。[ClawPing](https://github.com/cschanhniem/clawping)は接続の向きを逆にし、自宅で動く小さなGoエージェントがCloudflare上の制御プレーンへHTTPSでheartbeatを送ります。
+## 確認する項目
 
-エージェントはディスク使用量、HTTPエンドポイント、Dockerコンテナ、バックアップの新しさを確認します。チェックが失敗したり、デバイスからの報告が止まったりすると、制御プレーンがインシデントを記録しTelegramで通知します。受信ポートの開放、動的DNS、別の監視用VPSは不要です。
+- ディスク使用量とHTTPエンドポイント
+- Dockerコンテナの状態
+- バックアップが新しいかどうか
 
-役割は限定的です。自宅ネットワークを外部から接続可能にせず、ホームサーバーで問題が起きたときに知らせます。READMEには、SNMP、ログ集約、Grafanaのようなメトリクス画面、大規模なサーバー群の監視は対象外とあります。NAS、ミニPC、自宅サーバー向けの小さなツールであり、総合監視基盤ではありません。
+検査に失敗したり端末からの報告が止まったりすると、コントロールプレーンがインシデントを記録し、Telegramで通知する。
 
-[プロジェクトのREADMEを読む](https://github.com/cschanhniem/clawping)。
+## 対象範囲と限界
+
+READMEではNAS、ミニPC、家庭用サーバーを想定している。ClawPingはSNMP、ログ集約、Grafanaのようなメトリクス、大規模なサーバー群の監視には対応しない。対象を絞った稼働監視ツールであり、完全なオブザーバビリティ基盤でもネットワークのセキュリティ境界でもない。
+
+## 出典
+
+[ClawPing README](https://github.com/cschanhniem/clawping#readme)、2026年11月11日確認。

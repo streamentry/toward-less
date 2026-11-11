@@ -1,19 +1,29 @@
 ---
 title: "Memantau server rumahan di balik CGNAT"
-description: "ClawPing memantau server rumahan melalui heartbeat keluar tanpa membuka port masuk."
+description: "Cara ClawPing memantau server rumahan di balik CGNAT dan hal-hal yang tidak dicakupnya."
 lang: id
 slug: clawping-home-server-monitor-id
 translationKey: clawping-home-server-monitor-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
+modDatetime: 2026-11-11T16:10:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
+ClawPing memantau server rumahan di balik CGNAT melalui heartbeat HTTPS keluar. Agen Go kecil mengirim hasil pemeriksaan ke control plane Cloudflare, sehingga server tidak perlu membuka port masuk.
 
-Server rumahan di balik CGNAT sulit dijangkau oleh pemantau uptime dari luar. [ClawPing](https://github.com/cschanhniem/clawping) membalik arah koneksi: agent Go kecil di rumah mengirim heartbeat HTTPS ke control plane di Cloudflare.
+## Yang diperiksa
 
-Agent memeriksa penggunaan disk, endpoint HTTP, kontainer Docker, dan kebaruan cadangan. Control plane mencatat insiden dan mengirim peringatan Telegram ketika pemeriksaan gagal atau perangkat berhenti melapor. Tidak perlu membuka port masuk, mengatur DNS dinamis, atau merawat VPS pemantauan terpisah.
+- Penggunaan disk dan endpoint HTTP
+- Kesehatan container Docker
+- Apakah cadangan masih baru
 
-Ruang lingkupnya sengaja terbatas: memberi tahu pemilik homelab saat ada yang rusak tanpa membuat jaringan rumah dapat diakses dari luar. README juga menyebut hal yang belum dicakup: SNMP, agregasi log, dasbor metrik seperti Grafana, dan pemantauan armada besar. Ini alat kecil untuk NAS, mini PC, atau server rumah, bukan platform observabilitas lengkap.
+Control plane mencatat insiden dan mengirim peringatan Telegram ketika pemeriksaan gagal atau perangkat berhenti melapor.
 
-[Baca README proyek](https://github.com/cschanhniem/clawping).
+## Cakupan dan batas
+
+README menujukannya untuk NAS, mini PC, atau server rumahan. ClawPing tidak menyediakan SNMP, agregasi log, metrik seperti Grafana, atau pemantauan armada besar. Ini monitor uptime dengan cakupan sempit, bukan platform observabilitas lengkap atau batas keamanan jaringan.
+
+## Sumber
+
+[README ClawPing](https://github.com/cschanhniem/clawping#readme), diperiksa pada 11 November 2026.

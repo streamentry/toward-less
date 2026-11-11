@@ -1,19 +1,29 @@
 ---
 title: "Monitoring a home server from behind CGNAT"
-description: "ClawPing uses outbound heartbeats to monitor home servers without opening inbound ports."
+description: "How ClawPing monitors a home server behind CGNAT, and what the tool leaves out."
 lang: en
 slug: clawping-home-server-monitor-en
 translationKey: clawping-home-server-monitor-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
+modDatetime: 2026-11-11T16:10:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
+ClawPing monitors a home server behind CGNAT through outbound HTTPS heartbeats. A small Go agent sends checks to a Cloudflare control plane, so the home server needs no inbound port.
 
-A home server behind CGNAT is hard for an outside uptime checker to reach. [ClawPing](https://github.com/cschanhniem/clawping) reverses the connection: a small local Go agent sends outbound HTTPS heartbeats to a control plane on Cloudflare.
+## What it checks
 
-The agent checks disk use, HTTP endpoints, Docker containers, and whether backups are fresh. The control plane tracks incidents and sends Telegram alerts when a check fails or a device stops reporting. The setup does not require an inbound port, dynamic DNS, or a separate monitoring VPS.
+- Disk usage and HTTP endpoints
+- Docker container health
+- Whether backups are fresh
 
-The appeal is its narrow job: tell a homelab owner when something breaks without making the home network reachable from outside. The README is clear about what it leaves out: SNMP, log aggregation, Grafana-style metrics, and large fleet monitoring. It is a prototype-scale tool for a NAS, mini PC, or home server, not a full observability platform.
+The control plane tracks incidents and sends Telegram alerts when a check fails or a device stops reporting.
 
-[Read the project README](https://github.com/cschanhniem/clawping).
+## Scope and limits
+
+The README targets a NAS, mini PC, or home server. ClawPing does not provide SNMP, log aggregation, Grafana-style metrics, or large-fleet monitoring. It is a narrow uptime monitor, not a full observability platform or network security boundary.
+
+## Source
+
+[ClawPing README](https://github.com/cschanhniem/clawping#readme), checked November 11, 2026.
