@@ -1,34 +1,28 @@
 ---
 title: "Bốn Mươi Lăm Phần Trăm, Trên Lý Thuyết"
-description: "David Sinclair đăng rằng 45 phần trăm các ca sa sút trí tuệ có thể phòng ngừa được bằng cách xử lý 14 yếu tố lối sống. Con số là thật — báo cáo 2024 của Ủy ban Lancet — và đó là con số lạc quan nhất trong nghiên cứu về sa sút trí tuệ. Nhưng cụm 'có thể phòng ngừa' đang gánh một công việc thầm lặng, và một nửa danh sách hoàn toàn không phải là lối sống."
+description: "Con số 45,3% của Lancet là mô hình ở cấp dân số, không phải xác suất của một cá nhân. Nhiều yếu tố còn phụ thuộc vào dịch vụ và chính sách công."
 author: "C.S Chánh Niệm"
 lang: vi
 slug: bon-muoi-lam-phan-tram-tren-ly-thuyet-vi
 translationKey: lancet-14-factors-2026
 pubDatetime: 2026-11-10T06:17:00+07:00
+modDatetime: 2026-11-11T10:58:00+07:00
 draft: false
 featured: false
 tags: [life]
 ---
 
-"~45% các ca sa sút trí tuệ có thể được phòng ngừa hoặc trì hoãn bằng cách xử lý 14 yếu tố lối sống."
+Ủy ban Lancet năm 2024 ước tính phần quy thuộc trong dân số đã điều chỉnh chồng lấn là 45,3% cho 14 yếu tố nguy cơ sa sút trí tuệ có thể thay đổi. Báo cáo nói rằng về lý thuyết có thể ngăn ngừa hoặc trì hoãn phần này nếu loại bỏ các nguy cơ đó. Đây là mô hình dân số, không phải xác suất của một cá nhân.
 
-Con số là thật, và nó đến từ nguồn tốt nhất trong lĩnh vực này. Ủy ban Lancet về phòng ngừa, can thiệp và chăm sóc sa sút trí tuệ — một hội đồng thường trực gồm các nhà nghiên cứu hàng đầu do Gill Livingston dẫn đầu — đã công bố báo cáo 2024 trên The Lancet (tập 404, trang 572–628). Báo cáo ước tính khoảng 45 phần trăm các ca sa sút trí tuệ trên toàn thế giới có thể, trên lý thuyết, được phòng ngừa hoặc trì hoãn bằng cách xử lý 14 yếu tố nguy cơ có thể thay đổi được trong suốt cuộc đời. Báo cáo 2020 liệt kê 12 yếu tố và đưa ra con số khoảng 40 phần trăm. Bản cập nhật 2024 bổ sung thêm hai yếu tố: mất thị lực chưa được điều trị và cholesterol LDL cao. Danh sách của Sinclair khớp chính xác với báo cáo: giáo dục, mất thính lực, huyết áp, hút thuốc, béo phì, trầm cảm, ít vận động, tiểu đường, uống rượu, chấn thương não, ô nhiễm, cô lập, LDL và mất thị lực.
+- **Đầu đời:** ít cơ hội học tập.
+- **Trung niên:** mất thính lực, LDL cao, trầm cảm, chấn thương đầu, ít vận động, tiểu đường, hút thuốc, tăng huyết áp, béo phì và uống quá nhiều rượu.
+- **Tuổi già:** cô lập xã hội, ô nhiễm không khí và suy giảm thị lực chưa được điều trị.
 
-Danh sách được sắp xếp theo thời điểm trong đời mà mỗi yếu tố quan trọng nhất, và thời điểm đó chính là một phần của thông điệp. Đầu đời: học vấn thấp. Tuổi trung niên: mất thính lực, cholesterol LDL cao, trầm cảm, chấn thương sọ não, ít vận động thể chất, tiểu đường, hút thuốc, tăng huyết áp, béo phì, uống rượu quá mức. Tuổi già: cô lập xã hội, ô nhiễm không khí, mất thị lực chưa được điều trị. Tuổi trung niên là nơi tập trung phần lớn tác động — mười trong mười bốn yếu tố. Những yếu tố đóng góp lớn nhất là mất thính lực, khoảng 7 phần trăm các ca có thể quy cho, và cholesterol LDL cao, khoảng 7 phần trăm. Mất thị lực chưa được điều trị, yếu tố mới nhất, chiếm khoảng 2 phần trăm.
+Báo cáo năm 2024 thêm LDL cao và suy giảm thị lực chưa điều trị vào 12 yếu tố của năm 2020. Mô hình điều chỉnh sự chồng lấn giữa các nguy cơ nhưng giả định có quan hệ nhân quả. Ủy ban lưu ý ước tính có thể cao hoặc thấp hơn thực tế; con số này không bảo đảm một cá nhân tránh được bệnh.
 
-Dưới đây là những điều cần chỉnh lại, và chúng bắt đầu từ hai từ mà bài đăng đặt trước con số.
+Nhiều yếu tố còn phụ thuộc vào giáo dục, khả năng tiếp cận y tế, điều kiện sống và chính sách công, không chỉ thói quen cá nhân. Hãy xem 45,3% là lý do để hỗ trợ phòng ngừa suốt đời, không phải lời hứa hay đơn thuốc cho từng người.
 
-Thứ nhất, "có thể phòng ngừa" là một phân số có thể quy cho trong quần thể, và một phân số có thể quy cho trong quần thể là một giới hạn trên, không phải một dự báo. Con số 45 phần trăm — 45,3 phần trăm, có trọng số, trong Bảng 1 của báo cáo — mô tả điều có thể xảy ra nếu mọi yếu tố trong 14 yếu tố được loại bỏ hoàn toàn khỏi toàn bộ quần thể. Không xã hội nào có thể đạt được điều đó hoàn toàn. Không ai được bảo đảm 45 phần trăm, và không cá nhân nào có thể chuyển con số của quần thể thành xác suất cá nhân. Cách đọc trung thực là: gần một nửa số ca sa sút trí tuệ, trên lý thuyết, có thể thay đổi được. Cụm "trên lý thuyết" đang gánh phần việc đó.
+## Nguồn
 
-Thứ hai, các yếu tố không độc lập với nhau, và phép tính che giấu điều đó. Tăng huyết áp, LDL cao, tiểu đường và béo phì tụ lại thành một gói tim mạch — cùng một người thường mang nhiều yếu tố cùng lúc, và cùng một can thiệp (tập thể dục, ăn uống, thuốc men) xử lý nhiều yếu tố cùng một lúc. Mô hình của Ủy ban có tính đến một phần sự chồng chéo này trong cách tính trọng số, nhưng danh sách, khi đọc như mười bốn đòn bẩy riêng biệt, đã phóng đại mức độ tách rời của chúng. Sửa một yếu tố thường đồng nghĩa với sửa nhiều yếu tố, và đó là tin tốt. Nó cũng có nghĩa là danh sách này không phải là mười bốn cơ hội độc lập để phòng ngừa sa sút trí tuệ. Nó gần hơn với một vài yếu tố đan xen vào nhau.
-
-Thứ ba, gọi chúng là "yếu tố lối sống" là mô tả sai một nửa danh sách. Giáo dục không phải là một lựa chọn lối sống; đó là vấn đề của trường học, tuổi thơ và chính sách. Mất thính lực và mất thị lực là vấn đề của khả năng tiếp cận chăm sóc sức khỏe — máy trợ thính có tồn tại, có hiệu quả, và ít được sử dụng, nhưng chúng tốn tiền và mang theo sự kỳ thị. Ô nhiễm không khí là vấn đề của nơi bạn sống và thứ bạn hít thở. Chấn thương sọ não là vấn đề của tai nạn, thể thao và bạo lực. Chỉ một số trong mười bốn yếu tố — hút thuốc, uống rượu, tập thể dục, cân nặng — là những điều một cá nhân lựa chọn theo nghĩa thông thường. Phần còn lại là những điều xã hội cung cấp hoặc không cung cấp. Từ "lối sống" lặng lẽ chuyển gánh nặng từ hệ thống sang cá nhân, và người đọc danh sách này ở tuổi sáu mươi, người đã rời trường năm mười sáu tuổi và sống bên cạnh một xa lộ, không thể sửa hầu hết những điều đó chỉ bằng cách cố gắng hơn.
-
-Thứ tư, yếu tố bị đánh giá thấp nhất trong danh sách lại là yếu tố đứng đầu về con số. Mất thính lực, khoảng 7 phần trăm, là yếu tố có thể thay đổi được đóng góp lớn nhất — và bị bỏ quên nhiều nhất. Máy trợ thính nằm trong số những can thiệp hiệu quả nhất mà ít được áp dụng nhất trong y học: người ta chờ đợi nhiều năm, đôi khi cả một thập kỷ, mới đeo một chiếc, và lý do là chi phí và sự kỳ thị. Nếu có một yếu tố trong danh sách này mà một quyết định duy nhất thay đổi tỷ lệ cược nhiều nhất, đó là đi kiểm tra thính lực và đeo máy trợ thính. Bài đăng liệt kê nó ở vị trí thứ hai, sau giáo dục, và không nói gì về nó. Báo cáo nói nhiều hơn.
-
-Thứ năm, bài đăng không phải là mới. Nó được đăng vào ngày 11 tháng 12 năm 2025, chia sẻ lại một báo cáo từ tháng 7 năm 2024. Điều đó không làm cho nó sai — báo cáo 2024 vẫn là phát biểu mới nhất của Ủy ban, và con số vẫn còn nguyên giá trị. Nhưng việc chia sẻ lại có ý nghĩa đối với cách đọc nó: đây không phải là một phát hiện mới. Đây là một lời nhắc nhở, và là một lời nhắc nhở tốt, về một sự đồng thuận đã có hai năm để được hành động và phần lớn vẫn chưa được hành động.
-
-Danh sách vẫn đứng vững sau những chỉnh sửa, và đó là lý do nó đáng được giữ lại. Gần một nửa số ca sa sút trí tuệ, trên lý thuyết, có thể phòng ngừa được — không phải bằng một can thiệp duy nhất, không phải bằng ý chí, mà bằng cả một đời những điều nhỏ bé và một xã hội khiến chúng trở nên khả thi: trường học, máy trợ thính, kính mắt, không khí sạch, huyết áp được điều trị, cholesterol được hạ thấp, vận động, kết nối. Con số là một giới hạn trên. Công việc bên dưới nó là thật.
-
-*Lấy cảm hứng từ bài đăng trên X ["~45% of dementia cases could be prevented or delayed by addressing 14 lifestyle factors"](https://x.com/davidasinclair/status/1999134330052841971) của [David Sinclair (@davidasinclair)](https://x.com/davidasinclair/status/1999134330052841971). Bài đăng đã được xác minh vào ngày 10 tháng 11 năm 2026: 10:09 PM, 11 Dec 2025, 67.4K lượt xem. Báo cáo được liên kết là Livingston et al., "Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission," [The Lancet, 2024, 404:572–628](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01296-0/abstract), DOI 10.1016/S0140-6736(24)01296-0; phần tóm tắt đã được đọc đầy đủ và toàn văn yêu cầu đăng ký. Phân số có thể quy cho trong quần thể có trọng số là 45.3%; mất thính lực ~7%, cholesterol LDL cao ~7%, mất thị lực chưa được điều trị ~2%.*
+- David Sinclair (@davidasinclair), X post, 11 December 2025, [status 1999134330052841971](https://x.com/davidasinclair/status/1999134330052841971). Không tải lại được bài đăng trong lần sửa này; bài viết diễn giải nội dung đã lưu và không trích nguyên văn.
+- Gill Livingston et al., “Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission,” *The Lancet* 404, 572–628 (2024). [DOI](https://doi.org/10.1016/S0140-6736(24)01296-0); [accepted manuscript](https://api.repository.cam.ac.uk/server/api/core/bitstreams/28a9c76f-ca43-4ebf-ba4b-eddfe99c9442/content).

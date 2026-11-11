@@ -1,34 +1,28 @@
 ---
 title: "Quarenta e Cinco por Cento, em Princípio"
-description: "David Sinclair publica que 45 por cento dos casos de demência poderiam ser prevenidos ao abordar 14 fatores de estilo de vida. O número é real — o relatório de 2024 da Comissão Lancet — e é o número mais esperançoso da pesquisa sobre demência. Mas 'poderiam ser prevenidos' está fazendo um trabalho silencioso, e metade da lista não é estilo de vida."
+description: "Os 45,3% de Lancet são um modelo populacional, não a probabilidade de uma pessoa. Muitos fatores também dependem de acesso e políticas públicas."
 author: "C.S Chánh Niệm"
 lang: pt
 slug: quarenta-e-cinco-por-cento-em-principio-pt
 translationKey: lancet-14-factors-2026
 pubDatetime: 2026-11-10T06:17:00+07:00
+modDatetime: 2026-11-11T10:58:00+07:00
 draft: false
 featured: false
 tags: [life]
 ---
 
-"~45% dos casos de demência poderiam ser prevenidos ou adiados ao abordar 14 fatores de estilo de vida."
+A Comissão Lancet de 2024 estimou uma fração atribuível populacional ponderada de 45,3% para 14 fatores de risco de demência potencialmente modificáveis. O relatório diz que essa parcela poderia, em teoria, ser prevenida ou adiada se os riscos fossem eliminados. É um modelo populacional, não a probabilidade de uma pessoa.
 
-O número é real, e vem da melhor fonte da área. A Comissão Lancet sobre prevenção, intervenção e cuidado da demência — um painel permanente de pesquisadores de ponta liderado por Gill Livingston — publicou seu relatório de 2024 no The Lancet (volume 404, páginas 572–628). Ele estimou que cerca de 45 por cento dos casos de demência no mundo poderiam, em princípio, ser prevenidos ou adiados ao abordar 14 fatores de risco modificáveis ao longo da vida. O relatório de 2020 listava 12 fatores e colocava o número em cerca de 40 por cento. A atualização de 2024 acrescentou mais dois: perda de visão não tratada e colesterol LDL alto. A lista de Sinclair corresponde exatamente ao relatório: educação, perda auditiva, pressão arterial, tabagismo, obesidade, depressão, inatividade, diabetes, consumo de álcool, lesão cerebral, poluição, isolamento, LDL e perda de visão.
+- **Início da vida:** menor escolaridade.
+- **Meia-idade:** perda auditiva, LDL alto, depressão, traumatismo craniano, inatividade, diabetes, tabagismo, hipertensão, obesidade e álcool em excesso.
+- **Idade avançada:** isolamento social, poluição do ar e perda de visão não tratada.
 
-A lista é organizada pela fase da vida em que cada fator mais importa, e o momento faz parte do ponto. Início da vida: menos educação. Meia-idade: perda auditiva, colesterol LDL alto, depressão, lesão cerebral traumática, inatividade física, diabetes, tabagismo, hipertensão, obesidade, consumo excessivo de álcool. Vida tardia: isolamento social, poluição do ar, perda de visão não tratada. A meia-idade é onde está a maior parte da ação — dez dos quatorze fatores. Os maiores contribuintes individuais são a perda auditiva, com cerca de 7 por cento dos casos atribuíveis, e o colesterol LDL alto, com cerca de 7 por cento. A perda de visão não tratada, a adição mais recente, responde por cerca de 2 por cento.
+O relatório de 2024 acrescentou LDL alto e perda de visão não tratada aos 12 fatores de 2020. O modelo ajustou a sobreposição entre riscos, mas também presumiu relações causais. A Comissão diz que as estimativas podem estar altas ou baixas; o número não garante que alguém evite a demência.
 
-Aqui estão as correções, e elas começam com as duas palavras que a publicação coloca diante do número.
+Muitos fatores dependem de educação, acesso a cuidados, condições de vida e políticas públicas, não só de hábitos pessoais. Leia 45,3% como motivo para apoiar a prevenção ao longo da vida, não como promessa ou prescrição individual.
 
-Primeiro, "poderiam ser prevenidos" é uma fração atribuível populacional, e uma fração atribuível populacional é um teto, não uma previsão. Os 45 por cento — 45,3 por cento, ponderados, na Tabela 1 do relatório — descrevem o que poderia acontecer se cada um dos 14 fatores fosse completamente removido de toda a população. Nenhuma sociedade jamais conseguirá isso por completo. Ninguém recebe uma garantia de 45 por cento, e nenhum indivíduo pode converter o número populacional em uma probabilidade pessoal. A leitura honesta é: quase metade da demência é, em princípio, modificável. "Em princípio" é o que faz o trabalho.
+## Fontes
 
-Segundo, os fatores não são independentes, e a aritmética esconde isso. Hipertensão, LDL alto, diabetes e obesidade se agrupam como um pacote cardiovascular — a mesma pessoa frequentemente carrega vários ao mesmo tempo, e a mesma intervenção (exercício, dieta, medicação) aborda vários juntos. O modelo da Comissão leva em conta parte dessa sobreposição em sua ponderação, mas a lista, lida como quatorze alavancas separadas, exagera o quanto elas são separáveis. Corrigir uma frequentemente significa corrigir várias, o que é uma boa notícia. Também significa que a lista não são quatorze chances independentes de prevenir a demência. Está mais perto de um punhado de chances entrelaçadas.
-
-Terceiro, chamá-los de "fatores de estilo de vida" descreve mal metade da lista. Educação não é uma escolha de estilo de vida; é uma questão de escolaridade, infância e política. Perda auditiva e perda de visão são questões de acesso à saúde — aparelhos auditivos existem, são eficazes e são subutilizados, mas custam dinheiro e carregam estigma. A poluição do ar é uma questão de onde você mora e do que você respira. A lesão cerebral traumática é uma questão de acidentes, esportes e violência. Apenas alguns dos quatorze — fumar, beber, exercitar-se, peso — são coisas que um indivíduo escolhe no sentido comum. O resto são coisas que uma sociedade oferece ou deixa de oferecer. A palavra "estilo de vida" transfere silenciosamente o fardo do sistema para a pessoa, e a pessoa que lê a lista aos sessenta anos, que deixou a escola aos dezesseis e mora ao lado de uma rodovia, não pode corrigir a maior parte disso tentando com mais força.
-
-Quarto, o item mais subestimado da lista é o que está no topo dos números. A perda auditiva, com cerca de 7 por cento, é o maior contribuinte modificável individual — e o mais negligenciado. Os aparelhos auditivos estão entre as intervenções mais eficazes e menos adotadas da medicina: as pessoas esperam anos, às vezes uma década, antes de conseguir um, e o custo e o estigma são as razões. Se há um item nesta lista em que uma única decisão muda mais as probabilidades, é fazer um teste auditivo e usar o aparelho. A publicação o lista em segundo lugar, depois da educação, e não diz nada sobre ele. O relatório diz mais.
-
-Quinto, a publicação não é nova. Foi publicada em 11 de dezembro de 2025, republicando um relatório de julho de 2024. Isso não a torna errada — o relatório de 2024 continua sendo a palavra mais recente da Comissão, e o número continua atual. Mas a republicação importa para como lê-la: isto não é uma nova descoberta. É um lembrete, e um bom lembrete, de um consenso que já teve dois anos para ser posto em prática e, na maior parte, não foi.
-
-A lista sobrevive às suas correções, e é por isso que vale a pena mantê-la. Quase metade da demência é, em princípio, prevenível — não por uma única intervenção, não por força de vontade, mas por uma vida inteira de pequenas coisas e por uma sociedade que as torna possíveis: escolaridade, aparelhos auditivos, óculos, ar limpo, pressão arterial tratada, colesterol reduzido, movimento, conexão. O número é um teto. O trabalho por baixo dele é real.
-
-*Inspirado pela publicação no X ["~45% of dementia cases could be prevented or delayed by addressing 14 lifestyle factors"](https://x.com/davidasinclair/status/1999134330052841971) de [David Sinclair (@davidasinclair)](https://x.com/davidasinclair/status/1999134330052841971). A publicação foi verificada em 10 de novembro de 2026: 10:09 PM, 11 Dec 2025, 67.4K visualizações. O relatório vinculado é Livingston et al., "Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission," [The Lancet, 2024, 404:572–628](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01296-0/abstract), DOI 10.1016/S0140-6736(24)01296-0; o resumo foi lido integralmente e o texto completo exige registro. A fração atribuível populacional ponderada é de 45.3%; perda auditiva ~7%, colesterol LDL alto ~7%, perda de visão não tratada ~2%.*
+- David Sinclair (@davidasinclair), X post, 11 December 2025, [status 1999134330052841971](https://x.com/davidasinclair/status/1999134330052841971). O post não pôde ser recarregado nesta revisão; o artigo resume o texto salvo, sem citação direta.
+- Gill Livingston et al., “Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission,” *The Lancet* 404, 572–628 (2024). [DOI](https://doi.org/10.1016/S0140-6736(24)01296-0); [accepted manuscript](https://api.repository.cam.ac.uk/server/api/core/bitstreams/28a9c76f-ca43-4ebf-ba4b-eddfe99c9442/content).
