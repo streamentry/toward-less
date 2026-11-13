@@ -5,17 +5,20 @@ lang: ms
 slug: dba-public-esg-ms
 translationKey: dba-public-esg-thesis-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
+modDatetime: 2026-11-14T01:16:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-ESG sering dianggap mempunyai hubungan lurus: risiko ESG lebih rendah bermakna pulangan lebih baik. Tesis DBA _The U-Shaped ESG Performance Paradigm_ mengkaji sama ada hubungannya mungkin lebih rumit.
+Adakah risiko ESG yang lebih rendah sentiasa bermakna pulangan lebih tinggi? Disertasi DBA Le Viet Hong, _The U-Shaped ESG Performance Paradigm_ (Januari 2026), membandingkan 500 syarikat S&P 500 dari 2019 hingga 2024. Penarafan Sustainalytics yang dinormalisasi mengikut sektor menentukan kumpulan. Model dagangan LightGBM menggunakan harga, volum dan ciri teknikal; penarafan ESG bukan input model.
 
-Kajian membahagikan 500 syarikat S&P 500 dari 2019 hingga 2024 mengikut penarafan Sustainalytics yang dinormalisasi mengikut sektor. Model dagangan LightGBM menggunakan harga, volum dan ciri teknikal; penarafan ESG menentukan kumpulan dan bukan input langsung model.
+Disertasi melaporkan hasil backtest sejarah berikut:
 
-Dalam backtest yang dilaporkan, kumpulan berisiko tinggi mencatat pulangan terkumpul tertinggi, 240.35%. Kumpulan berisiko rendah memperoleh 142.75%, sedikit melebihi kumpulan sederhana pada 136.63%, serta mencatat susut nilai maksimum terkecil, 29.08%. Ini hasil satu simulasi sejarah, bukan ramalan atau peraturan memilih pelaburan.
+- Kumpulan berisiko tinggi: pulangan terkumpul 240.35%; susut nilai maksimum 33.81%.
+- Kumpulan berisiko sederhana: 136.63%; 32.52%.
+- Kumpulan berisiko rendah: 142.75%; 29.08%.
 
-Tesis mengemukakan “Premium Risiko Didorong Tadbir Urus” sebagai kemungkinan penjelasan, bukan sebab-akibat yang telah dibuktikan. Laman ini memaparkan soalan kajian, kaedah, hasil dan batasnya.
+Ini hasil daripada satu simulasi sejarah. Artikel ini tidak mengulang backtest itu secara bebas, jadi angka tersebut bukan ramalan atau peraturan pelaburan. Disertasi mencadangkan “Premium Risiko Didorong Tadbir Urus” sebagai kemungkinan penjelasan, bukan sebab yang telah dibuktikan.
 
-[Teroka laman tesis](https://streamentry.github.io/dba-public/) · [Lihat repositori](https://github.com/streamentry/dba-public).
+Sumber: [Le Viet Hong, _The U-Shaped ESG Performance Paradigm_ (disertasi DBA, Januari 2026), Lampiran E, Jadual E.2–E.4 dan E.7](https://streamentry.github.io/dba-public/downloads/LVH-20260317.pdf); [laman disertasi](https://streamentry.github.io/dba-public/); [repositori projek](https://github.com/streamentry/dba-public).

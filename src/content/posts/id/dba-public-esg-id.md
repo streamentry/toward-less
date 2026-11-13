@@ -5,17 +5,20 @@ lang: id
 slug: dba-public-esg-id
 translationKey: dba-public-esg-thesis-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
+modDatetime: 2026-11-14T01:16:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-ESG sering diperlakukan sebagai hubungan lurus: risiko ESG yang lebih rendah berarti imbal hasil lebih baik. Tesis DBA _The U-Shaped ESG Performance Paradigm_ menguji apakah hubungannya mungkin tidak sesederhana itu.
+Apakah risiko ESG yang lebih rendah selalu berarti imbal hasil lebih baik? Disertasi DBA Le Viet Hong, _The U-Shaped ESG Performance Paradigm_ (Januari 2026), membandingkan 500 perusahaan S&P 500 pada 2019–2024. Peringkat Sustainalytics yang dinormalisasi per sektor menentukan kelompok. Model perdagangan LightGBM menggunakan harga, volume, dan fitur teknikal; peringkat ESG tidak menjadi masukan model.
 
-Studi ini mengelompokkan 500 perusahaan S&P 500 pada 2019–2024 berdasarkan peringkat Sustainalytics yang dinormalisasi per sektor. Model perdagangan LightGBM memakai harga, volume, dan fitur teknikal; peringkat ESG menentukan kelompok, bukan menjadi masukan langsung model.
+Disertasi melaporkan hasil backtest historis berikut:
 
-Dalam backtest yang dilaporkan, kelompok berisiko tinggi mencatat imbal hasil kumulatif tertinggi, 240,35%. Kelompok berisiko rendah menghasilkan 142,75%, sedikit di atas kelompok menengah yang 136,63%, dan memiliki penurunan maksimum terkecil, 29,08%. Ini hasil satu simulasi historis, bukan ramalan atau aturan memilih investasi.
+- Kelompok berisiko tinggi: imbal hasil kumulatif 240,35%; penurunan maksimum 33,81%.
+- Kelompok berisiko menengah: 136,63%; 32,52%.
+- Kelompok berisiko rendah: 142,75%; 29,08%.
 
-Tesis mengusulkan “premi risiko yang didorong tata kelola” sebagai kemungkinan penjelasan, bukan sebab-akibat yang sudah terbukti. Situsnya memudahkan pembaca melihat pertanyaan, metode, hasil, dan batas penelitian.
+Ini hasil satu simulasi historis. Artikel ini tidak mereproduksi backtest secara independen, jadi angka tersebut bukan ramalan atau aturan investasi. Disertasi mengajukan “premi risiko yang didorong tata kelola” sebagai kemungkinan penjelasan, bukan sebab yang telah terbukti.
 
-[Lihat situs tesis](https://streamentry.github.io/dba-public/) · [Repositori GitHub](https://github.com/streamentry/dba-public).
+Sumber: [Le Viet Hong, _The U-Shaped ESG Performance Paradigm_ (disertasi DBA, Januari 2026), Lampiran E, Tabel E.2–E.4 dan E.7](https://streamentry.github.io/dba-public/downloads/LVH-20260317.pdf); [situs disertasi](https://streamentry.github.io/dba-public/); [repositori proyek](https://github.com/streamentry/dba-public).

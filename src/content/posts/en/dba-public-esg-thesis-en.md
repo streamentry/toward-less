@@ -5,17 +5,20 @@ lang: en
 slug: dba-public-esg-thesis-en
 translationKey: dba-public-esg-thesis-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
+modDatetime: 2026-11-14T01:16:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-ESG is often treated as a simple line: lower ESG risk, better returns. _The U-Shaped ESG Performance Paradigm_ tests whether that relationship might be less direct.
+Does lower ESG risk always mean better returns? Le Viet Hong’s DBA dissertation, _The U-Shaped ESG Performance Paradigm_ (January 2026), compares 500 S&P 500 companies from 2019 to 2024. Sector-normalized Sustainalytics ratings set the groups. The LightGBM trading model uses price, volume, and technical features; it does not use ESG ratings as model inputs.
 
-The DBA study groups 500 S&P 500 companies by sector-normalized Sustainalytics ratings over 2019–2024. Its LightGBM trading model uses price, volume, and technical features; ESG ratings define the groups rather than serving as model inputs.
+The dissertation reports these historical backtest results:
 
-In the reported backtest, the high-risk group had the highest cumulative return (240.35%). The low-risk group returned 142.75%, slightly above the medium-risk group’s 136.63%, and had the smallest maximum drawdown (29.08%). These are results from one historical simulation, not a forecast or a rule for choosing investments.
+- High-risk group: 240.35% cumulative return; 33.81% maximum drawdown.
+- Medium-risk group: 136.63%; 32.52%.
+- Low-risk group: 142.75%; 29.08%.
 
-The thesis proposes a “Governance-Driven Risk Premium” as one possible explanation, while treating it as a hypothesis rather than proven causation. Its site makes the question, method, results, and limits easier to inspect.
+This is one historical simulation. This article does not independently reproduce the backtest, so the results are not a forecast or an investment rule. The thesis proposes a “Governance-Driven Risk Premium” as a possible explanation, not a proven cause.
 
-[Explore the thesis site](https://streamentry.github.io/dba-public/) · [View the repository](https://github.com/streamentry/dba-public).
+Sources: [Le Viet Hong, _The U-Shaped ESG Performance Paradigm_ (DBA dissertation, January 2026), Appendix E, Tables E.2–E.4 and E.7](https://streamentry.github.io/dba-public/downloads/LVH-20260317.pdf); [thesis site](https://streamentry.github.io/dba-public/); [project repository](https://github.com/streamentry/dba-public).

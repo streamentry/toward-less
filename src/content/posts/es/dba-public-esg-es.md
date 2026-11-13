@@ -5,17 +5,20 @@ lang: es
 slug: dba-public-esg-es
 translationKey: dba-public-esg-thesis-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
+modDatetime: 2026-11-14T01:16:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-A menudo se presenta el ESG como una línea sencilla: menos riesgo ESG, mejores rendimientos. La tesis DBA _The U-Shaped ESG Performance Paradigm_ examina si la relación podría ser menos directa.
+¿Un menor riesgo ESG siempre significa mejores rendimientos? La tesis DBA de Le Viet Hong, _The U-Shaped ESG Performance Paradigm_ (enero de 2026), compara 500 empresas del S&P 500 entre 2019 y 2024. Las calificaciones de Sustainalytics normalizadas por sector definen los grupos. El modelo de trading LightGBM usa precios, volumen e indicadores técnicos; no usa las calificaciones ESG como entradas del modelo.
 
-El estudio agrupa 500 empresas del S&P 500 entre 2019 y 2024 según calificaciones de Sustainalytics normalizadas por sector. El modelo de trading LightGBM usa precios, volumen e indicadores técnicos; las calificaciones ESG definen los grupos, no son entradas directas del modelo.
+La tesis informa estos resultados de un backtest histórico:
 
-En el backtest informado, el grupo de alto riesgo tuvo el mayor rendimiento acumulado: 240,35%. El grupo de bajo riesgo obtuvo 142,75%, algo más que el grupo medio (136,63%), y registró la menor caída máxima (29,08%). Son resultados de una simulación histórica, no un pronóstico ni una regla para elegir inversiones.
+- Grupo de alto riesgo: rendimiento acumulado del 240,35%; caída máxima del 33,81%.
+- Grupo de riesgo medio: 136,63%; 32,52%.
+- Grupo de bajo riesgo: 142,75%; 29,08%.
 
-La tesis propone una «prima de riesgo impulsada por la gobernanza» como posible explicación, pero la presenta como hipótesis, no como causalidad probada. El sitio ayuda a consultar la pregunta, el método, los resultados y sus límites.
+Son resultados de una sola simulación histórica. Este artículo no reproduce el backtest de forma independiente, así que no son un pronóstico ni una regla de inversión. La tesis propone una «prima de riesgo impulsada por la gobernanza» como posible explicación, no como causa demostrada.
 
-[Explora el sitio de la tesis](https://streamentry.github.io/dba-public/) · [Ver el repositorio](https://github.com/streamentry/dba-public).
+Fuentes: [Le Viet Hong, _The U-Shaped ESG Performance Paradigm_ (tesis DBA, enero de 2026), apéndice E, tablas E.2–E.4 y E.7](https://streamentry.github.io/dba-public/downloads/LVH-20260317.pdf); [sitio de la tesis](https://streamentry.github.io/dba-public/); [repositorio del proyecto](https://github.com/streamentry/dba-public).

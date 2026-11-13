@@ -5,17 +5,20 @@ lang: zh
 slug: dba-public-esg-zh
 translationKey: dba-public-esg-thesis-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
+modDatetime: 2026-11-14T01:16:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-人们常把ESG理解成一条简单的直线：ESG风险越低，回报越高。DBA论文《The U-Shaped ESG Performance Paradigm》探讨这种关系是否可能没有那么直接。
+ESG 风险越低，回报就一定越高吗？Le Viet Hong 的 DBA 学位论文 _The U-Shaped ESG Performance Paradigm_（2026 年 1 月）比较了 2019 至 2024 年间标普 500 的 500 家公司。经行业标准化的 Sustainalytics 评级用于划分组别。LightGBM 交易模型使用价格、成交量和技术指标，不把 ESG 评级作为模型输入。
 
-研究按经行业标准化的Sustainalytics评级，将2019–2024年的500家标普500公司分组。LightGBM交易模型使用价格、成交量和技术指标；ESG评级用于划分样本组，而非直接作为模型输入。
+论文报告的历史回测结果如下：
 
-论文报告的回测中，高风险组累计回报最高，为240.35%。低风险组为142.75%，略高于中风险组的136.63%，且最大回撤最低，为29.08%。这些是一次历史模拟的结果，不是预测，也不是选股规则。
+- 高风险组：累计回报 240.35%；最大回撤 33.81%。
+- 中风险组：136.63%；32.52%。
+- 低风险组：142.75%；29.08%。
 
-论文提出“治理驱动风险溢价”作为一种可能解释，但将其视为假设，而非已证实的因果机制。项目网站把研究问题、方法、结果和边界集中展示，方便读者查阅。
+这些是一次历史模拟的结果。本文没有独立复现这项回测，因此不能把结果当作预测或投资规则。论文提出“治理驱动风险溢价”作为一种可能解释，但没有证明因果关系。
 
-[查看论文网站](https://streamentry.github.io/dba-public/) · [查看代码仓库](https://github.com/streamentry/dba-public)。
+来源：[Le Viet Hong，《The U-Shaped ESG Performance Paradigm》（DBA 学位论文，2026 年 1 月），附录 E，表 E.2–E.4 和 E.7](https://streamentry.github.io/dba-public/downloads/LVH-20260317.pdf)；[论文网站](https://streamentry.github.io/dba-public/)；[项目仓库](https://github.com/streamentry/dba-public)。

@@ -5,17 +5,20 @@ lang: vi
 slug: dba-public-esg-vi
 translationKey: dba-public-esg-thesis-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
+modDatetime: 2026-11-14T01:16:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-ESG thường được hiểu như một đường thẳng: rủi ro ESG càng thấp thì lợi nhuận càng cao. Luận án _The U-Shaped ESG Performance Paradigm_ xem xét liệu mối quan hệ đó có thể phức tạp hơn.
+Rủi ro ESG thấp có luôn đi cùng lợi nhuận cao hơn không? Luận án DBA của Lê Việt Hồng, _The U-Shaped ESG Performance Paradigm_ (tháng 1/2026), so sánh 500 công ty thuộc S&P 500 trong giai đoạn 2019–2024. Xếp hạng Sustainalytics đã chuẩn hóa theo ngành dùng để chia nhóm. Mô hình giao dịch LightGBM dùng giá, khối lượng và đặc trưng kỹ thuật; điểm ESG không phải đầu vào của mô hình.
 
-Nghiên cứu DBA chia 500 công ty thuộc S&P 500 thành các nhóm theo xếp hạng Sustainalytics đã chuẩn hóa theo ngành, trong giai đoạn 2019–2024. Mô hình giao dịch LightGBM dùng dữ liệu giá, khối lượng và đặc trưng kỹ thuật; điểm ESG dùng để chia nhóm, không phải đầu vào trực tiếp của mô hình.
+Luận án báo cáo các kết quả backtest lịch sử sau:
 
-Trong backtest được báo cáo, nhóm rủi ro cao có lợi nhuận tích lũy cao nhất (240,35%). Nhóm rủi ro thấp đạt 142,75%, nhỉnh hơn nhóm trung bình ở mức 136,63%, và có mức sụt giảm tối đa thấp nhất (29,08%). Đây là kết quả của một mô phỏng lịch sử, không phải dự báo hay quy tắc chọn khoản đầu tư.
+- Nhóm rủi ro cao: lợi nhuận tích lũy 240,35%; mức sụt giảm tối đa 33,81%.
+- Nhóm rủi ro trung bình: 136,63%; 32,52%.
+- Nhóm rủi ro thấp: 142,75%; 29,08%.
 
-Luận án nêu “phần bù rủi ro do quản trị” như một cách giải thích có thể có, nhưng xem đó là giả thuyết chứ chưa phải quan hệ nhân quả đã được chứng minh. Trang dự án trình bày câu hỏi, phương pháp, kết quả và giới hạn để người đọc dễ kiểm tra.
+Đây là kết quả của một mô phỏng lịch sử. Bài viết này không tái lập độc lập backtest, nên các con số không phải dự báo hay quy tắc đầu tư. Luận án nêu “phần bù rủi ro do quản trị” như một cách giải thích có thể có, chưa phải nguyên nhân đã được chứng minh.
 
-[Xem trang luận án](https://streamentry.github.io/dba-public/) · [Xem kho mã nguồn](https://github.com/streamentry/dba-public).
+Nguồn: [Lê Việt Hồng, _The U-Shaped ESG Performance Paradigm_ (luận án DBA, tháng 1/2026), Phụ lục E, Bảng E.2–E.4 và E.7](https://streamentry.github.io/dba-public/downloads/LVH-20260317.pdf); [trang luận án](https://streamentry.github.io/dba-public/); [kho dự án](https://github.com/streamentry/dba-public).
