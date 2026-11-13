@@ -1,46 +1,31 @@
 ---
 title: "Bina Apa yang Orang Benar-Benar Akan Gunakan"
-description: "Tiga kesilapan: menganggap pujian sebagai permintaan, membiarkan halangan pertama, dan mengautomasikan latihan."
+description: "Tiga semakan sebelum membina: komitmen sebenar, halangan awal dan kemahiran yang mungkin dihapuskan ciri."
 author: "C.S Chánh Niệm"
 lang: ms
 slug: build-what-people-use-ms
 translationKey: build-what-people-use-2026
+modDatetime: 2026-11-14T02:05:00+07:00
 pubDatetime: 2026-11-09T22:35:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-Pujian bukan komitmen. Pendaftaran belum membuktikan manfaat telah diterima.
+Sebelum membina, semak tiga perkara:
 
-Dalam [*Make Something People Actually Want*](https://x.com/maxtorchbearer/status/2119539599311782088), Max Torchbearer menerangkan bagaimana kita boleh menunaikan permintaan pengguna tetapi masih gagal memberi perkara yang sebenarnya mereka mahukan.
+## Komitmen
 
-## 1. Lihat apa yang sanggup mereka korbankan
+- pujian bukan permintaan. Untuk sesi projek mingguan, cuba satu tarikh dahulu dan lihat siapa yang hadir serta kembali sebelum menempah enam minggu.
 
-Rakan-rakan menyukai idea berkumpul setiap minggu untuk menyiapkan projek tertangguh. Namun apabila ditetapkan hari Rabu pukul tujuh, siapa yang benar-benar datang?
+## Halangan penggunaan pertama
 
-Jangan terus menempah enam minggu. Cuba satu malam. Lihat siapa hadir dan, lebih penting, siapa datang semula.
+- pertemuan untuk orang yang sukar mendekati orang asing patut membantu mereka berkenalan, bukan meminta setiap pendatang baharu mengatasi masalah itu seorang diri.
 
-**Keterujaan hadir melalui kata-kata. Permintaan sebenar terlihat pada tindakan dan pengorbanan.**
+## Kemahiran di sebalik ciri
 
-## 2. Bantu mereka melepasi halangan pertama
+- aplikasi yang mengajar debugging boleh memberi petunjuk sebelum membetulkan ralat. Pengguna yang mengutamakan kelajuan mungkin mahu pembetulan automatik.
 
-Pertemuan untuk orang yang sukar mencari kawan tidak banyak membantu jika pendatang baharu mesti sendiri memulakan perbualan dengan orang asing.
+Ini soalan reka bentuk, bukan bukti bahawa sesuatu produk tertentu akan berjaya.
 
-Menyambut tetamu, memperkenalkan orang dengan minat serupa dan memulakan aktiviti bersama mungkin merupakan nilai utama program itu.
-
-Tanya: *Apakah yang pengguna mesti mampu lakukan sebelum mendapat manfaat? Adakah itu perkara yang mereka paling sukar lakukan?*
-
-## 3. Jangan automasikan kemahiran yang ingin dipelajari
-
-Aplikasi pengekodan yang membetulkan semua ralat secara automatik membantu pemula menyiapkan lebih banyak projek. Namun mereka kehilangan latihan penting jika tujuan mereka ialah belajar menyahpepijat sendiri.
-
-AI boleh menunjukkan lokasi masalah dahulu, memberikan petunjuk, dan hanya mendedahkan jawapan selepas pengguna mencuba.
-
-**Ciri yang sama membantu orang yang mahukan kelajuan tetapi boleh menghalang orang yang mahu kemahiran.**
-
-Sebelum membina, uji apa yang pengguna sanggup korbankan, di mana mereka tersekat dan kesukaran mana yang menjadi sebahagian daripada nilai.
-
-Jangan sekadar mengoptimumkan klik apabila orang mahukan perubahan dalam kehidupan sebenar.
-
-*Diadaptasi daripada artikel X oleh [Max Torchbearer, “Make Something People Actually Want”](https://x.com/maxtorchbearer/status/2119539599311782088). Contoh ditulis semula.*
+Diadaptasi dengan atribusi daripada Max Torchbearer, [“Make Something People Actually Want”](https://x.com/maxtorchbearer/status/2119539599311782088), diterbitkan pada 8 November 2026 (status 2119539599311782088). Contoh diparafrasa; tiada petikan langsung.

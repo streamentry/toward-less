@@ -1,46 +1,31 @@
 ---
 title: "Đừng xây thứ người ta chỉ nói rằng họ muốn"
-description: "Ba bài học về sự đánh đổi, rào cản đầu tiên và phần khó không nên tự động hóa."
+description: "Ba điều cần kiểm tra trước khi xây: cam kết thật, rào cản ban đầu và kỹ năng mà tính năng có thể lấy mất."
 author: "C.S Chánh Niệm"
 lang: vi
 slug: build-what-people-use-vi
 translationKey: build-what-people-use-2026
+modDatetime: 2026-11-14T02:05:00+07:00
 pubDatetime: 2026-11-09T22:35:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-Một lời khen không phải một cam kết. Một lượt đăng ký cũng chưa phải giá trị.
+Trước khi xây, hãy kiểm tra ba điều:
 
-Trong bài [*Make Something People Actually Want*](https://x.com/maxtorchbearer/status/2119539599311782088), Max Torchbearer chỉ ra ba chỗ sản phẩm thường đi chệch khỏi điều người dùng thực sự muốn.
+## Cam kết
 
-## 1. Nhìn vào sự đánh đổi
+- lời khen chưa phải nhu cầu. Với buổi tối làm dự án hằng tuần, hãy thử một buổi rồi xem ai đến và quay lại trước khi đặt lịch sáu tuần.
 
-Ai cũng thích ý tưởng một buổi tối cùng làm dự án còn dang dở. Nhưng khi có lịch cụ thể, mấy người thực sự đến?
+## Rào cản lần đầu
 
-Đừng vội tổ chức sáu tuần. Hãy thử một buổi. Người ta có đến không? Quan trọng hơn: có quay lại không?
+- buổi gặp cho người khó bắt chuyện nên hỗ trợ giới thiệu, không buộc người mới tự vượt qua khó khăn ấy trước.
 
-**Sự hào hứng là lời nói. Nhu cầu thể hiện qua hành động và chi phí người ta sẵn sàng chịu.**
+## Kỹ năng phía sau tính năng
 
-## 2. Giúp họ vượt qua bước khó nhất
+- ứng dụng dạy gỡ lỗi có thể đưa gợi ý trước khi tự sửa lỗi. Người cần tốc độ có thể thích tự động sửa hơn.
 
-Một buổi gặp mặt dành cho người khó kết bạn sẽ vô dụng nếu họ phải tự bắt chuyện với người lạ để tham gia.
+Đây là câu hỏi thiết kế, không phải bằng chứng một sản phẩm cụ thể sẽ thành công.
 
-Người tổ chức có thể chào đón, giới thiệu từng người và tạo một hoạt động chung. Đó không phải chi tiết phụ; đó là phần sản phẩm tạo ra giá trị.
-
-Hỏi: *Người dùng phải làm được điều gì trước khi nhận được lợi ích? Có phải đó chính là điều họ đang gặp khó?*
-
-## 3. Đừng lấy đi điều họ đến để học
-
-Một ứng dụng học lập trình tự sửa mọi lỗi có thể giúp người học hoàn thành nhiều bài. Nhưng nếu họ muốn biết cách sửa lỗi độc lập, ứng dụng đã bỏ mất bài tập quan trọng nhất.
-
-AI có thể gợi ý vị trí lỗi trước, để người học thử, rồi mới đưa đáp án.
-
-**Cùng một tính năng: tốt cho người muốn hoàn thành nhanh, có thể tệ cho người muốn học.**
-
-Trước khi xây, hãy kiểm chứng ba điều: người dùng chịu đánh đổi gì, mắc kẹt ở bước nào, và phần khó nào tạo nên giá trị.
-
-Đừng tối ưu số lượt nhấp khi điều họ muốn là một thay đổi ngoài đời.
-
-*Phát triển từ bài viết [Max Torchbearer — Make Something People Actually Want](https://x.com/maxtorchbearer/status/2119539599311782088) trên X. Các ví dụ được diễn giải lại từ tác giả.*
+Phóng tác có ghi công từ Max Torchbearer, [“Make Something People Actually Want”](https://x.com/maxtorchbearer/status/2119539599311782088), ngày 8/11/2026 (status 2119539599311782088). Các ví dụ được diễn đạt lại, không trích dẫn trực tiếp.

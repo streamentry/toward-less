@@ -1,28 +1,26 @@
 ---
 title: "Jangan Sekadar Minta AI Bekerja Lebih Cepat"
-description: "Gunakan AI untuk menyoal kaedah, membuang kerja tidak perlu dan menguji andaian penting."
+description: "Cara menilai semula tugas, membuang langkah yang tidak perlu dan menguji andaian sebelum automasi."
 author: "C.S Chánh Niệm"
 lang: ms
 slug: ask-ai-before-automating-ms
 translationKey: ask-ai-before-automating-2026
+modDatetime: 2026-11-14T02:05:00+07:00
 pubDatetime: 2026-11-08T21:00:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-Apabila berdepan masalah, kita sering memilih cara yang biasa, kemudian meminta AI mempercepatnya. Tetapi bagaimana jika **cara itu sendiri tidak perlu dibuat**?
+Sebelum meminta AI mempercepat sesuatu tugas, tanya dahulu sama ada tugas itu perlu dibuat.
 
-Dalam hantaran di X, Prompter (@PromptLLM) mencadangkan kita bertanya kepada AI tentang jalan penyelesaian yang lebih berkesan sebelum bermula, termasuk langkah yang tidak pernah kita fikir boleh diautomasi.
+Satu tangkapan skrin yang dikaitkan dengan Prompter mencadangkan supaya AI diminta mencari cara lebih baik untuk mencapai matlamat, termasuk langkah yang boleh diautomasikan. Satu lagi soalan: apakah yang boleh dibuang sebelum automasi?
 
-Saya mahu melangkah sedikit lagi: jangan hanya bertanya *apa boleh diautomasi*, tetapi **apa yang boleh dibuang terus**.
+Berikan kepada AI:
 
-Daripada menghantar seribu e-mel jualan secara automatik, mungkin lebih baik mencari sepuluh orang yang benar-benar mahu membeli. Daripada membina aplikasi dengan lebih pantas, mungkin perlu tahu dahulu siapa yang sanggup membayar.
+- matlamat dan kekangan anda;
+- langkah yang anda lakukan sekarang.
 
-Tanya AI: *“Matlamat saya X, kekangannya Y. Apakah jalan paling mudah? Apa boleh diketepikan? Andaian mana patut diuji hari ini?”*
+Kemudian tanya laluan paling mudah, perkara yang boleh diketepikan dan satu andaian untuk diuji hari ini. AI boleh mencadangkan pilihan; penggunaan sebenar perlu mengujinya. Jawapan yang lancar tidak membuktikan tugas atau produk itu diperlukan.
 
-AI juga boleh tersilap. Biarkan ia meluaskan pilihan; biarkan realiti menguji jawapannya.
-
-**Kerja yang tidak perlu tetap sia-sia walaupun disiapkan lebih cepat.**
-
-*Diilhamkan oleh hantaran [Prompter (@PromptLLM)](https://x.com/PromptLLM) di X melalui tangkap layar yang dikongsi; pautan asal belum disahkan.*
+Artikel ini mendapat ilham daripada tangkapan skrin yang dikaitkan dengan [Prompter (@PromptLLM)](https://x.com/PromptLLM). URL hantaran asal belum disahkan; tiada petikan langsung digunakan.

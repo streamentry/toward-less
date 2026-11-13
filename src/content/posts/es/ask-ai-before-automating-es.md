@@ -1,28 +1,26 @@
 ---
 title: "No le pidas solo a la IA que trabaje más rápido"
-description: "Usa la IA para cuestionar el método, eliminar tareas y comprobar la hipótesis decisiva."
+description: "Una forma de cuestionar la tarea, quitar pasos innecesarios y probar un supuesto antes de automatizar."
 author: "C.S Chánh Niệm"
 lang: es
 slug: ask-ai-before-automating-es
 translationKey: ask-ai-before-automating-2026
+modDatetime: 2026-11-14T02:05:00+07:00
 pubDatetime: 2026-11-08T21:00:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-Ante un problema, solemos elegir un método conocido y pedirle a la IA que lo acelere. Pero ¿y si **el propio método no merece la pena**?
+Antes de pedirle a la IA que acelere una tarea, pregunta si vale la pena hacerla.
 
-En una publicación de X, Prompter (@PromptLLM) propone consultar primero a la IA si existe una forma más eficaz de resolver el problema, incluso automatizando pasos que no habíamos considerado.
+Una captura atribuida a Prompter sugiere pedir una mejor forma de alcanzar un objetivo, incluidos pasos que quizá puedan automatizarse. Cabe añadir otra pregunta: ¿qué se puede eliminar antes de automatizar?
 
-Yo iría un poco más lejos: no preguntar solo *qué se puede automatizar*, sino **qué podemos dejar de hacer**.
+Dale a la IA:
 
-En vez de enviar mil correos comerciales automáticos, quizá convenga encontrar diez personas que realmente necesiten comprar. En vez de desarrollar una aplicación más deprisa, averiguar primero quién pagaría.
+- tu objetivo y tus límites;
+- los pasos que sigues ahora.
 
-Pregunta: *«Mi objetivo es X y mis límites son Y. ¿Cuál es el camino más sencillo? ¿Qué sobra? ¿Qué hipótesis debería probar hoy?»*
+Después pregunta cuál es la vía más sencilla, qué puedes omitir y qué supuesto puedes comprobar hoy. La IA puede proponer opciones; el uso real debe ponerlas a prueba. Una respuesta fluida no demuestra que la tarea o el producto sean necesarios.
 
-La IA también puede equivocarse. Que amplíe las opciones; que la realidad compruebe las respuestas.
-
-**La velocidad no salva un trabajo que nunca hizo falta.**
-
-*Inspirado en una publicación de [Prompter (@PromptLLM)](https://x.com/PromptLLM) en X, compartida mediante una captura; no se ha verificado el enlace original.*
+Este artículo se inspira en una captura atribuida a [Prompter (@PromptLLM)](https://x.com/PromptLLM). No se ha verificado la URL de la publicación original y no se usan citas directas.

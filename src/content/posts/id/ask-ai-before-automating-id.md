@@ -1,28 +1,26 @@
 ---
 title: "Jangan Cuma Minta AI Bekerja Lebih Cepat"
-description: "Gunakan AI untuk mempertanyakan cara kerja, membuang langkah sia-sia, dan menguji asumsi utama."
+description: "Cara meninjau tugas, menghapus langkah yang tak perlu, dan menguji asumsi sebelum mengotomatisasi."
 author: "C.S Chánh Niệm"
 lang: id
 slug: ask-ai-before-automating-id
 translationKey: ask-ai-before-automating-2026
+modDatetime: 2026-11-14T02:05:00+07:00
 pubDatetime: 2026-11-08T21:00:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-Saat menghadapi masalah, kita sering memilih cara yang sudah dikenal lalu meminta AI mempercepatnya. Tetapi bagaimana jika **cara itu sebenarnya tidak perlu**?
+Sebelum meminta AI mempercepat suatu pekerjaan, tanyakan dulu apakah pekerjaan itu perlu dilakukan.
 
-Dalam unggahan di X, Prompter (@PromptLLM) menyarankan agar kita lebih dulu bertanya kepada AI tentang solusi yang lebih efektif, termasuk langkah yang sebelumnya tak terpikir bisa diotomatisasi.
+Sebuah tangkapan layar yang dikaitkan dengan Prompter menyarankan agar kita meminta cara yang lebih baik untuk mencapai tujuan, termasuk langkah yang mungkin bisa diotomatisasi. Tambahkan satu pertanyaan: apa yang dapat dihapus sebelum mengotomatisasi?
 
-Saya ingin melangkah lebih jauh: jangan hanya bertanya *apa yang bisa diotomatisasi*, tetapi **apa yang bisa dihapus sama sekali**.
+Berikan kepada AI:
 
-Daripada mengotomatiskan seribu email penjualan, mungkin lebih baik menemukan sepuluh orang yang benar-benar membutuhkan produk. Daripada membangun aplikasi lebih cepat, mungkin lebih penting memastikan siapa yang mau membayar.
+- tujuan dan batasan;
+- langkah yang saat ini Anda lakukan.
 
-Tanyakan: *“Tujuan saya X, batasan saya Y. Apa jalan paling sederhana? Apa yang sebaiknya dihapus? Asumsi mana yang perlu diuji hari ini?”*
+Lalu tanyakan jalur paling sederhana, apa yang bisa dilewati, dan asumsi mana yang dapat diuji hari ini. AI dapat menyarankan pilihan; penggunaan nyata harus mengujinya. Jawaban yang lancar tidak membuktikan bahwa pekerjaan atau produknya diperlukan.
 
-AI bisa keliru. Biarkan ia memperluas pilihan; biarkan kenyataan menguji jawabannya.
-
-**Mempercepat pekerjaan yang tidak perlu tetap membuang waktu.**
-
-*Terinspirasi unggahan [Prompter (@PromptLLM)](https://x.com/PromptLLM) di X dari tangkapan layar; tautan unggahan asli belum diverifikasi.*
+Tulisan ini terinspirasi oleh tangkapan layar yang dikaitkan dengan [Prompter (@PromptLLM)](https://x.com/PromptLLM). URL unggahan aslinya belum terverifikasi; tidak ada kutipan langsung.
