@@ -4,12 +4,22 @@ description: "Transparent ranking can organize evidence, but it cannot establish
 lang: en
 slug: openamp-foundry-dry-lab-en
 translationKey: openamp-foundry-dry-lab-2026
+modDatetime: 2026-11-14T01:20:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-AI can rank antimicrobial peptide (AMP) candidates, but a score is not proof of biological activity. [OpenAMP Foundry](https://github.com/streamentry/OpenAMP-Foundry) is a verification-first dry-lab project that organizes work between candidate records and qualified experiments. Its demo pipeline uses toy data and transparent baseline scores for activity-likeness, safety risk, feasibility, and novelty; it produces rankings and evidence records for human review.
+OpenAMP Foundry asks whether transparent scores can organize antimicrobial-peptide (AMP) candidates for expert review. The current repository is a dry-lab demo, not evidence that any candidate is biologically active.
 
-The repository deliberately avoids operational biological instructions and efficacy claims. Its longer-term aim is to help qualified scientists choose a few informative wet-lab experiments and learn from the results. That aim is not yet demonstrated by the current software. Wet-lab assays remain necessary before claiming a peptide is active.
+Its demo uses toy data and transparent baseline scores for:
+
+- activity-likeness;
+- safety risk;
+- feasibility;
+- novelty.
+
+It produces rankings and evidence records for human review. The repository excludes operational biological instructions. Wet-lab assays remain necessary before claiming activity. The longer-term goal—helping qualified scientists choose experiments and learn from results—has not been demonstrated by the current software.
+
+Source: [OpenAMP Foundry README](https://github.com/streamentry/OpenAMP-Foundry/blob/main/README.md) (accessed 14 November 2026).

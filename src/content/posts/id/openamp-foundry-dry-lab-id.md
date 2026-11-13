@@ -4,12 +4,22 @@ description: "Pemeringkatan transparan merapikan bukti, tetapi tidak membuktikan
 lang: id
 slug: openamp-foundry-dry-lab-id
 translationKey: openamp-foundry-dry-lab-2026
+modDatetime: 2026-11-14T01:20:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-AI dapat mengurutkan kandidat peptida antimikroba (AMP), tetapi skor bukan bukti aktivitas biologis. [OpenAMP Foundry](https://github.com/streamentry/OpenAMP-Foundry) adalah proyek dry lab yang mengutamakan verifikasi dan menata pekerjaan antara catatan kandidat dan eksperimen oleh ahli. Pipeline demo memakai data toy serta skor dasar transparan untuk potensi aktivitas, risiko keselamatan, kelayakan, dan kebaruan; hasilnya berupa ranking serta catatan bukti untuk ditinjau manusia.
+OpenAMP Foundry mengajukan pertanyaan: dapatkah skor transparan membantu menyusun kandidat peptida antimikroba (AMP) untuk ditinjau ahli? Repositori saat ini adalah demo dry-lab, bukan bukti bahwa kandidat mana pun aktif secara biologis.
 
-Repositori sengaja menghindari instruksi biologis operasional dan klaim kemanjuran. Tujuan jangka panjangnya adalah membantu ilmuwan yang memenuhi syarat memilih sedikit eksperimen wet lab yang lebih informatif dan belajar dari hasilnya. Perangkat lunak saat ini belum membuktikannya. Uji laboratorium tetap diperlukan sebelum menyatakan peptida aktif.
+Demo memakai data toy dan skor dasar yang transparan untuk menilai:
+
+- potensi aktivitas;
+- risiko keselamatan;
+- kelayakan;
+- kebaruan.
+
+Sistem menghasilkan peringkat dan catatan bukti untuk ditinjau manusia. Repositori tidak menyediakan instruksi biologis operasional. Uji laboratorium tetap diperlukan sebelum menyatakan suatu peptida aktif. Tujuan jangka panjang—membantu ilmuwan berkualifikasi memilih eksperimen dan belajar dari hasilnya—belum dibuktikan oleh perangkat lunak saat ini.
+
+Sumber: [README OpenAMP Foundry](https://github.com/streamentry/OpenAMP-Foundry/blob/main/README.md) (diakses 14 November 2026).

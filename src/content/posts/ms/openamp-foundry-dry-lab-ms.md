@@ -4,12 +4,22 @@ description: "Pemeringkatan telus menyusun bukti tetapi tidak membuktikan aktivi
 lang: ms
 slug: openamp-foundry-dry-lab-ms
 translationKey: openamp-foundry-dry-lab-2026
+modDatetime: 2026-11-14T01:20:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-AI boleh menyusun kedudukan calon peptida antimikrob (AMP), tetapi skor bukan bukti aktiviti biologi. [OpenAMP Foundry](https://github.com/streamentry/OpenAMP-Foundry) ialah projek dry lab yang mengutamakan pengesahan dan menyusun kerja daripada rekod calon hingga eksperimen pakar. Demo menggunakan data contoh dan skor asas telus bagi potensi aktiviti, risiko keselamatan, kebolehlaksanaan dan kebaharuan, lalu menghasilkan ranking serta rekod bukti untuk semakan manusia.
+OpenAMP Foundry bertanya sama ada skor yang telus boleh menyusun calon peptida antimikrob (AMP) untuk semakan pakar. Repositori semasa ialah demo dry lab; ia bukan bukti bahawa mana-mana calon mempunyai aktiviti biologi.
 
-Repositori ini mengelakkan arahan biologi operasi dan dakwaan keberkesanan. Matlamat jangka panjangnya ialah membantu saintis berkelayakan memilih beberapa eksperimen wet lab yang lebih bermaklumat. Perisian semasa belum membuktikannya. Ujian makmal masih diperlukan sebelum mendakwa sesuatu peptida aktif.
+Demo menggunakan data contoh dan skor asas yang telus untuk menilai:
+
+- potensi aktiviti;
+- risiko keselamatan;
+- kebolehlaksanaan;
+- kebaharuan.
+
+Sistem menghasilkan ranking dan rekod bukti untuk semakan manusia. Repositori ini tidak menyediakan arahan biologi operasi. Ujian makmal tetap diperlukan sebelum aktiviti boleh didakwa. Matlamat jangka panjang—membantu saintis berkelayakan memilih eksperimen dan belajar daripada hasilnya—belum dibuktikan oleh perisian semasa.
+
+Sumber: [README OpenAMP Foundry](https://github.com/streamentry/OpenAMP-Foundry/blob/main/README.md) (diakses pada 14 November 2026).
