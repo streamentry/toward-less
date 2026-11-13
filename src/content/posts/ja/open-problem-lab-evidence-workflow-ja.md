@@ -1,21 +1,28 @@
 ---
 title: "Open Problem Lab：研究を検証可能な作業にする"
-description: "Open Problem Labが研究課題を範囲の明確なレビュー可能な作業へ分ける方法。"
+description: "研究課題を小さく定義し、根拠を追跡して検証・レビューするためのGitHub上の仕組みです。"
 lang: ja
 slug: open-problem-lab-evidence-workflow-ja
 translationKey: open-problem-lab-evidence-workflow-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
+modDatetime: 2026-11-14T00:19:36+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-AIは候補となる答えをすばやく作れます。難しいのは、主張の出典が確かか、方法を再現できるか、リポジトリの外でも役立つかを確かめることです。[Open Problem Lab](https://github.com/Open-Problem-Lab/open-problem-lab)は、研究者とAIエージェントが見過ごされがちな課題を、範囲が明確でレビューできる作業に変えるGitHub中心のプロジェクトです。
+Open Problem Labは、十分に取り組まれていない研究課題を、他の人が確認できる範囲のタスクに分けるGitHub上の仕組みです。[1]
 
-各問題パックには、根拠の記録、データセット、タスクマップ、検証基準がまとめられています。エージェント向けの案内とタスク一覧から、貢献者は対象が明確な作業を選べます。議論は完了条件を持つissueになり、その後pull requestになります。
+各problem packには次の情報があります。
 
-結果を採用する前に、出典の確認、分野の専門家によるレビュー、再現性の検証を求めます。これにより、主張の出典、方法、限界をたどりやすくなります。検査は誤りを見つける助けになりますが、現場で役立つことまでは保証しません。
+- 問題の説明とタスクの地図
+- 根拠の記録とデータセット
+- 検証基準と期待する成果物
 
-リポジトリには十を超える分野の問題パックが記載されています。貢献者は出典、確認項目、主張を一つずつ改善できます。このプロジェクトは審査に耐える研究の基盤を作っていますが、問題の解決を保証するものではありません。
+貢献者は範囲が明確なissueを選び、完了条件に沿って作業し、pull requestを出します。リポジトリでは、機械で検証できるスキーマとCI、専門家レビューを使います。安全性に関わる主張や定量的な結果には、独立した再現も求めます。これらの手順は監査しやすくしますが、成果が現場で役立つことを証明するものではありません。
 
-[プロジェクトのREADMEを読む](https://github.com/Open-Problem-Lab/open-problem-lab)。
+READMEは10を超える分野のproblem packを紹介し、更新されるタスク一覧へ案内しています。Open Problem Labは研究のための基盤であり、特定の問題をすでに解決したとは主張していません。
+
+### 出典
+
+Open-Problem-Lab, *Open Problem Lab README* (accessed 14 November 2026), [repository](https://github.com/Open-Problem-Lab/open-problem-lab).

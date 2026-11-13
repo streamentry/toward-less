@@ -1,44 +1,43 @@
 ---
 title: "断食で動脈プラークは縮むのか：マウス研究が示したこと"
-description: "終了時の血中脂質は同程度でもプラークは縮小。注目すべき機序だが、人で確立した治療ではない。"
+description: "2026年のマウス研究が示唆する断食とプラークの関係、そして人では未検証の点を説明します。"
 author: "C.S Chánh Niệm"
 lang: ja
 slug: fasting-arterial-plaque-evidence-ja
 translationKey: intermittent-fasting-plaque-mice-2026
 pubDatetime: 2026-11-09T00:20:00+07:00
+modDatetime: 2026-11-14T00:19:36+07:00
 draft: false
 featured: false
 tags: [life]
 ---
 
-動脈硬化のプラークは、水道管に付着した脂のようなものではない。免疫細胞、死にかけた細胞、炎症、十分に働かない修復を含む生きた組織だ。
+この記事では、2026年のマウス研究の結果と、人の治療に関する主張を分けて説明します。一つのモデルでは、間欠的断食により形成済みのプラークが縮小し、細胞を除去する経路にも変化が見られました。この研究は人で断食を試したものではありません。[1]
 
-[2026年8月11日に発表された研究](https://doi.org/10.1186/s12964-026-03140-3)は一つの手がかりを示した。すでにプラークを持つ遺伝的に発症しやすいマウスで、間欠的断食によりプラーク面積が**自由摂食群だけでなく、介入前に測定した基準群よりも小さく**なった。組織のいくつかの特徴も安定性の改善を示唆した。
+## 研究の方法
 
-## 何を調べたのか
+- Ldlr−/−マウスに高脂肪・高コレステロール食を14週間与え、その後、14週時点の基準群、自由摂食群、24時間の断食と24時間の自由摂食を4週間繰り返す群を比較しました。
+- 組織の比較は各群8匹で行われ、事前の正式な検出力計算はありませんでした。
 
-LDL受容体を欠く *Ldlr−/−* マウスに脂肪とコレステロールの多い食事を14週間与えて病変を形成した。その後、14週時点の基準群、自由摂食群、断食群を比較した。一部の組織比較は**各群8匹**だった。人の遺伝情報解析と細胞実験も組み合わせた。
+## 観察されたこと
 
-重要なのは、**実験終了時**の血中脂質が同程度でも、カロリー、体重、過去の脂質変化などから完全に独立した効果だとは証明できないことだ。
+- 断食群のプラークは基準群と自由摂食群のどちらよりも小さく、組織の一部の特徴もプラーク安定性の改善と一致しました。
+- 研究終了時の血中脂質は、断食群と自由摂食群で同程度でした。これはプラークの変化が脂質、介入前の代謝変化、摂食量、体重と無関係だったことを示すものではありません。
 
-## 細胞を片づける仕組み
+## 提案された仕組み
 
-マクロファージは死にかけた細胞を除去する。これを *efferocytosis*（死細胞の貪食除去）という。除去が滞ると壊死した中心部が拡大しうる。
+- 人の遺伝データと細胞実験は機序を探るためのもので、いずれも人を対象にした断食試験ではありません。
+- 培養マクロファージでは、BMAL1を抑えるとMERTKと死細胞の除去が減りました。MERTKを戻すと除去機能も回復しました。ただし、個体全体での断食効果にこの経路がどれだけ寄与するかは、細胞特異的な検証が必要だと著者らは述べています。 [1]
 
-細胞実験では、体内時計に関係する **BMAL1** が、死細胞の除去を助ける受容体 **MERTK** の発現を増やした。BMAL1を減らしたときの障害はMERTKの回復で改善し、MERTKを阻害するとBMAL1増加の利点が消えた。これは**機序を示す証拠**であり、心血管病を治せる証拠ではない。
+## 人に当てはめると
 
-## 人ではどうか
+人の動脈プラークに対する断食の効果を測定した試験はありません。Cochraneの18研究（成人1,125人、検索は2019年12月まで）では心血管イベントのデータがなく、短期の体重や血糖の変化も小さく臨床的に重要ではありませんでした。[2] 2026年のACC声明は、一部の人で断食が短期の減量や代謝指標の改善に役立つ可能性を示しますが、長期の効果やカロリー制限との比較結果は一貫していません。[3] 2026年のACC/AHA脂質異常症ガイドラインは、リスクに応じたLDL低下を引き続き重視しています。[4]
 
-論文の人の遺伝データは関連経路の特定に役立つが、**人に断食を行わせ、前後のプラークを測った試験ではない**。
+この研究が示すのは、マウスのプラーク再構築に関する仮説です。人向けの断食計画でも、脂質低下治療の代替でもありません。
 
-人の臨床試験では体重や一部の代謝指標が改善する場合がある一方、通常のカロリー制限を一貫して上回ってはいない。[ACCの2026年声明](https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025)も結果のばらつきを示し、[Cochrane](https://www.cochrane.org/evidence/CD013496_does-limiting-times-you-eat-intermittent-fasting-prevent-cardiovascular-disease)は心筋梗塞、脳卒中、心血管死を防ぐ十分に確実な証拠がないとする。
+### 参考文献
 
-断食はLDL低下治療の代わりではない。[ACC/AHA 2026年ガイドライン](https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia/top-things-to-know)もLDLと総合リスクの管理を重視する。低血糖の危険、妊娠中、摂食障害の既往がある場合は特に注意が必要だ。
-
-## 残る問い
-
-血中脂質の量だけでなく、**動脈壁で傷んだ細胞を除去する力**もプラークの変化に関わるかもしれない。
-
-人への処方ではなく、さらに検証すべき仮説である。
-
-*資料：[Fengら、2026](https://doi.org/10.1186/s12964-026-03140-3)、[ACC/AHA 2026](https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia/top-things-to-know)、[ACC 2026](https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025)、[Cochrane](https://www.cochrane.org/evidence/CD013496_does-limiting-times-you-eat-intermittent-fasting-prevent-cardiovascular-disease)。*
+1. Zian Feng et al. (11 August 2026), *Intermittent fasting promotes plaque regression and activates the BMAL1–MERTK efferocytosis axis*, *Cell Communication and Signaling* 24, [DOI](https://doi.org/10.1186/s12964-026-03140-3), [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC13741550/).
+2. Allaf M et al. (29 January 2021; search through 12 December 2019), *Intermittent fasting for the prevention of cardiovascular disease*, *Cochrane Database of Systematic Reviews* 2021(1), CD013496, [Cochrane review](https://www.cochrane.org/evidence/CD013496_does-limiting-times-you-eat-intermittent-fasting-prevent-cardiovascular-disease).
+3. Frank B. Hu et al. (30 September 2026), *Food and Health: Nutrition for Prevention and Management of Cardiovascular Disease: 2026 ACC Scientific Statement*, *Journal of the American College of Cardiology*, [DOI](https://doi.org/10.1016/j.jacc.2026.08.025).
+4. American Heart Association (updated 13 March 2026), *Top Things to Know: Guideline on the Management of Dyslipidemia*, [guideline summary](https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia/top-things-to-know).

@@ -1,21 +1,28 @@
 ---
 title: "Open Problem Lab: biến vấn đề nghiên cứu thành việc có thể thẩm định"
-description: "Open Problem Lab chia các vấn đề nghiên cứu thành nhiệm vụ có nguồn, tiêu chí kiểm tra và phản biện."
+description: "Quy trình GitHub để chia nhỏ câu hỏi nghiên cứu, truy nguồn bằng chứng, xác thực và phản biện."
 lang: vi
 slug: open-problem-lab-evidence-workflow-vi
 translationKey: open-problem-lab-evidence-workflow-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
+modDatetime: 2026-11-14T00:19:36+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-AI có thể nhanh chóng đề xuất câu trả lời. Việc khó hơn là kiểm tra nguồn, khả năng tái lập phương pháp và giá trị thực tế của từng nhận định. [Open Problem Lab](https://github.com/Open-Problem-Lab/open-problem-lab) là dự án hoạt động trên GitHub, nơi nhà nghiên cứu và agent AI chia các vấn đề ít được quan tâm thành những nhiệm vụ có phạm vi rõ và có thể thẩm định.
+Open Problem Lab là quy trình trên GitHub giúp biến các câu hỏi nghiên cứu còn bị bỏ ngỏ thành nhiệm vụ có phạm vi rõ để người khác xem xét. [1]
 
-Mỗi bộ vấn đề tập hợp hồ sơ bằng chứng, dữ liệu, bản đồ nhiệm vụ và tiêu chí kiểm chứng. Bảng định tuyến agent và danh sách nhiệm vụ giúp người tham gia tìm phần việc cụ thể. Một cuộc thảo luận được chuyển thành issue có điều kiện hoàn thành, rồi thành pull request.
+Mỗi problem pack gồm:
 
-Trước khi chấp nhận kết quả, dự án yêu cầu kiểm tra nguồn, phản biện chuyên môn và kiểm tra khả năng tái lập. Quy trình giúp lần theo nguồn, phương pháp và giới hạn của từng nhận định. Các bước kiểm tra có thể phát hiện lỗi; chúng không bảo đảm kết quả sẽ hữu ích cho người làm thực tế.
+- phát biểu vấn đề và bản đồ nhiệm vụ;
+- hồ sơ bằng chứng và bộ dữ liệu;
+- tiêu chí xác thực và đầu ra dự kiến.
 
-Kho hiện mô tả các bộ vấn đề thuộc hơn mười lĩnh vực. Người tham gia có thể cải thiện từng nguồn, bước kiểm tra hoặc nhận định. Dự án cung cấp hạ tầng để nghiên cứu đứng vững qua phản biện, chứ không bảo đảm vấn đề nào đã được giải quyết.
+Người đóng góp chọn một issue có phạm vi cụ thể, làm theo điều kiện hoàn tất và gửi pull request. Kho mã dùng schema có thể kiểm tra bằng máy và CI, kèm phản biện chuyên môn; các tuyên bố nhạy cảm về an toàn hoặc định lượng còn cần được tái lập độc lập. Những bước này giúp kiểm tra công việc, nhưng không chứng minh kết quả sẽ hữu ích cho người thực hành.
 
-[Đọc README của dự án](https://github.com/Open-Problem-Lab/open-problem-lab).
+README mô tả các problem pack thuộc hơn mười lĩnh vực và trỏ tới danh sách nhiệm vụ trực tuyến luôn thay đổi. Open Problem Lab là hạ tầng nghiên cứu, không tuyên bố rằng một vấn đề cụ thể đã được giải quyết.
+
+### Nguồn
+
+Open-Problem-Lab, *Open Problem Lab README* (accessed 14 November 2026), [repository](https://github.com/Open-Problem-Lab/open-problem-lab).

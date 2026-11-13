@@ -1,21 +1,28 @@
 ---
 title: "Open Problem Lab: Making Research Reviewable"
-description: "How Open Problem Lab turns neglected research problems into scoped work with sources, checks, and review."
+description: "A GitHub-native workflow for scoped research tasks, traceable evidence, validation, and review."
 lang: en
 slug: open-problem-lab-evidence-workflow-en
 translationKey: open-problem-lab-evidence-workflow-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
+modDatetime: 2026-11-14T00:19:36+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-AI can draft candidate answers quickly. The difficult work is checking whether claims have sound sources, reproducible methods, and value beyond a repository. [Open Problem Lab](https://github.com/Open-Problem-Lab/open-problem-lab) is a GitHub-native project where researchers and AI agents turn neglected problems into scoped, reviewable tasks.
+Open Problem Lab is a GitHub-native workflow for turning neglected research questions into scoped tasks that others can review. [1]
 
-Each problem pack gathers evidence records, datasets, a task map, and validation criteria. The agent radar and task index help contributors find work with a clear scope. A discussion becomes an issue with a done condition, then a pull request.
+Each problem pack contains:
 
-Before a result is accepted, the project calls for source checks, domain review, and reproducibility checks. This makes claims easier to trace to their sources, methods, and limits. The checks can expose errors; they do not guarantee that a result will help practitioners.
+- a problem statement and task map;
+- evidence records and datasets;
+- validation criteria and expected outputs.
 
-The repository describes problem packs across more than ten domains. Contributors can improve one source, check, or claim at a time. The project is infrastructure for research that can survive review, not a guarantee that any problem has been solved.
+Contributors choose a scoped issue, work toward its done condition, and submit a pull request. The repository uses machine-checkable schemas and CI, domain review, and independent replication for safety-sensitive or quantitative claims. These checks make work easier to audit; they do not prove that a result will help practitioners.
 
-[Read the project README](https://github.com/Open-Problem-Lab/open-problem-lab).
+The README describes problem packs across more than ten domains and points to live task indexes that change over time. Open Problem Lab is research infrastructure. It does not claim that any specific problem has been solved.
+
+### Source
+
+Open-Problem-Lab, *Open Problem Lab README* (accessed 14 November 2026), [repository](https://github.com/Open-Problem-Lab/open-problem-lab).

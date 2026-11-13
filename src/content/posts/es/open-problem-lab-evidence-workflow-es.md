@@ -1,21 +1,28 @@
 ---
 title: "Open Problem Lab: investigación que se puede revisar"
-description: "Cómo Open Problem Lab convierte problemas de investigación en tareas acotadas, documentadas y revisables."
+description: "Un flujo de GitHub para delimitar tareas de investigación, rastrear evidencia, validar y revisar resultados."
 lang: es
 slug: open-problem-lab-evidence-workflow-es
 translationKey: open-problem-lab-evidence-workflow-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
+modDatetime: 2026-11-14T00:19:36+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-La IA puede proponer respuestas candidatas con rapidez. El trabajo difícil es comprobar si las afirmaciones tienen fuentes sólidas, métodos reproducibles y valor fuera del repositorio. [Open Problem Lab](https://github.com/Open-Problem-Lab/open-problem-lab) es un proyecto nativo de GitHub donde investigadores y agentes de IA convierten problemas desatendidos en tareas acotadas y revisables.
+Open Problem Lab es un flujo de trabajo en GitHub que convierte preguntas de investigación desatendidas en tareas acotadas y revisables. [1]
 
-Cada paquete de problema reúne registros de evidencia, conjuntos de datos, un mapa de tareas y criterios de validación. El radar de agentes y el índice de tareas ayudan a encontrar trabajo bien delimitado. Una conversación pasa a ser una incidencia con una condición de cierre y luego una solicitud de cambios.
+Cada paquete de problemas reúne:
 
-Antes de aceptar un resultado, el proyecto pide comprobar las fuentes, obtener revisión especializada y verificar la reproducibilidad. Así es más fácil rastrear las fuentes, los métodos y los límites de cada afirmación. Estas comprobaciones pueden detectar errores; no garantizan que el resultado sirva en la práctica.
+- el planteamiento del problema y un mapa de tareas;
+- registros de evidencia y conjuntos de datos;
+- criterios de validación y resultados esperados.
 
-El repositorio describe paquetes de problemas en más de diez ámbitos. Quienes contribuyen pueden mejorar una fuente, una comprobación o una afirmación cada vez. El proyecto construye infraestructura para que la investigación resista la revisión, pero no garantiza que ya se haya resuelto ningún problema.
+Quien contribuye elige un issue acotado, trabaja según su condición de cierre y envía un pull request. El repositorio usa esquemas verificables por máquina y CI, revisión de especialistas y réplica independiente para afirmaciones sensibles a la seguridad o cuantitativas. Estas comprobaciones facilitan la auditoría, pero no prueban que un resultado vaya a servir a quienes trabajan en el campo.
 
-[Lee el README del proyecto](https://github.com/Open-Problem-Lab/open-problem-lab).
+El README describe paquetes en más de diez ámbitos y enlaza índices de tareas activos que cambian con el tiempo. Open Problem Lab es infraestructura para investigar; no afirma que ya haya resuelto un problema concreto.
+
+### Fuente
+
+Open-Problem-Lab, *Open Problem Lab README* (accessed 14 November 2026), [repository](https://github.com/Open-Problem-Lab/open-problem-lab).

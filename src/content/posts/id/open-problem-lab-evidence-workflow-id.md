@@ -1,21 +1,28 @@
 ---
 title: "Open Problem Lab: membuat riset bisa ditinjau"
-description: "Cara Open Problem Lab mengubah masalah riset menjadi tugas terukur dengan sumber dan pemeriksaan."
+description: "Alur kerja GitHub untuk membatasi tugas riset, melacak bukti, memvalidasi, dan meninjau hasil."
 lang: id
 slug: open-problem-lab-evidence-workflow-id
 translationKey: open-problem-lab-evidence-workflow-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
+modDatetime: 2026-11-14T00:19:36+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-AI dapat menyusun jawaban sementara dengan cepat. Pekerjaan yang lebih sulit adalah memeriksa sumber klaim, apakah metodenya dapat direproduksi, dan apakah hasilnya berguna di luar repositori. [Open Problem Lab](https://github.com/Open-Problem-Lab/open-problem-lab) adalah proyek berbasis GitHub yang membantu peneliti dan agen AI mengubah masalah yang kurang diperhatikan menjadi tugas dengan lingkup jelas dan dapat ditinjau.
+Open Problem Lab adalah alur kerja berbasis GitHub yang mengubah pertanyaan riset yang terabaikan menjadi tugas terukur yang dapat ditinjau orang lain. [1]
 
-Setiap problem pack mengumpulkan catatan bukti, dataset, peta tugas, dan kriteria validasi. Agent radar dan indeks tugas membantu kontributor menemukan pekerjaan yang terarah. Diskusi menjadi issue dengan syarat selesai yang jelas, lalu berlanjut menjadi pull request.
+Setiap paket masalah berisi:
 
-Sebelum hasil diterima, proyek meminta pemeriksaan sumber, tinjauan ahli bidang, dan pemeriksaan reproduksibilitas. Langkah ini memudahkan orang melacak sumber, metode, dan batas setiap klaim. Pemeriksaan dapat menemukan kesalahan, tetapi tidak menjamin hasilnya berguna di lapangan.
+- pernyataan masalah dan peta tugas;
+- catatan bukti dan kumpulan data;
+- kriteria validasi serta keluaran yang diharapkan.
 
-Repositori ini menjelaskan problem pack di lebih dari sepuluh bidang. Kontributor dapat memperbaiki satu sumber, pemeriksaan, atau klaim setiap kali. Proyek ini membangun infrastruktur agar riset dapat bertahan dalam tinjauan; proyek ini tidak menjamin suatu masalah telah terselesaikan.
+Kontributor memilih issue dengan cakupan jelas, bekerja sampai memenuhi syarat selesai, lalu mengirim pull request. Repositori menggunakan skema yang dapat diperiksa mesin dan CI, tinjauan pakar bidang, serta replikasi independen untuk klaim sensitif terhadap keselamatan atau bersifat kuantitatif. Pemeriksaan ini memudahkan audit; bukan bukti bahwa hasilnya akan berguna bagi praktisi.
 
-[Baca README proyek](https://github.com/Open-Problem-Lab/open-problem-lab).
+README menjelaskan paket masalah di lebih dari sepuluh bidang dan menautkan indeks tugas aktif yang terus berubah. Open Problem Lab adalah infrastruktur riset, bukan klaim bahwa masalah tertentu telah diselesaikan.
+
+### Sumber
+
+Open-Problem-Lab, *Open Problem Lab README* (accessed 14 November 2026), [repository](https://github.com/Open-Problem-Lab/open-problem-lab).

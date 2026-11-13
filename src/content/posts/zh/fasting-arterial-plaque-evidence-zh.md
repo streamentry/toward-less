@@ -1,44 +1,43 @@
 ---
 title: "禁食会让动脉斑块缩小吗？先看清小鼠证据"
-description: "终点血脂相近，斑块却更小：值得研究的机制，还不是人类治疗结论。"
+description: "一项小鼠研究对禁食与斑块提出了什么假设，哪些问题仍未在人群中验证。"
 author: "C.S Chánh Niệm"
 lang: zh
 slug: fasting-arterial-plaque-evidence-zh
 translationKey: intermittent-fasting-plaque-mice-2026
 pubDatetime: 2026-11-09T00:20:00+07:00
+modDatetime: 2026-11-14T00:19:36+07:00
 draft: false
 featured: false
 tags: [life]
 ---
 
-动脉粥样硬化斑块并非水管壁上的一层油脂。它是活组织，包含免疫细胞、死亡细胞、炎症以及不完全有效的修复。
+一项2026年研究发现，禁食小鼠已形成的斑块更小。本文说明这一结果和所提机制对人类意味着什么，又不能说明什么。[1]
 
-[2026年8月11日发表的一项研究](https://doi.org/10.1186/s12964-026-03140-3)提供了新的线索：在已经形成斑块的易患病小鼠中，间歇性禁食使斑块面积**同时小于自由进食对照组，以及干预前的基线组**。部分组织结构指标也提示斑块可能更加稳定。
+## 研究怎么做？
 
-## 研究到底做了什么？
+- 研究人员让Ldlr−/−小鼠吃高脂、高胆固醇饮食14周。第14周留出一组作为基线，其余小鼠被分到自由进食组，或连续4周交替进行24小时禁食和24小时自由进食。
+- 组织比较每组只有8只小鼠，研究未预先进行正式的统计功效计算。
 
-研究人员让缺失LDL受体的 *Ldlr−/−* 小鼠接受14周高脂高胆固醇饮食，随后比较第14周基线组、自由进食组和禁食干预组。部分组织学比较为**每组8只小鼠**。研究还结合人类遗传数据与细胞实验寻找机制。
+## 研究发现了什么？
 
-关键限制是：两组在**终点**血脂水平接近，并不能证明作用完全独立于既往血脂变化、热量摄入、体重或其他代谢因素。
+- 禁食组小鼠的斑块比基线组和自由进食组都小；部分组织特征也与斑块更稳定相符。
+- 研究终点时，禁食组和自由进食组的血脂相近。这不能证明斑块变化与血脂无关；此前的脂质或代谢变化、食物摄入和体重也未被排除。
 
-## 可能的清理机制
+## 一种可能机制
 
-巨噬细胞负责清除斑块内死亡的细胞，这叫 *efferocytosis*（凋亡细胞清除）。清除不畅时，坏死核心可能扩大。
+- 人类遗传分析提示了相关通路，但没有在人身上测试禁食。
+- 在培养的巨噬细胞中，降低BMAL1会减少MERTK和凋亡细胞清除（即清除死亡细胞的过程）。恢复MERTK后，细胞清除能力得到挽救。作者指出，还需进行细胞特异性验证，才能确认该通路对整体动物效应的作用。
 
-细胞实验显示，与生物钟有关的蛋白 **BMAL1** 能促进受体 **MERTK** 的表达，从而支持清除功能。恢复MERTK可挽救BMAL1受抑后的缺陷；抑制MERTK则抵消BMAL1增加带来的好处。这是有价值的**机制证据**，却不是治愈心血管疾病的证据。
+## 对人类意味着什么？
 
-## 人体证据在哪里？
+没有人体试验测量禁食对动脉斑块的影响。Cochrane综述纳入18项研究、1,125名成年人（检索截至2019年12月），没有找到心血管事件数据；短期体重和血糖变化较小，也不具临床意义。[2] 2026年ACC科学声明称，禁食可能帮助部分人减重或改善短期代谢指标，但长期获益以及与限能量饮食的比较结果不一。[3] 2026年ACC/AHA血脂异常指南仍强调根据风险降低LDL。[4]
 
-论文中的人类遗传分析提示相关通路，但**没有让人接受禁食并测量治疗前后的斑块变化**。
+这项研究提出的是小鼠斑块重塑的假设。它没有提供人体禁食方案，也不能替代降脂治疗。
 
-人体试验显示，禁食可能有助于减重及部分代谢指标，但未持续证明优于普通热量限制。[2026年ACC科学声明](https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025)概括了不一致的结果；[Cochrane综述](https://www.cochrane.org/evidence/CD013496_does-limiting-times-you-eat-intermittent-fasting-prevent-cardiovascular-disease)认为尚缺乏足够确定的证据表明它能减少心梗、中风或心血管死亡。
+### 来源
 
-因此，禁食不能替代降脂治疗。[ACC/AHA 2026指南](https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia/top-things-to-know)仍重视LDL和整体风险管理。容易低血糖、妊娠期间或有进食障碍病史的人尤其不应自行尝试。
-
-## 值得记住的结论
-
-除了血液中有多少脂质，**动脉壁清除受损细胞的能力**也可能影响斑块的变化。
-
-这是值得继续研究的假说，而不是一张可以照搬的人体处方。
-
-*证据：[Feng等，2026年小鼠与细胞原始研究](https://doi.org/10.1186/s12964-026-03140-3)；[ACC/AHA 2026血脂管理指南](https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia/top-things-to-know)；[ACC 2026营养声明](https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025)；[Cochrane系统综述](https://www.cochrane.org/evidence/CD013496_does-limiting-times-you-eat-intermittent-fasting-prevent-cardiovascular-disease)。*
+1. Zian Feng et al. (11 August 2026), *Intermittent fasting promotes plaque regression and activates the BMAL1–MERTK efferocytosis axis*, *Cell Communication and Signaling* 24, [DOI](https://doi.org/10.1186/s12964-026-03140-3), [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC13741550/).
+2. Allaf M et al. (29 January 2021; search through 12 December 2019), *Intermittent fasting for the prevention of cardiovascular disease*, *Cochrane Database of Systematic Reviews* 2021(1), CD013496, [Cochrane review](https://www.cochrane.org/evidence/CD013496_does-limiting-times-you-eat-intermittent-fasting-prevent-cardiovascular-disease).
+3. Frank B. Hu et al. (30 September 2026), *Food and Health: Nutrition for Prevention and Management of Cardiovascular Disease: 2026 ACC Scientific Statement*, *Journal of the American College of Cardiology*, [DOI](https://doi.org/10.1016/j.jacc.2026.08.025).
+4. American Heart Association (updated 13 March 2026), *Top Things to Know: Guideline on the Management of Dyslipidemia*, [guideline summary](https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia/top-things-to-know).

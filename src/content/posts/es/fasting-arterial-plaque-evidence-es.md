@@ -1,44 +1,43 @@
 ---
 title: "Ayuno y placas arteriales: lo que realmente muestra el estudio en ratones"
-description: "Placas más pequeñas pese a lípidos finales similares: un mecanismo prometedor, no un tratamiento probado en humanos."
+description: "Qué sugiere un estudio en ratones sobre el ayuno y las placas, y qué aún no se ha probado en personas."
 author: "C.S Chánh Niệm"
 lang: es
 slug: fasting-arterial-plaque-evidence-es
 translationKey: intermittent-fasting-plaque-mice-2026
 pubDatetime: 2026-11-09T00:20:00+07:00
+modDatetime: 2026-11-14T00:19:36+07:00
 draft: false
 featured: false
 tags: [life]
 ---
 
-Una placa aterosclerótica no es simple grasa pegada a una tubería. Es tejido vivo: células inmunitarias, células moribundas, inflamación y procesos imperfectos de reparación.
+Un estudio de 2026 encontró placas establecidas más pequeñas en ratones en ayuno. Este artículo explica qué indican ese resultado y el mecanismo propuesto, y qué no demuestran en personas. [1]
 
-Un [estudio publicado el 11 de agosto de 2026](https://doi.org/10.1186/s12964-026-03140-3) aporta una pieza. En ratones genéticamente propensos a la aterosclerosis y con placas ya formadas, el ayuno intermitente redujo su área **frente a animales que comían libremente y frente a un grupo evaluado antes de intervenir**. Algunos rasgos de tejido apuntaron también a mayor estabilidad.
+## Qué hicieron los investigadores
 
-## ¿Qué se investigó?
+- Alimentaron ratones Ldlr−/− con una dieta alta en grasa y colesterol durante 14 semanas. En la semana 14 reservaron un grupo de referencia; el resto se asignó a alimentación libre o a cuatro semanas alternando 24 horas de ayuno y 24 horas de alimentación libre.
+- Las comparaciones de tejido usaron ocho ratones por grupo. No se calculó formalmente la potencia estadística antes del estudio.
 
-Los investigadores dieron a ratones sin receptor de LDL (*Ldlr−/−*) una dieta rica en grasas y colesterol durante 14 semanas. Después compararon un grupo de referencia en la semana 14, otro con alimentación libre y otro sometido a ayuno. Algunas comparaciones histológicas incluyeron **ocho ratones por grupo**. También analizaron genética humana y experimentaron con células.
+## Qué encontraron
 
-Una precisión decisiva: que los lípidos sanguíneos fueran parecidos **al final** no demuestra que el efecto sea totalmente independiente de las calorías, el peso o las variaciones metabólicas previas.
+- Los ratones en ayuno tenían placas más pequeñas que los grupos de referencia y de alimentación libre; algunos rasgos del tejido eran compatibles con una mayor estabilidad de la placa.
+- Al final, los lípidos en sangre eran similares entre los grupos de ayuno y alimentación libre. Esto no prueba que el efecto sobre la placa fuera independiente de los lípidos: no se descartaron cambios metabólicos previos, diferencias en la ingesta ni en el peso.
 
-## La limpieza dentro de la placa
+## Un mecanismo propuesto
 
-Los macrófagos eliminan células moribundas mediante la *eferocitosis*. Cuando fallan, puede crecer el núcleo necrótico.
+- Los análisis genéticos humanos señalaron posibles vías, pero no probaron el ayuno en personas.
+- En macrófagos cultivados, reducir BMAL1 disminuyó MERTK y la eliminación de células muertas. Restaurar MERTK recuperó esa función. Los autores dicen que hacen falta pruebas específicas por tipo celular para establecer el papel de esta vía en el efecto del animal completo.
 
-En experimentos celulares, **BMAL1**, una proteína del reloj biológico, aumentó **MERTK**, un receptor relacionado con esa limpieza. Restaurar MERTK rescató la función perdida al reducir BMAL1; bloquearlo eliminó el beneficio de elevar BMAL1. Es evidencia de un **mecanismo**, no de una cura cardiovascular.
+## Qué significa para las personas
 
-## ¿Y en personas?
+Ningún ensayo en humanos midió el efecto del ayuno sobre las placas arteriales. Una revisión Cochrane de 18 estudios (1.125 adultos; búsqueda hasta diciembre de 2019) no encontró datos sobre eventos cardiovasculares; los cambios de peso y glucosa a corto plazo fueron pequeños y sin importancia clínica. [2] Una declaración del ACC de 2026 señala que el ayuno puede ayudar a algunas personas con el peso o ciertos indicadores metabólicos a corto plazo, pero la evidencia a largo plazo y frente a la restricción calórica es mixta. [3] La guía ACC/AHA sobre dislipidemia de 2026 sigue priorizando la reducción del LDL según el riesgo. [4]
 
-Los datos genéticos humanos del artículo señalan rutas biológicas, pero **no son un ensayo con personas en ayuno cuyas placas se midieron antes y después**.
+El estudio plantea una hipótesis sobre la remodelación de placas en ratones. No ofrece un plan de ayuno para personas ni sustituye el tratamiento para reducir lípidos.
 
-Los ensayos clínicos indican posibles mejoras de peso y algunos marcadores metabólicos, sin superioridad consistente sobre la restricción calórica convencional. Una [declaración del ACC de 2026](https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025) recoge resultados mixtos y [Cochrane](https://www.cochrane.org/evidence/CD013496_does-limiting-times-you-eat-intermittent-fasting-prevent-cardiovascular-disease) no encuentra pruebas suficientemente firmes de que el ayuno prevenga infartos, ictus o muertes cardiovasculares.
+### Fuentes
 
-No debe sustituir los tratamientos para reducir LDL. La [guía ACC/AHA de 2026](https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia/top-things-to-know) sigue dando prioridad al colesterol y al riesgo global. Quienes tienen riesgo de hipoglucemia, están embarazadas o tienen antecedentes de trastornos alimentarios necesitan especial cautela.
-
-## Qué merece permanecer
-
-**La capacidad de limpiar células dañadas en la pared arterial**, además de los lípidos circulantes, podría influir en la evolución de una placa.
-
-Es una hipótesis que merece más investigación, no una receta para las personas.
-
-*Fuentes: [Feng y cols., 2026](https://doi.org/10.1186/s12964-026-03140-3); [guía ACC/AHA 2026](https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia/top-things-to-know); [declaración ACC 2026](https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025); [Cochrane](https://www.cochrane.org/evidence/CD013496_does-limiting-times-you-eat-intermittent-fasting-prevent-cardiovascular-disease).*
+1. Zian Feng et al. (11 August 2026), *Intermittent fasting promotes plaque regression and activates the BMAL1–MERTK efferocytosis axis*, *Cell Communication and Signaling* 24, [DOI](https://doi.org/10.1186/s12964-026-03140-3), [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC13741550/).
+2. Allaf M et al. (29 January 2021; search through 12 December 2019), *Intermittent fasting for the prevention of cardiovascular disease*, *Cochrane Database of Systematic Reviews* 2021(1), CD013496, [Cochrane review](https://www.cochrane.org/evidence/CD013496_does-limiting-times-you-eat-intermittent-fasting-prevent-cardiovascular-disease).
+3. Frank B. Hu et al. (30 September 2026), *Food and Health: Nutrition for Prevention and Management of Cardiovascular Disease: 2026 ACC Scientific Statement*, *Journal of the American College of Cardiology*, [DOI](https://doi.org/10.1016/j.jacc.2026.08.025).
+4. American Heart Association (updated 13 March 2026), *Top Things to Know: Guideline on the Management of Dyslipidemia*, [guideline summary](https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia/top-things-to-know).

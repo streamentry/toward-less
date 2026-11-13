@@ -1,21 +1,28 @@
 ---
 title: "Open Problem Lab: penyelidikan yang boleh disemak"
-description: "Cara Open Problem Lab memecahkan masalah penyelidikan kepada tugasan berlingkup jelas dan boleh disemak."
+description: "Aliran kerja GitHub untuk menetapkan skop tugas penyelidikan, menjejak bukti, mengesahkan dan menyemak hasil."
 lang: ms
 slug: open-problem-lab-evidence-workflow-ms
 translationKey: open-problem-lab-evidence-workflow-2026
 pubDatetime: 2026-11-07T00:00:00+07:00
+modDatetime: 2026-11-14T00:19:36+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-AI boleh mencadangkan jawapan awal dengan pantas. Kerja yang lebih sukar ialah menyemak sumber dakwaan, kebolehulangan kaedah dan kegunaannya di luar repositori. [Open Problem Lab](https://github.com/Open-Problem-Lab/open-problem-lab) ialah projek berasaskan GitHub yang membantu penyelidik dan ejen AI menukar masalah yang kurang diberi perhatian kepada tugasan berlingkup jelas dan boleh disemak.
+Open Problem Lab ialah aliran kerja GitHub yang mengubah persoalan penyelidikan yang terabai menjadi tugasan berskop jelas untuk disemak orang lain. [1]
 
-Setiap problem pack menghimpunkan rekod bukti, set data, peta tugasan dan kriteria pengesahan. Panduan ejen dan indeks tugasan membantu penyumbang mencari kerja yang khusus. Perbincangan menjadi issue dengan syarat siap yang jelas, kemudian diteruskan sebagai pull request.
+Setiap pek masalah mengandungi:
 
-Sebelum hasil diterima, projek ini meminta semakan sumber, ulasan pakar bidang dan pemeriksaan kebolehulangan. Ini memudahkan orang menjejak sumber, kaedah dan batas dakwaan. Pemeriksaan boleh menemui kesilapan, tetapi tidak menjamin hasil itu berguna di lapangan.
+- pernyataan masalah dan peta tugasan;
+- rekod bukti dan set data;
+- kriteria pengesahan serta hasil yang dijangka.
 
-Repositori ini menerangkan problem pack merentas lebih sepuluh bidang. Penyumbang boleh menambah baik satu sumber, semakan atau dakwaan pada satu-satu masa. Projek ini membina infrastruktur untuk penyelidikan yang tahan semakan; ia tidak menjamin mana-mana masalah sudah selesai.
+Penyumbang memilih isu berskop jelas, menyiapkannya mengikut syarat selesai, kemudian menghantar pull request. Repositori menggunakan skema yang boleh disemak mesin dan CI, semakan pakar bidang, serta replikasi bebas untuk dakwaan sensitif terhadap keselamatan atau berbentuk kuantitatif. Semakan ini memudahkan audit, tetapi tidak membuktikan hasilnya akan membantu pengamal.
 
-[Baca README projek](https://github.com/Open-Problem-Lab/open-problem-lab).
+README menerangkan pek masalah merentas lebih sepuluh bidang dan memautkan indeks tugasan semasa yang sentiasa berubah. Open Problem Lab ialah infrastruktur penyelidikan; projek ini tidak mendakwa telah menyelesaikan masalah tertentu.
+
+### Sumber
+
+Open-Problem-Lab, *Open Problem Lab README* (accessed 14 November 2026), [repository](https://github.com/Open-Problem-Lab/open-problem-lab).

@@ -1,44 +1,43 @@
 ---
 title: "Jejum e placas arteriais: o que o estudo em camundongos realmente mostra"
-description: "Placas menores com lipídios finais semelhantes: mecanismo interessante, não tratamento comprovado em pessoas."
+description: "O que um estudo em camundongos sugere sobre jejum e placas, e o que ainda não foi testado em pessoas."
 author: "C.S Chánh Niệm"
 lang: pt
 slug: fasting-arterial-plaque-evidence-pt
 translationKey: intermittent-fasting-plaque-mice-2026
 pubDatetime: 2026-11-09T00:20:00+07:00
+modDatetime: 2026-11-14T00:19:36+07:00
 draft: false
 featured: false
 tags: [life]
 ---
 
-Uma placa aterosclerótica não é apenas gordura grudada em um cano. É tecido vivo: células de defesa, células morrendo, inflamação e reparo imperfeito.
+Um estudo de 2026 encontrou placas já formadas menores em camundongos em jejum. Este artigo explica o que esse resultado e o mecanismo proposto indicam — e o que não indicam — para as pessoas. [1]
 
-Um [estudo publicado em 11 de agosto de 2026](https://doi.org/10.1186/s12964-026-03140-3) trouxe uma pista. Em camundongos geneticamente suscetíveis que já tinham placas, o jejum intermitente reduziu sua área **em comparação tanto com animais alimentados livremente quanto com o grupo medido antes da intervenção**. Algumas características do tecido também sugeriram maior estabilidade.
+## O que os pesquisadores fizeram
 
-## O que foi testado?
+- Camundongos Ldlr−/− receberam uma dieta rica em gordura e colesterol por 14 semanas. Na semana 14, um grupo foi mantido como referência; os demais foram destinados à alimentação livre ou a quatro semanas alternando 24 horas de jejum e 24 horas de alimentação livre.
+- As comparações de tecido usaram oito camundongos por grupo. Não houve cálculo formal de poder estatístico antes do estudo.
 
-Camundongos sem receptor de LDL (*Ldlr−/−*) receberam dieta rica em gordura e colesterol por 14 semanas para formar placas. Depois, os pesquisadores compararam o grupo de referência na semana 14, outro com comida à vontade e outro em jejum intermitente. Certas análises de tecido incluíram **oito animais por grupo**. Dados genéticos humanos e experiências celulares ajudaram a explorar mecanismos.
+## O que encontraram
 
-Um cuidado essencial: lipídios sanguíneos semelhantes **no fim** não provam que o efeito seja totalmente independente de calorias, peso ou mudanças metabólicas anteriores.
+- Os camundongos em jejum tinham placas menores que os grupos de referência e de alimentação livre; algumas características do tecido eram compatíveis com maior estabilidade da placa.
+- No fim do estudo, os lipídios no sangue eram semelhantes nos grupos de jejum e alimentação livre. Isso não prova que o efeito na placa fosse independente dos lipídios: mudanças metabólicas anteriores, ingestão de alimentos e peso não foram descartados.
 
-## A limpeza dentro da placa
+## Um mecanismo proposto
 
-Macrófagos removem células que morrem por um processo chamado *eferocitose*. Se essa limpeza falhar, o núcleo necrótico pode crescer.
+- Análises genéticas humanas apontaram vias possíveis, mas não testaram o jejum em pessoas.
+- Em macrófagos cultivados, reduzir BMAL1 diminuiu MERTK e a remoção de células mortas. Restaurar MERTK recuperou essa função. Os autores dizem que é necessária uma validação específica por tipo celular para confirmar o papel dessa via no efeito no animal inteiro.
 
-Nos experimentos celulares, **BMAL1**, proteína ligada ao relógio biológico, elevou **MERTK**, um receptor envolvido na remoção dessas células. Restaurar MERTK corrigiu a perda de função causada pela redução de BMAL1; bloquear MERTK retirou o benefício de elevar BMAL1. É **evidência de mecanismo**, não de cura para doenças cardíacas.
+## O que isso significa para as pessoas
 
-## E em seres humanos?
+Nenhum ensaio em pessoas mediu o efeito do jejum sobre placas arteriais. Uma revisão Cochrane de 18 estudos (1.125 adultos; busca até dezembro de 2019) não encontrou dados sobre eventos cardiovasculares; as mudanças de peso e glicose no curto prazo foram pequenas e sem importância clínica. [2] Uma declaração do ACC de 2026 diz que o jejum pode ajudar algumas pessoas com o peso ou indicadores metabólicos no curto prazo, mas os benefícios de longo prazo e as comparações com restrição calórica têm resultados mistos. [3] A diretriz ACC/AHA de dislipidemia de 2026 continua priorizando a redução do LDL conforme o risco. [4]
 
-Os dados genéticos humanos apontam vias relevantes, mas **não representam um ensaio em que pessoas jejuaram e tiveram placas medidas antes e depois**.
+O estudo propõe uma hipótese sobre remodelamento de placas em camundongos. Não fornece um plano de jejum para pessoas nem substitui o tratamento para reduzir lipídios.
 
-Ensaios clínicos sugerem benefícios sobre peso e alguns marcadores metabólicos, sem superioridade consistente à restrição calórica convencional. Uma [declaração do ACC de 2026](https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025) relata resultados mistos; a [Cochrane](https://www.cochrane.org/evidence/CD013496_does-limiting-times-you-eat-intermittent-fasting-prevent-cardiovascular-disease) não encontrou evidência suficientemente segura de que jejum previna infarto, AVC ou morte cardiovascular.
+### Fontes
 
-Jejum não substitui tratamentos para reduzir LDL. A [diretriz ACC/AHA de 2026](https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia/top-things-to-know) ainda prioriza LDL e risco cardiovascular total. É preciso cuidado especial no risco de hipoglicemia, durante a gravidez ou com histórico de transtornos alimentares.
-
-## O que fica
-
-**A capacidade de limpar células danificadas da parede arterial** pode importar, além da quantidade de lipídios no sangue.
-
-Vale pesquisar. Não é uma prescrição de jejum para todas as pessoas.
-
-*Fontes: [Feng et al., 2026](https://doi.org/10.1186/s12964-026-03140-3); [ACC/AHA 2026](https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia/top-things-to-know); [ACC 2026](https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025); [Cochrane](https://www.cochrane.org/evidence/CD013496_does-limiting-times-you-eat-intermittent-fasting-prevent-cardiovascular-disease).*
+1. Zian Feng et al. (11 August 2026), *Intermittent fasting promotes plaque regression and activates the BMAL1–MERTK efferocytosis axis*, *Cell Communication and Signaling* 24, [DOI](https://doi.org/10.1186/s12964-026-03140-3), [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC13741550/).
+2. Allaf M et al. (29 January 2021; search through 12 December 2019), *Intermittent fasting for the prevention of cardiovascular disease*, *Cochrane Database of Systematic Reviews* 2021(1), CD013496, [Cochrane review](https://www.cochrane.org/evidence/CD013496_does-limiting-times-you-eat-intermittent-fasting-prevent-cardiovascular-disease).
+3. Frank B. Hu et al. (30 September 2026), *Food and Health: Nutrition for Prevention and Management of Cardiovascular Disease: 2026 ACC Scientific Statement*, *Journal of the American College of Cardiology*, [DOI](https://doi.org/10.1016/j.jacc.2026.08.025).
+4. American Heart Association (updated 13 March 2026), *Top Things to Know: Guideline on the Management of Dyslipidemia*, [guideline summary](https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia/top-things-to-know).
