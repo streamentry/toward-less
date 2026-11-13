@@ -1,21 +1,29 @@
 ---
 title: "Panduan amalan yang menunjukkan sumbernya"
-description: "Hướng Đến Nhập Lưu ialah panduan meditasi bahasa Vietnam yang menjelaskan sumber, batas dan langkah amalan."
+description: "Panduan latihan Mahāsi berbahasa Vietnam ini membezakan sumber dan masih draf editorial yang menunggu semakan bebas."
 lang: ms
 slug: huong-den-nhap-luu-sources-ms
 translationKey: huong-den-nhap-luu-sources-2026
+modDatetime: 2026-11-14T01:33:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [practice]
 ---
 
-Panduan meditasi boleh mencampurkan teks Buddha awal, ulasan kemudian, kaedah moden dan saranan penyunting menjadi satu suara. Saya sedang membina [Hướng Đến Nhập Lưu](https://streamentry.github.io/streamentry/) supaya sumber-sumber itu kekal berbeza.
+Hướng Đến Nhập Lưu ialah panduan bahasa Vietnam untuk umat awam yang memulakan latihan kesedaran dalam tradisi Mahāsi. Tujuannya ialah memberi langkah praktikal dan menunjukkan sumber setiap arahan.
 
-Buku panduan bahasa Vietnam ini ditujukan kepada umat awam yang mahu memulakan latihan kesedaran mengikut tradisi Mahāsi. Kandungannya bergerak daripada sesi duduk pertama dan rancangan tujuh hari kepada kehidupan harian, ajaran, tahap pandangan terang dan keselamatan. Label sumber membezakan khotbah Nikāya, ulasan, _Visuddhimagga_, arahan Mahāsi, penyelidikan kesihatan dan bahan editorial. Repositori merekodkan petikan serta edisi supaya pembaca boleh menjejakinya.
+Buku ini membezakan enam jenis sumber:
 
-Tajuknya menunjukkan arah amalan, bukan janji mencapai kemasukan arus. Buku ini tidak menyediakan ujian untuk mengesahkan pencapaian sendiri. AI membantu mencadangkan dan membandingkan teks serta menyemak keselarasan; apabila rujukan berbeza, projek kembali kepada teks Pali yang telah ditetapkan.
+- wacana Nikāya;
+- ulasan kemudian;
+- Visuddhimagga;
+- panduan latihan Mahāsi;
+- penyelidikan kesihatan moden;
+- bahan editorial.
 
-Edisi semasa masih draf editorial. Semakan hak, ulasan bebas tentang doktrin dan keselamatan, ujian pembaca serta pemeriksaan EPUB pada aplikasi sebenar masih belum selesai.
+Tajuknya menunjukkan arah latihan, bukan janji mencapai kemasukan arus (stream-entry). Buku ini tidak menyediakan ujian kendiri untuk menilai pencapaian rohani. AI membantu penyediaan draf dan semakan konsistensi; AI tidak mengesahkan doktrin.
 
-[Baca dalam talian](https://streamentry.github.io/streamentry/) · [Projek dan sumber di GitHub](https://github.com/streamentry/streamentry).
+README projek menyifatkan edisi semasa sebagai draf editorial. Semakan hak, penelitian bebas terhadap doktrin dan keselamatan, ujian pembaca, serta semakan EPUB dalam aplikasi bacaan sebenar masih belum selesai. Lulus pemeriksaan format dalaman tidak menutup perkara tersebut.
+
+Sumber: [baca panduan](https://streamentry.github.io/streamentry/), [README projek](https://github.com/streamentry/streamentry/blob/main/README.md) dan [dasar editorial](https://github.com/streamentry/streamentry/blob/main/EDITORIAL_POLICY.md) (diakses pada 14 November 2026).

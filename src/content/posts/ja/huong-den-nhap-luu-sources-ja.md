@@ -1,21 +1,29 @@
 ---
 title: "出典を示す実践ガイド"
-description: "Hướng Đến Nhập Lưuは、出典、限界、実践の段階を明示するベトナム語の瞑想ガイドです。"
+description: "Mahāsi実践のベトナム語手引きは出典を区別し、独立審査待ちの編集稿です。"
 lang: ja
 slug: huong-den-nhap-luu-sources-ja
 translationKey: huong-den-nhap-luu-sources-2026
+modDatetime: 2026-11-14T01:33:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [practice]
 ---
 
-瞑想の手引きでは、初期仏典、後代の注釈、現代の方法、編集者の助言が一つの声に混ざることがあります。私は、それらの出典を分けて示すために[Hướng Đến Nhập Lưu](https://streamentry.github.io/streamentry/)を作っています。
+Hướng Đến Nhập Lưuは、Mahāsi伝統の気づきの実践を始める在家読者向けのベトナム語手引きです。実践の手順を示し、各指示の出典を明らかにすることを目的としています。
 
-これは、マハーシ伝統で念処の実践を始めたい在家者向けのベトナム語ガイドです。最初の坐禅と七日間の計画から、日常生活、教え、観智の段階、安全まで扱います。出典ラベルはニカーヤ経典、注釈書、_清浄道論_、マハーシの指導、健康研究、編集資料を区別します。読者が出典をたどれるよう、リポジトリには引用と版の記録があります。
+本書は出典を次の6種類に分けています。
 
-書名が示すのは修行の方向であり、預流果の約束ではありません。自分の悟りを判定するテストも載せていません。AIは翻訳案、比較、一貫性の確認を助けますが、参考資料に違いがあれば、プロジェクトは固定したパーリ語本文に戻ります。
+- ニカーヤの経典；
+- 後代の注釈書；
+- 『清浄道論』（Visuddhimagga）；
+- Mahāsiの実践指導；
+- 現代の健康研究；
+- 編集者が作成した内容。
 
-現在の版は編集段階の草稿です。権利確認、教理と安全性の独立レビュー、読者テスト、実際の読書アプリでのEPUB確認は未完了です。
+書名は実践の方向を示すもので、預流（stream-entry）を約束しません。悟りの段階を自己判定するテストもありません。AIは下書きと一貫性の確認を支援しますが、教義を認証するものではありません。
 
-[オンラインで読む](https://streamentry.github.io/streamentry/) · [GitHubでプロジェクトと出典を見る](https://github.com/streamentry/streamentry)。
+プロジェクトREADMEは現在の版を編集稿としています。権利確認、教義と安全性の独立審査、読者テスト、実際の読書アプリでのEPUB確認は未完了です。内部の形式検査に合格しても、これらの確認が済んだことにはなりません。
+
+出典：[手引きを読む](https://streamentry.github.io/streamentry/)、[プロジェクトREADME](https://github.com/streamentry/streamentry/blob/main/README.md)、[編集方針](https://github.com/streamentry/streamentry/blob/main/EDITORIAL_POLICY.md)（2026年11月14日閲覧）。

@@ -1,21 +1,29 @@
 ---
 title: "출처를 밝히는 수행 안내서"
-description: "Hướng Đến Nhập Lưu는 출처와 한계, 수행 단계를 드러내는 베트남어 명상 안내서입니다."
+description: "이 베트남어 Mahāsi 수행 안내서는 출처를 구분하며 독립 검토를 기다리는 편집 초안이다."
 lang: ko
 slug: huong-den-nhap-luu-sources-ko
 translationKey: huong-den-nhap-luu-sources-2026
+modDatetime: 2026-11-14T01:33:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [practice]
 ---
 
-명상 안내서는 초기 불교 경전, 후대 주석, 현대 수행법, 편집자의 조언을 하나의 목소리로 섞을 수 있습니다. 저는 그 출처들을 구분해 보여주기 위해 [Hướng Đến Nhập Lưu](https://streamentry.github.io/streamentry/)를 만들고 있습니다.
+Hướng Đến Nhập Lưu는 Mahāsi 전통의 마음챙김 수행을 시작하는 재가자를 위한 베트남어 안내서다. 실천 단계를 제시하고 각 지침의 출처를 밝히는 것이 목적이다.
 
-이 책은 마하시 전통으로 염처 수행을 시작하려는 재가자를 위한 베트남어 안내서입니다. 첫 좌선과 7일 계획에서 출발해 일상, 교리, 통찰의 단계, 안전까지 다룹니다. 출처 표시는 니까야 경전, 주석서, _청정도론_, 마하시 지침, 건강 연구, 편집 자료를 구분합니다. 독자가 출처를 추적할 수 있도록 저장소에는 인용과 판본 정보가 기록됩니다.
+책은 출처를 여섯 종류로 구분한다.
 
-제목은 수행의 방향을 가리킬 뿐, 예류과를 약속하지 않습니다. 책은 성취를 스스로 판정하는 시험도 제공하지 않습니다. AI는 번역안 작성, 비교, 일관성 점검을 돕는 도구입니다. 참고 자료가 다르면 프로젝트는 고정된 팔리어 본문으로 돌아갑니다.
+- 니까야 경전;
+- 후대 주석서;
+- 『청정도론』(Visuddhimagga);
+- Mahāsi 수행 지침;
+- 현대 건강 연구;
+- 편집 자료.
 
-현재 판본은 아직 편집 초안입니다. 저작권 검토, 교리와 안전에 대한 독립 검토, 독자 시험, 실제 읽기 앱에서의 EPUB 확인이 남아 있습니다.
+제목은 수행의 방향을 뜻하며 예류과(stream-entry)를 약속하지 않는다. 영적 성취를 자가 판정하는 검사도 없다. AI는 초안 작성과 일관성 점검을 돕지만 교리를 인증하지 않는다.
 
-[온라인으로 읽기](https://streamentry.github.io/streamentry/) · [GitHub에서 프로젝트와 출처 보기](https://github.com/streamentry/streamentry).
+프로젝트 README는 현재 판본을 편집 초안으로 설명한다. 권리 검토, 교리와 안전에 대한 독립 검토, 독자 시험, 실제 독서 앱에서의 EPUB 확인은 아직 남아 있다. 내부 형식 검사를 통과해도 이 단계들이 끝난 것은 아니다.
+
+출처: [안내서 읽기](https://streamentry.github.io/streamentry/), [프로젝트 README](https://github.com/streamentry/streamentry/blob/main/README.md), [편집 정책](https://github.com/streamentry/streamentry/blob/main/EDITORIAL_POLICY.md) (2026년 11월 14일 확인).

@@ -1,21 +1,29 @@
 ---
 title: "Một cẩm nang tu tập cho thấy rõ nguồn"
-description: "Hướng Đến Nhập Lưu là cẩm nang thiền bằng tiếng Việt, trình bày rõ nguồn tham khảo, giới hạn và các bước thực hành."
+description: "Sổ tay thực hành Mahāsi bằng tiếng Việt phân biệt các nguồn và vẫn là bản biên tập chờ phản biện độc lập."
 lang: vi
 slug: huong-den-nhap-luu-sources-vi
 translationKey: huong-den-nhap-luu-sources-2026
+modDatetime: 2026-11-14T01:33:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [practice]
 ---
 
-Một cẩm nang tu tập có thể trộn kinh sớm, chú giải về sau, một phương pháp hiện đại và lời biên tập thành cùng một giọng. Tôi đang xây dựng [Hướng Đến Nhập Lưu](https://streamentry.github.io/streamentry/) để giữ các nguồn ấy tách bạch.
+Hướng Đến Nhập Lưu là sổ tay tiếng Việt dành cho người tại gia bắt đầu thực hành chánh niệm theo truyền thống Mahāsi. Mục tiêu là hướng dẫn các bước thực hành và cho biết mỗi chỉ dẫn dựa trên nguồn nào.
 
-Đây là cẩm nang tiếng Việt cho người tại gia muốn bắt đầu thực hành Niệm xứ theo hướng Mahāsi. Sách đi từ buổi ngồi đầu tiên và kế hoạch bảy ngày đến đời sống hằng ngày, giáo lý, các giai đoạn tuệ và an toàn. Nhãn nguồn phân biệt kinh Nikāya, luận giải, _Thanh Tịnh Đạo_, chỉ dẫn Mahāsi, nghiên cứu sức khỏe và phần biên soạn. Kho dự án lưu nguồn dẫn và thông tin ấn bản để người đọc có thể tra lại.
+Sách phân biệt sáu loại nguồn:
 
-Tên sách chỉ một hướng tu, không hứa người đọc sẽ chứng Nhập lưu. Sách không đưa bài tự kiểm để xác nhận thánh quả. AI hỗ trợ soạn đề xuất, đối chiếu và kiểm tra nhất quán; khi các nguồn khác nhau, văn bản Pāli vẫn là căn cứ.
+- kinh Nikāya;
+- luận giải về sau;
+- Thanh Tịnh Đạo (Visuddhimagga);
+- chỉ dẫn thực hành của Mahāsi;
+- nghiên cứu y tế hiện đại;
+- nội dung biên soạn.
 
-Ấn bản hiện tại vẫn là bản biên tập. Việc rà soát quyền, phản biện độc lập về giáo lý và an toàn, thử đọc với độc giả, và kiểm tra EPUB trên ứng dụng thật vẫn còn mở.
+Tên sách chỉ một hướng tu, không hứa chứng Nhập lưu; sách không có bài tự kiểm thánh quả. AI hỗ trợ soạn thảo và kiểm tra tính nhất quán, không chứng nhận giáo lý.
 
-[Đọc trực tuyến](https://streamentry.github.io/streamentry/) · [Dự án và hồ sơ nguồn trên GitHub](https://github.com/streamentry/streamentry).
+README mô tả bản hiện tại là bản biên tập. Rà soát quyền, phản biện độc lập về giáo lý và an toàn, thử nghiệm với độc giả, và kiểm tra EPUB trên ứng dụng đọc thật vẫn còn mở. Vượt qua kiểm tra định dạng nội bộ không có nghĩa đã hoàn tất các bước này.
+
+Nguồn: [đọc sổ tay](https://streamentry.github.io/streamentry/), [README dự án](https://github.com/streamentry/streamentry/blob/main/README.md) và [chính sách biên tập](https://github.com/streamentry/streamentry/blob/main/EDITORIAL_POLICY.md) (truy cập ngày 14/11/2026).

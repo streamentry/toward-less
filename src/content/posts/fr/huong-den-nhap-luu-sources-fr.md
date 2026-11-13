@@ -1,21 +1,29 @@
 ---
 title: "Un guide de pratique qui montre ses sources"
-description: "Hướng Đến Nhập Lưu est un manuel vietnamien de méditation qui rend visibles ses sources, ses limites et ses étapes de pratique."
+description: "Ce guide vietnamien de pratique Mahāsi distingue ses sources et reste un brouillon en attente d’un examen indépendant."
 lang: fr
 slug: huong-den-nhap-luu-sources-fr
 translationKey: huong-den-nhap-luu-sources-2026
+modDatetime: 2026-11-14T01:33:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [practice]
 ---
 
-Un guide de méditation peut mêler les premiers textes bouddhiques, des commentaires ultérieurs, une méthode moderne et les conseils de l’éditeur dans une seule voix. Je construis [Hướng Đến Nhập Lưu](https://streamentry.github.io/streamentry/) pour garder ces sources distinctes.
+Hướng Đến Nhập Lưu est un guide en vietnamien destiné aux laïcs qui débutent la pratique de l’attention dans la tradition Mahāsi. Son but est de proposer des étapes concrètes et d’indiquer la source de chaque consigne.
 
-Ce manuel en vietnamien s’adresse aux laïcs qui souhaitent commencer la pratique de l’attention selon la tradition Mahāsi. Il va de la première assise et d’un programme de sept jours à la vie quotidienne, à la doctrine, aux étapes de la connaissance et à la sécurité. Les repères distinguent les discours Nikāya, les commentaires, le _Visuddhimagga_, les instructions de Mahāsi, la recherche en santé et les éléments éditoriaux. Le dépôt consigne citations et éditions pour permettre de remonter aux sources.
+Le livre distingue six types de sources :
 
-Le titre indique une direction de pratique, pas une promesse d’entrée dans le courant. Le livre ne propose pas d’autotest d’accomplissement. L’IA aide à formuler et comparer des textes et à vérifier leur cohérence ; en cas de divergence, le projet revient au texte pāli.
+- les discours des Nikāya ;
+- les commentaires ultérieurs ;
+- le Visuddhimagga ;
+- les instructions de pratique de Mahāsi ;
+- les recherches modernes sur la santé ;
+- les contenus éditoriaux.
 
-L’édition actuelle reste un brouillon éditorial. L’examen des droits, les revues indépendantes sur la doctrine et la sécurité, les essais avec des lecteurs et les tests de l’EPUB sur de vraies applications restent à faire.
+Le titre désigne une direction de pratique ; il ne promet pas l’entrée dans le courant (stream-entry). Le livre ne propose aucun test d’auto-évaluation d’un accomplissement spirituel. L’IA aide à rédiger et à vérifier la cohérence ; elle ne certifie pas la doctrine.
 
-[Lire en ligne](https://streamentry.github.io/streamentry/) · [Projet et sources sur GitHub](https://github.com/streamentry/streamentry).
+Le README du projet décrit l’édition actuelle comme un brouillon éditorial. La vérification des droits, les évaluations indépendantes de la doctrine et de la sécurité, les tests auprès de lecteurs et la vérification de l’EPUB dans de vraies applications restent à faire. Réussir les contrôles internes de format ne valide pas ces étapes.
+
+Sources : [lire le guide](https://streamentry.github.io/streamentry/), [README du projet](https://github.com/streamentry/streamentry/blob/main/README.md) et [politique éditoriale](https://github.com/streamentry/streamentry/blob/main/EDITORIAL_POLICY.md) (consultés le 14 novembre 2026).

@@ -1,21 +1,29 @@
 ---
 title: "A practice guide that shows its sources"
-description: "Hướng Đến Nhập Lưu is a Vietnamese meditation handbook that keeps its sources, limits, and practice steps visible."
+description: "A Vietnamese Mahāsi-practice guide separates its sources and remains an editorial draft pending independent review."
 lang: en
 slug: huong-den-nhap-luu-sources-en
 translationKey: huong-den-nhap-luu-sources-2026
+modDatetime: 2026-11-14T01:33:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [practice]
 ---
 
-A meditation guide can blend early Buddhist texts, later commentaries, a modern method, and an editor’s advice into one voice. I’m building [Hướng Đến Nhập Lưu](https://streamentry.github.io/streamentry/) to keep those sources distinct.
+Hướng Đến Nhập Lưu is a Vietnamese handbook for lay readers beginning mindfulness practice in the Mahāsi tradition. Its aim is to offer practical steps and show which sources each instruction draws on.
 
-It is a Vietnamese handbook for lay readers who want to begin mindfulness practice in the Mahāsi tradition. It starts with a first sitting and a seven-day plan, then covers daily life, doctrine, the stages of insight, and safety. Source labels distinguish Nikāya discourses, commentaries, the _Visuddhimagga_, Mahāsi instructions, health research, and editorial material. The repository records citations and edition details so readers can trace them.
+The book marks six source types:
 
-The title means a direction of practice, not a promise of stream-entry. The book does not offer a self-test for attainment. AI helps draft and compare material and check consistency; the Pāli source remains the authority when references differ.
+- Nikāya discourses;
+- later commentaries;
+- the Visuddhimagga;
+- Mahāsi practice instructions;
+- modern health research;
+- editorial material.
 
-The current edition is still an editorial draft. Rights review, independent doctrinal and safety reviews, reader testing, and real-app EPUB checks remain open.
+The title means a direction of practice, not a promise of stream-entry. The book offers no self-test for attainment. AI supports drafting and consistency checks; it does not certify doctrine.
 
-[Read online](https://streamentry.github.io/streamentry/) · [Project and source records on GitHub](https://github.com/streamentry/streamentry).
+The project README describes the current edition as an editorial draft. Rights review, independent doctrinal and safety reviews, reader testing, and EPUB checks in real reading apps remain open. Passing internal format checks does not close those gates.
+
+Sources: [read the handbook](https://streamentry.github.io/streamentry/), [project README](https://github.com/streamentry/streamentry/blob/main/README.md), and [editorial policy](https://github.com/streamentry/streamentry/blob/main/EDITORIAL_POLICY.md) (accessed 14 November 2026).

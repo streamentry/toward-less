@@ -1,21 +1,29 @@
 ---
 title: "Um guia de prática que mostra suas fontes"
-description: "Hướng Đến Nhập Lưu é um manual vietnamita de meditação que explicita fontes, limites e etapas de prática."
+description: "Este manual vietnamita da prática Mahāsi distingue suas fontes e segue como rascunho à espera de revisão independente."
 lang: pt
 slug: huong-den-nhap-luu-sources-pt
 translationKey: huong-den-nhap-luu-sources-2026
+modDatetime: 2026-11-14T01:33:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [practice]
 ---
 
-Um manual de meditação pode misturar textos budistas antigos, comentários posteriores, um método moderno e sugestões editoriais numa só voz. Estou construindo o [Hướng Đến Nhập Lưu](https://streamentry.github.io/streamentry/) para manter essas fontes distintas.
+Hướng Đến Nhập Lưu é um manual em vietnamita para leigos que começam a prática de atenção plena na tradição Mahāsi. Seu objetivo é oferecer passos práticos e indicar a fonte de cada orientação.
 
-É um manual em vietnamita para praticantes leigos que querem começar a atenção plena segundo a tradição Mahāsi. Vai da primeira sessão e de um plano de sete dias à vida cotidiana, à doutrina, aos estágios de insight e à segurança. As marcas de fonte distinguem discursos Nikāya, comentários, o _Visuddhimagga_, instruções Mahāsi, pesquisas de saúde e material editorial. O repositório registra citações e edições para que o leitor possa rastreá-las.
+O livro distingue seis tipos de fonte:
 
-O título indica uma direção de prática, não promete a entrada na corrente. O livro não oferece um teste para certificar a própria realização. A IA ajuda a propor e comparar textos e a verificar consistência; quando as referências divergem, o projeto volta ao texto páli fixado.
+- discursos dos Nikāyas;
+- comentários posteriores;
+- o Visuddhimagga;
+- instruções de prática de Mahāsi;
+- pesquisas modernas sobre saúde;
+- material editorial.
 
-A edição atual ainda é um rascunho editorial. Revisão de direitos, avaliações independentes de doutrina e segurança, testes com leitores e testes do EPUB em aplicativos reais continuam pendentes.
+O título indica uma direção de prática, não promete a entrada na corrente (stream-entry). O livro não oferece um teste para autoavaliar uma realização espiritual. A IA ajuda na redação e na verificação de consistência; não certifica a doutrina.
 
-[Leia online](https://streamentry.github.io/streamentry/) · [Projeto e fontes no GitHub](https://github.com/streamentry/streamentry).
+O README do projeto descreve a edição atual como um rascunho editorial. A revisão de direitos, as avaliações independentes de doutrina e segurança, os testes com leitores e a verificação do EPUB em aplicativos reais continuam pendentes. Passar por verificações internas de formato não conclui essas etapas.
+
+Fontes: [ler o manual](https://streamentry.github.io/streamentry/), [README do projeto](https://github.com/streamentry/streamentry/blob/main/README.md) e [política editorial](https://github.com/streamentry/streamentry/blob/main/EDITORIAL_POLICY.md) (consultados em 14 de novembro de 2026).

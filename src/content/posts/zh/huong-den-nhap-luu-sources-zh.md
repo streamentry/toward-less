@@ -1,21 +1,29 @@
 ---
 title: "一本把出处说明白的禅修手册"
-description: "《Hướng Đến Nhập Lưu》是一本越南语禅修手册，清楚标示来源、边界和练习步骤。"
+description: "这本越南语 Mahāsi 修习手册区分了不同来源，目前仍是等待独立审查的编辑稿。"
 lang: zh
 slug: huong-den-nhap-luu-sources-zh
 translationKey: huong-den-nhap-luu-sources-2026
+modDatetime: 2026-11-14T01:33:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [practice]
 ---
 
-禅修手册有时会把早期佛典、后世注释、现代方法和编者建议写成同一种声音。我正在编写《[Hướng Đến Nhập Lưu](https://streamentry.github.io/streamentry/)》，希望把这些来源清楚地区分开来。
+《Hướng Đến Nhập Lưu》是一份越南语手册，面向希望开始 Mahāsi 传统念处练习的在家读者。它旨在提供可实践的步骤，并说明每条指引依据哪些来源。
 
-这是一本越南语手册，面向想依照马哈希传统开始念处练习的在家读者。它从第一次静坐和七日入门计划谈起，再到日常生活、教理、观智阶段与安全。来源标签分别标出尼柯耶经文、注释、《清净道论》、马哈希指导、健康研究和编者材料。仓库记录引用和版本信息，方便读者追查。
+手册区分六类来源：
 
-书名表达的是修行方向，不是证得入流的承诺。书中没有供人自我认证果位的测验。AI协助拟译、对照和检查一致性；参考版本有分歧时，以固定的巴利语文本为准。
+- Nikāya 经文；
+- 后来的注释传统；
+- 《清净道》（Visuddhimagga）；
+- Mahāsi 的练习指引；
+- 现代健康研究；
+- 编者撰写的材料。
 
-当前版本仍是编辑稿。版权审查、独立教义与安全审阅、读者测试，以及在真实阅读器中检查 EPUB，尚未完成。
+书名表示一种修行方向，不承诺证得入流果（stream-entry）。书中没有果位自测。AI 用于协助起草和检查一致性，但不认证教义。
 
-[在线阅读](https://streamentry.github.io/streamentry/) · [在 GitHub 查看项目与来源记录](https://github.com/streamentry/streamentry)。
+项目 README 将当前版本称为编辑稿。版权审查、独立的教义与安全审查、读者测试，以及在真实阅读应用中的 EPUB 检查仍未完成。通过内部格式检查不代表这些关卡已经通过。
+
+来源：[在线阅读手册](https://streamentry.github.io/streamentry/)、[项目 README](https://github.com/streamentry/streamentry/blob/main/README.md)和[编辑政策](https://github.com/streamentry/streamentry/blob/main/EDITORIAL_POLICY.md)（访问于 2026 年 11 月 14 日）。
