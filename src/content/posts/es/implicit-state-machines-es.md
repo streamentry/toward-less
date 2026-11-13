@@ -1,30 +1,31 @@
 ---
 title: "Encuentra las máquinas de estados ocultas en tu app"
-description: "Pregunta dónde guarda tu app su estado, y nombra los modos en los que realmente puede estar."
+description: "Usa IA para detectar estados escondidos en indicadores y verifica en el código cuáles necesitan un modelo explícito."
 author: "C.S Chánh Niệm"
 lang: es
 slug: implicit-state-machines-es
 translationKey: implicit-state-machines-2026
 pubDatetime: 2026-11-08T22:00:00+07:00
+modDatetime: 2026-11-14T00:01:43+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-La mayoría de las apps no tienen una máquina de estados. Tienen muchas, sin nombre.
+Muchas aplicaciones guardan el estado en indicadores dispersos: cargando, error, editando, conectado. Al combinarse, pueden permitir situaciones que nadie quiso, como estar cargando y en error a la vez.
 
-Una bandera de carga aquí, una de error allá, una de edición, una de sesión iniciada. Cada una, por separado, parece pequeña. Juntas se combinan en modos que nadie eligió: cargando y con error a la vez, editando algo que ya no existe, guardado y sin guardar al mismo tiempo.
+Una publicación de Steve Ruiz en X propuso pedir a un agente que encontrara esas máquinas de estado implícitas. Trata el resultado como una lista de candidatos que hay que comprobar, no como hechos. [1]
 
-En una publicación en X, Steve Ruiz (@steveruizok) sugiere un prompt: *“find all of the implicit state machines in my app”* — encuentra todas las máquinas de estados implícitas en mi app.
+Para cada candidato, pide al agente que muestre:
 
-Pide la lista con evidencia. ¿Dónde vive cada una en el código? ¿En qué estados puede estar? ¿Qué la mueve de uno a otro? ¿Qué combinaciones no pueden ocurrir, y cuáles no deberían ocurrir pero ocurren?
+- los archivos y variables que lo representan;
+- los estados y transiciones que permite el código;
+- qué combinaciones deberían ser imposibles y qué código aún las permite.
 
-Lo importante es nombrarlas, no dibujar el diagrama. Una vez que un modo tiene nombre, puedes preguntar si debería existir. A menudo la respuesta es no — y eliminarlo es más simple que gestionarlo.
+Comprueba cada afirmación en el repositorio. Algunos indicadores son independientes y no necesitan un modelo formal. Haz explícita una máquina de estados cuando los estados interactúan, se multiplican, causan errores o impiden entender qué puede hacer la función. Un diagrama solo sirve si aclara esas reglas.
 
-No toda bandera necesita una máquina formal. Eso sería cambiar un tipo de desorden por otro. Vale la pena nombrar una máquina cuando los estados se multiplican, cuando un error surge porque la app está en dos modos a la vez, o cuando alguien nuevo no puede decir qué puede hacer la app.
+Deja que el agente proponga el mapa; que el código lo confirme.
 
-La IA puede equivocarse en esto. Deja que proponga las máquinas; deja que el código las ponga a prueba.
+### Fuente
 
-**Menos estados posibles, una visión más clara.**
-
-*Inspirado en una publicación de [Steve Ruiz (@steveruizok)](https://x.com/steveruizok/status/2116552016218710389) en X. La publicación fue verificada el 8 de noviembre de 2026: 10:24 p. m., 31 de octubre de 2026.*
+Steve Ruiz (@steveruizok), X post, 31 October 2026, status 2116552016218710389. The post was verified on 8 November; a direct fetch returned 403 on 14 November. Exact prompt: “find all of the implicit state machines in my app”. [Original post](https://x.com/steveruizok/status/2116552016218710389).

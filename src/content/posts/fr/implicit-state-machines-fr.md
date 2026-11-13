@@ -1,30 +1,31 @@
 ---
 title: "Trouvez les machines à états cachées dans votre application"
-description: "Demandez où votre application garde son état, et nommez les modes dans lesquels elle peut réellement se trouver."
+description: "Utilisez l’IA pour repérer les états cachés dans des indicateurs, puis vérifiez dans le code lesquels méritent un modèle explicite."
 author: "C.S Chánh Niệm"
 lang: fr
 slug: implicit-state-machines-fr
 translationKey: implicit-state-machines-2026
 pubDatetime: 2026-11-08T22:00:00+07:00
+modDatetime: 2026-11-14T00:01:43+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-La plupart des applications n'ont pas une seule machine à états. Elles en ont beaucoup, sans nom.
+Beaucoup d’applications stockent leur état dans des indicateurs dispersés : chargement, erreur, édition, connexion. Combinés, ils peuvent produire des situations imprévues, comme être à la fois en chargement et en erreur.
 
-Un indicateur de chargement ici, un indicateur d'erreur là, un indicateur d'édition, un indicateur de connexion. Chacun semble petit pris isolément. Ensemble, ils se combinent en modes que personne n'a choisis : en cours de chargement et en erreur à la fois, en train de modifier quelque chose qui n'existe plus, enregistré et non enregistré en même temps.
+Dans un post sur X, Steve Ruiz suggère de demander à un agent de repérer ces machines à états implicites. Considérez le résultat comme une liste de candidats à vérifier, pas comme des faits. [1]
 
-Dans une publication sur X, Steve Ruiz (@steveruizok) suggère une invite : *« find all of the implicit state machines in my app »* — trouvez toutes les machines à états implicites dans mon application.
+Pour chaque candidat, demandez à l’agent de montrer :
 
-Demandez la liste avec des preuves. Où vit chacune dans le code ? Dans quels états peut-elle se trouver ? Qu'est-ce qui la fait passer de l'un à l'autre ? Quelles combinaisons ne peuvent pas se produire, et lesquelles ne devraient pas se produire mais se produisent ?
+- les fichiers et variables qui le représentent;
+- les états et transitions permis par le code;
+- les combinaisons qui devraient être impossibles et le code qui les autorise encore.
 
-L'essentiel est de les nommer, pas de dessiner le diagramme. Une fois qu'un mode a un nom, on peut se demander s'il devrait exister. Souvent, la réponse est non — et le supprimer est plus simple que de le gérer.
+Vérifiez chaque affirmation dans le dépôt. Certains indicateurs sont indépendants et n’ont pas besoin d’un modèle formel. Rendez une machine à états explicite lorsque les états interagissent, se multiplient, provoquent des bogues ou empêchent les responsables de comprendre ce que la fonction peut faire. Un diagramme n’est utile que s’il clarifie ces règles.
 
-Tous les indicateurs n'ont pas besoin d'une machine formelle. Ce serait remplacer un type de désordre par un autre. Une machine mérite d'être nommée quand les états se multiplient, quand un bogue vient du fait que l'application est dans deux modes à la fois, ou quand un nouveau lecteur ne peut pas dire ce que l'application peut faire.
+Laissez l’agent proposer une carte; laissez le code la confirmer.
 
-L'IA peut se tromper sur ce point. Laissez-la proposer les machines ; laissez le code les mettre à l'épreuve.
+### Source
 
-**Moins d'états possibles, une vision plus claire.**
-
-*Inspiré d'une publication de [Steve Ruiz (@steveruizok)](https://x.com/steveruizok/status/2116552016218710389) sur X. La publication a été vérifiée le 8 novembre 2026 : 22 h 24, le 31 octobre 2026.*
+Steve Ruiz (@steveruizok), X post, 31 October 2026, status 2116552016218710389. The post was verified on 8 November; a direct fetch returned 403 on 14 November. Exact prompt: “find all of the implicit state machines in my app”. [Original post](https://x.com/steveruizok/status/2116552016218710389).

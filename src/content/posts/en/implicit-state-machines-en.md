@@ -1,30 +1,31 @@
 ---
 title: "Find the State Machines Hiding in Your App"
-description: "Ask where your app keeps its state, and name the modes it can actually be in."
+description: "Use AI to map state hidden in flags, then verify the code and decide what needs an explicit model."
 author: "C.S Chánh Niệm"
 lang: en
 slug: implicit-state-machines-en
 translationKey: implicit-state-machines-2026
 pubDatetime: 2026-11-08T22:00:00+07:00
+modDatetime: 2026-11-14T00:01:43+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-Most apps do not have one state machine. They have many, unnamed.
+Most apps keep state in scattered flags: loading, error, editing, signed in. Together, they can allow combinations nobody intended, such as loading and error at once.
 
-A loading flag here, an error flag there, an editing flag, a logged-in flag. Each looks small on its own. Together they combine into modes no one chose: loading and error at once, editing something that no longer exists, saved and unsaved at the same time.
+Steve Ruiz’s X post suggested asking an agent to find these implicit state machines. Treat the output as candidates to check, not as facts. [1]
 
-In a post on X, Steve Ruiz (@steveruizok) suggests a prompt: *“find all of the implicit state machines in my app.”*
+For each candidate, ask the agent to show:
 
-Ask for the list with evidence. Where does each one live in the code? What states can it be in? What moves it from one to another? Which combinations cannot happen, and which should not happen but do?
+- the files and variables that represent it;
+- the states and transitions the code allows;
+- combinations that should be impossible, with the code that permits them.
 
-Naming them is the point, not the diagram. Once a mode has a name, you can ask whether it should exist at all. Often the answer is no — and removing it is simpler than handling it.
+Check each claim in the repository. Some flags are independent and need no formal model. Make a state machine explicit when states interact, multiply, cause bugs, or leave maintainers unsure what the feature can do. A diagram helps only when it clarifies those rules.
 
-Not every flag needs a formal machine. That would trade one kind of clutter for another. A machine is worth naming when the states multiply, when a bug comes from being in two modes at once, or when a new reader cannot tell what the app can do.
+Let the agent propose a map; let the code confirm it.
 
-AI can be wrong about this. Let it propose the machines; let the code test them.
+### Source
 
-**Fewer possible states, clearer seeing.**
-
-*Inspired by a post from [Steve Ruiz (@steveruizok)](https://x.com/steveruizok/status/2116552016218710389) on X. The post was verified on 8 November 2026: 10:24 PM, 31 October 2026.*
+Steve Ruiz (@steveruizok), X post, 31 October 2026, status 2116552016218710389. The post was verified on 8 November; a direct fetch returned 403 on 14 November. Exact prompt: “find all of the implicit state machines in my app”. [Original post](https://x.com/steveruizok/status/2116552016218710389).
