@@ -1,24 +1,24 @@
 ---
 title: "A Book Worth Reading Should Not Be Stopped by Language"
-description: "I started LitMundi to make literature from many languages easier to read, with sources and translation decisions left in view."
+description: "LitMundi publishes source-linked Vietnamese editions and records AI assessments, rights evidence, and release status."
 lang: en
 slug: litmundi-open-literary-library
 translationKey: litmundi-open-literary-library-2026
+modDatetime: 2026-11-14T01:27:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
+LitMundi makes literature written in many languages readable in Vietnamese while keeping sources and translation decisions visible. Its catalog lists complete Vietnamese editions, including works by Machado de Assis, Lu Xun, Tagore, Akutagawa, Austen, and Tolstoy.
 
-A book can survive for generations and still remain out of reach for someone who cannot read its original language. I began [LitMundi](https://github.com/streamentry/LitMundi) from that distance: how can we open a path to literature without pretending translation is easy?
+Its AI-first release policy requires each edition to meet these checks:
 
-The library publishes complete works in Vietnamese, with links to the source editions and records of the editorial decisions behind each translation. It includes writing by authors such as Machado de Assis, Lu Xun, Tagore, Akutagawa, Austen, and Tolstoy.
+- a full source-and-translation AI assessment with an unrounded weighted score of at least 8.6/10;
+- complete coverage of the source passages;
+- cleared reuse rights and no unresolved major or critical issue.
 
-LitMundi uses AI in translation and assessment. That needs to be stated plainly: an AI score is not a human certification. The project sets a publication threshold, checks that the translation covers the source passages, and records the evidence and rights basis for each edition. Readers can inspect the process instead of being asked to trust a polished result on its own.
+Human review and reader feedback are optional after release. An AI score is not human certification. The catalog records each edition’s source, score, status, and rights basis so readers can inspect the process.
 
-The work is still developing. I want the library to grow without hiding where a text came from, what was changed, or what the quality process can and cannot establish.
-
-Translation speed is not translation accuracy. A polished sentence can lose its voice, deliberate ambiguity, or historical context. A genuinely open library needs the right to question as well as the right to read: readers must be able to compare passages, challenge decisions, and see corrections. A score cannot replace that.
-
-[Explore LitMundi on GitHub](https://github.com/streamentry/LitMundi).
+Source: [LitMundi README](https://github.com/streamentry/LitMundi/blob/main/README.md) (accessed 14 November 2026).
