@@ -1,21 +1,27 @@
 ---
 title: "出典を見ながら読めるパーリ語訳"
-description: "Kinh Tạng Pāli Việtは、新しいベトナム語訳をパーリ語の原文や参考訳と並べて示します。"
+description: "Kinh Tạng Pāli Việtは、固定したパーリ語本文、参考層、ベトナム語訳の編集状態を示します。"
 lang: ja
 slug: pali-yaku-to-shiryo
 translationKey: pali-translation-sources-2026
+modDatetime: 2026-11-14T01:46:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [technology, practice]
 ---
 
-[Kinh Tạng Pāli Việt](https://streamentry.github.io/kinh-tang-pali/)という、パーリ語からベトナム語への翻訳プロジェクトを作っています。読者がベトナム語の訳文だけでなく、どの本文に基づくのか、どの参考訳と並べているのかも確認できるようにしたいと思っています。
+Kinh Tạng Pāli Việtは、新しいベトナム語訳を固定したパーリ語本文と参考資料の層に並べ、各段落がどのテキストに従うかを読者に示します。
 
-プロジェクトではSuttaCentral/Bilaraのパーリ語版を固定し、segment IDで各箇所を結び付けています。パーリ語本文、英語の参考訳、利用できる場合の既存ベトナム語訳、プロジェクトの新しいベトナム語訳を、それぞれ別の層として扱います。参考訳がない場合は、その欠落を記録します。プロジェクト独自の英訳にも明示的なラベルを付けます。
+各段落では次の層を分けて保持します。
 
-同じコンテンツからウェブサイト、EPUB、PDFを作ります。カタログはMN1–MN152を収録していますが、各訳は編集段階を経ます。カタログに載っているだけで、翻訳が完成・公開済みという意味にはなりません。
+- セグメントIDで結ばれた固定版SuttaCentral/Bilaraパーリ語本文；
+- 英語の参考訳（利用可能な場合はBhikkhu Sujato訳を含む）；
+- 利用可能な場合はThích Minh Châu尊者による既存のベトナム語訳；
+- プロジェクトの新しいベトナム語訳。
 
-AIは翻訳案の作成、各層の比較、一貫性の確認、品質レビューの補助に使います。AIは道具であり、権威ではありません。参考訳が異なるときは、固定したパーリ語本文に立ち戻ります。「公開済み」は、プロジェクトが示す品質基準を通過したという意味で、独立した学術認証を示すものではありません。
+固定版パーリ語本文はプロジェクトの参照元であり、唯一の歴史的原本だという主張ではありません。カタログはMN 1–152を対象にしますが、項目の登録は翻訳の完成を意味しません。同じコンテンツからウェブサイト、EPUB、PDFを生成します。
 
-[GitHubでプロジェクトの説明と出典を見る](https://github.com/streamentry/kinh-tang-pali)。
+AIは翻訳案や一貫性の確認を支援します。道具であり、権威ではありません。「公開」状態はプロジェクトの品質基準を通過したことを示すだけで、すべての段落が独立した学者に審査されたという意味ではありません。
+
+出典：[Kinh Tạng Pāli Việt README](https://github.com/streamentry/kinh-tang-pali/blob/main/README.md)および[品質評価](https://github.com/streamentry/kinh-tang-pali/blob/main/docs/quality-assessments.md)（2026年11月14日閲覧）。

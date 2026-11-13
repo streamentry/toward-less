@@ -1,21 +1,30 @@
 ---
 title: "Manter distintas as testemunhas textuais budistas"
-description: "Buddhist Textual Witnesses cria um catálogo rastreável sem fundir recensões diferentes em um original imaginado."
+description: "Catálogo alinhado às fontes que distingue manuscritos, edições, traduções e reconstruções budistas."
 lang: pt
 slug: buddhist-textual-witnesses-pt
 translationKey: buddhist-textual-witnesses-2026
+modDatetime: 2026-11-14T01:46:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-Comparar textos budistas em várias línguas traz um atalho tentador: tratar paralelos como cópias de um único original. O [Buddhist Textual Witnesses](https://github.com/streamentry/buddhist-textual-witnesses) foi pensado para evitar essa simplificação.
+Buddhist Textual Witnesses é um catálogo alinhado às fontes para comparar textos budistas sem tratar passagens paralelas como cópias de um único original recuperável.
 
-O repositório cria um catálogo rastreável de testemunhos em sânscrito, sânscrito híbrido budista, pácrito e gandari, além de traduções para o chinês clássico. Ele fixa os corpora de origem e suas revisões exatas e registra obra, língua, testemunho e fonte. Manuscrito, edição moderna, tradução e reconstrução são tipos distintos de evidência. O páli pode servir de base de alinhamento quando útil, mas não é tratado como raiz de todas as tradições.
+O catálogo registra obras, idiomas, testemunhos textuais e revisões exatas das fontes em:
 
-Os cruzamentos também usam rótulos cautelosos. Um paralelo textual integral não é necessariamente exato: recensões independentes podem compartilhar um ancestral e ainda assim divergir. Correspondências geradas por máquina ou analisadas por modelo continuam como candidatas até passarem por revisão humana e promoção explícita. Algumas fontes são registradas, mas não copiadas integralmente enquanto os direitos de redistribuição não estiverem claros.
+- sânscrito, sânscrito híbrido budista e prácrito/gandhari;
+- testemunhos em chinês clássico;
+- páli como base de alinhamento quando útil, não como origem de todas as tradições.
 
-O objetivo é oferecer infraestrutura para comparação: preservar o que cada testemunho diz, de onde vem e o que permanece incerto. O projeto não afirma que exista um único cânone budista original a ser reconstruído.
+O projeto mantém manuscritos, edições, traduções e reconstruções separados. Seus quadros de correspondência seguem três regras:
 
-[Explore o repositório](https://github.com/streamentry/buddhist-textual-witnesses).
+- um paralelo textual completo não é necessariamente exato;
+- correspondências geradas por máquina continuam candidatas até revisão humana e promoção explícita;
+- fontes com direitos de redistribuição incertos podem ser registradas sem serem copiadas para o repositório.
+
+É infraestrutura para comparação, não uma afirmação de que exista um único cânone budista original reconstruído.
+
+Fonte: [README do Buddhist Textual Witnesses](https://github.com/streamentry/buddhist-textual-witnesses/blob/main/README.md) (consultado em 14 de novembro de 2026).

@@ -1,21 +1,27 @@
 ---
 title: "Uma tradução em páli com as fontes à vista"
-description: "O Kinh Tạng Pāli Việt mantém a nova tradução vietnamita ao lado do texto em páli e de suas referências."
+description: "Kinh Tạng Pāli Việt mostra o texto páli fixado, as referências e o estado editorial das traduções vietnamitas."
 lang: pt
 slug: traducao-pali-com-fontes
 translationKey: pali-translation-sources-2026
+modDatetime: 2026-11-14T01:46:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [technology, practice]
 ---
 
-Estou construindo o [Kinh Tạng Pāli Việt](https://streamentry.github.io/kinh-tang-pali/), um projeto de tradução do páli para o vietnamita. Quero que o leitor veja não apenas como um trecho foi traduzido, mas também qual texto serve de base e quais referências aparecem ao lado.
+Kinh Tạng Pāli Việt coloca uma nova tradução vietnamita ao lado do texto páli fixado e das camadas de referência, para que o leitor veja qual texto cada passagem segue.
 
-O projeto fixa uma edição em páli do SuttaCentral/Bilara e liga as passagens por IDs de segmento. O texto em páli, as referências em inglês, a tradução vietnamita existente quando disponível e a nova tradução vietnamita do projeto permanecem em camadas distintas. Quando falta uma referência, essa lacuna é registrada. Os trechos em inglês traduzidos pelo próprio projeto recebem uma identificação explícita.
+Cada passagem mantém separadas:
 
-Uma única fonte de conteúdo alimenta o site, os arquivos EPUB e os PDFs. O catálogo cobre MN1–MN152, mas cada tradução passa por etapas editoriais. Estar no catálogo não significa que a tradução esteja concluída ou publicada.
+- a versão páli fixada de SuttaCentral/Bilara, ligada por ID de segmento;
+- referências em inglês, incluindo a tradução de Bhikkhu Sujato quando disponível;
+- a tradução vietnamita existente de Venerável Thích Minh Châu quando disponível;
+- a nova tradução vietnamita do projeto.
 
-A IA ajuda a propor traduções, comparar as camadas, verificar consistência e apoiar a revisão de qualidade. É uma ferramenta, não uma autoridade. Quando as referências divergem, o projeto volta ao texto em páli fixado. O status “publicado” indica que o trabalho passou pelo critério de qualidade declarado pelo projeto; não é uma certificação acadêmica independente.
+A edição páli fixada é o texto-fonte do projeto, não uma afirmação sobre um único original histórico. O catálogo cobre MN 1–152, mas uma entrada não significa que a tradução esteja pronta. Uma única fonte de conteúdo alimenta o site, o EPUB e o PDF.
 
-[Leia as notas e consulte as fontes do projeto no GitHub](https://github.com/streamentry/kinh-tang-pali).
+A IA ajuda a propor traduções e verificar consistência. É uma ferramenta, não uma autoridade. O status “publicado” significa que o texto passou pelo critério de qualidade do projeto; não significa que cada segmento tenha sido revisto por estudiosos independentes.
+
+Fontes: [README do Kinh Tạng Pāli Việt](https://github.com/streamentry/kinh-tang-pali/blob/main/README.md) e [avaliações de qualidade](https://github.com/streamentry/kinh-tang-pali/blob/main/docs/quality-assessments.md) (consultados em 14 de novembro de 2026).

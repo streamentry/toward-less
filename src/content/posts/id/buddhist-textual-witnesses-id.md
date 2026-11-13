@@ -1,21 +1,30 @@
 ---
 title: "Menjaga kesaksian teks Buddhis tetap terpisah"
-description: "Buddhist Textual Witnesses menyusun katalog sumber yang dapat ditelusuri tanpa melebur resensi berbeda menjadi satu naskah asli khayalan."
+description: "Katalog selaras sumber yang membedakan manuskrip, edisi, terjemahan, dan rekonstruksi Buddhis."
 lang: id
 slug: buddhist-textual-witnesses-id
 translationKey: buddhist-textual-witnesses-2026
+modDatetime: 2026-11-14T01:46:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-Membandingkan teks Buddhis lintas bahasa mengundang jalan pintas yang menggoda: menganggap teks paralel sebagai salinan dari satu naskah asli. [Buddhist Textual Witnesses](https://github.com/streamentry/buddhist-textual-witnesses) dibuat untuk menghindari penyederhanaan itu.
+Buddhist Textual Witnesses adalah katalog yang disejajarkan dengan sumber untuk membandingkan teks Buddhis tanpa menganggap bagian paralel sebagai salinan dari satu naskah asli yang dapat dipulihkan.
 
-Repositori ini menyusun katalog kesaksian teks yang dapat ditelusuri, mencakup Sanskerta, Sanskerta Hibrida Buddhis, Prakrit dan Gāndhārī, serta terjemahan Tionghoa klasik. Korpus sumber dan revisi tepatnya dipatok; setiap entri mencatat karya, bahasa, saksi, dan sumber. Naskah, edisi modern, terjemahan, dan rekonstruksi adalah jenis bukti yang berbeda. Pali dapat menjadi dasar penyelarasan bila berguna, tetapi tidak dianggap sebagai akar semua tradisi.
+Katalog mencatat karya, bahasa, saksi teks, dan revisi sumber yang tepat untuk:
 
-Peta silang juga memakai label hubungan dengan hati-hati. Paralel tekstual penuh belum tentu persis sama: resensi mandiri dapat berbagi leluhur namun tetap berbeda. Kecocokan dari mesin atau tinjauan model tetap menjadi kandidat sampai ada tinjauan manusia dan promosi terpisah. Sejumlah sumber dicatat tanpa menyalin seluruh kompilasinya selama izin distribusi ulang belum jelas.
+- Sanskerta, Sanskerta Hibrida Buddhis, dan Prakerta/Gandhari;
+- saksi berbahasa Tionghoa Klasik;
+- Pali sebagai dasar penyelarasan bila berguna, bukan asal semua tradisi.
 
-Tujuannya adalah menyediakan infrastruktur perbandingan: menjaga isi tiap saksi, asalnya, dan hal yang masih belum pasti. Proyek ini tidak mengklaim adanya satu kanon Buddhis asli yang dapat direkonstruksi.
+Proyek ini membedakan manuskrip, edisi, terjemahan, dan rekonstruksi. Crosswalk-nya mengikuti tiga aturan:
 
-[Jelajahi repositori](https://github.com/streamentry/buddhist-textual-witnesses).
+- paralel tekstual penuh belum tentu sama persis;
+- kecocokan buatan mesin tetap kandidat sampai ditinjau manusia dan dipromosikan secara eksplisit;
+- sumber dengan hak redistribusi yang belum jelas dapat dicatat tanpa disalin ke repositori.
+
+Ini adalah infrastruktur perbandingan, bukan klaim bahwa satu kanon Buddhis asli telah direkonstruksi.
+
+Sumber: [README Buddhist Textual Witnesses](https://github.com/streamentry/buddhist-textual-witnesses/blob/main/README.md) (diakses 14 November 2026).

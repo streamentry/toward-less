@@ -1,21 +1,27 @@
 ---
 title: "一份把巴利语原文放在眼前的译本"
-description: "Kinh Tạng Pāli Việt 将新的越南语译文与巴利语原文及参考译本并列呈现。"
+description: "Kinh Tạng Pāli Việt 展示固定版巴利文、参考层及越南语译文的编辑状态。"
 lang: zh
 slug: pali-source-visible-zh
 translationKey: pali-translation-sources-2026
+modDatetime: 2026-11-14T01:46:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [technology, practice]
 ---
 
-我正在建设 [Kinh Tạng Pāli Việt](https://streamentry.github.io/kinh-tang-pali/)，一个从巴利语译成越南语的项目。我希望读者看到的不只是越南语译文，也能知道它依据哪一版文本，以及它与哪些参考译本并列。
+Kinh Tạng Pāli Việt 将新的越南语译文与已固定版本的巴利文来源及参考层并列，方便读者查看每段译文所依据的文本。
 
-项目固定使用 SuttaCentral/Bilara 的一版巴利语文本，并用 segment ID 对齐段落。巴利语原文、英语参考译本、可用时的既有越南语译本，以及项目新译的越南语文本，各自保持为独立层。缺少参考文本时，项目会记录这一空缺；项目自行翻译的英语段落也会明确标注。
+每段分别保留：
 
-同一份内容源用于生成网站、EPUB 和 PDF。目录覆盖 MN1–MN152，但每篇译文仍需经过编辑阶段。列入目录本身不代表译文已经完成或发布。
+- 按段落 ID 链接的 SuttaCentral/Bilara 固定版巴利文；
+- 英文参考译文，包括可用时的 Bhikkhu Sujato 译本；
+- 可用时的 Thích Minh Châu 现有越南语译本；
+- 项目新译的越南语文本。
 
-AI 用于提出译文方案、比较文本层、检查一致性并辅助质量审阅。它是工具，不是权威。参考译本有分歧时，项目回到固定的巴利语文本。标为已发布，只表示通过项目公开说明的质量门槛；这不等于获得了独立学术认证。
+固定的巴利文版本是项目的来源文本，不代表存在唯一的历史原本。目录覆盖 MN 1–152，但目录条目不等于译文已经完成。同一内容源生成网站、EPUB 和 PDF。
 
-[在 GitHub 阅读项目说明和来源链接](https://github.com/streamentry/kinh-tang-pali)。
+AI 用于提出译文并检查一致性；它是工具，不是权威。标为“已发布”表示通过项目自己的质量门槛，不表示每段都经过独立学者审查。
+
+来源：[Kinh Tạng Pāli Việt README](https://github.com/streamentry/kinh-tang-pali/blob/main/README.md)和[质量评估说明](https://github.com/streamentry/kinh-tang-pali/blob/main/docs/quality-assessments.md)（访问于 2026 年 11 月 14 日）。

@@ -1,21 +1,27 @@
 ---
 title: "Terjemahan Pali dengan sumber yang dapat dilihat"
-description: "Kinh Tạng Pāli Việt meletakkan terjemahan baharu bahasa Vietnam bersama teks Pali dan lapisan rujukannya."
+description: "Kinh Tạng Pāli Việt memaparkan teks Pāli yang dipinkan, lapisan rujukan dan status editorial terjemahan Vietnam."
 lang: ms
 slug: terjemahan-pali-dengan-sumber
 translationKey: pali-translation-sources-2026
+modDatetime: 2026-11-14T01:46:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [technology, practice]
 ---
 
-Saya sedang membina [Kinh Tạng Pāli Việt](https://streamentry.github.io/kinh-tang-pali/), sebuah projek terjemahan daripada bahasa Pali ke bahasa Vietnam. Saya mahu pembaca bukan sahaja melihat terjemahan sesuatu petikan, tetapi juga mengetahui teks yang menjadi asasnya dan rujukan yang dipaparkan bersama.
+Kinh Tạng Pāli Việt meletakkan terjemahan baharu bahasa Vietnam di samping teks Pāli yang dipinkan dan lapisan rujukannya supaya pembaca tahu teks yang diikuti setiap petikan.
 
-Projek ini menetapkan satu edisi Pali daripada SuttaCentral/Bilara dan memadankan petikan melalui ID segmen. Teks Pali, rujukan bahasa Inggeris, terjemahan Vietnam sedia ada apabila tersedia, dan terjemahan Vietnam baharu projek dikekalkan sebagai lapisan berasingan. Jika sesuatu rujukan tiada, kekosongan itu direkodkan. Petikan bahasa Inggeris yang diterjemah sendiri oleh projek turut dilabel dengan jelas.
+Setiap petikan mengekalkan lapisan berikut secara berasingan:
 
-Satu sumber kandungan digunakan untuk laman web, EPUB dan PDF. Katalog merangkumi MN1–MN152, tetapi setiap terjemahan melalui peringkat editorial. Tersenarai dalam katalog tidak bermaksud terjemahan sudah siap atau diterbitkan.
+- teks Pāli SuttaCentral/Bilara yang dipinkan, dipautkan melalui ID segmen;
+- rujukan bahasa Inggeris, termasuk terjemahan Bhikkhu Sujato jika tersedia;
+- terjemahan Vietnam sedia ada oleh Yang Mulia Thích Minh Châu jika tersedia;
+- terjemahan baharu bahasa Vietnam oleh projek.
 
-AI membantu mencadangkan terjemahan, membandingkan lapisan, menyemak keselarasan dan menyokong semakan mutu. AI ialah alat, bukan autoriti. Apabila rujukan berbeza, projek kembali kepada teks Pali yang telah ditetapkan. Status “diterbitkan” bermaksud karya melepasi ambang mutu yang diumumkan projek; ia bukan pensijilan akademik bebas.
+Edisi Pāli yang dipinkan ialah teks sumber projek, bukan dakwaan tentang satu teks asal sejarah. Katalog merangkumi MN 1–152, tetapi entri katalog tidak bermakna terjemahan sudah selesai. Satu sumber kandungan membekalkan laman web, EPUB dan PDF.
 
-[Baca nota dan sumber projek di GitHub](https://github.com/streamentry/kinh-tang-pali).
+AI membantu mencadangkan terjemahan dan menyemak konsistensi. AI ialah alat, bukan autoriti. Status published bermakna teks melepasi gerbang kualiti projek; bukan bermakna setiap segmen disemak oleh sarjana bebas.
+
+Sumber: [README Kinh Tạng Pāli Việt](https://github.com/streamentry/kinh-tang-pali/blob/main/README.md) dan [penilaian kualiti](https://github.com/streamentry/kinh-tang-pali/blob/main/docs/quality-assessments.md) (diakses pada 14 November 2026).

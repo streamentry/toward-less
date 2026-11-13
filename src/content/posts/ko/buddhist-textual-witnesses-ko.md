@@ -1,21 +1,30 @@
 ---
 title: "불교 문헌의 증거를 서로 구분해 두기"
-description: "Buddhist Textual Witnesses는 서로 다른 전승을 상상 속 하나의 원본으로 합치지 않고 출처를 추적할 수 있는 목록을 만듭니다."
+description: "불교 필사본, 판본, 번역, 재구성을 구분하는 출처 기반 목록."
 lang: ko
 slug: buddhist-textual-witnesses-ko
 translationKey: buddhist-textual-witnesses-2026
+modDatetime: 2026-11-14T01:46:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-여러 언어의 불교 문헌을 비교하다 보면 평행하는 텍스트를 하나의 원본을 베낀 것으로 단순화하고 싶어집니다. [Buddhist Textual Witnesses](https://github.com/streamentry/buddhist-textual-witnesses)는 그 지름길을 피하도록 설계됐습니다.
+Buddhist Textual Witnesses는 불교 문헌을 출처에 맞춰 비교하는 목록이다. 병행 구절을 복원 가능한 하나의 원본에서 나온 복사본으로 가정하지 않는다.
 
-이 저장소는 산스크리트어, 불교 혼성 산스크리트어, 프라크리트와 간다리어, 고전 한역의 문헌 증거를 출처와 함께 목록화합니다. 상위 자료와 정확한 리비전을 고정하고 작품, 언어, 증거본, 출처를 기록합니다. 사본, 현대 판본, 번역, 재구성은 서로 다른 종류의 증거입니다. 필요하면 팔리어를 대조 기준으로 쓸 수 있지만 모든 전통의 뿌리로 보지는 않습니다.
+목록은 작품, 언어, 텍스트 증거, 정확한 출처 리비전을 다음 자료군에서 기록한다.
 
-대조표도 관계를 신중하게 표시합니다. 전체 텍스트 평행이 정확히 같은 문장이라는 뜻은 아닙니다. 독립된 전승은 공통 조상을 공유하면서도 달라질 수 있습니다. 기계나 모델이 찾은 대응은 사람이 검토하고 별도로 승인하기 전까지 후보로 남습니다. 재배포 권한이 분명하지 않은 자료는 등록하되 전체를 복제하지 않습니다.
+- 산스크리트어, 불교 혼합 산스크리트어, 프라크리트/간다라어;
+- 고전 중국어 증거 자료;
+- 필요할 때 정렬 기준으로 쓰는 팔리어(모든 전통의 뿌리로 보지 않음).
 
-목표는 비교를 위한 기반을 마련하는 것입니다. 각 증거본의 내용과 출처, 아직 불확실한 점을 보존합니다. 하나의 재구성된 불교 원전이 존재한다고 주장하지 않습니다.
+필사본, 판본, 번역, 재구성은 서로 구분한다. 대조표는 세 가지 원칙을 따른다.
 
-[GitHub 저장소 보기](https://github.com/streamentry/buddhist-textual-witnesses).
+- 전체 텍스트 평행 관계가 정확히 같은 텍스트라는 뜻은 아니다;
+- 기계가 만든 대응은 사람의 검토와 명시적 승격 전까지 후보로 남는다;
+- 재배포 권리가 불분명한 자료는 등록하되 저장소에 복사하지 않을 수 있다.
+
+이는 비교를 위한 기반이지, 하나의 재구성된 불교 원전이 있다는 주장이 아니다.
+
+출처: [Buddhist Textual Witnesses README](https://github.com/streamentry/buddhist-textual-witnesses/blob/main/README.md) (2026년 11월 14일 확인).
