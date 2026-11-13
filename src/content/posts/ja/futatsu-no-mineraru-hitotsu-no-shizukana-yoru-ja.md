@@ -35,6 +35,6 @@ tags: [life]
 
 ### 参考文献
 
-1. Dalton (Analyze & Optimize) (@Outdoctrination), X post, 9 November 2026, status 2119548959513305453. It was verified on 9 November; a direct fetch returned 403 on 13 November. [Original post](https://x.com/outdoctrination/status/2119548959513305453).
+1. Dalton (Analyze & Optimize) (@Outdoctrination), X post, 9 November 2026, status 2119548959513305453. Original post: “Magnesium + potassium combination lowered cortisol by ~45% and completely eliminated severe insomnia in a recent clinical trial.” It was verified on 9 November; a direct fetch returned 403 on 13 November. [Post](https://x.com/outdoctrination/status/2119548959513305453).
 2. Sidra Khalid et al. (29 October 2024), *Effects of magnesium and potassium supplementation on insomnia and sleep hormones in patients with diabetes mellitus*, *Frontiers in Endocrinology* 15, 1370733, [full text](https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2024.1370733/full).
 3. Adrian L. Lopresti, Stephen J. Smith, and Peter D. Drummond (28 August 2026), *Magnesium Supplementation for Sleep in Adults: A Systematic Review of Randomized Controlled Trials*, *Journal of Dietary Supplements* 23(5), 553–581, [PubMed record](https://pubmed.ncbi.nlm.nih.gov/42661485/), [publisher DOI](https://doi.org/10.1080/19390211.2026.2719670).
