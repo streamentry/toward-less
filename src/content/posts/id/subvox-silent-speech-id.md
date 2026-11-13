@@ -1,21 +1,24 @@
 ---
 title: "Eksperimen kecil tentang ujaran tanpa suara"
-description: "Subvox menguji apakah gerakan kepala dari AirPods Pro dapat membedakan beberapa kata yang dibentuk tanpa suara."
+description: "Subvox menguji apakah gerakan headphone dapat membedakan beberapa kata yang diucapkan tanpa suara."
 lang: id
 slug: subvox-silent-speech-id
 translationKey: subvox-silent-speech-2026
+modDatetime: 2026-11-14T01:59:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-[Subvox](https://github.com/joeblau/subvox) mengajukan pertanyaan terbatas: apakah data gerak AirPods Pro cukup untuk membedakan beberapa kata yang dibentuk dengan mulut tanpa suara?
+Subvox menguji apakah data gerakan kepala dari AirPods Pro dapat membedakan beberapa kata yang diucapkan tanpa suara. Ini prototipe macOS, bukan sistem pengenalan ucapan umum.
 
-Ini prototipe macOS, bukan sistem ujaran tanpa suara untuk penggunaan umum. Aplikasi merekam percepatan, laju rotasi, dan orientasi headphone, membagi setiap percobaan menjadi segmen, lalu mencocokkannya dengan templat kata memakai dynamic time warping. Layar Train membandingkan akurasi leave-one-out dengan 500 pengujian permutasi label. Layar Decode menampilkan prediksi gerakan di samping transkrip mikrofon langsung. Aplikasi ini tidak memakai model bahasa.
+Prototipe ini:
 
-Eksperimennya dapat diperiksa: grafik sensor, rekaman sesi, pilihan fitur gerak, dan ambang penolakan memperlihatkan apa yang diuji. Namun README menjelaskan metodenya tanpa melaporkan hasil akurasi terukur. Sinyalnya juga terbatas: sekitar 25 Hz, terutama gerakan kepala dan rahang, bukan getaran suara. Templat bergantung pada pengguna dan sesi, dan dapat bergeser saat earbud dipasang ulang.
+- merekam akselerasi, rotasi, dan sikap pada sekitar 25 Hz; sinyalnya terutama gerakan kepala dan rahang, bukan getaran suara;
+- mencocokkan segmen dengan template kata khusus pengguna dan sesi menggunakan dynamic time warping;
+- membandingkan klasifikasi leave-one-out dengan 500 uji label acak dan menampilkan transkrip mikrofon di samping prediksi gerakan.
 
-Subvox adalah eksperimen untuk mengukur sinyal, bukan bukti bahwa ujaran tanpa suara siap digunakan sehari-hari.
+README menjelaskan metodenya, tetapi tidak melaporkan hasil akurasi yang diamati. Memasang ulang earbud dapat menggeser template; prototipe ini tidak memakai model bahasa. Eksperimen ini menguji sebuah sinyal, bukan membuktikan bahwa bicara tanpa suara siap digunakan sehari-hari.
 
-[Lihat proyek di GitHub](https://github.com/joeblau/subvox).
+Sumber: [README Subvox](https://github.com/joeblau/subvox/blob/main/README.md) (diakses 14 November 2026).

@@ -1,21 +1,24 @@
 ---
 title: "मौन मुख-उच्चारण पर एक छोटा प्रयोग"
-description: "Subvox जाँचता है कि AirPods Pro की सिर-गतियों से चुपचाप मुँह से बोले गए कुछ शब्द पहचाने जा सकते हैं या नहीं।"
+description: "Subvox जाँचता है कि कम-आवृत्ति headphone motion से कुछ मुँह-बोले शब्द पहचाने जा सकते हैं या नहीं।"
 lang: hi
 slug: subvox-silent-speech-hi
 translationKey: subvox-silent-speech-2026
+modDatetime: 2026-11-14T01:59:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-[Subvox](https://github.com/joeblau/subvox) एक सीमित सवाल पूछता है: क्या AirPods Pro की गति से चुपचाप मुँह से बोले गए कुछ शब्द अलग पहचाने जा सकते हैं?
+Subvox यह जाँचता है कि क्या AirPods Pro के सिर-गतिशीलता डेटा से चुपचाप मुँह से बोले गए कुछ शब्द अलग पहचाने जा सकते हैं। यह macOS prototype है, सामान्य speech-recognition system नहीं।
 
-यह macOS का प्रोटोटाइप है, कोई सामान्य मौन-वाणी प्रणाली नहीं। यह हेडफ़ोन से त्वरण, घूर्णन-दर और स्थिति दर्ज करता है, हर प्रयास को खंडों में बाँटता है, फिर गतिशील समय-विकृति से उन्हें शब्द-टेम्पलेट से मिलाता है। Train स्क्रीन leave-one-out शुद्धता की तुलना 500 बार लेबलों को फेरबदल करके किए गए परीक्षण से करती है। Decode स्क्रीन गति से निकले शब्दों के साथ माइक्रोफ़ोन की लाइव लिपि दिखाती है। इसमें भाषा मॉडल नहीं है।
+यह prototype:
 
-प्रयोग जाँचने योग्य है: सेंसर ग्राफ़, सत्र रिकॉर्डिंग, चुने जा सकने वाले गति-चैनल और अस्वीकार करने की सीमाएँ दिखाती हैं कि क्या परखा जा रहा है। लेकिन README विधि बताता है, मापी गई शुद्धता का परिणाम नहीं। संकेत भी सीमित है: लगभग 25 Hz और मुख्यतः सिर व जबड़े की गति, न कि आवाज़ का कंपन। टेम्पलेट व्यक्ति और सत्र पर निर्भर हैं; ईयरबड दोबारा लगाने पर संकेत बदल सकता है।
+- लगभग 25 Hz पर acceleration, rotation और attitude दर्ज करता है; संकेत मुख्यतः सिर और जबड़े की गति है, vocal vibration नहीं;
+- dynamic time warping से खंडों को व्यक्ति और session के अनुसार बने शब्द-templates से मिलाता है;
+- leave-one-out classification की तुलना 500 shuffled-label tests से करता है और motion prediction के साथ microphone transcript दिखाता है।
 
-Subvox एक संकेत को मापने का प्रयोग है, यह प्रमाण नहीं कि मौन वाणी रोज़मर्रा के उपयोग के लिए तैयार है।
+README विधि बताता है, पर देखी गई accuracy का परिणाम नहीं देता। AirPods फिर से लगाने पर templates बदल सकते हैं; prototype में language model नहीं है। यह एक signal जाँचता है, यह साबित नहीं करता कि silent speech रोज़मर्रा के उपयोग के लिए तैयार है।
 
-[GitHub पर परियोजना देखें](https://github.com/joeblau/subvox)।
+स्रोत: [Subvox README](https://github.com/joeblau/subvox/blob/main/README.md) (14 नवंबर 2026 को देखा गया)।

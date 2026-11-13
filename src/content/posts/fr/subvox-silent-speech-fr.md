@@ -1,21 +1,24 @@
 ---
 title: "Une petite expérience sur la parole silencieuse"
-description: "Subvox teste si les mouvements de tête mesurés par les AirPods Pro distinguent quelques mots articulés sans voix."
+description: "Subvox teste si les mouvements des écouteurs distinguent quelques mots articulés sans voix."
 lang: fr
 slug: subvox-silent-speech-fr
 translationKey: subvox-silent-speech-2026
+modDatetime: 2026-11-14T01:59:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-[Subvox](https://github.com/joeblau/subvox) pose une question limitée : les mouvements des AirPods Pro permettent-ils de distinguer quelques mots articulés sans les prononcer ?
+Subvox teste si les mouvements de tête mesurés par des AirPods Pro permettent de distinguer quelques mots articulés sans voix. C’est un prototype macOS, pas un système général de reconnaissance vocale.
 
-C’est un prototype macOS, pas un système général de parole silencieuse. Il enregistre l’accélération, la vitesse de rotation et l’orientation des écouteurs, découpe chaque essai en segments, puis les compare à des modèles de mots par alignement temporel dynamique. L’écran Train compare la précision leave-one-out à 500 permutations d’étiquettes. Decode affiche les prédictions du mouvement à côté d’une transcription en direct du microphone. Aucun modèle de langage n’est utilisé.
+Le prototype :
 
-L’expérience est inspectable : courbes des capteurs, enregistrements de sessions, sélection des caractéristiques et seuils de rejet montrent ce qui est testé. Mais le README décrit la méthode sans donner de résultat de précision mesuré. Le signal est aussi limité : environ 25 Hz, principalement les mouvements de la tête et de la mâchoire, pas les vibrations de la voix. Les modèles dépendent de la personne et de la session ; remettre les écouteurs peut déplacer le signal.
+- enregistre l’accélération, la rotation et l’orientation à environ 25 Hz ; le signal provient surtout de la tête et de la mâchoire, pas des vibrations vocales ;
+- associe chaque segment à des modèles de mots propres à l’utilisateur et à la session grâce au dynamic time warping ;
+- compare la classification leave-one-out à 500 tests d’étiquettes mélangées et affiche la transcription du micro à côté des prédictions de mouvement.
 
-Subvox est une expérience de mesure, pas la preuve que la parole silencieuse est prête pour un usage quotidien.
+Le README décrit la méthode, mais ne donne aucun résultat de précision observé. Remettre les écouteurs peut déplacer les modèles ; le prototype n’utilise pas de modèle de langage. Il teste un signal, sans montrer que la parole silencieuse est prête pour un usage quotidien.
 
-[Voir le projet sur GitHub](https://github.com/joeblau/subvox).
+Source : [README de Subvox](https://github.com/joeblau/subvox/blob/main/README.md) (consulté le 14 novembre 2026).

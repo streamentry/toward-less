@@ -1,19 +1,24 @@
 ---
 title: "The Thread Seers：关于连接的故事"
-description: "The Thread Seers将奇幻系列、免费在线阅读器和探索故事世界的网站放在一起。"
+description: "The Thread Seers 将七卷奇幻系列与免费英越语阅读器结合，并明确作品的再使用权。"
 lang: zh
 slug: thread-seers-project-zh
 translationKey: the-thread-seers-project-2026
+modDatetime: 2026-11-14T01:59:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [life, technology]
 ---
 
-[The Thread Seers](https://streamentry.github.io/thethreadseers.com/)的核心意象是：无形的丝线连接着所有生命。这套七册奇幻系列讲述Lyra Chen从12岁到18岁逐渐发现这些丝线意味着什么。
+《The Thread Seers》是一套七卷奇幻系列，讲述 Lyra Chen 从 12 岁到 18 岁的经历，并以无形丝线连接万物为核心意象。
 
-网站既介绍系列，也提供阅读入口。读者可以在线阅读第一册《The Awakening Thread》，还可以探索Thread Dimension、系列的魔法体系与传统、术语表和项目更新。
+网站提供：
 
-[代码仓库](https://github.com/streamentry/thethreadseers.com)展示网站的组成：阅读器、系列与章节页面、世界设定和更新内容；叙事文本以Markdown保存。代码与工具采用MIT许可证。小说手稿、角色、世界设定、封面艺术和有声书录音仍受版权保护；免费在线阅读不代表可以再利用这些内容。
+- 可免费在线阅读的第一册英文版和越南语版；
+- 对“丝线维度”、系列魔法体系和传统的介绍；
+- 术语表和项目更新。
 
-这个项目把一个关于连接的故事与一个方便探索其世界的网站结合起来。核心意象很简单，网站的实现可以在仓库中查看，故事本身仍属于作者。
+README 说明代码和工具使用 MIT 许可证。小说手稿、人物、世界设定、插画和有声书录音仍受版权保护；免费阅读不授予再使用权。
+
+来源：[项目网站](https://streamentry.github.io/thethreadseers.com/)、[项目 README](https://github.com/streamentry/thethreadseers.com/blob/main/README.md)和[许可证](https://github.com/streamentry/thethreadseers.com/blob/main/LICENSE)（访问于 2026 年 11 月 14 日）。

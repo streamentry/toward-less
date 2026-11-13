@@ -1,21 +1,24 @@
 ---
 title: "A small experiment in silent speech"
-description: "Subvox tests whether AirPods Pro head motion can distinguish a small set of silently mouthed words."
+description: "Subvox tests whether low-rate headphone motion can distinguish a few silently mouthed words."
 lang: en
 slug: subvox-silent-speech-en
 translationKey: subvox-silent-speech-2026
+modDatetime: 2026-11-14T01:59:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-[Subvox](https://github.com/joeblau/subvox) asks a narrow question: can AirPods Pro motion distinguish a few words mouthed silently?
+Subvox asks whether AirPods Pro head-motion data can distinguish a few words mouthed silently. It is a macOS prototype, not a general speech-recognition system.
 
-It is a macOS prototype, not a general silent-speech system. It records acceleration, rotation, and attitude from the headphones, segments each attempt, then matches it to word templates with dynamic time warping. A training screen evaluates leave-one-out accuracy against 500 shuffled-label tests. The decode screen shows motion predictions beside a live microphone transcript. There is no language model.
+The prototype:
 
-The experiment is inspectable: sensor plots, session recordings, selectable motion features, and rejection thresholds make the test visible. But the README describes the method without reporting an observed accuracy result. The signal is also limited: roughly 25 Hz, mostly head and jaw movement rather than vocal vibration. Templates are user- and session-specific and can shift when the earbuds are reseated.
+- records acceleration, rotation, and attitude at roughly 25 Hz; the signal is mostly head and jaw movement, not vocal vibration;
+- matches segments to user- and session-specific word templates with dynamic time warping;
+- compares leave-one-out classification with 500 shuffled-label tests and shows a microphone transcript beside its predictions.
 
-Subvox is an experiment in measuring a signal, not evidence that silent speech is ready for everyday use.
+The README documents the method but reports no observed accuracy result. Reseating the earbuds can shift templates, and the prototype has no language model. It tests a signal; it does not show that silent speech is ready for everyday use.
 
-[See the project on GitHub](https://github.com/joeblau/subvox).
+Source: [Subvox README](https://github.com/joeblau/subvox/blob/main/README.md) (accessed 14 November 2026).

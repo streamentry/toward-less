@@ -1,21 +1,24 @@
 ---
 title: "خاموش منہ کی حرکت پر ایک چھوٹا تجربہ"
-description: "Subvox جانچتا ہے کہ AirPods Pro کی سر کی حرکت سے خاموشی میں منہ سے بنائے گئے چند الفاظ پہچانے جا سکتے ہیں یا نہیں۔"
+description: "Subvox جانچتا ہے کہ کیا headphones کی حرکت سے چند خاموشی سے ادا کیے گئے الفاظ پہچانے جا سکتے ہیں۔"
 lang: ur
 slug: subvox-silent-speech-ur
 translationKey: subvox-silent-speech-2026
+modDatetime: 2026-11-14T01:59:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-[Subvox](https://github.com/joeblau/subvox) ایک محدود سوال اٹھاتا ہے: کیا AirPods Pro کی حرکتی معلومات سے خاموشی میں منہ سے بنائے گئے چند الفاظ الگ پہچانے جا سکتے ہیں؟
+Subvox یہ آزماتا ہے کہ کیا AirPods Pro کی سر کی حرکت کے ڈیٹا سے خاموشی سے منہ سے ادا کیے گئے چند الفاظ الگ پہچانے جا سکتے ہیں۔ یہ macOS کا prototype ہے، عام speech-recognition نظام نہیں۔
 
-یہ macOS کا ابتدائی نمونہ ہے، عام خاموش گفتار کا نظام نہیں۔ یہ ہیڈفون کی acceleration، rotation rate اور attitude ریکارڈ کرتا ہے، ہر کوشش کو حصوں میں بانٹتا ہے، پھر dynamic time warping کے ذریعے اسے لفظی نمونوں سے ملاتا ہے۔ Train اسکرین leave-one-out درستگی کا موازنہ 500 بار labels کو بےترتیب بدل کر کیے گئے ٹیسٹ سے کرتی ہے۔ Decode اسکرین حرکتی پیش گوئیوں کے ساتھ مائیکروفون کی براہِ راست نقل بھی دکھاتی ہے۔ اس میں language model استعمال نہیں ہوتا۔
+یہ prototype:
 
-تجربے کے اجزا دیکھے جا سکتے ہیں: سینسر کے گراف، سیشن ریکارڈنگ، حرکتی خصوصیات کا انتخاب اور رد کرنے کی حدیں واضح کرتی ہیں کہ کیا جانچا جا رہا ہے۔ لیکن README طریقہ بتاتا ہے، ناپی گئی درستگی کا نتیجہ نہیں۔ سگنل بھی محدود ہے: تقریباً 25 Hz، اور یہ آواز کی لرزش کے بجائے سر اور جبڑے کی حرکت پکڑتا ہے۔ نمونے ہر صارف اور سیشن کے لیے مخصوص ہیں اور ایئربڈ دوبارہ لگانے سے بدل سکتے ہیں۔
+- تقریباً 25 Hz پر acceleration، rotation اور attitude ریکارڈ کرتا ہے؛ سگنل زیادہ تر سر اور جبڑے کی حرکت ہے، آواز کی vibration نہیں؛
+- dynamic time warping سے ہر حصے کو مخصوص صارف اور session کے لفظی templates سے ملاتا ہے؛
+- leave-one-out classification کا موازنہ 500 shuffled-label tests سے کرتا ہے اور motion predictions کے ساتھ microphone transcript دکھاتا ہے۔
 
-Subvox ایک سگنل ناپنے کا تجربہ ہے، خاموش گفتار کے روزمرہ استعمال کے لیے تیار ہونے کا ثبوت نہیں۔
+README طریقہ بتاتا ہے لیکن دیکھی گئی accuracy کا نتیجہ نہیں دیتا۔ earbuds دوبارہ لگانے سے templates بدل سکتے ہیں؛ prototype میں language model نہیں۔ یہ ایک signal آزماتا ہے، یہ ثابت نہیں کرتا کہ خاموش speech روزمرہ استعمال کے لیے تیار ہے۔
 
-[GitHub پر منصوبہ دیکھیں](https://github.com/joeblau/subvox)۔
+ماخذ: [Subvox README](https://github.com/joeblau/subvox/blob/main/README.md) (14 نومبر 2026 کو دیکھا گیا).

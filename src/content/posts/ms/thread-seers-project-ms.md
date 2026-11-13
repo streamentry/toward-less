@@ -1,21 +1,24 @@
 ---
 title: "The Thread Seers: kisah tentang perkara yang menghubungkan kita"
-description: "The Thread Seers menggabungkan siri fantasi, ruang bacaan dalam talian percuma dan laman untuk meneroka dunianya."
+description: "The Thread Seers menyediakan siri fantasi tujuh buku dan pembaca percuma Inggeris-Vietnam, dengan hak guna semula yang jelas."
 lang: ms
 slug: thread-seers-project-ms
 translationKey: the-thread-seers-project-2026
+modDatetime: 2026-11-14T01:59:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [life, technology]
 ---
 
-Inti [The Thread Seers](https://streamentry.github.io/thethreadseers.com/) ialah satu gambaran: benang yang tidak kelihatan menghubungkan semua makhluk hidup. Siri fantasi tujuh buku ini mengikuti Lyra Chen dari usia dua belas hingga lapan belas tahun ketika dia menemui makna benang-benang itu.
+The Thread Seers ialah siri fantasi tujuh buku yang mengikuti Lyra Chen dari usia 12 hingga 18 tahun dalam kisah tentang benang ghaib yang menghubungkan semua hidupan.
 
-Laman ini menjadi tempat pengenalan dan pembacaan. Buku pertama, _The Awakening Thread_, boleh dibaca dalam talian. Pembaca juga boleh meneroka Thread Dimension, sistem magis dan tradisi dalam siri, glosari serta perkembangan projek.
+Laman ini menyediakan:
 
-[Repositori](https://github.com/streamentry/thethreadseers.com) menunjukkan cara laman itu dibina: pembaca, halaman siri dan bab, pembinaan dunia serta kemas kini; kandungan naratif disimpan dalam Markdown. Kod dan alat menggunakan lesen MIT. Manuskrip, watak, dunia cerita, karya seni dan rakaman buku audio kekal dilindungi hak cipta. Akses bacaan percuma dalam talian bukan kebenaran untuk menggunakan semula bahan tersebut.
+- Buku Satu untuk dibaca percuma dalam talian dalam bahasa Inggeris dan Vietnam;
+- panduan tentang Thread Dimension, sistem magik dan tradisi siri;
+- glosari dan kemas kini projek.
 
-Projek ini menggabungkan kisah tentang hubungan antara makhluk dengan laman yang membolehkan pembaca meneroka dunianya. Imej utamanya ringkas; struktur laman boleh dilihat dalam repositori, manakala kisahnya kekal sebagai karya penulis.
+README menyatakan kod dan alat menggunakan lesen MIT. Manuskrip, watak, dunia cerita, karya seni dan rakaman buku audio kekal dilindungi hak cipta; bacaan percuma tidak memberikan hak untuk menggunakan semula bahan tersebut.
 
-[Lihat projek di GitHub](https://github.com/streamentry/thethreadseers.com).
+Sumber: [laman semasa](https://streamentry.github.io/thethreadseers.com/), [README projek](https://github.com/streamentry/thethreadseers.com/blob/main/README.md) dan [lesen](https://github.com/streamentry/thethreadseers.com/blob/main/LICENSE) (diakses pada 14 November 2026).

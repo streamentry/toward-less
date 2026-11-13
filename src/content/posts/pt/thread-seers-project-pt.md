@@ -1,21 +1,24 @@
 ---
 title: "The Thread Seers: uma história sobre o que nos conecta"
-description: "The Thread Seers reúne uma série de fantasia, leitura gratuita on-line e um site para explorar seu universo."
+description: "The Thread Seers oferece uma série fantástica de sete livros e leitura gratuita em inglês e vietnamita, com direitos claros."
 lang: pt
 slug: thread-seers-project-pt
 translationKey: the-thread-seers-project-2026
+modDatetime: 2026-11-14T01:59:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [life, technology]
 ---
 
-No centro de [The Thread Seers](https://streamentry.github.io/thethreadseers.com/) há uma imagem: fios invisíveis conectam todos os seres vivos. A série de fantasia, planejada em sete livros, acompanha Lyra Chen dos doze aos dezoito anos enquanto ela descobre o que esses fios significam.
+The Thread Seers é uma série de fantasia em sete livros que acompanha Lyra Chen dos 12 aos 18 anos, em uma história sobre fios invisíveis que conectam os seres vivos.
 
-O site funciona como apresentação e espaço de leitura. O primeiro livro, _The Awakening Thread_, pode ser lido on-line. Também é possível explorar Thread Dimension, o sistema de magia e as tradições da série, um glossário e as novidades do projeto.
+O site oferece:
 
-O [repositório](https://github.com/streamentry/thethreadseers.com) mostra como o site foi montado: leitor, páginas da série e dos capítulos, construção do mundo e notícias; o conteúdo narrativo fica em Markdown. O código e as ferramentas usam a licença MIT. O manuscrito, os personagens, o universo, a arte e as gravações do audiolivro continuam protegidos por direitos autorais. Leitura gratuita on-line não autoriza reutilização.
+- o primeiro livro para leitura gratuita on-line em inglês e vietnamita;
+- uma apresentação da Dimensão dos Fios, do sistema mágico e das tradições da série;
+- um glossário e atualizações do projeto.
 
-O projeto combina uma história sobre conexões com um site que permite explorar esse mundo. A imagem central é simples; a estrutura do site está visível no repositório, enquanto a história continua sendo obra de seu autor.
+O README informa que o código e as ferramentas usam a licença MIT. O manuscrito, os personagens, o universo, as ilustrações e as gravações do audiolivro continuam protegidos por direitos autorais; a leitura gratuita não concede direito de reutilização.
 
-[Veja o projeto no GitHub](https://github.com/streamentry/thethreadseers.com).
+Fontes: [site atual](https://streamentry.github.io/thethreadseers.com/), [README do projeto](https://github.com/streamentry/thethreadseers.com/blob/main/README.md) e [licença](https://github.com/streamentry/thethreadseers.com/blob/main/LICENSE) (consultados em 14 de novembro de 2026).

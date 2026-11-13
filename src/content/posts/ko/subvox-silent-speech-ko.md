@@ -1,21 +1,24 @@
 ---
 title: "소리 없는 입 모양에 관한 작은 실험"
-description: "Subvox는 AirPods Pro의 머리 움직임으로 소리 없이 입 모양을 만든 몇 단어를 구별할 수 있는지 시험합니다."
+description: "Subvox는 낮은 주파수의 헤드폰 움직임으로 소리 없는 입 모양 단어를 구분할 수 있는지 시험한다."
 lang: ko
 slug: subvox-silent-speech-ko
 translationKey: subvox-silent-speech-2026
+modDatetime: 2026-11-14T01:59:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-[Subvox](https://github.com/joeblau/subvox)는 범위를 좁힌 질문을 다룹니다. AirPods Pro의 움직임 데이터에 소리 없이 입 모양을 만든 몇 단어를 구별할 만큼의 신호가 있을까요?
+Subvox는 AirPods Pro의 머리 움직임 데이터로 소리 없이 입 모양만 낸 몇 개 단어를 구분할 수 있는지 시험한다. macOS 프로토타입이며 일반적인 음성 인식 시스템은 아니다.
 
-이 앱은 일반적인 무성 발화 시스템이 아니라 macOS 프로토타입입니다. 이어폰의 가속도, 회전 속도, 자세를 기록하고 각 시도를 구간으로 나눈 뒤 동적 시간 왜곡으로 단어 템플릿과 비교합니다. Train 화면은 leave-one-out 정확도를 라벨을 500회 섞은 검정과 비교합니다. Decode 화면은 움직임 예측을 마이크 실시간 전사와 나란히 보여줍니다. 언어 모델은 사용하지 않습니다.
+프로토타입은:
 
-센서 그래프, 세션 녹음, 움직임 특징 선택, 거부 임계값을 통해 무엇을 시험하는지 확인할 수 있습니다. 다만 README는 방법을 설명할 뿐 측정된 정확도 결과는 제시하지 않습니다. 신호도 제한적입니다. 약 25 Hz로, 발성 진동이 아니라 주로 머리와 턱의 움직임을 포착합니다. 템플릿은 사용자와 세션에 따라 달라지고 이어폰을 다시 착용하면 바뀔 수 있습니다.
+- 약 25 Hz로 가속도, 회전, 자세를 기록한다. 신호는 주로 머리와 턱의 움직임이며 성대 진동이 아니다.
+- dynamic time warping으로 구간을 사용자와 세션별 단어 템플릿에 맞춘다.
+- leave-one-out 분류를 500회 무작위 레이블 테스트와 비교하고, 움직임 예측 옆에 마이크 음성 기록을 보여준다.
 
-Subvox는 신호를 측정하는 실험이지, 무성 발화가 일상에서 쓸 준비가 됐다는 증거는 아닙니다.
+README는 방법을 설명하지만 관찰된 정확도 결과는 보고하지 않는다. 이어버드를 다시 착용하면 템플릿이 달라질 수 있고 언어 모델도 사용하지 않는다. 이 실험은 신호를 시험할 뿐, 무성 발화가 일상 사용에 준비됐음을 보여주지는 않는다.
 
-[GitHub에서 프로젝트 보기](https://github.com/joeblau/subvox).
+출처: [Subvox README](https://github.com/joeblau/subvox/blob/main/README.md) (2026년 11월 14일 확인).

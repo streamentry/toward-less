@@ -1,21 +1,24 @@
 ---
 title: "Eksperimen kecil tentang pertuturan tanpa suara"
-description: "Subvox menguji sama ada gerakan kepala AirPods Pro dapat membezakan beberapa perkataan yang dibentuk tanpa suara."
+description: "Subvox menguji sama ada gerakan fon telinga dapat membezakan beberapa perkataan tanpa suara."
 lang: ms
 slug: subvox-silent-speech-ms
 translationKey: subvox-silent-speech-2026
+modDatetime: 2026-11-14T01:59:00+07:00
 pubDatetime: 2026-11-07T00:00:00+07:00
 draft: false
 featured: false
 tags: [technology]
 ---
 
-[Subvox](https://github.com/joeblau/subvox) menguji satu soalan khusus: adakah data gerakan AirPods Pro cukup untuk membezakan beberapa perkataan yang dibentuk dengan mulut tanpa suara?
+Subvox menguji sama ada data gerakan kepala daripada AirPods Pro dapat membezakan beberapa perkataan yang dibentuk tanpa suara. Ini prototaip macOS, bukan sistem pengecaman pertuturan umum.
 
-Ini prototaip macOS, bukan sistem pertuturan senyap umum. Aplikasi ini merekodkan pecutan, kadar putaran dan orientasi fon kepala, membahagikan setiap percubaan kepada segmen, kemudian memadankannya dengan templat perkataan menggunakan dynamic time warping. Skrin Train membandingkan ketepatan leave-one-out dengan 500 ujian permutasi label. Skrin Decode memaparkan ramalan gerakan bersama transkripsi langsung mikrofon. Tiada model bahasa digunakan.
+Prototaip ini:
 
-Eksperimen ini boleh diperiksa: graf sensor, rakaman sesi, pilihan ciri gerakan dan ambang penolakan menunjukkan perkara yang diuji. Namun README menerangkan kaedah tanpa melaporkan hasil ketepatan yang diukur. Isyaratnya juga terbatas: kira-kira 25 Hz, kebanyakannya gerakan kepala dan rahang, bukan getaran suara. Templat bergantung pada pengguna dan sesi, dan boleh berubah apabila fon telinga dipasang semula.
+- merekod pecutan, putaran dan orientasi pada kira-kira 25 Hz; isyaratnya kebanyakannya gerakan kepala dan rahang, bukan getaran suara;
+- memadankan segmen dengan templat perkataan khusus pengguna dan sesi menggunakan dynamic time warping;
+- membandingkan klasifikasi leave-one-out dengan 500 ujian label rawak dan memaparkan transkrip mikrofon di sebelah ramalan gerakan.
 
-Subvox ialah eksperimen untuk mengukur isyarat, bukan bukti bahawa pertuturan senyap sudah sesuai untuk kegunaan harian.
+README menerangkan kaedahnya tetapi tidak melaporkan hasil ketepatan yang diperhatikan. Memasang semula fon telinga boleh mengubah templat; prototaip ini tidak menggunakan model bahasa. Ia menguji satu isyarat, bukan membuktikan pertuturan tanpa suara sesuai untuk kegunaan harian.
 
-[Lihat projek di GitHub](https://github.com/joeblau/subvox).
+Sumber: [README Subvox](https://github.com/joeblau/subvox/blob/main/README.md) (diakses pada 14 November 2026).
