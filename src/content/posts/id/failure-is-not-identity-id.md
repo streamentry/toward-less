@@ -5,7 +5,7 @@ author: "C.S Chánh Niệm"
 lang: id
 slug: failure-is-not-identity-id
 translationKey: failure-is-not-identity-2026
-pubDatetime: 2026-11-14T10:15:00+07:00
+pubDatetime: 2026-11-14T07:00:00+07:00
 draft: false
 featured: false
 tags: [practice]
