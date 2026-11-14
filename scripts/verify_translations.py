@@ -62,6 +62,11 @@ for path in sorted(ROOT.rglob("*")):
             errors.append(f"{path}: temptation bundling needs three sections")
         if any(source not in body for source in ("10.1287/mnsc.2013.1784", "10.1016/j.obhdp.2020.09.003")):
             errors.append(f"{path}: two primary research sources missing")
+    if published and key == "life-not-dress-rehearsal-2026":
+        if len(re.findall(r"(?m)^##\s+", body)) != 1:
+            errors.append(f"{path}: life essay must retain its central reflection section")
+        if "blog.samaltman.com/the-days-are-long-but-the-decades-are-short" not in body:
+            errors.append(f"{path}: missing original verified Sam Altman source")
     if published and key == "failure-is-not-identity-2026":
         if len(re.findall(r"(?m)^##\s+", body)) != 2:
             errors.append(f"{path}: identity essay needs two sections")

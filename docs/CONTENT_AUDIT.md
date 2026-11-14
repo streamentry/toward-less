@@ -1,20 +1,20 @@
 # Toward Less — content and translation audit
 
-Updated 14 November 2026. This record is about **coverage and verifiable structure**, not a claim of native-speaker certification.
+Updated 15 November 2026. This record is about **coverage and verifiable structure**, not a claim of native-speaker certification.
 
 ## Coverage
 
 - **18 supported languages:** en, vi, zh, hi, es, ar, fr, bn, pt, id, ur, ja, ko, th, ms, ru, mr, fa.
-- **78 complete 18-language article families = 1,404 editions** in the current content tree (publication flags validated by CI).
+- **79 complete 18-language article families = 1,422 editions** in the current content tree (publication flags validated by CI).
 - **2 extra unpublished introductory drafts** (en and vi), intentionally excluded because they duplicate the About page.
-- **1,406 Markdown files** in `src/content/posts/` at the time of this audit.
+- **1,424 Markdown files** in `src/content/posts/` at the time of this audit.
 - Each group shares a `translationKey`; every edition has its own globally unique slug.
 
 Selected published families (not an exhaustive index):
 
 | Theme | Article families |
 | --- | --- |
-| Life and practice | Temptation bundling; Failure is not identity; Fasting and arterial plaque (preclinical evidence); Five minutes of optimism; Seven games for child-led play (Dutch-inspired); Perfect Days; The Dig; ChatGPT and 90 days smoke-free; I want to read Proust; What is minimalism? (2022 archive); Time with children (2022 archive); HowToLiveBetter; Close the Loop; The Only Person |
+| Life and practice | Life is not a dress rehearsal (Sam Altman); Temptation bundling; Failure is not identity; Fasting and arterial plaque (preclinical evidence); Five minutes of optimism; Seven games for child-led play (Dutch-inspired); Perfect Days; The Dig; ChatGPT and 90 days smoke-free; I want to read Proust; What is minimalism? (2022 archive); Time with children (2022 archive); HowToLiveBetter; Close the Loop; The Only Person |
 | Buddhist scholarship and practice | Hướng Đến Nhập Lưu; Pāli translation sources; Buddhist Textual Witnesses; The Buddha Never Said That |
 | Literature, memory, and culture | LitMundi; The Thread Seers; Saigon2Hanoi |
 | Technology and research | Build what people actually use (Max Torchbearer); Ask AI before automating; AGENTOWNERS; ClawPing; DBA ESG thesis; Open Problem Lab; OpenAMP Foundry; Subvox; The Framework That Forgot the Many; A Good List With No Dates |
@@ -108,6 +108,8 @@ A **full translation** preserves substantive arguments, examples, caveats, links
 The two 2022 archive families are attributed to their original authors, The Minimalists and Ginny Yurich. The 75% parenting-time statistic remains an unverified claim and is visibly qualified. Source text and authorship must not be silently replaced with first-person writing by the site owner.
 
 The November 2026 temptation-bundling essay cites Milkman et al. (2014) and Kirgios et al. (2020) as primary evidence, distinguishing initial gym attendance effects from durable habit claims. The companion reflection on failure and identity identifies “structural emotional neutralization” as an unvalidated phrase from an AI screenshot rather than a proven psychological technique. Its purported tenfold speed gain is explicitly unsupported. Both articles have 18 language editions with no claim of native-speaker review.
+
+The November 2026 essay `Life is not a dress rehearsal` links to Sam Altman's original 2015 personal blog post, *The Days Are Long but the Decades Are Short*, which confirms the screenshot quotation. The 18 language editions are original reflections, not verbatim translations of Altman's writing, and avoid treating productivity as the sole measure of a meaningful life.
 
 ## Checks
 
