@@ -57,6 +57,16 @@ for path in sorted(ROOT.rglob("*")):
             errors.append(f"{path}: archive authorship lost")
         if fields.get("sourceURL") != url or url not in body:
             errors.append(f"{path}: missing archive provenance")
+    if published and key == "temptation-bundling-2026":
+        if len(re.findall(r"(?m)^##\s+", body)) != 3:
+            errors.append(f"{path}: temptation bundling needs three sections")
+        if any(source not in body for source in ("10.1287/mnsc.2013.1784", "10.1016/j.obhdp.2020.09.003")):
+            errors.append(f"{path}: two primary research sources missing")
+    if published and key == "failure-is-not-identity-2026":
+        if len(re.findall(r"(?m)^##\s+", body)) != 2:
+            errors.append(f"{path}: identity essay needs two sections")
+        if "structural emotional neutralization" not in body:
+            errors.append(f"{path}: missing provenance and uncertainty about AI screenshot wording")
     if published and key == "build-what-people-use-2026":
         if len(re.findall(r"(?m)^##\s+", body)) != 3:
             errors.append(f"{path}: product demand essay must preserve its three arguments")
