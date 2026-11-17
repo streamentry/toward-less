@@ -3,7 +3,7 @@ title: "경계는 세우되 경멸하지 않기"
 description: "반복되는 갈등에서 자신을 보호하면서도 힘든 사람을 쉽게 버리지 않는 법."
 author: "C.S Chánh Niệm"
 lang: ko
-slug: gyeonggyeneun-se우되-gyeongmyeolhaji-anki
+slug: gyeonggyeneun-seude-gyeongmyeolhaji-anki
 translationKey: boundaries-without-contempt-2026
 pubDatetime: 2026-11-17T23:25:00+07:00
 draft: false
