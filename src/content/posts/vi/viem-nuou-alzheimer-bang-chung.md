@@ -24,9 +24,9 @@ Nguồn: [Dominy và cộng sự, *Science Advances* (2019)](https://doi.org/10.
 
 ## Bằng chứng đến năm 2026: có liên hệ, chưa có quan hệ nhân quả
 
-Một [tổng quan và phân tích gộp công bố năm 2026](https://pubmed.ncbi.nlm.nih.gov/42839061/) xem xét 13 nghiên cứu theo dõi theo thời gian; bốn nghiên cứu đủ điều kiện gộp dữ liệu cho kết quả: người mắc bệnh nha chu có **nguy cơ được chẩn đoán sa sút trí tuệ cao hơn tương đối khoảng 12%** (hazard ratio 1,12; khoảng tin cậy 95%: 1,01–1,24).
+Một [tổng quan và phân tích gộp công bố tháng 9/2026](https://pubmed.ncbi.nlm.nih.gov/42747062/) tổng hợp 59 nghiên cứu theo dõi, trong đó 28 nghiên cứu được đưa vào phân tích gộp nguy cơ sa sút trí tuệ hoặc suy giảm nhận thức nhẹ. Bệnh nha chu nặng liên quan với **nguy cơ tương đối cao hơn khoảng 16%** (hazard ratio 1,16; khoảng tin cậy 95%: 1,06–1,27). Bệnh nha chu không phân độ có ước lượng cao hơn nhưng kết quả giữa các nghiên cứu rất không đồng nhất. Chính nhóm tác giả lưu ý nhiều yếu tố nhiễu và sai lệch đo lường còn tồn tại.
 
-Đây là mức liên hệ khiêm tốn, **không phải tăng 12 điểm phần trăm nguy cơ tuyệt đối**. Bệnh lý mạch máu, hút thuốc, đái tháo đường, điều kiện chăm sóc sức khỏe và suy giảm khả năng tự vệ sinh răng miệng có thể đồng thời tác động lên cả hai phía. Sa sút trí tuệ cũng có thể khiến vệ sinh răng miệng kém đi — tức nhân quả đảo chiều.
+Đây là **liên hệ quan sát được, không phải tăng 16 điểm phần trăm nguy cơ tuyệt đối**. Bệnh lý mạch máu, hút thuốc, đái tháo đường, điều kiện chăm sóc sức khỏe và suy giảm khả năng tự vệ sinh răng miệng có thể đồng thời tác động lên cả hai phía. Sa sút trí tuệ cũng có thể khiến vệ sinh răng miệng kém đi — tức nhân quả đảo chiều.
 
 Một phép thử mạnh hơn đã cho kết quả không như kỳ vọng: thử nghiệm **GAIN** trên 643 người bệnh Alzheimer đánh giá thuốc **atuzaginstat**, chất ức chế gingipain. Năm 2021, thử nghiệm **không đạt hai tiêu chí chính** về nhận thức và chức năng trong toàn bộ nhóm. Có tín hiệu ở một phân nhóm, nhưng chưa đủ chứng minh hiệu quả điều trị; thuốc còn liên quan tăng men gan theo liều. [Báo cáo gửi SEC của công ty phát triển thuốc](https://www.sec.gov/Archives/edgar/data/1662774/000119312521307962/d212962d8k.htm).
 
