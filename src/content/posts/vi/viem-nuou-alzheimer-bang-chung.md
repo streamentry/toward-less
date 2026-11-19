@@ -5,7 +5,7 @@ lang: vi
 slug: viem-nuou-alzheimer-bang-chung
 translationKey: oral-health-alzheimer-evidence-2026
 pubDatetime: 2026-11-19T00:30:00+07:00
-draft: true
+draft: false
 featured: false
 tags: [life]
 ---
