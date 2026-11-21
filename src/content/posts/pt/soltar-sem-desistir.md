@@ -4,7 +4,7 @@ description: "Desapego não é indiferença; é cuidar sem exigir um resultado."
 lang: pt
 slug: soltar-sem-desistir
 translationKey: art-of-letting-go-without-giving-up-2026
-pubDatetime: 2026-11-22T09:00:00+07:00
+pubDatetime: 2026-11-21T22:00:00+07:00
 draft: false
 featured: false
 tags: [life, practice]
