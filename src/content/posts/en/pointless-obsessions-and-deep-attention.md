@@ -28,7 +28,7 @@ But an obsession is not equivalent to expertise. Time spent is not the same as t
 
 A [2014 meta-analysis](https://doi.org/10.1177/0956797614535810) found that deliberate practice explained some, but far from all, differences in performance: 26% of variance in games, 21% in music, 18% in sports, 4% in education and less than 1% in professions. These are differences *across people within the studied domains*, not the percentage of an individual's success caused by practice. The study did **not** test whether childhood hobbies predict founders' success.
 
-Research on [harmonious and obsessive passion](https://doi.org/10.1111/spc3.70162) also distinguishes flexible, self-endorsed engagement from rigid compulsion. The latter can conflict with other parts of life. An inability to stop is not automatically a superpower.
+Research on [harmonious and obsessive passion](https://doi.org/10.1037/1089-2680.7.4.323) also distinguishes flexible, self-endorsed engagement from rigid compulsion. The latter can conflict with other parts of life. An inability to stop is not automatically a superpower.
 
 There is another trap: **selection bias**. We hear about successful founders who once tracked every train. We hear less about equally obsessive people who did not build remarkable careers, or outstanding people without unusual childhood hobbies. A memorable pattern is not yet a strong predictor.
 
