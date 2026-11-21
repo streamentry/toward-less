@@ -28,7 +28,7 @@ Nhưng ám ảnh không đồng nghĩa với thành thạo. **Dành nhiều gi�
 
 Một [phân tích gộp năm 2014](https://doi.org/10.1177/0956797614535810) cho thấy luyện tập có chủ đích giải thích một phần, chứ không phải toàn bộ, khác biệt thành tích giữa người với người: khoảng 26% phương sai trong trò chơi, 21% âm nhạc, 18% thể thao, 4% giáo dục và dưới 1% trong các nghề nghiệp được nghiên cứu. Đây không phải tỷ lệ thành công của mỗi người do luyện tập tạo ra. Nghiên cứu này **không kiểm tra** xem sở thích kỳ lạ thời thơ ấu có dự báo thành công của founder hay không.
 
-Nghiên cứu về [đam mê hài hòa và đam mê ám ảnh](https://doi.org/10.1111/spc3.70162) còn phân biệt sự say mê linh hoạt, tự nguyện với trạng thái bị thôi thúc cứng nhắc, có thể xung đột với các phần khác của cuộc sống. Không thể tắt công việc không nhất thiết là siêu năng lực.
+Nghiên cứu về [đam mê hài hòa và đam mê ám ảnh](https://doi.org/10.1037/1089-2680.7.4.323) còn phân biệt sự say mê linh hoạt, tự nguyện với trạng thái bị thôi thúc cứng nhắc, có thể xung đột với các phần khác của cuộc sống. Không thể tắt công việc không nhất thiết là siêu năng lực.
 
 Một sai lệch dễ bỏ qua là **thiên lệch chọn mẫu**: ta nghe nhiều về nhà sáng lập thành công từng sưu tầm vé tàu, nhưng ít nghe về những người say mê không kém mà chẳng đạt thành tựu nổi bật, hoặc người giỏi không có sở thích khác thường. Một mẫu chuyện đáng nhớ chưa phải bằng chứng dự báo tốt.
 
