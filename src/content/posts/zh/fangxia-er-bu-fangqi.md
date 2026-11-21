@@ -4,7 +4,7 @@ description: "放下不是冷漠，而是在乎却不执著的日常练习。"
 lang: zh
 slug: fangxia-er-bu-fangqi
 translationKey: art-of-letting-go-without-giving-up-2026
-pubDatetime: 2026-11-22T09:00:00+07:00
+pubDatetime: 2026-11-21T22:00:00+07:00
 draft: false
 featured: false
 tags: [life, practice]
