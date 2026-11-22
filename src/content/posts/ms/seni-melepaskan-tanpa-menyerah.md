@@ -2,7 +2,7 @@
 title: "Seni Melepaskan Tanpa Berputus Asa"
 description: "Melepaskan bukan tidak peduli; ia bermaksud terus menjaga tanpa terikat pada hasil."
 lang: ms
-slug: seni-melepaskan-tanpa-menyerah
+slug: seni-melepaskan-tanpa-menyerah-ms
 translationKey: art-of-letting-go-without-giving-up-2026
 pubDatetime: 2026-11-21T22:00:00+07:00
 draft: false
