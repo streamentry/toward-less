@@ -2,7 +2,7 @@
 title: "Masalahnya bukan kegagalan, tetapi tidak belajar"
 description: "Ketabahan bermaksud kekal pada tujuan sambil mengubah cara apabila perlu."
 lang: ms
-slug: gagal-tanpa-belajar
+slug: gagal-tanpa-belajar-ms
 translationKey: failure-without-learning-2026
 pubDatetime: 2026-11-19T22:30:00+07:00
 draft: false
