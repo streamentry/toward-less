@@ -2,7 +2,7 @@
 title: "Nilai Tersembunyi Minat yang Nampak Tidak Berguna"
 description: "Minat mendalam zaman kanak-kanak mungkin mendedahkan tumpuan tinggi, tetapi bukan bukti kehebatan masa depan."
 lang: ms
-slug: obsesi-tanpa-tujuan
+slug: obsesi-tanpa-tujuan-ms
 translationKey: pointless-obsessions-deep-attention-2026
 pubDatetime: 2026-11-21T13:00:00+07:00
 draft: false
