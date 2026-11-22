@@ -2,7 +2,7 @@
 title: "AI는 과대평가와 과소평가를 동시에 받을 수 있다"
 description: "단기 수익 기대와 장기적인 사회 변화는 서로 다른 질문이다."
 lang: ko
-slug: ai-gwada-pyeongga-wa-gw소-pyeongga
+slug: ai-gwada-pyeongga-wa-gwada-pyeongga
 translationKey: ai-underhyped-and-overhyped-2026
 pubDatetime: 2026-11-22T08:00:00+07:00
 draft: false
