@@ -10,7 +10,7 @@ featured: false
 tags: [life]
 ---
 
-On 20 November 2026, mathematician Levent Alpöge announced that he and Claude had found a proof of the Riemann Hypothesis, a problem that has resisted mathematicians since 1859. He released a formal Lean development of roughly 17 million lines. Independent researchers have reported successful machine checks, including replays and checks of the theorem statements. The broader mathematical community is still working to understand and assess the argument.
+On 20 November 2026, mathematician Levent Alpöge [announced that he and Claude had found a proof of the Riemann Hypothesis](https://alpo.ge/remark.pdf), a problem that has resisted mathematicians since 1859. He released a formal Lean development of roughly 17 million lines. [Independent researchers have reported successful machine checks](https://www.math.uwaterloo.ca/~mrubinst/alpoge_claude_grh/), including replays and checks of the theorem statements. The broader mathematical community is still working to understand and assess the argument.
 
 This is not an ordinary benchmark result. If the proof withstands scrutiny, it will be a historic example of human–AI mathematical discovery.
 
@@ -54,6 +54,6 @@ At the personal level, do not confuse having access to a powerful model with und
 
 ## Sources
 
-- [Levent Alpöge and Claude: claimed proof and research context](https://www.nature.com/articles/d41586-026-03812-7)
+- [Levent Alpöge: original announcement, 20 November 2026](https://alpo.ge/remark.pdf)
 - [Independent Lean verification, Michael Rubinstein (University of Waterloo)](https://www.math.uwaterloo.ca/~mrubinst/alpoge_claude_grh/)
-- [Independent status and verification summary, 22 November 2026](https://cairn-commons.com/guides/riemann-hypothesis-proof-claim-november-2026)
+- [Independent verification files, Andrew Sutherland (MIT)](https://math.mit.edu/~drew/grh/)

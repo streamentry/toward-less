@@ -3,7 +3,7 @@ title: "जब बुद्धिमत्ता समझ से आगे न�
 description: "AI का खतरा केवल शक्ति नहीं, समझने और नियंत्रित करने की मानवीय क्षमता खोना भी है।"
 lang: hi
 slug: when-intelligence-outruns-understanding-hi
-translationKey: when-intelligence-outruns-understanding-2026
+translationKey: harari-when-intelligence-outruns-understanding-2026
 pubDatetime: 2026-11-23T20:20:00+07:00
 draft: false
 featured: false

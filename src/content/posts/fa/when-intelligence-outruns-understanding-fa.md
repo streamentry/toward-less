@@ -3,7 +3,7 @@ title: "وقتی هوش از فهم پیشی می‌گیرد"
 description: "خطر هوش مصنوعی صرفاً پیچیدگی نیست، بلکه از دست دادن توان فهم و مهار سامانه‌هاست."
 lang: fa
 slug: when-intelligence-outruns-understanding-fa
-translationKey: when-intelligence-outruns-understanding-2026
+translationKey: harari-when-intelligence-outruns-understanding-2026
 pubDatetime: 2026-11-23T20:20:00+07:00
 draft: false
 featured: false

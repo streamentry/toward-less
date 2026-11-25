@@ -3,7 +3,7 @@ title: "عندما يتجاوز الذكاء قدرتنا على الفهم"
 description: "الخطر ليس التعقيد وحده، بل فقدان القدرة البشرية على الفهم والمساءلة والتحكم."
 lang: ar
 slug: when-intelligence-outruns-understanding-ar
-translationKey: when-intelligence-outruns-understanding-2026
+translationKey: harari-when-intelligence-outruns-understanding-2026
 pubDatetime: 2026-11-23T20:20:00+07:00
 draft: false
 featured: false

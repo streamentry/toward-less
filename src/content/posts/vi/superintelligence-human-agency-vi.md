@@ -10,7 +10,7 @@ featured: false
 tags: [life]
 ---
 
-Ngày 20/11/2026, nhà toán học Levent Alpöge thông báo rằng ông và Claude đã tìm ra chứng minh Giả thuyết Riemann, bài toán tồn tại từ năm 1859. Ông công bố khoảng 17 triệu dòng mã Lean để kiểm chứng hình thức. Các nhóm độc lập báo cáo đã chạy thành công những bước kiểm tra quan trọng, gồm kiểm tra phát biểu định lý và tái kiểm chứng. Giới toán học vẫn đang tìm cách hiểu đầy đủ lập luận.
+Ngày 20/11/2026, nhà toán học Levent Alpöge [thông báo rằng ông và Claude đã tìm ra chứng minh Giả thuyết Riemann](https://alpo.ge/remark.pdf), bài toán tồn tại từ năm 1859. Ông công bố khoảng 17 triệu dòng mã Lean để kiểm chứng hình thức. [Các nhóm độc lập báo cáo đã chạy thành công những bước kiểm tra quan trọng](https://www.math.uwaterloo.ca/~mrubinst/alpoge_claude_grh/), gồm kiểm tra phát biểu định lý và tái kiểm chứng. Giới toán học vẫn đang tìm cách hiểu đầy đủ lập luận.
 
 Nếu chứng minh đứng vững, đây sẽ là cột mốc lịch sử của nghiên cứu toán học có AI hỗ trợ.
 
@@ -52,8 +52,8 @@ Với mỗi cá nhân, đừng nhầm khả năng nhận câu trả lời từ A
 
 *Đến ngày 23/11/2026, đã có báo cáo kiểm chứng hình thức độc lập; quá trình đánh giá toán học và xây dựng lời giải thích cho con người vẫn tiếp tục.*
 
-## Sources
+## Nguồn
 
-- [Levent Alpöge and Claude: claimed proof and research context](https://www.nature.com/articles/d41586-026-03812-7)
-- [Independent Lean verification, Michael Rubinstein (University of Waterloo)](https://www.math.uwaterloo.ca/~mrubinst/alpoge_claude_grh/)
-- [Independent status and verification summary, 22 November 2026](https://cairn-commons.com/guides/riemann-hypothesis-proof-claim-november-2026)
+- [Levent Alpöge: thông báo gốc ngày 20/11/2026](https://alpo.ge/remark.pdf)
+- [Kiểm chứng Lean độc lập của Michael Rubinstein, Đại học Waterloo](https://www.math.uwaterloo.ca/~mrubinst/alpoge_claude_grh/)
+- [Tệp kiểm chứng độc lập của Andrew Sutherland, MIT](https://math.mit.edu/~drew/grh/)

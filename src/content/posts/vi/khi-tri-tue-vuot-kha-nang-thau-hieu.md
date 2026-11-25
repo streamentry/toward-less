@@ -3,7 +3,7 @@ title: "Khi trí tuệ nhân tạo vượt quá khả năng thấu hiểu"
 description: "Rủi ro lớn của AI có thể là một thế giới vẫn vận hành nhưng con người không còn đủ khả năng hiểu và kiểm soát nó."
 lang: vi
 slug: khi-tri-tue-vuot-kha-nang-thau-hieu
-translationKey: when-intelligence-outruns-understanding-2026
+translationKey: harari-when-intelligence-outruns-understanding-2026
 pubDatetime: 2026-11-23T20:20:00+07:00
 draft: false
 featured: false

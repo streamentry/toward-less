@@ -3,7 +3,7 @@ title: "เมื่อความฉลาดก้าวเลยความ
 description: "ความเสี่ยงของ AI คือมนุษย์อาจสูญเสียความสามารถในการเข้าใจและควบคุมระบบสำคัญ"
 lang: th
 slug: when-intelligence-outruns-understanding-th
-translationKey: when-intelligence-outruns-understanding-2026
+translationKey: harari-when-intelligence-outruns-understanding-2026
 pubDatetime: 2026-11-23T20:20:00+07:00
 draft: false
 featured: false

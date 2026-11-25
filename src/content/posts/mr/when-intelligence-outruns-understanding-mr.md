@@ -3,7 +3,7 @@ title: "बुद्धिमत्ता समजेपलीकडे गे�
 description: "AI चा धोका केवळ गुंतागुंत नाही; मानवी समज आणि नियंत्रण हरवणे आहे."
 lang: mr
 slug: when-intelligence-outruns-understanding-mr
-translationKey: when-intelligence-outruns-understanding-2026
+translationKey: harari-when-intelligence-outruns-understanding-2026
 pubDatetime: 2026-11-23T20:20:00+07:00
 draft: false
 featured: false

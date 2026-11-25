@@ -3,7 +3,7 @@ title: "Quando a inteligência supera a compreensão"
 description: "O perigo institucional da IA é perder a capacidade de compreender, contestar e governar sistemas."
 lang: pt
 slug: when-intelligence-outruns-understanding-pt
-translationKey: when-intelligence-outruns-understanding-2026
+translationKey: harari-when-intelligence-outruns-understanding-2026
 pubDatetime: 2026-11-23T20:20:00+07:00
 draft: false
 featured: false

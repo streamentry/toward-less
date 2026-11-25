@@ -3,7 +3,7 @@ title: "Quand l'intelligence dépasse notre compréhension"
 description: "Le risque est de perdre notre capacité à comprendre, contester et gouverner les systèmes."
 lang: fr
 slug: when-intelligence-outruns-understanding-fr
-translationKey: when-intelligence-outruns-understanding-2026
+translationKey: harari-when-intelligence-outruns-understanding-2026
 pubDatetime: 2026-11-23T20:20:00+07:00
 draft: false
 featured: false

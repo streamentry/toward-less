@@ -1,14 +1,17 @@
 // Render a temporary MDX article into isolated output, never the deployable dist.
 /* eslint-disable no-console -- smoke test reports its result to the invoking process. */
-import { existsSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
-import { tmpdir } from "node:os";
+import { existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { spawnSync } from "node:child_process";
 import assert from "node:assert/strict";
 
 const fixture = "src/content/posts/en/qa-mdx-smoke.mdx";
 assert(!existsSync(fixture), `Refusing to overwrite ${fixture}`);
-const output = mkdtempSync(join(tmpdir(), "toward-less-mdx-"));
+// Astro moves prerendered assets with rename(), so output must share the
+// project's filesystem. The system temporary directory can be another mount.
+const cache = join(process.cwd(), ".astro");
+mkdirSync(cache, { recursive: true });
+const output = mkdtempSync(join(cache, "mdx-check-"));
 let created = false;
 try {
   writeFileSync(fixture, `---

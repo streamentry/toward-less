@@ -3,7 +3,7 @@ title: "যখন বুদ্ধিমত্তা আমাদের বোঝ
 description: "AI-এর ঝুঁকি শুধু জটিলতা নয়, সিদ্ধান্ত বুঝতে ও নিয়ন্ত্রণ করতে না পারা।"
 lang: bn
 slug: when-intelligence-outruns-understanding-bn
-translationKey: when-intelligence-outruns-understanding-2026
+translationKey: harari-when-intelligence-outruns-understanding-2026
 pubDatetime: 2026-11-23T20:20:00+07:00
 draft: false
 featured: false

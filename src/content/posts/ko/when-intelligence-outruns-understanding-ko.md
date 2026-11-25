@@ -3,7 +3,7 @@ title: "지능이 이해를 앞지를 때"
 description: "AI가 중요 시스템을 이해하고 통제하는 인간의 능력을 약화시킬 위험."
 lang: ko
 slug: when-intelligence-outruns-understanding-ko
-translationKey: when-intelligence-outruns-understanding-2026
+translationKey: harari-when-intelligence-outruns-understanding-2026
 pubDatetime: 2026-11-23T20:20:00+07:00
 draft: false
 featured: false

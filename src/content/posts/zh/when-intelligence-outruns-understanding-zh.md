@@ -3,7 +3,7 @@ title: "当人工智能超越人类的理解能力"
 description: "真正的风险不是机器复杂，而是人类失去理解、质疑和治理系统的能力。"
 lang: zh
 slug: when-intelligence-outruns-understanding-zh
-translationKey: when-intelligence-outruns-understanding-2026
+translationKey: harari-when-intelligence-outruns-understanding-2026
 pubDatetime: 2026-11-23T20:20:00+07:00
 draft: false
 featured: false

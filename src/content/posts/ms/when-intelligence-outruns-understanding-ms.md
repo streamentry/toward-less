@@ -3,7 +3,7 @@ title: "Apabila kecerdasan mengatasi kefahaman"
 description: "AI boleh menyebabkan manusia hilang keupayaan memahami dan mengawal sistem penting."
 lang: ms
 slug: when-intelligence-outruns-understanding-ms
-translationKey: when-intelligence-outruns-understanding-2026
+translationKey: harari-when-intelligence-outruns-understanding-2026
 pubDatetime: 2026-11-23T20:20:00+07:00
 draft: false
 featured: false

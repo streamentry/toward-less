@@ -3,7 +3,7 @@ title: "جب ذہانت سمجھ سے آگے نکل جائے"
 description: "AI کا خطرہ انسان کی سمجھنے اور نظاموں کو قابو رکھنے کی قوت کھونا بھی ہے۔"
 lang: ur
 slug: when-intelligence-outruns-understanding-ur
-translationKey: when-intelligence-outruns-understanding-2026
+translationKey: harari-when-intelligence-outruns-understanding-2026
 pubDatetime: 2026-11-23T20:20:00+07:00
 draft: false
 featured: false

@@ -3,7 +3,7 @@ title: "Когда интеллект опережает понимание"
 description: "Риск ИИ — не просто сложность, а утрата людьми способности понимать, проверять и контролировать системы."
 lang: ru
 slug: when-intelligence-outruns-understanding-ru
-translationKey: when-intelligence-outruns-understanding-2026
+translationKey: harari-when-intelligence-outruns-understanding-2026
 pubDatetime: 2026-11-23T20:20:00+07:00
 draft: false
 featured: false

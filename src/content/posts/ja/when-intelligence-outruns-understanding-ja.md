@@ -3,7 +3,7 @@ title: "知能が理解を追い越すとき"
 description: "AIの危険は、人間が重要な制度を理解し統治できなくなることだ。"
 lang: ja
 slug: when-intelligence-outruns-understanding-ja
-translationKey: when-intelligence-outruns-understanding-2026
+translationKey: harari-when-intelligence-outruns-understanding-2026
 pubDatetime: 2026-11-23T20:20:00+07:00
 draft: false
 featured: false
